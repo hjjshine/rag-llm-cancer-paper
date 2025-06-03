@@ -24,10 +24,44 @@ We present a context-augmented LLM pipeline that:
 ## Reproducing Results
 
 For reproducing the results, please clone the repository:
-
-git clone https://github.com/yourusername/rag-llm-cancer-paper.git  
+```console
+git clone https://github.com/hjjshine/rag-llm-cancer-paper.git  
 cd rag-llm-cancer-paper  
 pip install -r requirements.txt  
+```
+
+### Pipeline Usage Examples
+#### Run LLM-only   
+```console
+~/rag-llm-cancer-paper$ python main.py \
+--mode=llm \
+--csv_path=data/moa_fda_queries_answers.csv \
+--model_type=mistral \
+--model_api=open-mistral-nemo-2407 \
+--strategy=0 \
+--num_iter=1 \
+--output_dir=output/LLM_res_mistnemo \
+--temp=0.0 \
+--random_seed=2025
+```
+    
+#### Run RAG-LLM
+```console
+~/rag-llm-cancer-paper$ python main.py \
+--mode=rag-llm \
+--csv_path=data/moa_fda_queries_answers.csv \
+--model_type=mistral \
+--model_api=open-mistral-nemo-2407 \
+--strategy=0 \
+--context_chunks=data/structured_context_chunks.json \
+--num_iter=1 \
+--output_dir=output/RAG_res_mistnemo \
+--temp=0.0 \
+--random_seed=2025 
+```
+
+    
+
 
 
 
