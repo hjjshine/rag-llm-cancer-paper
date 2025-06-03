@@ -29,20 +29,34 @@ git clone https://github.com/yourusername/rag-llm-cancer-paper.git
 cd rag-llm-cancer-paper  
 pip install -r requirements.txt  
 
-## Running Pipeline Examples
-# Run LLM-only 
-python3 run_LLM.py \
-    -csv_path=output/moa_fda_queries_answers.csv \
-    -model_type='mistral' \ 
-    -model_api='ministral-8b-2410' \ 
-    -strategy=0 \ 
-    -num_iter=1 \ 
-    -output_dir=output/LLM_res_mist8B \ 
-    -temp=0.0 \ 
-    -random_seed=2025
+### Pipeline Usage Examples
+#### Run LLM-only   
+python main.py \
+--mode=llm \
+--csv_path=data/moa_fda_queries_answers.csv \
+--model_type=mistral \
+--model_api=open-mistral-nemo-2407 \
+--strategy=0 \
+--num_iter=1 \
+--output_dir=output/LLM_res_mistnemo \
+--temp=0.0 \
+--random_seed=2025 
+    
+#### Run RAG-LLM
+python main.py \
+--mode=rag-llm \
+--csv_path=data/moa_fda_queries_answers.csv \
+--model_type=mistral \
+--model_api=open-mistral-nemo-2407 \
+--strategy=0 \
+--context_chunks=data/structured_context_chunks.json \
+--num_iter=1 \
+--output_dir=output/RAG_res_mistnemo \
+--temp=0.0 \
+--random_seed=2025 
 
-# Run RAG-LLM
 
+    
 
 
 
