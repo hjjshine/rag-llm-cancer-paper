@@ -1,0 +1,11 @@
+faiss_cpu==1.8.0.post1
+faiss_gpu==1.7.2
+mistral_inference==1.6.0
+mistralai==1.8.1
+numpy==1.25.2
+openai==1.83.0
+pandas==2.0.3
+python-dotenv==1.1.0
+scikit_learn==1.4.2
+torch==2.2.0
+transformers==4.42.0

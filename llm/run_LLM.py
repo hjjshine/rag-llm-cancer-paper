@@ -64,24 +64,8 @@ def run_iterations(num_iterations, data, strategy, CLIENT, model_type, model, ma
     return(output_ls, input_ls, runtime_ls)
 
 
-# ================== ARGUMENT PARSER ==================
-def parse_args():
-    parser = argparse.ArgumentParser()
-    parser.add_argument('-csv_path', type=str) # Required. Please set the path to the MOAlamanc dataset
-    parser.add_argument('-model_type', type=str) # Required (please choose from 'mistral','gpt', or 'mistral-7b')
-    parser.add_argument('-model_api', type=str, default=None) # Required if using APIs
-    parser.add_argument('-strategy', type=int, default=0) # Required (please choose from 0, 1, 2, 3)
-    parser.add_argument('-num_iter', type=int, default=1)
-    parser.add_argument('-random_seed', type=int, default=None) # Optional
-    parser.add_argument('-output_dir', type=str) # Required. Please set your output directory name
-    parser.add_argument('-temp', type=float, default=0.0) # Optional
-    return parser.parse_args()
-    
-
 # ================== MAIN ==================
-def main():
-    
-    args = parse_args()
+def main(args):
     
     print("CSV path: "+args.csv_path)
     print("Model type: "+args.model_type)
@@ -161,50 +145,3 @@ def main():
 if __name__ == '__main__':
     main()
     
-
-
-
-
-
-
-
-    
-
-
-#### Have run the following on the command line
-#### mistral 7B
-## FINAL:
-# python3 run_LLM_iterations.py -csv_path=/home/helenajun/MOA_LLM/output/moa_FDA_df_URLupdated_prompt_answer.csv -model_type='mistral-7b' -api_key=hw3ZBWZ18AEATjjC92glKhBUfjkrGznq -strategy=0 -num_iter=1 -output_dir=/home/helenajun/MOA_LLM/output/LLM_res_mist7B -temp=0.0 -random_seed=2025 >& /home/helenajun/MOA_LLM/output/logs/RAG_res_mist7B_stra0_log.txt
-# python3 run_LLM_iterations.py -csv_path=/home/helenajun/MOA_LLM/output/moa_FDA_df_URLupdated_prompt_answer.csv -model_type='mistral-7b' -api_key=hw3ZBWZ18AEATjjC92glKhBUfjkrGznq -strategy=3 -num_iter=1 -output_dir=/home/helenajun/MOA_LLM/output/LLM_res_mist7B -temp=0.0 -random_seed=2025 >& /home/helenajun/MOA_LLM/output/logs/LLM_res_mist7B_stra3_log.txt
-
-
-#### mistral 8B
-## FINAL:
-# python3 run_LLM_iterations.py -csv_path=/home/helenajun/MOA_LLM/output/moa_FDA_df_URLupdated_prompt_answer.csv -model_type='mistral' -model_api='ministral-8b-2410' -api_key=hw3ZBWZ18AEATjjC92glKhBUfjkrGznq -strategy=0 -num_iter=1 -output_dir=/home/helenajun/MOA_LLM/output/LLM_res_mist8B -temp=0.0 -random_seed=2025 >& /home/helenajun/MOA_LLM/output/logs/LLM_res_mist8B_stra0_log.txt
-# python3 run_LLM_iterations.py -csv_path=/home/helenajun/MOA_LLM/output/moa_FDA_df_URLupdated_prompt_answer.csv -model_type='mistral' -model_api='ministral-8b-2410' -api_key=hw3ZBWZ18AEATjjC92glKhBUfjkrGznq -strategy=3 -num_iter=1 -output_dir=/home/helenajun/MOA_LLM/output/LLM_res_mist8B -temp=0.0 -random_seed=2025 >& /home/helenajun/MOA_LLM/output/logs/LLM_res_mist8B_stra3_log.txt
-## FINAL TEST:
-# python3 run_LLM_iterations_vf.py -csv_path=/home/helenajun/MOA_LLM/output/moa_FDA_df_URLupdated_prompt_answer_toy.csv -model_type='mistral' -model_api='ministral-8b-2410' -strategy=0 -num_iter=1 -output_dir=/home/helenajun/MOA_LLM/output/LLM_res_mist8B_test -temp=0.0 -random_seed=2025 >& /home/helenajun/MOA_LLM/output/logs/LLM_res_mist8B_stra0_test_log.txt
-
-
-
-#### mistral nemo API (24.07 version)
-## FINAL:
-# python3 run_LLM_iterations.py -csv_path=/home/helenajun/MOA_LLM/output/moa_FDA_df_URLupdated_prompt_answer.csv -model_type='mistral' -model_api='open-mistral-nemo-2407' -api_key=hw3ZBWZ18AEATjjC92glKhBUfjkrGznq -strategy=0 -num_iter=1 -output_dir=/home/helenajun/MOA_LLM/output/LLM_res_mistnemo/final -temp=0.0 -random_seed=2025 >& /home/helenajun/MOA_LLM/output/logs/LLM_res_mistnemo_stra0_log.txt 
-
-
-#### mistral large API
-## FINAL:
-# python3 run_LLM_iterations.py -csv_path=/home/helenajun/MOA_LLM/output/moa_FDA_df_URLupdated_prompt_answer.csv -model_type='mistral' -model_api='mistral-large-2407' -api_key=hw3ZBWZ18AEATjjC92glKhBUfjkrGznq -strategy=0 -num_iter=1 -output_dir=/home/helenajun/MOA_LLM/output/LLM_res_mistlarge -temp=0.0 -random_seed=2025 >& /home/helenajun/MOA_LLM/output/logs/LLM_res_mistlarge_stra0_log.txt
-# python3 run_LLM_iterations.py -csv_path=/home/helenajun/MOA_LLM/output/moa_FDA_df_URLupdated_prompt_answer.csv -model_type='mistral' -model_api='mistral-large-2407' -api_key=hw3ZBWZ18AEATjjC92glKhBUfjkrGznq -strategy=3 -num_iter=1 -output_dir=/home/helenajun/MOA_LLM/output/LLM_res_mistlarge -temp=0.0 -random_seed=2025 >& /home/helenajun/MOA_LLM/output/logs/LLM_res_mistlarge_stra3_log.txt
-
-
-#### gpt mini API
-## FINAL:
-# python3 run_LLM_iterations.py -csv_path=/home/helenajun/MOA_LLM/output/moa_FDA_df_URLupdated_prompt_answer.csv -model_type='gpt' -model_api='gpt-4o-mini-2024-07-18' -api_key=sk-svcacct-SL0bk5DaIBr6MEwaXHHLT3BlbkFJcXzQ5dZHburElE9DtGn1 -strategy=0 -num_iter=1 -res_name=LLM_res_gptmini -temp=0.0 -random_seed=2025 >& /home/helenajun/MOA_LLM/output/logs/LLM_res_gptmini_stra0_log.txt
-# python3 run_LLM_iterations.py -csv_path=/home/helenajun/MOA_LLM/output/moa_FDA_df_URLupdated_prompt_answer.csv -model_type='gpt' -model_api='gpt-4o-mini-2024-07-18' -api_key=sk-svcacct-SL0bk5DaIBr6MEwaXHHLT3BlbkFJcXzQ5dZHburElE9DtGn1 -strategy=3 -num_iter=1 -res_name=LLM_res_gptmini -temp=0.0 -random_seed=2025 >& /home/helenajun/MOA_LLM/output/logs/LLM_res_gptmini_stra3_log.txt
-
-
-#### gpt large API
-## FINAL:
-# python3 run_LLM_iterations.py -csv_path=/home/helenajun/MOA_LLM/output/moa_FDA_df_URLupdated_prompt_answer.csv -model_type='gpt' -model_api='gpt-4o-2024-05-13' -api_key=sk-svcacct-SL0bk5DaIBr6MEwaXHHLT3BlbkFJcXzQ5dZHburElE9DtGn1 -strategy=0 -num_iter=1 -res_name=LLM_res_gpt -temp=0.0 -random_seed=2025 >& /home/helenajun/MOA_LLM/output/logs/LLM_res_gpt_stra0_log.txt
-# python3 run_LLM_iterations.py -csv_path=/home/helenajun/MOA_LLM/output/moa_FDA_df_URLupdated_prompt_answer.csv -model_type='gpt' -model_api='gpt-4o-2024-05-13' -api_key=sk-svcacct-SL0bk5DaIBr6MEwaXHHLT3BlbkFJcXzQ5dZHburElE9DtGn1 -strategy=3 -num_iter=1 -res_name=LLM_res_gpt -temp=0.0 -random_seed=2025 >& /home/helenajun/MOA_LLM/output/logs/LLM_res_gpt_stra3_log.txt
