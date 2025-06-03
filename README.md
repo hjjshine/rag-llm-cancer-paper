@@ -31,7 +31,8 @@ pip install -r requirements.txt
 
 ### Pipeline Usage Examples
 #### Run LLM-only   
-python main.py \
+```console
+~/rag-llm-cancer-paper$ python main.py \
 --mode=llm \
 --csv_path=data/moa_fda_queries_answers.csv \
 --model_type=mistral \
@@ -40,10 +41,12 @@ python main.py \
 --num_iter=1 \
 --output_dir=output/LLM_res_mistnemo \
 --temp=0.0 \
---random_seed=2025 
+--random_seed=2025
+```
     
 #### Run RAG-LLM
-python main.py \
+```console
+~/rag-llm-cancer-paper$ python main.py \
 --mode=rag-llm \
 --csv_path=data/moa_fda_queries_answers.csv \
 --model_type=mistral \
@@ -54,7 +57,7 @@ python main.py \
 --output_dir=output/RAG_res_mistnemo \
 --temp=0.0 \
 --random_seed=2025 
-
+```
 
     
 
