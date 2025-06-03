@@ -25,8 +25,9 @@ We present a context-augmented LLM pipeline that:
 
 For reproducing the results, please clone the repository:
 
-git clone https://github.com/yourusername/rag-llm-cancer-paper.git
-cd rag-llm-cancer-paper
-pip install -r requirements.txt
+git clone https://github.com/yourusername/rag-llm-cancer-paper.git  
+cd rag-llm-cancer-paper  
+pip install -r requirements.txt  
+
 
 
