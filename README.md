@@ -24,10 +24,11 @@ We present a context-augmented LLM pipeline that:
 ## Reproducing Results
 
 For reproducing the results, please clone the repository:
-
+```console
 git clone https://github.com/yourusername/rag-llm-cancer-paper.git  
 cd rag-llm-cancer-paper  
 pip install -r requirements.txt  
+```
 
 ### Pipeline Usage Examples
 #### Run LLM-only   
