@@ -60,6 +60,11 @@ pip install -r requirements.txt
 --random_seed=2025 
 ```
 
+## Related Paper
+If you're interested, check out our preprint:
+https://www.medrxiv.org/content/10.1101/2025.05.09.25327312v1
+
+
     
 
 

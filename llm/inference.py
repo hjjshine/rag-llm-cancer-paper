@@ -13,7 +13,7 @@ def run_llm(
     random_seed
     ) -> Tuple[Optional[str], str]:
     """
-    Generate an LLM response from a given prompt and strategy.
+    Generate an LLM response from a given prompt and parameters.
     
     Arguments:
         input_prompt (str): Input prompt with user-specified query and context if applicable.
@@ -30,7 +30,6 @@ def run_llm(
     
     """
 
-    ### LLM inference by model type
     try:
         if model_type == 'mistral':    
             completion = CLIENT.chat(
@@ -44,13 +43,14 @@ def run_llm(
             output = completion.choices[0].message.content
             
         elif model_type == 'gpt':
-            completion = CLIENT.chat.completions.create(model=model,
-                                                        messages=[{"role": "user", "content": input_prompt}],
-                                                        temperature=temp,
-                                                        max_tokens=max_len,
-                                                        seed=random_seed,
-                                                        response_format={"type": "json_object"}
-                                                        )
+            completion = CLIENT.chat.completions.create(
+                model=model,
+                messages=[{"role": "user", "content": input_prompt}],
+                temperature=temp,
+                max_tokens=max_len,
+                seed=random_seed,
+                response_format={"type": "json_object"}
+                )
             output = completion.choices[0].message.content
         
         elif model_type == "mistral-7b":
