@@ -1,4 +1,0 @@
-.gitignore
-.env
-analysis/real_supp_df.csv
-analysis/generate_figures.ipynb
