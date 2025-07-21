@@ -14,12 +14,12 @@ We present a context-augmented LLM pipeline that:
 - Achieved significant increase in accuracy over LLM-only approach.
 
 
-| Model       | Accuracy               | Context       | Queries    |
-|-------------|------------------------|---------------|------------|
-| LLM-only    | 54–69%                 | None          | Synthetic  |
-| RAG-LLM     | **73–85%**             | Unstructured  | Synthetic  |
-| RAG-LLM     | **91–99%**             | Structured    | Synthetic  |
-| RAG-LLM     | **75–94%**             | Structured    | Real-world |
+| Model       | Accuracy               | Precision     |Context        | Queries    |
+|-------------|------------------------|---------------|---------------|------------|
+| LLM-only    | 54–69%                 | 36%           | None          | Synthetic  |
+| RAG-LLM     | **73–85%**             | 49%           | Unstructured  | Synthetic  |
+| RAG-LLM     | **91–99%**             | 80%           | Structured    | Synthetic  |
+| RAG-LLM     | **75–94%**             | 95%           | Structured    | Real-world |
 
 ## Reproducing Results
 
