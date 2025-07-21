@@ -36,6 +36,7 @@ def run_llm_on_prompts(n_iter, data, strategy, CLIENT, model_type, model, max_le
         output, input_prompt = run_llm(input_prompt, CLIENT, model_type, model, max_len, temp, random_seed)
         output_test_ls.append(output)
         input_prompt_ls.append(input_prompt)
+        time.sleep(0.3)
     
     return(output_test_ls, input_prompt_ls)
 
@@ -102,7 +103,7 @@ def main(args):
             raise ValueError("Missing API key. Please set MISTRAL_API_KEY in your .env file.")
         CLIENT=MistralClient(api_key=api_key)
         
-    elif args.model_type == 'gpt':
+    elif args.model_type in ['gpt', 'gpt_reasoning']:
         model = args.model_api #this could be gpt-4o-2024-05-13, gpt-4o-mini-2024-07-18, etc.
         api_key = os.getenv("OPENAI_API_KEY")
         if not api_key:
@@ -123,7 +124,7 @@ def main(args):
         CLIENT=CLIENT, 
         model_type=args.model_type, 
         model=model, 
-        max_len=2048, 
+        max_len=args.max_len, 
         temp=args.temp, 
         random_seed=args.random_seed
         )

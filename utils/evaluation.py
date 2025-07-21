@@ -32,6 +32,11 @@ def extract_drug_names(drug_lines):
             cleaned_drug_list.append(set(drugs))
     return(cleaned_drug_list)
 
+# Function to check if the model explicitly says there are no FDA-approved drugs.
+def is_no_drug_output(output: str) -> bool:
+    no_drug_phrases = ["no fda-approved drugs", "none", "no approved therapies", "no therapies available"]
+    return any(phrase in output.lower() for phrase in no_drug_phrases)
+
 # Function to evaluate predicted drugs from synthetic queries
 def calc_eval_metrics(
     output_test_ls: list[str], 
@@ -58,8 +63,11 @@ def calc_eval_metrics(
         s_split=output.split("\n") # Split each line
         drug_lines=[line.lower() for line in s_split if "Drug Name" in line] # Extract relevant lines
         
-        # Create a set of predicted individual drugs
-        pred_drugs_names_set = extract_drug_names(drug_lines)
+        # If the model explicitly returned "none" or "no fda-approved drugs", treat it as empty
+        if any(is_no_drug_output(drug) for drug in drug_lines):
+            pred_drugs_names_set = set()
+        else:
+            pred_drugs_names_set = extract_drug_names(drug_lines) # Create a set of predicted individual drugs
         
         # Convert brand names to generic names if there are matching brand names, otherwise just append
         pred_drugs_generic_list=[]

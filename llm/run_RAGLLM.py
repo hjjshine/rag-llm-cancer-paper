@@ -49,8 +49,8 @@ def run_RAG(
         CLIENT (object): Initialized LLM API client.
         num_vec (int): Number of vectors to retrieve.
         model_type (str): One of ['mistral','gpt','mistral-7b']
-        model (str): API name (e.g. ministral-8b-2410, open-mistral-nemo-2407, gpt-4o-2024-05-13).
-        max_len (int): Maximum number of tokens to generate.
+        model (str): API name (e.g. ministral-8b-2410, open-mistral-nemo-2407, gpt-4o-2024-05-13, o4-mini-2025-04-16)
+        max_len (int): Maximum number of tokens generated.
         temp (float): Sampling temperature (0.0 for deterministic).
         random_seed (int): Seed for reproducibility.
         
@@ -87,6 +87,7 @@ def run_ragllm_on_prompts(n_iter, data, strategy, context_chunks, index, CLIENT,
         output, input_prompt = run_RAG(context_chunks, prompt_chunk, strategy, index, CLIENT, num_vec, model_type, model, model_embed, max_len, temp, random_seed)
         output_test_ls.append(output)
         input_prompt_ls.append(input_prompt)
+        time.sleep(0.3)
     
     return(output_test_ls, input_prompt_ls)
 
@@ -152,7 +153,7 @@ def main(args):
             raise ValueError("Missing API key. Please set MISTRAL_API_KEY in your .env file.")
         CLIENT=MistralClient(api_key=api_key)
         
-    elif args.model_type == 'gpt':
+    elif args.model_type in ['gpt', 'gpt_reasoning']:
         model = args.model_api #this could be gpt-4o-2024-05-13, gpt-4o-mini-2024-07-18, etc.
         model_embed = 'text-embedding-3-small'
         api_key = os.getenv("OPENAI_API_KEY")
@@ -184,7 +185,7 @@ def main(args):
         model_type=args.model_type, 
         model=model, 
         model_embed=model_embed, 
-        max_len=2048, 
+        max_len=args.max_len, 
         temp=args.temp, 
         random_seed=args.random_seed
         )
