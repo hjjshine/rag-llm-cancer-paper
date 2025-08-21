@@ -1,7 +1,7 @@
 # llm/inference.py
 from typing import Optional, Tuple
 from mistralai.models.chat_completion import ChatMessage
-from mistral_inference.generate import generate
+#from mistral_inference.generate import generate
 import random
 import time
 import openai
