@@ -1,0 +1,20 @@
+Patient ID: P-0000155
+Age: 78
+Gender: Female
+Sample ID: P-0000155-T01-IM3
+Gene Panel: IMPACT341
+Cancer Type: Breast Invasive Cancer, NOS
+Sample Type: Metastasis
+Tumor Purity: 60.0%
+=============
+DNA Variants:
+CDH1 c.1397_1398delTC (p.L466Hfs*16) - in 52.0% of 296 reads
+MAP3K1 c.1086G>A (p.M362I) - in 21.0% of 435 reads
+MAP3K1 c.910delA (p.T304Qfs*8) - in 43.0% of 409 reads
+MLL c.2303C>T (p.S768L) - in 49.0% of 183 reads
+PIK3CA c.3140A>G (p.H1047R) - in 43.0% of 236 reads
+PIK3CA c.1048G>A (p.D350N) - in 38.0% of 213 reads
+CNA Data:
+No CNA data found for the specified patient ID.
+Structural Variants:
+No structural variant data found for the specified patient ID.

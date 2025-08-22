@@ -1,0 +1,21 @@
+Patient ID: P-0000036
+Age: 68
+Gender: Female
+Sample ID: P-0000036-T01-IM3
+Gene Panel: IMPACT341
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+AR c.676T>G (p.L226V) - in 14.000000000000002% of 584 reads
+ERBB2 c.3044G>A (p.G1015E) - in 42.0% of 354 reads
+FBXW7 c.336_344del (p.D112_E114del) - in 40.0% of 378 reads
+IRS1 c.1382A>G (p.E461G) - in 44.0% of 418 reads
+NOTCH4 c.2443T>G (p.C815G) - in 48.0% of 296 reads
+TP53 c.991C>T (p.Q331*) - in 6.0% of 311 reads
+TSHR c.202C>T (p.P68S) - in 50.0% of 516 reads
+CNA Data:
+No CNA data found for the specified patient ID.
+Structural Variants:
+ROS1 - SLC34A2 (TRANSLOCATION)

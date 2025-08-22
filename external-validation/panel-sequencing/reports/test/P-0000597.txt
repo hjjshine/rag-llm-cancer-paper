@@ -1,0 +1,27 @@
+Patient ID: P-0000597
+Age: 51
+Gender: Female
+Sample ID: P-0000597-T01-IM3
+Gene Panel: IMPACT341
+Cancer Type: Breast Invasive Ductal Carcinoma
+Sample Type: Metastasis
+Tumor Purity: 60.0%
+=============
+DNA Variants:
+ARID2 c.1456A>G (p.I486V) - in 47.0% of 762 reads
+BRCA2 c.6803G>A (p.R2268K) - in 23.0% of 333 reads
+BRCA2 c.4471_4474del (p.L1491Kfs*12) - in 63.0% of 319 reads
+GATA3 c.569T>C (p.L190P) - in 17.0% of 951 reads
+KMT2C c.12452C>T (p.S4151F) - in 50.0% of 547 reads
+PTPRD c.3758T>A (p.M1253K) - in 27.0% of 590 reads
+TNFAIP3 c.34T>A (p.L12M) - in 30.0% of 308 reads
+CNA Data:
+CDC73 - High Level Amplification
+FH - High Level Amplification
+IKBKE - High Level Amplification
+MDM4 - High Level Amplification
+PARP1 - High Level Amplification
+IL10 - High Level Amplification
+AKT3 - High Level Amplification
+Structural Variants:
+No structural variant data found for the specified patient ID.

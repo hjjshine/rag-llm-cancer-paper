@@ -1,0 +1,21 @@
+Patient ID: P-0000058
+Age: 54
+Gender: Female
+Sample ID: P-0000058-T01-IM3
+Gene Panel: IMPACT341
+Cancer Type: Breast Invasive Ductal Carcinoma
+Sample Type: Metastasis
+Tumor Purity: 50.0%
+=============
+DNA Variants:
+TP53 c.584T>C (p.I195T) - in 69.0% of 504 reads
+CNA Data:
+CRKL - High Level Amplification
+ERBB2 - High Level Amplification
+CDK12 - High Level Amplification
+GNAS - High Level Amplification
+WT1 - High Level Amplification
+SMARCB1 - High Level Amplification
+MAPK1 - High Level Amplification
+Structural Variants:
+ALK - DDX11L2 (INVERSION)

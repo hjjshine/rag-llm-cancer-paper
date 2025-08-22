@@ -1,0 +1,28 @@
+Patient ID: P-0000204
+Age: 34
+Gender: Female
+Sample ID: P-0000204-T01-IM3
+Gene Panel: IMPACT341
+Cancer Type: Breast Invasive Ductal Carcinoma
+Sample Type: Metastasis
+Tumor Purity: 60.0%
+=============
+DNA Variants:
+CDKN2A c.361C>G (p.P121A) - in 16.0% of 219 reads
+CDKN2Ap14ARF c.361C>G (p.P121A) - in 16.0% of 219 reads
+DICER1 c.5008G>C (p.E1670Q) - in 23.0% of 1684 reads
+DICER1 c.4564G>C (p.D1522H) - in 25.0% of 1353 reads
+JAK1 c.3029T>G (p.L1010R) - in 24.0% of 1700 reads
+MLL2 c.13970C>G (p.S4657C) - in 26.0% of 1652 reads
+PAK7 c.967G>A (p.E323K) - in 24.0% of 1202 reads
+PIK3CA c.3140A>G (p.H1047R) - in 72.0% of 2984 reads
+CNA Data:
+PIK3CA - High Level Amplification
+CCND1 - High Level Amplification
+PAK1 - High Level Amplification
+SPOP - High Level Amplification
+FGF4 - High Level Amplification
+FGF3 - High Level Amplification
+FGF19 - High Level Amplification
+Structural Variants:
+No structural variant data found for the specified patient ID.

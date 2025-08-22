@@ -1,0 +1,21 @@
+Patient ID: P-0003958
+Age: 77
+Gender: Female
+Sample ID: P-0003958-T01-IM3
+Gene Panel: IMPACT341
+Cancer Type: Breast Invasive Ductal Carcinoma
+Sample Type: Metastasis
+Tumor Purity: Unknown
+=============
+DNA Variants:
+CBFB c.311A>G (p.N104S) - in 62.0% of 594 reads
+CDH1 c.406dup (p.Q136Pfs*32) - in 52.0% of 639 reads
+ESR1 c.1613A>G (p.D538G) - in 8.0% of 312 reads
+ESR1 c.1610A>G (p.Y537C) - in 47.0% of 309 reads
+KMT2C c.8650C>T (p.R2884*) - in 9.0% of 918 reads
+KMT2C c.4650del (p.H1551Tfs*12) - in 6.0% of 856 reads
+CNA Data:
+MCL1 - High Level Amplification
+SOX9 - High Level Amplification
+Structural Variants:
+No structural variant data found for the specified patient ID.

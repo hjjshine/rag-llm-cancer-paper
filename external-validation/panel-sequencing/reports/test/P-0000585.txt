@@ -1,0 +1,15 @@
+Patient ID: P-0000585
+Age: 75
+Gender: Female
+Sample ID: P-0000585-T01-IM3
+Gene Panel: IMPACT341
+Cancer Type: Breast Invasive Ductal Carcinoma
+Sample Type: Primary
+Tumor Purity: 60.0%
+=============
+DNA Variants:
+No DNA variant data found for the specified patient ID.
+CNA Data:
+No CNA data found for the specified patient ID.
+Structural Variants:
+No structural variant data found for the specified patient ID.

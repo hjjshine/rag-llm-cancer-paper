@@ -1,0 +1,24 @@
+Patient ID: P-0003961
+Age: 62
+Gender: Female
+Sample ID: P-0003961-T01-IM3
+Gene Panel: IMPACT341
+Cancer Type: Breast Invasive Ductal Carcinoma
+Sample Type: Primary
+Tumor Purity: Unknown
+=============
+DNA Variants:
+GATA3 c.1220dupC (p.P408Afs*99) - in 36.0% of 643 reads
+CNA Data:
+EGFR - High Level Amplification
+BRIP1 - High Level Amplification
+AXIN2 - High Level Amplification
+NOTCH2 - High Level Amplification
+CRLF2 - Homozygous Deletion
+MDM2 - High Level Amplification
+RAD51C - High Level Amplification
+MAP2K2 - High Level Amplification
+SPOP - High Level Amplification
+RNF43 - High Level Amplification
+Structural Variants:
+No structural variant data found for the specified patient ID.
