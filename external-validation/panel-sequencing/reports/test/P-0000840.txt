@@ -1,0 +1,16 @@
+Patient ID: P-0000840
+Age: 53
+Gender: Female
+Sample ID: P-0000840-T01-IM3
+Gene Panel: IMPACT341
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 70.0%
+=============
+DNA Variants:
+FAT1 c.3253G>A (p.G1085S) - in 15.0% of 643 reads
+TSC2 c.2951A>T (p.E984V) - in 24.0% of 303 reads
+CNA Data:
+No CNA data found for the specified patient ID.
+Structural Variants:
+ROS1 - CD74 (TRANSLOCATION)

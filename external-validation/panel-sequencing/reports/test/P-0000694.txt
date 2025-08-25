@@ -1,0 +1,17 @@
+Patient ID: P-0000694
+Age: 57
+Gender: Male
+Sample ID: P-0000694-T01-IM3
+Gene Panel: IMPACT341
+Cancer Type: Breast Invasive Ductal Carcinoma
+Sample Type: Primary
+Tumor Purity: 40.0%
+=============
+DNA Variants:
+ATM c.8159A>G (p.D2720G) - in 9.0% of 285 reads
+BARD1 c.1753C>A (p.L585I) - in 9.0% of 348 reads
+PIK3CA c.3140A>G (p.H1047R) - in 17.0% of 416 reads
+CNA Data:
+CDK4 - High Level Amplification
+Structural Variants:
+No structural variant data found for the specified patient ID.

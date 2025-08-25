@@ -1,0 +1,17 @@
+Patient ID: P-0000620
+Age: 36
+Gender: Female
+Sample ID: P-0000620-T01-IM3
+Gene Panel: IMPACT341
+Cancer Type: Breast Invasive Ductal Carcinoma
+Sample Type: Primary
+Tumor Purity: 50.0%
+=============
+DNA Variants:
+BLM c.490G>A (p.E164K) - in 9.0% of 405 reads
+NOTCH1 c.4870G>C (p.E1624Q) - in 10.0% of 263 reads
+PPP2R1A c.547C>T (p.R183W) - in 2.0% of 364 reads
+CNA Data:
+No CNA data found for the specified patient ID.
+Structural Variants:
+No structural variant data found for the specified patient ID.

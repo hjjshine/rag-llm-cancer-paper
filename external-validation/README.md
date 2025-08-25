@@ -13,6 +13,7 @@ To extend the possible generalizability of the RAG-LLM pipeline in oncology trea
         - non-US resources (EU, Canada, Ireland)
         - non-English resources (JP, KR)
 
+---
 
 ### Example Entry
 

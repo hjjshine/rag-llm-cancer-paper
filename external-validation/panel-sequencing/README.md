@@ -47,6 +47,7 @@
 
 #### other 
 - [ ] filter through timeline (esp. the negative timepoints) to see what information would in theory be available to a clinican at the point of MSK-IMPACT administration
+- [ ] select varied samples
 
 
 ### notes

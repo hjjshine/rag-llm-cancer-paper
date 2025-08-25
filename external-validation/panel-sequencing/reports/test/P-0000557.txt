@@ -1,0 +1,15 @@
+Patient ID: P-0000557
+Age: 82
+Gender: Male
+Sample ID: P-0000557-T01-IM3
+Gene Panel: IMPACT341
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 70.0%
+=============
+DNA Variants:
+TP53 c.724T>G (p.C242G) - in 13.0% of 198 reads
+CNA Data:
+No CNA data found for the specified patient ID.
+Structural Variants:
+ALK - EML4 (INVERSION)

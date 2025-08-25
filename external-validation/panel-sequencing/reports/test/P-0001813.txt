@@ -1,0 +1,21 @@
+Patient ID: P-0001813
+Age: 80
+Gender: Male
+Sample ID: P-0001813-T01-IM3
+Gene Panel: IMPACT341
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 80.0%
+=============
+DNA Variants:
+FAT1 c.2344delC (p.R782Vfs*9) - in 21.0% of 705 reads
+FBXW7 c.1616G>T (p.G539V) - in 25.0% of 796 reads
+MET c.3024_3028+7delAGAAGGTATATT (p.X1008_splice) - in 38.0% of 370 reads
+MLL c.5032G>A (p.E1678K) - in 22.0% of 502 reads
+NF1 c.1714delG (p.E572Rfs*14) - in 15.0% of 204 reads
+NTRK2 c.572T>C (p.I191T) - in 23.0% of 498 reads
+TP53 c.673-1G>T (p.X225_splice) - in 31.0% of 226 reads
+CNA Data:
+YES1 - High Level Amplification
+Structural Variants:
+No structural variant data found for the specified patient ID.
