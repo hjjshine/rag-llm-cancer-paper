@@ -69,7 +69,6 @@ def run_RAG(
     ---------------------
     {query_prompt} 
     """
-    
     return run_llm(input_prompt, CLIENT, model_type, model, max_len, temp, random_seed)
 
 
