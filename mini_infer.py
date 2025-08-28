@@ -31,7 +31,6 @@ def reset():
     _CONTEXT = None
     _INDEX = None
     _MODEL_NAME = None
-    _MODEL_EMBED = None
 
 def _cache_paths(embed_name: str, version: str = "v1"):
     os.makedirs("indexes", exist_ok=True)
