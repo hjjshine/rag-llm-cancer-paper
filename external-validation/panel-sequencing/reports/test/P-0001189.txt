@@ -1,0 +1,33 @@
+Patient ID: P-0001189
+Age: 63
+Gender: Male
+Sample ID: P-0001189-T01-IM3
+Gene Panel: IMPACT341
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 70.0%
+=============
+DNA Variants:
+ALK c.2501T>C (p.V834A) - in 91.00% of 375 reads
+BRD4 c.2963A>T (p.Q988L) - in 89.00% of 91 reads
+CDKN1B c.125C>T (p.T42I) - in 42.00% of 1019 reads
+ERBB2 c.929C>T (p.S310F) - in 94.00% of 6203 reads
+ERBB3 c.3851C>T (p.A1284V) - in 18.00% of 814 reads
+GRIN2A c.2788C>A (p.L930I) - in 35.00% of 689 reads
+HGF c.436G>T (p.G146C) - in 42.00% of 922 reads
+IRS1 c.710G>T (p.W237L) - in 87.00% of 539 reads
+PBRM1 c.2524G>T (p.E842*) - in 85.00% of 593 reads
+PDCD1 c.623C>A (p.P208H) - in 55.00% of 334 reads
+PHOX2B c.106dup (p.C36Lfs*10) - in 51.00% of 602 reads
+PMS1 c.889C>G (p.L297V) - in 82.00% of 751 reads
+PTPRT c.2894A>G (p.N965S) - in 28.00% of 607 reads
+PTPRT c.3956_3958delinsGGA (p.Q1319_V1320delinsRM) - in 28.00% of 374 reads
+SMARCA4 c.3492C>A (p.N1164K) - in 90.00% of 363 reads
+TET1 c.5081G>A (p.R1694H) - in 32.00% of 636 reads
+TP53 c.430C>T (p.Q144*) - in 92.00% of 474 reads
+CNA Data:
+ERBB2 - High Level Amplification
+CDK12 - High Level Amplification
+NFE2L2 - High Level Amplification
+Structural Variants:
+No structural variant data found.

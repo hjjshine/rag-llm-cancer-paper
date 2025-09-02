@@ -1,0 +1,19 @@
+Patient ID: P-0001548
+Age: 68
+Gender: Female
+Sample ID: P-0001548-T01-IM3
+Gene Panel: IMPACT341
+Cancer Type: Pancreatic Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 60.0%
+=============
+DNA Variants:
+KRAS c.35G>T (p.G12V) - in 46.00% of 1251 reads
+TP53 c.838A>G (p.R280G) - in 53.00% of 703 reads
+CNA Data:
+CDKN2B - Homozygous Deletion
+CDKN2A - Homozygous Deletion
+CDKN2Ap14ARF - Homozygous Deletion
+CDKN2Ap16INK4A - Homozygous Deletion
+Structural Variants:
+No structural variant data found.

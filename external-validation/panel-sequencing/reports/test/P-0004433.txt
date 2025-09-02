@@ -1,0 +1,23 @@
+Patient ID: P-0004433
+Age: 47
+Gender: Female
+Sample ID: P-0004433-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Breast Invasive Ductal Carcinoma
+Sample Type: Metastasis
+Tumor Purity: 10.0%
+=============
+DNA Variants:
+ABL1 c.2645_2646del (p.S882*) - in 16.00% of 935 reads
+ATR c.769C>G (p.Q257E) - in 9.00% of 803 reads
+IRS1 c.3105_3107del (p.S1038del) - in 7.00% of 503 reads
+MTOR c.3634C>A (p.L1212I) - in 6.00% of 730 reads
+PIK3CA c.1633G>A (p.E545K) - in 7.00% of 339 reads
+PIK3CA c.756A>T (p.L252F) - in 9.00% of 902 reads
+RECQL4 c.719C>T (p.S240L) - in 13.00% of 983 reads
+SMARCA4 c.1548_1550del (p.K517del) - in 10.00% of 818 reads
+TP53 c.636delT (p.R213Dfs*34) - in 8.00% of 1264 reads
+CNA Data:
+PRDM1 - High Level Amplification
+Structural Variants:
+RNF43 - BCAS3 (INVERSION)

@@ -1,0 +1,22 @@
+Patient ID: P-0006289
+Age: 68
+Gender: Female
+Sample ID: P-0006289-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+BRAF c.1799T>A (p.V600E) - in 28.00% of 640 reads
+MAP2K1 c.364A>G (p.N122D) - in 24.00% of 989 reads
+PARP1 c.2893G>A (p.D965N) - in 29.00% of 939 reads
+PIK3C3 c.1298C>T (p.S433F) - in 6.00% of 519 reads
+SETD2 c.4492C>T (p.Q1498*) - in 22.00% of 610 reads
+SETD2 c.1968_1969dup (p.K657Ifs*3) - in 21.00% of 481 reads
+SMAD4 c.325_326del (p.L109Kfs*4) - in 34.00% of 683 reads
+TP53 c.627_649del (p.R209Sfs*5) - in 33.00% of 748 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

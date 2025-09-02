@@ -1,0 +1,25 @@
+Patient ID: P-0035127
+Age: 81
+Gender: Female
+Sample ID: P-0035127-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Colorectal Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 60.0%
+=============
+DNA Variants:
+ARID1A c.2161G>T (p.G721C) - in 20.00% of 678 reads
+EGFL7 c.638A>C (p.K213T) - in 23.00% of 684 reads
+EGFR c.1640G>A (p.R547K) - in 18.00% of 895 reads
+EPHA3 c.722G>A (p.R241K) - in 33.00% of 287 reads
+ERBB4 c.3254C>G (p.T1085S) - in 11.00% of 779 reads
+KRAS c.180_181delinsAA (p.Q61K) - in 34.00% of 411 reads
+RNF43 c.349dup (p.R117Pfs*8) - in 43.00% of 1012 reads
+TP53 c.589G>A (p.V197M) - in 39.00% of 536 reads
+CNA Data:
+IGF2 - High Level Amplification
+CTLA4 - High Level Amplification
+TERT - High Level Amplification
+AGO2 - High Level Amplification
+Structural Variants:
+No structural variant data found.

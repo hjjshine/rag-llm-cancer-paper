@@ -1,0 +1,19 @@
+Patient ID: P-0014703
+Age: 80
+Gender: Female
+Sample ID: P-0014703-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Breast Invasive Ductal Carcinoma
+Sample Type: Metastasis
+Tumor Purity: 60.0%
+=============
+DNA Variants:
+BTK c.1328T>C (p.I443T) - in 16.00% of 948 reads
+GATA3 c.1097G>A (p.R366Q) - in 10.00% of 1280 reads
+MAP3K1 c.2109del (p.S704Qfs*21) - in 12.00% of 1328 reads
+MAP3K1 c.3460dup (p.A1154Gfs*6) - in 25.00% of 846 reads
+SLX4 c.3907G>A (p.E1303K) - in 17.00% of 2227 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

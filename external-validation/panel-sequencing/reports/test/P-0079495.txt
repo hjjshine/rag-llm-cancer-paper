@@ -1,0 +1,26 @@
+Patient ID: P-0079495
+Age: 73
+Gender: Male
+Sample ID: P-0079495-T01-IM7
+Gene Panel: IMPACT505
+Cancer Type: Prostate Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 70.0%
+=============
+DNA Variants:
+B2M nan (nan) - in 86.00% of 87 reads
+BRCA2 c.5450del (p.S1817Ffs*23) - in 24.00% of 95 reads
+CREBBP c.2423_2424del (p.V808Gfs*23) - in 38.00% of 648 reads
+FAT1 c.203G>T (p.W68L) - in 33.00% of 238 reads
+MSH6 c.122C>G (p.S41C) - in 32.00% of 398 reads
+MYC c.130_132del (p.E44del) - in 6.00% of 1127 reads
+PIK3CB nan (nan) - in 12.00% of 375 reads
+PTEN c.33_34insTA (p.N12*) - in 26.00% of 92 reads
+SETDB1 c.3845G>C (p.G1282A) - in 32.00% of 445 reads
+SMARCA2 c.1259_1260delinsCG (p.R420P) - in 36.00% of 425 reads
+TP53 c.374C>T (p.T125M) - in 56.00% of 242 reads
+CNA Data:
+RECQL4 - High Level Amplification
+MYC - High Level Amplification
+Structural Variants:
+No structural variant data found.

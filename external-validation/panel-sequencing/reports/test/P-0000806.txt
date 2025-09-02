@@ -8,9 +8,9 @@ Sample Type: Metastasis
 Tumor Purity: 50.0%
 =============
 DNA Variants:
-BAP1 c.649G>A (p.A217T) - in 21.0% of 370 reads
-BCOR c.1619G>A (p.R540Q) - in 21.0% of 708 reads
-SMARCB1 c.713C>A (p.A238D) - in 15.0% of 412 reads
+BAP1 c.649G>A (p.A217T) - in 21.00% of 370 reads
+BCOR c.1619G>A (p.R540Q) - in 21.00% of 708 reads
+SMARCB1 c.713C>A (p.A238D) - in 15.00% of 412 reads
 CNA Data:
 CCND1 - High Level Amplification
 ERBB2 - High Level Amplification
@@ -24,4 +24,4 @@ FGF3 - High Level Amplification
 FGF19 - High Level Amplification
 TMPRSS2 - Homozygous Deletion
 Structural Variants:
-No structural variant data found for the specified patient ID.
+No structural variant data found.

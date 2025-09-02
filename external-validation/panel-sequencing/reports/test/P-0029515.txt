@@ -1,0 +1,24 @@
+Patient ID: P-0029515
+Age: 38
+Gender: Female
+Sample ID: P-0029515-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Invasive Breast Carcinoma
+Sample Type: Metastasis
+Tumor Purity: 40.0%
+=============
+DNA Variants:
+NUP93 c.43C>T (p.Q15*) - in 7.00% of 421 reads
+NUP93 c.2369G>A (p.R790H) - in 14.00% of 525 reads
+PIK3CA c.3140A>G (p.H1047R) - in 18.00% of 483 reads
+TEK c.1445T>C (p.L482P) - in 15.00% of 662 reads
+CNA Data:
+CCND1 - High Level Amplification
+FGFR1 - High Level Amplification
+WHSC1L1 - High Level Amplification
+PTP4A1 - High Level Amplification
+FGF4 - High Level Amplification
+FGF3 - High Level Amplification
+FGF19 - High Level Amplification
+Structural Variants:
+No structural variant data found.

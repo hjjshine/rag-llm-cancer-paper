@@ -1,0 +1,21 @@
+Patient ID: P-0010742
+Age: 51
+Gender: Female
+Sample ID: P-0010742-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Colon Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+APC c.3927_3931del (p.E1309Dfs*4) - in 20.00% of 366 reads
+NRAS c.35G>A (p.G12D) - in 59.00% of 1328 reads
+PTPRD c.1311G>C (p.Q437H) - in 11.00% of 1097 reads
+RARA c.118G>A (p.A40T) - in 58.00% of 1182 reads
+TP53 c.626_627delGA (p.R209Kfs*6) - in 55.00% of 1040 reads
+CNA Data:
+FLT3 - High Level Amplification
+FLT1 - High Level Amplification
+CDK8 - High Level Amplification
+Structural Variants:
+PRMT8 - APC (TRANSLOCATION)

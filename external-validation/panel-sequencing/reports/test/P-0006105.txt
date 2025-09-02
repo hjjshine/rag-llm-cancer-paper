@@ -1,0 +1,22 @@
+Patient ID: P-0006105
+Age: 66
+Gender: Male
+Sample ID: P-0006105-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 40.0%
+=============
+DNA Variants:
+CTNNB1 c.109T>G (p.S37A) - in 14.00% of 551 reads
+EGFR c.2369C>T (p.T790M) - in 12.00% of 1101 reads
+EGFR c.2236_2250del (p.E746_A750del) - in 21.00% of 850 reads
+FLT4 c.156-1G>A (p.X52_splice) - in 14.00% of 480 reads
+PTEN c.1001A>G (p.N334S) - in 20.00% of 263 reads
+CNA Data:
+CDKN2B - Homozygous Deletion
+CDKN2A - Homozygous Deletion
+CDKN2Ap14ARF - Homozygous Deletion
+CDKN2Ap16INK4A - Homozygous Deletion
+Structural Variants:
+No structural variant data found.

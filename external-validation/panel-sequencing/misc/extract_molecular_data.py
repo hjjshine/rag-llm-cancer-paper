@@ -28,15 +28,17 @@ def extract_dna_variants(
     if snv_df is not None and not snv_df.empty:
         snv_df.columns = ["Gene", "Variant Type", "Consequence",
                              "Protein Change", "cDNA Change", "Allelic Fraction", "Total Count"]
+        
         snv_df["Allelic Fraction"] = snv_df["Allelic Fraction"].round(2)
+        snv_df["Allelic Fraction"] = snv_df["Allelic Fraction"].apply(lambda x: "{:.2f}".format(x * 100))
         snv_df.sort_values(["Gene"], inplace=True)
 
         for index, row in snv_df.iterrows():
             #report.append(f"{row['Gene']} ({row['Variant Type']}, {row['Consequence']}): {row['cDNA Change']} ({row['Protein Change']}) - Allelic Fraction: {row['Allelic Fraction']}")
             #for now, follow OncoPanel report format
-            report.append(f"{row['Gene']} {row['cDNA Change']} ({row['Protein Change']}) - in {row['Allelic Fraction']*100}% of {row['Total Count']} reads")
+            report.append(f"{row['Gene']} {row['cDNA Change']} ({row['Protein Change']}) - in {row['Allelic Fraction']}% of {row['Total Count']} reads")
 
-    return '\n'.join(report) if report else "No DNA variant data found for the specified patient ID."
+    return '\n'.join(report) if report else "No DNA variant data found."
 
 
 def extract_cna(
@@ -60,7 +62,7 @@ def extract_cna(
     cna_table = cna_table[cna_table["Copy Number Alteration"] != 0]
 
     if cna_table.shape[0] == 0:
-        return "No CNA data found for this sample"
+        return "No CNA data found."
     
     report = []
     for index, row in cna_table.iterrows():
@@ -75,7 +77,7 @@ def extract_cna(
         }
         if row['Copy Number Alteration'] in annot_dict:
             report.append(f"{row['Gene']} - {annot_dict[row['Copy Number Alteration']]}")
-    return '\n'.join(report) if report else "No CNA data found for the specified patient ID."
+    return '\n'.join(report) if report else "No CNA data found."
 
 
 def extract_structural_variants(
@@ -99,10 +101,10 @@ def extract_structural_variants(
                          "Tumor_Split_Read_Count", "Tumor_Paired_End_Read_Count",
                          "DNA_Support", "RNA_Support"]].copy()
     if sv_table.empty:
-        return "No structural variant data found for the specified patient ID."
+        return "No structural variant data found."
 
     report = []
     for index, row in sv_table.iterrows():
         report.append(f"{row['Site1_Hugo_Symbol']} - {row['Site2_Hugo_Symbol']} ({row['Class']})")
 
-    return '\n'.join(report) if report else "No structural variant data found for the specified patient ID."
+    return '\n'.join(report) if report else "No structural variant data found."

@@ -1,0 +1,19 @@
+Patient ID: P-0002861
+Age: 45
+Gender: Female
+Sample ID: P-0002861-T01-IM3
+Gene Panel: IMPACT341
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+EGFR c.2573T>G (p.L858R) - in 62.00% of 2049 reads
+GRIN2A c.3170C>T (p.A1057V) - in 6.00% of 865 reads
+GRIN2A c.2632G>A (p.E878K) - in 5.00% of 559 reads
+NOTCH2 c.5542G>A (p.D1848N) - in 5.00% of 682 reads
+TP53 c.493C>T (p.Q165*) - in 10.00% of 616 reads
+CNA Data:
+EGFR - High Level Amplification
+Structural Variants:
+No structural variant data found.

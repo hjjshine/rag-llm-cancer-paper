@@ -1,0 +1,44 @@
+Patient ID: P-0037751
+Age: 74
+Gender: Male
+Sample ID: P-0037751-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Prostate Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+FOXA1 c.798C>A (p.F266L) - in 26.00% of 709 reads
+CNA Data:
+SOX17 - High Level Amplification
+PRDM1 - Homozygous Deletion
+MAP3K1 - Homozygous Deletion
+SESN1 - Homozygous Deletion
+FOXO1 - Homozygous Deletion
+PLCG2 - Homozygous Deletion
+MAP3K14 - Homozygous Deletion
+ROS1 - Homozygous Deletion
+CYLD - Homozygous Deletion
+PAK7 - Homozygous Deletion
+RECQL4 - High Level Amplification
+ZFHX3 - Homozygous Deletion
+FYN - Homozygous Deletion
+GPS2 - Homozygous Deletion
+BRCA2 - Homozygous Deletion
+FGFR1 - Homozygous Deletion
+PNRC1 - Homozygous Deletion
+TP53 - Homozygous Deletion
+LYN - High Level Amplification
+PLK2 - Homozygous Deletion
+WHSC1L1 - Homozygous Deletion
+MYC - High Level Amplification
+MST1R - High Level Amplification
+PREX2 - High Level Amplification
+RAD21 - High Level Amplification
+AGO2 - High Level Amplification
+EPHA7 - Homozygous Deletion
+DUSP4 - Homozygous Deletion
+NKX3-1 - Homozygous Deletion
+Structural Variants:
+ST7 - MET (DUPLICATION)
+TMPRSS2 - ERG (DELETION)
