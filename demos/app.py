@@ -29,8 +29,13 @@ if not st.session_state.authenticated:
     st.stop() 
 
 st.set_page_config(page_title="RAG-LLM", layout="centered")
-st.title("RAG-LLM Demo")
-st.caption("Research demo • Not for clinical use")
+st.title("RAG-LLM for Precision Cancer Medicine")
+st.markdown(
+    "[📄 Read the Preprint](https://www.medrxiv.org/content/10.1101/2025.05.09.25327312v2.full.pdf) • "
+    "[💻 GitHub Repository](https://github.com/hjjshine/rag-llm-cancer-paper)"
+)
+st.caption("Prototype • Research use only • Not for clinical care")
+
 
 # ---------- Session state ----------
 if "applied" not in st.session_state:
@@ -39,7 +44,10 @@ if "applied" not in st.session_state:
         "run_mode": "RAG-LLM",
         "strategy": 0,
         "initialized": False,
+        "temperature": 0,
+        "max_len": 2048,
     }
+
 if "last_answer" not in st.session_state:
     st.session_state.last_answer = None
 if "last_answer_meta" not in st.session_state:
@@ -50,20 +58,45 @@ if "last_answer_stale" not in st.session_state:
 # ---------- Sidebar (Apply always required) ----------
 st.sidebar.header("Model settings")
 
-default_api = "gpt-4o-2024-05-13"
-pending_model_api = st.sidebar.text_input(
-    "Model API",
-    value=st.session_state.applied["model_api"] or default_api
-)
 pending_run_mode = st.sidebar.radio(
     "Run mode",
     ["RAG-LLM", "LLM only"],
     index=0 if st.session_state.applied["run_mode"] == "RAG-LLM" else 1
 )
+
+default_api = "gpt-4o-2024-05-13"
+model_options = [default_api, "dummy_api_1", "dummy_api_2"]
+
+pending_model_api = st.sidebar.selectbox(
+    "Model API",
+    options=model_options,
+    index=model_options.index(st.session_state.applied.get("model_api", default_api))
+    if st.session_state.applied.get("model_api", default_api) in model_options
+    else 0,
+    help = 'Model API name'
+)
+
 pending_strategy = st.sidebar.selectbox(
     "Prompt strategy",
     [0, 1, 2, 3, 4, 5],
-    index=st.session_state.applied["strategy"]
+    index=st.session_state.applied["strategy"],
+    help="Prompt strategy. See [paper](https://www.medrxiv.org/content/10.1101/2025.05.09.25327312v2.full.pdf) and [code](https://github.com/hjjshine/rag-llm-cancer-paper/blob/main/utils/prompt.py) for details"
+)
+
+# Temp
+pending_temperature = st.sidebar.number_input(
+    "Temperature",
+    min_value=0.0, max_value=1.0, step=0.1,
+    value=float(st.session_state.applied.get("temperature", 0)),
+    help="Sampling temperature (0.0 for deterministic)."
+)
+
+# Max output tokens selector
+pending_max_len = st.sidebar.selectbox(
+    "Max output tokens",
+    options=[2048, 4096],
+    index=0 if st.session_state.applied.get("max_len", 2048) == 2048 else 1,
+    help=("Maximum output token LLM can return.")
 )
 
 # Unapplied changes?
@@ -71,8 +104,11 @@ dirty = (
     (st.session_state.applied["model_api"] != pending_model_api) or
     (st.session_state.applied["run_mode"]  != pending_run_mode)  or
     (st.session_state.applied["strategy"]  != pending_strategy)  or
+    (st.session_state.applied["temperature"] != pending_temperature) or
+    (st.session_state.applied["max_len"] != pending_max_len) or 
     (not st.session_state.applied["initialized"])
 )
+
 
 # If user has changed settings (dirty) and we currently show results, mark them stale
 if dirty and st.session_state.last_answer is not None:
@@ -94,31 +130,19 @@ if apply_clicked:
         "run_mode": pending_run_mode,
         "strategy": pending_strategy,
         "initialized": True,
+        "temperature": pending_temperature,
+        "max_len": pending_max_len
     })
     st.sidebar.success("Settings applied.")
     dirty = False
-    # Clear results so there is zero ambiguity post-apply
     st.session_state.last_answer = None
     st.session_state.last_answer_meta = None
     st.session_state.last_answer_stale = False
 
+
 # Hint in the sidebar
 if dirty:
     st.sidebar.info("You have unapplied changes. Click **Apply Settings**.")
-
-# ---------- Explicitly note whether using RAG-LLM or LLM only ----------
-mode = st.session_state.applied["run_mode"]
-badge_bg = "#e7f5ff" if mode == "RAG-LLM" else "#fff4e6"
-badge_fg = "#0b7285" if mode == "RAG-LLM" else "#d9480f"
-badge_text = "Run mode: RAG-LLM" if mode == "RAG-LLM" else "Run mode: LLM only"
-
-st.markdown(
-    f"<div style='text-align:left;margin:6px 0 4px 0;'>"
-    f"<span style='background:{badge_bg};color:{badge_fg};"
-    f"padding:4px 10px;border-radius:999px;font-size:0.9rem;'>"
-    f"{badge_text}</span></div>",
-    unsafe_allow_html=True
-)
 
 # ---------- Main input ----------
 q = st.text_area(
@@ -140,15 +164,20 @@ if ask_clicked:
                 q,
                 strategy=st.session_state.applied["strategy"],
                 rag=(st.session_state.applied["run_mode"] == "RAG-LLM"),
+                temp=st.session_state.applied["temperature"],
+                max_len=st.session_state.applied["max_len"],
             )
         st.session_state.last_answer = ans
         st.session_state.last_answer_meta = {
             "model_api": st.session_state.applied["model_api"],
             "run_mode": st.session_state.applied["run_mode"],
             "strategy": st.session_state.applied["strategy"],
+            "temperature": st.session_state.applied["temperature"],
+            "max_len": st.session_state.applied["max_len"],
             "ts": time.strftime("%Y-%m-%d %H:%M:%S"),
         }
         st.session_state.last_answer_stale = False
+
 
 
 # ---------- Results renderer ----------
@@ -199,19 +228,25 @@ if st.session_state.last_answer:
             if meta:
                 st.caption(
                     f"Generated: {meta.get('ts','')} • "
-                    f"Model API: {meta.get('model_api','')} • "
                     f"Mode: {meta.get('run_mode','')} • "
-                    f"Prompt strategy: {meta.get('strategy','')}"
+                    f"Model API: {meta.get('model_api','')} • "
+                    f"Prompt strategy: {meta.get('strategy','')} • "
+                    f"Temp: {meta.get('temperature','')} • "
+                    f"Max tokens: {meta.get('max_len','')}"
                 )
+
             render_cards_numbered(st.session_state.last_answer) 
     else:
         st.subheader("Results")
+        st.caption("_Note: the order of results does not indicate priority or importance._")
         meta = st.session_state.last_answer_meta or {}
         if meta:
             st.caption(
                 f"Generated: {meta.get('ts','')} • "
-                f"Model API: {meta.get('model_api','')} • "
                 f"Mode: {meta.get('run_mode','')} • "
-                f"Prompt strategy: {meta.get('strategy','')}"
+                f"Model API: {meta.get('model_api','')} • "
+                f"Prompt strategy: {meta.get('strategy','')} • "
+                f"Temp: {meta.get('temperature','')} • "
+                f"Max tokens: {meta.get('max_len','')}"
             )
         render_cards_numbered(st.session_state.last_answer)
