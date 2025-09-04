@@ -31,10 +31,11 @@ if not st.session_state.authenticated:
 st.set_page_config(page_title="RAG-LLM", layout="centered")
 st.title("RAG-LLM for Precision Cancer Medicine")
 st.markdown(
-    "[📄 Read the Preprint](https://www.medrxiv.org/content/10.1101/2025.05.09.25327312v2.full.pdf) • "
-    "[💻 GitHub Repository](https://github.com/hjjshine/rag-llm-cancer-paper)"
+    "📄 [Read the Preprint](https://www.medrxiv.org/content/10.1101/2025.05.09.25327312v2.full.pdf) • "
+    "💻 [GitHub Repository](https://github.com/hjjshine/rag-llm-cancer-paper)"
 )
-st.caption("Prototype • Research use only • Not for clinical care")
+st.caption("_Note: The order of results does **not** indicate priority. Research use only, not for clinical care._")
+
 
 
 # ---------- Session state ----------
@@ -80,7 +81,7 @@ pending_strategy = st.sidebar.selectbox(
     "Prompt strategy",
     [0, 1, 2, 3, 4, 5],
     index=st.session_state.applied["strategy"],
-    help="Prompt strategy. See [paper](https://www.medrxiv.org/content/10.1101/2025.05.09.25327312v2.full.pdf) and [code](https://github.com/hjjshine/rag-llm-cancer-paper/blob/main/utils/prompt.py) for details"
+    help="Prompt strategy. See [prompt.py](https://github.com/hjjshine/rag-llm-cancer-paper/blob/main/utils/prompt.py) for details."
 )
 
 # Temp
@@ -238,7 +239,6 @@ if st.session_state.last_answer:
             render_cards_numbered(st.session_state.last_answer) 
     else:
         st.subheader("Results")
-        st.caption("_Note: the order of results does not indicate priority or importance._")
         meta = st.session_state.last_answer_meta or {}
         if meta:
             st.caption(
