@@ -16,10 +16,10 @@ We present a context-augmented LLM pipeline that:
 
 | Model       | Accuracy               | Precision     |Context        | Queries    |
 |-------------|------------------------|---------------|---------------|------------|
-| LLM-only    | 54–69%                 | 36%           | None          | Synthetic  |
-| RAG-LLM     | **73–85%**             | 49%           | Unstructured  | Synthetic  |
-| RAG-LLM     | **91–99%**             | 80%           | Structured    | Synthetic  |
-| RAG-LLM     | **75–94%**             | 95%           | Structured    | Real-world |
+| LLM-only    | 62–75%                 | 44%           | None          | Synthetic  |
+| RAG-LLM     | **79–91%**             | 49%           | Unstructured  | Synthetic  |
+| RAG-LLM     | **94–95%**             | 80%           | Structured    | Synthetic  |
+| RAG-LLM     | **81–90%**             | 80%           | Structured    | Real-world |
 
 ## Reproducing Results
 
@@ -42,6 +42,7 @@ pip install -r requirements.txt
 --num_iter=1 \
 --output_dir=output/LLM_res_mistnemo \
 --temp=0.0 \
+--max_len=2048 \
 --random_seed=2025
 ```
     
@@ -50,19 +51,20 @@ pip install -r requirements.txt
 ~/rag-llm-cancer-paper$ python main.py \
 --mode=rag-llm \
 --csv_path=data/moa_fda_queries_answers.csv \
---model_type=mistral \
---model_api=open-mistral-nemo-2407 \
+--model_type=gpt \
+--model_api=gpt-4o-2024-05-13 \
 --strategy=0 \
 --context_chunks=data/structured_context_chunks.json \
 --num_iter=1 \
---output_dir=output/RAG_res_mistnemo \
+--output_dir=output/RAG_res_gpt4o \
 --temp=0.0 \
+--max_len=2048 \
 --random_seed=2025 
 ```
 
 ## Related Paper
 If you're interested, check out our preprint:
-https://www.medrxiv.org/content/10.1101/2025.05.09.25327312v1
+https://doi.org/10.1101/2025.05.09.25327312
 
 
     
