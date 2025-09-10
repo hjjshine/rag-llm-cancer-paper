@@ -1,0 +1,35 @@
+CSV path: data/real_world_queries.csv
+Model type: gpt_reasoning
+Model API endpoint: o4-mini-2025-04-16
+Prompt strategy: 5
+Number of iterations: 5
+Random seed: 2025
+Temperature: 0.0
+Output name: output/RAG_res_o4mini/realworld_maxlenNone
+Time elapsed for iteration 0: 3.2279 min
+Time elapsed for iteration 1: 3.4191 min
+Time elapsed for iteration 2: 3.1136 min
+Traceback (most recent call last):
+  File "/home/helenajun/rag-llm-cancer-paper/main.py", line 38, in <module>
+    main()
+  File "/home/helenajun/rag-llm-cancer-paper/main.py", line 35, in main
+    run_ragllm_main(args)
+  File "/home/helenajun/rag-llm-cancer-paper/llm/run_RAGLLM.py", line 176, in main
+    output_ls, input_ls, runtime_ls = run_iterations_rag(
+  File "/home/helenajun/rag-llm-cancer-paper/llm/run_RAGLLM.py", line 101, in run_iterations_rag
+    output_test_ls, input_prompt_ls = run_ragllm_on_prompts(i, data, strategy, context_chunks, index, CLIENT, num_vec, model_type, model, model_embed, max_len, temp, random_seed)
+  File "/home/helenajun/rag-llm-cancer-paper/llm/run_RAGLLM.py", line 87, in run_ragllm_on_prompts
+    output, input_prompt = run_RAG(context_chunks, prompt_chunk, strategy, index, CLIENT, num_vec, model_type, model, model_embed, max_len, temp, random_seed)
+  File "/home/helenajun/rag-llm-cancer-paper/llm/run_RAGLLM.py", line 63, in run_RAG
+    retrieved_chunk=retrieve_context(context_chunks, prompt_chunk, CLIENT, model_embed, index, num_vec)
+  File "/home/helenajun/rag-llm-cancer-paper/utils/embedding.py", line 41, in retrieve_context
+    query_embeddings=np.array([get_text_embedding(prompt_chunk, CLIENT, model_embed)])
+  File "/home/helenajun/rag-llm-cancer-paper/utils/embedding.py", line 13, in get_text_embedding
+    embeddings_batch_response = CLIENT.embeddings.create(
+  File "/opt/conda/lib/python3.10/site-packages/openai/resources/embeddings.py", line 129, in create
+    return self._post(
+  File "/opt/conda/lib/python3.10/site-packages/openai/_base_client.py", line 1249, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/opt/conda/lib/python3.10/site-packages/openai/_base_client.py", line 1037, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}

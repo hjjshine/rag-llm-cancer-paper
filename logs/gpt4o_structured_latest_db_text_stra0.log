@@ -1,0 +1,9 @@
+CSV path: data/moa_fda_queries_answers.csv
+Model type: gpt
+Model API endpoint: gpt-4o-2024-05-13
+Prompt strategy: 0
+Number of iterations: 1
+Random seed: 2025
+Temperature: 0.0
+Output name: output/RAG_res_gpt4o/structured_latest_db_text
+Time elapsed for iteration 0: 9.1992 min

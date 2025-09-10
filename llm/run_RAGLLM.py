@@ -14,6 +14,7 @@ import torch
 # ================== UTIL FUNCTIONS ==================
 from utils.prompt import get_prompt
 from utils.io import save_object, load_object
+import faiss
 from utils.embedding import get_context_db, retrieve_context
 
 # ================== MODEL & API IMPORTS ==================
@@ -26,9 +27,12 @@ from llm.inference import run_llm
 # ================== RAG-LLM EXECUTION FUNCTIONS ==================
 def run_RAG(
     context_chunks, 
-    prompt_chunk, 
+    prompt_chunk,
+    prompt_idx, 
     strategy, 
     index, 
+    query_entity,
+    db_entity,
     CLIENT, 
     num_vec, 
     model_type, 
@@ -60,7 +64,7 @@ def run_RAG(
     """
     
     query_prompt=get_prompt(strategy, prompt_chunk)
-    retrieved_chunk=retrieve_context(context_chunks, prompt_chunk, CLIENT, model_embed, index, num_vec)
+    retrieved_chunk=retrieve_context(context_chunks, prompt_chunk, prompt_idx, CLIENT, model_embed, index, num_vec, query_entity, db_entity)
         
     input_prompt = f"""
     Context information is below.
@@ -75,7 +79,27 @@ def run_RAG(
 
 
 # ================== BATCH EXECUTION FUNCTIONS ==================
-def run_ragllm_on_prompts(n_iter, data, strategy, context_chunks, index, CLIENT, num_vec, model_type, model, model_embed, max_len, temp, random_seed):
+def run_ragllm_on_batch_openai(data, strategy, context_chunks, index, query_entity, db_entity, CLIENT, num_vec, model_type, model, model_embed, max_len, temp, random_seed):
+    """
+    Prepare context-augmented prompts for batch OpenAI API call.
+    """
+    tasks = []
+    for prompt_idx, prompt_chunk in enumerate(data['prompt']):
+        query_prompt = get_prompt(strategy, prompt_chunk)
+        retrieved_chunk = retrieve_context(context_chunks, prompt_chunk, prompt_idx, CLIENT, model_embed, index, num_vec, query_entity, db_entity)
+        
+        input_prompt = f"""
+        Context information is below.
+        ---------------------
+        {retrieved_chunk}
+        ---------------------
+        {query_prompt} 
+        """
+        tasks.append({"custom_id": str(prompt_idx), "prompt": input_prompt})
+    return tasks
+        
+
+def run_ragllm_on_prompts(n_iter, data, strategy, context_chunks, index, query_entity, db_entity, CLIENT, num_vec, model_type, model, model_embed, max_len, temp, random_seed):
     """
     Generate response to each context-augmented prompt. 
     """
@@ -83,15 +107,15 @@ def run_ragllm_on_prompts(n_iter, data, strategy, context_chunks, index, CLIENT,
     output_test_ls, input_prompt_ls = [], []
     
     # Run RAG-LLM for each prompt
-    for prompt_chunk in data['prompt']:
-        output, input_prompt = run_RAG(context_chunks, prompt_chunk, strategy, index, CLIENT, num_vec, model_type, model, model_embed, max_len, temp, random_seed)
+    for prompt_idx, prompt_chunk in enumerate(data['prompt']):
+        output, input_prompt = run_RAG(context_chunks, prompt_chunk, prompt_idx, strategy, index, query_entity, db_entity, CLIENT, num_vec, model_type, model, model_embed, max_len, temp, random_seed)
         output_test_ls.append(output)
         input_prompt_ls.append(input_prompt)
         time.sleep(0.3)
     
     return(output_test_ls, input_prompt_ls)
 
-def run_iterations_rag(num_iterations, data, strategy, context_chunks, index, CLIENT, num_vec, model_type, model, model_embed, max_len, temp, random_seed):
+def run_iterations_rag(num_iterations, data, strategy, context_chunks, index, query_entity, db_entity, CLIENT, num_vec, model_type, model, model_embed, max_len, temp, random_seed):
     output_ls = []
     runtime_ls = []
     input_ls = []
@@ -99,7 +123,7 @@ def run_iterations_rag(num_iterations, data, strategy, context_chunks, index, CL
     for i in range(num_iterations):
         start = time.time()
         
-        output_test_ls, input_prompt_ls = run_ragllm_on_prompts(i, data, strategy, context_chunks, index, CLIENT, num_vec, model_type, model, model_embed, max_len, temp, random_seed)
+        output_test_ls, input_prompt_ls = run_ragllm_on_prompts(i, data, strategy, context_chunks, index, query_entity, db_entity, CLIENT, num_vec, model_type, model, model_embed, max_len, temp, random_seed)
         output_ls.append(output_test_ls)
         input_ls.append(input_prompt_ls)
 
@@ -171,7 +195,16 @@ def main(args):
     with open(args.context_chunks, "r") as f:
         context_chunks = json.load(f)
         
-    index=get_context_db(context_chunks, CLIENT, model_embed)
+    # index=get_context_db(context_chunks, CLIENT, model_embed)
+    index = faiss.read_index("/home/helenajun/rag-llm-cancer-paper/context_retriever/indexes/text-embedding-3-small__v1.faiss")
+    
+    # Load entity database
+    query_entities_path = "/home/helenajun/rag-llm-cancer-paper/context_retriever/entities/synthetic_query_ner_entities.json"
+    db_entities_path = "/home/helenajun/rag-llm-cancer-paper/context_retriever/entities/moalmanac_db_ner_entities.json"
+    with open(query_entities_path, "r") as f:
+        query_entity = json.load(f)
+    with open(db_entities_path, "r") as f:
+        db_entity = json.load(f)
     
     # Run RAG-LLM iterations
     output_ls, input_ls, runtime_ls = run_iterations_rag(
@@ -180,6 +213,8 @@ def main(args):
         strategy=args.strategy, 
         context_chunks=context_chunks, 
         index=index, 
+        query_entity=query_entity, 
+        db_entity=db_entity,
         CLIENT=CLIENT, 
         num_vec=10, 
         model_type=args.model_type, 

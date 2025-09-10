@@ -16,7 +16,7 @@ python main.py --mode=llm --csv_path=data/moa_fda_queries_answers.csv --model_ty
 
 
 # ================ gpt4o ================ #
-#o4mini - llm only strategy 0 - max_len 2048
+#gpt4o - llm only strategy 0 
 python main.py --mode=llm --csv_path=data/moa_fda_queries_answers.csv --model_type=gpt --model_api=gpt-4o-2024-05-13 --strategy=0 --num_iter=5 --output_dir=output/LLM_res_gpt4o --temp=0.0 --random_seed=2025 2>&1 | tee logs/gpt4o_llm_only_stra0.log
 
 #gpt4o - structured - max_len 2048
@@ -31,4 +31,25 @@ python main.py --mode=rag-llm --csv_path=data/real_world_queries.csv --model_typ
 #gpt4o - realworld strategy 5 - max_len 2048
 python main.py --mode=rag-llm --csv_path=data/real_world_queries.csv --model_type=gpt --model_api=gpt-4o-2024-05-13 --strategy=5 --context_chunks=data/structured_context_chunks.json --num_iter=5 --output_dir=output/RAG_res_gpt4o/realworld --temp=0.0 --max_len=2048 --random_seed=2025 2>&1 | tee logs/gpt4o_realworld_stra5.log
 
+#gpt4o - structured - max_len 2048 - with latest context db
+python main.py --mode=rag-llm --csv_path=data/moa_fda_queries_answers.csv --model_type=gpt --model_api=gpt-4o-2024-05-13 --strategy=0 --context_chunks=data/latest_db/moalmanac-draft.dereferenced.unique.context_db.json --num_iter=1 --output_dir=output/RAG_res_gpt4o/structured_latest_db --temp=0.0 --max_len=2048 --random_seed=2025 2>&1 | tee logs/gpt4o_structured_latest_db_stra0.log
 
+#gpt4o - structured - max_len 2048 - with latest context db - text formatted
+python main.py --mode=rag-llm --csv_path=data/moa_fda_queries_answers.csv --model_type=gpt --model_api=gpt-4o-2024-05-13 --strategy=0 --context_chunks=data/latest_db/moalmanac-draft.dereferenced.unique.context_db_text.json --num_iter=1 --output_dir=output/RAG_res_gpt4o/structured_latest_db_text --temp=0.0 --max_len=2048 --random_seed=2025 2>&1 | tee logs/gpt4o_structured_latest_db_text_stra0.log
+
+#gpt4o - structured - max_len 2048 - with latest context db - entity matching
+python main.py --mode=rag-llm --csv_path=data/moa_fda_queries_answers.csv --model_type=gpt --model_api=gpt-4o-2024-05-13 --strategy=0 --context_chunks=data/latest_db/moalmanac-draft.dereferenced.unique.context_db.json --num_iter=1 --output_dir=output/RAG_res_gpt4o/structured_latest_db_entity_matching --temp=0.0 --max_len=2048 --random_seed=2025 2>&1 | tee logs/gpt4o_structured_latest_db_entity_matching_stra0.log
+
+#gpt4o - structured - max_len 2048 - with latest context db, synthetic prompts, json-style context v1 - no entity matching
+python main.py --mode=rag-llm-batch --csv_path=data/latest_db/moalmanac_prompts_subset.csv --model_type=gpt --model_api=gpt-4o-2024-05-13 --strategy=0 --context_chunks=data/latest_db/moalmanac-draft.dereferenced.unique.context_db.json --num_iter=1 --output_dir=output/RAG_res_gpt4o/structured_latest_db_prompts --temp=0.0 --max_len=2048 --random_seed=2025 2>&1 | tee logs/gpt4o_structured_latest_db_prompts_stra0.log
+
+#gpt4o - structured - max_len 2048 - with latest context db, synthetic prompts, human-text-style context v1 - no entity matching
+python main.py --mode=rag-llm-batch --csv_path=data/latest_db/moalmanac_prompts_subset.csv --model_type=gpt --model_api=gpt-4o-2024-05-13 --strategy=0 --context_chunks=data/latest_db/indexes/text-embedding-3-small__structured_context_v1.json --num_iter=1 --output_dir=output/RAG_res_gpt4o/structured_latest_db_prompts_humantextctxv1 --temp=0.0 --max_len=2048 --random_seed=2025 2>&1 | tee logs/gpt4o_structured_latest_db_prompts_humantextctxv1_ans_stra0.log
+
+
+# ================ gpt5 ================ #
+#gpt5 - llm only strategy 0 
+python main.py --mode=llm --csv_path=data/moa_fda_queries_answers.csv --model_type=gpt_reasoning --model_api=gpt-5-2025-08-07 --strategy=0 --num_iter=5 --output_dir=output/LLM_res_gpt5 --temp=0.0 --random_seed=2025 2>&1 | tee logs/gpt5_llm_only_stra0.log
+
+#gpt5 - structured 
+python main.py --mode=rag-llm --csv_path=data/moa_fda_queries_answers.csv --model_type=gpt_reasoning --model_api=gpt-5-2025-08-07 --strategy=0 --context_chunks=data/structured_context_chunks.json --num_iter=1 --output_dir=output/RAG_res_gpt5/structured --temp=0.0 --random_seed=2025 2>&1 | tee logs/gpt5_structured_stra0.log
