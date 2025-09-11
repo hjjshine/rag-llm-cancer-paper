@@ -7,13 +7,24 @@ import pandas as pd
 
 # load pre-trained BioBERT model for NER
 biobert_dir = "context_retriever/biobert_ner"
-model = AutoModelForTokenClassification.from_pretrained(biobert_dir)
-tokenizer = AutoTokenizer.from_pretrained(biobert_dir)
-id2label = model.config.id2label
+_NER_MODEL = AutoModelForTokenClassification.from_pretrained(biobert_dir)
+_TOKENIZER = AutoTokenizer.from_pretrained(biobert_dir)
+id2label = _NER_MODEL.config.id2label
+
+def check_list(input):
+    if isinstance(input, list):
+        input = input
+    else:
+        input = [input]
+    return input
 
 
 # function to predict entities using BioBERT
-def ner_predict_entities(text, model, tokenizer):
+def ner_predict_entities(
+    text, 
+    model=_NER_MODEL, 
+    tokenizer=_TOKENIZER
+    ):
     inputs = tokenizer(text, return_tensors="pt", truncation=True, padding=True)
     
     # predictions
@@ -70,7 +81,11 @@ def clean_feature(text):
     return txt
 
 
-def extract_entities(text, model, tokenizer):
+def extract_entities(
+    text, 
+    model=_NER_MODEL, 
+    tokenizer=_TOKENIZER
+    ):
     """
     Extract entities using BioBert from any text
     """
@@ -92,45 +107,35 @@ def extract_entities(text, model, tokenizer):
     return entities_dict
 
 
-def db_extract_entities(text, model, tokenizer, db_path=None):
+def db_extract_entities(
+    db, 
+    cancer_col='modified_standardized_cancer', 
+    biomarker_col='biomarker', 
+    model=_NER_MODEL, 
+    tokenizer=_TOKENIZER
+    ):
     """
     Extract entities using BioBert from texts and fallback to searching database fields when no entities are extracted
     (For database entity extraction only)
+    Arguments:
+        db (dict): A dictionary with cancer type and biomarker entities extracted from the database. The cancer key should contain single cancer type. The biomarker key should contain a list of biomarkers.
+        cancer_key: Name of cancer type key
+        biomarker_key: Name of biomarker key
+        
     """
     entities_dict = {'cancer_type': [], 'biomarker': []}
     
-    #extract entities using biobert
-    entities_list = ner_predict_entities(text, model, tokenizer)
-    
-    #extract cancer and gene related entities
-    extracted_cancer_types = [clean_feature(ent['text']) for ent in entities_list if ent['type']=='Cancer']
-    extracted_biomarkers = [clean_feature(ent['text']) for ent in entities_list if ent['type']=='Gene_or_gene_product']
-    
-    #append cancer type
+    #extract cancer type
+    extracted_cancer_types = check_list(db[cancer_col])
     entities_dict['cancer_type'].extend(extracted_cancer_types)
-    entities_dict['biomarker'].extend(extracted_biomarkers)
     
-    #if nothing's been extracted from db context, do entity extraction on the db statement's original biomarkers
-    df = pd.read_csv(db_path)
-    if not extracted_cancer_types:
-        db_cancer = clean_feature(df['standardized_cancer'])
-        entities_dict['cancer_type'].append(db_cancer)
-        
+    #extract genes from biomarker key using biobert
+    biomarker_entities_list = ner_predict_entities(db[biomarker_col], model, tokenizer)
+    extracted_biomarkers = [clean_feature(ent['text']) for ent in biomarker_entities_list if ent['type']=='Gene_or_gene_product']
     if not extracted_biomarkers:
-        df['biomarker']=df['biomarker'].apply(ast.literal_eval)
-        db_biomarker=df[df['answer']==text].biomarker.squeeze()
-        if len(db_biomarker) > 1:
-            db_biomarker = ", ".join(db_biomarker)
-        db_entities_list = ner_predict_entities(db_biomarker, model, tokenizer)
-        # append extracted entities from the db statement's original biomarkers
-        if db_entities_list:
-            db_extracted_biomarkers = [clean_feature(ent['text']) for ent in db_entities_list if ent['type']=='Gene_or_gene_product']
-            entities_dict['biomarker'].append(db_extracted_biomarkers)
-        #if nothing's been extracted from db statement's original biomarkers, just append the original biomarkers
-        else:
-            for b in db_extracted_biomarkers:
-                cleaned_b = clean_feature(b['text'])
-                if cleaned_b is not None and cleaned_b not in entities_dict['biomarker']:
-                    entities_dict['biomarker'].append(cleaned_b)
-                    
+        db_extracted_biomarkers = [clean_feature(b) for b in ast.literal_eval(db[biomarker_col])]
+        entities_dict['biomarker'].extend(db_extracted_biomarkers)                    
+    else:
+        entities_dict['biomarker'].extend(extracted_biomarkers)             
+    
     return entities_dict

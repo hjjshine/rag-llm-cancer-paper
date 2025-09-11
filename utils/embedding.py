@@ -50,15 +50,33 @@ def get_context_db(context_chunks, CLIENT, model_embed):
 
 
 # Retrieve top k context chunks based on similarity search
-def retrieve_context(context_chunks, prompt_chunk, CLIENT, model_embed, index, num_vec):
+def retrieve_context(
+    context_chunks, 
+    prompt_chunk, 
+    CLIENT, 
+    model_embed, 
+    index, 
+    num_vec
+    ):
     query_embeddings=np.array([get_text_embedding(prompt_chunk, CLIENT, model_embed)])
-    D, I = index.search(prep_embed_for_search(query_embeddings, n_dim=2), k=num_vec)
+    query_embeddings_norm = query_embeddings/np.linalg.norm(query_embeddings, axis=1, keepdims=True)
+    D, I = index.search(prep_embed_for_search(query_embeddings_norm, n_dim=2), k=num_vec) 
     retrieved_chunk = [context_chunks[i] for i in I.tolist()[0]]
     return(retrieved_chunk)
 
 
 # Retrieve top k context chunks based on similarity search and entity matching
-def retrieve_context_ner(context_chunks, prompt_chunk, prompt_idx, CLIENT, model_embed, index, num_vec, query_entity, db_entity):
+def retrieve_context_ner(
+    context_chunks, 
+    prompt_chunk, 
+    prompt_idx, 
+    CLIENT, 
+    model_embed, 
+    index, 
+    num_vec, 
+    query_entity, 
+    db_entity
+    ):
     query_embeddings = np.array([get_text_embedding(prompt_chunk, CLIENT, model_embed)])
     query_embeddings_norm = query_embeddings/np.linalg.norm(query_embeddings, axis=1, keepdims=True)
     D, I = index.search(prep_embed_for_search(query_embeddings_norm, n_dim=2), k=num_vec) 
