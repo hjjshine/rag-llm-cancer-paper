@@ -1,2 +1,3 @@
 .env
 .venv/
+context_retriever/biobert_ner/model.safetensors
