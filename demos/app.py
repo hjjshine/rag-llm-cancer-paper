@@ -200,7 +200,7 @@ def render_cards_numbered(payload):
 
     # Render as expanders titled "Treatment N"
     for i, info in enumerate(items, start=1):
-        with st.expander(f"Treatment {i}", expanded=True):
+        with st.expander(f"Potential Treatment Option {i}", expanded=True):
             if isinstance(info, dict):
                 for k, v in info.items():
                     if v is None or v == "":
