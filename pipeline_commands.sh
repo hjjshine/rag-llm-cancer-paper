@@ -46,6 +46,17 @@ python main.py --mode=rag-llm-batch --csv_path=data/latest_db/moalmanac_prompts_
 #gpt4o - structured - max_len 2048 - with latest context db, synthetic prompts, human-text-style context v1 - no entity matching
 python main.py --mode=rag-llm-batch --csv_path=data/latest_db/moalmanac_prompts_subset.csv --model_type=gpt --model_api=gpt-4o-2024-05-13 --strategy=0 --context_chunks=data/latest_db/indexes/text-embedding-3-small__structured_context_v1.json --num_iter=1 --output_dir=output/RAG_res_gpt4o/structured_latest_db_prompts_humantextctxv1 --temp=0.0 --max_len=2048 --random_seed=2025 2>&1 | tee logs/gpt4o_structured_latest_db_prompts_humantextctxv1_ans_stra0.log
 
+#gpt4o - structured - max_len 2048 - with latest context db, synthetic prompts small, human-text-style context - dense search only 
+python main.py --mode=rag-llm-batch --csv_path=data/latest_db/moalmanac_small_testing_dataset__v2.csv --model_type=gpt --model_api=gpt-4o-2024-05-13 --strategy=0 --context_chunks=data/latest_db/indexes/text-embedding-3-small_structured_context__2025-09-04.json --num_iter=1 --output_dir=output/RAG_res_gpt4o/structured_latest_db_prompts_humantextctxv1 --temp=0.0 --max_len=2048 --random_seed=2025 2>&1 | tee logs/gpt4o_structured_latest_db_prompts_humantextctxv1_stra0.log
+
+python main.py --mode=rag-llm --csv_path=data/latest_db/moalmanac_small_testing_dataset__v2.csv --model_type=gpt --model_api=gpt-4o-2024-05-13 --strategy=0 --context_chunks=data/latest_db/indexes/text-embedding-3-small_structured_context__2025-09-04.json --num_iter=1 --output_dir=output/RAG_res_gpt4o/structured_latest_db_prompts_humantextctxv1 --temp=0.0 --max_len=2048 --random_seed=2025 2>&1 | tee logs/gpt4o_structured_latest_db_prompts_humantextctxv1_stra0.log
+
+#gpt4o - structured - max_len 2048 - with latest context db, synthetic prompts small, human-text-style context - hybrid search retrieval 
+python main.py --mode=rag-llm-batch --csv_path=data/latest_db/moalmanac_small_testing_dataset__v2.csv --model_type=gpt --model_api=gpt-4o-2024-05-13 --strategy=0 --context_chunks=data/latest_db/indexes/text-embedding-3-small_structured_context__2025-09-04.json --num_iter=1 --output_dir=output/RAG_res_gpt4o/structured_latest_db_prompts_humantextctxv1_hybrid --temp=0.0 --max_len=2048 --random_seed=2025 2>&1 | tee logs/gpt4o_structured_latest_db_prompts_humantextctxv1_hybrid_stra0.log
+
+#gpt4o - structured - max_len 2048 - with latest context db, synthetic prompts full, human-text-style context - hybrid search retrieval 
+python main.py --mode=rag-llm --csv_path=data/latest_db/moalmanac_core_query__2025-09-04.csv --model_type=gpt --model_api=gpt-4o-2024-05-13 --strategy=0 --context_chunks=data/latest_db/indexes/text-embedding-3-small_structured_context__2025-09-04.json --num_iter=1 --output_dir=output/RAG_res_gpt4o/structured_latest_db_prompts_humantextctxv1_hybrid --temp=0.0 --max_len=2048 --random_seed=2025 2>&1 | tee logs/gpt4o_structured_latest_db_prompts_humantextctxv1_hybrid_stra0.log
+
 
 # ================ gpt5 ================ #
 #gpt5 - llm only strategy 0 
