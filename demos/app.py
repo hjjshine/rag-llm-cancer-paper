@@ -43,7 +43,7 @@ if "applied" not in st.session_state:
     st.session_state.applied = {
         "model_api": None,
         "run_mode": "RAG-LLM",
-        "strategy": 0,
+        "strategy": 5,
         "initialized": False,
         "temperature": 0,
         "max_len": 2048,
@@ -183,22 +183,38 @@ if ask_clicked:
 
 # ---------- Results renderer ----------
 def render_cards_numbered(payload):
-    data = payload
+    # If it's a string, it may be a "no-match" message or raw text
     if isinstance(payload, str):
+        # Friendly banner for the explicit no-match sentence we normalize to
+        if "There are no FDA-approved drugs for the provided context." in payload:
+            st.info("There are no FDA-approved drugs for the provided context.")
+            return
+        # Try to parse a JSON stringified list from mini_infer
         try:
             data = json.loads(payload)
         except Exception:
-            st.write(payload); return
-
-    # Normalize into an ordered list of entries
-    if isinstance(data, dict):
-        items = list(data.values())
-    elif isinstance(data, list):
-        items = data
+            st.write(payload)
+            return
     else:
-        st.write(data); return
+        data = payload
 
-    # Render as expanders titled "Treatment N"
+    # At this point, we expect a list of treatment dicts
+    if isinstance(data, list):
+        if not data:
+            st.info("No matching treatments were returned.")
+            return
+        items = data
+    elif isinstance(data, dict):
+        # Fallback: if a dict sneaks through, try to treat values as items
+        items = list(data.values())
+        if not items:
+            st.info("No matching treatments were returned.")
+            return
+    else:
+        st.write(data)
+        return
+
+    # Render numbered expanders
     for i, info in enumerate(items, start=1):
         with st.expander(f"Potential Treatment Option {i}", expanded=True):
             if isinstance(info, dict):
