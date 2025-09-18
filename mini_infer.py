@@ -39,6 +39,75 @@ def _cache_paths(embed_name: str, version: str = "v1"):
         f"indexes/{embed_name}__{version}.context.json",
     )
 
+def _extract_json_blob(text: str) -> str:
+    matches = re.findall(r"\{.*\}", text, flags=re.S)
+    if not matches:
+        return text
+    return max(matches, key=len)
+
+def _safe_json_load(payload):
+    if isinstance(payload, (dict, list)):
+        return payload
+    if not isinstance(payload, str):
+        return payload
+    s = payload.strip()
+    try:
+        return json.loads(s)
+    except Exception:
+        pass
+    candidate = _extract_json_blob(s)
+    if candidate != s:
+        try:
+            return json.loads(candidate)
+        except Exception:
+            pass
+    return payload
+
+def _collect_treatments_from_dict(d: dict):
+    """Return list of treatment dicts from keys like 'Treatment 1', 'Treatment 2', ..."""
+    treatments = []
+    for k in sorted(d.keys()):
+        if k.lower().startswith("treatment"):
+            v = d[k]
+            if isinstance(v, dict):
+                treatments.append(v)
+            elif isinstance(v, list):
+                treatments.extend([x for x in v if isinstance(x, dict)])
+    return treatments
+
+def _normalize_model_output(raw_output):
+    """
+    Normalize model output for prompt strategies 0–5.
+    Returns:
+      - JSON string of List[Dict] if treatments found
+      - Plain string message if explicit no-match
+      - Otherwise the original raw_output
+    """
+    # Strategy 4 explicit sentence
+    if isinstance(raw_output, str) and "There are no FDA-approved drugs for the provided context" in raw_output:
+        return "There are no FDA-approved drugs for the provided context."
+
+    obj = _safe_json_load(raw_output)
+
+    # Dict path: strategy 5 (Status/Message) or 0–4 ("Treatment N")
+    if isinstance(obj, dict):
+        status = obj.get("Status")
+        if status == "no_match":
+            return "There are no FDA-approved drugs for the provided context."
+
+        treatments = _collect_treatments_from_dict(obj)
+        if treatments:
+            return json.dumps(treatments, ensure_ascii=False)
+
+    # List path: already a list of treatment dicts
+    if isinstance(obj, list):
+        treatments = [x for x in obj if isinstance(x, dict)]
+        if treatments:
+            return json.dumps(treatments, ensure_ascii=False)
+
+    # Fallback: return original so the UI can still show it
+    return raw_output
+
 def init(
     context_json_path: str = "data/structured_context_chunks.json",
     model_api: str = "gpt-4o-2024-05-13",
@@ -107,4 +176,6 @@ def answer(
         # LLM-only path (no retrieval)
         input_prompt = get_prompt(strategy, text)
         out, _ = run_llm(input_prompt, _CLIENT, _MODEL_TYPE, _MODEL_NAME, max_len, temp, random_seed)
-    return out or ""
+    normalized = _normalize_model_output(out)
+    return normalized or ""
+
