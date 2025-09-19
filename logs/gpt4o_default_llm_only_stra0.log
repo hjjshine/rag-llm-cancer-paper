@@ -1,0 +1,13 @@
+CSV path: data/latest_db/moalmanac_core_query__2025-09-04.csv
+Model type: gpt
+Model API endpoint: gpt-4o-2024-08-06
+Prompt strategy: 0
+Number of iterations: 5
+Random seed: 2025
+Temperature: 0.0
+Output name: output/LLM_res_gpt4o_default
+Time elapsed for iteration 0: 25.4934 min
+Time elapsed for iteration 1: 25.9132 min
+Time elapsed for iteration 2: 25.0496 min
+Time elapsed for iteration 3: 24.3611 min
+Time elapsed for iteration 4: 24.3099 min
