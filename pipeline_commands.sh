@@ -19,6 +19,9 @@ python main.py --mode=llm --csv_path=data/moa_fda_queries_answers.csv --model_ty
 #gpt4o - llm only strategy 0 
 python main.py --mode=llm --csv_path=data/moa_fda_queries_answers.csv --model_type=gpt --model_api=gpt-4o-2024-05-13 --strategy=0 --num_iter=5 --output_dir=output/LLM_res_gpt4o --temp=0.0 --random_seed=2025 2>&1 | tee logs/gpt4o_llm_only_stra0.log
 
+python main.py --mode=llm --csv_path=data/latest_db/moalmanac_core_query__2025-09-04.csv --model_type=gpt --model_api=gpt-4o-2024-08-06 --strategy=0 --num_iter=5 --output_dir=output/LLM_res_gpt4o_default --temp=0.0 --random_seed=2025 2>&1 | tee logs/gpt4o_default_llm_only_stra0.log
+
+
 #gpt4o - structured - max_len 2048
 python main.py --mode=rag-llm --csv_path=data/moa_fda_queries_answers.csv --model_type=gpt --model_api=gpt-4o-2024-05-13 --strategy=0 --context_chunks=data/structured_context_chunks.json --num_iter=5 --output_dir=output/RAG_res_gpt4o/structured --temp=0.0 --max_len=2048 --random_seed=2025 2>&1 | tee logs/gpt4o_structured_stra0.log
 
@@ -56,6 +59,14 @@ python main.py --mode=rag-llm-batch --csv_path=data/latest_db/moalmanac_small_te
 
 #gpt4o - structured - max_len 2048 - with latest context db, synthetic prompts full, human-text-style context - hybrid search retrieval 
 python main.py --mode=rag-llm --csv_path=data/latest_db/moalmanac_core_query__2025-09-04.csv --model_type=gpt --model_api=gpt-4o-2024-05-13 --strategy=0 --context_chunks=data/latest_db/indexes/text-embedding-3-small_structured_context__2025-09-04.json --num_iter=1 --output_dir=output/RAG_res_gpt4o/structured_latest_db_prompts_humantextctxv1_hybrid --temp=0.0 --max_len=2048 --random_seed=2025 2>&1 | tee logs/gpt4o_structured_latest_db_prompts_humantextctxv1_hybrid_stra0.log
+
+#gpt4o - structured - max_len 2048 - with latest context db, synthetic prompts full, human-text-style context - dense search retrieval 
+python main.py --mode=rag-llm --csv_path=data/latest_db/moalmanac_core_query__2025-09-04.csv --model_type=gpt --model_api=gpt-4o-2024-05-13 --strategy=0 --context_chunks=data/latest_db/indexes/text-embedding-3-small_structured_context__2025-09-04.json --num_iter=1 --output_dir=output/RAG_res_gpt4o/structured_latest_db_prompts_humantextctxv1 --temp=0.0 --max_len=2048 --random_seed=2025 2>&1 | tee logs/gpt4o_structured_latest_db_prompts_humantextctxv1_stra0.log
+
+#gpt4o default - structured - max_len 2048 - with latest context db, synthetic prompts small, human-text-style context - dense search retrieval 
+python main.py --mode=rag-llm-batch --csv_path=data/latest_db/moalmanac_small_testing_dataset__v2.csv --model_type=gpt --model_api=gpt-4o-2024-08-06 --strategy=0 --context_chunks=data/latest_db/indexes/text-embedding-3-small_structured_context__2025-09-04.json --num_iter=1 --output_dir=output/RAG_res_gpt4o_default/structured_latest_db_prompts_humantextctxv1 --temp=0.0 --max_len=2048 --random_seed=2025 2>&1 | tee logs/gpt4o_default_structured_latest_db_prompts_humantextctxv1_stra0.log
+
+python main.py --mode=rag-llm --csv_path=data/latest_db/moalmanac_small_testing_dataset__v2.csv --model_type=gpt --model_api=gpt-4o-2024-08-06 --strategy=0 --context_chunks=data/latest_db/indexes/text-embedding-3-small_structured_context__2025-09-04.json --num_iter=1 --output_dir=output/RAG_res_gpt4o_default/structured_latest_db_prompts_humantextctxv1 --temp=0.0 --max_len=2048 --random_seed=2025 2>&1 | tee logs/gpt4o_default_structured_latest_db_prompts_humantextctxv1_stra0.log
 
 
 # ================ gpt5 ================ #

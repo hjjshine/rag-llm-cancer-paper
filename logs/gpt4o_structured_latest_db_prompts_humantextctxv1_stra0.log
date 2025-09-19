@@ -1,4 +1,4 @@
-CSV path: data/latest_db/moalmanac_small_testing_dataset__v2.csv
+CSV path: data/latest_db/moalmanac_core_query__2025-09-04.csv
 Model type: gpt
 Model API endpoint: gpt-4o-2024-05-13
 Prompt strategy: 0
@@ -6,4 +6,4 @@ Number of iterations: 1
 Random seed: 2025
 Temperature: 0.0
 Output name: output/RAG_res_gpt4o/structured_latest_db_prompts_humantextctxv1
-Time elapsed for iteration 0: 0.7034 min
+Time elapsed for iteration 0: 43.7269 min

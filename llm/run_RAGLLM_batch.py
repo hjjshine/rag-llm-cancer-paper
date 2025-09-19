@@ -33,7 +33,7 @@ def run_ragllm_batch(
     max_len, 
     temp, 
     random_seed,
-    hybrid_search=False
+    hybrid_search=True
     ):
     """
     Generate responses for a batch of prompts using the OpenAI Batch API.
