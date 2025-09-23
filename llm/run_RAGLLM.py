@@ -43,7 +43,7 @@ def run_RAG(
     max_len, 
     temp, 
     random_seed,
-    hybrid_search=False
+    hybrid_search=True
     ) -> Tuple[Optional[str], str]:
     """
     Augment context and run LLM inference.
