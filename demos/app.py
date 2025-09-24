@@ -26,7 +26,7 @@ if not st.session_state.authenticated:
         st.error("Incorrect password.")
         st.stop()
 
-    st.stop() 
+    st.stop()
 
 st.set_page_config(page_title="RAG-LLM", layout="centered")
 st.title("RAG-LLM for Precision Cancer Medicine")
@@ -34,8 +34,9 @@ st.markdown(
     "📄 [Read the Preprint](https://www.medrxiv.org/content/10.1101/2025.05.09.25327312v2.full.pdf) • "
     "💻 [GitHub Repository](https://github.com/hjjshine/rag-llm-cancer-paper)"
 )
-st.caption("_Note: The order of results does **not** indicate priority. Research use only, not for clinical care._")
-
+st.caption(
+    "_Note: The order of results does **not** indicate priority. Research use only, not for clinical care._"
+)
 
 
 # ---------- Session state ----------
@@ -62,34 +63,28 @@ st.sidebar.header("Model settings")
 pending_run_mode = st.sidebar.radio(
     "Run mode",
     ["RAG-LLM", "LLM only"],
-    index=0 if st.session_state.applied["run_mode"] == "RAG-LLM" else 1
+    index=0 if st.session_state.applied["run_mode"] == "RAG-LLM" else 1,
 )
 
-default_api = "gpt-4o-2024-05-13"
-model_options = [default_api, "dummy_api_1", "dummy_api_2"]
-
-pending_model_api = st.sidebar.selectbox(
-    "Model API",
-    options=model_options,
-    index=model_options.index(st.session_state.applied.get("model_api", default_api))
-    if st.session_state.applied.get("model_api", default_api) in model_options
-    else 0,
-    help = 'Model API name'
-)
+# Hard-set the model API (no user selection)
+default_api = "gpt-4o-2024-08-06"
+pending_model_api = default_api
 
 pending_strategy = st.sidebar.selectbox(
     "Prompt strategy",
     [0, 1, 2, 3, 4, 5],
     index=st.session_state.applied["strategy"],
-    help="Prompt strategy. See [prompt.py](https://github.com/hjjshine/rag-llm-cancer-paper/blob/main/utils/prompt.py) for details."
+    help="Prompt strategy. See [prompt.py](https://github.com/hjjshine/rag-llm-cancer-paper/blob/main/utils/prompt.py) for details.",
 )
 
 # Temp
 pending_temperature = st.sidebar.number_input(
     "Temperature",
-    min_value=0.0, max_value=1.0, step=0.1,
+    min_value=0.0,
+    max_value=1.0,
+    step=0.1,
     value=float(st.session_state.applied.get("temperature", 0)),
-    help="Sampling temperature (0.0 for deterministic)."
+    help="Sampling temperature (0.0 for deterministic).",
 )
 
 # Max output tokens selector
@@ -97,17 +92,17 @@ pending_max_len = st.sidebar.selectbox(
     "Max output tokens",
     options=[2048, 4096],
     index=0 if st.session_state.applied.get("max_len", 2048) == 2048 else 1,
-    help=("Maximum output token LLM can return.")
+    help=("Maximum output token LLM can return."),
 )
 
 # Unapplied changes?
 dirty = (
-    (st.session_state.applied["model_api"] != pending_model_api) or
-    (st.session_state.applied["run_mode"]  != pending_run_mode)  or
-    (st.session_state.applied["strategy"]  != pending_strategy)  or
-    (st.session_state.applied["temperature"] != pending_temperature) or
-    (st.session_state.applied["max_len"] != pending_max_len) or 
-    (not st.session_state.applied["initialized"])
+    (st.session_state.applied["model_api"] != pending_model_api)
+    or (st.session_state.applied["run_mode"] != pending_run_mode)
+    or (st.session_state.applied["strategy"] != pending_strategy)
+    or (st.session_state.applied["temperature"] != pending_temperature)
+    or (st.session_state.applied["max_len"] != pending_max_len)
+    or (not st.session_state.applied["initialized"])
 )
 
 
@@ -126,14 +121,16 @@ if apply_clicked:
             context_json_path="data/structured_context_chunks.json",
             model_api=pending_model_api,
         )
-    st.session_state.applied.update({
-        "model_api": pending_model_api,
-        "run_mode": pending_run_mode,
-        "strategy": pending_strategy,
-        "initialized": True,
-        "temperature": pending_temperature,
-        "max_len": pending_max_len
-    })
+    st.session_state.applied.update(
+        {
+            "model_api": pending_model_api,
+            "run_mode": pending_run_mode,
+            "strategy": pending_strategy,
+            "initialized": True,
+            "temperature": pending_temperature,
+            "max_len": pending_max_len,
+        }
+    )
     st.sidebar.success("Settings applied.")
     dirty = False
     st.session_state.last_answer = None
@@ -149,7 +146,7 @@ if dirty:
 q = st.text_area(
     "Your question",
     height=120,
-    placeholder="e.g., What EGFR-targeted therapies are FDA-approved for NSCLC?"
+    placeholder="e.g., What EGFR-targeted therapies are FDA-approved for NSCLC?",
 )
 ask_clicked = st.button("Ask")
 
@@ -178,7 +175,6 @@ if ask_clicked:
             "ts": time.strftime("%Y-%m-%d %H:%M:%S"),
         }
         st.session_state.last_answer_stale = False
-
 
 
 # ---------- Results renderer ----------
@@ -252,7 +248,7 @@ if st.session_state.last_answer:
                     f"Max tokens: {meta.get('max_len','')}"
                 )
 
-            render_cards_numbered(st.session_state.last_answer) 
+            render_cards_numbered(st.session_state.last_answer)
     else:
         st.subheader("Results")
         meta = st.session_state.last_answer_meta or {}
