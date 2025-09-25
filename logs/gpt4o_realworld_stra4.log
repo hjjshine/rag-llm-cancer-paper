@@ -1,0 +1,13 @@
+CSV path: data/real_world_queries.csv
+Model type: gpt
+Model API endpoint: gpt-4o-2024-05-13
+Prompt strategy: 4
+Number of iterations: 5
+Random seed: 2025
+Temperature: 0.0
+Output name: output/RAG_res_gpt4o/realworld
+Time elapsed for iteration 0: 1.6920 min
+Time elapsed for iteration 1: 1.0512 min
+Time elapsed for iteration 2: 1.6269 min
+Time elapsed for iteration 3: 1.6607 min
+Time elapsed for iteration 4: 1.6477 min

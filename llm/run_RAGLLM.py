@@ -108,9 +108,9 @@ def run_RAG(
     {query_prompt} 
     """
     
-    output, input_prompt = run_llm(input_prompt, client, model_type, model, max_len, temp, random_seed)
-    
-    return output, input_prompt, retrieval_results_dict
+    return run_llm(input_prompt, CLIENT, model_type, model, max_len, temp, random_seed)
+
+
 
 # ================== BATCH EXECUTION FUNCTIONS ==================
 def run_ragllm_on_prompts(
@@ -160,7 +160,7 @@ def run_ragllm_on_prompts(
         retrieval_res_ls.append(retrieval_results_dict)
         time.sleep(0.3)
     
-    return(output_test_ls, input_prompt_ls, retrieval_res_ls)
+    return(output_test_ls, input_prompt_ls)
 
 def run_iterations_rag(
     num_iterations, 
@@ -201,8 +201,9 @@ def run_iterations_rag(
         time_elapsed = str(f'{time_elapsed/60:.4f}')
         print(f'Time elapsed for iteration {i}: {time_elapsed} min')
         
-    return(output_ls, input_ls, retrieval_ls, runtime_ls)
+    return(output_ls, input_ls, runtime_ls)
 
+    
 # ================== MAIN ==================
 def main(args):
     

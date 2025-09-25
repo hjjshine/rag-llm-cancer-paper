@@ -1,0 +1,13 @@
+CSV path: data/real_world_queries.csv
+Model type: gpt_reasoning
+Model API endpoint: o4-mini-2025-04-16
+Prompt strategy: 4
+Number of iterations: 5
+Random seed: 2025
+Temperature: 0.0
+Output name: output/RAG_res_o4mini/realworld_maxlen4096
+Time elapsed for iteration 0: 4.7502 min
+Time elapsed for iteration 1: 3.3541 min
+Time elapsed for iteration 2: 3.1605 min
+Time elapsed for iteration 3: 3.5684 min
+Time elapsed for iteration 4: 3.5593 min

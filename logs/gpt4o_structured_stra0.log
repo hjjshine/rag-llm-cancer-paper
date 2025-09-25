@@ -1,0 +1,19 @@
+CSV path: data/moa_fda_queries_answers.csv
+Model type: gpt
+Model API endpoint: gpt-4o-2024-05-13
+Prompt strategy: 0
+Number of iterations: 5
+Random seed: 2025
+Temperature: 0.0
+Output name: output/RAG_res_gpt4o/structured
+Time elapsed for iteration 0: 17.6933 min
+Time elapsed for iteration 1: 17.9949 min
+[Retry] Rate limit hit. Sleeping 1.52s before retry 1...
+[Retry] Rate limit hit. Sleeping 1.23s before retry 1...
+[Retry] Rate limit hit. Sleeping 1.96s before retry 1...
+Time elapsed for iteration 2: 17.8252 min
+Time elapsed for iteration 3: 17.8690 min
+[Retry] Rate limit hit. Sleeping 1.34s before retry 1...
+[Retry] Rate limit hit. Sleeping 1.58s before retry 1...
+[Retry] Rate limit hit. Sleeping 1.52s before retry 1...
+Time elapsed for iteration 4: 17.9027 min
