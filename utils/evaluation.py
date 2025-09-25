@@ -1,23 +1,21 @@
 #utils/evaluation.py
 import sys
 import os
-script_dir = os.getcwd()
-root_dir = os.path.join(os.path.dirname(os.path.abspath(script_dir)))
-sys.path.append(os.path.join(os.path.dirname(os.path.abspath(script_dir))))
-
-from sklearn.metrics import precision_score, recall_score, f1_score
+root_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+sys.path.append(root_dir)
 from utils.io import load_object
-import pandas as pd
 import re
 
 # Load brand-generic name mapped dictionary and prompt-groundtruth (generic) mapped dictionary
 drug_names_mapping_dict=load_object(filename=os.path.join(root_dir,'data/fda_drug_names_mapping_dict.pkl'))
 
 # Extract ground-truth generic and brand names
-all_generic_names_set=set()
-for lst in drug_names_mapping_dict.values():
-    for name in lst:
-        all_generic_names_set.add(frozenset(name))
+# all_generic_names_set=set()
+# for lst in drug_names_mapping_dict.values():
+#     for name in lst:
+#         all_generic_names_set.add(frozenset(name))
+all_generic_names_set=load_object(os.path.join(root_dir,"data/latest_db/all_generic_drugs.pkl"))
+
 
 # Function to extract drug names
 def extract_drug_names(drug_lines):
