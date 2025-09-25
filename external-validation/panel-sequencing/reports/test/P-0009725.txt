@@ -1,0 +1,19 @@
+Patient ID: P-0009725
+Age: 67
+Gender: Female
+Sample ID: P-0009725-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Breast Invasive Ductal Carcinoma
+Sample Type: Metastasis
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+ARAF c.1385C>T (p.P462L) - in 19.00% of 1430 reads
+BAP1 c.1414G>A (p.G472R) - in 18.00% of 1734 reads
+MYCN c.340G>A (p.D114N) - in 14.00% of 521 reads
+PIK3CA c.1035T>A (p.N345K) - in 32.00% of 625 reads
+TP53 c.659A>G (p.Y220C) - in 26.00% of 1117 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

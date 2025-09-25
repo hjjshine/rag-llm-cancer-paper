@@ -1,0 +1,26 @@
+Patient ID: P-0020685
+Age: 60
+Gender: Female
+Sample ID: P-0020685-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 80.0%
+=============
+DNA Variants:
+EGFR c.2252_2276delinsA (p.T751_I759delinsN) - in 73.00% of 3328 reads
+PTPRT c.2973G>T (p.W991C) - in 13.00% of 1023 reads
+SESN2 c.218C>T (p.S73F) - in 17.00% of 1037 reads
+TP53 c.646G>A (p.V216M) - in 67.00% of 724 reads
+CNA Data:
+EGFR - High Level Amplification
+CCNE1 - High Level Amplification
+CEBPA - High Level Amplification
+FGFR1 - Homozygous Deletion
+KMT2B - High Level Amplification
+AKT2 - High Level Amplification
+WHSC1L1 - Homozygous Deletion
+DUSP4 - Homozygous Deletion
+NKX3-1 - Homozygous Deletion
+Structural Variants:
+No structural variant data found.

@@ -1,0 +1,27 @@
+Patient ID: P-0047559
+Age: 89
+Gender: Female
+Sample ID: P-0047559-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+EGFR c.2573T>G (p.L858R) - in 35.00% of 597 reads
+CNA Data:
+IL7R - High Level Amplification
+MDC1 - High Level Amplification
+FAM58A - Homozygous Deletion
+PAK1 - High Level Amplification
+NSD1 - High Level Amplification
+FGFR4 - High Level Amplification
+H3F3C - High Level Amplification
+MDM2 - High Level Amplification
+RICTOR - High Level Amplification
+TERT - High Level Amplification
+KRAS - High Level Amplification
+HLA-B - High Level Amplification
+HLA-A - High Level Amplification
+Structural Variants:
+No structural variant data found.

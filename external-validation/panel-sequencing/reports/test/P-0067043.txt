@@ -1,0 +1,25 @@
+Patient ID: P-0067043
+Age: 70
+Gender: Female
+Sample ID: P-0067043-T01-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: Unknown
+=============
+DNA Variants:
+ARHGAP35 c.2799C>G (p.I933M) - in 15.00% of 467 reads
+ARID2 c.3718G>A (p.D1240N) - in 16.00% of 459 reads
+B2M c.119C>T (p.S40L) - in 19.00% of 483 reads
+BARD1 c.2045C>T (p.T682I) - in 19.00% of 401 reads
+CD274 c.669A>C (p.E223D) - in 22.00% of 318 reads
+EGFR c.2239_2256del (p.L747_S752del) - in 28.00% of 351 reads
+EZH1 c.1144G>A (p.E382K) - in 13.00% of 486 reads
+KMT2C c.6691G>C (p.E2231Q) - in 15.00% of 462 reads
+NUP93 c.1746G>A (p.M582I) - in 12.00% of 258 reads
+PIK3CA c.1633G>A (p.E545K) - in 11.00% of 95 reads
+RASA1 c.101G>C (p.C34S) - in 11.00% of 611 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

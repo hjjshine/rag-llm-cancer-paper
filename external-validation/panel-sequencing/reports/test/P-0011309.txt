@@ -1,0 +1,17 @@
+Patient ID: P-0011309
+Age: 76
+Gender: Female
+Sample ID: P-0011309-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+EGFR c.2235_2249del (p.E746_A750del) - in 11.00% of 520 reads
+PDGFRB c.2098T>G (p.F700V) - in 8.00% of 470 reads
+TP53 c.819dup (p.V274Cfs*32) - in 13.00% of 626 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

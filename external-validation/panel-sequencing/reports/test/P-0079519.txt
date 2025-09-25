@@ -1,0 +1,18 @@
+Patient ID: P-0079519
+Age: 55
+Gender: Male
+Sample ID: P-0079519-T02-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+KDM5C c.151-1G>A (p.X51_splice) - in 30.00% of 203 reads
+NF2 c.260del (p.S87*) - in 8.00% of 333 reads
+RPTOR c.2737G>A (p.G913R) - in 7.00% of 481 reads
+TP53 c.716A>G (p.N239S) - in 13.00% of 306 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

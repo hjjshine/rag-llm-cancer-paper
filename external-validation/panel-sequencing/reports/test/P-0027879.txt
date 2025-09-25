@@ -1,0 +1,20 @@
+Patient ID: P-0027879
+Age: 60
+Gender: Female
+Sample ID: P-0027879-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Breast Invasive Ductal Carcinoma
+Sample Type: Metastasis
+Tumor Purity: 40.0%
+=============
+DNA Variants:
+GATA3 c.1221dup (p.P408Afs*99) - in 27.00% of 1078 reads
+KMT2C c.1796_1799del (p.D599Vfs*12) - in 28.00% of 737 reads
+CNA Data:
+CCND1 - High Level Amplification
+CTCF - High Level Amplification
+FGF4 - High Level Amplification
+FGF3 - High Level Amplification
+FGF19 - High Level Amplification
+Structural Variants:
+ROS1 - c.5778 (DELETION)

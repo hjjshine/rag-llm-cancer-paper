@@ -1,0 +1,18 @@
+Patient ID: P-0079802
+Age: 80
+Gender: Male
+Sample ID: P-0079802-T01-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+AMER1 c.1052C>A (p.A351E) - in 42.00% of 344 reads
+EGFR c.2573T>G (p.L858R) - in 45.00% of 751 reads
+IRS1 c.1270G>T (p.G424C) - in 22.00% of 671 reads
+TP53 c.844C>G (p.R282G) - in 68.00% of 635 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

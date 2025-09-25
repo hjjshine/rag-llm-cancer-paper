@@ -1,0 +1,19 @@
+Patient ID: P-0041429
+Age: 80
+Gender: Male
+Sample ID: P-0041429-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Prostate Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 10.0%
+=============
+DNA Variants:
+GATA1 c.302C>T (p.T101M) - in 57.00% of 227 reads
+KMT2D c.588dup (p.C197Lfs*23) - in 21.00% of 500 reads
+SETD2 c.4813T>A (p.Y1605N) - in 30.00% of 420 reads
+SF3B1 c.3236A>G (p.N1079S) - in 25.00% of 439 reads
+SPOP c.304T>G (p.F102V) - in 26.00% of 374 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+PTEN - PTEN (DELETION)

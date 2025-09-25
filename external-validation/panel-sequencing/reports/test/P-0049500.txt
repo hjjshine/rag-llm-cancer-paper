@@ -1,0 +1,18 @@
+Patient ID: P-0049500
+Age: 89
+Gender: Female
+Sample ID: P-0049500-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+ANKRD11 c.6641A>G (p.D2214G) - in 17.00% of 875 reads
+EGFR c.2237_2255delinsT (p.E746_S752delinsV) - in 19.00% of 883 reads
+CNA Data:
+CDKN2B - Homozygous Deletion
+CDKN2A - Homozygous Deletion
+CDKN2Ap14ARF - Homozygous Deletion
+Structural Variants:
+No structural variant data found.

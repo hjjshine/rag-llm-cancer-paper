@@ -1,0 +1,19 @@
+Patient ID: P-0029400
+Age: 42
+Gender: Female
+Sample ID: P-0029400-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+No DNA variant data found.
+CNA Data:
+CDKN2B - Homozygous Deletion
+CDKN2A - Homozygous Deletion
+CDKN2Ap14ARF - Homozygous Deletion
+MAP2K4 - Homozygous Deletion
+CDKN2Ap16INK4A - Homozygous Deletion
+Structural Variants:
+ALK - EML4 (INVERSION)

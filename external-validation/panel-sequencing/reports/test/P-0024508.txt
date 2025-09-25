@@ -1,0 +1,17 @@
+Patient ID: P-0024508
+Age: 48
+Gender: Male
+Sample ID: P-0024508-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Pancreatic Neuroendocrine Tumor
+Sample Type: Metastasis
+Tumor Purity: 50.0%
+=============
+DNA Variants:
+ATM c.6812C>G (p.P2271R) - in 39.00% of 424 reads
+MEN1 c.207del (p.D70Tfs*49) - in 33.00% of 935 reads
+CNA Data:
+CCND3 - High Level Amplification
+IFNGR1 - High Level Amplification
+Structural Variants:
+No structural variant data found.

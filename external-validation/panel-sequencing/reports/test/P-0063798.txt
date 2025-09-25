@@ -1,0 +1,25 @@
+Patient ID: P-0063798
+Age: 66
+Gender: Female
+Sample ID: P-0063798-T01-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 60.0%
+=============
+DNA Variants:
+ATR c.595A>G (p.M199V) - in 23.00% of 489 reads
+EGFR c.2573T>G (p.L858R) - in 74.00% of 1682 reads
+PALB2 c.837A>T (p.K279N) - in 32.00% of 859 reads
+PRDM14 c.625G>T (p.V209F) - in 19.00% of 882 reads
+STK40 c.841G>A (p.E281K) - in 33.00% of 686 reads
+TP53 c.298C>T (p.Q100*) - in 51.00% of 684 reads
+CNA Data:
+TAP1 - High Level Amplification
+PRKD1 - High Level Amplification
+EGFR - High Level Amplification
+FOXA1 - High Level Amplification
+NKX2-1 - High Level Amplification
+NFKBIA - High Level Amplification
+Structural Variants:
+NEGR1 - LPHN2 (INVERSION)

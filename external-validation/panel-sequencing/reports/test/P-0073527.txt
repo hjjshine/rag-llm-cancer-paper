@@ -1,0 +1,20 @@
+Patient ID: P-0073527
+Age: 68
+Gender: Female
+Sample ID: P-0073527-T01-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 10.0%
+=============
+DNA Variants:
+EGFR c.2573T>G (p.L858R) - in 19.00% of 662 reads
+HIST1H2BD c.52G>A (p.A18T) - in 7.00% of 844 reads
+NPM1 c.298T>G (p.L100V) - in 8.00% of 343 reads
+PTPRD c.4996C>T (p.L1666F) - in 9.00% of 479 reads
+TP53 c.473G>T (p.R158L) - in 17.00% of 770 reads
+USP8 c.1910C>T (p.T637I) - in 6.00% of 478 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

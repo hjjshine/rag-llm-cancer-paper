@@ -1,0 +1,22 @@
+Patient ID: P-0057379
+Age: 71
+Gender: Female
+Sample ID: P-0057379-T02-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 50.0%
+=============
+DNA Variants:
+CDKN1A c.49_50delinsAT (p.A17I) - in 23.00% of 364 reads
+EGFR c.2235_2249del (p.E746_A750del) - in 44.00% of 521 reads
+GATA1 c.581T>A (p.L194H) - in 10.00% of 351 reads
+NUF2 c.533A>G (p.E178G) - in 9.00% of 202 reads
+TP53 c.470T>G (p.V157G) - in 57.00% of 643 reads
+CNA Data:
+CDKN2B - Homozygous Deletion
+CDKN2A - Homozygous Deletion
+CDKN2Ap14ARF - Homozygous Deletion
+CDKN2Ap16INK4A - Homozygous Deletion
+Structural Variants:
+No structural variant data found.

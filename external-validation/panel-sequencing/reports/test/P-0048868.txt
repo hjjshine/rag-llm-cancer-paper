@@ -1,0 +1,17 @@
+Patient ID: P-0048868
+Age: 65
+Gender: Male
+Sample ID: P-0048868-T02-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 10.0%
+=============
+DNA Variants:
+EGFR c.2235_2249del (p.E746_A750del) - in 21.00% of 502 reads
+GRIN2A c.307G>A (p.D103N) - in 9.00% of 790 reads
+TSC1 c.648del (p.F216Lfs*8) - in 15.00% of 273 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

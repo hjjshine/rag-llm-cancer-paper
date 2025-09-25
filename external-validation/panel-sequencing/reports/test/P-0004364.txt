@@ -1,0 +1,17 @@
+Patient ID: P-0004364
+Age: 56
+Gender: Male
+Sample ID: P-0004364-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Pancreatic Neuroendocrine Tumor
+Sample Type: Metastasis
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+ARID1A c.5422A>T (p.K1808*) - in 60.00% of 369 reads
+BRAF c.1799T>A (p.V600E) - in 68.00% of 568 reads
+NOTCH3 c.5543G>A (p.R1848H) - in 28.00% of 778 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

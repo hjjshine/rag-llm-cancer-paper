@@ -1,0 +1,20 @@
+Patient ID: P-0062374
+Age: 66
+Gender: Male
+Sample ID: P-0062374-T02-IM7
+Gene Panel: IMPACT505
+Cancer Type: Pancreatic Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+BRAF c.1799_1801del (p.V600_K601delinsE) - in 15.00% of 137 reads
+CDKN2A c.151-2_152delinsC (p.X51_splice) - in 25.00% of 357 reads
+FOXL2 c.655C>T (p.Q219*) - in 8.00% of 225 reads
+SMAD4 c.355T>A (p.F119I) - in 10.00% of 153 reads
+TP53 c.817C>T (p.R273C) - in 16.00% of 384 reads
+TSC2 c.3308G>C (p.R1103T) - in 9.00% of 411 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

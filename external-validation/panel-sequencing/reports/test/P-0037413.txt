@@ -1,0 +1,17 @@
+Patient ID: P-0037413
+Age: 77
+Gender: Female
+Sample ID: P-0037413-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 10.0%
+=============
+DNA Variants:
+EGFR c.2582T>A (p.L861Q) - in 6.00% of 793 reads
+TP53 c.644G>A (p.S215N) - in 6.00% of 657 reads
+XIAP c.782_789del (p.S261*) - in 5.00% of 566 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

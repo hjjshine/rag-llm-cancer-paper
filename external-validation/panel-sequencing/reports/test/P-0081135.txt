@@ -1,0 +1,42 @@
+Patient ID: P-0081135
+Age: 76
+Gender: Female
+Sample ID: P-0081135-T01-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Unknown
+Tumor Purity: 70.0%
+=============
+DNA Variants:
+CARD11 c.484G>A (p.E162K) - in 46.00% of 462 reads
+DOT1L c.786A>C (p.E262D) - in 20.00% of 547 reads
+FAM175A c.7G>C (p.G3R) - in 6.00% of 315 reads
+INPPL1 c.601G>T (p.A201S) - in 12.00% of 806 reads
+TP53 c.749C>T (p.P250L) - in 62.00% of 377 reads
+TRIP13 c.984C>G (p.F328L) - in 7.00% of 1815 reads
+CNA Data:
+JAK2 - Homozygous Deletion
+CDKN2B - Homozygous Deletion
+CDKN2A - Homozygous Deletion
+MCL1 - High Level Amplification
+AURKA - High Level Amplification
+CDKN2Ap14ARF - Homozygous Deletion
+PDCD1LG2 - Homozygous Deletion
+SETDB1 - High Level Amplification
+CD274 - Homozygous Deletion
+GNAS - High Level Amplification
+H3C13 - High Level Amplification
+H3C14 - High Level Amplification
+SMARCA2 - Homozygous Deletion
+TERT - High Level Amplification
+TRIP13 - High Level Amplification
+FTSJD1 - Homozygous Deletion
+ACVR1 - High Level Amplification
+CDKN2Ap16INK4A - Homozygous Deletion
+RTEL1 - High Level Amplification
+MTAP - Homozygous Deletion
+PTPRD - Homozygous Deletion
+SDHA - High Level Amplification
+Structural Variants:
+CRIM1 - ALK (INVERSION)
+EML4 - ALK (INVERSION)

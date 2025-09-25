@@ -1,0 +1,24 @@
+Patient ID: P-0053709
+Age: 67
+Gender: Female
+Sample ID: P-0053709-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 40.0%
+=============
+DNA Variants:
+ARID1B c.6487C>G (p.L2163V) - in 24.00% of 511 reads
+CREBBP c.6612_6623delGCAGCAGCAACA (p.Q2213_Q2216del) - in 8.00% of 1436 reads
+EGFR c.2235_2249del (p.E746_A750del) - in 80.00% of 932 reads
+EPHA3 c.2290G>C (p.D764H) - in 42.00% of 435 reads
+PIK3CG c.721C>T (p.P241S) - in 28.00% of 992 reads
+TP53 c.586C>G (p.R196G) - in 76.00% of 670 reads
+TSC2 c.2733C>A (p.F911L) - in 27.00% of 1099 reads
+CNA Data:
+CDKN2B - Homozygous Deletion
+FLCN - Homozygous Deletion
+CD276 - Homozygous Deletion
+SDHA - High Level Amplification
+Structural Variants:
+No structural variant data found.

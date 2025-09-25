@@ -1,0 +1,25 @@
+Patient ID: P-0057856
+Age: 78
+Gender: Female
+Sample ID: P-0057856-T02-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: Unknown
+=============
+DNA Variants:
+ASXL2 c.3959C>T (p.P1320L) - in 7.00% of 506 reads
+CTNNB1 c.110C>G (p.S37C) - in 8.00% of 410 reads
+EGFR c.2240_2254del (p.L747_T751del) - in 14.00% of 528 reads
+MAP3K1 c.1619A>T (p.N540I) - in 13.00% of 496 reads
+PAX5 c.112C>T (p.R38C) - in 7.00% of 645 reads
+PPM1D c.1403C>G (p.S468*) - in 6.00% of 628 reads
+CNA Data:
+RECQL4 - High Level Amplification
+FOXA1 - High Level Amplification
+NKX2-1 - High Level Amplification
+MYC - High Level Amplification
+AGO2 - High Level Amplification
+Structural Variants:
+PIK3CG - PIK3CG (DELETION)
+SPEN - SPEN (INVERSION)

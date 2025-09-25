@@ -1,0 +1,23 @@
+Patient ID: P-0015061
+Age: 82
+Gender: Male
+Sample ID: P-0015061-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+BBC3 c.625C>T (p.H209Y) - in 7.00% of 1669 reads
+CIC c.1007G>T (p.C336F) - in 14.00% of 1677 reads
+DICER1 c.2196_2198del (p.E733del) - in 24.00% of 599 reads
+EGFR c.2235_2249del (p.E746_A750del) - in 21.00% of 1080 reads
+MLL3 c.3955G>C (p.D1319H) - in 6.00% of 835 reads
+PRDM14 c.51C>A (p.Y17*) - in 12.00% of 1806 reads
+RB1 c.381-2A>G (p.X127_splice) - in 35.00% of 162 reads
+CNA Data:
+MDM2 - High Level Amplification
+AKT2 - High Level Amplification
+MYC - High Level Amplification
+Structural Variants:
+ZFHX3 - ZFHX3 (INVERSION)

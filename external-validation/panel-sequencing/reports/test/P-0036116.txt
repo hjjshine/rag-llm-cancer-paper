@@ -1,0 +1,22 @@
+Patient ID: P-0036116
+Age: 57
+Gender: Male
+Sample ID: P-0036116-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Pancreatic Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 10.0%
+=============
+DNA Variants:
+CSF1R c.1879A>T (p.K627*) - in 8.00% of 527 reads
+FANCA c.4011-1G>C (p.X1337_splice) - in 13.00% of 464 reads
+FANCA c.1029G>T (p.Q343H) - in 15.00% of 488 reads
+IDH1 c.442G>T (p.G148W) - in 14.00% of 922 reads
+KRAS c.35G>T (p.G12V) - in 14.00% of 733 reads
+RBM10 c.3G>C (p.M1?) - in 21.00% of 395 reads
+SMAD4 c.1157G>T (p.G386V) - in 15.00% of 550 reads
+SMAD4 c.956-1G>T (p.X319_splice) - in 15.00% of 479 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

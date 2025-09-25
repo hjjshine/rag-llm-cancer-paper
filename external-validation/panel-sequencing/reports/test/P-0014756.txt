@@ -1,0 +1,46 @@
+Patient ID: P-0014756
+Age: 45
+Gender: Male
+Sample ID: P-0014756-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Prostate Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 80.0%
+=============
+DNA Variants:
+AXIN1 c.1603G>A (p.V535I) - in 42.00% of 1074 reads
+BCL10 c.499del (p.S167Lfs*6) - in 38.00% of 594 reads
+BRCA1 c.3805G>A (p.D1269N) - in 39.00% of 698 reads
+BRD4 c.1235A>G (p.Y412C) - in 39.00% of 795 reads
+CASP8 c.1596dupA (p.L533Tfs*6) - in 34.00% of 655 reads
+CD79A c.390del (p.R131Gfs*61) - in 37.00% of 485 reads
+CHEK2 c.844C>A (p.H282N) - in 36.00% of 433 reads
+CYLD c.2156del (p.N719Mfs*13) - in 6.00% of 562 reads
+DOT1L c.3106G>T (p.D1036Y) - in 40.00% of 912 reads
+ERF c.157G>A (p.G53R) - in 35.00% of 877 reads
+FAT1 c.4675G>A (p.A1559T) - in 43.00% of 652 reads
+KDM5A c.3754C>T (p.R1252C) - in 56.00% of 670 reads
+MDC1 c.803G>T (p.R268M) - in 39.00% of 847 reads
+MED12 c.6285_6287delACA (p.Q2115del) - in 5.00% of 205 reads
+MGA c.7731delA (p.D2578Tfs*10) - in 59.00% of 351 reads
+MLL4 c.1942C>T (p.R648W) - in 37.00% of 705 reads
+MYC c.1261G>C (p.V421L) - in 44.00% of 1037 reads
+NCOR1 c.2319dupA (p.P774Tfs*3) - in 40.00% of 797 reads
+NFE2L2 c.1719_1729dupAAAACCTTATT (p.S577*) - in 21.00% of 743 reads
+NFE2L2 c.1707_1711dupTGATG (p.E571Vfs*43) - in 22.00% of 792 reads
+NOTCH4 c.5002C>T (p.R1668C) - in 42.00% of 811 reads
+POLD1 c.2209T>A (p.S737T) - in 37.00% of 723 reads
+POLD1 c.1859C>T (p.T620M) - in 40.00% of 942 reads
+RET c.260G>A (p.C87Y) - in 36.00% of 745 reads
+RET c.1078C>T (p.R360W) - in 38.00% of 716 reads
+SETD2 c.4873C>T (p.R1625C) - in 42.00% of 1239 reads
+SMARCB1 c.946C>T (p.R316W) - in 37.00% of 739 reads
+SMO c.584T>C (p.V195A) - in 20.00% of 1592 reads
+TGFBR2 c.470C>T (p.T157I) - in 45.00% of 916 reads
+TP53BP1 c.2145del (p.E716Nfs*12) - in 35.00% of 976 reads
+CNA Data:
+EPCAM - Homozygous Deletion
+KDM6A - Homozygous Deletion
+AR - High Level Amplification
+Structural Variants:
+MSH2 - MSH2 (DELETION)

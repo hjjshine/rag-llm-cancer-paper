@@ -1,0 +1,23 @@
+Patient ID: P-0085517
+Age: 85
+Gender: Male
+Sample ID: P-0085517-T01-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 60.0%
+=============
+DNA Variants:
+ATRX c.3713A>C (p.H1238P) - in 38.00% of 261 reads
+BLM c.1259A>T (p.D420V) - in 19.00% of 667 reads
+CSDE1 c.1513A>G (p.I505V) - in 22.00% of 459 reads
+EGFR c.2236_2255delinsAT (p.E746_S752delinsI) - in 16.00% of 604 reads
+PTPRT c.2426C>G (p.T809S) - in 14.00% of 562 reads
+RB1 c.763C>T (p.R255*) - in 31.00% of 412 reads
+TP53 c.193A>T (p.R65*) - in 25.00% of 610 reads
+TSC2 c.461C>T (p.T154I) - in 16.00% of 551 reads
+CNA Data:
+BTK - High Level Amplification
+PHF6 - High Level Amplification
+Structural Variants:
+No structural variant data found.

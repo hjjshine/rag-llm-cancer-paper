@@ -1,0 +1,17 @@
+Patient ID: P-0037767
+Age: 69
+Gender: Female
+Sample ID: P-0037767-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+AXIN1 c.280G>T (p.D94Y) - in 9.00% of 298 reads
+EGFR c.2573T>G (p.L858R) - in 13.00% of 297 reads
+CNA Data:
+CDK4 - High Level Amplification
+MDM2 - High Level Amplification
+Structural Variants:
+CA10 - RECQL4 (TRANSLOCATION)

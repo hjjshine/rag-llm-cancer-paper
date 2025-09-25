@@ -1,0 +1,42 @@
+Patient ID: P-0025739
+Age: 78
+Gender: Female
+Sample ID: P-0025739-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+BRAF c.1397G>T (p.G466V) - in 42.00% of 559 reads
+BRCA1 c.852G>C (p.Q284H) - in 9.00% of 587 reads
+DIS3 c.1270G>T (p.G424*) - in 20.00% of 248 reads
+DROSHA c.2576del (p.H859Lfs*3) - in 18.00% of 374 reads
+EP300 c.3955G>C (p.G1319R) - in 7.00% of 610 reads
+EPHA3 c.950C>A (p.P317H) - in 9.00% of 412 reads
+FH c.730C>G (p.L244V) - in 6.00% of 520 reads
+FLT3 c.742+1G>T (p.X248_splice) - in 12.00% of 366 reads
+IL7R c.1187A>G (p.N396S) - in 6.00% of 693 reads
+INPP4A c.612G>T (p.E204D) - in 6.00% of 534 reads
+INPPL1 c.883C>T (p.P295S) - in 8.00% of 706 reads
+KIT c.462G>C (p.K154N) - in 26.00% of 572 reads
+KMT2C c.11892G>T (p.Q3964H) - in 19.00% of 622 reads
+PIK3R3 c.203G>T (p.G68V) - in 16.00% of 404 reads
+PREX2 c.1685G>T (p.R562L) - in 23.00% of 522 reads
+PTPRD c.2720T>A (p.M907K) - in 12.00% of 573 reads
+PTPRS c.4459A>G (p.I1487V) - in 24.00% of 589 reads
+PTPRT c.3171G>C (p.E1057D) - in 48.00% of 660 reads
+RAD21 c.718G>T (p.G240C) - in 11.00% of 514 reads
+RECQL4 c.287_300del (p.R96Lfs*36) - in 6.00% of 678 reads
+SHQ1 c.1666A>G (p.K556E) - in 11.00% of 603 reads
+SOX2 c.274G>T (p.D92Y) - in 37.00% of 503 reads
+SUZ12 c.95C>T (p.A32V) - in 11.00% of 198 reads
+TGFBR1 c.487G>T (p.D163Y) - in 20.00% of 396 reads
+TGFBR2 c.1146dup (p.I383Dfs*7) - in 8.00% of 410 reads
+TP53 c.783-1G>T (p.X261_splice) - in 10.00% of 375 reads
+TSHR c.484C>A (p.P162T) - in 27.00% of 493 reads
+WHSC1 c.2470C>T (p.R824*) - in 19.00% of 510 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+ARID5B - nan (DELETION)

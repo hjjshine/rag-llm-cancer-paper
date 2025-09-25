@@ -1,0 +1,30 @@
+Patient ID: P-0086468
+Age: 74
+Gender: Female
+Sample ID: P-0086468-T01-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+AGO2 c.1996T>A (p.F666I) - in 27.00% of 604 reads
+CDKN2A c.322G>A (p.D108N) - in 31.00% of 453 reads
+EGFR c.2573T>G (p.L858R) - in 70.00% of 1207 reads
+EP300 c.3742A>G (p.T1248A) - in 16.00% of 364 reads
+IDH2 c.29C>G (p.S10W) - in 26.00% of 255 reads
+TP53 c.743_744delinsAA (p.R248Q) - in 27.00% of 356 reads
+CNA Data:
+H3-3B - High Level Amplification
+ETV1 - High Level Amplification
+EGFR - High Level Amplification
+CCNE1 - High Level Amplification
+CEBPA - High Level Amplification
+RAC1 - High Level Amplification
+CARD11 - High Level Amplification
+INHBA - High Level Amplification
+PMS2 - High Level Amplification
+EPHA3 - High Level Amplification
+IKZF1 - High Level Amplification
+Structural Variants:
+No structural variant data found.

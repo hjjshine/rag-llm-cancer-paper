@@ -1,0 +1,22 @@
+Patient ID: P-0057194
+Age: 62
+Gender: Female
+Sample ID: P-0057194-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 60.0%
+=============
+DNA Variants:
+EGFR c.2235_2249del (p.E746_A750del) - in 42.00% of 559 reads
+FAT1 c.8200C>A (p.L2734I) - in 32.00% of 376 reads
+NOTCH1 c.6332G>C (p.R2111T) - in 24.00% of 1136 reads
+TERT c.1439C>G (p.S480C) - in 48.00% of 1671 reads
+TERT c.1001C>T (p.S334F) - in 53.00% of 1857 reads
+TERT c.451C>T (p.H151Y) - in 49.00% of 1536 reads
+TERT nan (nan) - in 57.00% of 272 reads
+TP53 c.375+1del (p.X125_splice) - in 57.00% of 575 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

@@ -1,0 +1,15 @@
+Patient ID: P-0041875
+Age: 69
+Gender: Female
+Sample ID: P-0041875-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 10.0%
+=============
+DNA Variants:
+EGFR c.2573T>G (p.L858R) - in 17.00% of 1126 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+CEBPA - CEBPA (INVERSION)

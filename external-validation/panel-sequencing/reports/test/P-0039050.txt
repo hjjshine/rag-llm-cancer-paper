@@ -1,0 +1,31 @@
+Patient ID: P-0039050
+Age: 48
+Gender: Male
+Sample ID: P-0039050-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 60.0%
+=============
+DNA Variants:
+EGFR c.2239_2254delinsCAAC (p.L747_S752delinsQP) - in 83.00% of 6929 reads
+KDM5C c.1202C>T (p.A401V) - in 82.00% of 474 reads
+NOTCH4 c.3506G>A (p.R1169Q) - in 27.00% of 1771 reads
+RB1 c.1960G>A (p.V654M) - in 69.00% of 289 reads
+TP53 c.713G>A (p.C238Y) - in 66.00% of 600 reads
+CNA Data:
+EGFR - High Level Amplification
+PLCG2 - Homozygous Deletion
+RECQL4 - High Level Amplification
+PDGFRA - High Level Amplification
+ZFHX3 - Homozygous Deletion
+FANCA - Homozygous Deletion
+KIT - High Level Amplification
+KDR - High Level Amplification
+ANKRD11 - Homozygous Deletion
+TERT - High Level Amplification
+AGO2 - High Level Amplification
+IKZF1 - High Level Amplification
+SDHA - High Level Amplification
+Structural Variants:
+No structural variant data found.

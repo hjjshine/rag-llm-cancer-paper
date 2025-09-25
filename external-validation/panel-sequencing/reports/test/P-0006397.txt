@@ -1,0 +1,16 @@
+Patient ID: P-0006397
+Age: 89
+Gender: Female
+Sample ID: P-0006397-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+BRAF c.1799T>A (p.V600E) - in 5.00% of 595 reads
+TP53 c.548C>G (p.S183*) - in 6.00% of 741 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

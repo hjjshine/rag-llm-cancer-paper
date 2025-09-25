@@ -1,0 +1,32 @@
+Patient ID: P-0003224
+Age: 63
+Gender: Female
+Sample ID: P-0003224-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Breast Invasive Ductal Carcinoma
+Sample Type: Metastasis
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+AR c.1225G>A (p.G409R) - in 18.00% of 321 reads
+ARID1A c.413C>G (p.S138*) - in 16.00% of 70 reads
+CCNE1 c.79C>T (p.R27C) - in 22.00% of 512 reads
+CDH1 c.2440-1G>A (p.X814_splice) - in 28.00% of 294 reads
+DNMT3B c.1960C>T (p.L654F) - in 16.00% of 682 reads
+ESR1 c.1613A>G (p.D538G) - in 20.00% of 416 reads
+GATA3 c.1011dup (p.C338Lfs*14) - in 18.00% of 536 reads
+IGF1R c.3267T>A (p.S1089R) - in 21.00% of 559 reads
+MAP3K1 c.1595G>A (p.R532Q) - in 19.00% of 665 reads
+NF1 c.2323G>A (p.E775K) - in 18.00% of 566 reads
+PIK3CA c.3140A>G (p.H1047R) - in 19.00% of 455 reads
+PIK3CA c.317G>T (p.G106V) - in 22.00% of 631 reads
+POLE c.52G>A (p.E18K) - in 14.00% of 138 reads
+RAD50 c.3109G>C (p.E1037Q) - in 17.00% of 424 reads
+RICTOR c.1624G>C (p.E542Q) - in 19.00% of 488 reads
+CNA Data:
+CCND1 - High Level Amplification
+FGF4 - High Level Amplification
+FGF3 - High Level Amplification
+FGF19 - High Level Amplification
+Structural Variants:
+No structural variant data found.

@@ -1,0 +1,21 @@
+Patient ID: P-0008707
+Age: 66
+Gender: Female
+Sample ID: P-0008707-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Pancreatic Neuroendocrine Tumor
+Sample Type: Metastasis
+Tumor Purity: 60.0%
+=============
+DNA Variants:
+DAXX c.1603G>T (p.E535*) - in 59.00% of 235 reads
+MEN1 c.753del (p.I252Lfs*34) - in 60.00% of 302 reads
+CNA Data:
+CDKN2B - Homozygous Deletion
+CDKN2A - Homozygous Deletion
+CDKN2Ap14ARF - Homozygous Deletion
+GNAS - High Level Amplification
+CDKN2Ap16INK4A - Homozygous Deletion
+PRKAR1A - High Level Amplification
+Structural Variants:
+No structural variant data found.

@@ -1,0 +1,20 @@
+Patient ID: P-0076802
+Age: 66
+Gender: Female
+Sample ID: P-0076802-T01-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 40.0%
+=============
+DNA Variants:
+CBL c.2037-2A>T (p.X679_splice) - in 23.00% of 507 reads
+EGFR c.2235_2249del (p.E746_A750del) - in 32.00% of 479 reads
+KMT2C c.7615C>G (p.Q2539E) - in 25.00% of 665 reads
+RB1 c.2212-1G>C (p.X738_splice) - in 19.00% of 198 reads
+TP53 c.488A>G (p.Y163C) - in 18.00% of 597 reads
+ZFHX3 c.770C>T (p.S257F) - in 17.00% of 600 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

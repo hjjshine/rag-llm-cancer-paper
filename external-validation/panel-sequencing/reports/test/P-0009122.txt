@@ -1,0 +1,17 @@
+Patient ID: P-0009122
+Age: 71
+Gender: Female
+Sample ID: P-0009122-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Breast Invasive Ductal Carcinoma
+Sample Type: Metastasis
+Tumor Purity: 80.0%
+=============
+DNA Variants:
+ATR c.7691A>G (p.E2564G) - in 41.00% of 840 reads
+MAP2K4 c.513+2T>C (p.X171_splice) - in 38.00% of 484 reads
+TP53 c.673-2A>G (p.X225_splice) - in 39.00% of 392 reads
+CNA Data:
+ARID5B - High Level Amplification
+Structural Variants:
+No structural variant data found.

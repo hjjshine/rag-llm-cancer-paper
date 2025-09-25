@@ -1,0 +1,33 @@
+Patient ID: P-0017977
+Age: 81
+Gender: Female
+Sample ID: P-0017977-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+DDR2 c.2496G>C (p.W832C) - in 25.00% of 696 reads
+EGFR c.2240_2254del (p.L747_T751del) - in 5.00% of 4485 reads
+KDM5C c.202C>T (p.R68*) - in 50.00% of 342 reads
+NFE2L2 c.229G>C (p.D77H) - in 31.00% of 692 reads
+TGFBR2 c.943G>A (p.E315K) - in 47.00% of 289 reads
+TP53 c.837del (p.R280Efs*65) - in 48.00% of 360 reads
+CNA Data:
+EGFR - High Level Amplification
+PLCG2 - Homozygous Deletion
+CDKN2B - Homozygous Deletion
+CDKN2A - Homozygous Deletion
+TEK - High Level Amplification
+FANCA - Homozygous Deletion
+CDKN2Ap14ARF - Homozygous Deletion
+ANKRD11 - Homozygous Deletion
+TERT - High Level Amplification
+EIF1AX - Homozygous Deletion
+DROSHA - High Level Amplification
+CDKN2Ap16INK4A - Homozygous Deletion
+ZRSR2 - Homozygous Deletion
+SDHA - High Level Amplification
+Structural Variants:
+No structural variant data found.

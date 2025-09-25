@@ -1,0 +1,15 @@
+Patient ID: P-0050024
+Age: 62
+Gender: Male
+Sample ID: P-0050024-T02-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+MET c.2937_3028+10del (p.X979_splice) - in 29.00% of 941 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+MET - nan (nan)

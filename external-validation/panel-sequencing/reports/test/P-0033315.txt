@@ -1,0 +1,33 @@
+Patient ID: P-0033315
+Age: 46
+Gender: Male
+Sample ID: P-0033315-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 60.0%
+=============
+DNA Variants:
+ASXL2 c.950A>G (p.D317G) - in 38.00% of 504 reads
+CDKN2A c.151-18_211del (p.X51_splice) - in 31.00% of 370 reads
+CSF3R c.271C>T (p.H91Y) - in 19.00% of 936 reads
+EGFR c.2240_2257del (p.L747_P753delinsS) - in 76.00% of 1869 reads
+PLCG2 c.914A>C (p.K305T) - in 49.00% of 596 reads
+PTPRT c.2940A>C (p.Q980H) - in 22.00% of 439 reads
+TP53 c.602dup (p.L201Ffs*8) - in 56.00% of 644 reads
+CNA Data:
+PRKD1 - High Level Amplification
+EGFR - High Level Amplification
+RAC1 - High Level Amplification
+CARD11 - High Level Amplification
+FOXA1 - High Level Amplification
+TCEB1 - High Level Amplification
+NKX2-1 - High Level Amplification
+MYC - High Level Amplification
+PMS2 - High Level Amplification
+NFKBIA - High Level Amplification
+EPHA3 - High Level Amplification
+NBN - High Level Amplification
+Structural Variants:
+KCNMB3 - PIK3CB (DELETION)
+ROS1 - nan (DELETION)

@@ -1,0 +1,18 @@
+Patient ID: P-0022837
+Age: 66
+Gender: Female
+Sample ID: P-0022837-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Breast Mixed Ductal and Lobular Carcinoma
+Sample Type: Metastasis
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+FGF4 c.198G>C (p.E66D) - in 13.00% of 833 reads
+CNA Data:
+CCND1 - High Level Amplification
+FGF4 - High Level Amplification
+FGF3 - High Level Amplification
+FGF19 - High Level Amplification
+Structural Variants:
+No structural variant data found.

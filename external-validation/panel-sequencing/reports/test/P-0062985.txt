@@ -1,0 +1,15 @@
+Patient ID: P-0062985
+Age: 41
+Gender: Female
+Sample ID: P-0062985-T02-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+No DNA variant data found.
+CNA Data:
+No CNA data found.
+Structural Variants:
+EML4 - ALK (INVERSION)

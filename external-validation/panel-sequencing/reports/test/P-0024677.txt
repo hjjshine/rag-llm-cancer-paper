@@ -1,0 +1,18 @@
+Patient ID: P-0024677
+Age: 46
+Gender: Male
+Sample ID: P-0024677-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+CYSLTR2 c.407G>A (p.R136H) - in 24.00% of 1098 reads
+EGFR c.2237_2255delinsT (p.E746_S752delinsV) - in 18.00% of 862 reads
+TP53 c.743G>A (p.R248Q) - in 24.00% of 951 reads
+CNA Data:
+TERT - High Level Amplification
+SDHA - High Level Amplification
+Structural Variants:
+No structural variant data found.

@@ -1,0 +1,22 @@
+Patient ID: P-0012251
+Age: 63
+Gender: Male
+Sample ID: P-0012251-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+EGFR c.2235_2249del (p.E746_A750del) - in 74.00% of 3146 reads
+EPHA5 c.2908G>A (p.V970I) - in 10.00% of 979 reads
+TP53 c.488A>G (p.Y163C) - in 26.00% of 844 reads
+CNA Data:
+EGFR - High Level Amplification
+CDKN2B - Homozygous Deletion
+CDKN2A - Homozygous Deletion
+CDKN2Ap14ARF - Homozygous Deletion
+IKZF1 - High Level Amplification
+CDKN2Ap16INK4A - Homozygous Deletion
+Structural Variants:
+No structural variant data found.

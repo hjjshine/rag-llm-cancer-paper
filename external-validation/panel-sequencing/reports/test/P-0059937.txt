@@ -1,0 +1,20 @@
+Patient ID: P-0059937
+Age: 78
+Gender: Female
+Sample ID: P-0059937-T01-IM7
+Gene Panel: IMPACT505
+Cancer Type: Pancreatic Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+ARID2 c.4708A>G (p.I1570V) - in 8.00% of 435 reads
+KDM6A c.3474del (p.N1158Kfs*20) - in 9.00% of 419 reads
+KRAS c.35G>T (p.G12V) - in 9.00% of 339 reads
+SMAD4 c.368del (p.C123Lfs*6) - in 10.00% of 355 reads
+SMARCA4 c.4066C>T (p.R1356W) - in 8.00% of 486 reads
+TP53 c.524G>A (p.R175H) - in 10.00% of 452 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

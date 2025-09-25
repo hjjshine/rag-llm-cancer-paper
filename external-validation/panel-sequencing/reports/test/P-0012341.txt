@@ -1,0 +1,20 @@
+Patient ID: P-0012341
+Age: 72
+Gender: Female
+Sample ID: P-0012341-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+ARID1A c.1060C>T (p.Q354*) - in 15.00% of 184 reads
+BRAF c.1799T>A (p.V600E) - in 11.00% of 698 reads
+DNMT1 c.4723C>T (p.Q1575*) - in 7.00% of 768 reads
+ERBB3 c.1147A>C (p.K383Q) - in 9.00% of 1045 reads
+PMS2 c.1747G>A (p.E583K) - in 5.00% of 993 reads
+TP53 c.832C>A (p.P278T) - in 15.00% of 1017 reads
+CNA Data:
+MYC - High Level Amplification
+Structural Variants:
+No structural variant data found.

@@ -1,0 +1,19 @@
+Patient ID: P-0084841
+Age: 39
+Gender: Male
+Sample ID: P-0084841-T01-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+GAB2 c.965C>G (p.S322*) - in 16.00% of 1015 reads
+LZTR1 c.650_651+1del (p.WEdel) - in 23.00% of 625 reads
+PDPK1 c.1614G>C (p.K538N) - in 14.00% of 826 reads
+PIK3C2G c.762-1G>C (p.X254_splice) - in 18.00% of 376 reads
+PIK3R1 c.701A>G (p.H234R) - in 28.00% of 571 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+CD74 - ROS1 (TRANSLOCATION)

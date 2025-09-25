@@ -1,0 +1,15 @@
+Patient ID: P-0007701
+Age: 76
+Gender: Female
+Sample ID: P-0007701-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: Unknown
+=============
+DNA Variants:
+EGFR c.2239_2248delinsC (p.L747_A750delinsP) - in 2.00% of 934 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

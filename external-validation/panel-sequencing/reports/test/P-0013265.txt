@@ -1,0 +1,26 @@
+Patient ID: P-0013265
+Age: 68
+Gender: Female
+Sample ID: P-0013265-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Breast Invasive Cancer, NOS
+Sample Type: Metastasis
+Tumor Purity: 70.0%
+=============
+DNA Variants:
+ATR c.40G>T (p.A14S) - in 7.00% of 2104 reads
+EPHB1 c.1209del (p.F404Lfs*44) - in 11.00% of 1475 reads
+KDR c.2022G>C (p.E674D) - in 17.00% of 1223 reads
+KIT c.2378T>C (p.L793S) - in 35.00% of 780 reads
+MLL3 c.12730A>C (p.I4244L) - in 20.00% of 868 reads
+NCOR1 c.2047A>T (p.K683*) - in 21.00% of 944 reads
+NKX2-1 c.1097G>A (p.S366N) - in 18.00% of 503 reads
+PIK3CB c.1771_1776del (p.L591_Q592del) - in 8.00% of 1425 reads
+TP53 c.722C>T (p.S241F) - in 52.00% of 1086 reads
+CNA Data:
+PIK3CB - High Level Amplification
+RECQL4 - High Level Amplification
+ATR - High Level Amplification
+FOXL2 - High Level Amplification
+Structural Variants:
+No structural variant data found.

@@ -1,0 +1,17 @@
+Patient ID: P-0044496
+Age: 68
+Gender: Female
+Sample ID: P-0044496-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+EGFR c.2239_2248delinsC (p.L747_A750delinsP) - in 17.00% of 656 reads
+SMAD4 c.1611C>A (p.D537E) - in 17.00% of 486 reads
+TP53 c.640C>G (p.H214D) - in 14.00% of 954 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

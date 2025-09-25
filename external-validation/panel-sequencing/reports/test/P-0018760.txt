@@ -1,0 +1,21 @@
+Patient ID: P-0018760
+Age: 30
+Gender: Female
+Sample ID: P-0018760-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Rectal Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+APC c.1690C>T (p.R564*) - in 17.00% of 197 reads
+ERBB4 c.836T>G (p.F279C) - in 8.00% of 237 reads
+PTPRS c.2566G>T (p.A856S) - in 18.00% of 573 reads
+TP53 c.527G>T (p.C176F) - in 11.00% of 646 reads
+TP53 c.702C>G (p.Y234*) - in 25.00% of 638 reads
+CNA Data:
+ERBB2 - High Level Amplification
+CDK12 - High Level Amplification
+RARA - High Level Amplification
+Structural Variants:
+No structural variant data found.

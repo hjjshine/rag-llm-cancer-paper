@@ -8,3 +8,5 @@ context_retriever/entities/tmp_files/
 data/latest_db/tmp_db/
 external-validation/
 data/real_world_db/updated_real_world_queries_answers__v1.csv
+__pycache__/
+*.safetensors

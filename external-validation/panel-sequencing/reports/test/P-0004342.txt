@@ -1,0 +1,15 @@
+Patient ID: P-0004342
+Age: 83
+Gender: Female
+Sample ID: P-0004342-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 40.0%
+=============
+DNA Variants:
+EGFR c.2573T>G (p.L858R) - in 13.00% of 329 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

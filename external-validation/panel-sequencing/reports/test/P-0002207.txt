@@ -1,0 +1,22 @@
+Patient ID: P-0002207
+Age: 76
+Gender: Male
+Sample ID: P-0002207-T01-IM3
+Gene Panel: IMPACT341
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+ARID1A c.1135C>G (p.Q379E) - in 11.00% of 116 reads
+BLM c.3577G>C (p.E1193Q) - in 8.00% of 544 reads
+CIC c.4738G>C (p.E1580Q) - in 8.00% of 392 reads
+EGFR c.2573T>G (p.L858R) - in 54.00% of 751 reads
+NCOR1 c.3005G>C (p.R1002T) - in 12.00% of 800 reads
+ROS1 c.1478G>T (p.R493L) - in 19.00% of 870 reads
+TP53 c.484A>T (p.I162F) - in 37.00% of 439 reads
+CNA Data:
+SDHA - High Level Amplification
+PRKAR1A - High Level Amplification
+Structural Variants:
+No structural variant data found.

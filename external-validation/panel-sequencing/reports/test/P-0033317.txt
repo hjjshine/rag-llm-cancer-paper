@@ -1,0 +1,19 @@
+Patient ID: P-0033317
+Age: 67
+Gender: Female
+Sample ID: P-0033317-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+BRAF c.1799T>A (p.V600E) - in 8.00% of 395 reads
+CUL3 c.692C>T (p.S231L) - in 18.00% of 438 reads
+CUL3 c.683A>G (p.N228S) - in 18.00% of 387 reads
+INPP4B c.815A>G (p.H272R) - in 9.00% of 296 reads
+TP53 c.646G>T (p.V216L) - in 11.00% of 833 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

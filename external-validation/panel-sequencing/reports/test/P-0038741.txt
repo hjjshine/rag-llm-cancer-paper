@@ -1,0 +1,44 @@
+Patient ID: P-0038741
+Age: 39
+Gender: Female
+Sample ID: P-0038741-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Breast Invasive Ductal Carcinoma
+Sample Type: Metastasis
+Tumor Purity: Unknown
+=============
+DNA Variants:
+BRCA2 c.3961G>A (p.D1321N) - in 37.00% of 164 reads
+PRKD1 c.553C>T (p.H185Y) - in 25.00% of 280 reads
+SUFU c.829G>A (p.D277N) - in 19.00% of 447 reads
+TP53 c.1025G>C (p.R342P) - in 87.00% of 279 reads
+CNA Data:
+SOX17 - Homozygous Deletion
+TOP1 - High Level Amplification
+NCOA3 - High Level Amplification
+ERBB2 - High Level Amplification
+CDK12 - High Level Amplification
+RARA - High Level Amplification
+TGFBR2 - Homozygous Deletion
+AURKA - High Level Amplification
+H3F3C - High Level Amplification
+FGFR1 - High Level Amplification
+PPM1D - High Level Amplification
+SRC - High Level Amplification
+LYN - Homozygous Deletion
+GNAS - High Level Amplification
+MSI1 - Homozygous Deletion
+RAB35 - Homozygous Deletion
+WHSC1L1 - High Level Amplification
+KRAS - High Level Amplification
+MST1R - Homozygous Deletion
+ASXL1 - Homozygous Deletion
+RNF43 - Homozygous Deletion
+ETV6 - Homozygous Deletion
+DUSP4 - Homozygous Deletion
+PTPRT - High Level Amplification
+NKX3-1 - Homozygous Deletion
+RTEL1 - High Level Amplification
+BAP1 - Homozygous Deletion
+Structural Variants:
+No structural variant data found.

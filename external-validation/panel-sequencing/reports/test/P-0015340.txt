@@ -1,0 +1,18 @@
+Patient ID: P-0015340
+Age: 84
+Gender: Male
+Sample ID: P-0015340-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Pancreatic Neuroendocrine Tumor
+Sample Type: Metastasis
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+AXIN1 c.883G>A (p.G295R) - in 19.00% of 523 reads
+DAXX c.2213A>T (p.D738V) - in 39.00% of 551 reads
+MEN1 c.249_252delGTCT (p.I85Sfs*33) - in 36.00% of 530 reads
+PTEN c.195C>A (p.Y65*) - in 36.00% of 306 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

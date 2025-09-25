@@ -1,0 +1,31 @@
+Patient ID: P-0060605
+Age: 60
+Gender: Male
+Sample ID: P-0060605-T01-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 60.0%
+=============
+DNA Variants:
+EGFR c.2235_2249del (p.E746_A750del) - in 88.00% of 1759 reads
+ERCC3 c.1850_1866del (p.L617Pfs*25) - in 50.00% of 476 reads
+RB1 c.909dup (p.G304Wfs*6) - in 76.00% of 183 reads
+TP53 c.817C>T (p.R273C) - in 76.00% of 467 reads
+CNA Data:
+PIK3C2G - Homozygous Deletion
+CCND2 - Homozygous Deletion
+PTEN - Homozygous Deletion
+CDKN1B - Homozygous Deletion
+ETV1 - High Level Amplification
+EGFR - High Level Amplification
+RAD52 - Homozygous Deletion
+INHBA - High Level Amplification
+PMS2 - High Level Amplification
+KRAS - Homozygous Deletion
+KDM5A - Homozygous Deletion
+RECQL - Homozygous Deletion
+ETV6 - Homozygous Deletion
+IKZF1 - High Level Amplification
+Structural Variants:
+No structural variant data found.

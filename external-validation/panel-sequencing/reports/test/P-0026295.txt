@@ -1,0 +1,16 @@
+Patient ID: P-0026295
+Age: 83
+Gender: Female
+Sample ID: P-0026295-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 10.0%
+=============
+DNA Variants:
+BCL2 c.19A>T (p.T7S) - in 9.00% of 496 reads
+EGFR c.2573T>G (p.L858R) - in 3.00% of 620 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

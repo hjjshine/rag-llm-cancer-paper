@@ -1,0 +1,23 @@
+Patient ID: P-0012268
+Age: 57
+Gender: Male
+Sample ID: P-0012268-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Colon Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+APC c.2861T>A (p.L954*) - in 24.00% of 1005 reads
+APC c.3916delinsAA (p.E1306Kfs*9) - in 9.00% of 485 reads
+ATM c.1009C>T (p.R337C) - in 13.00% of 788 reads
+EP300 c.2470C>T (p.Q824*) - in 16.00% of 1376 reads
+GRIN2A c.2371C>A (p.L791M) - in 15.00% of 712 reads
+KRAS c.34G>T (p.G12C) - in 13.00% of 750 reads
+PIK3CA c.263G>A (p.R88Q) - in 14.00% of 1705 reads
+PTEN c.43A>G (p.R15G) - in 19.00% of 314 reads
+RICTOR c.1018C>T (p.P340S) - in 11.00% of 1063 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

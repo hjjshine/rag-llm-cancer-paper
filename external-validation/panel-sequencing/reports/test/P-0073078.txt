@@ -1,0 +1,18 @@
+Patient ID: P-0073078
+Age: 71
+Gender: Male
+Sample ID: P-0073078-T02-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+BRCA1 c.4846G>A (p.A1616T) - in 10.00% of 431 reads
+GRIN2A c.3052G>A (p.V1018M) - in 6.00% of 427 reads
+MET c.2888-35_2888-11del (p.*963*) - in 24.00% of 422 reads
+NF1 c.4600C>T (p.R1534*) - in 13.00% of 319 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

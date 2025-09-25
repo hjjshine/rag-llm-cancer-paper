@@ -1,0 +1,21 @@
+Patient ID: P-0069007
+Age: 57
+Gender: Female
+Sample ID: P-0069007-T02-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+ARID1A c.6358G>T (p.E2120*) - in 7.00% of 895 reads
+BRCA2 c.4264G>C (p.E1422Q) - in 8.00% of 731 reads
+EGFR c.2236_2250del (p.E746_A750del) - in 16.00% of 659 reads
+NOTCH3 c.1264G>A (p.G422S) - in 7.00% of 842 reads
+PDCD1LG2 c.472G>A (p.V158I) - in 8.00% of 637 reads
+SMAD4 c.1082G>A (p.R361H) - in 11.00% of 599 reads
+TP53 c.637C>T (p.R213*) - in 15.00% of 736 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

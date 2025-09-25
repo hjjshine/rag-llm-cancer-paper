@@ -1,0 +1,16 @@
+Patient ID: P-0010296
+Age: 56
+Gender: Female
+Sample ID: P-0010296-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Breast Invasive Ductal Carcinoma
+Sample Type: Metastasis
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+FOXA1 c.725_728delinsGCTC (p.S242_Y243delinsCS) - in 8.00% of 1330 reads
+PIK3CA c.3139C>T (p.H1047Y) - in 7.00% of 620 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

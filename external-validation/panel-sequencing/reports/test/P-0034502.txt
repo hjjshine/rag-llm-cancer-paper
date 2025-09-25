@@ -1,0 +1,17 @@
+Patient ID: P-0034502
+Age: 55
+Gender: Female
+Sample ID: P-0034502-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 40.0%
+=============
+DNA Variants:
+EGFR c.2236_2250del (p.E746_A750del) - in 22.00% of 440 reads
+PTEN c.277del (p.H93Ifs*6) - in 11.00% of 384 reads
+TP53 c.808T>G (p.F270V) - in 15.00% of 598 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

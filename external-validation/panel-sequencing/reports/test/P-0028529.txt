@@ -1,0 +1,17 @@
+Patient ID: P-0028529
+Age: 76
+Gender: Female
+Sample ID: P-0028529-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+NF1 c.4084C>T (p.R1362*) - in 10.00% of 296 reads
+TP53 c.97-2A>G (p.X33_splice) - in 15.00% of 260 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+CCDC6 - ROS1 (nan)
+ROS1 - nan (TRANSLOCATION)

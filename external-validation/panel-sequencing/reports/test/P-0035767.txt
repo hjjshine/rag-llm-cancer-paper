@@ -1,0 +1,16 @@
+Patient ID: P-0035767
+Age: 62
+Gender: Male
+Sample ID: P-0035767-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Pancreatic Neuroendocrine Tumor
+Sample Type: Primary
+Tumor Purity: 50.0%
+=============
+DNA Variants:
+No DNA variant data found.
+CNA Data:
+No CNA data found.
+Structural Variants:
+ETV6 - NTRK3 (nan)
+ETV6 - NTRK3 (TRANSLOCATION)

@@ -1,0 +1,15 @@
+Patient ID: P-0000474
+Age: 41
+Gender: Female
+Sample ID: P-0000474-T01-IM3
+Gene Panel: IMPACT341
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+No DNA variant data found.
+CNA Data:
+No CNA data found.
+Structural Variants:
+ALK - EML4 (INVERSION)

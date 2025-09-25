@@ -1,0 +1,15 @@
+Patient ID: P-0075912
+Age: 77
+Gender: Male
+Sample ID: P-0075912-T01-IM7
+Gene Panel: IMPACT505
+Cancer Type: Prostate Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 60.0%
+=============
+DNA Variants:
+FOXA1 c.1231C>G (p.Q411E) - in 29.00% of 917 reads
+CNA Data:
+PTEN - Homozygous Deletion
+Structural Variants:
+TMPRSS2 - ERG (DELETION)

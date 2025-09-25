@@ -1,0 +1,16 @@
+Patient ID: P-0037379
+Age: 89
+Gender: Male
+Sample ID: P-0037379-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Non-Small Cell Lung Cancer
+Sample Type: Metastasis
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+EGFR c.2573T>G (p.L858R) - in 48.00% of 842 reads
+ZFHX3 c.8395_8437del (p.L2800Kfs*10) - in 7.00% of 766 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

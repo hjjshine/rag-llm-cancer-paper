@@ -1,0 +1,31 @@
+Patient ID: P-0038939
+Age: 40
+Gender: Female
+Sample ID: P-0038939-T02-IM6
+Gene Panel: IMPACT468
+Cancer Type: Breast Invasive Carcinoma, NOS
+Sample Type: Metastasis
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+GATA3 c.1221_1226delinsA (p.P408Qfs*97) - in 33.00% of 722 reads
+PREX2 c.3248A>T (p.K1083I) - in 23.00% of 666 reads
+TP53 c.560-1G>C (p.X187_splice) - in 42.00% of 480 reads
+CNA Data:
+CCND1 - High Level Amplification
+SESN1 - High Level Amplification
+SMO - High Level Amplification
+FAM58A - High Level Amplification
+FGFR1 - High Level Amplification
+PPM1D - High Level Amplification
+CD79B - High Level Amplification
+CD276 - High Level Amplification
+MAP2K1 - High Level Amplification
+SPOP - High Level Amplification
+WHSC1L1 - High Level Amplification
+RNF43 - High Level Amplification
+FGF4 - High Level Amplification
+FGF3 - High Level Amplification
+FGF19 - High Level Amplification
+Structural Variants:
+No structural variant data found.

@@ -1,0 +1,16 @@
+Patient ID: P-0045222
+Age: 67
+Gender: Female
+Sample ID: P-0045222-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 10.0%
+=============
+DNA Variants:
+ERCC3 c.529G>A (p.V177I) - in 11.00% of 412 reads
+GATA2 c.810C>A (p.F270L) - in 6.00% of 1071 reads
+CNA Data:
+MDM2 - High Level Amplification
+Structural Variants:
+EML4 - ALK (INVERSION)

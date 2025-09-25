@@ -1,0 +1,20 @@
+Patient ID: P-0027828
+Age: 67
+Gender: Female
+Sample ID: P-0027828-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+CCND2 c.484C>T (p.H162Y) - in 30.00% of 541 reads
+EGFR c.2235_2249del (p.E746_A750del) - in 88.00% of 4592 reads
+TP53 c.838A>G (p.R280G) - in 28.00% of 703 reads
+CNA Data:
+EGFR - High Level Amplification
+CDK6 - High Level Amplification
+TERT - High Level Amplification
+PTPRD - Homozygous Deletion
+Structural Variants:
+No structural variant data found.

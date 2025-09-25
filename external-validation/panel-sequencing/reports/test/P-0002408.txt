@@ -1,0 +1,15 @@
+Patient ID: P-0002408
+Age: 80
+Gender: Male
+Sample ID: P-0002408-T01-IM3
+Gene Panel: IMPACT341
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: Unknown
+=============
+DNA Variants:
+FLT3 c.2882G>A (p.R961H) - in 18.00% of 842 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+EML4 - EML4 (INVERSION)

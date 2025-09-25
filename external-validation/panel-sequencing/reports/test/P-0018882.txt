@@ -1,0 +1,21 @@
+Patient ID: P-0018882
+Age: 53
+Gender: Female
+Sample ID: P-0018882-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Breast Invasive Ductal Carcinoma
+Sample Type: Primary
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+AMER1 c.3223G>C (p.A1075P) - in 31.00% of 526 reads
+ARID1A c.5548dup (p.D1850Gfs*4) - in 25.00% of 831 reads
+CDH1 c.187C>T (p.R63*) - in 39.00% of 703 reads
+NCOR1 c.4152+1del (p.X1384_splice) - in 38.00% of 537 reads
+PIK3CA c.3140A>T (p.H1047L) - in 28.00% of 934 reads
+RUNX1 c.784C>T (p.Q262*) - in 27.00% of 936 reads
+CNA Data:
+SOX17 - High Level Amplification
+LYN - High Level Amplification
+Structural Variants:
+No structural variant data found.

@@ -1,0 +1,22 @@
+Patient ID: P-0077149
+Age: 55
+Gender: Female
+Sample ID: P-0077149-T02-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 70.0%
+=============
+DNA Variants:
+APC c.4101_4102del (p.Q1367Hfs*7) - in 23.00% of 482 reads
+CREBBP c.5182C>T (p.L1728F) - in 12.00% of 461 reads
+EGFR c.2240_2254del (p.L747_T751del) - in 16.00% of 429 reads
+ERRFI1 c.1022dup (p.Y341*) - in 18.00% of 601 reads
+FUBP1 c.1687A>G (p.T563A) - in 16.00% of 480 reads
+LZTR1 c.416A>C (p.D139A) - in 19.00% of 437 reads
+SESN1 c.348C>G (p.I116M) - in 15.00% of 425 reads
+TSC2 c.3692_3698del (p.L1231Pfs*92) - in 6.00% of 592 reads
+CNA Data:
+MDM2 - High Level Amplification
+Structural Variants:
+ERCC2 - DBP (INVERSION)

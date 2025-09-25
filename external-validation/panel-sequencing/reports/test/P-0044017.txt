@@ -1,0 +1,19 @@
+Patient ID: P-0044017
+Age: 83
+Gender: Male
+Sample ID: P-0044017-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+B2M c.249T>G (p.Y83*) - in 8.00% of 360 reads
+EGFR c.2235_2249del (p.E746_A750del) - in 24.00% of 545 reads
+TP53 c.830G>T (p.C277F) - in 9.00% of 921 reads
+TP53 c.880G>T (p.E294*) - in 16.00% of 1032 reads
+TP53 c.329G>T (p.R110L) - in 2.00% of 952 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+CDKN2A - CDKN2A (DELETION)

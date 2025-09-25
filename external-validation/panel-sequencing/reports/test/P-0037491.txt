@@ -1,0 +1,31 @@
+Patient ID: P-0037491
+Age: 78
+Gender: Female
+Sample ID: P-0037491-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 70.0%
+=============
+DNA Variants:
+FGF3 c.336C>A (p.S112R) - in 29.00% of 905 reads
+SMO c.350G>A (p.R117H) - in 27.00% of 941 reads
+TP53 c.818G>A (p.R273H) - in 57.00% of 446 reads
+CNA Data:
+CDKN2B - Homozygous Deletion
+CDKN2A - Homozygous Deletion
+ARID1B - Homozygous Deletion
+ARID1A - Homozygous Deletion
+TEK - Homozygous Deletion
+CDKN2Ap14ARF - Homozygous Deletion
+GPS2 - Homozygous Deletion
+PARK2 - Homozygous Deletion
+FLCN - Homozygous Deletion
+TP53 - Homozygous Deletion
+ALOX12B - Homozygous Deletion
+MAP2K4 - Homozygous Deletion
+AURKB - Homozygous Deletion
+NCOR1 - Homozygous Deletion
+CDKN2Ap16INK4A - Homozygous Deletion
+Structural Variants:
+EML4 - ALK (INVERSION)

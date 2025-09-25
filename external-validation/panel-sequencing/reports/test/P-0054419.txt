@@ -1,0 +1,20 @@
+Patient ID: P-0054419
+Age: 53
+Gender: Female
+Sample ID: P-0054419-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+ERF c.1463G>T (p.W488L) - in 29.00% of 622 reads
+KDM5C c.973dup (p.Y325Lfs*11) - in 28.00% of 449 reads
+TP53 c.817C>T (p.R273C) - in 31.00% of 554 reads
+CNA Data:
+CDKN2B - Homozygous Deletion
+CDKN2A - Homozygous Deletion
+CDKN2Ap14ARF - Homozygous Deletion
+CDKN2Ap16INK4A - Homozygous Deletion
+Structural Variants:
+SDC4 - ROS1 (TRANSLOCATION)

@@ -1,0 +1,22 @@
+Patient ID: P-0032124
+Age: 82
+Gender: Female
+Sample ID: P-0032124-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: Unknown
+=============
+DNA Variants:
+ARAF c.121G>T (p.V41F) - in 5.00% of 779 reads
+EGFR c.2573T>G (p.L858R) - in 20.00% of 772 reads
+IGF1R c.1480C>T (p.H494Y) - in 6.00% of 754 reads
+RBM10 c.217C>T (p.Q73*) - in 23.00% of 766 reads
+CNA Data:
+MDM2 - High Level Amplification
+TCF7L2 - High Level Amplification
+KRAS - High Level Amplification
+RECQL - High Level Amplification
+ACVR1 - High Level Amplification
+Structural Variants:
+TCF7L2 - PPP2CA (TRANSLOCATION)

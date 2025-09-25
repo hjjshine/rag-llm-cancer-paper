@@ -1,0 +1,15 @@
+Patient ID: P-0054264
+Age: 89
+Gender: Male
+Sample ID: P-0054264-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Prostate Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 50.0%
+=============
+DNA Variants:
+ALK c.3210_3249delinsA (p.M1071_L1083del) - in 25.00% of 1127 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+MYC - MYC (DUPLICATION)

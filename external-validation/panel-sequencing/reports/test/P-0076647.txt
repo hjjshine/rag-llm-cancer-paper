@@ -1,0 +1,17 @@
+Patient ID: P-0076647
+Age: 81
+Gender: Female
+Sample ID: P-0076647-T01-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 10.0%
+=============
+DNA Variants:
+EGFR c.323G>A (p.R108K) - in 9.00% of 596 reads
+EGFR c.2582T>A (p.L861Q) - in 6.00% of 605 reads
+TP53 c.376-1G>T (p.X126_splice) - in 7.00% of 519 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

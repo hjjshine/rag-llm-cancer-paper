@@ -1,0 +1,18 @@
+Patient ID: P-0031743
+Age: 72
+Gender: Female
+Sample ID: P-0031743-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Breast Invasive Carcinoma, NOS
+Sample Type: Metastasis
+Tumor Purity: 10.0%
+=============
+DNA Variants:
+CDH1 c.1939C>T (p.Q647*) - in 19.00% of 371 reads
+FGFR4 c.95C>T (p.P32L) - in 6.00% of 532 reads
+MAP3K13 c.2000C>T (p.A667V) - in 20.00% of 701 reads
+MYCN c.1073C>T (p.P358L) - in 19.00% of 625 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

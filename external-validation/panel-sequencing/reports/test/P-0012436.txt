@@ -1,0 +1,19 @@
+Patient ID: P-0012436
+Age: 83
+Gender: Female
+Sample ID: P-0012436-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+ARID2 c.1691del (p.S564*) - in 8.00% of 383 reads
+CTNNB1 c.98C>T (p.S33F) - in 10.00% of 882 reads
+EGFR c.2235_2249del (p.E746_A750del) - in 12.00% of 768 reads
+SMAD4 c.250-1G>A (p.X84_splice) - in 11.00% of 424 reads
+ZFHX3 c.7354C>T (p.P2452S) - in 11.00% of 1538 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

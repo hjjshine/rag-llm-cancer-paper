@@ -1,0 +1,23 @@
+Patient ID: P-0071426
+Age: 76
+Gender: Male
+Sample ID: P-0071426-T01-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Squamous Cell Carcinoma
+Sample Type: Primary
+Tumor Purity: 50.0%
+=============
+DNA Variants:
+CDKN2A c.151-2A>T (p.X51_splice) - in 58.00% of 499 reads
+ERBB3 c.529A>C (p.K177Q) - in 35.00% of 725 reads
+GRIN2A c.1076C>T (p.P359L) - in 27.00% of 477 reads
+IGF1R c.4097C>G (p.T1366S) - in 26.00% of 537 reads
+MEN1 c.1382G>T (p.R461L) - in 21.00% of 771 reads
+NUF2 c.201G>A (p.M67I) - in 43.00% of 260 reads
+TP53 c.499C>T (p.Q167*) - in 36.00% of 792 reads
+TP53 c.797G>T (p.G266V) - in 24.00% of 586 reads
+CNA Data:
+EGFR - High Level Amplification
+CTLA4 - High Level Amplification
+Structural Variants:
+No structural variant data found.

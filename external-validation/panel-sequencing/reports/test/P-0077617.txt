@@ -1,0 +1,23 @@
+Patient ID: P-0077617
+Age: 84
+Gender: Female
+Sample ID: P-0077617-T01-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+ATR c.1023G>C (p.L341F) - in 16.00% of 500 reads
+EGFR c.2239_2248delinsC (p.L747_A750delinsP) - in 22.00% of 511 reads
+FAT1 c.3832G>T (p.D1278Y) - in 27.00% of 733 reads
+FBXW7 c.1202_1236+6del (p.X401_splice) - in 26.00% of 354 reads
+CNA Data:
+CDKN2B - Homozygous Deletion
+CDKN2A - Homozygous Deletion
+CDKN2Ap14ARF - Homozygous Deletion
+CDKN2Ap16INK4A - Homozygous Deletion
+MTAP - Homozygous Deletion
+Structural Variants:
+ATR - LINC01322 (DELETION)
+MAP3K13 - MAP3K13 (TRANSLOCATION)

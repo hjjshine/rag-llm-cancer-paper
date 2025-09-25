@@ -1,0 +1,19 @@
+Patient ID: P-0059464
+Age: 67
+Gender: Female
+Sample ID: P-0059464-T02-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 10.0%
+=============
+DNA Variants:
+CDKN2A c.182_189del (p.E61Afs*56) - in 7.00% of 421 reads
+CTNNB1 c.100G>C (p.G34R) - in 10.00% of 491 reads
+EGFR c.2235_2249del (p.E746_A750del) - in 11.00% of 461 reads
+SMAD4 c.1572G>T (p.W524C) - in 6.00% of 466 reads
+U2AF1 c.101C>T (p.S34F) - in 12.00% of 391 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

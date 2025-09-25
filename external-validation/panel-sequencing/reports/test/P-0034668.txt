@@ -1,0 +1,18 @@
+Patient ID: P-0034668
+Age: 76
+Gender: Male
+Sample ID: P-0034668-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+ARID1A c.1345C>T (p.Q449*) - in 6.00% of 405 reads
+CCND1 c.140G>A (p.C47Y) - in 8.00% of 834 reads
+CCND1 c.130_132delinsCAG (p.Y44Q) - in 7.00% of 855 reads
+EGFR c.2573T>G (p.L858R) - in 3.00% of 678 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

@@ -1,0 +1,18 @@
+Patient ID: P-0080659
+Age: 83
+Gender: Female
+Sample ID: P-0080659-T01-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+MET c.2888-19_2889del (p.X963_splice) - in 20.00% of 654 reads
+PDGFRA c.2152C>T (p.R718W) - in 5.00% of 536 reads
+CNA Data:
+CDK4 - High Level Amplification
+MDM2 - High Level Amplification
+GLI1 - High Level Amplification
+Structural Variants:
+No structural variant data found.

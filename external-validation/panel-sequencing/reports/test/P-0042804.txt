@@ -1,0 +1,20 @@
+Patient ID: P-0042804
+Age: 75
+Gender: Female
+Sample ID: P-0042804-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 40.0%
+=============
+DNA Variants:
+AR c.2723T>A (p.L908H) - in 16.00% of 592 reads
+EGFR c.2236_2250del (p.E746_A750del) - in 23.00% of 282 reads
+PIK3CA c.1633G>A (p.E545K) - in 8.00% of 160 reads
+RB1 c.1853C>G (p.S618*) - in 17.00% of 132 reads
+TP53 c.743G>A (p.R248Q) - in 3.00% of 655 reads
+TP53 c.360G>T (p.K120N) - in 20.00% of 670 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

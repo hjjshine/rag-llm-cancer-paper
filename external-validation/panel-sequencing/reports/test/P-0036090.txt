@@ -1,0 +1,15 @@
+Patient ID: P-0036090
+Age: 65
+Gender: Female
+Sample ID: P-0036090-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 10.0%
+=============
+DNA Variants:
+No DNA variant data found.
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

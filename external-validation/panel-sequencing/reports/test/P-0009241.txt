@@ -1,0 +1,15 @@
+Patient ID: P-0009241
+Age: 57
+Gender: Male
+Sample ID: P-0009241-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: Unknown
+=============
+DNA Variants:
+No DNA variant data found.
+CNA Data:
+No CNA data found.
+Structural Variants:
+ALK - EML4 (INVERSION)

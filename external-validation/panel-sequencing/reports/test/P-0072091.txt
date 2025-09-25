@@ -1,0 +1,20 @@
+Patient ID: P-0072091
+Age: 68
+Gender: Male
+Sample ID: P-0072091-T01-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 80.0%
+=============
+DNA Variants:
+ARID1B c.3335G>T (p.G1112V) - in 56.00% of 605 reads
+CNA Data:
+CDKN2B - Homozygous Deletion
+CDKN2A - Homozygous Deletion
+CDKN2Ap14ARF - Homozygous Deletion
+CDKN2Ap16INK4A - Homozygous Deletion
+Structural Variants:
+EML4 - ALK (INVERSION)
+MSH3 - SPRY4 (INVERSION)
+RUNX1 - RUNX1 (INVERSION)

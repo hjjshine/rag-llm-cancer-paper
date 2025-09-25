@@ -1,0 +1,24 @@
+Patient ID: P-0032358
+Age: 66
+Gender: Male
+Sample ID: P-0032358-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 10.0%
+=============
+DNA Variants:
+APC c.70C>T (p.R24*) - in 17.00% of 346 reads
+ASXL1 c.1289C>G (p.S430*) - in 14.00% of 661 reads
+EGFR c.2236_2250del (p.E746_A750del) - in 91.00% of 5097 reads
+JUN c.217T>G (p.S73A) - in 33.00% of 962 reads
+RB1 c.2167delA (p.I723Sfs*3) - in 49.00% of 416 reads
+TAP2 c.1953G>A (p.M651I) - in 7.00% of 408 reads
+TP53 c.473G>A (p.R158H) - in 51.00% of 596 reads
+CNA Data:
+EGFR - High Level Amplification
+TERT - High Level Amplification
+AKT2 - High Level Amplification
+SDHA - High Level Amplification
+Structural Variants:
+No structural variant data found.

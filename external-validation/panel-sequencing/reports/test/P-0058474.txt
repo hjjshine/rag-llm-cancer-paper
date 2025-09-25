@@ -1,0 +1,27 @@
+Patient ID: P-0058474
+Age: 65
+Gender: Male
+Sample ID: P-0058474-T01-IM7
+Gene Panel: IMPACT505
+Cancer Type: Non-Small Cell Lung Cancer
+Sample Type: Metastasis
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+DROSHA c.200C>T (p.P67L) - in 24.00% of 841 reads
+EGFR c.2582T>A (p.L861Q) - in 22.00% of 882 reads
+EPHA7 c.113C>A (p.S38Y) - in 15.00% of 317 reads
+MED12 c.5420G>T (p.G1807V) - in 29.00% of 438 reads
+NOTCH2 c.2963T>A (p.I988N) - in 17.00% of 696 reads
+TP53 c.488A>G (p.Y163C) - in 31.00% of 833 reads
+CNA Data:
+ERBB2 - High Level Amplification
+CDK12 - High Level Amplification
+RARA - High Level Amplification
+SMARCE1 - High Level Amplification
+FOXA1 - High Level Amplification
+CD79B - High Level Amplification
+NKX2-1 - High Level Amplification
+NFKBIA - High Level Amplification
+Structural Variants:
+No structural variant data found.

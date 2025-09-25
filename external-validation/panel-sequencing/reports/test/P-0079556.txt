@@ -1,0 +1,24 @@
+Patient ID: P-0079556
+Age: 48
+Gender: Male
+Sample ID: P-0079556-T02-IM7
+Gene Panel: IMPACT505
+Cancer Type: Rectal Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 50.0%
+=============
+DNA Variants:
+BRAF c.1799T>A (p.V600E) - in 75.00% of 491 reads
+ERCC2 c.1406A>G (p.K469R) - in 16.00% of 947 reads
+INPP4B c.1154T>G (p.L385R) - in 36.00% of 357 reads
+PNRC1 c.65G>C (p.G22A) - in 27.00% of 620 reads
+PTPRT c.2020_2021delinsAT (p.P674I) - in 15.00% of 684 reads
+RHEB c.173T>A (p.L58H) - in 28.00% of 570 reads
+SDHA c.410A>G (p.D137G) - in 27.00% of 364 reads
+SMAD4 c.1487G>A (p.R496H) - in 45.00% of 293 reads
+TP53 c.646G>A (p.V216M) - in 67.00% of 463 reads
+CNA Data:
+PTEN - Homozygous Deletion
+KDM6A - Homozygous Deletion
+Structural Variants:
+No structural variant data found.

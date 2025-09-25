@@ -1,0 +1,20 @@
+Patient ID: P-0062602
+Age: 80
+Gender: Female
+Sample ID: P-0062602-T02-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+ATR c.5209C>T (p.H1737Y) - in 20.00% of 321 reads
+CDKN2A c.457G>A (p.D153N) - in 35.00% of 1079 reads
+EGFR c.2573T>G (p.L858R) - in 52.00% of 1115 reads
+EGFR c.2497T>G (p.L833V) - in 48.00% of 994 reads
+MED12 c.6307C>T (p.Q2103*) - in 23.00% of 910 reads
+RB1 c.1585del (p.Y529Tfs*3) - in 36.00% of 305 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

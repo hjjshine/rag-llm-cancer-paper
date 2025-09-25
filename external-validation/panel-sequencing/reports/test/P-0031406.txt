@@ -1,0 +1,15 @@
+Patient ID: P-0031406
+Age: 43
+Gender: Female
+Sample ID: P-0031406-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 40.0%
+=============
+DNA Variants:
+TP53 c.560-2A>G (p.X187_splice) - in 44.00% of 699 reads
+CNA Data:
+CDK4 - High Level Amplification
+Structural Variants:
+ALK - EML4 (INVERSION)

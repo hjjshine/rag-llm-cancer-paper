@@ -1,0 +1,22 @@
+Patient ID: P-0049754
+Age: 72
+Gender: Female
+Sample ID: P-0049754-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+BABAM1 c.434C>T (p.A145V) - in 18.00% of 962 reads
+BCOR c.2278C>A (p.L760I) - in 10.00% of 854 reads
+CYLD c.1824T>A (p.F608L) - in 7.00% of 297 reads
+EGFR c.2582T>A (p.L861Q) - in 15.00% of 889 reads
+ERRFI1 c.1042_1043delinsTTT (p.P348Ffs*8) - in 9.00% of 591 reads
+KMT2B c.7157C>T (p.S2386L) - in 9.00% of 1061 reads
+SLX4 c.5239G>A (p.V1747M) - in 7.00% of 959 reads
+TP53 c.842A>T (p.D281V) - in 19.00% of 840 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

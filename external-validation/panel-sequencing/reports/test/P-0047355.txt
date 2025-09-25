@@ -1,0 +1,25 @@
+Patient ID: P-0047355
+Age: 89
+Gender: Female
+Sample ID: P-0047355-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Squamous Cell Carcinoma
+Sample Type: Metastasis
+Tumor Purity: 50.0%
+=============
+DNA Variants:
+CREBBP c.5350C>T (p.Q1784*) - in 18.00% of 867 reads
+CREBBP c.5092C>G (p.Q1698E) - in 21.00% of 1151 reads
+EP300 c.4398G>C (p.W1466C) - in 29.00% of 260 reads
+FUBP1 c.535C>T (p.H179Y) - in 33.00% of 406 reads
+KMT2C c.5009-1G>C (p.X1670_splice) - in 14.00% of 159 reads
+MDM2 c.566G>A (p.R189H) - in 23.00% of 303 reads
+NF2 c.1570G>T (p.E524*) - in 31.00% of 259 reads
+RAC1 c.33C>A (p.D11E) - in 22.00% of 350 reads
+RBM10 c.175G>T (p.D59Y) - in 22.00% of 638 reads
+CNA Data:
+CDKN2A - Homozygous Deletion
+CDKN2Ap14ARF - Homozygous Deletion
+CDKN2Ap16INK4A - Homozygous Deletion
+Structural Variants:
+EML4 - ALK (INVERSION)

@@ -1,0 +1,23 @@
+Patient ID: P-0001131
+Age: 61
+Gender: Female
+Sample ID: P-0001131-T01-IM3
+Gene Panel: IMPACT341
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 25.0%
+=============
+DNA Variants:
+CHEK1 c.199G>A (p.V67I) - in 11.00% of 1142 reads
+EGFR c.2573T>G (p.L858R) - in 52.00% of 1573 reads
+JAK1 c.2581C>A (p.P861T) - in 7.00% of 983 reads
+JAK2 c.1212T>G (p.I404M) - in 29.00% of 1137 reads
+PPP2R1A c.1382C>T (p.A461V) - in 10.00% of 806 reads
+RICTOR c.3739A>C (p.T1247P) - in 8.00% of 1088 reads
+TP53 c.994-1G>A (p.X332_splice) - in 15.00% of 914 reads
+TP53 c.127_131del (p.L43Afs*7) - in 6.00% of 589 reads
+CNA Data:
+EGFR - High Level Amplification
+CDK4 - High Level Amplification
+Structural Variants:
+No structural variant data found.

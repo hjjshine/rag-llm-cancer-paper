@@ -1,0 +1,19 @@
+Patient ID: P-0048041
+Age: 60
+Gender: Male
+Sample ID: P-0048041-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 10.0%
+=============
+DNA Variants:
+CTNNB1 c.110C>G (p.S37C) - in 7.00% of 334 reads
+EGFR c.2235_2249del (p.E746_A750del) - in 9.00% of 354 reads
+RARA c.893A>G (p.H298R) - in 7.00% of 796 reads
+RHEB c.104A>G (p.Y35C) - in 7.00% of 400 reads
+SMAD4 c.1583_1588delinsTT (p.H528Lfs*8) - in 8.00% of 357 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+TSC1 - AK8 (DELETION)

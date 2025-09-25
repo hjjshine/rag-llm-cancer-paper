@@ -1,0 +1,20 @@
+Patient ID: P-0024765
+Age: 51
+Gender: Female
+Sample ID: P-0024765-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Colon Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 50.0%
+=============
+DNA Variants:
+APC c.694C>T (p.R232*) - in 24.00% of 729 reads
+AR c.1456C>A (p.P486T) - in 6.00% of 386 reads
+BRAF c.1799T>A (p.V600E) - in 24.00% of 796 reads
+ETV6 c.1034T>C (p.V345A) - in 21.00% of 1193 reads
+MGA c.7303C>T (p.R2435W) - in 20.00% of 934 reads
+TP53 c.578A>T (p.H193L) - in 33.00% of 887 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

@@ -1,0 +1,15 @@
+Patient ID: P-0010920
+Age: 76
+Gender: Male
+Sample ID: P-0010920-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Prostate Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 60.0%
+=============
+DNA Variants:
+PALB2 c.2453T>C (p.F818S) - in 6.00% of 246 reads
+CNA Data:
+TMPRSS2 - High Level Amplification
+Structural Variants:
+No structural variant data found.

@@ -1,0 +1,26 @@
+Patient ID: P-0064874
+Age: 79
+Gender: Female
+Sample ID: P-0064874-T01-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+APC c.1268G>A (p.W423*) - in 10.00% of 400 reads
+APC c.3552del (p.T1185Qfs*80) - in 7.00% of 335 reads
+APC c.3684del (p.N1229Ifs*36) - in 26.00% of 319 reads
+ARID1A c.3836_3837del (p.Y1279Sfs*7) - in 22.00% of 750 reads
+ASXL1 c.4169A>G (p.H1390R) - in 5.00% of 790 reads
+EGFR c.2239_2240delinsCC (p.L747P) - in 30.00% of 645 reads
+KIT c.2362-2A>G (p.X788_splice) - in 7.00% of 379 reads
+PIK3CA c.1633G>A (p.E545K) - in 6.00% of 249 reads
+PIK3CA c.3139C>T (p.H1047Y) - in 7.00% of 550 reads
+SETD2 c.7529G>A (p.R2510H) - in 50.00% of 342 reads
+SMAD4 c.1082G>A (p.R361H) - in 3.00% of 511 reads
+SPEN c.2091C>G (p.Y697*) - in 7.00% of 618 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.
