@@ -1,0 +1,16 @@
+Patient ID: P-0001532
+Age: 60
+Gender: Female
+Sample ID: P-0001532-T01-IM3
+Gene Panel: IMPACT341
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 40.0%
+=============
+DNA Variants:
+ATM c.2531G>T (p.G844V) - in 39.00% of 1256 reads
+SF3B1 c.2219G>A (p.G740E) - in 39.00% of 1197 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+ALK - EML4 (INVERSION)

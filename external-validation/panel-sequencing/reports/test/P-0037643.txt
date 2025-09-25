@@ -1,0 +1,19 @@
+Patient ID: P-0037643
+Age: 87
+Gender: Female
+Sample ID: P-0037643-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+ARID1B c.2690G>A (p.G897E) - in 10.00% of 395 reads
+ATRX c.2247_2249del (p.S750del) - in 21.00% of 530 reads
+TP53 c.856G>A (p.E286K) - in 30.00% of 674 reads
+CNA Data:
+CDK4 - High Level Amplification
+PRKCI - High Level Amplification
+MSI2 - High Level Amplification
+Structural Variants:
+MET - MET (DELETION)

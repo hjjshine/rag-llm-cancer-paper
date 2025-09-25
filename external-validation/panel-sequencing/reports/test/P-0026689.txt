@@ -1,0 +1,34 @@
+Patient ID: P-0026689
+Age: 80
+Gender: Female
+Sample ID: P-0026689-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 50.0%
+=============
+DNA Variants:
+AKT2 c.136G>C (p.D46H) - in 8.00% of 1116 reads
+BCL10 c.259C>T (p.R87W) - in 19.00% of 996 reads
+CUL3 c.544G>A (p.A182T) - in 12.00% of 684 reads
+DNMT1 c.2377C>G (p.H793D) - in 7.00% of 912 reads
+EGFR c.2240_2257del (p.L747_P753delinsS) - in 59.00% of 1152 reads
+EGFR c.2264C>G (p.A755G) - in 62.00% of 1030 reads
+IL7R c.1135G>A (p.A379T) - in 23.00% of 938 reads
+INSR c.3919G>A (p.E1307K) - in 5.00% of 1141 reads
+MAP3K13 c.2266G>A (p.D756N) - in 16.00% of 907 reads
+MTOR c.2827C>G (p.L943V) - in 5.00% of 1559 reads
+NSD1 c.4255G>C (p.D1419H) - in 9.00% of 1263 reads
+PTCH1 c.3210G>A (p.M1070I) - in 18.00% of 604 reads
+TP53 c.764_766del (p.I255del) - in 45.00% of 951 reads
+CNA Data:
+CCND1 - High Level Amplification
+CYLD - High Level Amplification
+FOXA1 - High Level Amplification
+NKX2-1 - High Level Amplification
+NFKBIA - High Level Amplification
+FGF4 - High Level Amplification
+FGF3 - High Level Amplification
+FGF19 - High Level Amplification
+Structural Variants:
+LINC00578 - TP63 (DELETION)

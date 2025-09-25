@@ -1,0 +1,17 @@
+Patient ID: P-0042596
+Age: 43
+Gender: Female
+Sample ID: P-0042596-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+SMAD4 c.1477G>C (p.D493H) - in 8.00% of 307 reads
+TMPRSS2 c.139G>T (p.A47S) - in 9.00% of 848 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+DNMT3A - DNMT3A (INVERSION)
+SQSTM1 - ALK (TRANSLOCATION)

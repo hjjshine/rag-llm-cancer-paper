@@ -1,0 +1,21 @@
+Patient ID: P-0008756
+Age: 69
+Gender: Female
+Sample ID: P-0008756-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 40.0%
+=============
+DNA Variants:
+ATM c.3043C>T (p.Q1015*) - in 25.00% of 838 reads
+BRAF c.1799T>A (p.V600E) - in 27.00% of 686 reads
+MLL3 c.2045C>G (p.S682*) - in 26.00% of 689 reads
+PTEN c.380G>A (p.G127E) - in 51.00% of 458 reads
+SETD2 c.7195C>T (p.R2399*) - in 43.00% of 1010 reads
+TRAF2 c.1033A>T (p.M345L) - in 26.00% of 1739 reads
+ZFHX3 c.5670G>C (p.Q1890H) - in 24.00% of 2186 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

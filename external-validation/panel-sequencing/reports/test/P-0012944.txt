@@ -1,0 +1,15 @@
+Patient ID: P-0012944
+Age: 37
+Gender: Male
+Sample ID: P-0012944-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Lung Carcinoid
+Sample Type: Metastasis
+Tumor Purity: 50.0%
+=============
+DNA Variants:
+ARID1A c.6746C>G (p.S2249*) - in 25.00% of 697 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

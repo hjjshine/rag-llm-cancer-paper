@@ -1,0 +1,17 @@
+Patient ID: P-0007507
+Age: 53
+Gender: Female
+Sample ID: P-0007507-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 10.0%
+=============
+DNA Variants:
+CTNNB1 c.101G>T (p.G34V) - in 13.00% of 271 reads
+EGFR c.2236_2250del (p.E746_A750del) - in 24.00% of 199 reads
+TP53 c.703A>G (p.N235D) - in 23.00% of 172 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

@@ -1,0 +1,35 @@
+Patient ID: P-0062115
+Age: 79
+Gender: Female
+Sample ID: P-0062115-T02-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+CTNNB1 c.98C>T (p.S33F) - in 39.00% of 623 reads
+DNMT3B c.1561C>T (p.P521S) - in 13.00% of 1233 reads
+EGFR c.2573T>G (p.L858R) - in 43.00% of 986 reads
+KMT2D c.2539G>A (p.E847K) - in 18.00% of 993 reads
+PTEN c.182A>T (p.H61L) - in 35.00% of 378 reads
+STK19 c.413C>G (p.P138R) - in 16.00% of 1291 reads
+CNA Data:
+CTCF - High Level Amplification
+NCOA3 - High Level Amplification
+HGF - High Level Amplification
+ROS1 - High Level Amplification
+CBFB - High Level Amplification
+CDKN2B - Homozygous Deletion
+CDKN2A - Homozygous Deletion
+MYCL - High Level Amplification
+CDKN2Ap14ARF - Homozygous Deletion
+MDM2 - High Level Amplification
+SRC - High Level Amplification
+GNAS - High Level Amplification
+PTPRT - High Level Amplification
+CDKN2Ap16INK4A - Homozygous Deletion
+RTEL1 - High Level Amplification
+MTAP - Homozygous Deletion
+Structural Variants:
+DNMT3B - MROH8 (INVERSION)

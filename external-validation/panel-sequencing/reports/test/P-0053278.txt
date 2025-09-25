@@ -1,0 +1,24 @@
+Patient ID: P-0053278
+Age: 76
+Gender: Female
+Sample ID: P-0053278-T02-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+INSR c.247A>G (p.M83V) - in 19.00% of 794 reads
+KMT2C c.5474_5480del (p.F1825*) - in 20.00% of 805 reads
+MDM2 c.1462A>G (p.I488V) - in 5.00% of 299 reads
+MET c.3028G>A (p.D1010N) - in 48.00% of 660 reads
+MYOD1 c.529G>A (p.A177T) - in 9.00% of 222 reads
+RBM10 c.2063G>A (p.R688H) - in 10.00% of 1146 reads
+TP53 c.647_651del (p.V216Gfs*4) - in 18.00% of 850 reads
+CNA Data:
+CDKN2B - Homozygous Deletion
+CDKN2A - Homozygous Deletion
+CDKN2Ap14ARF - Homozygous Deletion
+CDKN2Ap16INK4A - Homozygous Deletion
+Structural Variants:
+BRD4 - BRD4 (DELETION)

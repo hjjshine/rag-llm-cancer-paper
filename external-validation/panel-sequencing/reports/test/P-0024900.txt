@@ -1,0 +1,21 @@
+Patient ID: P-0024900
+Age: 89
+Gender: Male
+Sample ID: P-0024900-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Non-Small Cell Lung Cancer
+Sample Type: Metastasis
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+CUL3 c.1270G>A (p.E424K) - in 5.00% of 1171 reads
+MET c.3024_3028+3delinsTG (p.X1008_splice) - in 39.00% of 1849 reads
+PRKAR1A c.773C>T (p.S258F) - in 20.00% of 629 reads
+RAD52 c.109C>A (p.Q37K) - in 15.00% of 1199 reads
+SMAD4 c.388C>T (p.P130S) - in 11.00% of 582 reads
+TP53 c.817C>T (p.R273C) - in 9.00% of 1075 reads
+XPO1 c.1027C>G (p.L343V) - in 10.00% of 689 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+DOT1L - CELF5 (DELETION)

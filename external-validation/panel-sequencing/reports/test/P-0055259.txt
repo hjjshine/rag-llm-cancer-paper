@@ -1,0 +1,20 @@
+Patient ID: P-0055259
+Age: 83
+Gender: Female
+Sample ID: P-0055259-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+APC c.570del (p.E190Dfs*15) - in 41.00% of 152 reads
+CDKN2A c.123_126del (p.N42Vfs*10) - in 37.00% of 84 reads
+EGFR c.2573T>G (p.L858R) - in 32.00% of 147 reads
+EZH1 c.1451A>G (p.D484G) - in 20.00% of 142 reads
+RBM10 c.1711C>T (p.Q571*) - in 22.00% of 77 reads
+TP53 c.451C>T (p.P151S) - in 29.00% of 164 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

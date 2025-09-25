@@ -1,0 +1,18 @@
+Patient ID: P-0041893
+Age: 49
+Gender: Male
+Sample ID: P-0041893-T03-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+ARID1A c.2255A>G (p.Y752C) - in 21.00% of 973 reads
+CTNNB1 c.134C>T (p.S45F) - in 31.00% of 513 reads
+EGFR c.2317_2318insCTAACCCCT (p.H773delinsPNPY) - in 29.00% of 1146 reads
+TP53 c.814G>A (p.V272M) - in 36.00% of 928 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

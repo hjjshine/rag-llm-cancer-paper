@@ -1,0 +1,17 @@
+Patient ID: P-0072968
+Age: 63
+Gender: Male
+Sample ID: P-0072968-T02-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 70.0%
+=============
+DNA Variants:
+ASXL2 c.686del (p.N229Tfs*15) - in 5.00% of 368 reads
+ATRX c.1226T>C (p.L409S) - in 6.00% of 264 reads
+DNMT3A c.2141C>G (p.S714C) - in 4.00% of 434 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+EML4 - ALK (INVERSION)

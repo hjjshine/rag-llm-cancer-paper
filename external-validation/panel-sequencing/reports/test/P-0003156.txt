@@ -1,0 +1,24 @@
+Patient ID: P-0003156
+Age: 80
+Gender: Male
+Sample ID: P-0003156-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 60.0%
+=============
+DNA Variants:
+AR c.1960G>A (p.E654K) - in 25.00% of 454 reads
+ATM c.6056A>G (p.Y2019C) - in 26.00% of 339 reads
+ATM c.4996G>C (p.E1666Q) - in 14.00% of 361 reads
+BIRC3 c.1540C>G (p.L514V) - in 13.00% of 697 reads
+EGFR c.2240_2257del (p.L747_P753delinsS) - in 66.00% of 1122 reads
+FAT1 c.517G>A (p.A173T) - in 38.00% of 883 reads
+RBM10 c.1885_1886del (p.Q629Afs*12) - in 39.00% of 309 reads
+ZRSR2 c.937+1G>T (p.X313_splice) - in 19.00% of 377 reads
+CNA Data:
+EGFR - High Level Amplification
+RICTOR - High Level Amplification
+SDHA - High Level Amplification
+Structural Variants:
+No structural variant data found.

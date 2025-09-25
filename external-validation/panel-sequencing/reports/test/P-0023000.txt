@@ -1,0 +1,15 @@
+Patient ID: P-0023000
+Age: 47
+Gender: Female
+Sample ID: P-0023000-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Squamous Cell Carcinoma
+Sample Type: Metastasis
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+KEAP1 c.242T>G (p.L81R) - in 15.00% of 861 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+ALK - nan (DUPLICATION)

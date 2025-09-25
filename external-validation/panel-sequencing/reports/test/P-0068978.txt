@@ -1,0 +1,19 @@
+Patient ID: P-0068978
+Age: 51
+Gender: Female
+Sample ID: P-0068978-T01-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 40.0%
+=============
+DNA Variants:
+EGFR c.2573T>G (p.L858R) - in 51.00% of 947 reads
+FLT1 c.140A>T (p.Q47L) - in 9.00% of 550 reads
+MAP3K1 c.394G>A (p.D132N) - in 29.00% of 638 reads
+SYK c.74C>T (p.A25V) - in 8.00% of 587 reads
+TP53 c.487T>C (p.Y163H) - in 50.00% of 815 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

@@ -1,0 +1,15 @@
+Patient ID: P-0040600
+Age: 55
+Gender: Male
+Sample ID: P-0040600-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 40.0%
+=============
+DNA Variants:
+NF2 c.265G>T (p.E89*) - in 21.00% of 308 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+EML4 - ALK (INVERSION)

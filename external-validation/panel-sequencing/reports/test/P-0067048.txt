@@ -1,0 +1,22 @@
+Patient ID: P-0067048
+Age: 60
+Gender: Female
+Sample ID: P-0067048-T02-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+AURKA c.607G>A (p.A203T) - in 7.00% of 850 reads
+AURKA c.637G>A (p.A213T) - in 7.00% of 883 reads
+AURKA c.661G>A (p.E221K) - in 8.00% of 827 reads
+RET c.1424G>A (p.R475Q) - in 12.00% of 765 reads
+SETD2 c.4850C>A (p.A1617D) - in 12.00% of 664 reads
+TGFBR2 c.1658G>T (p.R553L) - in 12.00% of 673 reads
+TP53 c.772G>C (p.E258Q) - in 7.00% of 494 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+AURKA - CTCFL (INVERSION)
+EML4 - ALK (INVERSION)

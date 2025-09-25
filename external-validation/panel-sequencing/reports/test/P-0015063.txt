@@ -1,0 +1,24 @@
+Patient ID: P-0015063
+Age: 69
+Gender: Female
+Sample ID: P-0015063-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Breast Invasive Ductal Carcinoma
+Sample Type: Primary
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+BIRC3 c.1013A>T (p.Y338F) - in 8.00% of 415 reads
+BRCA1 c.2611C>T (p.P871S) - in 6.00% of 955 reads
+BRCA1 c.2603C>T (p.S868L) - in 6.00% of 975 reads
+BRCA1 c.2591C>T (p.S864L) - in 6.00% of 992 reads
+EP300 c.4123G>A (p.G1375S) - in 25.00% of 908 reads
+CNA Data:
+CCND1 - High Level Amplification
+ROS1 - High Level Amplification
+PAK1 - High Level Amplification
+FGF4 - High Level Amplification
+FGF3 - High Level Amplification
+FGF19 - High Level Amplification
+Structural Variants:
+No structural variant data found.

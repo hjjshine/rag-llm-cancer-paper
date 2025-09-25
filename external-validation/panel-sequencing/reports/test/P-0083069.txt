@@ -1,0 +1,37 @@
+Patient ID: P-0083069
+Age: 89
+Gender: Male
+Sample ID: P-0083069-T01-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+AKT3 c.277G>A (p.E93K) - in 43.00% of 476 reads
+ASXL1 c.4244G>A (p.R1415Q) - in 26.00% of 469 reads
+BCOR c.4109C>T (p.P1370L) - in 31.00% of 252 reads
+BRCA1 c.3640G>C (p.E1214Q) - in 29.00% of 675 reads
+BRCA1 c.3340G>A (p.E1114K) - in 28.00% of 641 reads
+BRCA1 c.5056C>G (p.H1686D) - in 11.00% of 468 reads
+DIS3 c.2048C>T (p.S683F) - in 18.00% of 401 reads
+EP300 c.71C>A (p.S24*) - in 18.00% of 319 reads
+MDC1 c.815_816del (p.T272Kfs*28) - in 28.00% of 629 reads
+MET c.2888-18_2888-7del (p.X963_splice) - in 66.00% of 1223 reads
+MSH2 c.623G>C (p.G208A) - in 15.00% of 484 reads
+MSH6 c.558C>A (p.D186E) - in 27.00% of 484 reads
+PTPRT c.13G>A (p.A5T) - in 14.00% of 412 reads
+RUNX1 c.608C>A (p.P203H) - in 11.00% of 656 reads
+SESN1 c.169G>A (p.E57K) - in 19.00% of 643 reads
+TBX3 c.701A>G (p.Y234C) - in 13.00% of 483 reads
+TP53 c.511G>A (p.E171K) - in 21.00% of 429 reads
+TP53 c.772G>C (p.E258Q) - in 21.00% of 348 reads
+CNA Data:
+CDKN2B - Homozygous Deletion
+CDKN2A - Homozygous Deletion
+CDKN2Ap14ARF - Homozygous Deletion
+MET - High Level Amplification
+CDKN2Ap16INK4A - Homozygous Deletion
+MTAP - Homozygous Deletion
+Structural Variants:
+No structural variant data found.

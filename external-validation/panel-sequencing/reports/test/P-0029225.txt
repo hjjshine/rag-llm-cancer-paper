@@ -1,0 +1,34 @@
+Patient ID: P-0029225
+Age: 82
+Gender: Female
+Sample ID: P-0029225-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 50.0%
+=============
+DNA Variants:
+CRKL c.845G>A (p.R282H) - in 25.00% of 832 reads
+EGFR c.2573T>G (p.L858R) - in 49.00% of 1057 reads
+NSD1 c.6050G>A (p.R2017Q) - in 25.00% of 421 reads
+NSD1 c.3040G>A (p.D1014N) - in 25.00% of 778 reads
+RBM10 c.975dup (p.S326Qfs*39) - in 61.00% of 691 reads
+SMARCA4 c.2526_2530dup (p.F844Wfs*16) - in 24.00% of 642 reads
+ZFHX3 c.7012C>T (p.Q2338*) - in 33.00% of 461 reads
+CNA Data:
+RIT1 - High Level Amplification
+ERG - High Level Amplification
+U2AF1 - High Level Amplification
+CCNE1 - High Level Amplification
+BTK - Homozygous Deletion
+ICOSLG - High Level Amplification
+NOTCH2 - Homozygous Deletion
+FOXA1 - High Level Amplification
+EPHB1 - Homozygous Deletion
+NKX2-1 - High Level Amplification
+NFKBIA - High Level Amplification
+NPM1 - High Level Amplification
+ELF3 - High Level Amplification
+TMPRSS2 - High Level Amplification
+Structural Variants:
+AXL - AXL (DELETION)

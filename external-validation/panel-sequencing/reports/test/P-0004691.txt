@@ -1,0 +1,15 @@
+Patient ID: P-0004691
+Age: 68
+Gender: Female
+Sample ID: P-0004691-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Lung Squamous Cell Carcinoma
+Sample Type: Primary
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+EGFR c.2573T>G (p.L858R) - in 15.00% of 894 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

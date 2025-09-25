@@ -1,0 +1,21 @@
+Patient ID: P-0081388
+Age: 83
+Gender: Female
+Sample ID: P-0081388-T02-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+EGFR c.2235_2249del (p.E746_A750del) - in 18.00% of 602 reads
+GATA3 c.953C>T (p.A318V) - in 5.00% of 546 reads
+PIK3R1 c.1478del (p.I493Nfs*17) - in 8.00% of 499 reads
+PLCG2 c.3185C>T (p.T1062M) - in 5.00% of 734 reads
+PNRC1 c.540+2_540+14del (p.X180_splice) - in 9.00% of 403 reads
+SMARCE1 c.1048A>T (p.T350S) - in 7.00% of 593 reads
+TP63 c.1112G>T (p.G371V) - in 8.00% of 718 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

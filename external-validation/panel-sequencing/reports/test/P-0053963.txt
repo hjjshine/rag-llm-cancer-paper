@@ -1,0 +1,15 @@
+Patient ID: P-0053963
+Age: 76
+Gender: Female
+Sample ID: P-0053963-T02-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+TCF7L2 c.433C>T (p.H145Y) - in 16.00% of 690 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+SPTBN1 - ALK (INVERSION)

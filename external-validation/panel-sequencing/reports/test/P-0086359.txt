@@ -1,0 +1,15 @@
+Patient ID: P-0086359
+Age: 57
+Gender: Male
+Sample ID: P-0086359-T02-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+RASA1 c.2287G>A (p.E763K) - in 9.00% of 693 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+EML4 - ALK (INVERSION)

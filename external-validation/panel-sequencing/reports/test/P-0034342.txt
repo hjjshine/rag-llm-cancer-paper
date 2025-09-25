@@ -1,0 +1,19 @@
+Patient ID: P-0034342
+Age: 71
+Gender: Male
+Sample ID: P-0034342-T02-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+EGFR c.2573T>G (p.L858R) - in 28.00% of 840 reads
+FLT3 c.161C>A (p.P54H) - in 12.00% of 765 reads
+PHOX2B c.673G>T (p.G225W) - in 14.00% of 81 reads
+TNFAIP3 c.68A>G (p.E23G) - in 17.00% of 399 reads
+TP53 c.733G>T (p.G245C) - in 34.00% of 874 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

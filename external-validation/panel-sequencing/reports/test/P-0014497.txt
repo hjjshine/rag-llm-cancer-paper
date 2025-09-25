@@ -1,0 +1,26 @@
+Patient ID: P-0014497
+Age: 73
+Gender: Female
+Sample ID: P-0014497-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+ASXL2 c.1922G>T (p.R641L) - in 7.00% of 619 reads
+BRD4 c.1038G>C (p.K346N) - in 9.00% of 517 reads
+EGFR c.2239_2248delinsC (p.L747_A750delinsP) - in 43.00% of 821 reads
+ERF c.971A>G (p.Y324C) - in 6.00% of 1096 reads
+FLT4 c.163C>T (p.H55Y) - in 12.00% of 176 reads
+IGF1 c.494C>A (p.T165K) - in 10.00% of 732 reads
+MDC1 c.2214G>C (p.Q738H) - in 7.00% of 762 reads
+MLL4 c.3140G>A (p.R1047Q) - in 8.00% of 411 reads
+TP53 c.773A>C (p.E258A) - in 19.00% of 554 reads
+TP63 c.469G>T (p.D157Y) - in 17.00% of 850 reads
+TSC2 c.2861A>T (p.K954I) - in 12.00% of 459 reads
+XPO1 c.2014G>C (p.A672P) - in 7.00% of 642 reads
+CNA Data:
+EGFR - High Level Amplification
+Structural Variants:
+No structural variant data found.

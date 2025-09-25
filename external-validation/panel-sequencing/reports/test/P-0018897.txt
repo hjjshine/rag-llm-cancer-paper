@@ -1,0 +1,20 @@
+Patient ID: P-0018897
+Age: 60
+Gender: Female
+Sample ID: P-0018897-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+ARID1B c.3638dup (p.T1214Yfs*32) - in 10.00% of 1134 reads
+BMPR1A c.333+2_333+5del (p.X111_splice) - in 7.00% of 646 reads
+EGFR c.2240_2264delinsCGAAAGA (p.L747_A755delinsSKD) - in 12.00% of 1255 reads
+IRS1 c.974G>A (p.R325H) - in 12.00% of 570 reads
+MDC1 c.4196C>T (p.S1399F) - in 6.00% of 1027 reads
+TP53 c.747G>C (p.R249S) - in 20.00% of 820 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

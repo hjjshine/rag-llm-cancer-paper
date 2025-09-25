@@ -1,0 +1,17 @@
+Patient ID: P-0030998
+Age: 55
+Gender: Female
+Sample ID: P-0030998-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+CCND3 c.153G>C (p.E51D) - in 6.00% of 954 reads
+EGFR c.2573T>G (p.L858R) - in 22.00% of 995 reads
+TP53 c.722C>T (p.S241F) - in 9.00% of 633 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

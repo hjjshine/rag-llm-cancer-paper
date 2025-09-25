@@ -1,0 +1,15 @@
+Patient ID: P-0024675
+Age: 64
+Gender: Male
+Sample ID: P-0024675-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+No DNA variant data found.
+CNA Data:
+No CNA data found.
+Structural Variants:
+CLTC - ALK (nan)

@@ -1,0 +1,30 @@
+Patient ID: P-0029971
+Age: 75
+Gender: Female
+Sample ID: P-0029971-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 40.0%
+=============
+DNA Variants:
+MAX c.179G>A (p.R60Q) - in 3.00% of 760 reads
+CNA Data:
+TOP1 - Homozygous Deletion
+CREBBP - High Level Amplification
+CDKN2B - Homozygous Deletion
+CDKN2A - Homozygous Deletion
+TEK - Homozygous Deletion
+SLX4 - High Level Amplification
+CDKN2Ap14ARF - Homozygous Deletion
+FLCN - Homozygous Deletion
+GNAS - Homozygous Deletion
+TERT - High Level Amplification
+AXIN1 - High Level Amplification
+PTPRT - Homozygous Deletion
+CDKN2Ap16INK4A - Homozygous Deletion
+TRAF7 - High Level Amplification
+RTEL1 - High Level Amplification
+SDHA - High Level Amplification
+Structural Variants:
+ALK - EML4 (INVERSION)

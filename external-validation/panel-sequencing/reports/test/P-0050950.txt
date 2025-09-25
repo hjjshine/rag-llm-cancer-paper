@@ -1,0 +1,17 @@
+Patient ID: P-0050950
+Age: 61
+Gender: Female
+Sample ID: P-0050950-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+EGFR c.2237_2255delinsT (p.E746_S752delinsV) - in 12.00% of 744 reads
+ERRFI1 c.477_478del (p.E160Sfs*6) - in 17.00% of 563 reads
+TP53 c.764_766del (p.I255del) - in 14.00% of 778 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+NFKBIA - NFKBIA (DELETION)

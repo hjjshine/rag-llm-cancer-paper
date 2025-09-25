@@ -1,0 +1,26 @@
+Patient ID: P-0059526
+Age: 52
+Gender: Female
+Sample ID: P-0059526-T02-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 60.0%
+=============
+DNA Variants:
+APC c.308dup (p.S104Ifs*35) - in 52.00% of 398 reads
+AXIN2 c.2235A>C (p.E745D) - in 8.00% of 883 reads
+EGFR c.2214_2231dup (p.I740_K745dup) - in 39.00% of 873 reads
+EPHA5 c.2513G>T (p.G838V) - in 23.00% of 695 reads
+PDGFRB c.1228C>T (p.Q410*) - in 34.00% of 606 reads
+SMAD4 c.692dup (p.S232Qfs*3) - in 50.00% of 412 reads
+TP53 c.818G>A (p.R273H) - in 73.00% of 664 reads
+CNA Data:
+CDKN2B - Homozygous Deletion
+CDKN2A - Homozygous Deletion
+TEK - Homozygous Deletion
+CDKN2Ap14ARF - Homozygous Deletion
+CDKN2Ap16INK4A - Homozygous Deletion
+MTAP - Homozygous Deletion
+Structural Variants:
+No structural variant data found.

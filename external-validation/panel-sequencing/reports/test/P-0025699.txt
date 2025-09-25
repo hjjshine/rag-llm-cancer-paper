@@ -1,0 +1,21 @@
+Patient ID: P-0025699
+Age: 56
+Gender: Male
+Sample ID: P-0025699-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+EGFR c.2236_2250del (p.E746_A750del) - in 16.00% of 965 reads
+EP300 c.1579C>T (p.L527F) - in 27.00% of 698 reads
+KEAP1 c.1046A>G (p.D349G) - in 10.00% of 739 reads
+PTEN c.217G>A (p.E73K) - in 10.00% of 294 reads
+RFWD2 c.430G>A (p.E144K) - in 9.00% of 397 reads
+RIT1 c.582G>T (p.E194D) - in 11.00% of 1045 reads
+TP53 c.527G>T (p.C176F) - in 17.00% of 723 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

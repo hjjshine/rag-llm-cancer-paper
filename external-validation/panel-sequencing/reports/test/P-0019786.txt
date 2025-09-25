@@ -1,0 +1,17 @@
+Patient ID: P-0019786
+Age: 43
+Gender: Male
+Sample ID: P-0019786-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Non-Small Cell Lung Cancer
+Sample Type: Metastasis
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+NOTCH3 c.4392G>C (p.E1464D) - in 12.00% of 1764 reads
+PLCG2 c.763C>A (p.Q255K) - in 7.00% of 895 reads
+TP53 c.326del (p.F109Sfs*14) - in 16.00% of 1166 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+ALK - EML4 (INVERSION)

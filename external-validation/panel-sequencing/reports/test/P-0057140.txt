@@ -1,0 +1,18 @@
+Patient ID: P-0057140
+Age: 74
+Gender: Male
+Sample ID: P-0057140-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+EGFR c.2236_2250del (p.E746_A750del) - in 34.00% of 302 reads
+NOTCH2 c.2566_2567del (p.S856Lfs*17) - in 9.00% of 139 reads
+PTCH1 c.3621C>A (p.F1207L) - in 9.00% of 207 reads
+TP53 c.920-2A>G (p.X307_splice) - in 21.00% of 168 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+MET - CNTNAP2 (DELETION)

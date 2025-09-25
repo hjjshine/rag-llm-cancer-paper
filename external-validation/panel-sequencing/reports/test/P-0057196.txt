@@ -1,0 +1,19 @@
+Patient ID: P-0057196
+Age: 59
+Gender: Male
+Sample ID: P-0057196-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+EGFR c.2240_2254del (p.L747_T751del) - in 35.00% of 1036 reads
+TP53 c.797G>T (p.G266V) - in 26.00% of 1101 reads
+CNA Data:
+CCND1 - High Level Amplification
+FGF4 - High Level Amplification
+FGF3 - High Level Amplification
+FGF19 - High Level Amplification
+Structural Variants:
+No structural variant data found.

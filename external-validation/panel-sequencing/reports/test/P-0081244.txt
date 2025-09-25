@@ -1,0 +1,17 @@
+Patient ID: P-0081244
+Age: 83
+Gender: Female
+Sample ID: P-0081244-T02-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 10.0%
+=============
+DNA Variants:
+BRCA1 c.2936G>A (p.R979H) - in 8.00% of 443 reads
+EGFR c.2573T>G (p.L858R) - in 15.00% of 472 reads
+RBM10 c.1734del (p.E578Dfs*48) - in 12.00% of 446 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

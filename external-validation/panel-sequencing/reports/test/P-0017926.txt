@@ -1,0 +1,15 @@
+Patient ID: P-0017926
+Age: 62
+Gender: Female
+Sample ID: P-0017926-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Invasive Breast Carcinoma
+Sample Type: Metastasis
+Tumor Purity: 40.0%
+=============
+DNA Variants:
+PIK3CA c.1624G>A (p.E542K) - in 9.00% of 786 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

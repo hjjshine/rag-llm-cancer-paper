@@ -1,0 +1,32 @@
+Patient ID: P-0071054
+Age: 78
+Gender: Female
+Sample ID: P-0071054-T01-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 80.0%
+=============
+DNA Variants:
+BCOR c.4765C>T (p.R1589C) - in 34.00% of 516 reads
+CREBBP c.4837G>T (p.V1613L) - in 37.00% of 717 reads
+CTNNB1 c.110C>G (p.S37C) - in 13.00% of 464 reads
+CTNNB1 c.94G>C (p.D32H) - in 6.00% of 490 reads
+CTNNB1 c.1161T>G (p.N387K) - in 3.00% of 441 reads
+EGFR c.2582T>A (p.L861Q) - in 38.00% of 600 reads
+EGFR c.2156G>C (p.G719A) - in 35.00% of 565 reads
+IL7R c.342G>C (p.K114N) - in 17.00% of 465 reads
+NUP93 c.313G>C (p.E105Q) - in 14.00% of 602 reads
+PTPRT c.473C>T (p.P158L) - in 14.00% of 689 reads
+RTEL1-TNFRSF6B c.3577G>A (p.V1193M) - in 14.00% of 879 reads
+TET2 c.2062G>A (p.D688N) - in 21.00% of 704 reads
+CNA Data:
+ERBB3 - High Level Amplification
+CDK4 - High Level Amplification
+MDM2 - High Level Amplification
+TERT - High Level Amplification
+TRIP13 - High Level Amplification
+GLI1 - High Level Amplification
+SDHA - High Level Amplification
+Structural Variants:
+No structural variant data found.

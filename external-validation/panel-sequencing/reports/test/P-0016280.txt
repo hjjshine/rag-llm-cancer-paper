@@ -1,0 +1,18 @@
+Patient ID: P-0016280
+Age: 82
+Gender: Female
+Sample ID: P-0016280-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+PMS2 c.878A>G (p.N293S) - in 19.00% of 1093 reads
+CNA Data:
+MDM2 - High Level Amplification
+FOXA1 - High Level Amplification
+NKX2-1 - High Level Amplification
+NFKBIA - High Level Amplification
+Structural Variants:
+ALK - EML4 (INVERSION)

@@ -1,0 +1,27 @@
+Patient ID: P-0046474
+Age: 64
+Gender: Female
+Sample ID: P-0046474-T02-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+EGFR c.2235_2249del (p.E746_A750del) - in 30.00% of 152 reads
+ERRFI1 c.202G>C (p.G68R) - in 29.00% of 110 reads
+SMAD4 c.1642_1649del (p.P548Ffs*26) - in 32.00% of 111 reads
+TP53 c.1047del (p.E349Dfs*21) - in 52.00% of 128 reads
+CNA Data:
+GATA1 - High Level Amplification
+RBM10 - High Level Amplification
+ARAF - High Level Amplification
+FGFR1 - Homozygous Deletion
+FOXA1 - High Level Amplification
+NKX2-1 - High Level Amplification
+EIF1AX - High Level Amplification
+WHSC1L1 - Homozygous Deletion
+KDM6A - High Level Amplification
+BCOR - High Level Amplification
+Structural Variants:
+SMAD4 - SERPINB7 (INVERSION)

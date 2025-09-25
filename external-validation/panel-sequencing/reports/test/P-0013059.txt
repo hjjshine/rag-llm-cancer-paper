@@ -1,0 +1,20 @@
+Patient ID: P-0013059
+Age: 40
+Gender: Female
+Sample ID: P-0013059-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Breast Invasive Cancer, NOS
+Sample Type: Metastasis
+Tumor Purity: 60.0%
+=============
+DNA Variants:
+PIK3CA c.3140A>G (p.H1047R) - in 60.00% of 1023 reads
+TP53 c.581T>C (p.L194P) - in 70.00% of 578 reads
+CNA Data:
+CCND1 - High Level Amplification
+RAD51 - High Level Amplification
+FGF4 - High Level Amplification
+FGF3 - High Level Amplification
+FGF19 - High Level Amplification
+Structural Variants:
+No structural variant data found.

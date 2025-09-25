@@ -1,0 +1,16 @@
+Patient ID: P-0027092
+Age: 89
+Gender: Female
+Sample ID: P-0027092-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 40.0%
+=============
+DNA Variants:
+NCOR1 c.778A>G (p.K260E) - in 42.00% of 281 reads
+NKX2-1 c.982C>T (p.Q328*) - in 45.00% of 38 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+ALK - PLEKHH2 (INVERSION)

@@ -1,0 +1,15 @@
+Patient ID: P-0013869
+Age: 62
+Gender: Male
+Sample ID: P-0013869-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 10.0%
+=============
+DNA Variants:
+CDH1 c.184G>A (p.G62S) - in 5.00% of 880 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+ALK - EML4 (INVERSION)

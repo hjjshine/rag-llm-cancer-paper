@@ -1,0 +1,29 @@
+Patient ID: P-0048457
+Age: 65
+Gender: Male
+Sample ID: P-0048457-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+CTNNB1 c.100G>C (p.G34R) - in 62.00% of 152 reads
+EGFR c.2235_2249del (p.E746_A750del) - in 43.00% of 193 reads
+GREM1 c.278_295delinsT (p.W93Ffs*2) - in 36.00% of 307 reads
+TP53 c.773A>G (p.E258G) - in 76.00% of 282 reads
+CNA Data:
+TSC1 - Homozygous Deletion
+ETV1 - High Level Amplification
+CDK4 - High Level Amplification
+RAC1 - High Level Amplification
+NOTCH1 - Homozygous Deletion
+BCL2 - Homozygous Deletion
+WHSC1L1 - Homozygous Deletion
+PMS2 - High Level Amplification
+EGFL7 - Homozygous Deletion
+DUSP4 - Homozygous Deletion
+NKX3-1 - Homozygous Deletion
+TRAF2 - Homozygous Deletion
+Structural Variants:
+No structural variant data found.

@@ -1,0 +1,20 @@
+Patient ID: P-0080791
+Age: 71
+Gender: Female
+Sample ID: P-0080791-T02-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+EGFR c.2573T>G (p.L858R) - in 30.00% of 593 reads
+KMT2C c.5534A>G (p.D1845G) - in 6.00% of 700 reads
+RB1 c.1196dup (p.N399Kfs*7) - in 24.00% of 148 reads
+TP53 c.705del (p.Y236Tfs*11) - in 29.00% of 438 reads
+CNA Data:
+CCNE1 - High Level Amplification
+CEBPA - High Level Amplification
+FOXA1 - High Level Amplification
+Structural Variants:
+No structural variant data found.

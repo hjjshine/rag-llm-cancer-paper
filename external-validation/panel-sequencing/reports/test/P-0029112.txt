@@ -1,0 +1,19 @@
+Patient ID: P-0029112
+Age: 69
+Gender: Female
+Sample ID: P-0029112-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+EGFR c.2573T>G (p.L858R) - in 26.00% of 1318 reads
+EGFR c.2102A>T (p.Q701L) - in 26.00% of 1316 reads
+TP53 c.574C>T (p.Q192*) - in 13.00% of 681 reads
+CNA Data:
+FAM58A - High Level Amplification
+TERT - High Level Amplification
+SDHA - High Level Amplification
+Structural Variants:
+No structural variant data found.

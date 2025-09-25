@@ -1,0 +1,20 @@
+Patient ID: P-0050216
+Age: 66
+Gender: Male
+Sample ID: P-0050216-T02-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 40.0%
+=============
+DNA Variants:
+EGFR c.2239_2248delinsC (p.L747_A750delinsP) - in 59.00% of 1449 reads
+IFNGR1 c.601_607delinsA (p.Q201_A203delinsT) - in 14.00% of 727 reads
+KMT2B c.1648G>A (p.D550N) - in 22.00% of 1023 reads
+NOTCH3 c.556C>A (p.P186T) - in 26.00% of 878 reads
+RAD50 c.305G>T (p.C102F) - in 30.00% of 714 reads
+TP53 c.481G>A (p.A161T) - in 30.00% of 875 reads
+CNA Data:
+EGFR - High Level Amplification
+Structural Variants:
+No structural variant data found.

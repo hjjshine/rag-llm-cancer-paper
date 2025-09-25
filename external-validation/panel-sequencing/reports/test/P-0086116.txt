@@ -1,0 +1,28 @@
+Patient ID: P-0086116
+Age: 65
+Gender: Female
+Sample ID: P-0086116-T01-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+APC c.7802G>C (p.S2601T) - in 10.00% of 909 reads
+BCOR c.4742-1G>C (p.X1581_splice) - in 12.00% of 667 reads
+EGFR c.2235_2249del (p.E746_A750del) - in 28.00% of 650 reads
+FYN c.92G>T (p.G31V) - in 10.00% of 998 reads
+SMAD4 c.1082G>A (p.R361H) - in 20.00% of 611 reads
+SMAD4 c.1336C>T (p.Q446*) - in 17.00% of 579 reads
+TP53 c.919+37_920-1del (p.X307_splice) - in 22.00% of 815 reads
+CNA Data:
+CDKN2B - Homozygous Deletion
+CDKN2A - Homozygous Deletion
+GNB1 - High Level Amplification
+CDKN2Ap14ARF - Homozygous Deletion
+TNFRSF14 - High Level Amplification
+NADK - High Level Amplification
+CDKN2Ap16INK4A - Homozygous Deletion
+MTAP - Homozygous Deletion
+Structural Variants:
+MSH3 - SEMA5A (INVERSION)

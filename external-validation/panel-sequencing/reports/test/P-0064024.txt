@@ -1,0 +1,24 @@
+Patient ID: P-0064024
+Age: 83
+Gender: Female
+Sample ID: P-0064024-T01-IM7
+Gene Panel: IMPACT505
+Cancer Type: Pancreatic Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 40.0%
+=============
+DNA Variants:
+ATR c.4078G>T (p.E1360*) - in 24.00% of 598 reads
+ERBB4 c.2540G>A (p.R847H) - in 21.00% of 473 reads
+KRAS c.35G>A (p.G12D) - in 22.00% of 468 reads
+PTPRT c.3320C>A (p.A1107D) - in 24.00% of 470 reads
+SLFN11 c.2171G>C (p.R724T) - in 27.00% of 578 reads
+SMAD4 c.391T>A (p.Y131N) - in 31.00% of 444 reads
+CNA Data:
+CDKN2B - Homozygous Deletion
+CDKN2A - Homozygous Deletion
+CDKN2Ap14ARF - Homozygous Deletion
+CDKN2Ap16INK4A - Homozygous Deletion
+MTAP - Homozygous Deletion
+Structural Variants:
+No structural variant data found.

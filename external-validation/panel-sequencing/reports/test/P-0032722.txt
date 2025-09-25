@@ -1,0 +1,16 @@
+Patient ID: P-0032722
+Age: 59
+Gender: Male
+Sample ID: P-0032722-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 70.0%
+=============
+DNA Variants:
+CDKN2A c.238C>T (p.R80*) - in 68.00% of 381 reads
+SOCS1 c.406C>T (p.H136Y) - in 30.00% of 849 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+ROS1 - CD74 (TRANSLOCATION)

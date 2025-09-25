@@ -1,0 +1,15 @@
+Patient ID: P-0015961
+Age: 57
+Gender: Female
+Sample ID: P-0015961-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 10.0%
+=============
+DNA Variants:
+PIK3CD c.262C>A (p.R88S) - in 7.00% of 1243 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+ALK - EML4 (INVERSION)

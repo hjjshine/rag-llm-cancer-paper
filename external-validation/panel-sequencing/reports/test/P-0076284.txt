@@ -1,0 +1,16 @@
+Patient ID: P-0076284
+Age: 81
+Gender: Female
+Sample ID: P-0076284-T01-IM7
+Gene Panel: IMPACT505
+Cancer Type: Non-Small Cell Lung Cancer
+Sample Type: Metastasis
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+EGFR c.2573T>G (p.L858R) - in 23.00% of 541 reads
+TP53 c.-47_-29+58del (p.X16_splice) - in 18.00% of 417 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

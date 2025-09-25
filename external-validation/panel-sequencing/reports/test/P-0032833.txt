@@ -1,0 +1,23 @@
+Patient ID: P-0032833
+Age: 51
+Gender: Female
+Sample ID: P-0032833-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+EGFR c.2236_2250del (p.E746_A750del) - in 15.00% of 531 reads
+PIK3CA c.3140A>G (p.H1047R) - in 22.00% of 362 reads
+CNA Data:
+TCEB1 - High Level Amplification
+NKX2-1 - High Level Amplification
+MYC - High Level Amplification
+NFKBIA - High Level Amplification
+PREX2 - High Level Amplification
+RAD21 - High Level Amplification
+PRDM14 - High Level Amplification
+AGO2 - High Level Amplification
+Structural Variants:
+No structural variant data found.

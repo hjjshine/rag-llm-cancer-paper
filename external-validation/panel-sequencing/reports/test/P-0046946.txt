@@ -1,0 +1,31 @@
+Patient ID: P-0046946
+Age: 77
+Gender: Male
+Sample ID: P-0046946-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+BCOR c.4321C>T (p.Q1441*) - in 25.00% of 234 reads
+DROSHA c.517_519del (p.S173del) - in 8.00% of 379 reads
+FGF4 c.587C>T (p.T196I) - in 14.00% of 450 reads
+HGF c.1245G>A (p.W415*) - in 12.00% of 200 reads
+HIST1H3C c.92C>A (p.P31Q) - in 24.00% of 323 reads
+KEAP1 c.637G>T (p.E213*) - in 20.00% of 373 reads
+MRE11A c.691G>C (p.E231Q) - in 15.00% of 115 reads
+PARK2 c.307A>G (p.T103A) - in 12.00% of 200 reads
+PBRM1 c.1843G>T (p.E615*) - in 26.00% of 278 reads
+PDCD1LG2 c.262C>T (p.H88Y) - in 16.00% of 328 reads
+PDGFRA c.185C>A (p.S62Y) - in 10.00% of 428 reads
+PDGFRA c.197G>A (p.S66N) - in 12.00% of 432 reads
+SETD2 c.1289C>G (p.S430C) - in 23.00% of 207 reads
+TERT nan (nan) - in 11.00% of 109 reads
+TP53 c.375_375+1delinsTT (p.X125_splice) - in 19.00% of 376 reads
+WHSC1 c.347C>G (p.P116R) - in 16.00% of 444 reads
+WT1 c.654C>A (p.S218R) - in 17.00% of 370 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

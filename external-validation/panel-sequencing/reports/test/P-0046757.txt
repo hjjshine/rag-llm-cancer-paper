@@ -1,0 +1,20 @@
+Patient ID: P-0046757
+Age: 69
+Gender: Female
+Sample ID: P-0046757-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+APC c.2626C>T (p.R876*) - in 43.00% of 206 reads
+EGFR c.2235_2249del (p.E746_A750del) - in 19.00% of 336 reads
+MGA c.7384_7387del (p.L2462Ffs*12) - in 28.00% of 415 reads
+CNA Data:
+CDKN2B - Homozygous Deletion
+CDKN2A - Homozygous Deletion
+CDKN2Ap14ARF - Homozygous Deletion
+CDKN2Ap16INK4A - Homozygous Deletion
+Structural Variants:
+DNMT1 - SSBP4 (DELETION)

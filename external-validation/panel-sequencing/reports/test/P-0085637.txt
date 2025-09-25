@@ -1,0 +1,20 @@
+Patient ID: P-0085637
+Age: 60
+Gender: Male
+Sample ID: P-0085637-T02-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 60.0%
+=============
+DNA Variants:
+EGFR c.2235_2249del (p.E746_A750del) - in 68.00% of 453 reads
+MST1R c.2023G>A (p.V675M) - in 20.00% of 719 reads
+PIK3CA c.3140A>G (p.H1047R) - in 40.00% of 596 reads
+CNA Data:
+RECQL4 - High Level Amplification
+MYC - High Level Amplification
+RAD21 - High Level Amplification
+AGO2 - High Level Amplification
+Structural Variants:
+No structural variant data found.

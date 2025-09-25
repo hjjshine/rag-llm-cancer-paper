@@ -1,0 +1,31 @@
+Patient ID: P-0079387
+Age: 63
+Gender: Female
+Sample ID: P-0079387-T02-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 60.0%
+=============
+DNA Variants:
+ANKRD11 c.5881_5901del (p.S1961_S1967del) - in 9.00% of 465 reads
+CSF1R c.1802C>T (p.A601V) - in 16.00% of 468 reads
+EGFR c.2235_2249del (p.E746_A750del) - in 61.00% of 588 reads
+EPHA5 c.2714C>T (p.A905V) - in 9.00% of 502 reads
+MSH3 c.1777C>G (p.R593G) - in 17.00% of 384 reads
+RB1 c.396del (p.F132Lfs*4) - in 55.00% of 172 reads
+TP53 c.731G>A (p.G244D) - in 73.00% of 547 reads
+ZFHX3 c.3307C>G (p.L1103V) - in 11.00% of 348 reads
+CNA Data:
+CCND3 - High Level Amplification
+RECQL4 - High Level Amplification
+MCL1 - High Level Amplification
+CARD11 - High Level Amplification
+SETDB1 - High Level Amplification
+VEGFA - High Level Amplification
+H3C13 - High Level Amplification
+H3C14 - High Level Amplification
+MYC - High Level Amplification
+AGO2 - High Level Amplification
+Structural Variants:
+TEK - TEK (DELETION)
