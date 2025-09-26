@@ -105,6 +105,8 @@ def calc_eval_metrics(
             # Compute partial match accuracy (if one or more true drugs are in the predicted drug output)
             partial_match_acc.append(len(pred_drugs_generic_set & true_drugs_generic_set) > 0)
             
+            
+            
             # All possible FDA-approved drugs
             all_drugs_set = true_drugs_generic_set | pred_drugs_generic_set | all_generic_names_set
             

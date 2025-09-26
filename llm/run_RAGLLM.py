@@ -13,10 +13,10 @@ import pandas as pd
 from utils.check_db_version import get_local_version
 from utils.prompt import get_prompt
 from utils.io import save_object
-import faiss
 from utils.embedding import retrieve_context
 from utils.hybrid_search import retrieve_context_hybrid
-
+from utils.context_db import load_context
+from context_retriever.entity_prediction import load_entities
 
 # ================== MODEL & API IMPORTS ==================
 import torch
@@ -258,20 +258,22 @@ def main(args):
     # Load local db version
     _VERSION = get_local_version()
     
-    # Load user-specified queries
-    _QUERY_DF=pd.read_csv(args.csv_path, index_col=0)
-
-    # Load context database    
-    with open(args.context_chunks, "r") as f:
-        _CONTEXT = json.load(f)
-    _INDEX = faiss.read_index(f"./data/latest_db/indexes/text-embedding-3-small_structured_context__{_VERSION}.faiss")
-        
-    # Load entity database
-    with open(f"context_retriever/entities/moalmanac_db_ner_entities__{_VERSION}.json", "r") as f:
-        _DB_ENTITY = json.load(f)
-    with open(f"context_retriever/entities/synthetic_query_ner_entities__{_VERSION}.json", "r") as f:
-        _QUERY_ENTITY = json.load(f)
+    # Load context db
+    _CONTEXT, _INDEX = load_context(
+        version=_VERSION, 
+        context_path=args.context_chunks, 
+        db='fda')
     
+    # Load query_df for testing
+    _QUERY_DF=pd.read_csv(args.csv_path, index_col=0)
+        
+    # Load db and query entities
+    _DB_ENTITY, _QUERY_ENTITY = load_entities(
+        version=_VERSION, 
+        mode='test_realworld', 
+        db='fda',
+        query=None)
+        
     # Run RAG-LLM iterations
     output_ls, input_ls, retrieval_ls, runtime_ls = run_iterations_rag(
         num_iterations=args.num_iter, 

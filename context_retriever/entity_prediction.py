@@ -4,12 +4,16 @@ import torch
 import re
 import ast
 import pandas as pd
+from pathlib import Path
+import json
+
 
 # load pre-trained BioBERT model for NER
 biobert_dir = "context_retriever/biobert_ner"
 _NER_MODEL = AutoModelForTokenClassification.from_pretrained(biobert_dir)
 _TOKENIZER = AutoTokenizer.from_pretrained(biobert_dir)
 id2label = _NER_MODEL.config.id2label
+
 
 def check_list(input):
     if isinstance(input, list):
@@ -139,3 +143,53 @@ def db_extract_entities(
         entities_dict['biomarker'].extend(extracted_biomarkers)             
     
     return entities_dict
+    
+    
+def load_entities(
+    version: str, 
+    mode: str = "test_synthetic", 
+    db: str = "fda", 
+    query=None
+    ):
+    """
+    Load entity databases depending on DB and mode (deploy or test).
+    
+    Args:
+        version (str): version string for db files
+        db (str): 'fda', 'ema', 'civic'
+        mode (str): 'test_synthetic', 'test_realworld', or 'deploy'
+        query (str, optional): user query for deploy mode
+
+    Returns:
+        tuple: (db_entity, query_entity)
+    """
+    base_path = Path("context_retriever/entities")
+    
+    #load DB entity
+    if db == 'fda':
+        with open(base_path / f"moalmanac_db_ner_entities__{version}.json") as f:
+            db_entity = json.load(f)
+    elif db == 'ema':
+        with open(base_path / f"ema_db_ner_entities__{version}.json") as f:
+            db_entity = json.load(f)
+    elif db == 'civic':
+        with open(base_path / f"civic_db_context_ner_entities__civic-202509.json") as f:
+            db_entity = json.load(f)
+    else:
+        raise ValueError("db must be 'fda', 'ema', or 'civic'.")
+    
+    #load or create query entity depending on the mode
+    if mode == "test_synthetic":
+        with open(base_path / f"synthetic_query_ner_entities__{version}.json") as f:
+            query_entity = json.load(f)
+    elif mode == "test_realworld":
+        with open(base_path / "real_world_query_ner_entities__v1.json") as f:
+            query_entity = json.load(f)
+    elif mode == "deploy":
+        if query is None or not isinstance(query, str):
+            raise ValueError("query (str) required for deploy mode")
+        query_entity = extract_entities(query)
+    else:
+        raise ValueError("mode must be 'test_synthetic', 'test_realworld', or 'deploy'.")
+    
+    return db_entity, query_entity
