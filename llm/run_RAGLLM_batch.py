@@ -15,7 +15,7 @@ from utils.check_db_version import get_local_version
 from utils.prompt import get_prompt
 from utils.io import save_object
 from utils.embedding import retrieve_context
-from utils.hybrid_search import retrieve_context_hybrid
+from context_retriever.hybrid_search import retrieve_context_hybrid
 
             
 # ================== BATCH EXECUTION FUNCTIONS ==================

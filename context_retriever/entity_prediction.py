@@ -1,4 +1,4 @@
-# utils/entity_prediction.py
+# context_retriever/entity_prediction.py
 from transformers import AutoTokenizer, AutoModelForTokenClassification
 import torch
 import re
@@ -6,13 +6,22 @@ import ast
 import pandas as pd
 from pathlib import Path
 import json
+import sys
+import os
 
 
 # load pre-trained BioBERT model for NER
 biobert_dir = "context_retriever/biobert_ner"
-_NER_MODEL = AutoModelForTokenClassification.from_pretrained(biobert_dir)
-_TOKENIZER = AutoTokenizer.from_pretrained(biobert_dir)
-id2label = _NER_MODEL.config.id2label
+try:
+    _NER_MODEL = AutoModelForTokenClassification.from_pretrained(biobert_dir)
+    _TOKENIZER = AutoTokenizer.from_pretrained(biobert_dir)
+    id2label = _NER_MODEL.config.id2label
+except (json.JSONDecodeError):
+    _NER_MODEL = AutoModelForTokenClassification.from_pretrained("judithrosell/BioBERT_BioNLP13CG_NER_new")
+    _TOKENIZER = AutoTokenizer.from_pretrained("judithrosell/BioBERT_BioNLP13CG_NER_new")
+    id2label = _NER_MODEL.config.id2label
+    _NER_MODEL.save_pretrained(biobert_dir)
+    _TOKENIZER.save_pretrained(biobert_dir)
 
 
 def check_list(input):
@@ -137,7 +146,14 @@ def db_extract_entities(
     biomarker_entities_list = ner_predict_entities(db[biomarker_col], model, tokenizer)
     extracted_biomarkers = [clean_feature(ent['text']) for ent in biomarker_entities_list if ent['type']=='Gene_or_gene_product']
     if not extracted_biomarkers:
-        db_extracted_biomarkers = [clean_feature(b) for b in ast.literal_eval(db[biomarker_col])]
+        val = db[biomarker_col]
+        if isinstance(val, list):
+            val_list = val
+        elif isinstance(val, str):
+            val_list = ast.literal_eval(val)
+        else:
+            val_list = []
+        db_extracted_biomarkers = [clean_feature(b) for b in val_list]
         entities_dict['biomarker'].extend(db_extracted_biomarkers)                    
     else:
         entities_dict['biomarker'].extend(extracted_biomarkers)             
@@ -166,11 +182,8 @@ def load_entities(
     base_path = Path("context_retriever/entities")
     
     #load DB entity
-    if db == 'fda':
-        with open(base_path / f"moalmanac_db_ner_entities__{version}.json") as f:
-            db_entity = json.load(f)
-    elif db == 'ema':
-        with open(base_path / f"ema_db_ner_entities__{version}.json") as f:
+    if db in ['fda', 'ema']:
+        with open(base_path / f"moalmanac_{db}_ner_entities__{version}.json") as f:
             db_entity = json.load(f)
     elif db == 'civic':
         with open(base_path / f"civic_db_context_ner_entities__civic-202509.json") as f:
