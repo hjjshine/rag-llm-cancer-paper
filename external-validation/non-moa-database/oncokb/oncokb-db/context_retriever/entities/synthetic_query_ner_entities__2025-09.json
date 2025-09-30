@@ -1,0 +1,4568 @@
+[
+    {
+        "cancer_type": [
+            "b-lymphoblastic leukemia",
+            "lymphoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "chronic myelogenous leukemia cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "chronic myelogenous leukemia cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "breast cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "melanoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "anaplastic thyroid cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "hepatobiliary cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "biliary tract cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "nos cancer",
+            "low-grade glioma"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "melanoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "colorectal cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "colorectal cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "nos cancer",
+            "low-grade glioma"
+        ],
+        "biomarker": [
+            "v600"
+        ]
+    },
+    {
+        "cancer_type": [
+            "erdheim-chester disease cancer"
+        ],
+        "biomarker": [
+            "v600"
+        ]
+    },
+    {
+        "cancer_type": [
+            "melanoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "melanoma cancer"
+        ],
+        "biomarker": [
+            "v600k",
+            "v600e"
+        ]
+    },
+    {
+        "cancer_type": [
+            "melanoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "melanoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "melanoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "l858r"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "l858r"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "l858r"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "l858r"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "l858r"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "l858r"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "l858r"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "l858r"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "l858r"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "s768i"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "g719"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "l861q"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "g815r",
+            "g776s",
+            "v777l",
+            "l755a",
+            "e717d"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "breast cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "follicular lymphoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "bladder cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "acute myeloid leukemia cancer"
+        ],
+        "biomarker": [
+            "r132l",
+            "r132s",
+            "r132c",
+            "r132g",
+            "r132h"
+        ]
+    },
+    {
+        "cancer_type": [
+            "intrahepatic cholangiocarcinoma cancer"
+        ],
+        "biomarker": [
+            "r132l",
+            "r132s",
+            "r132c",
+            "r132g",
+            "r132h"
+        ]
+    },
+    {
+        "cancer_type": [
+            "cholangiocarcinoma cancer"
+        ],
+        "biomarker": [
+            "r132l",
+            "r132s",
+            "r132c",
+            "r132g",
+            "r132h"
+        ]
+    },
+    {
+        "cancer_type": [
+            "myelodysplastic"
+        ],
+        "biomarker": [
+            "r132l",
+            "r132s",
+            "r132c",
+            "r132g",
+            "r132h"
+        ]
+    },
+    {
+        "cancer_type": [
+            "oligodendroglioma cancer"
+        ],
+        "biomarker": [
+            "r132l",
+            "r132s",
+            "r132c",
+            "r132g",
+            "r132h"
+        ]
+    },
+    {
+        "cancer_type": [
+            "astrocytoma cancer"
+        ],
+        "biomarker": [
+            "r132l",
+            "r132s",
+            "r132c",
+            "r132g",
+            "r132h"
+        ]
+    },
+    {
+        "cancer_type": [
+            "acute myeloid leukemia cancer"
+        ],
+        "biomarker": [
+            "r132l",
+            "r132s",
+            "r132c",
+            "r132g",
+            "r132h"
+        ]
+    },
+    {
+        "cancer_type": [
+            "acute myeloid leukemia cancer"
+        ],
+        "biomarker": [
+            "r172m",
+            "r140q",
+            "r140w",
+            "r172g",
+            "r172k",
+            "r140l",
+            "r172w",
+            "r140g",
+            "r172s"
+        ]
+    },
+    {
+        "cancer_type": [
+            "oligodendroglioma cancer"
+        ],
+        "biomarker": [
+            "r172m",
+            "r172g",
+            "r172k",
+            "r172w",
+            "r172s"
+        ]
+    },
+    {
+        "cancer_type": [
+            "astrocytoma cancer"
+        ],
+        "biomarker": [
+            "r172m",
+            "r172g",
+            "r172k",
+            "r172w",
+            "r172s"
+        ]
+    },
+    {
+        "cancer_type": [
+            "gastrointestinal stromal tumor cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "gastrointestinal stromal tumor cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "gastrointestinal stromal tumor cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "gastrointestinal stromal tumor cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "mastocytosis cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "low-grade serous ovarian cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "colorectal cancer cancer"
+        ],
+        "biomarker": [
+            "g12c"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "g12c"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "g12c"
+        ]
+    },
+    {
+        "cancer_type": [
+            "colorectal cancer cancer"
+        ],
+        "biomarker": [
+            "g12c"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "gastrointestinal stromal tumor cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "breast cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "breast cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "breast cancer cancer"
+        ],
+        "biomarker": [
+            "e545a",
+            "h1047l",
+            "e542k",
+            "e545d",
+            "h1047y",
+            "h1047r",
+            "c420r",
+            "e545k",
+            "e545g"
+        ]
+    },
+    {
+        "cancer_type": [
+            "breast cancer cancer"
+        ],
+        "biomarker": [
+            "e545a",
+            "h1047l",
+            "e542k",
+            "e545d",
+            "h1047y",
+            "h1047r",
+            "c420r",
+            "e545k",
+            "e545g"
+        ]
+    },
+    {
+        "cancer_type": [
+            "b-lymphoblastic leukemia",
+            "lymphoma cancer"
+        ],
+        "biomarker": [
+            "f317c",
+            "f317v",
+            "v299l",
+            "f317i",
+            "f317l",
+            "t315a"
+        ]
+    },
+    {
+        "cancer_type": [
+            "chronic myelogenous leukemia cancer"
+        ],
+        "biomarker": [
+            "f317c",
+            "f317v",
+            "v299l",
+            "f317i",
+            "f317l",
+            "t315a"
+        ]
+    },
+    {
+        "cancer_type": [
+            "b-lymphoblastic leukemia",
+            "lymphoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "chronic myelogenous leukemia cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "b-lymphoblastic leukemia",
+            "lymphoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "chronic myelogenous leukemia cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "g1202r"
+        ]
+    },
+    {
+        "cancer_type": [
+            "pilocytic astrocytoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "hairy cell leukemia cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "langerhans cell histiocytosis cancer"
+        ],
+        "biomarker": [
+            "v600"
+        ]
+    },
+    {
+        "cancer_type": [
+            "diffuse glioma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "glioma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "pleomorphic xanthoastrocytoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "pilocytic astrocytoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "ganglioglioma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "langerhans cell histiocytosis cancer"
+        ],
+        "biomarker": [
+            "v600"
+        ]
+    },
+    {
+        "cancer_type": [
+            "colorectal cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "erdheim-chester disease cancer"
+        ],
+        "biomarker": [
+            "v600"
+        ]
+    },
+    {
+        "cancer_type": [
+            "langerhans cell histiocytosis cancer"
+        ],
+        "biomarker": [
+            "v600"
+        ]
+    },
+    {
+        "cancer_type": [
+            "rosai-dorfman disease cancer"
+        ],
+        "biomarker": [
+            "v600"
+        ]
+    },
+    {
+        "cancer_type": [
+            "erdheim-chester disease cancer"
+        ],
+        "biomarker": [
+            "v600"
+        ]
+    },
+    {
+        "cancer_type": [
+            "langerhans cell histiocytosis cancer"
+        ],
+        "biomarker": [
+            "v600"
+        ]
+    },
+    {
+        "cancer_type": [
+            "rosai-dorfman disease cancer"
+        ],
+        "biomarker": [
+            "v600"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "s768i"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "s768i"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "s768i"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "s768i"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "s768i"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "g719"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "g719"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "g719"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "g719"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "g719"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "l861q"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "l861q"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "l861q"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "cervical cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "breast cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "breast cancer cancer"
+        ],
+        "biomarker": [
+            "v422del"
+        ]
+    },
+    {
+        "cancer_type": [
+            "bladder cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "chondrosarcoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "oligodendroglioma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "astrocytoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "melanoma cancer"
+        ],
+        "biomarker": [
+            "v654a",
+            "v559a",
+            "k642e",
+            "v560d"
+        ]
+    },
+    {
+        "cancer_type": [
+            "gastrointestinal stromal tumor cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "erdheim-chester disease cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "langerhans cell histiocytosis cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "rosai-dorfman disease cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "erdheim-chester disease cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "langerhans cell histiocytosis cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "rosai-dorfman disease cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "hepatobiliary cancer cancer"
+        ],
+        "biomarker": [
+            "g12c"
+        ]
+    },
+    {
+        "cancer_type": [
+            "pancreatic adenocarcinoma cancer"
+        ],
+        "biomarker": [
+            "g12c"
+        ]
+    },
+    {
+        "cancer_type": [
+            "small bowel cancer cancer"
+        ],
+        "biomarker": [
+            "g12c"
+        ]
+    },
+    {
+        "cancer_type": [
+            "colorectal cancer cancer"
+        ],
+        "biomarker": [
+            "g12c"
+        ]
+    },
+    {
+        "cancer_type": [
+            "ampullary cancer cancer"
+        ],
+        "biomarker": [
+            "g12c"
+        ]
+    },
+    {
+        "cancer_type": [
+            "ampullary cancer cancer"
+        ],
+        "biomarker": [
+            "g12c"
+        ]
+    },
+    {
+        "cancer_type": [
+            "pancreatic adenocarcinoma cancer"
+        ],
+        "biomarker": [
+            "g12c"
+        ]
+    },
+    {
+        "cancer_type": [
+            "small bowel cancer cancer"
+        ],
+        "biomarker": [
+            "g12c"
+        ]
+    },
+    {
+        "cancer_type": [
+            "colorectal cancer cancer"
+        ],
+        "biomarker": [
+            "g12c"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "gastrointestinal stromal tumor cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "gastrointestinal stromal tumor cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "gastrointestinal stromal tumor cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "gastrointestinal stromal tumor cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "gastrointestinal stromal tumor cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "breast cancer cancer"
+        ],
+        "biomarker": [
+            "e545a",
+            "q546r",
+            "h1047l",
+            "e542k",
+            "e545d",
+            "h1047y",
+            "h1047r",
+            "c420r",
+            "e545k",
+            "e545g",
+            "q546e"
+        ]
+    },
+    {
+        "cancer_type": [
+            "colorectal cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "small bowel cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "colorectal cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "small bowel cancer cancer"
+        ],
+        "biomarker": [
+            "s478n",
+            "l474p"
+        ]
+    },
+    {
+        "cancer_type": [
+            "colorectal cancer cancer"
+        ],
+        "biomarker": [
+            "s478n",
+            "l474p"
+        ]
+    },
+    {
+        "cancer_type": [
+            "small bowel cancer cancer"
+        ],
+        "biomarker": [
+            "e318k",
+            "s478n",
+            "d402n",
+            "l474p"
+        ]
+    },
+    {
+        "cancer_type": [
+            "colorectal cancer cancer"
+        ],
+        "biomarker": [
+            "e318k",
+            "s478n",
+            "d402n",
+            "l474p"
+        ]
+    },
+    {
+        "cancer_type": [
+            "small bowel cancer cancer"
+        ],
+        "biomarker": [
+            "e318k",
+            "s478n",
+            "d402n",
+            "l474p"
+        ]
+    },
+    {
+        "cancer_type": [
+            "colorectal cancer cancer"
+        ],
+        "biomarker": [
+            "p286r",
+            "v464a",
+            "v411l",
+            "p286l",
+            "s461t",
+            "p286s",
+            "s461p",
+            "s459f",
+            "l424v",
+            "f367l",
+            "k425r",
+            "l424i",
+            "p436r",
+            "f367s",
+            "p286h",
+            "s461l",
+            "p436s",
+            "p436h",
+            "v411m"
+        ]
+    },
+    {
+        "cancer_type": [
+            "small bowel cancer cancer"
+        ],
+        "biomarker": [
+            "p286r",
+            "v464a",
+            "v411l",
+            "p286l",
+            "s461t",
+            "p286s",
+            "s461p",
+            "s459f",
+            "l424v",
+            "f367l",
+            "k425r",
+            "l424i",
+            "p436r",
+            "f367s",
+            "p286h",
+            "s461l",
+            "p436s",
+            "s297f",
+            "p436h",
+            "v411m"
+        ]
+    },
+    {
+        "cancer_type": [
+            "colorectal cancer cancer"
+        ],
+        "biomarker": [
+            "p286r",
+            "v464a",
+            "v411l",
+            "p286l",
+            "s461t",
+            "p286s",
+            "s461p",
+            "s459f",
+            "l424v",
+            "f367l",
+            "k425r",
+            "l424i",
+            "p436r",
+            "f367s",
+            "p286h",
+            "s461l",
+            "p436s",
+            "p436h",
+            "v411m"
+        ]
+    },
+    {
+        "cancer_type": [
+            "small bowel cancer cancer"
+        ],
+        "biomarker": [
+            "p286r",
+            "v464a",
+            "v411l",
+            "p286l",
+            "s461t",
+            "p286s",
+            "s461p",
+            "s459f",
+            "l424v",
+            "f367l",
+            "k425r",
+            "l424i",
+            "p436r",
+            "f367s",
+            "p286h",
+            "s461l",
+            "p436s",
+            "s297f",
+            "p436h",
+            "v411m"
+        ]
+    },
+    {
+        "cancer_type": [
+            "colorectal cancer cancer"
+        ],
+        "biomarker": [
+            "p286r",
+            "v464a",
+            "v411l",
+            "p286l",
+            "s461t",
+            "p286s",
+            "s461p",
+            "s459f",
+            "l424v",
+            "f367l",
+            "k425r",
+            "l424i",
+            "p436r",
+            "f367s",
+            "p286h",
+            "s461l",
+            "p436s",
+            "p436h",
+            "v411m"
+        ]
+    },
+    {
+        "cancer_type": [
+            "small bowel cancer cancer"
+        ],
+        "biomarker": [
+            "p286r",
+            "v464a",
+            "v411l",
+            "p286l",
+            "s461t",
+            "p286s",
+            "s461p",
+            "s459f",
+            "l424v",
+            "f367l",
+            "k425r",
+            "l424i",
+            "p436r",
+            "f367s",
+            "p286h",
+            "s461l",
+            "p436s",
+            "s297f",
+            "p436h",
+            "v411m"
+        ]
+    },
+    {
+        "cancer_type": [
+            "colorectal cancer cancer"
+        ],
+        "biomarker": [
+            "p286r",
+            "v464a",
+            "v411l",
+            "p286l",
+            "s461t",
+            "p286s",
+            "s461p",
+            "s459f",
+            "l424v",
+            "f367l",
+            "k425r",
+            "l424i",
+            "p436r",
+            "f367s",
+            "p286h",
+            "s461l",
+            "p436s",
+            "s297f",
+            "p436h",
+            "v411m"
+        ]
+    },
+    {
+        "cancer_type": [
+            "small bowel cancer cancer"
+        ],
+        "biomarker": [
+            "p286r",
+            "v464a",
+            "v411l",
+            "p286l",
+            "s461t",
+            "p286s",
+            "s461p",
+            "s459f",
+            "l424v",
+            "f367l",
+            "k425r",
+            "l424i",
+            "p436r",
+            "f367s",
+            "p286h",
+            "s461l",
+            "p436s",
+            "s297f",
+            "p436h",
+            "v411m"
+        ]
+    },
+    {
+        "cancer_type": [
+            "ovarian cancer cancer"
+        ],
+        "biomarker": [
+            "e17k"
+        ]
+    },
+    {
+        "cancer_type": [
+            "endometrial cancer cancer"
+        ],
+        "biomarker": [
+            "e17k"
+        ]
+    },
+    {
+        "cancer_type": [
+            "neuroblastoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "neuroblastoma cancer"
+        ],
+        "biomarker": [
+            "f1174l"
+        ]
+    },
+    {
+        "cancer_type": [
+            "neuroblastoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "g1202r"
+        ]
+    },
+    {
+        "cancer_type": [
+            "neuroblastoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "neuroblastoma cancer"
+        ],
+        "biomarker": [
+            "f1174c"
+        ]
+    },
+    {
+        "cancer_type": [
+            "neuroblastoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "histiocytosis cancer"
+        ],
+        "biomarker": [
+            "v600"
+        ]
+    },
+    {
+        "cancer_type": [
+            "histiocytosis cancer"
+        ],
+        "biomarker": [
+            "v600"
+        ]
+    },
+    {
+        "cancer_type": [
+            "histiocytosis cancer"
+        ],
+        "biomarker": [
+            "v600"
+        ]
+    },
+    {
+        "cancer_type": [
+            "histiocytosis cancer"
+        ],
+        "biomarker": [
+            "v600"
+        ]
+    },
+    {
+        "cancer_type": [
+            "melanoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "melanoma cancer"
+        ],
+        "biomarker": [
+            "l597"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "s768i",
+            "l858r",
+            "g719"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "s768i"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "g719"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "g724s"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "l718v"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "breast cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "breast cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "glioma cancer"
+        ],
+        "biomarker": [
+            "r132"
+        ]
+    },
+    {
+        "cancer_type": [
+            "histiocytosis cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "g12r",
+            "g12a",
+            "g12v",
+            "g12s",
+            "g12d"
+        ]
+    },
+    {
+        "cancer_type": [
+            "pancreatic adenocarcinoma cancer"
+        ],
+        "biomarker": [
+            "g12r",
+            "g12a",
+            "g12v",
+            "g12s",
+            "g12d"
+        ]
+    },
+    {
+        "cancer_type": [
+            "histiocytosis cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "g12d",
+            "asp3082"
+        ]
+    },
+    {
+        "cancer_type": [
+            "pancreatic adenocarcinoma cancer"
+        ],
+        "biomarker": [
+            "g12d",
+            "asp3082"
+        ]
+    },
+    {
+        "cancer_type": [
+            "tubular adenoma",
+            "colon cancer"
+        ],
+        "biomarker": [
+            "g12c"
+        ]
+    },
+    {
+        "cancer_type": [
+            "esophagogastric cancer cancer"
+        ],
+        "biomarker": [
+            "g12c"
+        ]
+    },
+    {
+        "cancer_type": [
+            "anal cancer cancer"
+        ],
+        "biomarker": [
+            "g12c"
+        ]
+    },
+    {
+        "cancer_type": [
+            "stomach cancer",
+            "esophagus",
+            "gastrointestinal neuroendocrine tumors"
+        ],
+        "biomarker": [
+            "g12c"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "y1003"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "y1003"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "y1003"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "renal cell carcinoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "bladder cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "renal cell carcinoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": [
+            "g595r"
+        ]
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": [
+            "g623r"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "g2032r"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "l2086f"
+        ]
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": [
+            "g469v",
+            "g464",
+            "g469r",
+            "g469a"
+        ]
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": [
+            "l597"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "l747p"
+        ]
+    },
+    {
+        "cancer_type": [
+            "glioma cancer"
+        ],
+        "biomarker": [
+            "r108k"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "hepatobiliary cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "biliary tract cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "hepatobiliary cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "biliary tract cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "hepatobiliary cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "biliary tract cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "gastrointestinal stromal tumor cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "gastrointestinal stromal tumor cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": [
+            "g12r",
+            "g12a",
+            "g12v",
+            "g12s",
+            "g12d"
+        ]
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": [
+            "g12d"
+        ]
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": [
+            "g12d",
+            "asp3082"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "h1106d",
+            "v1092i"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "v1092i"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "v1092i"
+        ]
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": [
+            "g595r"
+        ]
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": [
+            "g623r"
+        ]
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "breast cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "b-lymphoblastic leukemia",
+            "lymphoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "chronic myelogenous leukemia cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "b-lymphoblastic leukemia",
+            "lymphoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "chronic myelogenous leukemia cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "b-lymphoblastic leukemia",
+            "lymphoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "chronic myelogenous leukemia cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "b-lymphoblastic leukemia",
+            "lymphoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "chronic myelogenous leukemia cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "b-lymphoblastic leukemia",
+            "lymphoma cancer"
+        ],
+        "biomarker": [
+            "g250e",
+            "f317l",
+            "v299l"
+        ]
+    },
+    {
+        "cancer_type": [
+            "chronic myelogenous leukemia cancer"
+        ],
+        "biomarker": [
+            "g250e",
+            "f317l",
+            "v299l"
+        ]
+    },
+    {
+        "cancer_type": [
+            "b-lymphoblastic leukemia",
+            "lymphoma cancer"
+        ],
+        "biomarker": [
+            "f317c",
+            "f317v",
+            "v299l",
+            "f317i",
+            "f317l",
+            "t315a"
+        ]
+    },
+    {
+        "cancer_type": [
+            "chronic myelogenous leukemia cancer"
+        ],
+        "biomarker": [
+            "f317c",
+            "f317v",
+            "v299l",
+            "f317i",
+            "f317l",
+            "t315a"
+        ]
+    },
+    {
+        "cancer_type": [
+            "b-lymphoblastic leukemia",
+            "lymphoma cancer"
+        ],
+        "biomarker": [
+            "g250e",
+            "e255k",
+            "f359i",
+            "f317l",
+            "f317c",
+            "f317v",
+            "f359v",
+            "e255v",
+            "f359c",
+            "f317i",
+            "v299l",
+            "t315a"
+        ]
+    },
+    {
+        "cancer_type": [
+            "chronic myelogenous leukemia cancer"
+        ],
+        "biomarker": [
+            "g250e",
+            "y253h",
+            "f359i",
+            "f317l",
+            "f317c",
+            "f317v",
+            "f359v",
+            "f359c",
+            "f317i",
+            "v299l",
+            "t315a"
+        ]
+    },
+    {
+        "cancer_type": [
+            "b-lymphoblastic leukemia",
+            "lymphoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "chronic myelogenous leukemia cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "small lymphocytic lymphoma cancer",
+            "chronic lymphocytic leukemia"
+        ],
+        "biomarker": [
+            "c481s"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "colorectal cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "colorectal cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "colorectal cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": [
+            "g595r"
+        ]
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": [
+            "g623r"
+        ]
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": [
+            "g696a"
+        ]
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": [
+            "f617l"
+        ]
+    },
+    {
+        "cancer_type": [
+            "gastrointestinal stromal tumor cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "g1269a"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "i1171n"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "g1202r"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "g1202r"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "g1202r"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "g1202r"
+        ]
+    },
+    {
+        "cancer_type": [
+            "small lymphocytic lymphoma cancer",
+            "chronic lymphocytic leukemia"
+        ],
+        "biomarker": [
+            "t474s"
+        ]
+    },
+    {
+        "cancer_type": [
+            "small lymphocytic lymphoma cancer",
+            "chronic lymphocytic leukemia"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "small lymphocytic lymphoma cancer",
+            "chronic lymphocytic leukemia"
+        ],
+        "biomarker": [
+            "c481f"
+        ]
+    },
+    {
+        "cancer_type": [
+            "small lymphocytic lymphoma cancer",
+            "chronic lymphocytic leukemia"
+        ],
+        "biomarker": [
+            "c481r"
+        ]
+    },
+    {
+        "cancer_type": [
+            "small lymphocytic lymphoma cancer",
+            "chronic lymphocytic leukemia"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "small lymphocytic lymphoma cancer",
+            "chronic lymphocytic leukemia"
+        ],
+        "biomarker": [
+            "t474i"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "c797g"
+        ]
+    },
+    {
+        "cancer_type": [
+            "colorectal cancer cancer"
+        ],
+        "biomarker": [
+            "g465r"
+        ]
+    },
+    {
+        "cancer_type": [
+            "colorectal cancer cancer"
+        ],
+        "biomarker": [
+            "g465r"
+        ]
+    },
+    {
+        "cancer_type": [
+            "colorectal cancer cancer"
+        ],
+        "biomarker": [
+            "g465e"
+        ]
+    },
+    {
+        "cancer_type": [
+            "colorectal cancer cancer"
+        ],
+        "biomarker": [
+            "g465e"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "c797s"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "l792f"
+        ]
+    },
+    {
+        "cancer_type": [
+            "colorectal cancer cancer"
+        ],
+        "biomarker": [
+            "v441d"
+        ]
+    },
+    {
+        "cancer_type": [
+            "colorectal cancer cancer"
+        ],
+        "biomarker": [
+            "v441d"
+        ]
+    },
+    {
+        "cancer_type": [
+            "colorectal cancer cancer"
+        ],
+        "biomarker": [
+            "v441g"
+        ]
+    },
+    {
+        "cancer_type": [
+            "colorectal cancer cancer"
+        ],
+        "biomarker": [
+            "v441g"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "g724s"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "l718v"
+        ]
+    },
+    {
+        "cancer_type": [
+            "colorectal cancer cancer"
+        ],
+        "biomarker": [
+            "s464l"
+        ]
+    },
+    {
+        "cancer_type": [
+            "colorectal cancer cancer"
+        ],
+        "biomarker": [
+            "s464l"
+        ]
+    },
+    {
+        "cancer_type": [
+            "colorectal cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "colorectal cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "gastrointestinal stromal tumor cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "gastrointestinal stromal tumor cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "gastrointestinal stromal tumor cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "gastrointestinal stromal tumor cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "gastrointestinal stromal tumor cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "gastrointestinal stromal tumor cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "gastrointestinal stromal tumor cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "gastrointestinal stromal tumor cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "gastrointestinal stromal tumor cancer"
+        ],
+        "biomarker": [
+            "v654a"
+        ]
+    },
+    {
+        "cancer_type": [
+            "gastrointestinal stromal tumor cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "gastrointestinal stromal tumor cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "gastrointestinal stromal tumor cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "gastrointestinal stromal tumor cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "gastrointestinal stromal tumor cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "d1228n"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "d1228n"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "d1228n"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": [
+            "g595r"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "g2032r"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "g2032r"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "l2086f"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "l2086f"
+        ]
+    },
+    {
+        "cancer_type": [
+            "cancer",
+            "anaplastic large-cell lymphoma"
+        ],
+        "biomarker": [
+            "alk"
+        ]
+    },
+    {
+        "cancer_type": [
+            "inflammatory myofibroblastic tumor cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "nos cancer",
+            "low-grade glioma"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "myeloid / lymphoid neoplasms"
+        ],
+        "biomarker": [
+            "pdgfrb",
+            "pcm1",
+            "fgfr1",
+            "pdgfra",
+            "jak2"
+        ]
+    },
+    {
+        "cancer_type": [
+            "cholangiocarcinoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "cholangiocarcinoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "acute leukemias"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "acute myeloid leukemia cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "b-lymphoblastic leukemia",
+            "lymphoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "pancreatic adenocarcinoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "myelodysplastic",
+            "myeloproliferative neoplasms cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "myelodysplastic",
+            "myeloproliferative neoplasms cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "medullary thyroid cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "thyroid cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "thyroid cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "b-lymphoblastic leukemia",
+            "lymphoma cancer"
+        ],
+        "biomarker": [
+            "bcr-abl1"
+        ]
+    },
+    {
+        "cancer_type": [
+            "chronic myelogenous leukemia cancer"
+        ],
+        "biomarker": [
+            "abl1",
+            "bcr"
+        ]
+    },
+    {
+        "cancer_type": [
+            "b-lymphoblastic leukemia",
+            "lymphoma cancer"
+        ],
+        "biomarker": [
+            "bcr-abl1"
+        ]
+    },
+    {
+        "cancer_type": [
+            "chronic myelogenous leukemia cancer"
+        ],
+        "biomarker": [
+            "abl1",
+            "bcr"
+        ]
+    },
+    {
+        "cancer_type": [
+            "chronic myelogenous leukemia cancer"
+        ],
+        "biomarker": [
+            "abl1",
+            "bcr"
+        ]
+    },
+    {
+        "cancer_type": [
+            "chronic myelogenous leukemia cancer"
+        ],
+        "biomarker": [
+            "abl1",
+            "bcr"
+        ]
+    },
+    {
+        "cancer_type": [
+            "chronic myelogenous leukemia cancer"
+        ],
+        "biomarker": [
+            "abl1",
+            "bcr"
+        ]
+    },
+    {
+        "cancer_type": [
+            "b-lymphoblastic leukemia",
+            "lymphoma cancer"
+        ],
+        "biomarker": [
+            "bcr"
+        ]
+    },
+    {
+        "cancer_type": [
+            "dermatofibrosarcoma protuberans cancer"
+        ],
+        "biomarker": [
+            "col1a1",
+            "pdgfb"
+        ]
+    },
+    {
+        "cancer_type": [
+            "apl"
+        ],
+        "biomarker": [
+            "pml",
+            "pml-rara"
+        ]
+    },
+    {
+        "cancer_type": [
+            "apl"
+        ],
+        "biomarker": [
+            "pml",
+            "pml-rara"
+        ]
+    },
+    {
+        "cancer_type": [
+            "apl"
+        ],
+        "biomarker": [
+            "pml",
+            "pml-rara"
+        ]
+    },
+    {
+        "cancer_type": [
+            "apl"
+        ],
+        "biomarker": [
+            "pml",
+            "pml-rara"
+        ]
+    },
+    {
+        "cancer_type": [
+            "inflammatory myofibroblastic tumor cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "inflammatory myofibroblastic tumor cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "inflammatory myofibroblastic tumor cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "inflammatory myofibroblastic tumor cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "erdheim-chester disease cancer"
+        ],
+        "biomarker": [
+            "v600"
+        ]
+    },
+    {
+        "cancer_type": [
+            "langerhans cell histiocytosis cancer"
+        ],
+        "biomarker": [
+            "v600"
+        ]
+    },
+    {
+        "cancer_type": [
+            "rosai-dorfman disease cancer"
+        ],
+        "biomarker": [
+            "v600"
+        ]
+    },
+    {
+        "cancer_type": [
+            "pilocytic astrocytoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "erdheim-chester disease cancer"
+        ],
+        "biomarker": [
+            "v600"
+        ]
+    },
+    {
+        "cancer_type": [
+            "langerhans cell histiocytosis cancer"
+        ],
+        "biomarker": [
+            "v600"
+        ]
+    },
+    {
+        "cancer_type": [
+            "rosai-dorfman disease cancer"
+        ],
+        "biomarker": [
+            "v600"
+        ]
+    },
+    {
+        "cancer_type": [
+            "pancreatic cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "bladder cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "myeloid / lymphoid neoplasms"
+        ],
+        "biomarker": [
+            "pdgfrb",
+            "pcm1",
+            "fgfr1",
+            "pdgfra",
+            "jak2"
+        ]
+    },
+    {
+        "cancer_type": [
+            "myeloid / lymphoid neoplasms"
+        ],
+        "biomarker": [
+            "pdgfrb",
+            "pcm1",
+            "fgfr1",
+            "pdgfra",
+            "jak2"
+        ]
+    },
+    {
+        "cancer_type": [
+            "gastrointestinal stromal tumor cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "gastrointestinal stromal tumor cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "gastrointestinal stromal tumor cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "gastrointestinal stromal tumor cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "b-lymphoblastic leukemia",
+            "lymphoma cancer"
+        ],
+        "biomarker": [
+            "bcr-abl1"
+        ]
+    },
+    {
+        "cancer_type": [
+            "b-lymphoblastic leukemia",
+            "lymphoma cancer"
+        ],
+        "biomarker": [
+            "abl1",
+            "bcr"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "nvl-655"
+        ]
+    },
+    {
+        "cancer_type": [
+            "histiocytosis cancer"
+        ],
+        "biomarker": [
+            "v600"
+        ]
+    },
+    {
+        "cancer_type": [
+            "melanoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "ovarian cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "melanoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "ovarian cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "histiocytosis cancer"
+        ],
+        "biomarker": [
+            "v600"
+        ]
+    },
+    {
+        "cancer_type": [
+            "cholangiocarcinoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "medullary thyroid cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "ewing sarcoma cancer"
+        ],
+        "biomarker": [
+            "tk216",
+            "fli1",
+            "ewsr1"
+        ]
+    },
+    {
+        "cancer_type": [
+            "soft tissue cancer",
+            "ewing sarcoma"
+        ],
+        "biomarker": [
+            "tk216",
+            "fli1",
+            "ewsr1"
+        ]
+    },
+    {
+        "cancer_type": [
+            "nos cancer",
+            "prostate cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "prostate cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "nos cancer",
+            "prostate cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "prostate cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "nos cancer",
+            "prostate cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "prostate cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "nos cancer",
+            "prostate cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "prostate cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "ovarian cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "fallopian tube cancer",
+            "ovary /"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "peritoneal serous carcinoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "nos cancer",
+            "prostate cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "prostate cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "ovarian cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "ovary",
+            "fallopian tube cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "peritoneal serous carcinoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "nos cancer",
+            "prostate cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "prostate cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "nos cancer",
+            "prostate cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "prostate cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "ovarian cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "ovary",
+            "fallopian tube cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "peritoneal serous carcinoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "ovarian cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "fallopian tube cancer",
+            "ovary /"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "peritoneal serous carcinoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "nos cancer",
+            "prostate cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "prostate cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "nos cancer",
+            "prostate cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "prostate cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "ovarian cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "fallopian tube cancer",
+            "ovary /"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "peritoneal serous carcinoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "nos cancer",
+            "prostate cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "prostate cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "ovarian cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "ovary",
+            "fallopian tube cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "peritoneal serous carcinoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "nos cancer",
+            "prostate cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "prostate cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "nos cancer",
+            "prostate cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "prostate cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "ovarian cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "ovary",
+            "fallopian tube cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "peritoneal serous carcinoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "nos cancer",
+            "prostate cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "prostate cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "nos cancer",
+            "prostate cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "prostate cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "nos cancer",
+            "prostate cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "prostate cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "nos cancer",
+            "prostate cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "prostate cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "nos cancer",
+            "prostate cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "prostate cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "nos cancer",
+            "prostate cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "prostate cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "nos cancer",
+            "prostate cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "prostate cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "nos cancer",
+            "prostate cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "prostate cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "breast cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "esophagogastric adenocarcinoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "esophagogastric adenocarcinoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "breast cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "breast cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "esophagogastric adenocarcinoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "breast cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "colorectal cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "breast cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "breast cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "breast cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "breast cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "breast cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "breast cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "breast cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "nos cancer",
+            "prostate cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "prostate cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "nos cancer",
+            "prostate cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "prostate cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "nos cancer",
+            "prostate cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "prostate cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "nos cancer",
+            "prostate cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "prostate cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "nos cancer",
+            "prostate cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "prostate cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "neurofibroma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "neurofibroma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "nos cancer",
+            "prostate cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "prostate cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "nos cancer",
+            "prostate cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "prostate cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "breast cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "nos cancer",
+            "prostate cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "prostate cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "nos cancer",
+            "prostate cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "prostate cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "nos cancer",
+            "prostate cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "prostate cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "nos cancer",
+            "prostate cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "prostate cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "epithelioid sarcoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "encapsulated glioma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "pancreatic adenocarcinoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "acinar cell carcinoma",
+            "pancreas cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "uterine sarcoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "pancreatic adenocarcinoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "acinar cell carcinoma",
+            "pancreas cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "uterine sarcoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "uterine sarcoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "salivary gland cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "uterine serous carcinoma",
+            "uterine papillary serous carcinoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "colorectal cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "hepatobiliary cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "biliary tract cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "hepatobiliary cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "biliary tract cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "colorectal cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "salivary gland cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "salivary gland cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "colorectal cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "salivary gland cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "salivary gland cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "follicular lymphoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "pancreatic adenocarcinoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "acinar cell carcinoma",
+            "pancreas cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "pancreatic adenocarcinoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "acinar cell carcinoma",
+            "pancreas cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "breast cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "breast cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "pancreatic adenocarcinoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "acinar cell carcinoma",
+            "pancreas cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "breast cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "breast cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "ovarian cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "endometrial cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "esophagogastric cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "esophagogastric cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "esophagogastric cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "esophagogastric cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "hepatobiliary cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "biliary tract cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "bladder cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "ovarian cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "endometrial cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "hepatobiliary cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "biliary tract cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "intimal sarcoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "liposarcoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "well-differentiated liposarcoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "hepatobiliary cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "biliary tract cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": [
+            "mrtx1719"
+        ]
+    },
+    {
+        "cancer_type": [
+            "acute myeloid leukemia cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "ovarian cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "endometrial cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "esophageal adenocarcinoma cancer"
+        ],
+        "biomarker": [
+            "prt3789"
+        ]
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": [
+            "prt3789"
+        ]
+    },
+    {
+        "cancer_type": [
+            "perivascular epithelioid cell tumor cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "uterine perivascular epithelioid cell tumor cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "liposarcoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "well-differentiated liposarcoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "liposarcoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "well-differentiated liposarcoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "glioma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "bladder cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "liposarcoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "well-differentiated liposarcoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": [
+            "gsk2636771"
+        ]
+    },
+    {
+        "cancer_type": [
+            "all solid tumors cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "all liquid tumors cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "chronic myelomonocytic leukemia cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "myelodysplastic syndromes cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "non-small cell lung cancer cancer"
+        ],
+        "biomarker": []
+    }
+]
