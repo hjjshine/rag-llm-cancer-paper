@@ -2,39 +2,39 @@ statement_id,standardized_cancer,raw_cancer,biomarker,therapy,modified_standard_
 0,B-Lymphoblastic Leukemia/Lymphoma,B-Lymphoblastic Leukemia/Lymphoma,['T315I'],['Ponatinib'],B-Lymphoblastic Leukemia/Lymphoma
 1,Chronic Myelogenous Leukemia,Chronic Myelogenous Leukemia,['T315I'],['Ponatinib'],Chronic Myelogenous Leukemia
 2,Chronic Myelogenous Leukemia,Chronic Myelogenous Leukemia,['T315I'],['Asciminib'],Chronic Myelogenous Leukemia
-3,Breast Cancer,Breast Cancer,['E17K'],"['Capivasertib,Fulvestrant']",Breast Cancer
+3,Breast Cancer,Breast Cancer,['E17K'],"['Capivasertib', 'Fulvestrant']",Breast Cancer
 4,Melanoma,Melanoma,['V600E'],['Dabrafenib'],Melanoma
-5,All Solid Tumors,All Solid Tumors,['V600E'],"['Dabrafenib,Trametinib']",All Solid Tumors
-6,Anaplastic Thyroid Cancer,Anaplastic Thyroid Cancer,['V600E'],"['Dabrafenib,Trametinib']",Anaplastic Thyroid Cancer
-7,Hepatobiliary Cancer,Hepatobiliary Cancer,['V600E'],"['Dabrafenib,Trametinib']",Hepatobiliary Cancer
-8,Biliary Tract,Biliary Tract,['V600E'],"['Dabrafenib,Trametinib']",Biliary Tract
-9,"Low-Grade Glioma, NOS","Low-Grade Glioma, NOS",['V600E'],"['Dabrafenib,Trametinib']","Low-Grade Glioma, NOS"
-10,Melanoma,Melanoma,"['V600E,V600K']","['Dabrafenib,Trametinib']",Melanoma
-11,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['V600E'],"['Dabrafenib,Trametinib']",Non-Small Cell Lung Cancer
-12,Colorectal Cancer,Colorectal Cancer,['V600E'],"['Encorafenib,Cetuximab']",Colorectal Cancer
-13,Colorectal Cancer,Colorectal Cancer,['V600E'],"['Encorafenib,Cetuximab,FOLFOX Regimen']",Colorectal Cancer
+5,All Solid Tumors,All Solid Tumors,['V600E'],"['Dabrafenib', 'Trametinib']",All Solid Tumors
+6,Anaplastic Thyroid Cancer,Anaplastic Thyroid Cancer,['V600E'],"['Dabrafenib', 'Trametinib']",Anaplastic Thyroid Cancer
+7,Hepatobiliary Cancer,Hepatobiliary Cancer,['V600E'],"['Dabrafenib', 'Trametinib']",Hepatobiliary Cancer
+8,Biliary Tract,Biliary Tract,['V600E'],"['Dabrafenib', 'Trametinib']",Biliary Tract
+9,"Low-Grade Glioma, NOS","Low-Grade Glioma, NOS",['V600E'],"['Dabrafenib', 'Trametinib']","Low-Grade Glioma, NOS"
+10,Melanoma,Melanoma,"['V600E,V600K']","['Dabrafenib', 'Trametinib']",Melanoma
+11,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['V600E'],"['Dabrafenib', 'Trametinib']",Non-Small Cell Lung Cancer
+12,Colorectal Cancer,Colorectal Cancer,['V600E'],"['Encorafenib', 'Cetuximab']",Colorectal Cancer
+13,Colorectal Cancer,Colorectal Cancer,['V600E'],"['Encorafenib', 'Cetuximab', 'FOLFOX Regimen']",Colorectal Cancer
 14,"Low-Grade Glioma, NOS","Low-Grade Glioma, NOS",['V600'],['Tovorafenib'],"Low-Grade Glioma, NOS"
 15,Erdheim-Chester Disease,Erdheim-Chester Disease,['V600'],['Vemurafenib'],Erdheim-Chester Disease
-16,Melanoma,Melanoma,['V600'],"['Vemurafenib,Atezolizumab,Cobimetinib']",Melanoma
-17,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['V600E'],"['Encorafenib,Binimetinib']",Non-Small Cell Lung Cancer
+16,Melanoma,Melanoma,['V600'],"['Vemurafenib', 'Atezolizumab', 'Cobimetinib']",Melanoma
+17,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['V600E'],"['Encorafenib', 'Binimetinib']",Non-Small Cell Lung Cancer
 18,Melanoma,Melanoma,"['V600E,V600K']",['Trametinib'],Melanoma
 19,Melanoma,Melanoma,['V600E'],['Vemurafenib'],Melanoma
-20,Melanoma,Melanoma,"['V600E,V600K']","['Vemurafenib,Cobimetinib']",Melanoma
-21,Melanoma,Melanoma,"['V600E,V600K']","['Encorafenib,Binimetinib']",Melanoma
+20,Melanoma,Melanoma,"['V600E,V600K']","['Vemurafenib', 'Cobimetinib']",Melanoma
+21,Melanoma,Melanoma,"['V600E,V600K']","['Encorafenib', 'Binimetinib']",Melanoma
 22,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['Oncogenic Mutations'],['Datopotamab Deruxtecan'],Non-Small Cell Lung Cancer
 23,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,"['Exon 19 in-frame deletions,L858R']",['Erlotinib'],Non-Small Cell Lung Cancer
-24,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,"['Exon 19 in-frame deletions,L858R']","['Osimertinib,Chemotherapy']",Non-Small Cell Lung Cancer
-25,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,"['Exon 19 in-frame deletions,L858R']","['Amivantamab,Chemotherapy']",Non-Small Cell Lung Cancer
-26,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,"['Exon 19 in-frame deletions,L858R']","['Erlotinib,Ramucirumab']",Non-Small Cell Lung Cancer
+24,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,"['Exon 19 in-frame deletions,L858R']","['Osimertinib', 'Chemotherapy']",Non-Small Cell Lung Cancer
+25,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,"['Exon 19 in-frame deletions,L858R']","['Amivantamab', 'Chemotherapy']",Non-Small Cell Lung Cancer
+26,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,"['Exon 19 in-frame deletions,L858R']","['Erlotinib', 'Ramucirumab']",Non-Small Cell Lung Cancer
 27,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,"['Exon 19 in-frame deletions,L858R']",['Afatinib'],Non-Small Cell Lung Cancer
-28,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,"['Exon 19 in-frame deletions,L858R']","['Amivantamab,Lazertinib']",Non-Small Cell Lung Cancer
+28,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,"['Exon 19 in-frame deletions,L858R']","['Amivantamab', 'Lazertinib']",Non-Small Cell Lung Cancer
 29,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,"['Exon 19 in-frame deletions,L858R']",['Gefitinib'],Non-Small Cell Lung Cancer
 30,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,"['Exon 19 in-frame deletions,L858R']",['Osimertinib'],Non-Small Cell Lung Cancer
 31,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,"['Exon 19 in-frame deletions,L858R']",['Dacomitinib'],Non-Small Cell Lung Cancer
 32,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['S768I'],['Afatinib'],Non-Small Cell Lung Cancer
 33,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['Exon 20 in-frame insertions'],['Amivantamab'],Non-Small Cell Lung Cancer
 34,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['Exon 20 in-frame insertions'],['Sunvozertinib'],Non-Small Cell Lung Cancer
-35,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['Exon 20 in-frame insertions'],"['Amivantamab,Chemotherapy']",Non-Small Cell Lung Cancer
+35,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['Exon 20 in-frame insertions'],"['Amivantamab', 'Chemotherapy']",Non-Small Cell Lung Cancer
 36,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['G719'],['Afatinib'],Non-Small Cell Lung Cancer
 37,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['T790M'],['Osimertinib'],Non-Small Cell Lung Cancer
 38,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['L861Q'],['Afatinib'],Non-Small Cell Lung Cancer
@@ -58,18 +58,18 @@ statement_id,standardized_cancer,raw_cancer,biomarker,therapy,modified_standard_
 56,Gastrointestinal Stromal Tumor,Gastrointestinal Stromal Tumor,['Oncogenic Mutations'],['Regorafenib'],Gastrointestinal Stromal Tumor
 57,Gastrointestinal Stromal Tumor,Gastrointestinal Stromal Tumor,['Oncogenic Mutations'],['Ripretinib'],Gastrointestinal Stromal Tumor
 58,Mastocytosis,Mastocytosis,['D816'],['Avapritinib'],Mastocytosis
-59,Low-Grade Serous Ovarian Cancer,Low-Grade Serous Ovarian Cancer,['Oncogenic Mutations'],"['Avutometinib,Defactinib']",Low-Grade Serous Ovarian Cancer
-60,Colorectal Cancer,Colorectal Cancer,['G12C'],"['Adagrasib,Cetuximab']",Colorectal Cancer
+59,Low-Grade Serous Ovarian Cancer,Low-Grade Serous Ovarian Cancer,['Oncogenic Mutations'],"['Avutometinib', 'Defactinib']",Low-Grade Serous Ovarian Cancer
+60,Colorectal Cancer,Colorectal Cancer,['G12C'],"['Adagrasib', 'Cetuximab']",Colorectal Cancer
 61,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['G12C'],['Sotorasib'],Non-Small Cell Lung Cancer
 62,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['G12C'],['Adagrasib'],Non-Small Cell Lung Cancer
-63,Colorectal Cancer,Colorectal Cancer,['G12C'],"['Sotorasib,Panitumumab']",Colorectal Cancer
+63,Colorectal Cancer,Colorectal Cancer,['G12C'],"['Sotorasib', 'Panitumumab']",Colorectal Cancer
 64,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,"['Exon 14 in-frame deletions,Exon 14 Deletion,D1010,Exon 14 splice mutations']",['Capmatinib'],Non-Small Cell Lung Cancer
 65,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,"['Exon 14 in-frame deletions,Exon 14 Deletion,D1010,Exon 14 splice mutations']",['Tepotinib'],Non-Small Cell Lung Cancer
 66,Gastrointestinal Stromal Tumor,Gastrointestinal Stromal Tumor,"['Exon 18 missense mutations,Exon 18 in-frame deletions,Exon 18 in-frame insertions']",['Avapritinib'],Gastrointestinal Stromal Tumor
-67,Breast Cancer,Breast Cancer,"['N345K,E545Q,Q546K,Q546P,M1043V,M1043I,G1049R,R88Q']","['Capivasertib,Fulvestrant']",Breast Cancer
-68,Breast Cancer,Breast Cancer,['Oncogenic Mutations'],"['Inavolisib,Palbociclib,Fulvestrant']",Breast Cancer
-69,Breast Cancer,Breast Cancer,"['C420R,E542K,E545A,E545D,E545G,E545K,Q546E,Q546R,H1047L,H1047R,H1047Y']","['Alpelisib,Fulvestrant']",Breast Cancer
-70,Breast Cancer,Breast Cancer,"['C420R,E542K,E545A,E545D,E545G,E545K,Q546E,Q546R,H1047L,H1047R,H1047Y']","['Capivasertib,Fulvestrant']",Breast Cancer
+67,Breast Cancer,Breast Cancer,"['N345K,E545Q,Q546K,Q546P,M1043V,M1043I,G1049R,R88Q']","['Capivasertib', 'Fulvestrant']",Breast Cancer
+68,Breast Cancer,Breast Cancer,['Oncogenic Mutations'],"['Inavolisib', 'Palbociclib', 'Fulvestrant']",Breast Cancer
+69,Breast Cancer,Breast Cancer,"['C420R,E542K,E545A,E545D,E545G,E545K,Q546E,Q546R,H1047L,H1047R,H1047Y']","['Alpelisib', 'Fulvestrant']",Breast Cancer
+70,Breast Cancer,Breast Cancer,"['C420R,E542K,E545A,E545D,E545G,E545K,Q546E,Q546R,H1047L,H1047R,H1047Y']","['Capivasertib', 'Fulvestrant']",Breast Cancer
 71,B-Lymphoblastic Leukemia/Lymphoma,B-Lymphoblastic Leukemia/Lymphoma,"['V299L,F317L,F317I,F317C,T315A,F317V']",['Nilotinib'],B-Lymphoblastic Leukemia/Lymphoma
 72,Chronic Myelogenous Leukemia,Chronic Myelogenous Leukemia,"['V299L,F317L,F317I,F317C,T315A,F317V']",['Nilotinib'],Chronic Myelogenous Leukemia
 73,B-Lymphoblastic Leukemia/Lymphoma,B-Lymphoblastic Leukemia/Lymphoma,"['Y253H,F359V,F359C,F317I,F317C,F359I,T315A,F317V,E255K,E255V']",['Bosutinib'],B-Lymphoblastic Leukemia/Lymphoma
@@ -81,26 +81,26 @@ statement_id,standardized_cancer,raw_cancer,biomarker,therapy,modified_standard_
 79,Pilocytic Astrocytoma,Pilocytic Astrocytoma,['V600E'],['Selumetinib'],Pilocytic Astrocytoma
 80,Hairy Cell Leukemia,Hairy Cell Leukemia,['V600E'],['Vemurafenib'],Hairy Cell Leukemia
 81,Langerhans Cell Histiocytosis,Langerhans Cell Histiocytosis,['V600'],['Vemurafenib'],Langerhans Cell Histiocytosis
-82,Diffuse Glioma,Diffuse Glioma,['V600E'],"['Vemurafenib,Cobimetinib']",Diffuse Glioma
-83,Encapsulated Glioma,Encapsulated Glioma,['V600E'],"['Vemurafenib,Cobimetinib']",Encapsulated Glioma
-84,Pleomorphic Xanthoastrocytoma,Pleomorphic Xanthoastrocytoma,['V600E'],"['Vemurafenib,Cobimetinib']",Pleomorphic Xanthoastrocytoma
-85,Pilocytic Astrocytoma,Pilocytic Astrocytoma,['V600E'],"['Vemurafenib,Cobimetinib']",Pilocytic Astrocytoma
-86,Ganglioglioma,Ganglioglioma,['V600E'],"['Vemurafenib,Cobimetinib']",Ganglioglioma
+82,Diffuse Glioma,Diffuse Glioma,['V600E'],"['Vemurafenib', 'Cobimetinib']",Diffuse Glioma
+83,Encapsulated Glioma,Encapsulated Glioma,['V600E'],"['Vemurafenib', 'Cobimetinib']",Encapsulated Glioma
+84,Pleomorphic Xanthoastrocytoma,Pleomorphic Xanthoastrocytoma,['V600E'],"['Vemurafenib', 'Cobimetinib']",Pleomorphic Xanthoastrocytoma
+85,Pilocytic Astrocytoma,Pilocytic Astrocytoma,['V600E'],"['Vemurafenib', 'Cobimetinib']",Pilocytic Astrocytoma
+86,Ganglioglioma,Ganglioglioma,['V600E'],"['Vemurafenib', 'Cobimetinib']",Ganglioglioma
 87,Langerhans Cell Histiocytosis,Langerhans Cell Histiocytosis,['V600'],['Dabrafenib'],Langerhans Cell Histiocytosis
-88,Colorectal Cancer,Colorectal Cancer,['V600E'],"['Encorafenib,Panitumumab']",Colorectal Cancer
+88,Colorectal Cancer,Colorectal Cancer,['V600E'],"['Encorafenib', 'Panitumumab']",Colorectal Cancer
 89,Erdheim-Chester Disease,Erdheim-Chester Disease,['Oncogenic Mutations (excluding V600)'],['Cobimetinib'],Erdheim-Chester Disease
 90,Langerhans Cell Histiocytosis,Langerhans Cell Histiocytosis,['Oncogenic Mutations (excluding V600)'],['Cobimetinib'],Langerhans Cell Histiocytosis
 91,Rosai-Dorfman Disease,Rosai-Dorfman Disease,['Oncogenic Mutations (excluding V600)'],['Cobimetinib'],Rosai-Dorfman Disease
 92,Erdheim-Chester Disease,Erdheim-Chester Disease,['Oncogenic Mutations (excluding V600)'],['Trametinib'],Erdheim-Chester Disease
 93,Langerhans Cell Histiocytosis,Langerhans Cell Histiocytosis,['Oncogenic Mutations (excluding V600)'],['Trametinib'],Langerhans Cell Histiocytosis
 94,Rosai-Dorfman Disease,Rosai-Dorfman Disease,['Oncogenic Mutations (excluding V600)'],['Trametinib'],Rosai-Dorfman Disease
-95,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['S768I'],"['Amivantamab,Chemotherapy']",Non-Small Cell Lung Cancer
+95,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['S768I'],"['Amivantamab', 'Chemotherapy']",Non-Small Cell Lung Cancer
 96,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['S768I'],['Erlotinib'],Non-Small Cell Lung Cancer
 97,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['S768I'],['Osimertinib'],Non-Small Cell Lung Cancer
 98,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['S768I'],['Gefitinib'],Non-Small Cell Lung Cancer
 99,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['S768I'],['Dacomitinib'],Non-Small Cell Lung Cancer
 100,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['A763_Y764insFQEA'],['Erlotinib'],Non-Small Cell Lung Cancer
-101,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['G719'],"['Amivantamab,Chemotherapy']",Non-Small Cell Lung Cancer
+101,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['G719'],"['Amivantamab', 'Chemotherapy']",Non-Small Cell Lung Cancer
 102,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['G719'],['Dacomitinib'],Non-Small Cell Lung Cancer
 103,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['G719'],['Osimertinib'],Non-Small Cell Lung Cancer
 104,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['G719'],['Erlotinib'],Non-Small Cell Lung Cancer
@@ -109,10 +109,10 @@ statement_id,standardized_cancer,raw_cancer,biomarker,therapy,modified_standard_
 107,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['L861Q'],['Erlotinib'],Non-Small Cell Lung Cancer
 108,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['L861Q'],['Osimertinib'],Non-Small Cell Lung Cancer
 109,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['L861Q'],['Gefitinib'],Non-Small Cell Lung Cancer
-110,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['L861Q'],"['Amivantamab,Chemotherapy']",Non-Small Cell Lung Cancer
+110,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['L861Q'],"['Amivantamab', 'Chemotherapy']",Non-Small Cell Lung Cancer
 111,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['Oncogenic Mutations'],['Ado-Trastuzumab Emtansine'],Non-Small Cell Lung Cancer
 112,Cervical Cancer,Cervical Cancer,['Oncogenic Mutations'],['Neratinib'],Cervical Cancer
-113,Breast Cancer,Breast Cancer,['Oncogenic Mutations'],"['Neratinib,Trastuzumab,Fulvestrant']",Breast Cancer
+113,Breast Cancer,Breast Cancer,['Oncogenic Mutations'],"['Neratinib', 'Trastuzumab', 'Fulvestrant']",Breast Cancer
 114,Breast Cancer,Breast Cancer,['V422del'],['Elacestrant'],Breast Cancer
 115,Bladder Cancer,Bladder Cancer,['Oncogenic Mutations'],['Erdafitinib'],Bladder Cancer
 116,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['Oncogenic Mutations'],['Erdafitinib'],Non-Small Cell Lung Cancer
@@ -130,31 +130,31 @@ statement_id,standardized_cancer,raw_cancer,biomarker,therapy,modified_standard_
 128,Hepatobiliary Cancer,Hepatobiliary Cancer,['G12C'],['Adagrasib'],Hepatobiliary Cancer
 129,Pancreatic Adenocarcinoma,Pancreatic Adenocarcinoma,['G12C'],['Adagrasib'],Pancreatic Adenocarcinoma
 130,Small Bowel Cancer,Small Bowel Cancer,['G12C'],['Adagrasib'],Small Bowel Cancer
-131,Colorectal Cancer,Colorectal Cancer,['G12C'],"['Adagrasib,Panitumumab']",Colorectal Cancer
+131,Colorectal Cancer,Colorectal Cancer,['G12C'],"['Adagrasib', 'Panitumumab']",Colorectal Cancer
 132,Ampullary Cancer,Ampullary Cancer,['G12C'],['Sotorasib'],Ampullary Cancer
 133,Ampullary Cancer,Ampullary Cancer,['G12C'],['Adagrasib'],Ampullary Cancer
 134,Pancreatic Adenocarcinoma,Pancreatic Adenocarcinoma,['G12C'],['Sotorasib'],Pancreatic Adenocarcinoma
 135,Small Bowel Cancer,Small Bowel Cancer,['G12C'],['Sotorasib'],Small Bowel Cancer
-136,Colorectal Cancer,Colorectal Cancer,['G12C'],"['Sotorasib,Cetuximab']",Colorectal Cancer
+136,Colorectal Cancer,Colorectal Cancer,['G12C'],"['Sotorasib', 'Cetuximab']",Colorectal Cancer
 137,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,"['Exon 14 in-frame deletions,Exon 14 Deletion,D1010,Exon 14 splice mutations']",['Crizotinib'],Non-Small Cell Lung Cancer
 138,Gastrointestinal Stromal Tumor,Gastrointestinal Stromal Tumor,['D842V'],['Dasatinib'],Gastrointestinal Stromal Tumor
 139,Gastrointestinal Stromal Tumor,Gastrointestinal Stromal Tumor,['Oncogenic Mutations'],['Imatinib'],Gastrointestinal Stromal Tumor
 140,Gastrointestinal Stromal Tumor,Gastrointestinal Stromal Tumor,['Oncogenic Mutations'],['Sunitinib'],Gastrointestinal Stromal Tumor
 141,Gastrointestinal Stromal Tumor,Gastrointestinal Stromal Tumor,['Oncogenic Mutations'],['Regorafenib'],Gastrointestinal Stromal Tumor
 142,Gastrointestinal Stromal Tumor,Gastrointestinal Stromal Tumor,['Oncogenic Mutations'],['Ripretinib'],Gastrointestinal Stromal Tumor
-143,Breast Cancer,Breast Cancer,"['Oncogenic Mutations (excluding C420R, E542K, E545A, E545D, E545G, E545K, Q546E, Q546R, H1047L, H1047R and H1047Y)']","['Alpelisib,Fulvestrant']",Breast Cancer
+143,Breast Cancer,Breast Cancer,"['Oncogenic Mutations (excluding C420R, E542K, E545A, E545D, E545G, E545K, Q546E, Q546R, H1047L, H1047R and H1047Y)']","['Alpelisib', 'Fulvestrant']",Breast Cancer
 144,Colorectal Cancer,Colorectal Cancer,"['D402N,L474P,S478N,E318K']",['Dostarlimab'],Colorectal Cancer
 145,Small Bowel Cancer,Small Bowel Cancer,"['D402N,L474P,S478N,E318K']",['Dostarlimab'],Small Bowel Cancer
-146,Colorectal Cancer,Colorectal Cancer,"['D402N,L474P,S478N,E318K']","['Ipilimumab,Nivolumab']",Colorectal Cancer
-147,Small Bowel Cancer,Small Bowel Cancer,"['D402N,L474P,S478N,E318K']","['Ipilimumab,Nivolumab']",Small Bowel Cancer
+146,Colorectal Cancer,Colorectal Cancer,"['D402N,L474P,S478N,E318K']","['Ipilimumab', 'Nivolumab']",Colorectal Cancer
+147,Small Bowel Cancer,Small Bowel Cancer,"['D402N,L474P,S478N,E318K']","['Ipilimumab', 'Nivolumab']",Small Bowel Cancer
 148,Colorectal Cancer,Colorectal Cancer,"['D402N,L474P,S478N,E318K']",['Nivolumab'],Colorectal Cancer
 149,Small Bowel Cancer,Small Bowel Cancer,"['D402N,L474P,S478N,E318K']",['Nivolumab'],Small Bowel Cancer
 150,Colorectal Cancer,Colorectal Cancer,"['D402N,L474P,S478N,E318K']",['Pembrolizumab'],Colorectal Cancer
 151,Small Bowel Cancer,Small Bowel Cancer,"['D402N,L474P,S478N,E318K']",['Pembrolizumab'],Small Bowel Cancer
 152,Colorectal Cancer,Colorectal Cancer,"['D368N,D275V,D275G,D275A,A463V,A463T,A463D,A288V,S461L,K425R,V464A,V411L,P286R,P286S,P286H,S459F,L424V,L424I,F367S,S297F,S297Y,A456P,P436R,M295R,V411M,M444K,D368Y,F367V,S459Y,P286L,Y458H,Y458C,S461T,S461P,P436S,P436H,F367L']",['Dostarlimab'],Colorectal Cancer
 153,Small Bowel Cancer,Small Bowel Cancer,"['D368N,D275V,D275G,D275A,A463V,A463T,A463D,A288V,S461L,K425R,V464A,V411L,P286R,P286S,P286H,S459F,L424V,L424I,F367S,S297F,S297Y,A456P,P436R,M295R,V411M,M444K,D368Y,F367V,S459Y,P286L,Y458H,Y458C,S461T,S461P,P436S,P436H,F367L']",['Dostarlimab'],Small Bowel Cancer
-154,Colorectal Cancer,Colorectal Cancer,"['D368N,D275V,D275G,D275A,A463V,A463T,A463D,A288V,S461L,K425R,V464A,V411L,P286R,P286S,P286H,S459F,L424V,L424I,F367S,S297F,S297Y,A456P,P436R,M295R,V411M,M444K,D368Y,F367V,S459Y,P286L,Y458H,Y458C,S461T,S461P,P436S,P436H,F367L']","['Ipilimumab,Nivolumab']",Colorectal Cancer
-155,Small Bowel Cancer,Small Bowel Cancer,"['D368N,D275V,D275G,D275A,A463V,A463T,A463D,A288V,S461L,K425R,V464A,V411L,P286R,P286S,P286H,S459F,L424V,L424I,F367S,S297F,S297Y,A456P,P436R,M295R,V411M,M444K,D368Y,F367V,S459Y,P286L,Y458H,Y458C,S461T,S461P,P436S,P436H,F367L']","['Ipilimumab,Nivolumab']",Small Bowel Cancer
+154,Colorectal Cancer,Colorectal Cancer,"['D368N,D275V,D275G,D275A,A463V,A463T,A463D,A288V,S461L,K425R,V464A,V411L,P286R,P286S,P286H,S459F,L424V,L424I,F367S,S297F,S297Y,A456P,P436R,M295R,V411M,M444K,D368Y,F367V,S459Y,P286L,Y458H,Y458C,S461T,S461P,P436S,P436H,F367L']","['Ipilimumab', 'Nivolumab']",Colorectal Cancer
+155,Small Bowel Cancer,Small Bowel Cancer,"['D368N,D275V,D275G,D275A,A463V,A463T,A463D,A288V,S461L,K425R,V464A,V411L,P286R,P286S,P286H,S459F,L424V,L424I,F367S,S297F,S297Y,A456P,P436R,M295R,V411M,M444K,D368Y,F367V,S459Y,P286L,Y458H,Y458C,S461T,S461P,P436S,P436H,F367L']","['Ipilimumab', 'Nivolumab']",Small Bowel Cancer
 156,Colorectal Cancer,Colorectal Cancer,"['D368N,D275V,D275G,D275A,A463V,A463T,A463D,A288V,S461L,K425R,V464A,V411L,P286R,P286S,P286H,S459F,L424V,L424I,F367S,S297F,S297Y,A456P,P436R,M295R,V411M,M444K,D368Y,F367V,S459Y,P286L,Y458H,Y458C,S461T,S461P,P436S,P436H,F367L']",['Nivolumab'],Colorectal Cancer
 157,Small Bowel Cancer,Small Bowel Cancer,"['D368N,D275V,D275G,D275A,A463V,A463T,A463D,A288V,S461L,K425R,V464A,V411L,P286R,P286S,P286H,S459F,L424V,L424I,F367S,S297F,S297Y,A456P,P436R,M295R,V411M,M444K,D368Y,F367V,S459Y,P286L,Y458H,Y458C,S461T,S461P,P436S,P436H,F367L']",['Nivolumab'],Small Bowel Cancer
 158,Colorectal Cancer,Colorectal Cancer,"['D368N,D275V,D275G,D275A,A463V,A463T,A463D,A288V,S461L,K425R,V464A,V411L,P286R,P286S,P286H,S459F,L424V,L424I,F367S,S297F,S297Y,A456P,P436R,M295R,V411M,M444K,D368Y,F367V,S459Y,P286L,Y458H,Y458C,S461T,S461P,P436S,P436H,F367L']",['Pembrolizumab'],Colorectal Cancer
@@ -175,20 +175,20 @@ statement_id,standardized_cancer,raw_cancer,biomarker,therapy,modified_standard_
 173,Melanoma,Melanoma,['K601'],['Trametinib'],Melanoma
 174,Melanoma,Melanoma,['L597'],['Trametinib'],Melanoma
 175,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,"['L861Q,Exon 19 in-frame deletions,Exon 19 in-frame insertions,L858R,S768I,G719']",['Patritumab Deruxtecan'],Non-Small Cell Lung Cancer
-176,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['S768I'],"['Amivantamab,Lazertinib']",Non-Small Cell Lung Cancer
+176,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['S768I'],"['Amivantamab', 'Lazertinib']",Non-Small Cell Lung Cancer
 177,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['Exon 20 in-frame insertions'],['Poziotinib'],Non-Small Cell Lung Cancer
 178,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['Exon 20 in-frame insertions'],['Zipalertinib'],Non-Small Cell Lung Cancer
 179,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['L718Q'],['Afatinib'],Non-Small Cell Lung Cancer
-180,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['G719'],"['Amivantamab,Lazertinib']",Non-Small Cell Lung Cancer
+180,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['G719'],"['Amivantamab', 'Lazertinib']",Non-Small Cell Lung Cancer
 181,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['E709_T710delinsD'],['Afatinib'],Non-Small Cell Lung Cancer
 182,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['G724S'],['Afatinib'],Non-Small Cell Lung Cancer
 183,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['L718V'],['Afatinib'],Non-Small Cell Lung Cancer
-184,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['L861Q'],"['Amivantamab,Lazertinib']",Non-Small Cell Lung Cancer
+184,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['L861Q'],"['Amivantamab', 'Lazertinib']",Non-Small Cell Lung Cancer
 185,Breast Cancer,Breast Cancer,['Oncogenic Mutations'],['Neratinib'],Breast Cancer
 186,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['Oncogenic Mutations'],['Neratinib'],Non-Small Cell Lung Cancer
 187,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['Oncogenic Mutations'],['Zongertinib'],Non-Small Cell Lung Cancer
 188,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['Oncogenic Mutations'],['Sevabertinib'],Non-Small Cell Lung Cancer
-189,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['Oncogenic Mutations'],"['Trastuzumab,Pertuzumab,Docetaxel']",Non-Small Cell Lung Cancer
+189,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['Oncogenic Mutations'],"['Trastuzumab', 'Pertuzumab', 'Docetaxel']",Non-Small Cell Lung Cancer
 190,Breast Cancer,Breast Cancer,['Oncogenic Mutations (excluding Fusions)'],['Fulvestrant'],Breast Cancer
 191,Glioma,Glioma,['R132'],['Ivosidenib'],Glioma
 192,Histiocytosis,Histiocytosis,['Oncogenic Mutations'],['Cobimetinib'],Histiocytosis
@@ -225,8 +225,8 @@ statement_id,standardized_cancer,raw_cancer,biomarker,therapy,modified_standard_
 223,Biliary Tract,Biliary Tract,['Oncogenic Mutations'],['Neratinib'],Biliary Tract
 224,Hepatobiliary Cancer,Hepatobiliary Cancer,['Oncogenic Mutations'],['Trastuzumab Deruxtecan'],Hepatobiliary Cancer
 225,Biliary Tract,Biliary Tract,['Oncogenic Mutations'],['Trastuzumab Deruxtecan'],Biliary Tract
-226,Hepatobiliary Cancer,Hepatobiliary Cancer,['Oncogenic Mutations'],"['Pertuzumab,Trastuzumab']",Hepatobiliary Cancer
-227,Biliary Tract,Biliary Tract,['Oncogenic Mutations'],"['Pertuzumab,Trastuzumab']",Biliary Tract
+226,Hepatobiliary Cancer,Hepatobiliary Cancer,['Oncogenic Mutations'],"['Pertuzumab', 'Trastuzumab']",Hepatobiliary Cancer
+227,Biliary Tract,Biliary Tract,['Oncogenic Mutations'],"['Pertuzumab', 'Trastuzumab']",Biliary Tract
 228,All Solid Tumors,All Solid Tumors,['Oncogenic Mutations'],['Erdafitinib'],All Solid Tumors
 229,All Solid Tumors,All Solid Tumors,['Oncogenic Mutations'],['Fexagratinib'],All Solid Tumors
 230,Gastrointestinal Stromal Tumor,Gastrointestinal Stromal Tumor,"['C809G,A829P,D816,D820,N822,Y823D']",['Nilotinib'],Gastrointestinal Stromal Tumor
@@ -245,7 +245,7 @@ statement_id,standardized_cancer,raw_cancer,biomarker,therapy,modified_standard_
 243,All Solid Tumors,All Solid Tumors,['G595R'],['Zurletrectinib'],All Solid Tumors
 244,All Solid Tumors,All Solid Tumors,['G623R'],['Zurletrectinib'],All Solid Tumors
 245,All Solid Tumors,All Solid Tumors,['Oncogenic Mutations'],['RLY-2608'],All Solid Tumors
-246,Breast Cancer,Breast Cancer,['Oncogenic Mutations'],"['RLY-2608,Fulvestrant']",Breast Cancer
+246,Breast Cancer,Breast Cancer,['Oncogenic Mutations'],"['RLY-2608', 'Fulvestrant']",Breast Cancer
 247,B-Lymphoblastic Leukemia/Lymphoma,B-Lymphoblastic Leukemia/Lymphoma,['T315I'],['Imatinib'],B-Lymphoblastic Leukemia/Lymphoma
 248,Chronic Myelogenous Leukemia,Chronic Myelogenous Leukemia,['T315I'],['Imatinib'],Chronic Myelogenous Leukemia
 249,B-Lymphoblastic Leukemia/Lymphoma,B-Lymphoblastic Leukemia/Lymphoma,['T315I'],['Dasatinib'],B-Lymphoblastic Leukemia/Lymphoma
@@ -268,7 +268,7 @@ statement_id,standardized_cancer,raw_cancer,biomarker,therapy,modified_standard_
 266,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['T790M'],['Afatinib'],Non-Small Cell Lung Cancer
 267,Colorectal Cancer,Colorectal Cancer,['Oncogenic Mutations'],['Cetuximab'],Colorectal Cancer
 268,Colorectal Cancer,Colorectal Cancer,['Oncogenic Mutations'],['Panitumumab'],Colorectal Cancer
-269,Colorectal Cancer,Colorectal Cancer,['Oncogenic Mutations'],"['Tucatinib,Trastuzumab']",Colorectal Cancer
+269,Colorectal Cancer,Colorectal Cancer,['Oncogenic Mutations'],"['Tucatinib', 'Trastuzumab']",Colorectal Cancer
 270,All Solid Tumors,All Solid Tumors,['G595R'],['Larotrectinib'],All Solid Tumors
 271,All Solid Tumors,All Solid Tumors,['G623R'],['Larotrectinib'],All Solid Tumors
 272,All Solid Tumors,All Solid Tumors,['G696A'],['Larotrectinib'],All Solid Tumors
@@ -377,7 +377,7 @@ statement_id,standardized_cancer,raw_cancer,biomarker,therapy,modified_standard_
 375,Dermatofibrosarcoma Protuberans,Dermatofibrosarcoma Protuberans,['COL1A1-PDGFB Fusion'],['Imatinib'],Dermatofibrosarcoma Protuberans
 376,APL with PML-RARA,APL with PML-RARA,['PML-RARA Fusion'],['Tretinoin'],APL with PML-RARA
 377,APL with PML-RARA,APL with PML-RARA,['PML-RARA Fusion'],['Arsenic Trioxide'],APL with PML-RARA
-378,APL with PML-RARA,APL with PML-RARA,['PML-RARA Fusion'],"['Tretinoin,Arsenic Trioxide']",APL with PML-RARA
+378,APL with PML-RARA,APL with PML-RARA,['PML-RARA Fusion'],"['Tretinoin', 'Arsenic Trioxide']",APL with PML-RARA
 379,APL with PML-RARA,APL with PML-RARA,['PML-RARA Fusion'],['Arsenic Trioxide'],APL with PML-RARA
 380,Inflammatory Myofibroblastic Tumor,Inflammatory Myofibroblastic Tumor,['Fusions'],['Ceritinib'],Inflammatory Myofibroblastic Tumor
 381,Inflammatory Myofibroblastic Tumor,Inflammatory Myofibroblastic Tumor,['Fusions'],['Brigatinib'],Inflammatory Myofibroblastic Tumor
@@ -431,10 +431,10 @@ statement_id,standardized_cancer,raw_cancer,biomarker,therapy,modified_standard_
 429,Ewing Sarcoma of Soft Tissue,Ewing Sarcoma of Soft Tissue,['EWSR1-FLI1 Fusion'],['TK216'],Ewing Sarcoma of Soft Tissue
 430,"Prostate Cancer, NOS","Prostate Cancer, NOS",['Oncogenic Mutations'],['Olaparib'],"Prostate Cancer, NOS"
 431,Prostate Cancer,Prostate Cancer,['Oncogenic Mutations'],['Olaparib'],Prostate Cancer
-432,"Prostate Cancer, NOS","Prostate Cancer, NOS",['Oncogenic Mutations'],"['Talazoparib,Enzalutamide']","Prostate Cancer, NOS"
-433,Prostate Cancer,Prostate Cancer,['Oncogenic Mutations'],"['Talazoparib,Enzalutamide']",Prostate Cancer
-434,"Prostate Cancer, NOS","Prostate Cancer, NOS",['Oncogenic Mutations'],"['Talazoparib,Enzalutamide']","Prostate Cancer, NOS"
-435,Prostate Cancer,Prostate Cancer,['Oncogenic Mutations'],"['Talazoparib,Enzalutamide']",Prostate Cancer
+432,"Prostate Cancer, NOS","Prostate Cancer, NOS",['Oncogenic Mutations'],"['Talazoparib', 'Enzalutamide']","Prostate Cancer, NOS"
+433,Prostate Cancer,Prostate Cancer,['Oncogenic Mutations'],"['Talazoparib', 'Enzalutamide']",Prostate Cancer
+434,"Prostate Cancer, NOS","Prostate Cancer, NOS",['Oncogenic Mutations'],"['Talazoparib', 'Enzalutamide']","Prostate Cancer, NOS"
+435,Prostate Cancer,Prostate Cancer,['Oncogenic Mutations'],"['Talazoparib', 'Enzalutamide']",Prostate Cancer
 436,"Prostate Cancer, NOS","Prostate Cancer, NOS",['Oncogenic Mutations'],['Olaparib'],"Prostate Cancer, NOS"
 437,Prostate Cancer,Prostate Cancer,['Oncogenic Mutations'],['Olaparib'],Prostate Cancer
 438,Ovarian Cancer,Ovarian Cancer,['Oncogenic Mutations'],['Olaparib'],Ovarian Cancer
@@ -442,92 +442,92 @@ statement_id,standardized_cancer,raw_cancer,biomarker,therapy,modified_standard_
 440,Peritoneal Serous Carcinoma,Peritoneal Serous Carcinoma,['Oncogenic Mutations'],['Olaparib'],Peritoneal Serous Carcinoma
 441,"Prostate Cancer, NOS","Prostate Cancer, NOS",['Oncogenic Mutations'],['Olaparib'],"Prostate Cancer, NOS"
 442,Prostate Cancer,Prostate Cancer,['Oncogenic Mutations'],['Olaparib'],Prostate Cancer
-443,Ovarian Cancer,Ovarian Cancer,['Oncogenic Mutations'],"['Olaparib,Bevacizumab']",Ovarian Cancer
-444,Ovary/Fallopian Tube,Ovary/Fallopian Tube,['Oncogenic Mutations'],"['Olaparib,Bevacizumab']",Ovary/Fallopian Tube
-445,Peritoneal Serous Carcinoma,Peritoneal Serous Carcinoma,['Oncogenic Mutations'],"['Olaparib,Bevacizumab']",Peritoneal Serous Carcinoma
+443,Ovarian Cancer,Ovarian Cancer,['Oncogenic Mutations'],"['Olaparib', 'Bevacizumab']",Ovarian Cancer
+444,Ovary/Fallopian Tube,Ovary/Fallopian Tube,['Oncogenic Mutations'],"['Olaparib', 'Bevacizumab']",Ovary/Fallopian Tube
+445,Peritoneal Serous Carcinoma,Peritoneal Serous Carcinoma,['Oncogenic Mutations'],"['Olaparib', 'Bevacizumab']",Peritoneal Serous Carcinoma
 446,"Prostate Cancer, NOS","Prostate Cancer, NOS",['Oncogenic Mutations'],['Rucaparib'],"Prostate Cancer, NOS"
 447,Prostate Cancer,Prostate Cancer,['Oncogenic Mutations'],['Rucaparib'],Prostate Cancer
-448,"Prostate Cancer, NOS","Prostate Cancer, NOS",['Oncogenic Mutations'],"['Olaparib,Abiraterone,Prednisone']","Prostate Cancer, NOS"
-449,Prostate Cancer,Prostate Cancer,['Oncogenic Mutations'],"['Olaparib,Abiraterone,Prednisone']",Prostate Cancer
+448,"Prostate Cancer, NOS","Prostate Cancer, NOS",['Oncogenic Mutations'],"['Olaparib', 'Abiraterone', 'Prednisone']","Prostate Cancer, NOS"
+449,Prostate Cancer,Prostate Cancer,['Oncogenic Mutations'],"['Olaparib', 'Abiraterone', 'Prednisone']",Prostate Cancer
 450,Ovarian Cancer,Ovarian Cancer,['Oncogenic Mutations'],['Rucaparib'],Ovarian Cancer
 451,Ovary/Fallopian Tube,Ovary/Fallopian Tube,['Oncogenic Mutations'],['Rucaparib'],Ovary/Fallopian Tube
 452,Peritoneal Serous Carcinoma,Peritoneal Serous Carcinoma,['Oncogenic Mutations'],['Rucaparib'],Peritoneal Serous Carcinoma
 453,Ovarian Cancer,Ovarian Cancer,['Oncogenic Mutations'],['Niraparib'],Ovarian Cancer
 454,Ovary/Fallopian Tube,Ovary/Fallopian Tube,['Oncogenic Mutations'],['Niraparib'],Ovary/Fallopian Tube
 455,Peritoneal Serous Carcinoma,Peritoneal Serous Carcinoma,['Oncogenic Mutations'],['Niraparib'],Peritoneal Serous Carcinoma
-456,"Prostate Cancer, NOS","Prostate Cancer, NOS",['Oncogenic Mutations'],"['Talazoparib,Enzalutamide']","Prostate Cancer, NOS"
-457,Prostate Cancer,Prostate Cancer,['Oncogenic Mutations'],"['Talazoparib,Enzalutamide']",Prostate Cancer
-458,"Prostate Cancer, NOS","Prostate Cancer, NOS",['Oncogenic Mutations'],"['Niraparib,Abiraterone Acetate,Prednisone']","Prostate Cancer, NOS"
-459,Prostate Cancer,Prostate Cancer,['Oncogenic Mutations'],"['Niraparib,Abiraterone Acetate,Prednisone']",Prostate Cancer
+456,"Prostate Cancer, NOS","Prostate Cancer, NOS",['Oncogenic Mutations'],"['Talazoparib', 'Enzalutamide']","Prostate Cancer, NOS"
+457,Prostate Cancer,Prostate Cancer,['Oncogenic Mutations'],"['Talazoparib', 'Enzalutamide']",Prostate Cancer
+458,"Prostate Cancer, NOS","Prostate Cancer, NOS",['Oncogenic Mutations'],"['Niraparib', 'Abiraterone Acetate', 'Prednisone']","Prostate Cancer, NOS"
+459,Prostate Cancer,Prostate Cancer,['Oncogenic Mutations'],"['Niraparib', 'Abiraterone Acetate', 'Prednisone']",Prostate Cancer
 460,Ovarian Cancer,Ovarian Cancer,['Oncogenic Mutations'],['Olaparib'],Ovarian Cancer
 461,Ovary/Fallopian Tube,Ovary/Fallopian Tube,['Oncogenic Mutations'],['Olaparib'],Ovary/Fallopian Tube
 462,Peritoneal Serous Carcinoma,Peritoneal Serous Carcinoma,['Oncogenic Mutations'],['Olaparib'],Peritoneal Serous Carcinoma
 463,"Prostate Cancer, NOS","Prostate Cancer, NOS",['Oncogenic Mutations'],['Olaparib'],"Prostate Cancer, NOS"
 464,Prostate Cancer,Prostate Cancer,['Oncogenic Mutations'],['Olaparib'],Prostate Cancer
-465,Ovarian Cancer,Ovarian Cancer,['Oncogenic Mutations'],"['Olaparib,Bevacizumab']",Ovarian Cancer
-466,Ovary/Fallopian Tube,Ovary/Fallopian Tube,['Oncogenic Mutations'],"['Olaparib,Bevacizumab']",Ovary/Fallopian Tube
-467,Peritoneal Serous Carcinoma,Peritoneal Serous Carcinoma,['Oncogenic Mutations'],"['Olaparib,Bevacizumab']",Peritoneal Serous Carcinoma
+465,Ovarian Cancer,Ovarian Cancer,['Oncogenic Mutations'],"['Olaparib', 'Bevacizumab']",Ovarian Cancer
+466,Ovary/Fallopian Tube,Ovary/Fallopian Tube,['Oncogenic Mutations'],"['Olaparib', 'Bevacizumab']",Ovary/Fallopian Tube
+467,Peritoneal Serous Carcinoma,Peritoneal Serous Carcinoma,['Oncogenic Mutations'],"['Olaparib', 'Bevacizumab']",Peritoneal Serous Carcinoma
 468,"Prostate Cancer, NOS","Prostate Cancer, NOS",['Oncogenic Mutations'],['Rucaparib'],"Prostate Cancer, NOS"
 469,Prostate Cancer,Prostate Cancer,['Oncogenic Mutations'],['Rucaparib'],Prostate Cancer
-470,"Prostate Cancer, NOS","Prostate Cancer, NOS",['Oncogenic Mutations'],"['Olaparib,Abiraterone,Prednisone']","Prostate Cancer, NOS"
-471,Prostate Cancer,Prostate Cancer,['Oncogenic Mutations'],"['Olaparib,Abiraterone,Prednisone']",Prostate Cancer
+470,"Prostate Cancer, NOS","Prostate Cancer, NOS",['Oncogenic Mutations'],"['Olaparib', 'Abiraterone', 'Prednisone']","Prostate Cancer, NOS"
+471,Prostate Cancer,Prostate Cancer,['Oncogenic Mutations'],"['Olaparib', 'Abiraterone', 'Prednisone']",Prostate Cancer
 472,Ovarian Cancer,Ovarian Cancer,['Oncogenic Mutations'],['Rucaparib'],Ovarian Cancer
 473,Ovary/Fallopian Tube,Ovary/Fallopian Tube,['Oncogenic Mutations'],['Rucaparib'],Ovary/Fallopian Tube
 474,Peritoneal Serous Carcinoma,Peritoneal Serous Carcinoma,['Oncogenic Mutations'],['Rucaparib'],Peritoneal Serous Carcinoma
-475,"Prostate Cancer, NOS","Prostate Cancer, NOS",['Oncogenic Mutations'],"['Talazoparib,Enzalutamide']","Prostate Cancer, NOS"
-476,Prostate Cancer,Prostate Cancer,['Oncogenic Mutations'],"['Talazoparib,Enzalutamide']",Prostate Cancer
-477,"Prostate Cancer, NOS","Prostate Cancer, NOS",['Oncogenic Mutations'],"['Niraparib,Abiraterone Acetate,Prednisone']","Prostate Cancer, NOS"
-478,Prostate Cancer,Prostate Cancer,['Oncogenic Mutations'],"['Niraparib,Abiraterone Acetate,Prednisone']",Prostate Cancer
+475,"Prostate Cancer, NOS","Prostate Cancer, NOS",['Oncogenic Mutations'],"['Talazoparib', 'Enzalutamide']","Prostate Cancer, NOS"
+476,Prostate Cancer,Prostate Cancer,['Oncogenic Mutations'],"['Talazoparib', 'Enzalutamide']",Prostate Cancer
+477,"Prostate Cancer, NOS","Prostate Cancer, NOS",['Oncogenic Mutations'],"['Niraparib', 'Abiraterone Acetate', 'Prednisone']","Prostate Cancer, NOS"
+478,Prostate Cancer,Prostate Cancer,['Oncogenic Mutations'],"['Niraparib', 'Abiraterone Acetate', 'Prednisone']",Prostate Cancer
 479,"Prostate Cancer, NOS","Prostate Cancer, NOS",['Oncogenic Mutations'],['Olaparib'],"Prostate Cancer, NOS"
 480,Prostate Cancer,Prostate Cancer,['Oncogenic Mutations'],['Olaparib'],Prostate Cancer
 481,"Prostate Cancer, NOS","Prostate Cancer, NOS",['Oncogenic Mutations'],['Olaparib'],"Prostate Cancer, NOS"
 482,Prostate Cancer,Prostate Cancer,['Oncogenic Mutations'],['Olaparib'],Prostate Cancer
-483,"Prostate Cancer, NOS","Prostate Cancer, NOS",['Oncogenic Mutations'],"['Talazoparib,Enzalutamide']","Prostate Cancer, NOS"
-484,Prostate Cancer,Prostate Cancer,['Oncogenic Mutations'],"['Talazoparib,Enzalutamide']",Prostate Cancer
+483,"Prostate Cancer, NOS","Prostate Cancer, NOS",['Oncogenic Mutations'],"['Talazoparib', 'Enzalutamide']","Prostate Cancer, NOS"
+484,Prostate Cancer,Prostate Cancer,['Oncogenic Mutations'],"['Talazoparib', 'Enzalutamide']",Prostate Cancer
 485,"Prostate Cancer, NOS","Prostate Cancer, NOS",['Oncogenic Mutations'],['Olaparib'],"Prostate Cancer, NOS"
 486,Prostate Cancer,Prostate Cancer,['Oncogenic Mutations'],['Olaparib'],Prostate Cancer
 487,"Prostate Cancer, NOS","Prostate Cancer, NOS",['Oncogenic Mutations'],['Olaparib'],"Prostate Cancer, NOS"
 488,Prostate Cancer,Prostate Cancer,['Oncogenic Mutations'],['Olaparib'],Prostate Cancer
-489,"Prostate Cancer, NOS","Prostate Cancer, NOS",['Oncogenic Mutations'],"['Talazoparib,Enzalutamide']","Prostate Cancer, NOS"
-490,Prostate Cancer,Prostate Cancer,['Oncogenic Mutations'],"['Talazoparib,Enzalutamide']",Prostate Cancer
+489,"Prostate Cancer, NOS","Prostate Cancer, NOS",['Oncogenic Mutations'],"['Talazoparib', 'Enzalutamide']","Prostate Cancer, NOS"
+490,Prostate Cancer,Prostate Cancer,['Oncogenic Mutations'],"['Talazoparib', 'Enzalutamide']",Prostate Cancer
 491,Breast Cancer,Breast Cancer,['Amplification'],['Trastuzumab'],Breast Cancer
-492,Esophagogastric Adenocarcinoma,Esophagogastric Adenocarcinoma,['Amplification'],"['Trastuzumab,Chemotherapy']",Esophagogastric Adenocarcinoma
+492,Esophagogastric Adenocarcinoma,Esophagogastric Adenocarcinoma,['Amplification'],"['Trastuzumab', 'Chemotherapy']",Esophagogastric Adenocarcinoma
 493,Esophagogastric Adenocarcinoma,Esophagogastric Adenocarcinoma,['Amplification'],['Trastuzumab Deruxtecan'],Esophagogastric Adenocarcinoma
-494,Breast Cancer,Breast Cancer,['Amplification'],"['Trastuzumab,Chemotherapy']",Breast Cancer
+494,Breast Cancer,Breast Cancer,['Amplification'],"['Trastuzumab', 'Chemotherapy']",Breast Cancer
 495,Breast Cancer,Breast Cancer,['Amplification'],['Ado-Trastuzumab Emtansine'],Breast Cancer
-496,Esophagogastric Adenocarcinoma,Esophagogastric Adenocarcinoma,['Amplification'],"['Pembrolizumab,Trastuzumab,Chemotherapy']",Esophagogastric Adenocarcinoma
-497,Breast Cancer,Breast Cancer,['Amplification'],"['Lapatinib,Capecitabine']",Breast Cancer
-498,Colorectal Cancer,Colorectal Cancer,['Amplification'],"['Tucatinib,Trastuzumab']",Colorectal Cancer
-499,Breast Cancer,Breast Cancer,['Amplification'],"['Lapatinib,Letrozole']",Breast Cancer
-500,Breast Cancer,Breast Cancer,['Amplification'],"['Trastuzumab,Pertuzumab,Chemotherapy']",Breast Cancer
+496,Esophagogastric Adenocarcinoma,Esophagogastric Adenocarcinoma,['Amplification'],"['Pembrolizumab', 'Trastuzumab', 'Chemotherapy']",Esophagogastric Adenocarcinoma
+497,Breast Cancer,Breast Cancer,['Amplification'],"['Lapatinib', 'Capecitabine']",Breast Cancer
+498,Colorectal Cancer,Colorectal Cancer,['Amplification'],"['Tucatinib', 'Trastuzumab']",Colorectal Cancer
+499,Breast Cancer,Breast Cancer,['Amplification'],"['Lapatinib', 'Letrozole']",Breast Cancer
+500,Breast Cancer,Breast Cancer,['Amplification'],"['Trastuzumab', 'Pertuzumab', 'Chemotherapy']",Breast Cancer
 501,Breast Cancer,Breast Cancer,['Amplification'],['Neratinib'],Breast Cancer
-502,Breast Cancer,Breast Cancer,['Amplification'],"['Neratinib,Capecitabine']",Breast Cancer
-503,Breast Cancer,Breast Cancer,['Amplification'],"['Trastuzumab,Tucatinib,Capecitabine']",Breast Cancer
+502,Breast Cancer,Breast Cancer,['Amplification'],"['Neratinib', 'Capecitabine']",Breast Cancer
+503,Breast Cancer,Breast Cancer,['Amplification'],"['Trastuzumab', 'Tucatinib', 'Capecitabine']",Breast Cancer
 504,Breast Cancer,Breast Cancer,['Amplification'],['Trastuzumab Deruxtecan'],Breast Cancer
-505,Breast Cancer,Breast Cancer,['Amplification'],"['Margetuximab,Chemotherapy']",Breast Cancer
-506,"Prostate Cancer, NOS","Prostate Cancer, NOS",['Oncogenic Mutations'],"['Talazoparib,Enzalutamide']","Prostate Cancer, NOS"
-507,Prostate Cancer,Prostate Cancer,['Oncogenic Mutations'],"['Talazoparib,Enzalutamide']",Prostate Cancer
+505,Breast Cancer,Breast Cancer,['Amplification'],"['Margetuximab', 'Chemotherapy']",Breast Cancer
+506,"Prostate Cancer, NOS","Prostate Cancer, NOS",['Oncogenic Mutations'],"['Talazoparib', 'Enzalutamide']","Prostate Cancer, NOS"
+507,Prostate Cancer,Prostate Cancer,['Oncogenic Mutations'],"['Talazoparib', 'Enzalutamide']",Prostate Cancer
 508,"Prostate Cancer, NOS","Prostate Cancer, NOS",['Oncogenic Mutations'],['Olaparib'],"Prostate Cancer, NOS"
 509,Prostate Cancer,Prostate Cancer,['Oncogenic Mutations'],['Olaparib'],Prostate Cancer
-510,"Prostate Cancer, NOS","Prostate Cancer, NOS",['Oncogenic Mutations'],"['Talazoparib,Enzalutamide']","Prostate Cancer, NOS"
-511,Prostate Cancer,Prostate Cancer,['Oncogenic Mutations'],"['Talazoparib,Enzalutamide']",Prostate Cancer
-512,"Prostate Cancer, NOS","Prostate Cancer, NOS",['Oncogenic Mutations'],"['Talazoparib,Enzalutamide']","Prostate Cancer, NOS"
-513,Prostate Cancer,Prostate Cancer,['Oncogenic Mutations'],"['Talazoparib,Enzalutamide']",Prostate Cancer
-514,"Prostate Cancer, NOS","Prostate Cancer, NOS",['Oncogenic Mutations'],"['Talazoparib,Enzalutamide']","Prostate Cancer, NOS"
-515,Prostate Cancer,Prostate Cancer,['Oncogenic Mutations'],"['Talazoparib,Enzalutamide']",Prostate Cancer
+510,"Prostate Cancer, NOS","Prostate Cancer, NOS",['Oncogenic Mutations'],"['Talazoparib', 'Enzalutamide']","Prostate Cancer, NOS"
+511,Prostate Cancer,Prostate Cancer,['Oncogenic Mutations'],"['Talazoparib', 'Enzalutamide']",Prostate Cancer
+512,"Prostate Cancer, NOS","Prostate Cancer, NOS",['Oncogenic Mutations'],"['Talazoparib', 'Enzalutamide']","Prostate Cancer, NOS"
+513,Prostate Cancer,Prostate Cancer,['Oncogenic Mutations'],"['Talazoparib', 'Enzalutamide']",Prostate Cancer
+514,"Prostate Cancer, NOS","Prostate Cancer, NOS",['Oncogenic Mutations'],"['Talazoparib', 'Enzalutamide']","Prostate Cancer, NOS"
+515,Prostate Cancer,Prostate Cancer,['Oncogenic Mutations'],"['Talazoparib', 'Enzalutamide']",Prostate Cancer
 516,Neurofibroma,Neurofibroma,['Oncogenic Mutations'],['Mirdametinib'],Neurofibroma
 517,Neurofibroma,Neurofibroma,['Oncogenic Mutations'],['Selumetinib'],Neurofibroma
 518,"Prostate Cancer, NOS","Prostate Cancer, NOS",['Oncogenic Mutations'],['Olaparib'],"Prostate Cancer, NOS"
 519,Prostate Cancer,Prostate Cancer,['Oncogenic Mutations'],['Olaparib'],Prostate Cancer
-520,"Prostate Cancer, NOS","Prostate Cancer, NOS",['Oncogenic Mutations'],"['Talazoparib,Enzalutamide']","Prostate Cancer, NOS"
-521,Prostate Cancer,Prostate Cancer,['Oncogenic Mutations'],"['Talazoparib,Enzalutamide']",Prostate Cancer
-522,Breast Cancer,Breast Cancer,['Oncogenic Mutations'],"['Capivasertib,Fulvestrant']",Breast Cancer
+520,"Prostate Cancer, NOS","Prostate Cancer, NOS",['Oncogenic Mutations'],"['Talazoparib', 'Enzalutamide']","Prostate Cancer, NOS"
+521,Prostate Cancer,Prostate Cancer,['Oncogenic Mutations'],"['Talazoparib', 'Enzalutamide']",Prostate Cancer
+522,Breast Cancer,Breast Cancer,['Oncogenic Mutations'],"['Capivasertib', 'Fulvestrant']",Breast Cancer
 523,"Prostate Cancer, NOS","Prostate Cancer, NOS",['Oncogenic Mutations'],['Olaparib'],"Prostate Cancer, NOS"
 524,Prostate Cancer,Prostate Cancer,['Oncogenic Mutations'],['Olaparib'],Prostate Cancer
 525,"Prostate Cancer, NOS","Prostate Cancer, NOS",['Oncogenic Mutations'],['Olaparib'],"Prostate Cancer, NOS"
 526,Prostate Cancer,Prostate Cancer,['Oncogenic Mutations'],['Olaparib'],Prostate Cancer
-527,"Prostate Cancer, NOS","Prostate Cancer, NOS",['Oncogenic Mutations'],"['Talazoparib,Enzalutamide']","Prostate Cancer, NOS"
-528,Prostate Cancer,Prostate Cancer,['Oncogenic Mutations'],"['Talazoparib,Enzalutamide']",Prostate Cancer
+527,"Prostate Cancer, NOS","Prostate Cancer, NOS",['Oncogenic Mutations'],"['Talazoparib', 'Enzalutamide']","Prostate Cancer, NOS"
+528,Prostate Cancer,Prostate Cancer,['Oncogenic Mutations'],"['Talazoparib', 'Enzalutamide']",Prostate Cancer
 529,"Prostate Cancer, NOS","Prostate Cancer, NOS",['Oncogenic Mutations'],['Olaparib'],"Prostate Cancer, NOS"
 530,Prostate Cancer,Prostate Cancer,['Oncogenic Mutations'],['Olaparib'],Prostate Cancer
 531,Epithelioid Sarcoma,Epithelioid Sarcoma,['Deletion'],['Tazemetostat'],Epithelioid Sarcoma
@@ -540,18 +540,18 @@ statement_id,standardized_cancer,raw_cancer,biomarker,therapy,modified_standard_
 538,Uterine Sarcoma,Uterine Sarcoma,['Oncogenic Mutations'],['Rucaparib'],Uterine Sarcoma
 539,Uterine Sarcoma,Uterine Sarcoma,['Oncogenic Mutations'],['Niraparib'],Uterine Sarcoma
 540,Salivary Gland Cancer,Salivary Gland Cancer,['Amplification'],['Trastuzumab'],Salivary Gland Cancer
-541,Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma,Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma,['Amplification'],"['Trastuzumab,Carboplatin-Taxol Regimen']",Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma
-542,Colorectal Cancer,Colorectal Cancer,['Amplification'],"['Trastuzumab,Pertuzumab']",Colorectal Cancer
-543,Hepatobiliary Cancer,Hepatobiliary Cancer,['Amplification'],"['Trastuzumab,Pertuzumab']",Hepatobiliary Cancer
-544,Biliary Tract,Biliary Tract,['Amplification'],"['Trastuzumab,Pertuzumab']",Biliary Tract
-545,Hepatobiliary Cancer,Hepatobiliary Cancer,['Amplification'],"['Tucatinib,Trastuzumab']",Hepatobiliary Cancer
-546,Biliary Tract,Biliary Tract,['Amplification'],"['Tucatinib,Trastuzumab']",Biliary Tract
-547,Colorectal Cancer,Colorectal Cancer,['Amplification'],"['Lapatinib,Trastuzumab']",Colorectal Cancer
-548,Salivary Gland Cancer,Salivary Gland Cancer,['Amplification'],"['Trastuzumab,Docetaxel']",Salivary Gland Cancer
+541,Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma,Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma,['Amplification'],"['Trastuzumab', 'Carboplatin-Taxol Regimen']",Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma
+542,Colorectal Cancer,Colorectal Cancer,['Amplification'],"['Trastuzumab', 'Pertuzumab']",Colorectal Cancer
+543,Hepatobiliary Cancer,Hepatobiliary Cancer,['Amplification'],"['Trastuzumab', 'Pertuzumab']",Hepatobiliary Cancer
+544,Biliary Tract,Biliary Tract,['Amplification'],"['Trastuzumab', 'Pertuzumab']",Biliary Tract
+545,Hepatobiliary Cancer,Hepatobiliary Cancer,['Amplification'],"['Tucatinib', 'Trastuzumab']",Hepatobiliary Cancer
+546,Biliary Tract,Biliary Tract,['Amplification'],"['Tucatinib', 'Trastuzumab']",Biliary Tract
+547,Colorectal Cancer,Colorectal Cancer,['Amplification'],"['Lapatinib', 'Trastuzumab']",Colorectal Cancer
+548,Salivary Gland Cancer,Salivary Gland Cancer,['Amplification'],"['Trastuzumab', 'Docetaxel']",Salivary Gland Cancer
 549,Salivary Gland Cancer,Salivary Gland Cancer,['Amplification'],['Ado-Trastuzumab Emtansine'],Salivary Gland Cancer
 550,Colorectal Cancer,Colorectal Cancer,['Amplification'],['Trastuzumab Deruxtecan'],Colorectal Cancer
 551,Salivary Gland Cancer,Salivary Gland Cancer,['Amplification'],['Trastuzumab Deruxtecan'],Salivary Gland Cancer
-552,Salivary Gland Cancer,Salivary Gland Cancer,['Amplification'],"['Trastuzumab,Pertuzumab']",Salivary Gland Cancer
+552,Salivary Gland Cancer,Salivary Gland Cancer,['Amplification'],"['Trastuzumab', 'Pertuzumab']",Salivary Gland Cancer
 553,Follicular Lymphoma,Follicular Lymphoma,"['Oncogenic Mutations (excluding Y646S, Y646H, Y646C, Y646F, Y646N, A682G and A692V)']",['Tazemetostat'],Follicular Lymphoma
 554,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['Amplification'],['Crizotinib'],Non-Small Cell Lung Cancer
 555,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['Amplification'],['Capmatinib'],Non-Small Cell Lung Cancer
@@ -566,37 +566,37 @@ statement_id,standardized_cancer,raw_cancer,biomarker,therapy,modified_standard_
 564,Acinar Cell Carcinoma of the Pancreas,Acinar Cell Carcinoma of the Pancreas,['Oncogenic Mutations'],['Olaparib'],Acinar Cell Carcinoma of the Pancreas
 565,Breast Cancer,Breast Cancer,['Oncogenic Mutations'],['Talazoparib'],Breast Cancer
 566,Breast Cancer,Breast Cancer,['Oncogenic Mutations'],['Olaparib'],Breast Cancer
-567,Ovarian Cancer,Ovarian Cancer,['Amplification'],"['Lunresertib,Camonsertib']",Ovarian Cancer
-568,Endometrial Cancer,Endometrial Cancer,['Amplification'],"['Lunresertib,Camonsertib']",Endometrial Cancer
+567,Ovarian Cancer,Ovarian Cancer,['Amplification'],"['Lunresertib', 'Camonsertib']",Ovarian Cancer
+568,Endometrial Cancer,Endometrial Cancer,['Amplification'],"['Lunresertib', 'Camonsertib']",Endometrial Cancer
 569,Esophagogastric Cancer,Esophagogastric Cancer,['Amplification'],['Cetuximab'],Esophagogastric Cancer
-570,Esophagogastric Cancer,Esophagogastric Cancer,['Amplification'],"['Cetuximab,Chemotherapy']",Esophagogastric Cancer
+570,Esophagogastric Cancer,Esophagogastric Cancer,['Amplification'],"['Cetuximab', 'Chemotherapy']",Esophagogastric Cancer
 571,Esophagogastric Cancer,Esophagogastric Cancer,['Amplification'],['Panitumumab'],Esophagogastric Cancer
-572,Esophagogastric Cancer,Esophagogastric Cancer,['Amplification'],"['Panitumumab,Chemotherapy']",Esophagogastric Cancer
+572,Esophagogastric Cancer,Esophagogastric Cancer,['Amplification'],"['Panitumumab', 'Chemotherapy']",Esophagogastric Cancer
 573,All Solid Tumors,All Solid Tumors,['Amplification'],['Trastuzumab Deruxtecan'],All Solid Tumors
 574,Hepatobiliary Cancer,Hepatobiliary Cancer,['Amplification'],['Zanidatamab'],Hepatobiliary Cancer
 575,Biliary Tract,Biliary Tract,['Amplification'],['Zanidatamab'],Biliary Tract
 576,Bladder Cancer,Bladder Cancer,['Oncogenic Mutations'],['Cisplatin'],Bladder Cancer
-577,Ovarian Cancer,Ovarian Cancer,['Oncogenic Mutations'],"['Lunresertib,Camonsertib']",Ovarian Cancer
-578,Endometrial Cancer,Endometrial Cancer,['Oncogenic Mutations'],"['Lunresertib,Camonsertib']",Endometrial Cancer
+577,Ovarian Cancer,Ovarian Cancer,['Oncogenic Mutations'],"['Lunresertib', 'Camonsertib']",Ovarian Cancer
+578,Endometrial Cancer,Endometrial Cancer,['Oncogenic Mutations'],"['Lunresertib', 'Camonsertib']",Endometrial Cancer
 579,Hepatobiliary Cancer,Hepatobiliary Cancer,['Amplification'],['Brigimadlin'],Hepatobiliary Cancer
 580,Biliary Tract,Biliary Tract,['Amplification'],['Brigimadlin'],Biliary Tract
 581,Intimal Sarcoma,Intimal Sarcoma,['Amplification'],['Milademetan'],Intimal Sarcoma
 582,Dedifferentiated Liposarcoma,Dedifferentiated Liposarcoma,['Amplification'],['Brigimadlin'],Dedifferentiated Liposarcoma
 583,Well-Differentiated Liposarcoma,Well-Differentiated Liposarcoma,['Amplification'],['Brigimadlin'],Well-Differentiated Liposarcoma
-584,Hepatobiliary Cancer,Hepatobiliary Cancer,['Amplification'],"['Brigimadlin,Ezabenlimab']",Hepatobiliary Cancer
-585,Biliary Tract,Biliary Tract,['Amplification'],"['Brigimadlin,Ezabenlimab']",Biliary Tract
+584,Hepatobiliary Cancer,Hepatobiliary Cancer,['Amplification'],"['Brigimadlin', 'Ezabenlimab']",Hepatobiliary Cancer
+585,Biliary Tract,Biliary Tract,['Amplification'],"['Brigimadlin', 'Ezabenlimab']",Biliary Tract
 586,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['Amplification'],['Telisotuzumab Vedotin'],Non-Small Cell Lung Cancer
 587,All Solid Tumors,All Solid Tumors,['Deletion'],['AMG 193'],All Solid Tumors
 588,All Solid Tumors,All Solid Tumors,['Deletion'],['MRTX1719'],All Solid Tumors
 589,Acute Myeloid Leukemia,Acute Myeloid Leukemia,['Oncogenic Mutations'],['Revumenib'],Acute Myeloid Leukemia
-590,Ovarian Cancer,Ovarian Cancer,['Oncogenic Mutations'],"['Lunresertib,Camonsertib']",Ovarian Cancer
-591,Endometrial Cancer,Endometrial Cancer,['Oncogenic Mutations'],"['Lunresertib,Camonsertib']",Endometrial Cancer
+590,Ovarian Cancer,Ovarian Cancer,['Oncogenic Mutations'],"['Lunresertib', 'Camonsertib']",Ovarian Cancer
+591,Endometrial Cancer,Endometrial Cancer,['Oncogenic Mutations'],"['Lunresertib', 'Camonsertib']",Endometrial Cancer
 592,Esophageal Adenocarcinoma,Esophageal Adenocarcinoma,['Oncogenic Mutations'],['PRT3789'],Esophageal Adenocarcinoma
 593,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['Oncogenic Mutations'],['PRT3789'],Non-Small Cell Lung Cancer
 594,Perivascular Epithelioid Cell Tumor,Perivascular Epithelioid Cell Tumor,['Oncogenic Mutations'],['ABI-009'],Perivascular Epithelioid Cell Tumor
 595,Uterine Perivascular Epithelioid Cell Tumor,Uterine Perivascular Epithelioid Cell Tumor,['Oncogenic Mutations'],['ABI-009'],Uterine Perivascular Epithelioid Cell Tumor
 596,All Solid Tumors,All Solid Tumors,['Amplification'],['Lunresertib'],All Solid Tumors
-597,All Solid Tumors,All Solid Tumors,['Amplification'],"['Lunresertib,Camonsertib']",All Solid Tumors
+597,All Solid Tumors,All Solid Tumors,['Amplification'],"['Lunresertib', 'Camonsertib']",All Solid Tumors
 598,All Solid Tumors,All Solid Tumors,['Amplification'],['BLU-222'],All Solid Tumors
 599,Dedifferentiated Liposarcoma,Dedifferentiated Liposarcoma,['Amplification'],['Palbociclib'],Dedifferentiated Liposarcoma
 600,Well-Differentiated Liposarcoma,Well-Differentiated Liposarcoma,['Amplification'],['Palbociclib'],Well-Differentiated Liposarcoma
@@ -606,7 +606,7 @@ statement_id,standardized_cancer,raw_cancer,biomarker,therapy,modified_standard_
 604,All Solid Tumors,All Solid Tumors,['Oncogenic Mutations'],['Ribociclib'],All Solid Tumors
 605,All Solid Tumors,All Solid Tumors,['Oncogenic Mutations'],['Abemaciclib'],All Solid Tumors
 606,Glioma,Glioma,['Amplification'],['Lapatinib'],Glioma
-607,All Solid Tumors,All Solid Tumors,['Oncogenic Mutations'],"['Lunresertib,Camonsertib']",All Solid Tumors
+607,All Solid Tumors,All Solid Tumors,['Oncogenic Mutations'],"['Lunresertib', 'Camonsertib']",All Solid Tumors
 608,All Solid Tumors,All Solid Tumors,['Amplification'],['Lirafugratinib'],All Solid Tumors
 609,Bladder Cancer,Bladder Cancer,['Oncogenic Mutations'],['Tazemetostat'],Bladder Cancer
 610,All Solid Tumors,All Solid Tumors,['Amplification'],['Brigimadlin'],All Solid Tumors
@@ -614,11 +614,11 @@ statement_id,standardized_cancer,raw_cancer,biomarker,therapy,modified_standard_
 612,Well-Differentiated Liposarcoma,Well-Differentiated Liposarcoma,['Amplification'],['Milademetan'],Well-Differentiated Liposarcoma
 613,All Solid Tumors,All Solid Tumors,['Oncogenic Mutations'],['Trametinib'],All Solid Tumors
 614,All Solid Tumors,All Solid Tumors,['Oncogenic Mutations'],['Cobimetinib'],All Solid Tumors
-615,All Solid Tumors,All Solid Tumors,['Oncogenic Mutations'],"['Lunresertib,Camonsertib']",All Solid Tumors
+615,All Solid Tumors,All Solid Tumors,['Oncogenic Mutations'],"['Lunresertib', 'Camonsertib']",All Solid Tumors
 616,All Solid Tumors,All Solid Tumors,['Oncogenic Mutations'],['GSK2636771'],All Solid Tumors
 617,All Solid Tumors,All Solid Tumors,['Oncogenic Mutations'],['AZD8186'],All Solid Tumors
 618,All Liquid Tumors,All Liquid Tumors,['Oncogenic Mutations'],['Tazemetostat'],All Liquid Tumors
-619,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['Oncogenic Mutations'],"['Bemcentinib,Pembrolizumab']",Non-Small Cell Lung Cancer
+619,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['Oncogenic Mutations'],"['Bemcentinib', 'Pembrolizumab']",Non-Small Cell Lung Cancer
 620,Chronic Myelomonocytic Leukemia,Chronic Myelomonocytic Leukemia,['Oncogenic Mutations'],['Ceralasertib'],Chronic Myelomonocytic Leukemia
 621,Myelodysplastic Syndromes,Myelodysplastic Syndromes,['Oncogenic Mutations'],['Ceralasertib'],Myelodysplastic Syndromes
 622,Non-Small Cell Lung Cancer,Non-Small Cell Lung Cancer,['Amplification'],['Erlotinib'],Non-Small Cell Lung Cancer

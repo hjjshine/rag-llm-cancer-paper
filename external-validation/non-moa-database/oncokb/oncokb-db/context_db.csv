@@ -25,7 +25,7 @@ Database: OncoKB
 Description: Capivasertib is an orally available, ATP-competitive pan-AKT small molecule inhibitor that is FDA-approved with fulvestrant for adult patients with ER+/HER2- locally advanced or metastatic breast cancer with one or more PIK3CA/AKT1/PTEN-alterations, as detected by an FDA-approved test, following progression on at least one endocrine-based regimen in the metastatic setting or recurrence on or within twelve months of completing adjuvant therapy. Eligible PIK3CA/AKT1/PTEN-alterations (PIK3CA R88Q, N345K, C420R, E542K, E545A, E545D, E545Q, E545K, E545G, Q546E, Q546K, Q546R, Q546P, M1043V, M1043I, H1047Y, H1047R, H1047L and G1049R; AKT1 E17K; all PTEN oncogenic mutations) for treatment with capivasertib plus fulvestrant were detected by the FoundationOne CDx assay. FDA approval was based on the results from the Phase III CAPItello-291 (NCT04305496) trial of capivasertib plus fulvestrant versus placebo plus fulvestrant in 708 adult patients with ER+/HER2- locally advanced or metastatic breast cancer (n=289, patients with eligible PIK3CA/AKT1/PTEN-alterations [76% with PIK3CA alterations, 13% with AKT1 alterations, 17% with PTEN alterations]). In the Phase III CAPItello-291 (NCT04305496) trial, the capivasertib plus fulvestrant cohort with PIK3CA/AKT1/PTEN-altered tumors (n=155) demonstrated an objective response rate (ORR) of 26% (95% CI=19-34), with a 2.3% complete response (CR) rate, 23% partial response (PR) rate, and a median progression-free survival (PFS) of 7.3 months (95% CI=5.5-9.0)(PMID: 37256976). The placebo plus fulvestrant cohort with PIK3CA/AKT1/PTEN-altered tumors (n=134) demonstrated an ORR of 8% (95% CI=4-14), with an 8% PR rate and a median PFS of 3.1 months (95% CI=2.0-3.7) (HR=0.50 [95% CI=0.38-0.65]; p<0.0001) (PMID: 37256976).
 Cancer type: Breast Cancer
 Biomarkers: E17K
-Therapy: Capivasertib,Fulvestrant
+Therapy: Capivasertib, Fulvestrant
 "
 "Approved indication: Dabrafenib is FDA-approved for BRAF V600E mutant unresectable or metastatic melanoma.
 Approval level: LEVEL_1
@@ -40,7 +40,7 @@ Database: OncoKB
 Description: Dabrafenib, an orally bioavailable RAF inhibitor, and trametinib, an orally bioavailable MEK1/2 inhibitor, are FDA-approved in combination for the treatment of patients with solid tumors other than colorectal harboring BRAF V600E mutation. FDA approval was based on data from 131 adult patients with solid tumors treated with dabrafenib and trametinib in the BRF117019 and NCI-MATCH trials and 36 pediatric patients treated with dabrafenib and trametinib in the CTMT212X2101 study. Of the 131 adult patients treated with dabrafenib and trametinib, the overall response rate was 41% (54/131; 95% CI = 33-50) and of the 36 pediatric patients treated with dabrafenib and trametinib (low-grade glioma, n=34; high-grade glioma, n=2), the overall response rate was 25% (95% CI = 12-24) (PMID: 32818466, 34838156, 32758030)(Abstract: Bouffet et al. Abstract# LGG-49, Neuro-Oncology 2020. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7715318/). In the randomized, Phase II study of dabrafenib and trametinib in 110 patients with BRAF V600–mutant pediatric low-grade glioma (dabrafenib + trametinib treatment, n=37; carboplatin + vincristine treatment, n=37), the overall response rate was 47% (95% CI= 35%-59%) with dabrafenib and trametinib and 11% (95% CI= 3%-25%) with carboplatin and vincristine, and the progression-free survival was 20.1 months (95% CI= 12.8 mo-not estimable) with dabrafenib and trametinib and 7.4 months (95% CI= 3.6-11.8 mo) with carboplatin and vincristine (Abstract: Bouffet et al. Abstract# LBA2002, ASCO 2022. https://ascopubs.org/doi/abs/10.1200/JCO.2022.40.17_suppl.LBA2002). FDA approval was supported by results in COMBI-d, COMBI-v and BRF113928 studies in melanoma and lung cancer (PMID: 23020132, 25399551, 27283860).
 Cancer type: All Solid Tumors
 Biomarkers: V600E
-Therapy: Dabrafenib,Trametinib
+Therapy: Dabrafenib, Trametinib
 "
 "Approved indication: Dabrafenib in combination with trametinib is FDA-approved for the treatment of patients with locally advanced or metastatic anaplastic thyroid cancer (ATC) with BRAF V600E mutation and with no satisfactory locoregional treatment options.
 Approval level: LEVEL_1
@@ -48,28 +48,28 @@ Database: OncoKB
 Description: Dabrafenib, an orally bioavailable RAF inhibitor, and trametinib, an orally bioavailable MEK1/2 inhibitor, are FDA-approved alone or in combination for the treatment of patients with locally advanced or metastatic anaplastic thyroid cancer (ATC) with BRAF V600E mutation and with no satisfactory locoregional treatment options. FDA approval was based on results of the Phase II study of dabrafenib combined with trametinib in patients with BRAF V600E-positive ATC in which the overall response rate in sixteen evaluable patients was 69% (11/16; 95% CI= 41%-89%)(PMID: 29072975).
 Cancer type: Anaplastic Thyroid Cancer
 Biomarkers: V600E
-Therapy: Dabrafenib,Trametinib
+Therapy: Dabrafenib, Trametinib
 "
 "Approval level: LEVEL_1
 Database: OncoKB
 Description: Dabrafenib, an orally bioavailable RAF inhibitor, and trametinib, an orally bioavailable MEK1/2 inhibitor, are FDA-approved in combination for the treatment of patients with solid tumors other than colorectal harboring BRAF V600E mutation. FDA approval was based on data from 131 adult patients with solid tumors treated with dabrafenib and trametinib in the BRF117019 and NCI-MATCH trials and 36 pediatric patients treated with dabrafenib and trametinib in the CTMT212X2101 study. Of the 131 adult patients treated with dabrafenib and trametinib, the overall response rate was 41% (54/131; 95% CI = 33-50) and of the 36 pediatric patients treated with dabrafenib and trametinib (low-grade glioma, n=34; high-grade glioma, n=2), the overall response rate was 25% (95% CI = 12-24) (PMID: 32818466, 34838156, 32758030)(Abstract: Bouffet et al. Abstract# LGG-49, Neuro-Oncology 2020. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7715318/). Approval was supported by results in COMBI-d, COMBI-v and BRF113928 studies in melanoma and lung cancer (PMID: 23020132, 25399551, 27283860). In the Phase II ROAR basket trial of dabrafenib + trametinib in patients with BRAF V600E-mutated rare cancers (biliary tract cancer, n=43), the overall response rate was 53%, the median progression-free survival was nine months (95% CI = 5.5, 9.4) and the median overall survival was 13.5 months (95% CI = 10.4, 17.6) (PMID: 37059834). Of the 43 patients with biliary tract cancer, 53% of patients (23/43) had a partial response and 37% (16/43) had stable disease (PMID: 37059834). Additionally, in subprotocol H of the NCI-MATCH basket trial of dabrafenib + trametinib in patients with BRAF V600E-mutant solid tumors (n=4 patients with intrahepatic cholangiocarcinoma), the overall response rate was 100%, with 4/4 patients achieving a partial response (PMID: 32758030).
 Cancer type: Hepatobiliary Cancer
 Biomarkers: V600E
-Therapy: Dabrafenib,Trametinib
+Therapy: Dabrafenib, Trametinib
 "
 "Approval level: LEVEL_1
 Database: OncoKB
 Description: Dabrafenib, an orally bioavailable RAF inhibitor, and trametinib, an orally bioavailable MEK1/2 inhibitor, are FDA-approved in combination for the treatment of patients with solid tumors other than colorectal harboring BRAF V600E mutation. FDA approval was based on data from 131 adult patients with solid tumors treated with dabrafenib and trametinib in the BRF117019 and NCI-MATCH trials and 36 pediatric patients treated with dabrafenib and trametinib in the CTMT212X2101 study. Of the 131 adult patients treated with dabrafenib and trametinib, the overall response rate was 41% (54/131; 95% CI = 33-50) and of the 36 pediatric patients treated with dabrafenib and trametinib (low-grade glioma, n=34; high-grade glioma, n=2), the overall response rate was 25% (95% CI = 12-24) (PMID: 32818466, 34838156, 32758030)(Abstract: Bouffet et al. Abstract# LGG-49, Neuro-Oncology 2020. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7715318/). Approval was supported by results in COMBI-d, COMBI-v and BRF113928 studies in melanoma and lung cancer (PMID: 23020132, 25399551, 27283860). In the Phase II ROAR basket trial of dabrafenib + trametinib in patients with BRAF V600E-mutated rare cancers (biliary tract cancer, n=43), the overall response rate was 53%, the median progression-free survival was nine months (95% CI = 5.5, 9.4) and the median overall survival was 13.5 months (95% CI = 10.4, 17.6) (PMID: 37059834). Of the 43 patients with biliary tract cancer, 53% of patients (23/43) had a partial response and 37% (16/43) had stable disease (PMID: 37059834). Additionally, in subprotocol H of the NCI-MATCH basket trial of dabrafenib + trametinib in patients with BRAF V600E-mutant solid tumors (n=4 patients with intrahepatic cholangiocarcinoma), the overall response rate was 100%, with 4/4 patients achieving a partial response (PMID: 32758030).
 Cancer type: Biliary Tract
 Biomarkers: V600E
-Therapy: Dabrafenib,Trametinib
+Therapy: Dabrafenib, Trametinib
 "
 "Approval level: LEVEL_1
 Database: OncoKB
 Description: Dabrafenib, a small molecule RAF inhibitor, and trametinib, a small molecule MEK1/2 inhibitor, are FDA-approved in combination for the treatment of pediatric patients 1 year of age and older with low-grade glioma (LGG) with a BRAF V600E mutation who require systemic therapy. FDA approval is based on the results of the Phase II Study CDRB436G2201 (NCT02684058) of dabrafenib plus trametinib versus carboplatin plus vincristine in 110 patients with BRAF V600-mutant LGG, as assessed by local or central laboratory tests. In the Phase II Study CDRB436G2201 (NCT02684058), the dabrafenib plus trametinib cohort (n=73 [n=70, V600E; n=3, other]) demonstrated an overall response rate (ORR) of 47% (95% CI=35-59), with a 3% (n=2) complete response (CR) rate, a 44% (n=32) partial response (PR) rate and a 41% (n=30) stable disease (SD) rate, and a median duration of response (DOR) of 20.3 months (95% CI=12.0-NE) while the chemotherapy cohort (n=37 [n=35, V600E; n=1, other; n=1, nonmutant]) demonstrated an ORR of 11% (95% CI=3-25) (OR=7.19 [95% CI=2.30-22.40]; RR=4.31 [95% CI=1.70-11.20]; p<0.001), with a 3% (n=1) CR rate, an 8% (n=3) PR rate and a 41% (n=15) SD rate, and a median DOR that was not estimable (95% CI=6.6-NE) (PMID: 37733309).
 Cancer type: Low-Grade Glioma, NOS
 Biomarkers: V600E
-Therapy: Dabrafenib,Trametinib
+Therapy: Dabrafenib, Trametinib
 "
 "Approved indication: Dabrafenib + Trametinib is FDA-approved for BRAF V600E or V600K mutant unresectable or metastatic melanoma
 Approval level: LEVEL_1
@@ -77,7 +77,7 @@ Database: OncoKB
 Description: Dabrafenib, an orally bioavailable RAF inhibitor, and trametinib, an orally bioavailable MEK1/2 inhibitor, are FDA-approved alone or in combination for the treatment of patients with metastatic melanoma harboring a V600E or V600K BRAF mutation. FDA approval of dabrafenib in combination with trametinib was based on results from an open-label Phase III study of combination therapy versus dabrafenib monotherapy in 247 patients with metastatic melanoma who were naive to treatment with BRAF inhibitors. Combined dabrafenib and trametinib, administered in full monotherapy doses, improved the response rate in patients with BRAF V600-mutant metastatic melanoma versus dabrafenib monotherapy (67% vs.51%; p<0.002). However, median progression-free survival improved by only 2 weeks (9.3 months vs 8.8 months; HR = 0.75) compared with dabrafenib monotherapy (PMID: 23020132). Combination therapy is associated with less cutaneous toxicity than monotherapy, but systemic toxicity may be increased (PMID: 25287827, 25399551). Follow-up trials have demonstrated that all clinical measures inclusive of overall and median progression-free survival as well as objective response rates, median duration of response and number of patients with complete response favored patients treated with combination dabrafenib and trametinib, administered in full monotherapy doses, compared to either dabrafenib or vemurafenib monotherapy, including patients who previously progressed on BRAF inhibitor monotherapy (PMID: 25287827, 25399551, 25265492). Additionally, patients with melanoma treated with dabrafenib and trametinib in both the neoadjuvant and adjuvant settings have improved survival over patients given standard of care (PMID: 29361468, 28991513, 28891408). Promising clinical data has also suggested that addition of an immunotherapy agent to combination RAF and MEK inhibitor treatment may improve rate of overall response and duration of response in melanoma patients (PMID: 31171876, 31171879, 31171878).
 Cancer type: Melanoma
 Biomarkers: V600E,V600K
-Therapy: Dabrafenib,Trametinib
+Therapy: Dabrafenib, Trametinib
 "
 "Approved indication: Dabrafenib and trametinib are FDA-approved for use in combination in the treatment of patients with metastatic non-small cell lung cancer (NSCLC) with BRAF V600E mutation
 Approval level: LEVEL_1
@@ -85,7 +85,7 @@ Database: OncoKB
 Description: Dabrafenib, an orally bioavailable RAF inhibitor, and trametinib, an orally bioavailable MEK1/2 inhibitor, are FDA-approved alone or in combination for the treatment of patients with metastatic non-small cell lung cancer (NSCLC) with BRAF V600E mutation. FDA approval was based on a Phase II, multicenter, non-randomized, open-label study of dabrafenib in combination with trametinib in patients with chemotherapy-pretreated, metastatic, stage IV BRAF(V600E)-mutant non-small cell lung cancer, in which 36 of 57 patients (63%) achieved overall tumor response, with two patients experiencing durable complete responses and 34 patients having durable partial responses (PMID: 27283860). In the third arm of that study, which included patients with untreated, metastatic, stage IV BRAF(V600E)-mutant non-small cell lung cancer, 23 of 26 patients (64%, 95% CI 46-79) had an overall response, with two patients (6%) having durable complete response and 21 (58%) having partial response (PMID: 28919011).
 Cancer type: Non-Small Cell Lung Cancer
 Biomarkers: V600E
-Therapy: Dabrafenib,Trametinib
+Therapy: Dabrafenib, Trametinib
 "
 "Approval level: LEVEL_1
 Database: OncoKB
@@ -94,7 +94,7 @@ Description: Encorafenib, a small molecule RAF-targeted inhibitor, and cetuximab
 In the Phase III BEACON (NCT02928224) trial, the overall response rate (complete or partial response) was 20% (95% CI=13-29) in the doublet arm versus 2% (95% CI=<1%-7%) in the chemotherapy arm (n=221), with median overall survival of 8.4 months in the doublet arm (95% CI= 7.5-11.0) and 5.4 months in the chemotherapy arm (95% CI= 4.8-6.6) (PMID: 31566309).
 Cancer type: Colorectal Cancer
 Biomarkers: V600E
-Therapy: Encorafenib,Cetuximab
+Therapy: Encorafenib, Cetuximab
 "
 "Approval level: LEVEL_1
 Database: OncoKB
@@ -103,7 +103,7 @@ Description: Encorafenib, a small molecule RAF-targeted inhibitor, and cetuximab
 In the Phase III BREAKWATER (NCT04607421) trial, the encorafenib plus cetuximab with FOLFOX6 cohort (n=110) demonstrated an overall response rate (ORR) of 60.9% (95% CI=51.6-69.5), with a 2.7% (n=3) complete response (CR) rate, 58.2% (n=64) partial response (PR) rate and 28.2% (n=31) stable disease (SD) rate, and a median duration of response (DOR) of 13.9 months (95% CI=8.5-NE) (PMID: 39863775). The standard-of-care cohort (n=110) demonstrated an ORR of 40.0% (95% CI=31.3-49.3) (odds ratio=2.443 [95% CI=1.403-4.253; 99.8% CI=1.019-5.855]; p=0.0008), with a 1.8% (n=2) CR rate, 38.2% (n=42) PR rate and 30.9% (n=34) SD rate, and a median DOR of 11.1 months (95% CI=6.7-12.7) (PMID: 39863775).
 Cancer type: Colorectal Cancer
 Biomarkers: V600E
-Therapy: Encorafenib,Cetuximab,FOLFOX Regimen
+Therapy: Encorafenib, Cetuximab, FOLFOX Regimen
 "
 "Approval level: LEVEL_1
 Database: OncoKB
@@ -126,7 +126,7 @@ Database: OncoKB
 Description: The combination of vemurafenib, an inhibitor of V600-mutant BRAF, and cobimetinib, an inhibitor of MEK1/2, with atezolizumab, an immunotherapeutic PD-L1 antibody, is FDA-approved for patients with BRAF V600 mutation-positive unresectable or metastatic melanoma. FDA approval was based on the results of the Phase III double-blind, randomized, placebo-controlled IMspire150 trial of Atezolizumab + Cobimetinib + Vemurafenib versus Placebo + Cobimetinib + Vemurafenib in 514 patients with BRAF V600-mutant melanoma in which the median progression-free survival was 15.1 mos (95% CI=11.4,18.4) in the triplet arm versus 10.6 mos (95% CI=9.3,12.7) in the doublet + placebo arm (HR=0.78; 95% CI= 0.63, 0.97; p=0.0249) (PMID: 32534646).
 Cancer type: Melanoma
 Biomarkers: V600
-Therapy: Vemurafenib,Atezolizumab,Cobimetinib
+Therapy: Vemurafenib, Atezolizumab, Cobimetinib
 "
 "Approved indication: Encorafenib and binimetinib are FDA-approved for use in combination in the treatment of patients with metastatic non-small cell lung cancer (NSCLC) with BRAF V600E mutation
 Approval level: LEVEL_1
@@ -134,7 +134,7 @@ Database: OncoKB
 Description: Encorafenib, a small molecule inhibitor of RAF kinases, and binimetinib, a small molecule inhibitor of MEK1/2 kinases, are FDA-approved in combination for the treatment of patients with BRAF V600E mutant non-small cell lung cancer (NSCLC). FDA approval was based on the Phase II, open-label, multicenter, single-arm PHAROS study of encorafenib in combination with binimetinib in treatment-naïve (n=59) and previously treated (n=39) patients with BRAF V600E-mutant metastatic NSCLC (PMID: 37270692). In the Phase II PHAROS study, the objective response rate and duration of response for treatment-naïve patients were 72% (95% CI=62, 85) and 44 months (95% CI=23.1, NE), with 15% experiencing a complete response and 59% experiencing a partial response, compared to 46% (95% CI=30, 63) and 18 months (95% CI=7.4, NE) in previously treated patients, with 10% experiencing a complete response and 36% experiencing a partial response (PMID: 37270692).
 Cancer type: Non-Small Cell Lung Cancer
 Biomarkers: V600E
-Therapy: Encorafenib,Binimetinib
+Therapy: Encorafenib, Binimetinib
 "
 "Approved indication: Trametinib is FDA-approved for BRAF V600E or V600K mutant unresectable or metastatic melanoma
 Approval level: LEVEL_1
@@ -158,7 +158,7 @@ Database: OncoKB
 Description: The RAF inhibitor vemurafenib in combination with the MEK inhibitor cobimetinib is FDA-approved for the treatment of patients with BRAF V600-mutant metastatic or unresectable locally advanced melanoma. FDA approval was based on results from the randomized Phase III coBRIM trial of combined vemurafenib and cobimetinib versus vemurafenib and placebo in 495 patients with metastatic BRAF V600-mutant melanoma that demonstrated superior clinical benefit measures in the combination versus the control arm. Specifically, median progression-free survival was 9.9 months in the combination arm versus 6.2 months in the control arm (HR = 0.51), with a complete response rate of 10% versus 4%, respectively, and interim nine-month overall survival of 81% versus 73%, respectively (PMID: 25265494). Follow-up analysis of the coBRIM trial showed two-year overall survival was 48.3% in the combination group versus 38.0% in the monotherapy group (PMID: 27480103), and five-year followup of the BRIM7 study showed a median overall survival of 31.8 months and a five-year survival rate of 39.2% (PMID: 31732523).
 Cancer type: Melanoma
 Biomarkers: V600E,V600K
-Therapy: Vemurafenib,Cobimetinib
+Therapy: Vemurafenib, Cobimetinib
 "
 "Approved indication: In combination for patients with unresectable or metastatic melanoma with a BRAF V600E or V600K mutation
 Approval level: LEVEL_1
@@ -166,7 +166,7 @@ Database: OncoKB
 Description: The combination of encorafenib, an inhibitor of V600E- or V600K-mutant BRAF, and binimetinib, an inhibitor of MEK1/2, is FDA-approved in combination for patients with unresectable or metastatic melanoma with a BRAF V600E or V600K mutation. FDA approval was based on the results of the Phase III COLUMBUS trial of combined encorafenib plus binimetinib versus single-agent vemurafenib in 577 patients with BRAF V600E- or V600K-mutant metastatic melanoma in which the median progression-free survival was 14.9 months (95% CI = 11.0-18.5) in the encorafenib plus binimetinib group versus 7.3 months (95% CI = 5.6-8.2) in the single agent vemurafenib group (HR= 0.54, 95% CI = 0.41-0.71; p<0·0001) (PMID: 29573941). In the five-year update of the Phase III COLUMBUS trial, the progression-free survival and overall survival were 23% and 35% respectively in the encorafenib plus binimetinib group (n=192) versus 10% and 21% respectively in the single agent vemurafenib group (n=191), and the median duration of response and disease control rate were 18.6 months and 92.2% in the encorafenib plus binimetinib group versus 12.3 months and 81.2% in the single-agent vemurafenib group (PMID: 35862871).
 Cancer type: Melanoma
 Biomarkers: V600E,V600K
-Therapy: Encorafenib,Binimetinib
+Therapy: Encorafenib, Binimetinib
 "
 "Approval level: LEVEL_1
 Database: OncoKB
@@ -192,7 +192,7 @@ Description: Osimertinib is an orally available, small molecule third-generation
 FDA approval is based on the results of the Phase III FLAURA2 (NCT04035486) trial of osimertinib plus chemotherapy (pemetrexed plus cisplatin or carboplatin) versus single-agent osimertinib in 557 patients with previously untreated, EGFR mutation-positive advanced NSCLC. In the Phase III FLAURA2 (NCT04035486) trial, the osimertinib plus chemotherapy cohort (n=279 [n=169, EGFR exon 19 deletion; n=106, EGFR L858R; n=3, both; n=1, unknown]) demonstrated a median progression-free survival (PFS) of 25.5 months (95% CI=24.7-NC), a median duration of response (DOR) of 24.0 months (95% CI=20.9-27.8) and an objective response rate (ORR) of 83% (95% CI=78-87), with an 83% partial response (PR) rate and <1% complete response (CR) rate. The osimertinib monotherapy cohort (n=278 [n=168, EGFR exon 19 deletion; n=106, EGFR L858R; n=3, both; n=2, unknown]) demonstrated a median PFS of 16.7 months (95% CI=14.1-21.3) (HR=0.62 [95% CI=0.49–0.79]; p<0.001), a median DOR of 15.3 months (95% CI=12.7–-9.4) and an ORR of 76% (95% CI=70-80), with a 75% PR rate and 1% CR rate (PMID: 37937763).
 Cancer type: Non-Small Cell Lung Cancer
 Biomarkers: Exon 19 in-frame deletions,L858R
-Therapy: Osimertinib,Chemotherapy
+Therapy: Osimertinib, Chemotherapy
 "
 "Approval level: LEVEL_1
 Database: OncoKB
@@ -201,7 +201,7 @@ Description: Amivantamab is an intravenously infused, EGFR-MET bispecific monocl
 In the Phase III MARIPOSA-2 (NCT04988295) trial, the amivantamab plus chemotherapy cohort (n=131 [n=89, EGFR exon 19 deletions; n=42, EGFR L858R]) demonstrated an overall response rate (ORR) of 53% (95% CI=44-62), with a 0.8% complete response (CR) rate and 52% partial response (PR) rate (PMID: 37879444). In contrast, the chemotherapy cohort (n=263 [n=183, EGFR exon 19 deletions; n=79, EGFR L858R]) demonstrated an ORR of 29% (95% CI=23-35) (p<0.0001), with a 29% PR rate (PMID: 37879444). The amivantamab plus chemotherapy cohort demonstrated a median progression-free survival (PFS) of 6.3 months (95% CI=5.6-8.4) and a median duration of response (DOR) of 6.9 months (95% CI= 5.5–NE) while the chemotherapy cohort demonstrated a median PFS of 4.2 months (95% CI=4.0–4.4) (HR=0.48 [95% CI=0.36-0.64]; p<0.0001) and a median DOR of 5.6 months (95% CI=4.2–9.6) (PMID: 37879444).
 Cancer type: Non-Small Cell Lung Cancer
 Biomarkers: Exon 19 in-frame deletions,L858R
-Therapy: Amivantamab,Chemotherapy
+Therapy: Amivantamab, Chemotherapy
 "
 "Approved indication: Erlotinib is FDA-approved for (1) First-line treatment of metastatic non-small cell lung cancer with EGFR exon 19 deletions or exon 21 (L858R) substitution mutations as detected by an FDA-approved test
 Approval level: LEVEL_1
@@ -209,7 +209,7 @@ Database: OncoKB
 Description: Erlotinib, a first-generation EGFR tyrosine kinase inhibitor (TKI), is approved with or without ramucirumab for the treatment of non-small cell lung cancer (NSCLC) with EGFR exon 19 deletion or exon 21 (L858R) substitution mutations. Results of the Phase III EURTAC trial demonstrated that patients with NSCLC receiving erlotinib showed significant improvement in progression-free survival (PFS) (9.7 vs. 5.2 months; HR=0.37; p=0.0001) compared to those receiving platinum-based doublet chemotherapy (PMID: 22285168). The partial response rate with erlotinib was 56%, compared to 13% with chemotherapy, and was associated with a reduced toxicity profile (PMID: 22285168). The safety and efficacy of erlotinib have not been established in patients harboring EGFR mutations other than exon 19 deletion and exon 21 (L858R) substitution; however, the phase III IUNO trial demonstrated no difference in PFS between patients with NSCLC lacking EGFR exon 19 deletion or EGFR L858R mutation who were given erlotinib versus placebo as maintenance therapy (PMID: 27987585).
 Cancer type: Non-Small Cell Lung Cancer
 Biomarkers: Exon 19 in-frame deletions,L858R
-Therapy: Erlotinib,Ramucirumab
+Therapy: Erlotinib, Ramucirumab
 "
 "Approved indication:  (2) Treatment of patients with metastatic squamous NSCLC progressing after platinum-based chemotherapy
 Approval level: LEVEL_1
@@ -224,7 +224,7 @@ Database: OncoKB
 Description: Amivantamab, an intravenously infused, EGFR-MET bispecific monoclonal antibody, and lazertinib, a small molecule, third-generation EGFR tyrosine kinase inhibitor, are FDA-approved in combination for the first-line treatment of adult patients with locally advanced or metastatic non-small cell lung cancer (NSCLC) with EGFR exon 19 deletions or exon 21 L858R substitution mutations, as detected by an FDA-approved test. FDA approval was based on the results of the Phase III MARIPOSA (NCT04487080) trial of amivantamab plus lazertinib versus osimertinib monotherapy in 1074 patients with NSCLC with an EGFR exon 19 deletion or L858R mutation. In the Phase III MARIPOSA (NCT04487080) trial, the amivantamab plus lazertinib cohort (n=429) demonstrated an overall response rate (ORR) of 86% (95% CI=83-89), a median progression-free survival (PFS) of 23.7 months (95% CI=19.1-27.7), a median duration of response (DOR) of 25.8 months (95% CI=20.1-NE) and a 24-month overall survival (OS) rate of 74% (95% CI=69-78) while the osimertinib cohort (n=429) demonstrated an ORR of 85% (95% CI=81-88), a median PFS of 16.6 months (95% CI=14.8–18.5) (HR=0.70 [95% CI=0.58-0.85]; p<0.001), a median DOR of 16.8 months (95% CI=14.8-18.5) and a 24-month OS rate of 69% (95% CI=64-74) (PMID: 38924756).
 Cancer type: Non-Small Cell Lung Cancer
 Biomarkers: Exon 19 in-frame deletions,L858R
-Therapy: Amivantamab,Lazertinib
+Therapy: Amivantamab, Lazertinib
 "
 "Approved indication: Gefitinib is FDA-approved for patients with metastatic non-small cell lung cancer (NSCLC) whose tumors have EGFR exon 19 deletions or exon 21 (L858R) substitution mutations as detected by an FDA-approved test.
 Approval level: LEVEL_1
@@ -283,7 +283,7 @@ Database: OncoKB
 Description: Amivantamab is an intravenously infused, EGFR-MET bispecific monoclonal antibody that is FDA-approved for the treatment of adult patients in combination with carboplatin and pemetrexed for the first-line treatment of locally advanced or metastatic non-small cell lung cancer (NSCLC) with EGFR exon 20 insertion mutations as detected by an FDA-approved test. EGFR exon 20 insertion mutation status was identified through the Guardant Health Guardant360 CDx test. FDA approval was based on the results of the Phase III PAPILLON (NCT04538664) trial of amivantamab plus carboplatin and pemetrexed versus carboplatin and pemetrexed in 308 patients with previously untreated locally advanced or metastatic NSCLC with EGFR exon 20 insertion mutations. In the Phase III PAPILLON (NCT04538664) trial, the amivantamab plus carboplatin and pemetrexed treated cohort (n=153) demonstrated a median progression-free survival (PFS) of 11.4 months (95% CI=9.8-13.7) and an overall response rate (ORR) of 67% (95% CI=59-75), with a 4% complete response (CR) rate and 63% partial response (PR) rate, compared to the carboplatin and pemetrexed treated cohort (n=155) that demonstrated a median PFS of 6.7 months (95% CI=5.6-7.3) (HR=0.40 [95% CI=0.30-0.53]; p<0.0001) and an ORR of 36% (95% CI=29-44), with a 1% CR rate and 36% PR rate (PMID: 37870976).
 Cancer type: Non-Small Cell Lung Cancer
 Biomarkers: Exon 20 in-frame insertions
-Therapy: Amivantamab,Chemotherapy
+Therapy: Amivantamab, Chemotherapy
 "
 "Approval level: LEVEL_1
 Database: OncoKB
@@ -456,14 +456,14 @@ Description: Avutometinib, a RAF/MEK clamp inhibitor, and defactinib, a FAK inhi
 In the Phase II RAMP-201 (NCT04625270) trial, patients with KRAS-mutated LGSOC (n=57) demonstrated an overall response rate (ORR) of 44% (n=25), with a 2% (n=2) complete response (CR) rate, 40% (n=23) partial response (PR) rate and 49% (n=28) stable disease (SD) rate, a median duration of response (DOR) of 31.0 months (95% CI=14.8-31.1) and a median progression-free survival (PFS) of 22.0 months (95% CI=11.1-36.6) (Abstract: Grisham et al. Abstract #814605, 2025 SGO Annual Meeting on Women’s Cancer. https://www.verastem.com/wp-content/uploads/2025/03/RAMP-201-Oral-Presentation-SGO-2025_03.17.25f.pdf). Responders included patients with the following KRAS mutations: KRAS A146V, G12D, G12R, G12V and Q61H (Abstract: Grisham et al. Abstract #814605, 2025 SGO Annual Meeting on Women’s Cancer. https://www.verastem.com/wp-content/uploads/2025/03/RAMP-201-Oral-Presentation-SGO-2025_03.17.25f.pdf). Of patients with KRAS wildtype LGSOC (n=52), the cohort demonstrated an ORR of 17% (n=9), with a 17% (n=9) PR rate and 65% (n=34) SD rate, and a median PFS of 9.2 months (95% CI=5.5-NE) (Abstract: Grisham et al. Abstract #814605, 2025 SGO Annual Meeting on Women’s Cancer. https://www.verastem.com/wp-content/uploads/2025/03/RAMP-201-Oral-Presentation-SGO-2025_03.17.25f.pdf).
 Cancer type: Low-Grade Serous Ovarian Cancer
 Biomarkers: Oncogenic Mutations
-Therapy: Avutometinib,Defactinib
+Therapy: Avutometinib, Defactinib
 "
 "Approval level: LEVEL_1
 Database: OncoKB
 Description: Adagrasib, a small molecule KRAS G12C inhibitor, and cetuximab, an anti-EGFR monoclonal antibody, are FDA-approved in combination for the treatment of adult patients with KRAS G12C-mutated locally advanced or metastatic colorectal cancer (CRC), as determined by an FDA-approved test, who have received prior treatment with fluoropyrimidine-, oxaliplatin- and irinotecan-based chemotherapy. KRAS G12C mutation for treatment with adagrasib plus cetuximab was detected by the therascreen KRAS RGQ PCR Kit. FDA approval was based on the results of the Phase I/II KRYSTAL-1 (NCT03785249) trial of adagrasib plus cetuximab in 94 patients with KRAS G12C-mutated CRC. In the Phase I/II KRYSTAL-1 (NCT03785249) trial, the objective response rate was 34% (95% CI=26.4-44.5), with a 34% (n=32) partial response rate and 51.1% (n=48) stable disease rate, the median duration of response was 5.8 months (95% CI=4.2-7.6), the median progression-free survival was 6.9 months (95% CI=5.7-7.4) and the median overall survival was 15.9 months (95% CI=11.8-18.8) (PMID: 38587856).
 Cancer type: Colorectal Cancer
 Biomarkers: G12C
-Therapy: Adagrasib,Cetuximab
+Therapy: Adagrasib, Cetuximab
 "
 "Approval level: LEVEL_1
 Database: OncoKB
@@ -486,7 +486,7 @@ Description: Sotorasib, a small molecule KRAS G12C inhibitor, and panitumumab, a
 In the Phase III CodeBreaK 300 (NCT05198934) trial, the sotorasib cohort (n=53) demonstrated an overall response rate (ORR) of 26% (95% CI=15-40), with a 1.9% (n=1) complete response (CR) rate and 25% (n=13) partial response (PR) rate, a median progression-free survival (PFS) of 5.6 months (95% CI=4.2-6.3) and a median overall survival (OS) that was not reached (95% CI=8.6-NR) (PMID: 37870968). In the standard-of-care cohort (n=54), the ORR was 0% (95% CI=0-7), the median PFS was 2 months (95% CI=1.9-3.9) (HR=0.48 [95% CI=0.3-0.78]; p=0.005) and the median OS was 10.3. months (95% CI=7-NR) (HR=0.7 [95% CI=0.41-1.18]) (PMID: 37870968).
 Cancer type: Colorectal Cancer
 Biomarkers: G12C
-Therapy: Sotorasib,Panitumumab
+Therapy: Sotorasib, Panitumumab
 "
 "Approval level: LEVEL_1
 Database: OncoKB
@@ -516,28 +516,28 @@ Database: OncoKB
 Description: Capivasertib is an orally available, ATP-competitive pan-AKT small molecule inhibitor that is FDA-approved with fulvestrant for adult patients with ER+/HER2- locally advanced or metastatic breast cancer with one or more PIK3CA/AKT1/PTEN-alterations, as detected by an FDA-approved test, following progression on at least one endocrine-based regimen in the metastatic setting or recurrence on or within twelve months of completing adjuvant therapy. Eligible PIK3CA/AKT1/PTEN-alterations (PIK3CA R88Q, N345K, C420R, E542K, E545A, E545D, E545Q, E545K, E545G, Q546E, Q546K, Q546R, Q546P, M1043V, M1043I, H1047Y, H1047R, H1047L and G1049R; AKT1 E17K; all PTEN oncogenic mutations) for treatment with capivasertib plus fulvestrant were detected by the FoundationOne CDx assay. FDA approval was based on the results from the Phase III CAPItello-291 (NCT04305496) trial of capivasertib plus fulvestrant versus placebo plus fulvestrant in 708 adult patients with ER+/HER2- locally advanced or metastatic breast cancer (n=289, patients with eligible PIK3CA/AKT1/PTEN alterations). In the Phase III CAPItello-291 (NCT04305496) trial, the capivasertib plus fulvestrant cohort with PIK3CA/AKT1/PTEN-altered tumors (n=155) demonstrated an objective response rate (ORR) of 26% (95% CI=19-34), with a 2.3% complete response (CR) rate, 23% partial response (PR) rate, and a median progression-free survival (PFS) of 7.3 months (95% CI=5.5-9.0)(PMID: 37256976). The placebo plus fulvestrant cohort with PIK3CA/AKT1/PTEN-altered tumors (n=134) demonstrated an ORR of 8% (95% CI=4-14), with an 8% PR rate and a median PFS of 3.1 months (95% CI=2.0-3.7) (HR=0.50 [95% CI=0.38-0.65]; p<0.0001) (PMID: 37256976).
 Cancer type: Breast Cancer
 Biomarkers: N345K,E545Q,Q546K,Q546P,M1043V,M1043I,G1049R,R88Q
-Therapy: Capivasertib,Fulvestrant
+Therapy: Capivasertib, Fulvestrant
 "
 "Approval level: LEVEL_1
 Database: OncoKB
 Description: Inavolisib is an orally available, small molecule PI3Kα inhibitor that is FDA-approved in combination with palbociclib and fulvestrant for the treatment of adults with endocrine-resistant, PIK3CA-mutated, HR-positive, HER2-negative, locally advanced or metastatic breast cancer, as detected by an FDA-approved test following recurrence on or after completing adjuvant endocrine therapy. PIK3CA oncogenic mutations for treatment with inavolisib plus palbociclib and fulvestrant were detected by the FoundationOne Liquid CDx. FDA approval was based on the results of the Phase III INAVO120 (NCT04191499) trial of inavolisib plus palbociclib and fulvestrant versus palbociclib plus fulvestrant in 325 patients with PIK3CA-mutated, HR+/HER2- breast cancer. In the Phase III INAVO120 (NCT04191499) trial, the inavolisib cohort (n=161) demonstrated an overall response rate (ORR) of 58.4%, with seven complete responses (CR) and 87 partial responses (PR), a median progression-free survival (PFS) of 15.0 months (95% CI=11.3-20.5), median overall survival (OS) was not evaluable (95% CI=0.43-0.97) and a median duration of response (DOR) of 18.4 months (95% CI=10.4-22.2) (PMID: 39476340). In contrast, the palbociclib plus fulvestrant only cohort (n=164) demonstrated an ORR of 25.0%, with one CR and 40 PRs, a median PFS of 7.3 months (95% CI=5.6-9.3) (HR=0.43 [95% CI=0.32-0.59]; p<0.0001), a median OS of 31.1 months (95% CI=22.3-NE) (HR=0.64 [95% CI=0.43-0.97]; p=0.0338) and a median DOR of 9.6 months (95% CI=7.4-16.6) (PMID: 39476340).
 Cancer type: Breast Cancer
 Biomarkers: Oncogenic Mutations
-Therapy: Inavolisib,Palbociclib,Fulvestrant
+Therapy: Inavolisib, Palbociclib, Fulvestrant
 "
 "Approval level: LEVEL_1
 Database: OncoKB
 Description: Alpelisib is a selective inhibitor of the alpha form of PI3K (PI3Kα) that is FDA-approved in combination with the selective estrogen receptor (ER) degrader fulvestrant for the treatment of postmenopausal patients with ER+ HER2- PIK3CA-mutated, advanced or metastatic breast cancer. FDA approval is based on data from the Phase III randomized, double-blind, placebo-controlled SOLAR-1 trial of alpelisib plus fulvestrant versus placebo plus fulvestrant in 572 patients with breast cancer in which the progression-free survival in patients with PIK3CA mutation (n=341) was eleven months (95% CI= 7.5-14.5) with alpelisib plus fulvestrant versus 5.7 months (95% CI= 3.7-7.4) with placebo plus fulvestrant (HR= 0.65; 95% CI= 0.5-0.85; p= 0.0013) compared to PIK3CA-wildtype patients in which the hazard ratio was 0.85 (95% CI= 0.58-1.25) (PMID: 31091374). Overall response in the PIK3CA-mutant population was 35.7 months (95% CI= 27.4-44.7; n=126) with alpelisib plus fulvestrant versus 16.2 months (95% CI= 10.4-23.5; n=136) with placebo plus fulvestrant (PMID: 31091374). Previous studies, including in vivo xenograft studies and a phase I trial, also demonstrated that treatment of ER+ PIK3CA-mutant breast cancer with the combination of fulvestrant and alpelisib results in greater tumor shrinkage than either drug alone, with fulvestrant inhibiting the induction of ER-dependent gene transcription resulting from PI3Kα inhibition with alpelisib (PMID: 25877889, 30543347).
 Cancer type: Breast Cancer
 Biomarkers: C420R,E542K,E545A,E545D,E545G,E545K,Q546E,Q546R,H1047L,H1047R,H1047Y
-Therapy: Alpelisib,Fulvestrant
+Therapy: Alpelisib, Fulvestrant
 "
 "Approval level: LEVEL_1
 Database: OncoKB
 Description: Capivasertib is an orally available, ATP-competitive pan-AKT small molecule inhibitor that is FDA-approved with fulvestrant for adult patients with ER+/HER2- locally advanced or metastatic breast cancer with one or more PIK3CA/AKT1/PTEN-alterations, as detected by an FDA-approved test, following progression on at least one endocrine-based regimen in the metastatic setting or recurrence on or within twelve months of completing adjuvant therapy. Eligible PIK3CA/AKT1/PTEN-alterations (PIK3CA R88Q, N345K, C420R, E542K, E545A, E545D, E545Q, E545K, E545G, Q546E, Q546K, Q546R, Q546P, M1043V, M1043I, H1047Y, H1047R, H1047L and G1049R; AKT1 E17K; all PTEN oncogenic mutations) for treatment with capivasertib plus fulvestrant were detected by the FoundationOne CDx assay. FDA approval was based on the results from the Phase III CAPItello-291 (NCT04305496) trial of capivasertib plus fulvestrant versus placebo plus fulvestrant in 708 adult patients with ER+/HER2- locally advanced or metastatic breast cancer (n=289, patients with eligible PIK3CA/AKT1/PTEN alterations). In the Phase III CAPItello-291 (NCT04305496) trial, the capivasertib plus fulvestrant cohort with PIK3CA/AKT1/PTEN-altered tumors (n=155) demonstrated an objective response rate (ORR) of 26% (95% CI=19-34), with a 2.3% complete response (CR) rate, 23% partial response (PR) rate, and a median progression-free survival (PFS) of 7.3 months (95% CI=5.5-9.0)(PMID: 37256976). The placebo plus fulvestrant cohort with PIK3CA/AKT1/PTEN-altered tumors (n=134) demonstrated an ORR of 8% (95% CI=4-14), with an 8% PR rate and a median PFS of 3.1 months (95% CI=2.0-3.7) (HR=0.50 [95% CI=0.38-0.65]; p<0.0001) (PMID: 37256976).
 Cancer type: Breast Cancer
 Biomarkers: C420R,E542K,E545A,E545D,E545G,E545K,Q546E,Q546R,H1047L,H1047R,H1047Y
-Therapy: Capivasertib,Fulvestrant
+Therapy: Capivasertib, Fulvestrant
 "
 "Approval level: LEVEL_2
 Database: OncoKB
@@ -622,35 +622,35 @@ Database: OncoKB
 Description: The RAF inhibitor vemurafenib in combination with the MEK inhibitor cobimetinib is FDA-approved for patients with BRAF V600E-positive melanoma, non-small cell lung cancer, and anaplastic thyroid cancer, and is NCCN-listed for patients with low-grade glioma, anaplastic glioma, and glioblastoma. Patients with various glioma subtypes harboring BRAF V600E mutations have shown responses to RAF and MEK inhibition. Three out of five patients with anaplastic astrocytoma had a response (one partial response, two stable disease) to vemurafenib monotherapy (PMID: 30351999). One patient with high-grade glioma (NOS) had stable disease in response to vemurafenib monotherapy (PMID:30351999). Four out of eight patients with glioma (NOS) had a response (one partial response, three stable disease, two progressive disease, two not evaluable) to vemurafenib monotherapy (PMID: 26287849). One patient with anaplastic oligoastrocytoma had stable disease in response to vemurafenib monotherapy (PMID: 30462564). Four of seven patients with glioblastoma multiforme had a response (one complete response, three stable disease, one progressive disease, two not evaluable) to vemurafenib monotherapy (PMID: 30351999, 24725538). Four patients with glioblastoma (including epithelioid glioblastoma) had a response (one “near-complete” response, three stable disease) to either dabrafenib monotherapy (n=2) or vemurafenib monotherapy (n=2) (PMID: 29621181, 29039591, 33117675, 34232949).
 Cancer type: Diffuse Glioma
 Biomarkers: V600E
-Therapy: Vemurafenib,Cobimetinib
+Therapy: Vemurafenib, Cobimetinib
 "
 "Approval level: LEVEL_2
 Database: OncoKB
 Description: The RAF inhibitor vemurafenib in combination with the MEK inhibitor cobimetinib is FDA-approved for patients with melanoma, non-small cell lung cancer, and anaplastic thyroid cancer, and is NCCN-listed for patients with low-grade glioma, anaplastic glioma, and glioblastoma. Patients with various glioma subtypes harboring BRAF V600E mutations have shown responses to RAF and MEK inhibition. Six patients with ganglioglioma had a partial response to either vemurafenib monotherapy (n=2), vemurafenib + cobimetinib (n=1), or dabrafenib monotherapy (n=​​3)(PMID: 25524464, 31985841, 26579623, 31502039). Twelve out of thirteen patients with pleomorphic xanthoastrocytoma had a response (one complete response, one “near-complete” response, six partial response, four stable disease) to either dabrafenib + trametinib (n=2) or vemurafenib monotherapy (n=11) (PMID: 28984141, 26287849, 30351999). Three patients with anaplastic pleomorphic xanthoastrocytoma had a response (one complete response, one “near-complete” response, one partial response) to either vemurafenib monotherapy (n=1) or dabrafenib monotherapy (n=2)(PMID: 25092772, 29039591). One patient with low-grade glioma, NOS had a partial response to dabrafenib monotherapy (PMID: 27398937). Two patients with pilocytic astrocytoma had a response (one partial response, one stable disease) to vemurafenib monotherapy (PMID: 30351999). Three of four patients with anaplastic ganglioglioma had a response (one partial response, one ""significant response"", one stable disease, one not evaluable) to either dabrafenib + trametinib (n=1) or vemurafenib monotherapy (n=3)(PMID: 29380516, 30351999). One patient with pilomyxoid astrocytoma had a partial response to vemurafenib monotherapy (PMID: 24821190).
 Cancer type: Encapsulated Glioma
 Biomarkers: V600E
-Therapy: Vemurafenib,Cobimetinib
+Therapy: Vemurafenib, Cobimetinib
 "
 "Approval level: LEVEL_2
 Database: OncoKB
 Description: The RAF inhibitor vemurafenib in combination with the MEK inhibitor cobimetinib is FDA-approved for patients with melanoma, non-small cell lung cancer, and anaplastic thyroid cancer, and is NCCN-compendium listed as recommended treatment of central nervous system cancers such as pilocytic astrocytoma, pleomorphic xanthoastrocytoma (PXA) and ganglioglioma. In a case series of two patients with BRAF V600E-mutant PXA, combination treatment of dabrafenib with trametinib led to partial responses by RANO criteria in both patients (PMID: 28984141). In a case report of a sixteen-year-old female with BRAF V600E-mutant anaplastic ganglioglioma, dabrafenib and trametinib in combination led to a significant response that was maintained at least six months after treatment initiation (PMID: 29380516). In a separate case report of a 28-year-old man with BRAF V600E-mutant anaplastic ganglioglioma, combination treatment of vemurafenib and cobimetinib led to a complete response after three months, with no evidence of recurrence after sixteen months of treatment (PMID: 30120137).
 Cancer type: Pleomorphic Xanthoastrocytoma
 Biomarkers: V600E
-Therapy: Vemurafenib,Cobimetinib
+Therapy: Vemurafenib, Cobimetinib
 "
 "Approval level: LEVEL_2
 Database: OncoKB
 Description: The RAF inhibitor vemurafenib in combination with the MEK inhibitor cobimetinib is FDA-approved for patients with melanoma, non-small cell lung cancer, and anaplastic thyroid cancer, and is NCCN-compendium listed as recommended treatment of central nervous system cancers such as pilocytic astrocytoma, pleomorphic xanthoastrocytoma (PXA) and ganglioglioma. In a case series of two patients with BRAF V600E-mutant PXA, combination treatment of dabrafenib with trametinib led to partial responses by RANO criteria in both patients (PMID: 28984141). In a case report of a sixteen-year-old female with BRAF V600E-mutant anaplastic ganglioglioma, dabrafenib and trametinib in combination led to a significant response that was maintained at least six months after treatment initiation (PMID: 29380516). In a separate case report of a 28-year-old man with BRAF V600E-mutant anaplastic ganglioglioma, combination treatment of vemurafenib and cobimetinib led to a complete response after three months, with no evidence of recurrence after sixteen months of treatment (PMID: 30120137).
 Cancer type: Pilocytic Astrocytoma
 Biomarkers: V600E
-Therapy: Vemurafenib,Cobimetinib
+Therapy: Vemurafenib, Cobimetinib
 "
 "Approval level: LEVEL_2
 Database: OncoKB
 Description: The RAF inhibitor vemurafenib in combination with the MEK inhibitor cobimetinib is FDA-approved for patients with melanoma, non-small cell lung cancer, and anaplastic thyroid cancer, and is NCCN-compendium listed as recommended treatment of central nervous system cancers such as pilocytic astrocytoma, pleomorphic xanthoastrocytoma (PXA) and ganglioglioma. In a case series of two patients with BRAF V600E-mutant PXA, combination treatment of dabrafenib with trametinib led to partial responses by RANO criteria in both patients (PMID: 28984141). In a case report of a sixteen-year-old female with BRAF V600E-mutant anaplastic ganglioglioma, dabrafenib and trametinib in combination led to a significant response that was maintained at least six months after treatment initiation (PMID: 29380516). In a separate case report of a 28-year-old man with BRAF V600E-mutant anaplastic ganglioglioma, combination treatment of vemurafenib and cobimetinib led to a complete response after three months, with no evidence of recurrence after sixteen months of treatment (PMID: 30120137).
 Cancer type: Ganglioglioma
 Biomarkers: V600E
-Therapy: Vemurafenib,Cobimetinib
+Therapy: Vemurafenib, Cobimetinib
 "
 "Approval level: LEVEL_2
 Database: OncoKB
@@ -665,7 +665,7 @@ Database: OncoKB
 Description: Encorafenib, a small molecule inhibitor of RAF kinase, and panitumumab, an antibody that targets EGFR, are NCCN-compendium listed in combination as level 2A therapy for patients with BRAF V600E-positive colorectal cancer. In the Phase III BEACON study of encorafenib + cetuximab, another EGFR antibody, versus triplet treatment (including a MEK1/2 inhibitor) versus chemotherapy in 665 patients with BRAF V600E-mutant colorectal cancer, the overall response rate (complete or partial response) was 20% (95% CI= 13-29) in the doublet arm (n=220) versus 2% (95% CI= <1%-7%) in the chemotherapy arm (n=221), with median overall survival of 8.4 months in the doublet arm (95% CI= 7.5-11.0) and 5.4 months in the control arm (95% CI= 4.8-6.6) (PMID: 31566309). Panitumumab has also been used in doublet and triplet combination therapy, with a response rate in one study of 26% (PMID: 29431699).
 Cancer type: Colorectal Cancer
 Biomarkers: V600E
-Therapy: Encorafenib,Panitumumab
+Therapy: Encorafenib, Panitumumab
 "
 "Approval level: LEVEL_2
 Database: OncoKB
@@ -714,7 +714,7 @@ Database: OncoKB
 Description: Amivantamab is an intravenously infused, EGFR-MET bispecific monoclonal antibody that is FDA-approved for the treatment of adult patients in combination with carboplatin and pemetrexed for the first-line treatment of locally advanced or metastatic non-small cell lung cancer (NSCLC) with EGFR exon 20 insertion mutations as detected by an FDA-approved test. Amivantamab plus chemotherapy is also recommended in the NCCN NSCLC Guidelines (v5.2024) as a ""Molecular And Biomarker-Directed Therapy For Advanced Or Metastatic Disease, Subsequent therapy"" treatment option for patients with EGFR S768I, L861Q and/or G719X-mutation-positive NSCLC. NCCN recommendation is based on the results of the Phase III MARIPOSA-2 (NCT04988295) trial of amivantamab plus chemotherapy versus chemotherapy in 394 patients with EGFR L858R and exon 19 deletion-mutant NSCLC. Note that the NCCN recommendation is based on clinical trial data that does not include patients with EGFR S768I-mutant NSCLC. In the Phase III MARIPOSA-2 (NCT04988295) trial, the amivantamab plus chemotherapy cohort (n=131 [n=89, exon 19 deletion; n=42, L858R]) demonstrated an overall response rate (ORR) of 64% (95% CI=55-72), a median progression-free survival (PFS) of 6.3 months (95% CI=5.6-8.4) and a median duration of response (DOR) of 6.9 months (95% CI=5.5-NE) while the chemotherapy cohort (n=263 [n=183, exon 19 deletion; n=79, L858R]) demonstrated an ORR of 36% (95% CI=30-42), a median PFS of 4.2 months (95% CI=4.0-4.4) and a median DOR of 5.6 months (95% CI=4.2-9.6) (PMID: 37879444).
 Cancer type: Non-Small Cell Lung Cancer
 Biomarkers: S768I
-Therapy: Amivantamab,Chemotherapy
+Therapy: Amivantamab, Chemotherapy
 "
 "Approval level: LEVEL_2
 Database: OncoKB
@@ -756,7 +756,7 @@ Database: OncoKB
 Description: Amivantamab is an intravenously infused, EGFR-MET bispecific monoclonal antibody that is FDA-approved for the treatment of adult patients in combination with carboplatin and pemetrexed for the first-line treatment of locally advanced or metastatic non-small cell lung cancer (NSCLC) with EGFR exon 20 insertion mutations as detected by an FDA-approved test. Amivantamab plus chemotherapy is also recommended in the NCCN NSCLC Guidelines (v5.2024) as a ""Molecular And Biomarker-Directed Therapy For Advanced Or Metastatic Disease, Subsequent therapy"" treatment option for patients with EGFR S768I, L861Q and/or G719X-mutation-positive NSCLC. NCCN recommendation is based on the results of the Phase III MARIPOSA-2 (NCT04988295) trial of amivantamab plus chemotherapy versus chemotherapy in 394 patients with EGFR L858R and exon 19 deletion-mutant NSCLC. Note that the NCCN recommendation is based on clinical trial data that does not include patients with EGFR G719X-mutant NSCLC. In the Phase III MARIPOSA-2 (NCT04988295) trial, the amivantamab plus chemotherapy cohort (n=131 [n=89, exon 19 deletion; n=42, L858R]) demonstrated an overall response rate (ORR) of 64% (95% CI=55-72), a median progression-free survival (PFS) of 6.3 months (95% CI=5.6-8.4) and a median duration of response (DOR) of 6.9 months (95% CI=5.5-NE) while the chemotherapy cohort (n=263 [n=183, exon 19 deletion; n=79, L858R]) demonstrated an ORR of 36% (95% CI=30-42), a median PFS of 4.2 months (95% CI=4.0-4.4) and a median DOR of 5.6 months (95% CI=4.2-9.6) (PMID: 37879444).
 Cancer type: Non-Small Cell Lung Cancer
 Biomarkers: G719
-Therapy: Amivantamab,Chemotherapy
+Therapy: Amivantamab, Chemotherapy
 "
 "Approval level: LEVEL_2
 Database: OncoKB
@@ -819,7 +819,7 @@ Database: OncoKB
 Description: Amivantamab is an intravenously infused, EGFR-MET bispecific monoclonal antibody that is FDA-approved for the treatment of adult patients in combination with carboplatin and pemetrexed for the first-line treatment of locally advanced or metastatic non-small cell lung cancer (NSCLC) with EGFR exon 20 insertion mutations as detected by an FDA-approved test. Amivantamab plus chemotherapy is also recommended in the NCCN NSCLC Guidelines (v5.2024) as a ""Molecular And Biomarker-Directed Therapy For Advanced Or Metastatic Disease, Subsequent therapy"" treatment option for patients with EGFR S768I, L861Q and/or G719X-mutation-positive NSCLC. NCCN recommendation is based on the results of the Phase III MARIPOSA-2 (NCT04988295) trial of amivantamab plus chemotherapy versus chemotherapy in 394 patients with EGFR L858R and exon 19 deletion-mutant NSCLC. Note that the NCCN recommendation is based on clinical trial data that does not include patients with EGFR L861Q-mutant NSCLC. In the Phase III MARIPOSA-2 (NCT04988295) trial, the amivantamab plus chemotherapy cohort (n=131 [n=89, exon 19 deletion; n=42, L858R]) demonstrated an overall response rate (ORR) of 64% (95% CI=55-72), a median progression-free survival (PFS) of 6.3 months (95% CI=5.6-8.4) and a median duration of response (DOR) of 6.9 months (95% CI=5.5-NE) while the chemotherapy cohort (n=263 [n=183, exon 19 deletion; n=79, L858R]) demonstrated an ORR of 36% (95% CI=30-42), a median PFS of 4.2 months (95% CI=4.0-4.4) and a median DOR of 5.6 months (95% CI=4.2-9.6) (PMID: 37879444).
 Cancer type: Non-Small Cell Lung Cancer
 Biomarkers: L861Q
-Therapy: Amivantamab,Chemotherapy
+Therapy: Amivantamab, Chemotherapy
 "
 "Approval level: LEVEL_2
 Database: OncoKB
@@ -843,7 +843,7 @@ Description: Neratinib is an orally available, small-molecule pan-HER targeted i
 In the Phase I SUMMIT (NCT05372614) trial, patients with HER2 mutant breast cancer (n=48) demonstrated an overall response rate (ORR) of 42% (n=20), with one patient (n=1, multiple ERBB2 mutations) achieving complete response (CR) and 21 patients (n=4, L755S; n=5, exon 20 insertion; n=3, other kinase domain missense; n=5, V777L; n=1, S310F; n=3, multiple ERBB2 mutations) achieving partial response (PR), and a median progression-free survival (PFS) of 10.2 months (95% CI=6.1-18.6) (PMID: 37597578).
 Cancer type: Breast Cancer
 Biomarkers: Oncogenic Mutations
-Therapy: Neratinib,Trastuzumab,Fulvestrant
+Therapy: Neratinib, Trastuzumab, Fulvestrant
 "
 "Approval level: LEVEL_2
 Database: OncoKB
@@ -977,7 +977,7 @@ In the Phase I-II KRYSTAL-1 trial of adagrasib versus adagrasib plus cetuximab i
 In the Phase 1b dose-exploration and dose-expansion substudy of the CodeBreaK 101 trial of sotorasib plus panitumumab in 48 patients with KRAS G12C-mutated colorectal cancer (dose-exploration cohort, n = 8; dose-expansion cohort, n = 40), the dose-expansion cohort demonstrated an ORR of 30% (95% CI=16.6, 46.5), with 12 patients (30.0%; 95% CI=16.6, 46.5) achieving a confirmed partial response, a disease control rate of 92.5% (95% CI= 79.6, 98.4), a median PFS of 5.7 months (95% CI=4.2, 7.7), a median overall survival of 15.2 months (95% CI=12.5, not estimable) and tumor shrinkage of any magnitude in 35 patients (87.5%) (PMID: 38177853). In the Phase III CodeBreaK 300 trial of sotorasib plus panitumumab versus standard care in patients with KRAS G12C-mutated refractory metastatic colorectal cancer, the sotorasib 960-mg plus panitumumab therapy group (n=53) demonstrated an ORR of 26.4% (95% CI=15.3, 40.3) with 1 complete response and a median PFS of 5.6 months (95% CI=4.2, 6.3), while the standard care therapy group (n=54) demonstrated an ORR of 0% (95% CI=0.0, 6.6) and a median PFS of 2.2 months (95% CI=1.9, 3.9) (HR=0.49 [95% CI=0.30, 0.80], P=0.006) (PMID: 37870968).
 Cancer type: Colorectal Cancer
 Biomarkers: G12C
-Therapy: Adagrasib,Panitumumab
+Therapy: Adagrasib, Panitumumab
 "
 "Approval level: LEVEL_2
 Database: OncoKB
@@ -1018,7 +1018,7 @@ In the Phase I-II KRYSTAL-1 trial of adagrasib versus adagrasib plus cetuximab i
 In the Phase 1b dose-exploration and dose-expansion substudy of the CodeBreaK 101 trial of sotorasib plus panitumumab in 48 patients with KRAS G12C-mutated colorectal cancer (dose-exploration cohort, n = 8; dose-expansion cohort, n = 40), the dose-expansion cohort demonstrated an ORR of 30% (95% CI=16.6, 46.5), with 12 patients (30.0%; 95% CI=16.6, 46.5) achieving a confirmed partial response, a disease control rate of 92.5% (95% CI= 79.6, 98.4), a median PFS of 5.7 months (95% CI=4.2, 7.7), a median overall survival of 15.2 months (95% CI=12.5, not estimable) and tumor shrinkage of any magnitude in 35 patients (87.5%) (PMID: 38177853). In the Phase III CodeBreaK 300 trial of sotorasib plus panitumumab versus standard care in patients with KRAS G12C-mutated refractory metastatic colorectal cancer, the sotorasib 960-mg plus panitumumab therapy group (n=53) demonstrated an ORR of 26.4% (95% CI=15.3, 40.3) with 1 complete response and a median PFS of 5.6 months (95% CI=4.2, 6.3), while the standard care therapy group (n=54) demonstrated an ORR of 0% (95% CI=0.0, 6.6) and a median PFS of 2.2 months (95% CI=1.9, 3.9) (HR=0.49 [95% CI=0.30, 0.80], P=0.006) (PMID: 37870968).
 Cancer type: Colorectal Cancer
 Biomarkers: G12C
-Therapy: Sotorasib,Cetuximab
+Therapy: Sotorasib, Cetuximab
 "
 "Approved indication: Crizotinib is FDA-approved for (1) the treatment of patients with metastatic non-small cell lung cancer (NSCLC) whose tumors are ALK-positive as detected by an FDA-approved test (2) the treatment of patients with metastatic non-small cell lung cancer (NSCLC) whose tumors are ROS1-positive.
 Approval level: LEVEL_2
@@ -1070,7 +1070,7 @@ Database: OncoKB
 Description: Alpelisib is an orally available, small molecule PI3Kα inhibitor that is FDA-approved with fulvestrant for the treatment of postmenopausal patients with ER+, HER2-, PIK3CA-mutated, advanced or metastatic breast cancer, as detected by an FDA-approved test, following progression on or after an endocrine-based regimen. PIK3CA mutation status was identified through the QIAGEN therascreen PIK3CA RGQ PCR Kit. The NCCN-compendium lists alpelisib plus fulvestrant for patients with ER+/HER2- metastatic breast harboring PIK3CA activating mutations based on the results of the Phase III SOLAR-1 (NCT02437318) trial of alpelisib plus fulvestrant versus placebo plus fulvestrant in 341 patients with ER+, HER2-, PIK3CA-mutated, advanced or metastatic breast cancer whose disease had progressed or on or after receiving an aromatase inhibitor. In the Phase III SOLAR-1 (NCT02437318) trial, the alpelisib plus fulvestrant treated cohort (n=169) demonstrated a median progression-free survival (PFS) of 11.0 months (95% CI=7.5-14.5) and an overall response rate (ORR) of 35.7% (95% CI=27.4-44.7) compared to the placebo plus fulvestrant treated cohort (n=172) that demonstrated a median PFS of 5.7 months (95% CI=3.7-7.4) (HR=0.65 [95% CI=0.50-0.85]; p=0.0013) and an ORR of 16.2% (95% CI=10.4-23.5) (PMID: 31091374).
 Cancer type: Breast Cancer
 Biomarkers: Oncogenic Mutations (excluding C420R, E542K, E545A, E545D, E545G, E545K, Q546E, Q546R, H1047L, H1047R and H1047Y)
-Therapy: Alpelisib,Fulvestrant
+Therapy: Alpelisib, Fulvestrant
 "
 "Approval level: LEVEL_2
 Database: OncoKB
@@ -1091,14 +1091,14 @@ Database: OncoKB
 Description: Nivolumab, a human anti-PD1 antibody, and ipilimumab, a human anti-CTLA-4 antibody, are immune checkpoint inhibitors that are FDA-approved in combination for the treatment of patients with mismatch repair deficient (dMMR) or microsatellite instability-high (MSI-H) metastatic colorectal cancer (mCRC) who experienced disease progression after chemotherapy. Nivolumab in combination with ipilimumab is also recommended in the Colon Cancer NCCN Guidelines (v3.2024) as a treatment option for patients with MMR/MSI-H or POLE/POLD1 mutant, proofreading deficient (pd) advanced or metastatic colon cancer. In a retrospective, multinational study of patients with metastatic colorectal cancer (CRC) treated with anti-PD-L1 inhibitors alone or in combination with anti-CTLA-4 inhibitors, patients with POLE/D1 pd tumors (n=27) had significantly improved outcomes compared to patients with dMMR/MSI-H CRC (n=610), with overall response rates (ORRs) of 89% versus 54%, progression-free survival (PFS) rates at two years of 88% versus 60%, and overall survival (OS) rates at two years of 86% versus 72%, respectively (PMID: 38777726). In a pan-cancer study of patients with MSI-stable/low tumors treated with anti-PD-1/anti-PDL-1 inhibitors, patients with functional POLE/D1 mutations (n=24) had a clinical benefit rate of 75% versus 30% for patients with POLE/D1 wildtype tumors (n=1038) (PMID: 35817971). The NCCN recommendation is based on the results of the Phase II CheckMate-142 (NCT02060188) study of nivolumab plus ipilimumab in patients with MSI-H or dMMR mCRC. In this study, among 119 patients with mCRC, the blinded independent central review (BICR) overall response rate (ORR) was 55% (95% CI=45.2–63.8) with four complete responses (3%) and 61 partial responses (51%), the PFS rate at twelve-months was 71% and the median duration of response was not reached (PMID: 29355075).
 Cancer type: Colorectal Cancer
 Biomarkers: D402N,L474P,S478N,E318K
-Therapy: Ipilimumab,Nivolumab
+Therapy: Ipilimumab, Nivolumab
 "
 "Approval level: LEVEL_2
 Database: OncoKB
 Description: Nivolumab, a human anti-PD1 antibody, and ipilimumab, a human anti-CTLA-4 antibody, are immune checkpoint inhibitors that are FDA-approved in combination for the treatment of patients with mismatch repair deficient (dMMR) or microsatellite instability-high (MSI-H) metastatic colorectal cancer (mCRC) who experienced disease progression after chemotherapy. Nivolumab in combination with ipilimumab is also recommended in the Small Bowel Adenocarcinoma NCCN Guidelines (v3.2024) as a treatment option for patients with MMR/MSI-H or POLE/POLD1 mutant, proofreading deficient (pd) advanced or metastatic small bowel adenocarcinoma (SBA). In a retrospective, multinational study of patients with metastatic colorectal cancer (CRC) treated with anti-PD-L1 inhibitors alone or in combination with anti-CTLA-4 inhibitors, patients with POLE/D1 pd tumors (n=27) had significantly improved outcomes compared to patients with dMMR/MSI-H CRC (n=610), with overall response rates (ORRs) of 89% versus 54%, progression-free survival (PFS) rates at two years of 88% versus 60%, and overall survival (OS) rates at two years of 86% versus 72%, respectively (PMID: 38777726). In a pan-cancer study of patients with MSI-stable/low tumors treated with anti-PD-1/anti-PDL-1 inhibitors, patients with functional POLE/D1 mutations (n=24) had a clinical benefit rate of 75% versus 30% for patients with POLE/D1 wildtype tumors (n=1038) (PMID: 35817971). The NCCN recommendation is based on positive data for nivolumab plus ipilimumab and other checkpoint inhibitors in dMMR/MSI-H mCRC, including results from the Phase II CheckMate-142 (NCT02060188) study of nivolumab plus ipilimumab in patients with MSI-H or dMMR mCRC. In this study, among 119 patients with mCRC, the blinded independent central review (BICR) ORR was 55% (95% CI=45.2–63.8) with four complete responses (3%) and 61 partial responses (51%), the PFS rate at twelve-months was 71% and the median duration of response was not reached (PMID: 29355075). Additionally, in the Phase II SWOG S1609 Dual Anti-CTLA-4 & Anti-PD-1 blockade in Rare Tumors (DART) (NCT02834013) basket study of nivolumab + ipilimumab in rare tumors, among the 23 patients with SBA, the ORR was 8% with one complete response and one partial response (Abstract: Chae et al. Abstract# 3417, AACR 2020. https://aacrjournals.org/cancerres/article/80/16_Supplement/3417/642689/Abstract-3417-A-phase-II-basket-trial-of-dual-anti).
 Cancer type: Small Bowel Cancer
 Biomarkers: D402N,L474P,S478N,E318K
-Therapy: Ipilimumab,Nivolumab
+Therapy: Ipilimumab, Nivolumab
 "
 "Approval level: LEVEL_2
 Database: OncoKB
@@ -1147,14 +1147,14 @@ Database: OncoKB
 Description: Nivolumab, a human anti-PD1 antibody, and ipilimumab, a human anti-CTLA-4 antibody, are immune checkpoint inhibitors that are FDA-approved in combination for the treatment of patients with mismatch repair deficient (dMMR) or microsatellite instability-high (MSI-H) metastatic colorectal cancer (mCRC) who experienced disease progression after chemotherapy. Nivolumab in combination with ipilimumab is also recommended in the Colon Cancer NCCN Guidelines (v3.2024) as a treatment option for patients with MMR/MSI-H or POLE/POLD1 mutant, proofreading deficient (pd) advanced or metastatic colon cancer. In a retrospective, multinational study of patients with metastatic colorectal cancer (CRC) treated with anti-PD-L1 inhibitors alone or in combination with anti-CTLA-4 inhibitors, patients with POLE/D1 pd tumors (n=27) had significantly improved outcomes compared to patients with dMMR/MSI-H CRC (n=610), with overall response rates (ORRs) of 89% versus 54%, progression-free survival (PFS) rates at two years of 88% versus 60%, and overall survival (OS) rates at two years of 86% versus 72%, respectively (PMID: 38777726). In a pan-cancer study of patients with MSI-stable/low tumors treated with anti-PD-1/anti-PDL-1 inhibitors, patients with functional POLE/D1 mutations (n=24) had a clinical benefit rate of 75% versus 30% for patients with POLE/D1 wildtype tumors (n=1038) (PMID: 35817971). The NCCN recommendation is based on the results of the Phase II CheckMate-142 (NCT02060188) study of nivolumab plus ipilimumab in patients with MSI-H or dMMR mCRC. In this study, among 119 patients with mCRC, the blinded independent central review (BICR) overall response rate (ORR) was 55% (95% CI=45.2–63.8) with four complete responses (3%) and 61 partial responses (51%), the PFS rate at twelve-months was 71% and the median duration of response was not reached (PMID: 29355075).
 Cancer type: Colorectal Cancer
 Biomarkers: D368N,D275V,D275G,D275A,A463V,A463T,A463D,A288V,S461L,K425R,V464A,V411L,P286R,P286S,P286H,S459F,L424V,L424I,F367S,S297F,S297Y,A456P,P436R,M295R,V411M,M444K,D368Y,F367V,S459Y,P286L,Y458H,Y458C,S461T,S461P,P436S,P436H,F367L
-Therapy: Ipilimumab,Nivolumab
+Therapy: Ipilimumab, Nivolumab
 "
 "Approval level: LEVEL_2
 Database: OncoKB
 Description: Nivolumab, a human anti-PD1 antibody, and ipilimumab, a human anti-CTLA-4 antibody, are immune checkpoint inhibitors that are FDA-approved in combination for the treatment of patients with mismatch repair deficient (dMMR) or microsatellite instability-high (MSI-H) metastatic colorectal cancer (mCRC) who experienced disease progression after chemotherapy. Nivolumab in combination with ipilimumab is also recommended in the Small Bowel Adenocarcinoma NCCN Guidelines (v3.2024) as a treatment option for patients with MMR/MSI-H or POLE/POLD1 mutant, proofreading deficient (pd) advanced or metastatic small bowel adenocarcinoma (SBA). In a retrospective, multinational study of patients with metastatic colorectal cancer (CRC) treated with anti-PD-L1 inhibitors alone or in combination with anti-CTLA-4 inhibitors, patients with POLE/D1 pd tumors (n=27) had significantly improved outcomes compared to patients with dMMR/MSI-H CRC (n=610), with overall response rates (ORRs) of 89% versus 54%, progression-free survival (PFS) rates at two years of 88% versus 60%, and overall survival (OS) rates at two years of 86% versus 72%, respectively (PMID: 38777726). In a pan-cancer study of patients with MSI-stable/low tumors treated with anti-PD-1/anti-PDL-1 inhibitors, patients with functional POLE/D1 mutations (n=24) had a clinical benefit rate of 75% versus 30% for patients with POLE/D1 wildtype tumors (n=1038) (PMID: 35817971). The NCCN recommendation is based on positive data for nivolumab plus ipilimumab and other checkpoint inhibitors in dMMR/MSI-H mCRC, including results from the Phase II CheckMate-142 (NCT02060188) study of nivolumab plus ipilimumab in patients with MSI-H or dMMR mCRC. In this study, among 119 patients with mCRC, the blinded independent central review (BICR) ORR was 55% (95% CI=45.2–63.8) with four complete responses (3%) and 61 partial responses (51%), the PFS rate at twelve-months was 71% and the median duration of response was not reached (PMID: 29355075). Additionally, in the Phase II SWOG S1609 Dual Anti-CTLA-4 & Anti-PD-1 blockade in Rare Tumors (DART) (NCT02834013) basket study of nivolumab plus ipilimumab in rare tumors, among the 23 patients with SBA, the ORR was 8% with one complete response and one partial response (Abstract: Chae et al. Abstract# 3417, AACR 2020. https://aacrjournals.org/cancerres/article/80/16_Supplement/3417/642689/Abstract-3417-A-phase-II-basket-trial-of-dual-anti).
 Cancer type: Small Bowel Cancer
 Biomarkers: D368N,D275V,D275G,D275A,A463V,A463T,A463D,A288V,S461L,K425R,V464A,V411L,P286R,P286S,P286H,S459F,L424V,L424I,F367S,S297F,S297Y,A456P,P436R,M295R,V411M,M444K,D368Y,F367V,S459Y,P286L,Y458H,Y458C,S461T,S461P,P436S,P436H,F367L
-Therapy: Ipilimumab,Nivolumab
+Therapy: Ipilimumab, Nivolumab
 "
 "Approval level: LEVEL_2
 Database: OncoKB
@@ -1309,7 +1309,7 @@ Database: OncoKB
 Description: Amivantamab is an intravenously infused, EGFR-MET bispecific monoclonal antibody that is FDA-approved for the treatment of adult patients in combination with carboplatin and pemetrexed for the first-line treatment of locally advanced or metastatic non-small cell lung cancer (NSCLC) with EGFR exon 20 insertion mutations as detected by an FDA-approved test. There are promising clinical data in patients with EGFR S768I, L861Q and/or G719X-mutant NSCLC treated with amivantamab in combination with the third-generation EGFR tyrosine kinase inhibitor lazertinib. In the Phase I CHRYSALIS-2 (NCT04077463) trial of amivantamab plus lazertinib in 105 patients with atypical EGFR-mutated advanced NSCLC (54%, G719X; 24%, L861Q; 22%, S768I), the objective response rate (ORR) was 51% (95% CI=41-61) in the overall cohort, 100% in the EGFR S768I-mutant cohort (n=2) and 41% in the compound atypical EGFR-mutant cohort (n=17) (Abstract: Cho et al. Abstract #8516, ASCO 2024. https://ascopubs.org/doi/pdf/10.1200/JCO.2024.42.16_suppl.8516). Of the treatment-naive patients (n=49), the ORR was 55% (95% CI=40-69), the median progression-free survival was 19.5 months (95% CI=11.0-NE) and the median duration of response was not evaluable (95% CI=2.8-NE) (Abstract: Cho et al. Abstract #8516, ASCO 2024. https://ascopubs.org/doi/pdf/10.1200/JCO.2024.42.16_suppl.8516).
 Cancer type: Non-Small Cell Lung Cancer
 Biomarkers: S768I
-Therapy: Amivantamab,Lazertinib
+Therapy: Amivantamab, Lazertinib
 "
 "Approval level: LEVEL_3A
 Database: OncoKB
@@ -1341,7 +1341,7 @@ Database: OncoKB
 Description: Amivantamab is an intravenously infused, EGFR-MET bispecific monoclonal antibody that is FDA-approved for the treatment of adult patients in combination with carboplatin and pemetrexed for the first-line treatment of locally advanced or metastatic non-small cell lung cancer (NSCLC) with EGFR exon 20 insertion mutations as detected by an FDA-approved test. There are promising clinical data in patients with EGFR S768I, L861Q and/or G719X-mutant NSCLC treated with amivantamab in combination with the third-generation EGFR tyrosine kinase inhibitor lazertinib. In the Phase I CHRYSALIS-2 (NCT04077463) trial of amivantamab plus lazertinib in 105 patients with atypical EGFR-mutated advanced NSCLC (54%, G719X; 24%, L861Q; 22%, S768I), the objective response rate (ORR) was 51% (95% CI=41-61) in the overall cohort, 54% in the EGFR G719X-mutant cohort (n=13) and 41% in the compound atypical EGFR-mutant cohort (n=17) (Abstract: Cho et al. Abstract #8516, ASCO 2024. https://ascopubs.org/doi/pdf/10.1200/JCO.2024.42.16_suppl.8516). Of the treatment-naive patients (n=49), the ORR was 55% (95% CI=40-69), the median progression-free survival was 19.5 months (95% CI=11.0-NE) and the median duration of response was not evaluable (95% CI=2.8-NE) (Abstract: Cho et al. Abstract #8516, ASCO 2024. https://ascopubs.org/doi/pdf/10.1200/JCO.2024.42.16_suppl.8516).
 Cancer type: Non-Small Cell Lung Cancer
 Biomarkers: G719
-Therapy: Amivantamab,Lazertinib
+Therapy: Amivantamab, Lazertinib
 "
 "Approval level: LEVEL_3A
 Database: OncoKB
@@ -1369,7 +1369,7 @@ Database: OncoKB
 Description: Amivantamab is an intravenously infused, EGFR-MET bispecific monoclonal antibody that is FDA-approved for the treatment of adult patients in combination with carboplatin and pemetrexed for the first-line treatment of locally advanced or metastatic non-small cell lung cancer (NSCLC) with EGFR exon 20 insertion mutations as detected by an FDA-approved test. There are promising clinical data in patients with EGFR S768I, L861Q and/or G719X-mutant NSCLC treated with amivantamab in combination with the third-generation EGFR tyrosine kinase inhibitor lazertinib. In the Phase I CHRYSALIS-2 (NCT04077463) trial of amivantamab plus lazertinib in 105 patients with atypical EGFR-mutated advanced NSCLC (54%, G719X; 24%, L861Q; 22%, S768I), the objective response rate (ORR) was 51% (95% CI=41-61) in the overall cohort, 63% in the EGFR L861Q-mutant cohort (n=8) and 41% in the compound atypical EGFR-mutant cohort (n=17) (Abstract: Cho et al. Abstract #8516, ASCO 2024. https://ascopubs.org/doi/pdf/10.1200/JCO.2024.42.16_suppl.8516). Of the treatment-naive patients (n=49), the ORR was 55% (95% CI=40-69), the median progression-free survival was 19.5 months (95% CI=11.0-NE) and the median duration of response was not evaluable (95% CI=2.8-NE) (Abstract: Cho et al. Abstract #8516, ASCO 2024. https://ascopubs.org/doi/pdf/10.1200/JCO.2024.42.16_suppl.8516).
 Cancer type: Non-Small Cell Lung Cancer
 Biomarkers: L861Q
-Therapy: Amivantamab,Lazertinib
+Therapy: Amivantamab, Lazertinib
 "
 "Approval level: LEVEL_3A
 Database: OncoKB
@@ -1406,7 +1406,7 @@ Database: OncoKB
 Description: Trastuzumab and pertuzumab are both monoclonal antibodies against ERBB2/HER2 and docetaxel is an antineoplastic agent that acts by disrupting the microtubular network in cells that is essential for mitotic and interphase cellular functions. The triple combination of these therapeutic agents is FDA-approved for the treatment of patients with HER2-positive metastatic breast cancer who have not received prior anti-HER2 therapy or chemotherapy for metastatic disease. In a multicenter, nonrandomized phase II study (FCT 1703-R2D2, NCT03845270) of trastuzumab, pertuzumab and docetaxel in 45 patients with ERBB2-mutated, advanced non-small cell lung cancer who progressed after at least one platinum-based treatment, the objective response rate was 29% (n = 13/45) in which 58% of patients had stable disease (n = 26/45) and the median progression-free survival was 6.8 months (95% CI=4.0 to 8.5) (PMID: 35073148). Preclinical studies in HER2-overexpressing breast cancer cell lines and HER2-positive breast and non–small cell lung cancer xenograft models have shown that combining trastuzumab and pertuzumab resulted in greater antitumor activity compared to treatment with either antibody alone due to more comprehensive signaling blockade provided by the antibodies binding to different HER2 epitopes (PMID: 15059883, 19934333). In a separate preclinical study, treatment of a HER2-positive mouse xenograft model of breast cancer with trastuzumab, pertuzumab, and docetaxel resulted in enhanced apoptosis, infiltration of mononuclear cells, a strong reduction in the phosphorylation of HER2, EGFR, HER3, ERK, and AKT, as well as a slower tumor growth rate compared to controls (PMID: 28959366).
 Cancer type: Non-Small Cell Lung Cancer
 Biomarkers: Oncogenic Mutations
-Therapy: Trastuzumab,Pertuzumab,Docetaxel
+Therapy: Trastuzumab, Pertuzumab, Docetaxel
 "
 "Approval level: LEVEL_3A
 Database: OncoKB
@@ -1675,7 +1675,7 @@ Description: Pertuzumab and trastuzumab are intravenously administered, humanize
 In the Phase II TAPUR (NCT02693535) trial of pertuzumab plus trastuzumab in seven patients with ERBB2 mutant biliary tract cancer (n=4, S310F; n=1, S310Y; n=1, R678Q; n=1, G776V), two patients achieved partial response (S310Y, S310F) (PMID: 38748939).
 Cancer type: Hepatobiliary Cancer
 Biomarkers: Oncogenic Mutations
-Therapy: Pertuzumab,Trastuzumab
+Therapy: Pertuzumab, Trastuzumab
 "
 "Approval level: LEVEL_4
 Database: OncoKB
@@ -1683,7 +1683,7 @@ Description: Pertuzumab and trastuzumab are intravenously administered, humanize
 In the Phase II TAPUR (NCT02693535) trial of pertuzumab plus trastuzumab in seven patients with ERBB2 mutant biliary tract cancer (n=4, S310F; n=1, S310Y; n=1, R678Q; n=1, G776V), two patients achieved partial response (S310Y, S310F) (PMID: 38748939).
 Cancer type: Biliary Tract
 Biomarkers: Oncogenic Mutations
-Therapy: Pertuzumab,Trastuzumab
+Therapy: Pertuzumab, Trastuzumab
 "
 "Approval level: LEVEL_4
 Database: OncoKB
@@ -1816,7 +1816,7 @@ Database: OncoKB
 Description: RLY-2608 is an orally available, small-molecule, allosteric PI3Kα inhibitor, and fulvestrant is an FDA-approved estrogen receptor antagonist indicated for the treatment of patients with hormone receptor (HR)-positive, HER2-negative metastatic breast cancer. There are promising laboratory and anecdotal clinical data to support use of RLY-2608 plus fulvestrant in patients with PIK3CA-mutated breast cancer. In the Phase I ReDiscover (NCT05216432) trial of RLY-2608, one patient with HER2-low breast cancer harboring PIK3CA H1047R and E453K was treated with RLY-2608 and one patient with HER2-negative breast cancer harboring PIK3CA E542K was treated with RLY-2608 plus fulvestrant and both patients demonstrated partial responses (PMID: 37916956). In vitro studies with HR+ PI3Kα mutant cell lines demonstrated synergistic sensitivity to treatment with RLY-2608 in combination with fulvestrant (Abstract: Pazolli et al. Abstract# P5-16-10, SABCS 2021. https://aacrjournals.org/cancerres/article/82/4_Supplement/P5-16-10/681459). In vivo cell-derived xenograft models harboring the PIK3CA E545K mutation demonstrated sensitivity to RLY-2608 + fulvestrant treatment as measured by dose-dependent tumor regression (Abstract: Pazolli et al. Abstract# P5-16-10, SABCS 2021. https://aacrjournals.org/cancerres/article/82/4_Supplement/P5-16-10/681459). In vitro studies with MCF10A cells expressing PIK3CA E545K or H1047R demonstrate sensitivity to RLY-2608 as measured by inhibition of cellular signaling and proliferation (PMID: 37916956).
 Cancer type: Breast Cancer
 Biomarkers: Oncogenic Mutations
-Therapy: RLY-2608,Fulvestrant
+Therapy: RLY-2608, Fulvestrant
 "
 "Approval level: LEVEL_R1
 Database: OncoKB
@@ -1977,7 +1977,7 @@ Database: OncoKB
 Description: Tucatinib, a small molecular inhibitor of HER2, and trastuzumab, a HER2-targeted antibody, are FDA-approved in combination for the treatment of patients with HER2 amplified metastatic colorectal cancer whose tumors are also RAS and BRAF wildtype. Patients with metastatic colorectal cancer harboring KRAS mutations do not respond favorably to trastuzumab as seen in the MyPath trial. In the multiple basket MyPath Phase IIa trial of pertuzumab and trastuzumab in which 56 metastatic colorectal cancer patients with HER2 amplification received combination therapy, the objective response rate for patients with KRAS wildtype colorectal cancer (43/56 patients) compared to KRAS mutated colorectal cancer (13/56 patients) was 40% (17/43, 95% CI, 25%–56%) versus 8% (1/13, 95% CI 0.2%–36%), respectively (PMID: 30857956).
 Cancer type: Colorectal Cancer
 Biomarkers: Oncogenic Mutations
-Therapy: Tucatinib,Trastuzumab
+Therapy: Tucatinib, Trastuzumab
 "
 "Approval level: LEVEL_R1
 Database: OncoKB
@@ -2772,7 +2772,7 @@ Database: OncoKB
 Description: Tretinoin is an orally bioavailable retinoid that is FDA-approved for use in patients with PML-RARA fusion-positive acute promyelocytic leukemia (APL). Arsenic trioxide is an intravenously administered arsenical that is FDA-approved for use in patients with PML-RARA fusion-positive APL. In a randomized, multicenter phase III trial comparing the efficacy of tretinoin plus arsenic trioxide (n=77) versus tretinoin plus chemotherapy (n=79) in patients with newly diagnosed APL (n=162), the tretinoin plus arsenic trioxide cohort demonstrated a 100% complete remission rate, a 97% two-year event-free survival rate and a two-year overall survival rate of 99% (95% CI: 93, 100) while the tretinoin plus chemotherapy cohort demonstrated a 95% complete remission rate, an 82% two-year event-free survival rate and a two-year overall survival rate of 91% (95% CI: 86, 97) (PMID: 23841729).
 Cancer type: APL with PML-RARA
 Biomarkers: PML-RARA Fusion
-Therapy: Tretinoin,Arsenic Trioxide
+Therapy: Tretinoin, Arsenic Trioxide
 "
 "Approved indication: 17) translocation.
 Approval level: LEVEL_1
@@ -3167,28 +3167,28 @@ Database: OncoKB
 Description: Talazoparib, a small molecule PARP inhibitor, is FDA-approved in combination with enzalutamide for the treatment of select patients with ATM-mutant metastatic castration-resistant prostate cancer (mCRPC). FDA approval was based on the results of the Phase III TALAPRO-2 trial of talazoparib plus enzalutamide in adult patients with asymptomatic or mildly symptomatic mCRPC harboring homologous recombination repair (HRR) gene alterations receiving ongoing androgen deprivation therapy. Of patients with HRR gene mutations (n=399), the radiographic progression-free survival in the talazoparib plus enzalutamide group (n=200) was not evaluable (95% CI=21.9, NE) compared to 13.8 months (95% CI=11.0, 16.7) in the placebo plus enzalutamide group (n=199) (HR=0.45; 95% CI=0.33, 0.61), with a 2-sided p-value of <0.0001 (PMID: 37285865). Patients with ATM mutations (n=72) demonstrated a radiographic progression-free survival of 27.9 months in the talazoparib plus enzalutamide group (n=43) and 27.7 months in the placebo plus enzalutamide group (n=29) (HR=0.90; 95% CI=0.39, 2.04), with a 2-sided p-value of 0.80 (PMID: 37285865). Patients harboring only ATM mutations (n=57) demonstrated a radiographic progression-free survival of not evaluable in the talazoparib plus enzalutamide group (n=35) and 27.7 months in the placebo plus enzalutamide group (n=22) (HR=0.76; 95% CI=0.30, 1.94), with a 2-sided p-value of 0.58 (PMID: 37285865).
 Cancer type: Prostate Cancer, NOS
 Biomarkers: Oncogenic Mutations
-Therapy: Talazoparib,Enzalutamide
+Therapy: Talazoparib, Enzalutamide
 "
 "Approval level: LEVEL_1
 Database: OncoKB
 Description: Talazoparib, a small molecule PARP inhibitor, is FDA-approved in combination with enzalutamide for the treatment of select patients with ATM-mutant metastatic castration-resistant prostate cancer (mCRPC). FDA approval was based on the results of the Phase III TALAPRO-2 trial of talazoparib plus enzalutamide in adult patients with asymptomatic or mildly symptomatic mCRPC harboring homologous recombination repair (HRR) gene alterations receiving ongoing androgen deprivation therapy. Of patients with HRR gene mutations (n=399), the radiographic progression-free survival in the talazoparib plus enzalutamide group (n=200) was not evaluable (95% CI=21.9, NE) compared to 13.8 months (95% CI=11.0, 16.7) in the placebo plus enzalutamide group (n=199) (HR=0.45; 95% CI=0.33, 0.61), with a 2-sided p-value of <0.0001 (PMID: 37285865). Patients with ATM mutations (n=72) demonstrated a radiographic progression-free survival of 27.9 months in the talazoparib plus enzalutamide group (n=43) and 27.7 months in the placebo plus enzalutamide group (n=29) (HR=0.90; 95% CI=0.39, 2.04), with a 2-sided p-value of 0.80 (PMID: 37285865). Patients harboring only ATM mutations (n=57) demonstrated a radiographic progression-free survival of not evaluable in the talazoparib plus enzalutamide group (n=35) and 27.7 months in the placebo plus enzalutamide group (n=22) (HR=0.76; 95% CI=0.30, 1.94), with a 2-sided p-value of 0.58 (PMID: 37285865).
 Cancer type: Prostate Cancer
 Biomarkers: Oncogenic Mutations
-Therapy: Talazoparib,Enzalutamide
+Therapy: Talazoparib, Enzalutamide
 "
 "Approval level: LEVEL_1
 Database: OncoKB
 Description: Talazoparib, a small molecule PARP inhibitor, is FDA-approved in combination with enzalutamide for the treatment of select patients with ATR-mutant metastatic castration-resistant prostate cancer (mCRPC). FDA approval was based on the results of the Phase III TALAPRO-2 trial of talazoparib plus enzalutamide in adult patients with asymptomatic or mildly symptomatic mCRPC harboring homologous recombination repair (HRR) gene alterations receiving ongoing androgen deprivation therapy. Of patients with HRR gene mutations (n=399), the radiographic progression-free survival in the talazoparib plus enzalutamide group (n=200) was not evaluable (95% CI=21.9, NE) compared to 13.8 months (95% CI=11.0, 16.7) in the placebo plus enzalutamide group (n=199) (HR=0.45; 95% CI=0.33, 0.61), with a 2-sided p-value of <0.0001 (PMID: 37285865). Hazard ratios and p-values were not calculated for patients harboring ATR mutations as the number of patients per treatment group was too small for evaluation (PMID: 37285865).
 Cancer type: Prostate Cancer, NOS
 Biomarkers: Oncogenic Mutations
-Therapy: Talazoparib,Enzalutamide
+Therapy: Talazoparib, Enzalutamide
 "
 "Approval level: LEVEL_1
 Database: OncoKB
 Description: Talazoparib, a small molecule PARP inhibitor, is FDA-approved in combination with enzalutamide for the treatment of select patients with ATR-mutant metastatic castration-resistant prostate cancer (mCRPC). FDA approval was based on the results of the Phase III TALAPRO-2 trial of talazoparib plus enzalutamide in adult patients with asymptomatic or mildly symptomatic mCRPC harboring homologous recombination repair (HRR) gene alterations receiving ongoing androgen deprivation therapy. Of patients with HRR gene mutations (n=399), the radiographic progression-free survival in the talazoparib plus enzalutamide group (n=200) was not evaluable (95% CI=21.9, NE) compared to 13.8 months (95% CI=11.0, 16.7) in the placebo plus enzalutamide group (n=199) (HR=0.45; 95% CI=0.33, 0.61), with a 2-sided p-value of <0.0001 (PMID: 37285865). Hazard ratios and p-values were not calculated for patients harboring ATR mutations as the number of patients per treatment group was too small for evaluation (PMID: 37285865).
 Cancer type: Prostate Cancer
 Biomarkers: Oncogenic Mutations
-Therapy: Talazoparib,Enzalutamide
+Therapy: Talazoparib, Enzalutamide
 "
 "Approval level: LEVEL_1
 Database: OncoKB
@@ -3250,7 +3250,7 @@ Database: OncoKB
 Description: Olaparib, a small molecule PARP inhibitor, is FDA-approved with or without bevacizumab for the treatment of patients with advanced ovarian cancer who have deleterious germline BRCA mutations and have been treated with three or more lines of chemotherapy, or as maintenance therapy for patients with recurrent epithelial ovarian, fallopian tube, or primary peritoneal cancer who are having partial or complete responses to platinum-based chemotherapy. This drug is considered standard-of-care for the treatment of patients with somatic BRCA1/2 mutations. Initial FDA approval was based on Phase I and Phase II clinical trials evaluating patients with ovarian cancer harboring known BRCA1 or BRCA2 germline mutations, in which treatment with olaparib demonstrated a clear clinical benefit. Specifically, in a Phase II trial evaluating olaparib in patients with platinum-resistant ovarian cancer and a confirmed germline BRCA1 or BRCA2 mutation (n=193), the tumor response rate was 31% (95% CI=24.6 to 38.1), and stable disease (around 8 weeks) was seen in 40% of patients (95% CI=33.4 to 47.7) (PMID: 25366685). More recent FDA approval was based on a planned retrospective analysis of Phase II trial data in which patients with deleterious BRCA mutations had significantly longer progression-free survival with olaparib maintenance therapy than patients given placebo (11.2 months vs 4.3 months; HR=0.18; p<0·0001)(PMID: 24882434). In the seven-year follow-up of the Phase III SOLO1/GOG-3004 trial of maintenance olaparib versus placebo in patients with newly diagnosed, advanced ovarian cancer harboring a BRCA mutation, the seven-year median overall survival rates were 67% in the olaparib arm and 46.5% in the placebo arm, and the median duration of treatment was 24.6 months with olaparib and 13.9 months with placebo (PMID: 36082969).
 Cancer type: Ovarian Cancer
 Biomarkers: Oncogenic Mutations
-Therapy: Olaparib,Bevacizumab
+Therapy: Olaparib, Bevacizumab
 "
 "Approved indication: Olaparib is FDA-approved as monotherapy in patients with deleterious or suspected deleterious germline BRCA mutated (as detected by an FDA-approved test) advanced ovarian cancer who have been treated with three or more prior lines of chemotherapy
 Approval level: LEVEL_1
@@ -3258,7 +3258,7 @@ Database: OncoKB
 Description: Olaparib, a small molecule PARP inhibitor, is FDA-approved with or without bevacizumab for the treatment of patients with advanced ovarian cancer who have deleterious germline BRCA mutations and have been treated with three or more lines of chemotherapy, or as maintenance therapy for patients with recurrent epithelial ovarian, fallopian tube, or primary peritoneal cancer who are having partial or complete responses to platinum-based chemotherapy. This drug is considered standard-of-care for the treatment of patients with somatic BRCA1/2 mutations. Initial FDA approval was based on Phase I and Phase II clinical trials evaluating patients with ovarian cancer harboring known BRCA1 or BRCA2 germline mutations, in which treatment with olaparib demonstrated a clear clinical benefit. Specifically, in a Phase II trial evaluating olaparib in patients with platinum-resistant ovarian cancer and a confirmed germline BRCA1 or BRCA2 mutation (n=193), the tumor response rate was 31% (95% CI=24.6 to 38.1), and stable disease (around 8 weeks) was seen in 40% of patients (95% CI=33.4 to 47.7) (PMID: 25366685). More recent FDA approval was based on a planned retrospective analysis of Phase II trial data in which patients with deleterious BRCA mutations had significantly longer progression-free survival with olaparib maintenance therapy than patients given placebo (11.2 months vs 4.3 months; HR=0.18; p<0·0001)(PMID: 24882434). In the seven-year follow-up of the Phase III SOLO1/GOG-3004 trial of maintenance olaparib versus placebo in patients with newly diagnosed, advanced ovarian cancer harboring a BRCA mutation, the seven-year median overall survival rates were 67% in the olaparib arm and 46.5% in the placebo arm, and the median duration of treatment was 24.6 months with olaparib and 13.9 months with placebo (PMID: 36082969).
 Cancer type: Ovary/Fallopian Tube
 Biomarkers: Oncogenic Mutations
-Therapy: Olaparib,Bevacizumab
+Therapy: Olaparib, Bevacizumab
 "
 "Approved indication: Olaparib is FDA-approved as monotherapy in patients with deleterious or suspected deleterious germline BRCA mutated (as detected by an FDA-approved test) advanced ovarian cancer who have been treated with three or more prior lines of chemotherapy
 Approval level: LEVEL_1
@@ -3266,7 +3266,7 @@ Database: OncoKB
 Description: Olaparib, a small molecule PARP inhibitor, is FDA-approved with or without bevacizumab for the treatment of patients with advanced ovarian cancer who have deleterious germline BRCA mutations and have been treated with three or more lines of chemotherapy, or as maintenance therapy for patients with recurrent epithelial ovarian, fallopian tube, or primary peritoneal cancer who are having partial or complete responses to platinum-based chemotherapy. This drug is considered standard-of-care for the treatment of patients with somatic BRCA1/2 mutations. Initial FDA approval was based on Phase I and Phase II clinical trials evaluating patients with ovarian cancer harboring known BRCA1 or BRCA2 germline mutations, in which treatment with olaparib demonstrated a clear clinical benefit. Specifically, in a Phase II trial evaluating olaparib in patients with platinum-resistant ovarian cancer and a confirmed germline BRCA1 or BRCA2 mutation (n=193), the tumor response rate was 31% (95% CI=24.6 to 38.1), and stable disease (around 8 weeks) was seen in 40% of patients (95% CI=33.4 to 47.7) (PMID: 25366685). More recent FDA approval was based on a planned retrospective analysis of Phase II trial data in which patients with deleterious BRCA mutations had significantly longer progression-free survival with olaparib maintenance therapy than patients given placebo (11.2 months vs 4.3 months; HR=0.18; p<0·0001)(PMID: 24882434). In the seven-year follow-up of the Phase III SOLO1/GOG-3004 trial of maintenance olaparib versus placebo in patients with newly diagnosed, advanced ovarian cancer harboring a BRCA mutation, the seven-year median overall survival rates were 67% in the olaparib arm and 46.5% in the placebo arm, and the median duration of treatment was 24.6 months with olaparib and 13.9 months with placebo (PMID: 36082969).
 Cancer type: Peritoneal Serous Carcinoma
 Biomarkers: Oncogenic Mutations
-Therapy: Olaparib,Bevacizumab
+Therapy: Olaparib, Bevacizumab
 "
 "Approval level: LEVEL_1
 Database: OncoKB
@@ -3289,14 +3289,14 @@ Database: OncoKB
 Description: Olaparib, a small molecule PARP inhibitor, is FDA-approved in combination with abiraterone and prednisone/prednisolone for the treatment of patients with deleterious or suspected deleterious BRCA-mutated metastatic castration-resistant prostate cancer (mCRPC). FDA approval was based on the results of the Phase III PROpel trial of olaparib plus abiraterone and prednisone/prednisolone in adult patients with mCRPC undergoing first-line treatment after failure of primary androgen deprivation therapy. Of patients with BRCA1/2 mutations (n=85), the radiological progression-free survival in the olaparib plus abiraterone and prednisone/prednisolone group (n=47) was not reached (95% CI=NR, NR) compared to eight months (95% CI=6, 15) in the placebo plus abiraterone and prednisone/prednisolone group (n=38) (HR=0.24; 95% CI=0.12, 0.45), with a median overall survival of not reached (95% CI=NR, NR) versus 23 months (95% CI=18, 34) months (HR=0.30; 95% CI=0.15 0.59), respectively (Abstract: Clarke et al. Abstract# LBA16, ASCO GUCS 2023. https://ascopubs.org/doi/abs/10.1200/JCO.2023.41.6_suppl.LBA16).
 Cancer type: Prostate Cancer, NOS
 Biomarkers: Oncogenic Mutations
-Therapy: Olaparib,Abiraterone,Prednisone
+Therapy: Olaparib, Abiraterone, Prednisone
 "
 "Approval level: LEVEL_1
 Database: OncoKB
 Description: Olaparib, a small molecule PARP inhibitor, is FDA-approved in combination with abiraterone and prednisone/prednisolone for the treatment of patients with deleterious or suspected deleterious BRCA-mutated metastatic castration-resistant prostate cancer (mCRPC). FDA approval was based on the results of the Phase III PROpel trial of olaparib plus abiraterone and prednisone/prednisolone in adult patients with mCRPC undergoing first-line treatment after failure of primary androgen deprivation therapy. Of patients with BRCA1/2 mutations (n=85), the radiological progression-free survival in the olaparib plus abiraterone and prednisone/prednisolone group (n=47) was not reached (95% CI=NR, NR) compared to eight months (95% CI=6, 15) in the placebo plus abiraterone and prednisone/prednisolone group (n=38) (HR=0.24; 95% CI=0.12, 0.45), with a median overall survival of not reached (95% CI=NR, NR) versus 23 months (95% CI=18, 34) months (HR=0.30; 95% CI=0.15 0.59), respectively (Abstract: Clarke et al. Abstract# LBA16, ASCO GUCS 2023. https://ascopubs.org/doi/abs/10.1200/JCO.2023.41.6_suppl.LBA16).
 Cancer type: Prostate Cancer
 Biomarkers: Oncogenic Mutations
-Therapy: Olaparib,Abiraterone,Prednisone
+Therapy: Olaparib, Abiraterone, Prednisone
 "
 "Approval level: LEVEL_1
 Database: OncoKB
@@ -3349,7 +3349,7 @@ Description: Talazoparib is an orally available, small-molecule PARP inhibitor t
 In the Phase III TALAPRO-2 (NCT03395197) trial, the talazoparib plus enzalutamide cohort (n=200) demonstrated a radiographic progression-free survival (rPFS) that was not evaluable (95% CI=21.9-NE) versus 13.8 months (95% CI=11.0-16.7) in the placebo plus enzalutamide cohort (n=199) (HR=0.45 [95% CI=0.33-0.61]; p<0.0001) (PMID: 37285865). Of patients with BRCA1/2 mutations (n=155), the talazoparib plus enzalutamide cohort (n=71) demonstrated a rPFS that was not evaluable (95% CI=NE-NE) versus 11.0 months (95% CI=16.4-NE) in the placebo plus enzalutamide group (n=84) (HR=0.20 [95% CI=0.11-0.36]) (PMID: 37285865). Of patients harboring only BRCA1 mutations (n=17), the talazoparib plus enzalutamide cohort (n=8) demonstrated an rPFS of 20.0 months versus 11.7 months in the placebo plus enzalutamide cohort (n=9) (HR=0.17 [95% CI=0.02-1.51]; p=0.074) (PMID: 37285865).
 Cancer type: Prostate Cancer, NOS
 Biomarkers: Oncogenic Mutations
-Therapy: Talazoparib,Enzalutamide
+Therapy: Talazoparib, Enzalutamide
 "
 "Approval level: LEVEL_1
 Database: OncoKB
@@ -3357,7 +3357,7 @@ Description: Talazoparib is an orally available, small-molecule PARP inhibitor t
 In the Phase III TALAPRO-2 (NCT03395197) trial, the talazoparib plus enzalutamide cohort (n=200) demonstrated a radiographic progression-free survival (rPFS) that was not evaluable (95% CI=21.9-NE) versus 13.8 months (95% CI=11.0-16.7) in the placebo plus enzalutamide cohort (n=199) (HR=0.45 [95% CI=0.33-0.61]; p<0.0001) (PMID: 37285865). Of patients with BRCA1/2 mutations (n=155), the talazoparib plus enzalutamide cohort (n=71) demonstrated a rPFS that was not evaluable (95% CI=NE-NE) versus 11.0 months (95% CI=16.4-NE) in the placebo plus enzalutamide group (n=84) (HR=0.20 [95% CI=0.11-0.36]) (PMID: 37285865). Of patients harboring only BRCA1 mutations (n=17), the talazoparib plus enzalutamide cohort (n=8) demonstrated an rPFS of 20.0 months versus 11.7 months in the placebo plus enzalutamide cohort (n=9) (HR=0.17 [95% CI=0.02-1.51]; p=0.074) (PMID: 37285865).
 Cancer type: Prostate Cancer
 Biomarkers: Oncogenic Mutations
-Therapy: Talazoparib,Enzalutamide
+Therapy: Talazoparib, Enzalutamide
 "
 "Approval level: LEVEL_1
 Database: OncoKB
@@ -3365,7 +3365,7 @@ Description: Niraparib, a small molecule PARP inhibitor, and abiraterone acetate
 In the Phase III MAGNITUDE (NCT03748641) trial for patients with BRCA1/2 mutations, the niraparib and abiraterone acetate plus prednisone cohort (n=113) demonstrated a median radiographic progression-free survival (rPFS) of 16.6 months (95% CI=13-NE) versus 10.9 months (95% CI = 8.3, 13.8) in the placebo and abiraterone acetate plus prednisone cohort (n=112) (HR=0.53 [95% CI=0.36-0.79]; p<0.0014) (PMID: 36952634). In an exploratory overall survival (OS) analysis of the BRCA1/2 mutant subgroups, the niraparib cohort demonstrated a median OS of 30.4 months (95% CI=27.6-NE) versus 28.6 months (95% CI=23.8-33.0) (HR=0.79 (95% CI=0.55-1.12) (PMID: 36952634).
 Cancer type: Prostate Cancer, NOS
 Biomarkers: Oncogenic Mutations
-Therapy: Niraparib,Abiraterone Acetate,Prednisone
+Therapy: Niraparib, Abiraterone Acetate, Prednisone
 "
 "Approval level: LEVEL_1
 Database: OncoKB
@@ -3373,7 +3373,7 @@ Description: Niraparib, a small molecule PARP inhibitor, and abiraterone acetate
 In the Phase III MAGNITUDE (NCT03748641) trial for patients with BRCA1/2 mutations, the niraparib and abiraterone acetate plus prednisone cohort (n=113) demonstrated a median radiographic progression-free survival (rPFS) of 16.6 months (95% CI=13-NE) versus 10.9 months (95% CI = 8.3, 13.8) in the placebo and abiraterone acetate plus prednisone cohort (n=112) (HR=0.53 [95% CI=0.36-0.79]; p<0.0014) (PMID: 36952634). In an exploratory overall survival (OS) analysis of the BRCA1/2 mutant subgroups, the niraparib cohort demonstrated a median OS of 30.4 months (95% CI=27.6-NE) versus 28.6 months (95% CI=23.8-33.0) (HR=0.79 (95% CI=0.55-1.12) (PMID: 36952634).
 Cancer type: Prostate Cancer
 Biomarkers: Oncogenic Mutations
-Therapy: Niraparib,Abiraterone Acetate,Prednisone
+Therapy: Niraparib, Abiraterone Acetate, Prednisone
 "
 "Approved indication: Olaparib is FDA-approved as monotherapy in patients with deleterious or suspected deleterious germline BRCA mutated (as detected by an FDA-approved test) advanced ovarian cancer who have been treated with three or more prior lines of chemotherapy
 Approval level: LEVEL_1
@@ -3421,7 +3421,7 @@ Database: OncoKB
 Description: Olaparib, a small molecule PARP inhibitor, is FDA-approved with or without bevacizumab for the treatment of patients with advanced ovarian cancer who have deleterious germline BRCA mutations and have been treated with three or more lines of chemotherapy or as maintenance therapy for patients with recurrent epithelial ovarian, fallopian tube, or primary peritoneal cancer who are having partial or complete responses to platinum-based chemotherapy. This drug is considered standard-of-care for the treatment of patients with somatic BRCA1/2 mutations. Initial FDA approval was based on Phase I and Phase II clinical trials evaluating patients with ovarian cancer harboring known BRCA1 or BRCA2 germline mutations, in which treatment with olaparib demonstrated a clear clinical benefit. Specifically, in a Phase II trial evaluating olaparib in patients with platinum-resistant ovarian cancer and a confirmed germline BRCA1 or BRCA2 mutation (n=193), tumor response rate was 31% (95% CI=24.6 to 38.1), and stable disease (at 8 weeks) was seen in 40% of patients (95% CI=33.4 to 47.7) (PMID: 25366685). More recent FDA approval was based on a planned retrospective analysis of Phase II trial data in which patients with deleterious BRCA mutations had significantly longer progression-free survival with olaparib maintenance therapy than patients given placebo (11.2 months vs 4.3 months; HR=0.18; p=0·0001)(PMID: 24882434). The use of maintenance olaparib versus placebo increased progression-free survival, with a 70% lower risk of disease progression or death with olaparib (PMID: 30285518, 30345884)(Abstract: Penson et al. Abstract# 5506, ASCO 2019. https://meetinglibrary.asco.org/record/173435/abstract).
 Cancer type: Ovarian Cancer
 Biomarkers: Oncogenic Mutations
-Therapy: Olaparib,Bevacizumab
+Therapy: Olaparib, Bevacizumab
 "
 "Approved indication: Olaparib is FDA-approved as monotherapy in patients with deleterious or suspected deleterious germline BRCA mutated (as detected by an FDA-approved test) advanced ovarian cancer who have been treated with three or more prior lines of chemotherapy
 Approval level: LEVEL_1
@@ -3429,7 +3429,7 @@ Database: OncoKB
 Description: Olaparib, a small molecule PARP inhibitor, is FDA-approved with or without bevacizumab for the treatment of patients with advanced ovarian cancer who have deleterious germline BRCA mutations and have been treated with three or more lines of chemotherapy or as maintenance therapy for patients with recurrent epithelial ovarian, fallopian tube, or primary peritoneal cancer who are having partial or complete responses to platinum-based chemotherapy. This drug is considered standard-of-care for the treatment of patients with somatic BRCA1/2 mutations. Initial FDA approval was based on Phase I and Phase II clinical trials evaluating patients with ovarian cancer harboring known BRCA1 or BRCA2 germline mutations, in which treatment with olaparib demonstrated a clear clinical benefit. Specifically, in a Phase II trial evaluating olaparib in patients with platinum-resistant ovarian cancer and a confirmed germline BRCA1 or BRCA2 mutation (n=193), tumor response rate was 31% (95% CI=24.6 to 38.1), and stable disease (at 8 weeks) was seen in 40% of patients (95% CI=33.4 to 47.7) (PMID: 25366685). More recent FDA approval was based on a planned retrospective analysis of Phase II trial data in which patients with deleterious BRCA mutations had significantly longer progression-free survival with olaparib maintenance therapy than patients given placebo (11.2 months vs 4.3 months; HR=0.18; p=0·0001)(PMID: 24882434). The use of maintenance olaparib versus placebo increased progression-free survival, with a 70% lower risk of disease progression or death with olaparib (PMID: 30285518, 30345884)(Abstract: Penson et al. Abstract# 5506, ASCO 2019. https://meetinglibrary.asco.org/record/173435/abstract).
 Cancer type: Ovary/Fallopian Tube
 Biomarkers: Oncogenic Mutations
-Therapy: Olaparib,Bevacizumab
+Therapy: Olaparib, Bevacizumab
 "
 "Approved indication: Olaparib is FDA-approved as monotherapy in patients with deleterious or suspected deleterious germline BRCA mutated (as detected by an FDA-approved test) advanced ovarian cancer who have been treated with three or more prior lines of chemotherapy
 Approval level: LEVEL_1
@@ -3437,7 +3437,7 @@ Database: OncoKB
 Description: Olaparib, a small molecule PARP inhibitor, is FDA-approved with or without bevacizumab for the treatment of patients with advanced ovarian cancer who have deleterious germline BRCA mutations and have been treated with three or more lines of chemotherapy or as maintenance therapy for patients with recurrent epithelial ovarian, fallopian tube, or primary peritoneal cancer who are having partial or complete responses to platinum-based chemotherapy. This drug is considered standard-of-care for the treatment of patients with somatic BRCA1/2 mutations. Initial FDA approval was based on Phase I and Phase II clinical trials evaluating patients with ovarian cancer harboring known BRCA1 or BRCA2 germline mutations, in which treatment with olaparib demonstrated a clear clinical benefit. Specifically, in a Phase II trial evaluating olaparib in patients with platinum-resistant ovarian cancer and a confirmed germline BRCA1 or BRCA2 mutation (n=193), tumor response rate was 31% (95% CI=24.6 to 38.1), and stable disease (at 8 weeks) was seen in 40% of patients (95% CI=33.4 to 47.7) (PMID: 25366685). More recent FDA approval was based on a planned retrospective analysis of Phase II trial data in which patients with deleterious BRCA mutations had significantly longer progression-free survival with olaparib maintenance therapy than patients given placebo (11.2 months vs 4.3 months; HR=0.18; p=0·0001)(PMID: 24882434). The use of maintenance olaparib versus placebo increased progression-free survival, with a 70% lower risk of disease progression or death with olaparib (PMID: 30285518, 30345884)(Abstract: Penson et al. Abstract# 5506, ASCO 2019. https://meetinglibrary.asco.org/record/173435/abstract).
 Cancer type: Peritoneal Serous Carcinoma
 Biomarkers: Oncogenic Mutations
-Therapy: Olaparib,Bevacizumab
+Therapy: Olaparib, Bevacizumab
 "
 "Approval level: LEVEL_1
 Database: OncoKB
@@ -3461,7 +3461,7 @@ Description: Olaparib is an orally available, small-molecule PARP inhibitor that
 In the Phase III PROpel (NCT03732820) trial, patients with BRCAm mCRPC in the olaparib plus abiraterone and prednisone/prednisolone cohort (n=47) did not reach a median radiological progression-free survival (rPFS) (95% CI=NR-NR) and demonstrated a median overall survival (OS) of 42.1 months (95% CI=38.4-NR) (PMID: 37714168). Patients with BRCAm mCRPC in the placebo plus abiraterone and prednisone/prednisolone cohort (n=38) demonstrated a median rPFS of 8 months (95% CI=6-15) (HR=0.24 [95% CI=0.12-0.45]) and a median OS of 34.7 months (95% CI=31.0-39.3)(HR=0.81 [95% CI=0.67-1.00]; p=0.054) (PMID: 37714168).
 Cancer type: Prostate Cancer, NOS
 Biomarkers: Oncogenic Mutations
-Therapy: Olaparib,Abiraterone,Prednisone
+Therapy: Olaparib, Abiraterone, Prednisone
 "
 "Approval level: LEVEL_1
 Database: OncoKB
@@ -3469,7 +3469,7 @@ Description: Olaparib is an orally available, small-molecule PARP inhibitor that
 In the Phase III PROpel (NCT03732820) trial, patients with BRCAm mCRPC in the olaparib plus abiraterone and prednisone/prednisolone cohort (n=47) did not reach a median radiological progression-free survival (rPFS) (95% CI=NR-NR) and demonstrated a median overall survival (OS) of 42.1 months (95% CI=38.4-NR) (PMID: 37714168). Patients with BRCAm mCRPC in the placebo plus abiraterone and prednisone/prednisolone cohort (n=38) demonstrated a median rPFS of 8 months (95% CI=6-15) (HR=0.24 [95% CI=0.12-0.45]) and a median OS of 34.7 months (95% CI=31.0-39.3)(HR=0.81 [95% CI=0.67-1.00]; p=0.054) (PMID: 37714168).
 Cancer type: Prostate Cancer
 Biomarkers: Oncogenic Mutations
-Therapy: Olaparib,Abiraterone,Prednisone
+Therapy: Olaparib, Abiraterone, Prednisone
 "
 "Approval level: LEVEL_1
 Database: OncoKB
@@ -3501,7 +3501,7 @@ Description: Talazoparib is an orally available, small molecule PARP inhibitor t
 In the Phase III TALAPRO-2 (NCT03395197) trial, the talazoparib plus enzalutamide cohort (n=200) demonstrated a radiographic progression-free survival (rPFS) that was not evaluable (95% CI=21.9-NE) versus 13.8 months (95% CI=11.0-16.7) in the placebo plus enzalutamide cohort (n=199) (HR=0.45 [95% CI=0.33-0.61]; p<0.0001) (PMID: 37285865). Of patients with BRCA1/2 mutations (n=155), the talazoparib plus enzalutamide cohort (n=71) demonstrated a rPFS that was not evaluable (95% CI=NE-NE) versus 11.0 months (95% CI=16.4-NE) in the placebo plus enzalutamide group (n=84) (HR=0.20 [95% CI=0.11-0.36]) (PMID: 37285865). Of patients harboring only BRCA2 mutations (n=115), the talazoparib plus enzalutamide cohort (n=71) demonstrated a rPFS that was not evaluable (95% CI=NE-NE) versus 11.0 months in the placebo plus enzalutamide cohort (n=60) (HR=0.19 [95% CI=0.10, 0.38]; p<0.0001) (PMID: 37285865).
 Cancer type: Prostate Cancer, NOS
 Biomarkers: Oncogenic Mutations
-Therapy: Talazoparib,Enzalutamide
+Therapy: Talazoparib, Enzalutamide
 "
 "Approval level: LEVEL_1
 Database: OncoKB
@@ -3509,7 +3509,7 @@ Description: Talazoparib is an orally available, small molecule PARP inhibitor t
 In the Phase III TALAPRO-2 (NCT03395197) trial, the talazoparib plus enzalutamide cohort (n=200) demonstrated a radiographic progression-free survival (rPFS) that was not evaluable (95% CI=21.9-NE) versus 13.8 months (95% CI=11.0-16.7) in the placebo plus enzalutamide cohort (n=199) (HR=0.45 [95% CI=0.33-0.61]; p<0.0001) (PMID: 37285865). Of patients with BRCA1/2 mutations (n=155), the talazoparib plus enzalutamide cohort (n=71) demonstrated a rPFS that was not evaluable (95% CI=NE-NE) versus 11.0 months (95% CI=16.4-NE) in the placebo plus enzalutamide group (n=84) (HR=0.20 [95% CI=0.11-0.36]) (PMID: 37285865). Of patients harboring only BRCA2 mutations (n=115), the talazoparib plus enzalutamide cohort (n=71) demonstrated a rPFS that was not evaluable (95% CI=NE-NE) versus 11.0 months in the placebo plus enzalutamide cohort (n=60) (HR=0.19 [95% CI=0.10, 0.38]; p<0.0001) (PMID: 37285865).
 Cancer type: Prostate Cancer
 Biomarkers: Oncogenic Mutations
-Therapy: Talazoparib,Enzalutamide
+Therapy: Talazoparib, Enzalutamide
 "
 "Approval level: LEVEL_1
 Database: OncoKB
@@ -3517,7 +3517,7 @@ Description: Niraparib, a small molecule PARP inhibitor, and abiraterone acetate
 In the Phase III MAGNITUDE (NCT03748641) trial for patients with BRCA1/2 mutations, the niraparib and abiraterone acetate plus prednisone cohort (n=113) demonstrated a median radiographic progression-free survival (rPFS) of 16.6 months (95% CI=13-NE) versus 10.9 months (95% CI = 8.3, 13.8) in the placebo and abiraterone acetate plus prednisone cohort (n=112) (HR=0.53 [95% CI=0.36-0.79]; p<0.0014) (PMID: 36952634). In an exploratory overall survival (OS) analysis of the BRCA1/2 mutant subgroups, the niraparib cohort demonstrated a median OS of 30.4 months (95% CI=27.6-NE) versus 28.6 months (95% CI=23.8-33.0) (HR=0.79 (95% CI=0.55-1.12) (PMID: 36952634).
 Cancer type: Prostate Cancer, NOS
 Biomarkers: Oncogenic Mutations
-Therapy: Niraparib,Abiraterone Acetate,Prednisone
+Therapy: Niraparib, Abiraterone Acetate, Prednisone
 "
 "Approval level: LEVEL_1
 Database: OncoKB
@@ -3525,7 +3525,7 @@ Description: Niraparib, a small molecule PARP inhibitor, and abiraterone acetate
 In the Phase III MAGNITUDE (NCT03748641) trial for patients with BRCA1/2 mutations, the niraparib and abiraterone acetate plus prednisone cohort (n=113) demonstrated a median radiographic progression-free survival (rPFS) of 16.6 months (95% CI=13-NE) versus 10.9 months (95% CI = 8.3, 13.8) in the placebo and abiraterone acetate plus prednisone cohort (n=112) (HR=0.53 [95% CI=0.36-0.79]; p<0.0014) (PMID: 36952634). In an exploratory overall survival (OS) analysis of the BRCA1/2 mutant subgroups, the niraparib cohort demonstrated a median OS of 30.4 months (95% CI=27.6-NE) versus 28.6 months (95% CI=23.8-33.0) (HR=0.79 (95% CI=0.55-1.12) (PMID: 36952634).
 Cancer type: Prostate Cancer
 Biomarkers: Oncogenic Mutations
-Therapy: Niraparib,Abiraterone Acetate,Prednisone
+Therapy: Niraparib, Abiraterone Acetate, Prednisone
 "
 "Approval level: LEVEL_1
 Database: OncoKB
@@ -3560,14 +3560,14 @@ Database: OncoKB
 Description: Talazoparib, a small molecule PARP inhibitor, is FDA-approved in combination with enzalutamide for the treatment of select patients with CDK12-mutant metastatic castration-resistant prostate cancer (mCRPC). FDA approval was based on the results of the Phase III TALAPRO-2 trial of talazoparib plus enzalutamide in adult patients with asymptomatic or mildly symptomatic mCRPC harboring homologous recombination repair (HRR) gene alterations receiving ongoing androgen deprivation therapy. Of patients with HRR gene mutations (n=399), the radiographic progression-free survival in the talazoparib plus enzalutamide group (n=200) was not evaluable (95% CI=21.9, NE) compared to 13.8 months (95% CI=11.0, 16.7) in the placebo plus enzalutamide group (n=199) (HR=0.45; 95% CI=0.33, 0.61), with a 2-sided p-value of <0.0001 (PMID: 37285865). Patients with CDK12 mutations (n=71) demonstrated a radiographic progression-free survival of 21.9 months in the talazoparib plus enzalutamide group (n=35) and 13.8 months in the placebo plus enzalutamide group (n=36) (HR=0.38; 95% CI=0.19, 0.76), with a 2-sided p-value of 0.0045 (PMID: 37285865). Patients harboring only CDK12 mutations (n=58) demonstrated a radiographic progression-free survival of 21.9 months in the talazoparib plus enzalutamide group (n=28) and 13.8 months in the placebo plus enzalutamide group (n=30) (HR=0.49; 95% CI=0.23, 1.02), with a 2-sided p-value of 0.055 (PMID: 37285865).
 Cancer type: Prostate Cancer, NOS
 Biomarkers: Oncogenic Mutations
-Therapy: Talazoparib,Enzalutamide
+Therapy: Talazoparib, Enzalutamide
 "
 "Approval level: LEVEL_1
 Database: OncoKB
 Description: Talazoparib, a small molecule PARP inhibitor, is FDA-approved in combination with enzalutamide for the treatment of select patients with CDK12-mutant metastatic castration-resistant prostate cancer (mCRPC). FDA approval was based on the results of the Phase III TALAPRO-2 trial of talazoparib plus enzalutamide in adult patients with asymptomatic or mildly symptomatic mCRPC harboring homologous recombination repair (HRR) gene alterations receiving ongoing androgen deprivation therapy. Of patients with HRR gene mutations (n=399), the radiographic progression-free survival in the talazoparib plus enzalutamide group (n=200) was not evaluable (95% CI=21.9, NE) compared to 13.8 months (95% CI=11.0, 16.7) in the placebo plus enzalutamide group (n=199) (HR=0.45; 95% CI=0.33, 0.61), with a 2-sided p-value of <0.0001 (PMID: 37285865). Patients with CDK12 mutations (n=71) demonstrated a radiographic progression-free survival of 21.9 months in the talazoparib plus enzalutamide group (n=35) and 13.8 months in the placebo plus enzalutamide group (n=36) (HR=0.38; 95% CI=0.19, 0.76), with a 2-sided p-value of 0.0045 (PMID: 37285865). Patients harboring only CDK12 mutations (n=58) demonstrated a radiographic progression-free survival of 21.9 months in the talazoparib plus enzalutamide group (n=28) and 13.8 months in the placebo plus enzalutamide group (n=30) (HR=0.49; 95% CI=0.23, 1.02), with a 2-sided p-value of 0.055 (PMID: 37285865).
 Cancer type: Prostate Cancer
 Biomarkers: Oncogenic Mutations
-Therapy: Talazoparib,Enzalutamide
+Therapy: Talazoparib, Enzalutamide
 "
 "Approval level: LEVEL_1
 Database: OncoKB
@@ -3602,14 +3602,14 @@ Database: OncoKB
 Description: Talazoparib, a small molecule PARP inhibitor, is FDA-approved in combination with enzalutamide for the treatment of select patients with CHEK2-mutant metastatic castration-resistant prostate cancer (mCRPC). FDA approval was based on the results of the Phase III TALAPRO-2 trial of talazoparib plus enzalutamide in adult patients with asymptomatic or mildly symptomatic mCRPC harboring homologous recombination repair (HRR) gene alterations receiving ongoing androgen deprivation therapy. Of patients with HRR gene mutations (n=399), the radiographic progression-free survival in the talazoparib plus enzalutamide group (n=200) was not evaluable (95% CI=21.9, NE) compared to 13.8 months (95% CI=11.0, 16.7) in the placebo plus enzalutamide group (n=199) (HR=0.45; 95% CI=0.33, 0.61), with a 2-sided p-value of <0.0001 (PMID: 37285865). Patients harboring only CHEK2 mutations (n=48) demonstrated a radiographic progression-free survival of 22.1 months in the talazoparib plus enzalutamide group (n=24) and not evaluable in the placebo plus enzalutamide group (n=24) (HR=0.90; 95% CI=0.34, 2.39), with a 2-sided p-value of 0.83 (PMID: 37285865).
 Cancer type: Prostate Cancer, NOS
 Biomarkers: Oncogenic Mutations
-Therapy: Talazoparib,Enzalutamide
+Therapy: Talazoparib, Enzalutamide
 "
 "Approval level: LEVEL_1
 Database: OncoKB
 Description: Talazoparib, a small molecule PARP inhibitor, is FDA-approved in combination with enzalutamide for the treatment of select patients with CHEK2-mutant metastatic castration-resistant prostate cancer (mCRPC). FDA approval was based on the results of the Phase III TALAPRO-2 trial of talazoparib plus enzalutamide in adult patients with asymptomatic or mildly symptomatic mCRPC harboring homologous recombination repair (HRR) gene alterations receiving ongoing androgen deprivation therapy. Of patients with HRR gene mutations (n=399), the radiographic progression-free survival in the talazoparib plus enzalutamide group (n=200) was not evaluable (95% CI=21.9, NE) compared to 13.8 months (95% CI=11.0, 16.7) in the placebo plus enzalutamide group (n=199) (HR=0.45; 95% CI=0.33, 0.61), with a 2-sided p-value of <0.0001 (PMID: 37285865). Patients harboring only CHEK2 mutations (n=48) demonstrated a radiographic progression-free survival of 22.1 months in the talazoparib plus enzalutamide group (n=24) and not evaluable in the placebo plus enzalutamide group (n=24) (HR=0.90; 95% CI=0.34, 2.39), with a 2-sided p-value of 0.83 (PMID: 37285865).
 Cancer type: Prostate Cancer
 Biomarkers: Oncogenic Mutations
-Therapy: Talazoparib,Enzalutamide
+Therapy: Talazoparib, Enzalutamide
 "
 "Approved indication: Trastuzumab is FDA-approved for (1) Adjuvant treatment of ERBB2-overexpressing, node positive or node negative (ER/PR negative or with one high risk feature) breast cancer, either as: (a) monotherapy following anthracycline therapy (b) in combination with docetaxel and carboplatin or (c) as a part of the doxorubicin, cyclophosphamide regimen with either paclitaxel or docetaxel. (2) ERBB2-overexpressing metastatic breast cancer, administered in combination with paclitaxel as first-line metastatic treatment or as monotherapy in patients whose metastatic disease was previously treated with at least one chemotherapy regimen.
 Approval level: LEVEL_1
@@ -3625,7 +3625,7 @@ Database: OncoKB
 Description: Trastuzumab, a humanized, recombinant monoclonal antibody that targets the HER2 receptor, is FDA-approved in combination with cisplatin and a fluoropyrimidine for the treatment of patients with HER2-overexpressing metastatic gastric or gastroesophageal (GE) junction adenocarcinoma who have not been treated previously for metastatic disease. FDA approval is based on results from the randomized, Phase III ToGA trial in which 584 patients with advanced gastric or GE cancer that was positive for HER2 overexpression received chemotherapy (cisplatin with either capecitabine or 5-fluorouracil; n=290) with or without trastuzumab (n=294) (PMID: 20728210). The inclusion of trastuzumab improved median overall survival (13.8 months vs. 11.1 months; HR=0.74; p=0.0046) compared to chemotherapy alone (PMID: 20728210).
 Cancer type: Esophagogastric Adenocarcinoma
 Biomarkers: Amplification
-Therapy: Trastuzumab,Chemotherapy
+Therapy: Trastuzumab, Chemotherapy
 "
 "Approval level: LEVEL_1
 Database: OncoKB
@@ -3640,7 +3640,7 @@ Database: OncoKB
 Description: Trastuzumab, a humanized, recombinant monoclonal antibody that targets the HER2 receptor, is FDA approved for the adjuvant treatment of HER2-overexpressing breast cancer. FDA approval was based on two Phase III trials (NSABP B31 and NCCTG N9831) of trastuzumab in 3,752 patients with HER2-overexpressing breast cancer in which disease-free survival at four years was 85.3% in the trastuzumab group versus 67.1% in the control group, and overall survival at four years was 91.4% in the trastuzumab group versus 86.6% in the control group (HR=0.48, 95% CI= 0.39-0.59)(PMID: 16236738).
 Cancer type: Breast Cancer
 Biomarkers: Amplification
-Therapy: Trastuzumab,Chemotherapy
+Therapy: Trastuzumab, Chemotherapy
 "
 "Approved indication: Ado-Trastuzumab Emtansine is FDA-approved as single agent treatment of ERBB2-positive, metastatic breast cancer in patients who previously received trastuzumab and a taxane, separately or in combination, and have either received prior therapy for metastatic disease or developed disease recurrence during or within six months of completing adjuvant therapy.
 Approval level: LEVEL_1
@@ -3658,7 +3658,7 @@ In the 38-month interim analysis for the Phase III KEYNOTE-811 (NCT03615326) tri
 In the final analysis of the Phase III KEYNOTE-811 (NCT03615326) trial of patients with PD-L1 (CPS ≥1) status, the pembrolizumab cohort (n=298) demonstrated a median PFS of 10.9 months and a median OS of 20.1 months (Abstract: Janjigian et al. Abstract# 1400O, ESMO 2024. https://www.annalsofoncology.org/article/S0923-7534(24)02985-5/fulltext). The placebo cohort (n=296) demonstrated a median PFS of 7.3 months (HR=0.72 [95% CI=0.60-0.87]) and a median OS of 15.7 months (HR=0.79 [95% CI=0.66-0.95]) (Abstract: Janjigian et al. Abstract# 1400O, ESMO 2024. https://www.annalsofoncology.org/article/S0923-7534(24)02985-5/fulltext).
 Cancer type: Esophagogastric Adenocarcinoma
 Biomarkers: Amplification
-Therapy: Pembrolizumab,Trastuzumab,Chemotherapy
+Therapy: Pembrolizumab, Trastuzumab, Chemotherapy
 "
 "Approved indication: Lapatinib is FDA-approved (1) in combination with capecitabine for advanced or metastatic ERBB2-overexpressing breast cancer in patients who have received prior therapy including an anthracycline, a taxane and trastuzumab, (2) as a combination therapy with letrozole for postmenopausal women with hormone receptor positive, metastatic breast cancer that overexpressed the HER2 receptor and for whom hormonal therapy is approved.
 Approval level: LEVEL_1
@@ -3666,14 +3666,14 @@ Database: OncoKB
 Description: Lapatinib is an oral, ATP-competitive, reversible tyrosine kinase inhibitor that targets both EGFR and ERBB2 and is FDA-approved in combination with capecitabine for patients with advanced or metastatic ERBB2-overexpressing breast cancer who had received prior therapy with an anthracycline, a taxane or trastuzumab. FDA approval was based on results from a randomized, Phase III trial in which eligible patients treated with lapatinib and capecitabine had a shorter time-to-progression (TTP) (8.4 months vs. 4.4; hazard ratio, 0.47; p<0.001) compared to patients that received capecitabine alone (PMID: 17192538). Lapatinib is also FDA-approved in combination with letrozole for the treatment of metastatic, postmenopausal breast cancer that is both ERBB2-positive and hormone receptor-positive. FDA approval in this context was based on evidence from the EGF30008 trial in which eligible patients treated with lapatinib plus letrozole showed a significantly improved progression-free survival (PFS) (median PFS, 8.2 vs. 3.0 months) compared to patients treated with letrozole plus placebo (PMID: 19786658). Treatment with lapatinib also significantly improved clinical benefit rates (CBR) (48% with letrozole-lapatinib vs. 29% with letrozole alone) and was associated with a trend toward improvement in overall survival (OS) (PMID: 19786658).
 Cancer type: Breast Cancer
 Biomarkers: Amplification
-Therapy: Lapatinib,Capecitabine
+Therapy: Lapatinib, Capecitabine
 "
 "Approval level: LEVEL_1
 Database: OncoKB
 Description: Tucatinib, a small molecular inhibitor of HER2, and trastuzumab, a HER2-targeted antibody, are FDA-approved in combination for the treatment of patients with HER2 amplified metastatic colorectal cancer whose tumors are also RAS and BRAF wildtype. In the open-label MOUNTAINEER Phase II trial of tucatinib and trastuzumab, 84 metastatic colorectal cancer patients with RAS wildtype, HER2 amplification received combination treatment and 30 patients received tucatinib monotherapy (PMID: 37142372). In the combination therapy cohort, the objective response rate was 38.1% (95% CI, 27.7%-49.3%), with three patients (4%) reported to have a complete response and 29 patients (35%) reported to have a partial response. The median duration of response was 12.4 months (95% CI, 8.3-25.5), the median progression-free survival was 8.2 months (95% CI, 4.2-10.3), and the median overall survival was 24.1 months (95% CI, 20.3-36.7) (PMID: 37142372). In the tucatinib monotherapy cohort the objective response rate was 3.3% (95% CI, 0.1%-17.2%), with one patient reported to have a partial response. Twenty-eight of the 30 patients (93%) in the tucatinib monotherapy cohort crossed over to receive combination tucatinib and trastuzumab therapy and achieved an objective response rate of 17.9% (95% CI, 6.1-36.9%) with a median overall survival of 21.1 months (95% CI 18.6–not estimable) (PMID: 37142372).
 Cancer type: Colorectal Cancer
 Biomarkers: Amplification
-Therapy: Tucatinib,Trastuzumab
+Therapy: Tucatinib, Trastuzumab
 "
 "Approved indication: Lapatinib is FDA-approved (1) in combination with capecitabine for advanced or metastatic ERBB2-overexpressing breast cancer in patients who have received prior therapy including an anthracycline, a taxane and trastuzumab, (2) as a combination therapy with letrozole for postmenopausal women with hormone receptor positive, metastatic breast cancer that overexpressed the HER2 receptor and for whom hormonal therapy is approved.
 Approval level: LEVEL_1
@@ -3681,7 +3681,7 @@ Database: OncoKB
 Description: Lapatinib is an oral, ATP-competitive, reversible tyrosine kinase inhibitor that targets both EGFR and ERBB2 and is FDA-approved in combination with capecitabine for patients with advanced or metastatic ERBB2-overexpressing breast cancer who had received prior therapy with an anthracycline, a taxane or trastuzumab. FDA approval was based on results from a randomized, Phase III trial in which eligible patients treated with lapatinib and capecitabine had a shorter time-to-progression (TTP) (8.4 months vs. 4.4; hazard ratio, 0.47; p<0.001) compared to patients that received capecitabine alone (PMID: 17192538). Lapatinib is also FDA-approved in combination with letrozole for the treatment of metastatic, postmenopausal breast cancer that is both ERBB2-positive and hormone receptor-positive. FDA approval in this context was based on evidence from the EGF30008 trial in which eligible patients treated with lapatinib plus letrozole showed a significantly improved progression-free survival (PFS) (median PFS, 8.2 vs. 3.0 months) compared to patients treated with letrozole plus placebo (PMID: 19786658). Treatment with lapatinib also significantly improved clinical benefit rates (CBR) (48% with letrozole-lapatinib vs. 29% with letrozole alone) and was associated with a trend toward improvement in overall survival (OS) (PMID: 19786658).
 Cancer type: Breast Cancer
 Biomarkers: Amplification
-Therapy: Lapatinib,Letrozole
+Therapy: Lapatinib, Letrozole
 "
 "Approved indication: Pertuzumab in combination with trastuzumab and docetaxel is FDA-approved for (1) ERBB2-positive metastatic breast cancer in patients not previously treated with anti-ERBB2 therapy or chemotherapy for metastatic disease, (2) neoadjuvant treatment of ERBB2-positive, locally advanced, inflammatory, or early stage breast cancer.
 Approval level: LEVEL_1
@@ -3699,7 +3699,7 @@ In the Phase II BERENICE (NCT02132949) trial of neoadjuvant regimens for 401 pat
 In the Phase III APHINITY (NCT01358877) trial of pertuzumab and trastuzumab plus chemotherapy versus placebo and trastuzumab plus chemotherapy to standard adjuvant chemotherapy in 4804 patients with HER2-positive early breast cancer who had their primary tumor excised, the pertuzumab cohort (n=2400) demonstrated an invasive disease-free survival (IDFS) of 7.1%, a disease-free survival (DFS) of 8.0% and an OS of 3.3% (PMID: 28581356). The placebo cohort (n=2404) demonstrated an IDFS of 8.7% (HR=0.82 [95% CI=0.67-1.00]; p=0.047), a DFS of 9.8% (HR=0.82 [95% CI=0.68-0.99]) and an OS of 3.7% (HR=0.89 [95% CI=0.66-1.21]) (PMID: 28581356). In the third interim analysis, the 8-year OS and IDFS were 92.7% and 86.1% in the pertuzumab cohort versus 92.0% (HR=0.83 [95% CI=0.68-1.02; p=0.078) and 81.2% (HR=0.72 [95% CI=0.60-0.87]) in the placebo cohort, respectively (PMID: 39259927).
 Cancer type: Breast Cancer
 Biomarkers: Amplification
-Therapy: Trastuzumab,Pertuzumab,Chemotherapy
+Therapy: Trastuzumab, Pertuzumab, Chemotherapy
 "
 "Approved indication: For the extended adjuvant treatment of adult patients with early stage HER2-overexpressed/amplified breast cancer, to follow adjuvant trastuzumab-based therapy.
 Approval level: LEVEL_1
@@ -3715,14 +3715,14 @@ Database: OncoKB
 Description: Neratinib is a small molecule inhibitor of the ERBB2 and EGFR kinases that is FDA-approved for HER2-positive breast cancer previously treated with adjuvant trastuzumab. FDA approval was based on results from the Phase III ExteNET trial of neratinib in 2,840 patients with HER2-positive breast cancer who had been previously treated with trastuzumab in which the two-year disease-free survival rate was 93.9% (95% CI= 92.4-95.2) in the neratinib group versus 91.0% (95% CI= 89.3-92.5) in the placebo group (HR= 0.63, p=0·0017) following one year of drug administration (PMID: 26874901). Five-year follow-up of patients from the ExteNET trial demonstrated that the benefit of neratinib treatment continues past the two-year follow-up, with the five-year invasive disease-free survival being 90.2% (95% CI= 88.3-91.8) in the neratinib group versus 87.7% (95% CI= 85.7-89.4) in the placebo group (PMID: 29146401). In vitro studies in mice have demonstrated that sustained ER inhibition can lead to ERBB2 pathway activation, suggesting a mechanism for neratinib utility in this context (PMID: 30274983). Neratinib with the addition of chemotherapy (capecitabine) has been shown to be active in patients with ERBB2-positive breast cancer with brain metastases (PMID: 30860945).
 Cancer type: Breast Cancer
 Biomarkers: Amplification
-Therapy: Neratinib,Capecitabine
+Therapy: Neratinib, Capecitabine
 "
 "Approval level: LEVEL_1
 Database: OncoKB
 Description: Tucatinib is a small molecule inhibitor of HER2 that is FDA-approved in combination with trastuzumab and capecitabine for the treatment of adult patients with advanced, pretreated HER2-positive breast cancer that can’t be removed with surgery or has spread to other parts of the body. FDA approval was based on the results of the Phase II HER2CLIMB trial of tucatinib plus trastuzumab and capecitabine versus trastuzumab and capecitabine plus placebo in 612 patients with HER2-positive metastatic breast cancer who were pretreated with trastuzumab, pertuzumab, and trastuzumab emtansine in which one-year progression-free survival was 33.1% in the tucatinib combination group and 12.3% in the placebo combination group (HR, 0.54; 95% CI, 0.42 to 0.71; P<0.001); the median overall survival was 21.9 months and 17.4 months, respectively (PMID: 31825569). Of the 291 patients with brain metastases, the median progression-free survival in the tucatinib group versus the placebo group was 7.6 months (95% CI= 6.2 to 9.5) versus 5.4 months (95% CI= 4.1 to 5.7), respectively (PMID: 31825569). Updated results from the Phase II HER2CLIMB trial showed that after a median follow-up of 29.6 months, the median overall survival was 21.6 months (95% CI=18.1-28.5) in the tucatinib combination group versus 12.5 months (95% CI= 11.2-16.9) in the trastuzumab and capecitabine-combination group in patients with active and stable brain metastases (n=291) (Abstract: Curigliano et al. Abstract# 1043, ASCO 2021. https://ascopubs.org/doi/abs/10.1200/JCO.2021.39.15_suppl.1043).
 Cancer type: Breast Cancer
 Biomarkers: Amplification
-Therapy: Trastuzumab,Tucatinib,Capecitabine
+Therapy: Trastuzumab, Tucatinib, Capecitabine
 "
 "Approval level: LEVEL_1
 Database: OncoKB
@@ -3740,21 +3740,21 @@ Database: OncoKB
 Description: Margetuximab, a monoclonal antibody targeting the HER2 protein, is FDA-approved in combination with chemotherapy for the treatment of adult patients with metastatic HER2-positive breast cancer who have received two or more prior anti-HER2 regimens, at least one of which was for metastatic disease. FDA approval was based on the randomized, open-label Phase III SOPHIA trial of Margetuximab-cmkb + chemotherapy versus Trastuzumab + chemotherapy in 536 patients with HER2+ breast cancer who had received two or more prior anti-HER2 regimens, in which the progression-free survival was 5.8 months (95% CI= 5.5-7.0) versus 4.9 months (95% CI:=4.2-5.6) [HR=76 (0.59, 0.98)], and the objective response rate was 22% (95% CI=17-27) versus 16% (95% CI=12-20), respectively (PMID: 33480963)
 Cancer type: Breast Cancer
 Biomarkers: Amplification
-Therapy: Margetuximab,Chemotherapy
+Therapy: Margetuximab, Chemotherapy
 "
 "Approval level: LEVEL_1
 Database: OncoKB
 Description: Talazoparib, a small molecule PARP inhibitor, is FDA-approved in combination with enzalutamide for the treatment of select patients with FANCA-mutant metastatic castration-resistant prostate cancer (mCRPC). FDA approval was based on the results of the Phase III TALAPRO-2 trial of talazoparib plus enzalutamide in adult patients with asymptomatic or mildly symptomatic mCRPC harboring homologous recombination repair (HRR) gene alterations receiving ongoing androgen deprivation therapy. Of patients with HRR gene mutations (n=399), the radiographic progression-free survival in the talazoparib plus enzalutamide group (n=200) was not evaluable (95% CI=21.9, NE) compared to 13.8 months (95% CI=11.0, 16.7) in the placebo plus enzalutamide group (n=199) (HR=0.45; 95% CI=0.33, 0.61), with a 2-sided p-value of <0.0001 (PMID: 37285865). Hazard ratios and p-values were not calculated for patients harboring FANCA mutations as the number of patients per treatment group was too small for evaluation (PMID: 37285865).
 Cancer type: Prostate Cancer, NOS
 Biomarkers: Oncogenic Mutations
-Therapy: Talazoparib,Enzalutamide
+Therapy: Talazoparib, Enzalutamide
 "
 "Approval level: LEVEL_1
 Database: OncoKB
 Description: Talazoparib, a small molecule PARP inhibitor, is FDA-approved in combination with enzalutamide for the treatment of select patients with FANCA-mutant metastatic castration-resistant prostate cancer (mCRPC). FDA approval was based on the results of the Phase III TALAPRO-2 trial of talazoparib plus enzalutamide in adult patients with asymptomatic or mildly symptomatic mCRPC harboring homologous recombination repair (HRR) gene alterations receiving ongoing androgen deprivation therapy. Of patients with HRR gene mutations (n=399), the radiographic progression-free survival in the talazoparib plus enzalutamide group (n=200) was not evaluable (95% CI=21.9, NE) compared to 13.8 months (95% CI=11.0, 16.7) in the placebo plus enzalutamide group (n=199) (HR=0.45; 95% CI=0.33, 0.61), with a 2-sided p-value of <0.0001 (PMID: 37285865). Hazard ratios and p-values were not calculated for patients harboring FANCA mutations as the number of patients per treatment group was too small for evaluation (PMID: 37285865).
 Cancer type: Prostate Cancer
 Biomarkers: Oncogenic Mutations
-Therapy: Talazoparib,Enzalutamide
+Therapy: Talazoparib, Enzalutamide
 "
 "Approval level: LEVEL_1
 Database: OncoKB
@@ -3775,42 +3775,42 @@ Database: OncoKB
 Description: Talazoparib, a small molecule PARP inhibitor, is FDA-approved in combination with enzalutamide for the treatment of select patients with MLH1-mutant metastatic castration-resistant prostate cancer (mCRPC). FDA approval was based on the results of the Phase III TALAPRO-2 trial of talazoparib plus enzalutamide in adult patients with asymptomatic or mildly symptomatic mCRPC harboring homologous recombination repair (HRR) gene alterations receiving ongoing androgen deprivation therapy. Of patients with HRR gene mutations (n=399), the radiographic progression-free survival in the talazoparib plus enzalutamide group (n=200) was not evaluable (95% CI=21.9, NE) compared to 13.8 months (95% CI=11.0, 16.7) in the placebo plus enzalutamide group (n=199) (HR=0.45; 95% CI=0.33, 0.61), with a 2-sided p-value of <0.0001 (PMID: 37285865). Hazard ratios and p-values were not calculated for patients harboring MLH1 mutations as the number of patients per treatment group was too small for evaluation (PMID: 37285865).
 Cancer type: Prostate Cancer, NOS
 Biomarkers: Oncogenic Mutations
-Therapy: Talazoparib,Enzalutamide
+Therapy: Talazoparib, Enzalutamide
 "
 "Approval level: LEVEL_1
 Database: OncoKB
 Description: Talazoparib, a small molecule PARP inhibitor, is FDA-approved in combination with enzalutamide for the treatment of select patients with MLH1-mutant metastatic castration-resistant prostate cancer (mCRPC). FDA approval was based on the results of the Phase III TALAPRO-2 trial of talazoparib plus enzalutamide in adult patients with asymptomatic or mildly symptomatic mCRPC harboring homologous recombination repair (HRR) gene alterations receiving ongoing androgen deprivation therapy. Of patients with HRR gene mutations (n=399), the radiographic progression-free survival in the talazoparib plus enzalutamide group (n=200) was not evaluable (95% CI=21.9, NE) compared to 13.8 months (95% CI=11.0, 16.7) in the placebo plus enzalutamide group (n=199) (HR=0.45; 95% CI=0.33, 0.61), with a 2-sided p-value of <0.0001 (PMID: 37285865). Hazard ratios and p-values were not calculated for patients harboring MLH1 mutations as the number of patients per treatment group was too small for evaluation (PMID: 37285865).
 Cancer type: Prostate Cancer
 Biomarkers: Oncogenic Mutations
-Therapy: Talazoparib,Enzalutamide
+Therapy: Talazoparib, Enzalutamide
 "
 "Approval level: LEVEL_1
 Database: OncoKB
 Description: Talazoparib, a small molecule PARP inhibitor, is FDA-approved in combination with enzalutamide for the treatment of select patients with MRE11-mutant metastatic castration-resistant prostate cancer (mCRPC). FDA approval was based on the results of the Phase III TALAPRO-2 trial of talazoparib plus enzalutamide in adult patients with asymptomatic or mildly symptomatic mCRPC harboring homologous recombination repair (HRR) gene alterations receiving ongoing androgen deprivation therapy. Of patients with HRR gene mutations (n=399), the radiographic progression-free survival in the talazoparib plus enzalutamide group (n=200) was not evaluable (95% CI=21.9, NE) compared to 13.8 months (95% CI=11.0, 16.7) in the placebo plus enzalutamide group (n=199) (HR=0.45; 95% CI=0.33, 0.61), with a 2-sided p-value of <0.0001 (PMID: 37285865). Hazard ratios and p-values were not calculated for patients harboring MRE11 mutations as the number of patients per treatment group was too small for evaluation (PMID: 37285865).
 Cancer type: Prostate Cancer, NOS
 Biomarkers: Oncogenic Mutations
-Therapy: Talazoparib,Enzalutamide
+Therapy: Talazoparib, Enzalutamide
 "
 "Approval level: LEVEL_1
 Database: OncoKB
 Description: Talazoparib, a small molecule PARP inhibitor, is FDA-approved in combination with enzalutamide for the treatment of select patients with MRE11-mutant metastatic castration-resistant prostate cancer (mCRPC). FDA approval was based on the results of the Phase III TALAPRO-2 trial of talazoparib plus enzalutamide in adult patients with asymptomatic or mildly symptomatic mCRPC harboring homologous recombination repair (HRR) gene alterations receiving ongoing androgen deprivation therapy. Of patients with HRR gene mutations (n=399), the radiographic progression-free survival in the talazoparib plus enzalutamide group (n=200) was not evaluable (95% CI=21.9, NE) compared to 13.8 months (95% CI=11.0, 16.7) in the placebo plus enzalutamide group (n=199) (HR=0.45; 95% CI=0.33, 0.61), with a 2-sided p-value of <0.0001 (PMID: 37285865). Hazard ratios and p-values were not calculated for patients harboring MRE11 mutations as the number of patients per treatment group was too small for evaluation (PMID: 37285865).
 Cancer type: Prostate Cancer
 Biomarkers: Oncogenic Mutations
-Therapy: Talazoparib,Enzalutamide
+Therapy: Talazoparib, Enzalutamide
 "
 "Approval level: LEVEL_1
 Database: OncoKB
 Description: Talazoparib, a small molecule PARP inhibitor, is FDA-approved in combination with enzalutamide for the treatment of select patients with NBN-mutant metastatic castration-resistant prostate cancer (mCRPC). FDA approval was based on the results of the Phase III TALAPRO-2 trial of talazoparib plus enzalutamide in adult patients with asymptomatic or mildly symptomatic mCRPC harboring homologous recombination repair (HRR) gene alterations receiving ongoing androgen deprivation therapy. Of patients with HRR gene mutations (n=399), the radiographic progression-free survival in the talazoparib plus enzalutamide group (n=200) was not evaluable (95% CI=21.9, NE) compared to 13.8 months (95% CI=11.0, 16.7) in the placebo plus enzalutamide group (n=199) (HR=0.45; 95% CI=0.33, 0.61), with a 2-sided p-value of <0.0001 (PMID: 37285865). Hazard ratios and p-values were not calculated for patients harboring NBN mutations as the number of patients per treatment group was too small for evaluation (PMID: 37285865).
 Cancer type: Prostate Cancer, NOS
 Biomarkers: Oncogenic Mutations
-Therapy: Talazoparib,Enzalutamide
+Therapy: Talazoparib, Enzalutamide
 "
 "Approval level: LEVEL_1
 Database: OncoKB
 Description: Talazoparib, a small molecule PARP inhibitor, is FDA-approved in combination with enzalutamide for the treatment of select patients with NBN-mutant metastatic castration-resistant prostate cancer (mCRPC). FDA approval was based on the results of the Phase III TALAPRO-2 trial of talazoparib plus enzalutamide in adult patients with asymptomatic or mildly symptomatic mCRPC harboring homologous recombination repair (HRR) gene alterations receiving ongoing androgen deprivation therapy. Of patients with HRR gene mutations (n=399), the radiographic progression-free survival in the talazoparib plus enzalutamide group (n=200) was not evaluable (95% CI=21.9, NE) compared to 13.8 months (95% CI=11.0, 16.7) in the placebo plus enzalutamide group (n=199) (HR=0.45; 95% CI=0.33, 0.61), with a 2-sided p-value of <0.0001 (PMID: 37285865). Hazard ratios and p-values were not calculated for patients harboring NBN mutations as the number of patients per treatment group was too small for evaluation (PMID: 37285865).
 Cancer type: Prostate Cancer
 Biomarkers: Oncogenic Mutations
-Therapy: Talazoparib,Enzalutamide
+Therapy: Talazoparib, Enzalutamide
 "
 "Approval level: LEVEL_1
 Database: OncoKB
@@ -3848,21 +3848,21 @@ Database: OncoKB
 Description: Talazoparib, a small molecule PARP inhibitor, is FDA-approved in combination with enzalutamide for the treatment of select patients with PALB2-mutant metastatic castration-resistant prostate cancer (mCRPC). FDA approval was based on the results of the Phase III TALAPRO-2 trial of talazoparib plus enzalutamide in adult patients with asymptomatic or mildly symptomatic mCRPC harboring homologous recombination repair (HRR) gene alterations receiving ongoing androgen deprivation therapy. Of patients with HRR gene mutations (n=399), the radiographic progression-free survival in the talazoparib plus enzalutamide group (n=200) was not evaluable (95% CI=21.9, NE) compared to 13.8 months (95% CI=11.0, 16.7) in the placebo plus enzalutamide group (n=199) (HR=0.45; 95% CI=0.33, 0.61), with a 2-sided p-value of <0.0001 (PMID: 37285865). Patients with PALB2 mutations (n=15) demonstrated a radiographic progression-free survival of not evaluable in the talazoparib plus enzalutamide group (n=7) and 8.3 months in the placebo plus enzalutamide group (n=8) (HR=0.46; 95% CI=0.12, 1.87), with a 2-sided p-value of 0.27 (PMID: 37285865). Patients harboring only PALB2 mutations (n=11) demonstrated a radiographic progression-free survival of not evaluable in the talazoparib plus enzalutamide group (n=6) and 8.6 months in the placebo plus enzalutamide group (n=5) (HR=0.56; 95% CI=0.12, 2.51), with a 2-sided p-value of 0.44 (PMID: 37285865).
 Cancer type: Prostate Cancer, NOS
 Biomarkers: Oncogenic Mutations
-Therapy: Talazoparib,Enzalutamide
+Therapy: Talazoparib, Enzalutamide
 "
 "Approval level: LEVEL_1
 Database: OncoKB
 Description: Talazoparib, a small molecule PARP inhibitor, is FDA-approved in combination with enzalutamide for the treatment of select patients with PALB2-mutant metastatic castration-resistant prostate cancer (mCRPC). FDA approval was based on the results of the Phase III TALAPRO-2 trial of talazoparib plus enzalutamide in adult patients with asymptomatic or mildly symptomatic mCRPC harboring homologous recombination repair (HRR) gene alterations receiving ongoing androgen deprivation therapy. Of patients with HRR gene mutations (n=399), the radiographic progression-free survival in the talazoparib plus enzalutamide group (n=200) was not evaluable (95% CI=21.9, NE) compared to 13.8 months (95% CI=11.0, 16.7) in the placebo plus enzalutamide group (n=199) (HR=0.45; 95% CI=0.33, 0.61), with a 2-sided p-value of <0.0001 (PMID: 37285865). Patients with PALB2 mutations (n=15) demonstrated a radiographic progression-free survival of not evaluable in the talazoparib plus enzalutamide group (n=7) and 8.3 months in the placebo plus enzalutamide group (n=8) (HR=0.46; 95% CI=0.12, 1.87), with a 2-sided p-value of 0.27 (PMID: 37285865). Patients harboring only PALB2 mutations (n=11) demonstrated a radiographic progression-free survival of not evaluable in the talazoparib plus enzalutamide group (n=6) and 8.6 months in the placebo plus enzalutamide group (n=5) (HR=0.56; 95% CI=0.12, 2.51), with a 2-sided p-value of 0.44 (PMID: 37285865).
 Cancer type: Prostate Cancer
 Biomarkers: Oncogenic Mutations
-Therapy: Talazoparib,Enzalutamide
+Therapy: Talazoparib, Enzalutamide
 "
 "Approval level: LEVEL_1
 Database: OncoKB
 Description: Capivasertib, an orally available, ATP-competitive pan-AKT inhibitor, is FDA-approved with fulvestrant for the treatment of patients with PTEN-mutant ER+/HER2- metastatic breast cancer. FDA approval was based on the results of the Phase III CAPItello-291 trial of capivasertib plus fulvestrant in adult patients with or without AKT pathway-altered (PIK3CA, AKT1 or PTEN) ER+/HER2- advanced breast cancer. Of the patients with only PIK3CA, AKT1 or PTEN-mutant tumors (n=289), the capivasertib plus fulvestrant group (n=155) demonstrated an objective response rate of 26% (95% CI=19, 34), with a 2.3% complete response rate and 23% partial response rate, and a median progression-free survival of 7.3 months (95% CI=5.5, 9.0) whereas the placebo plus fulvestrant group (n=134) demonstrated an objective response rate of 8% (95% CI=4, 14), with a 8% partial response rate, and a median progression-free survival of 3.1 months (95% CI=2.0, 3.7) (HR=0.50 [95% CI=0.38, 0.65]; P<0.0001) (PMID: 37256976). Of all patients, including patients with wildtype tumors and patients with PIK3CA, AKT1 or PTEN-mutant tumors (n=708), the capivasertib plus fulvestrant group (n=355) demonstrated a median progression-free survival of 7.2 months (95% CI=5.5, 7.4) whereas the placebo plus fulvestrant group (n=353) demonstrated a median progression-free survival of 3.6 months (95% CI=2.8, 3.7) (HR=0.60 [95% CI=0.51, 0.71]; P<0.001) (PMID: 37256976).
 Cancer type: Breast Cancer
 Biomarkers: Oncogenic Mutations
-Therapy: Capivasertib,Fulvestrant
+Therapy: Capivasertib, Fulvestrant
 "
 "Approval level: LEVEL_1
 Database: OncoKB
@@ -3897,14 +3897,14 @@ Database: OncoKB
 Description: Talazoparib, a small molecule PARP inhibitor, is FDA-approved in combination with enzalutamide for the treatment of select patients with RAD51C-mutant metastatic castration-resistant prostate cancer (mCRPC). FDA approval was based on the results of the Phase III TALAPRO-2 trial of talazoparib plus enzalutamide in adult patients with asymptomatic or mildly symptomatic mCRPC harboring homologous recombination repair (HRR) gene alterations receiving ongoing androgen deprivation therapy. Of patients with HRR gene mutations (n=399), the radiographic progression-free survival in the talazoparib plus enzalutamide group (n=200) was not evaluable (95% CI=21.9, NE) compared to 13.8 months (95% CI=11.0, 16.7) in the placebo plus enzalutamide group (n=199) (HR=0.45; 95% CI=0.33, 0.61), with a 2-sided p-value of <0.0001 (PMID: 37285865). Hazard ratios and p-values were not calculated for patients harboring RAD51C mutations as the number of patients per treatment group was too small for evaluation (PMID: 37285865).
 Cancer type: Prostate Cancer, NOS
 Biomarkers: Oncogenic Mutations
-Therapy: Talazoparib,Enzalutamide
+Therapy: Talazoparib, Enzalutamide
 "
 "Approval level: LEVEL_1
 Database: OncoKB
 Description: Talazoparib, a small molecule PARP inhibitor, is FDA-approved in combination with enzalutamide for the treatment of select patients with RAD51C-mutant metastatic castration-resistant prostate cancer (mCRPC). FDA approval was based on the results of the Phase III TALAPRO-2 trial of talazoparib plus enzalutamide in adult patients with asymptomatic or mildly symptomatic mCRPC harboring homologous recombination repair (HRR) gene alterations receiving ongoing androgen deprivation therapy. Of patients with HRR gene mutations (n=399), the radiographic progression-free survival in the talazoparib plus enzalutamide group (n=200) was not evaluable (95% CI=21.9, NE) compared to 13.8 months (95% CI=11.0, 16.7) in the placebo plus enzalutamide group (n=199) (HR=0.45; 95% CI=0.33, 0.61), with a 2-sided p-value of <0.0001 (PMID: 37285865). Hazard ratios and p-values were not calculated for patients harboring RAD51C mutations as the number of patients per treatment group was too small for evaluation (PMID: 37285865).
 Cancer type: Prostate Cancer
 Biomarkers: Oncogenic Mutations
-Therapy: Talazoparib,Enzalutamide
+Therapy: Talazoparib, Enzalutamide
 "
 "Approval level: LEVEL_1
 Database: OncoKB
@@ -3996,56 +3996,56 @@ Database: OncoKB
 Description: Trastuzumab, a humanized, recombinant monoclonal antibody that targets the HER2 receptor, is FDA approved for the adjuvant treatment of ERBB2-overexpressing breast cancer. Trastuzumab plus carboplatin-paclitaxel is listed in the NCCN as a category 2A therapeutic for ERBB2-amplified uterine cancer. In a phase II trial of carboplatin-paclitaxel with or without trastuzumab in 58 patients with ERBB2-overexpressing uterine serous carcinoma, overall progression-free survival was 12.6 months versus 8 months with the addition of paclitaxel, with the largest benefit seen in patients with stage III/IV advanced disease (17.9 months versus 9.3 months; p=0.013; HR=0.4 (90% CI 0.2-0.8)) (PMID: 29584549).
 Cancer type: Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma
 Biomarkers: Amplification
-Therapy: Trastuzumab,Carboplatin-Taxol Regimen
+Therapy: Trastuzumab, Carboplatin-Taxol Regimen
 "
 "Approval level: LEVEL_2
 Database: OncoKB
 Description: Trastuzumab and pertuzumab, both HER2-targeted antibodies, are NCCN-compendium listed in combination for the treatment of patients with HER2-amplified metastatic colorectal cancer whose tumors are also RAS and BRAF wildtype. Results from the MyPathway Phase IIa multiple basket study in which patients with previously treated HER2-amplified metastatic colorectal cancer were treated with trastuzumab plus pertuzumab demonstrated an overall response rate of 40% (95% CI= 25-56) in patients with wildtype KRAS (n=43), with a median progression-free survival of 5.3 months (95% CI= 2.7-6.1) and a median overall survival of 14.0 months (95% CI= 8.0-NE) (PMID: 30857956). Updated data from the MyPathway study in 69 patients with HER2-amplified colorectal cancer demonstrate an objective response rate of 31.9%, with one patient demonstrating a complete response (PMID: 37793085). In the Phase II TAPUR Study basket trial of trastuzumab plus pertuzumab in 28 patients with HER2-amplified advanced tumors, the overall response rate was 25%, with a median progression-free survival of 17.2 weeks (95% CI= 11.1-27.4) and a median overall survival of 60.0 weeks (95% CI= 32.1-102.3) (PMID: 36315917).
 Cancer type: Colorectal Cancer
 Biomarkers: Amplification
-Therapy: Trastuzumab,Pertuzumab
+Therapy: Trastuzumab, Pertuzumab
 "
 "Approval level: LEVEL_2
 Database: OncoKB
 Description: Trastuzumab and pertuzumab, both HER2-targeted antibodies, are NCCN-compendium listed in combination for the treatment of patients with HER2-positive biliary tract cancers. In the multicenter, open-label, Phase IIa MyPathway multiple basket study of trastuzumab and pertuzumab in patients with previously treated HER2-amplified and/or HER2 overexpression metastatic biliary tract cancer (n=39), the objective response rate was 23% (95% CI, 11-39%) with nine patients achieving partial response and eleven patients demonstrating stable disease (PMID: 34339623).
 Cancer type: Hepatobiliary Cancer
 Biomarkers: Amplification
-Therapy: Trastuzumab,Pertuzumab
+Therapy: Trastuzumab, Pertuzumab
 "
 "Approval level: LEVEL_2
 Database: OncoKB
 Description: Trastuzumab and pertuzumab, both HER2-targeted antibodies, are NCCN-compendium listed in combination for the treatment of patients with HER2-positive biliary tract cancers. In the multicenter, open-label, Phase IIa MyPathway multiple basket study of trastuzumab and pertuzumab in patients with previously treated HER2-amplified and/or HER2 overexpression metastatic biliary tract cancer (n=39), the objective response rate was 23% (95% CI, 11-39%) with nine patients achieving partial response and eleven patients demonstrating stable disease (PMID: 34339623).
 Cancer type: Biliary Tract
 Biomarkers: Amplification
-Therapy: Trastuzumab,Pertuzumab
+Therapy: Trastuzumab, Pertuzumab
 "
 "Approval level: LEVEL_2
 Database: OncoKB
 Description: Tucatinib, a small molecule HER2-targeted kinase inhibitor, and trastuzumab, a HER2-targeted antibody, are FDA-approved in combination for the treatment of adult patients with RAS wild-type HER2-positive unresectable or metastatic colorectal cancer that has progressed following treatment with fluoropyrimidine-, oxaliplatin- and irinotecan-based chemotherapy. The NCCN Biliary Tract Cancers Guidelines (V2.2024) lists tucatinib plus trastuzumab under ""Subsequent-Line Therapy for Biliary Tract Cancers if Disease Progression"" for patients with HER2-positive biliary tract cancer. NCCN recommendation was based on the results of the Phase II SGNTUC-019 (NCT04579380) trial of tucatinib plus trastuzumab in 30 patients with HER2-positive metastatic biliary tract cancer. In the Phase II SGNTUC-019 (NCT04579380) trial, the confirmed overall response rate was 46.7% (14/30) (90% CI=30.8-63.0), with a 3.3% (1/30) complete response rate, 43.3% (13/30) partial response rate and 30% (9/30) stable disease rate, the median progression-free survival was 5.5 months (90% CI=3.9-8.1) and the median overall survival was 15.5 months (90% CI=6.5-16.7) (PMID: 37751561).
 Cancer type: Hepatobiliary Cancer
 Biomarkers: Amplification
-Therapy: Tucatinib,Trastuzumab
+Therapy: Tucatinib, Trastuzumab
 "
 "Approval level: LEVEL_2
 Database: OncoKB
 Description: Tucatinib, a small molecule HER2-targeted kinase inhibitor, and trastuzumab, a HER2-targeted antibody, are FDA-approved in combination for the treatment of adult patients with RAS wild-type HER2-positive unresectable or metastatic colorectal cancer that has progressed following treatment with fluoropyrimidine-, oxaliplatin- and irinotecan-based chemotherapy. The NCCN Biliary Tract Cancers Guidelines (V2.2024) lists tucatinib plus trastuzumab under ""Subsequent-Line Therapy for Biliary Tract Cancers if Disease Progression"" for patients with HER2-positive biliary tract cancer. NCCN recommendation was based on the results of the Phase II SGNTUC-019 (NCT04579380) trial of tucatinib plus trastuzumab in 30 patients with HER2-positive metastatic biliary tract cancer. In the Phase II SGNTUC-019 (NCT04579380) trial, the confirmed overall response rate was 46.7% (14/30) (90% CI=30.8-63.0), with a 3.3% (1/30) complete response rate, 43.3% (13/30) partial response rate and 30% (9/30) stable disease rate, the median progression-free survival was 5.5 months (90% CI=3.9-8.1) and the median overall survival was 15.5 months (90% CI=6.5-16.7) (PMID: 37751561).
 Cancer type: Biliary Tract
 Biomarkers: Amplification
-Therapy: Tucatinib,Trastuzumab
+Therapy: Tucatinib, Trastuzumab
 "
 "Approval level: LEVEL_2
 Database: OncoKB
 Description: Trastuzumab, a humanized, recombinant monoclonal antibody that targets the HER2 receptor, and lapatinib, a small molecule tyrosine kinase inhibitor of HER2/EGFR, are NCCN-compendium listed in combination for the treatment of patients with ERBB2-amplified metastatic colorectal cancer whose tumors are also RAS and BRAF wildtype. Results from the multicenter Phase II HERACLES trial in which 27 patients with previously treated HER2+, KRAS wildtype tumors were treated with trastuzumab plus lapatinib demonstrated an overall response rate of 30% (95% CI= 14-50), which included one patient with complete response (4%), seven patients with partial responses (26%) and twelve patients with stable disease (44%) (PMID: 27108243).
 Cancer type: Colorectal Cancer
 Biomarkers: Amplification
-Therapy: Lapatinib,Trastuzumab
+Therapy: Lapatinib, Trastuzumab
 "
 "Approval level: LEVEL_2
 Database: OncoKB
 Description: Trastuzumab is an intravenously infused, anti-HER2 monoclonal antibody that is FDA-approved as a single agent and in combination with docetaxel for the treatment of patients with HER2-overexpressing breast cancer. The NCCN Head and Neck Cancer Guidelines (V3.2024) lists trastuzumab, trastuzumab plus docetaxel, ado-trastuzumab emtansine, trastuzumab deruxtecan and trastuzumab plus pertuzumab as HER2 targeted therapies for the treatment of patients with HER2-positive (defined as immunohistochemistry [IHC] 3+) salivary gland cancer. In a case report of two patients with HER2-positive salivary gland cancer treated with trastuzumab monotherapy, one patient with HER2-positive (IHC 3+) salivary duct carcinoma achieved a complete response (CR) and one patient with HER2-amplified (FISH amplification ratio ≥ 5.6) carcinoma ex pleomorphic adenoma demonstrated disease control for over 21 months (PMID: 28006087). In a pooled analysis of a Phase II trial of trastuzumab plus docetaxel in 57 patients with HER2-positive (IHC 3+) advanced salivary duct carcinoma, the overall response rate was 70.2% (95% CI=56.6-81.6), with a 14% (n=8) CR rate and 56.1% (n=32) partial response rate, and the median progression-free survival was 8.9 months (95% CI=7.8-9.9) (PMID: 30452336).
 Cancer type: Salivary Gland Cancer
 Biomarkers: Amplification
-Therapy: Trastuzumab,Docetaxel
+Therapy: Trastuzumab, Docetaxel
 "
 "Approval level: LEVEL_2
 Database: OncoKB
@@ -4074,7 +4074,7 @@ Description: Trastuzumab and pertuzumab are intravenously infused, anti-HER2 mon
 (NCT02091141) trial of trastuzumab plus pertuzumab in fifteen patients with HER2 amplification-positive (HER2/CEP17 ratio > 2.0 or NGS determined copy number gain) and/or overexpression (IHC 3+)-positive salivary gland cancer, the objective response rate was 60% (95% CI=32-84), with a 6.7% (n=1) complete response rate and 53.3% (n=8) partial response rate, with a median progression-free survival of 8.6 months (95% CI=2.3-NE) and a median overall survival of 20.4 months (95% CI=8.2-NE) (PMID: 32067683).
 Cancer type: Salivary Gland Cancer
 Biomarkers: Amplification
-Therapy: Trastuzumab,Pertuzumab
+Therapy: Trastuzumab, Pertuzumab
 "
 "Approval level: LEVEL_2
 Database: OncoKB
@@ -4186,14 +4186,14 @@ Database: OncoKB
 Description: Lunresertib is an orally available, small molecule PKMYT1 inhibitor and camonsertib is an orally available, small molecule ATR inhibitor. There are promising clinical data of response to lunresertib plus camonsertib in patients with CCNE1-amplified gynecologic cancers. In the Phase I MYTHIC (NCT04855656) trial of lunresertib plus camonsertib in patients with advanced tumors harboring CCNE1 amplifications, FBXW7 deleterious mutations or PPP2R1A deleterious mutations, the lunresertib plus camonsertib cohort (n=59 [n=17, endometrial; n=13, colorectal; n=11, ovarian; n=3, breast; n=3, lung; n=12, other]) demonstrated an overall response rate of 23.6% in all evaluable patients across tumor types, with a 33.3% response rate in patients with CCNE1-amplified tumors and a 38.5% response rate in patients with gynecologic cancers across all dosages (Abstract: Yap, T. et al., Abstract# 35396. AACR-NCI-EORTC 2023. https://ir.reparerx.com/static-files/c46f541b-554a-4690-90de-e63fa7dea852). Preclinical studies with ovarian and endometrial cancer cell lines and xenograft models expressing CCNE1 amplification demonstrate sensitivity to lunresertib plus camonsertib as measured by tumor regression and decreased cellular viability (PMID: 38410486) (Abstract: Gallo, D. et al., Abstract# B057, AACR 2023. https://aacrjournals.org/mct/article/22/12_Supplement/B057/730329/Abstract-B057-Preclinical-development-of-PKMYT1)(Abstract: Yap, T. et al., Abstract# B156, AACR-NCI-EORTC 2023. https://www.reparerx.com/wp-content/uploads/2023/10/ANE_B156_MYTHIC-clinical_poster.pdf).
 Cancer type: Ovarian Cancer
 Biomarkers: Amplification
-Therapy: Lunresertib,Camonsertib
+Therapy: Lunresertib, Camonsertib
 "
 "Approval level: LEVEL_3A
 Database: OncoKB
 Description: Lunresertib is an orally available, small molecule PKMYT1 inhibitor and camonsertib is an orally available, small molecule ATR inhibitor. There are promising clinical data of response to lunresertib plus camonsertib in patients with CCNE1-amplified gynecologic cancers. In the Phase I MYTHIC (NCT04855656) trial of lunresertib plus camonsertib in patients with advanced tumors harboring CCNE1 amplifications, FBXW7 deleterious mutations or PPP2R1A deleterious mutations, the lunresertib plus camonsertib cohort (n=59 [n=17, endometrial; n=13, colorectal; n=11, ovarian; n=3, breast; n=3, lung; n=12, other]) demonstrated an overall response rate of 23.6% in all evaluable patients across tumor types, with a 33.3% response rate in patients with CCNE1-amplified tumors and a 38.5% response rate in patients with gynecologic cancers across all dosages (Abstract: Yap, T. et al., Abstract# 35396. AACR-NCI-EORTC 2023. https://ir.reparerx.com/static-files/c46f541b-554a-4690-90de-e63fa7dea852). Preclinical studies with ovarian and endometrial cancer cell lines and xenograft models expressing CCNE1 amplification demonstrate sensitivity to lunresertib plus camonsertib as measured by tumor regression and decreased cellular viability (PMID: 38410486) (Abstract: Gallo, D. et al., Abstract# B057, AACR 2023. https://aacrjournals.org/mct/article/22/12_Supplement/B057/730329/Abstract-B057-Preclinical-development-of-PKMYT1)(Abstract: Yap, T. et al., Abstract# B156, AACR-NCI-EORTC 2023. https://www.reparerx.com/wp-content/uploads/2023/10/ANE_B156_MYTHIC-clinical_poster.pdf).
 Cancer type: Endometrial Cancer
 Biomarkers: Amplification
-Therapy: Lunresertib,Camonsertib
+Therapy: Lunresertib, Camonsertib
 "
 "Approval level: LEVEL_3A
 Database: OncoKB
@@ -4207,7 +4207,7 @@ Database: OncoKB
 Description: Cetuximab and panitumumab are orally available anti-EGFR monoclonal antibodies that are FDA-approved for patients with EGFR-expressing, RAS-wildtype colorectal cancer. In a retrospective analysis, patients with EGFR-amplified gastroesophageal adenocarcinoma (GEA) treated with EGFR inhibitors (n=60) (cetuximab [n=27; 45%], ABT-806 [n=13; 22%], panitumumab [n=10; 17%], gefitinib [n=5; 8%], erlotinib [n=3; 5%], cetuximab plus afatinib [n=1; 2%] and cetuximab plus erlotinib [n=1; 2%]) were analyzed across treatment lines, and their outcomes compared to patients with EGFR-amplified GEA treated with non-EGFR inhibitor therapies (PMID: 35349370). Patients treated with EGFR inhibitors across treatments lines (n=56) demonstrated an objective response rate of 43% (24/56) and a median progression-free survival (PFS) of 4.6 months (95% CI=3.5, 6.4) (PMID: 35349370). Among the responders (n-24), 57% (16/28) of patients received concurrent chemotherapy and 29% (8/28) of patients were treated with EGFR inhibitors alone. Patients treated with EGFR inhibitors as a first-line therapy demonstrated a median PFS of 20.6 months (95% CI=13.5, NR), whereas patients treated with non-EGFR inhibitors as a first-line therapy demonstrated a median PFS of 11.2 months (95% CI=8.7, 14.2; this data was taken from the Flatiron Health-Foundation Medicine clinicogenomic database) (PMID: 35349370). In the Phase III EXPAND trial of cetuximab plus capecitabine-cisplatin chemotherapy in patients with advanced GEA, patients with the top 3% EGFR expression based on EGFR IHC (≥220) treated with cetuximab plus capecitabine-cisplatin chemotherapy demonstrated a median PFS of 7.5 months and a median overall survival (OS) of 19.9 months whereas the placebo plus capecitabine-cisplatin chemotherapy arm demonstrated a median PFS of 4.1 months (HR=0.29 [95% CI=0.09, 0.96]) and a median OS of 8.6 months (HR=0.39 [95% CI=0.12, 1.25]) (PMID: 23594786). In the Phase III REAL3 trial of panitumumab plus epirubicin, oxaliplatin and capecitabine in patients with previously untreated advanced GEA, patients with EGFR:CNTNAP2 copy number ratio ≥5 based on EGFR FISH were treated with panitumumab plus epirubicin, oxaliplatin and capecitabine demonstrated a median PFS of 2.3 months and a median OS of 5.69 months whereas the placebo plus epirubicin, oxaliplatin and capecitabine arm demonstrated a median progression-free survival of 4.57 months (HR=2.19 [95% CI=0.8, 6.01]) and a median OS of 10.53 months (HR=1.26 [95% CI=0.46, 3.44]) (PMID: 23594787).
 Cancer type: Esophagogastric Cancer
 Biomarkers: Amplification
-Therapy: Cetuximab,Chemotherapy
+Therapy: Cetuximab, Chemotherapy
 "
 "Approval level: LEVEL_3A
 Database: OncoKB
@@ -4221,7 +4221,7 @@ Database: OncoKB
 Description: Cetuximab and panitumumab are orally available anti-EGFR monoclonal antibodies that are FDA-approved for patients with EGFR-expressing, RAS-wildtype colorectal cancer. In a retrospective analysis, patients with EGFR-amplified gastroesophageal adenocarcinoma (GEA) treated with EGFR inhibitors (n=60) (cetuximab [n=27; 45%], ABT-806 [n=13; 22%], panitumumab [n=10; 17%], gefitinib [n=5; 8%], erlotinib [n=3; 5%], cetuximab plus afatinib [n=1; 2%] and cetuximab plus erlotinib [n=1; 2%]) were analyzed across treatment lines, and their outcomes compared to patients with EGFR-amplified GEA treated with non-EGFR inhibitor therapies (PMID: 35349370). Patients treated with EGFR inhibitors across treatments lines (n=56) demonstrated an objective response rate of 43% (24/56) and a median progression-free survival (PFS) of 4.6 months (95% CI=3.5, 6.4) (PMID: 35349370). Among the responders (n-24), 57% (16/28) of patients received concurrent chemotherapy and 29% (8/28) of patients were treated with EGFR inhibitors alone. Patients treated with EGFR inhibitors as a first-line therapy demonstrated a median PFS of 20.6 months (95% CI=13.5, NR), whereas patients treated with non-EGFR inhibitors as a first-line therapy demonstrated a median PFS of 11.2 months (95% CI=8.7, 14.2; this data was taken from the Flatiron Health-Foundation Medicine clinicogenomic database) (PMID: 35349370). In the Phase III EXPAND trial of cetuximab plus capecitabine-cisplatin chemotherapy in patients with advanced GEA, patients with the top 3% EGFR expression based on EGFR IHC (≥220) treated with cetuximab plus capecitabine-cisplatin chemotherapy demonstrated a median PFS of 7.5 months and a median overall survival (OS) of 19.9 months whereas the placebo plus capecitabine-cisplatin chemotherapy arm demonstrated a median PFS of 4.1 months (HR=0.29 [95% CI=0.09, 0.96]) and a median OS of 8.6 months (HR=0.39 [95% CI=0.12, 1.25]) (PMID: 23594786). In the Phase III REAL3 trial of panitumumab plus epirubicin, oxaliplatin and capecitabine in patients with previously untreated advanced GEA, patients with EGFR:CNTNAP2 copy number ratio ≥5 based on EGFR FISH were treated with panitumumab plus epirubicin, oxaliplatin and capecitabine demonstrated a median PFS of 2.3 months and a median OS of 5.69 months whereas the placebo plus epirubicin, oxaliplatin and capecitabine arm demonstrated a median progression-free survival of 4.57 months (HR=2.19 [95% CI=0.8, 6.01]) and a median OS of 10.53 months (HR=1.26 [95% CI=0.46, 3.44]) (PMID: 23594787).
 Cancer type: Esophagogastric Cancer
 Biomarkers: Amplification
-Therapy: Panitumumab,Chemotherapy
+Therapy: Panitumumab, Chemotherapy
 "
 "Approval level: LEVEL_3A
 Database: OncoKB
@@ -4260,14 +4260,14 @@ Database: OncoKB
 Description: Lunresertib is an orally available, small molecule PKMYT1 inhibitor and camonsertib is an orally available, small molecule ATR inhibitor. There are promising clinical data of response to lunresertib plus camonsertib in patients with FBXW7-mutated gynecologic cancers. In the Phase I MYTHIC (NCT04855656) trial of lunresertib plus camonsertib in patients with advanced tumors harboring CCNE1 amplifications, FBXW7 deleterious mutations or PPP2R1A deleterious mutations, the lunresertib plus camonsertib cohort (n=59 [n=17, endometrial; n=13, colorectal; n=11, ovarian; n=3, breast; n=3, lung; n=12, other]) demonstrated an overall response rate of 23.6% in all evaluable patients across tumor types, with a 17.4% response rate in patients with FBXW7-amplified tumors and a 38.5% response rate in patients with gynecologic cancers across all dosages (Abstract: Yap, T. et al., Abstract# 35396. AACR-NCI-EORTC 2023. https://ir.reparerx.com/static-files/c46f541b-554a-4690-90de-e63fa7dea852). Preclinical studies with ovarian and endometrial cancer cell lines and xenograft models expressing FBXW7 mutations demonstrate sensitivity to lunresertib plus camonsertib as measured by tumor regression and decreased cellular viability (PMID: 38410486) (Abstract: Gallo, D. et al., Abstract# B057, AACR 2023. https://aacrjournals.org/mct/article/22/12_Supplement/B057/730329/Abstract-B057-Preclinical-development-of-PKMYT1)(Abstract: Yap, T. et al., Abstract# B156, AACR-NCI-EORTC 2023. https://www.reparerx.com/wp-content/uploads/2023/10/ANE_B156_MYTHIC-clinical_poster.pdf).
 Cancer type: Ovarian Cancer
 Biomarkers: Oncogenic Mutations
-Therapy: Lunresertib,Camonsertib
+Therapy: Lunresertib, Camonsertib
 "
 "Approval level: LEVEL_3A
 Database: OncoKB
 Description: Lunresertib is an orally available, small molecule PKMYT1 inhibitor and camonsertib is an orally available, small molecule ATR inhibitor. There are promising clinical data of response to lunresertib plus camonsertib in patients with FBXW7-mutated gynecologic cancers. In the Phase I MYTHIC (NCT04855656) trial of lunresertib plus camonsertib in patients with advanced tumors harboring CCNE1 amplifications, FBXW7 deleterious mutations or PPP2R1A deleterious mutations, the lunresertib plus camonsertib cohort (n=59 [n=17, endometrial; n=13, colorectal; n=11, ovarian; n=3, breast; n=3, lung; n=12, other]) demonstrated an overall response rate of 23.6% in all evaluable patients across tumor types, with a 17.4% response rate in patients with FBXW7-amplified tumors and a 38.5% response rate in patients with gynecologic cancers across all dosages (Abstract: Yap, T. et al., Abstract# 35396. AACR-NCI-EORTC 2023. https://ir.reparerx.com/static-files/c46f541b-554a-4690-90de-e63fa7dea852). Preclinical studies with ovarian and endometrial cancer cell lines and xenograft models expressing FBXW7 mutations demonstrate sensitivity to lunresertib plus camonsertib as measured by tumor regression and decreased cellular viability (PMID: 38410486) (Abstract: Gallo, D. et al., Abstract# B057, AACR 2023. https://aacrjournals.org/mct/article/22/12_Supplement/B057/730329/Abstract-B057-Preclinical-development-of-PKMYT1)(Abstract: Yap, T. et al., Abstract# B156, AACR-NCI-EORTC 2023. https://www.reparerx.com/wp-content/uploads/2023/10/ANE_B156_MYTHIC-clinical_poster.pdf).
 Cancer type: Endometrial Cancer
 Biomarkers: Oncogenic Mutations
-Therapy: Lunresertib,Camonsertib
+Therapy: Lunresertib, Camonsertib
 "
 "Approval level: LEVEL_3A
 Database: OncoKB
@@ -4309,14 +4309,14 @@ Database: OncoKB
 Description: Brigimadlin is an orally available, small molecule MDM2-p53 antagonist that blocks the interaction between MDM2 and p53, preventing the inactivation of p53, and ezabenlimab is a PD-1-targeting monoclonal antibody. In the Phase Ia/Ib Brightline-2 (NCT03449381) trial of brigimadlin monotherapy in four patients with advanced biliary tract cancer (n=2, patients with ampullary carcinoma; n=1, patients with cholangiocarcinoma (CC); n=1, patient with intrahepatic CC), two patients harboring MDM2 amplification achieved partial response (n=1, patients with intrahepatic CC; n=1, patients with ampullary carcinoma) (PMID: 38214149, Abstract: Yamamoto et al. Abstract# 543, JCO, 2023. https://ascopubs.org/doi/abs/10.1200/JCO.2023.41.4_suppl.543). In the Phase IIa/IIb Brightline-2 (NCT03964233) trial of combination brigimadlin plus ezabenlimab in four patients with advanced biliary tract cancer (n=3, patients with intrahepatic CC; n=1, patients with gallbladder carcinoma), three patients harboring MDM2 amplification achieved partial response (n=2, patients with intrahepatic CC; n=1, patients with gallbladder carcinoma) (PMID: 38214149, Abstract: Yamamoto et al. Abstract# 543, JCO, 2023. https://ascopubs.org/doi/abs/10.1200/JCO.2023.41.4_suppl.543).
 Cancer type: Hepatobiliary Cancer
 Biomarkers: Amplification
-Therapy: Brigimadlin,Ezabenlimab
+Therapy: Brigimadlin, Ezabenlimab
 "
 "Approval level: LEVEL_3A
 Database: OncoKB
 Description: Brigimadlin is an orally available, small molecule MDM2-p53 antagonist that blocks the interaction between MDM2 and p53, preventing the inactivation of p53, and ezabenlimab is a PD-1-targeting monoclonal antibody. In the Phase Ia/Ib Brightline-2 (NCT03449381) trial of brigimadlin monotherapy in four patients with advanced biliary tract cancer (n=2, patients with ampullary carcinoma; n=1, patients with cholangiocarcinoma (CC); n=1, patient with intrahepatic CC), two patients harboring MDM2 amplification achieved partial response (n=1, patients with intrahepatic CC; n=1, patients with ampullary carcinoma) (PMID: 38214149, Abstract: Yamamoto et al. Abstract# 543, JCO, 2023. https://ascopubs.org/doi/abs/10.1200/JCO.2023.41.4_suppl.543). In the Phase IIa/IIb Brightline-2 (NCT03964233) trial of combination brigimadlin plus ezabenlimab in four patients with advanced biliary tract cancer (n=3, patients with intrahepatic CC; n=1, patients with gallbladder carcinoma), three patients harboring MDM2 amplification achieved partial response (n=2, patients with intrahepatic CC; n=1, patients with gallbladder carcinoma) (PMID: 38214149, Abstract: Yamamoto et al. Abstract# 543, JCO, 2023. https://ascopubs.org/doi/abs/10.1200/JCO.2023.41.4_suppl.543).
 Cancer type: Biliary Tract
 Biomarkers: Amplification
-Therapy: Brigimadlin,Ezabenlimab
+Therapy: Brigimadlin, Ezabenlimab
 "
 "Approval level: LEVEL_3A
 Database: OncoKB
@@ -4351,14 +4351,14 @@ Database: OncoKB
 Description: Lunresertib is an orally available, small molecule PKMYT1 inhibitor and camonsertib is an orally available, small molecule ATR inhibitor. There are promising clinical data of response to lunresertib plus camonsertib in patients with PPP2R1A-mutated gynecologic cancers. In the Phase I MYTHIC (NCT04855656) trial of lunresertib plus camonsertib in patients with advanced tumors harboring CCNE1 amplifications, FBXW7 deleterious mutations or PPP2R1A deleterious mutations, the lunresertib plus camonsertib cohort (n=59 [n=17, endometrial; n=13, colorectal; n=11, ovarian; n=3, breast; n=3, lung; n=12, other]) demonstrated an overall response rate of 23.6% in all evaluable patients across tumor types, with a 21.4% response rate in patients with PPP2R1A-mutated tumors and a 38.5% response rate in patients with gynecologic cancers across all dosages (Abstract: Yap, T. et al., Abstract# 35396. AACR-NCI-EORTC 2023. https://ir.reparerx.com/static-files/c46f541b-554a-4690-90de-e63fa7dea852).
 Cancer type: Ovarian Cancer
 Biomarkers: Oncogenic Mutations
-Therapy: Lunresertib,Camonsertib
+Therapy: Lunresertib, Camonsertib
 "
 "Approval level: LEVEL_3A
 Database: OncoKB
 Description: Lunresertib is an orally available, small molecule PKMYT1 inhibitor and camonsertib is an orally available, small molecule ATR inhibitor. There are promising clinical data of response to lunresertib plus camonsertib in patients with PPP2R1A-mutated gynecologic cancers. In the Phase I MYTHIC (NCT04855656) trial of lunresertib plus camonsertib in patients with advanced tumors harboring CCNE1 amplifications, FBXW7 deleterious mutations or PPP2R1A deleterious mutations, the lunresertib plus camonsertib cohort (n=59 [n=17, endometrial; n=13, colorectal; n=11, ovarian; n=3, breast; n=3, lung; n=12, other]) demonstrated an overall response rate of 23.6% in all evaluable patients across tumor types, with a 21.4% response rate in patients with PPP2R1A-mutated tumors and a 38.5% response rate in patients with gynecologic cancers across all dosages (Abstract: Yap, T. et al., Abstract# 35396. AACR-NCI-EORTC 2023. https://ir.reparerx.com/static-files/c46f541b-554a-4690-90de-e63fa7dea852).
 Cancer type: Endometrial Cancer
 Biomarkers: Oncogenic Mutations
-Therapy: Lunresertib,Camonsertib
+Therapy: Lunresertib, Camonsertib
 "
 "Approval level: LEVEL_3A
 Database: OncoKB
@@ -4400,7 +4400,7 @@ Database: OncoKB
 Description: Lunresertib is an orally available, small molecule PKMYT1 inhibitor and camonsertib is an orally available, small molecule ATR inhibitor. There are promising laboratory and anecdotal clinical data to support use of lunresertib plus camonsertib in patients with CCNE1-amplified solid tumors. In the Phase I MYTHIC (NCT04855656) trial of lunresertib plus camonsertib in patients with advanced tumors harboring CCNE1 amplifications, FBXW7 deleterious mutations or PPP2R1A deleterious mutations, the lunresertib plus camonsertib cohort (n=59 [n=17, endometrial; n=13, colorectal; n=11, ovarian; n=3, breast; n=3, lung; n=12, other]) demonstrated an overall response rate of 23.6% in all evaluable patients across tumor types (n=55), with a 33.3% response rate in patients with CCNE1-amplified tumors (n=18) and a confirmed partial response in a patient with CCNE1-amplified bile duct cancer (Abstract: Yap, T. et al., Abstract# 35396. AACR-NCI-EORTC 2023. https://ir.reparerx.com/static-files/c46f541b-554a-4690-90de-e63fa7dea852). Preclinical studies with ovarian and endometrial cancer cell lines and xenograft models expressing CCNE1 amplification demonstrate sensitivity to lunresertib plus camonsertib as measured by tumor regression and decreased cellular viability (PMID: 38410486) (Abstract: Gallo, D. et al., Abstract# B057, AACR 2023. https://aacrjournals.org/mct/article/22/12_Supplement/B057/730329/Abstract-B057-Preclinical-development-of-PKMYT1)(Abstract: Yap, T. et al., Abstract# B156, AACR-NCI-EORTC 2023. https://www.reparerx.com/wp-content/uploads/2023/10/ANE_B156_MYTHIC-clinical_poster.pdf).
 Cancer type: All Solid Tumors
 Biomarkers: Amplification
-Therapy: Lunresertib,Camonsertib
+Therapy: Lunresertib, Camonsertib
 "
 "Approval level: LEVEL_4
 Database: OncoKB
@@ -4470,7 +4470,7 @@ Database: OncoKB
 Description: Lunresertib is an orally available, small molecule PKMYT1 inhibitor and camonsertib is an orally available, small molecule ATR inhibitor. There are promising laboratory and anecdotal clinical data to support use of lunresertib plus camonsertib in patients with FBXW7-mutated solid tumors. In the Phase I MYTHIC (NCT04855656) trial of lunresertib plus camonsertib in patients with advanced tumors harboring CCNE1 amplifications, FBXW7 deleterious mutations or PPP2R1A deleterious mutations, the lunresertib plus camonsertib cohort (n=59 [n=17, endometrial; n=13, colorectal; n=11, ovarian; n=3, breast; n=3, lung; n=12, other]) demonstrated an overall response rate of 23.6% in all evaluable patients across tumor types (n=55), with a 17.4% response rate in patients with FBXW7-mutated tumors (n=23), a confirmed partial response (PR) in a patient with FBXW7-mutated colorectal cancer and an unconfirmed PR in a patient with FBXW7-mutated breast cancer (Abstract: Yap, T. et al., Abstract# 35396. AACR-NCI-EORTC 2023. https://ir.reparerx.com/static-files/c46f541b-554a-4690-90de-e63fa7dea852). Preclinical studies with ovarian and endometrial cancer cell lines and xenograft models expressing FBXW7 mutations demonstrate sensitivity to lunresertib plus camonsertib as measured by tumor regression and decreased cellular viability (PMID: 38410486) (Abstract: Gallo, D. et al., Abstract# B057, AACR 2023. https://aacrjournals.org/mct/article/22/12_Supplement/B057/730329/Abstract-B057-Preclinical-development-of-PKMYT1)(Abstract: Yap, T. et al., Abstract# B156, AACR-NCI-EORTC 2023. https://www.reparerx.com/wp-content/uploads/2023/10/ANE_B156_MYTHIC-clinical_poster.pdf).
 Cancer type: All Solid Tumors
 Biomarkers: Oncogenic Mutations
-Therapy: Lunresertib,Camonsertib
+Therapy: Lunresertib, Camonsertib
 "
 "Approval level: LEVEL_4
 Database: OncoKB
@@ -4526,7 +4526,7 @@ Database: OncoKB
 Description: Lunresertib is an orally available, small molecule PKMYT1 inhibitor and camonsertib is an orally available, small molecule ATR inhibitor. There are promising clinical data of response to lunresertib plus camonsertib in patients with PPP2R1A-mutated solid tumors. In the Phase I MYTHIC (NCT04855656) trial of lunresertib plus camonsertib in patients with advanced tumors harboring CCNE1 amplifications, FBXW7 deleterious mutations or PPP2R1A deleterious mutations, the lunresertib plus camonsertib cohort (n=59 [n=17, endometrial; n=13, colorectal; n=11, ovarian; n=3, breast; n=3, lung; n=12, other]) demonstrated an overall response rate of 23.6% in all evaluable patients (n=55) across tumor types, with a 21.4% response rate in patients with PPP2R1A-mutated tumors and a confirmed partial response in a patient with PPP2R1A-mutated cervical cancer (Abstract: Yap, T. et al., Abstract# 35396. AACR-NCI-EORTC 2023. https://ir.reparerx.com/static-files/c46f541b-554a-4690-90de-e63fa7dea852).
 Cancer type: All Solid Tumors
 Biomarkers: Oncogenic Mutations
-Therapy: Lunresertib,Camonsertib
+Therapy: Lunresertib, Camonsertib
 "
 "Approval level: LEVEL_4
 Database: OncoKB
@@ -4554,7 +4554,7 @@ Database: OncoKB
 Description: Bemcentinib is an inhibitor of the AXL receptor tyrosine kinase, and pembrolizumab is an anti-PD-1 antibody. In a phase II trial of bemcentinib + pembrolizumab in patients with advanced non-small cell lung cancer (NSCLC), three evaluable patients with STK11 mutations demonstrated objective clinical response/clinical benefit. Additionally, preclinical data shows that AXL inhibition increases the efficacy of checkpoint blockade in STK11-deficient tumor models (Abstract: Li et al. Abstract # 602, JITC 2021. https://jitc.bmj.com/content/9/Suppl_2/A632.altmetrics).
 Cancer type: Non-Small Cell Lung Cancer
 Biomarkers: Oncogenic Mutations
-Therapy: Bemcentinib,Pembrolizumab
+Therapy: Bemcentinib, Pembrolizumab
 "
 "Approval level: LEVEL_4
 Database: OncoKB

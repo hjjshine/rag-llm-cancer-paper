@@ -1,8 +1,8 @@
 [
     {
         "cancer_type": [
-            "b-lymphoblastic leukemia",
-            "lymphoma cancer"
+            "lymphoma cancer",
+            "b-lymphoblastic leukemia"
         ],
         "biomarker": []
     },
@@ -56,8 +56,8 @@
     },
     {
         "cancer_type": [
-            "nos cancer",
-            "low-grade glioma"
+            "low-grade glioma",
+            "nos cancer"
         ],
         "biomarker": []
     },
@@ -87,8 +87,8 @@
     },
     {
         "cancer_type": [
-            "nos cancer",
-            "low-grade glioma"
+            "low-grade glioma",
+            "nos cancer"
         ],
         "biomarker": [
             "v600"
@@ -119,8 +119,8 @@
             "melanoma cancer"
         ],
         "biomarker": [
-            "v600k",
-            "v600e"
+            "v600e",
+            "v600k"
         ]
     },
     {
@@ -272,11 +272,11 @@
             "non-small cell lung cancer cancer"
         ],
         "biomarker": [
-            "g815r",
-            "g776s",
-            "v777l",
+            "e717d",
             "l755a",
-            "e717d"
+            "v777l",
+            "g815r",
+            "g776s"
         ]
     },
     {
@@ -308,11 +308,11 @@
             "acute myeloid leukemia cancer"
         ],
         "biomarker": [
-            "r132l",
-            "r132s",
-            "r132c",
             "r132g",
-            "r132h"
+            "r132s",
+            "r132l",
+            "r132h",
+            "r132c"
         ]
     },
     {
@@ -320,11 +320,11 @@
             "intrahepatic cholangiocarcinoma cancer"
         ],
         "biomarker": [
-            "r132l",
-            "r132s",
-            "r132c",
             "r132g",
-            "r132h"
+            "r132s",
+            "r132l",
+            "r132h",
+            "r132c"
         ]
     },
     {
@@ -332,11 +332,11 @@
             "cholangiocarcinoma cancer"
         ],
         "biomarker": [
-            "r132l",
-            "r132s",
-            "r132c",
             "r132g",
-            "r132h"
+            "r132s",
+            "r132l",
+            "r132h",
+            "r132c"
         ]
     },
     {
@@ -344,11 +344,11 @@
             "myelodysplastic"
         ],
         "biomarker": [
-            "r132l",
-            "r132s",
-            "r132c",
             "r132g",
-            "r132h"
+            "r132s",
+            "r132l",
+            "r132h",
+            "r132c"
         ]
     },
     {
@@ -356,11 +356,11 @@
             "oligodendroglioma cancer"
         ],
         "biomarker": [
-            "r132l",
-            "r132s",
-            "r132c",
             "r132g",
-            "r132h"
+            "r132s",
+            "r132l",
+            "r132h",
+            "r132c"
         ]
     },
     {
@@ -368,11 +368,11 @@
             "astrocytoma cancer"
         ],
         "biomarker": [
-            "r132l",
-            "r132s",
-            "r132c",
             "r132g",
-            "r132h"
+            "r132s",
+            "r132l",
+            "r132h",
+            "r132c"
         ]
     },
     {
@@ -380,11 +380,11 @@
             "acute myeloid leukemia cancer"
         ],
         "biomarker": [
-            "r132l",
-            "r132s",
-            "r132c",
             "r132g",
-            "r132h"
+            "r132s",
+            "r132l",
+            "r132h",
+            "r132c"
         ]
     },
     {
@@ -392,15 +392,15 @@
             "acute myeloid leukemia cancer"
         ],
         "biomarker": [
-            "r172m",
-            "r140q",
-            "r140w",
-            "r172g",
-            "r172k",
-            "r140l",
-            "r172w",
             "r140g",
-            "r172s"
+            "r140l",
+            "r172s",
+            "r172k",
+            "r172g",
+            "r140w",
+            "r172w",
+            "r140q",
+            "r172m"
         ]
     },
     {
@@ -408,11 +408,11 @@
             "oligodendroglioma cancer"
         ],
         "biomarker": [
-            "r172m",
-            "r172g",
+            "r172s",
             "r172k",
+            "r172g",
             "r172w",
-            "r172s"
+            "r172m"
         ]
     },
     {
@@ -420,11 +420,11 @@
             "astrocytoma cancer"
         ],
         "biomarker": [
-            "r172m",
-            "r172g",
+            "r172s",
             "r172k",
+            "r172g",
             "r172w",
-            "r172s"
+            "r172m"
         ]
     },
     {
@@ -530,15 +530,15 @@
             "breast cancer cancer"
         ],
         "biomarker": [
-            "e545a",
-            "h1047l",
-            "e542k",
-            "e545d",
             "h1047y",
+            "e545g",
+            "e545a",
+            "e542k",
+            "h1047l",
             "h1047r",
+            "e545d",
             "c420r",
-            "e545k",
-            "e545g"
+            "e545k"
         ]
     },
     {
@@ -546,29 +546,29 @@
             "breast cancer cancer"
         ],
         "biomarker": [
-            "e545a",
-            "h1047l",
-            "e542k",
-            "e545d",
             "h1047y",
+            "e545g",
+            "e545a",
+            "e542k",
+            "h1047l",
             "h1047r",
+            "e545d",
             "c420r",
-            "e545k",
-            "e545g"
+            "e545k"
         ]
     },
     {
         "cancer_type": [
-            "b-lymphoblastic leukemia",
-            "lymphoma cancer"
+            "lymphoma cancer",
+            "b-lymphoblastic leukemia"
         ],
         "biomarker": [
-            "f317c",
-            "f317v",
             "v299l",
-            "f317i",
+            "f317v",
+            "t315a",
+            "f317c",
             "f317l",
-            "t315a"
+            "f317i"
         ]
     },
     {
@@ -576,18 +576,18 @@
             "chronic myelogenous leukemia cancer"
         ],
         "biomarker": [
-            "f317c",
-            "f317v",
             "v299l",
-            "f317i",
+            "f317v",
+            "t315a",
+            "f317c",
             "f317l",
-            "t315a"
+            "f317i"
         ]
     },
     {
         "cancer_type": [
-            "b-lymphoblastic leukemia",
-            "lymphoma cancer"
+            "lymphoma cancer",
+            "b-lymphoblastic leukemia"
         ],
         "biomarker": []
     },
@@ -599,8 +599,8 @@
     },
     {
         "cancer_type": [
-            "b-lymphoblastic leukemia",
-            "lymphoma cancer"
+            "lymphoma cancer",
+            "b-lymphoblastic leukemia"
         ],
         "biomarker": []
     },
@@ -919,10 +919,10 @@
             "melanoma cancer"
         ],
         "biomarker": [
-            "v654a",
+            "v560d",
             "v559a",
             "k642e",
-            "v560d"
+            "v654a"
         ]
     },
     {
@@ -1080,17 +1080,17 @@
             "breast cancer cancer"
         ],
         "biomarker": [
-            "e545a",
-            "q546r",
-            "h1047l",
-            "e542k",
-            "e545d",
             "h1047y",
-            "h1047r",
-            "c420r",
-            "e545k",
             "e545g",
-            "q546e"
+            "e545a",
+            "e542k",
+            "q546e",
+            "h1047l",
+            "e545d",
+            "h1047r",
+            "q546r",
+            "c420r",
+            "e545k"
         ]
     },
     {
@@ -1116,8 +1116,8 @@
             "small bowel cancer cancer"
         ],
         "biomarker": [
-            "s478n",
-            "l474p"
+            "l474p",
+            "s478n"
         ]
     },
     {
@@ -1125,8 +1125,8 @@
             "colorectal cancer cancer"
         ],
         "biomarker": [
-            "s478n",
-            "l474p"
+            "l474p",
+            "s478n"
         ]
     },
     {
@@ -1134,32 +1134,32 @@
             "small bowel cancer cancer"
         ],
         "biomarker": [
-            "e318k",
-            "s478n",
             "d402n",
-            "l474p"
-        ]
-    },
-    {
-        "cancer_type": [
-            "colorectal cancer cancer"
-        ],
-        "biomarker": [
+            "l474p",
             "e318k",
-            "s478n",
-            "d402n",
-            "l474p"
+            "s478n"
         ]
     },
     {
         "cancer_type": [
-            "small bowel cancer cancer"
+            "colorectal cancer cancer"
         ],
         "biomarker": [
+            "d402n",
+            "l474p",
             "e318k",
-            "s478n",
+            "s478n"
+        ]
+    },
+    {
+        "cancer_type": [
+            "small bowel cancer cancer"
+        ],
+        "biomarker": [
             "d402n",
-            "l474p"
+            "l474p",
+            "e318k",
+            "s478n"
         ]
     },
     {
@@ -1167,25 +1167,25 @@
             "colorectal cancer cancer"
         ],
         "biomarker": [
-            "p286r",
-            "v464a",
-            "v411l",
-            "p286l",
-            "s461t",
-            "p286s",
-            "s461p",
-            "s459f",
             "l424v",
-            "f367l",
-            "k425r",
+            "v464a",
             "l424i",
             "p436r",
-            "f367s",
-            "p286h",
             "s461l",
+            "p286h",
+            "k425r",
+            "s459f",
+            "s461p",
+            "f367s",
+            "s461t",
+            "p286l",
             "p436s",
+            "p286r",
+            "v411l",
             "p436h",
-            "v411m"
+            "v411m",
+            "f367l",
+            "p286s"
         ]
     },
     {
@@ -1193,26 +1193,26 @@
             "small bowel cancer cancer"
         ],
         "biomarker": [
-            "p286r",
-            "v464a",
-            "v411l",
-            "p286l",
-            "s461t",
-            "p286s",
-            "s461p",
-            "s459f",
             "l424v",
-            "f367l",
-            "k425r",
+            "v464a",
             "l424i",
             "p436r",
-            "f367s",
-            "p286h",
             "s461l",
+            "p286h",
+            "k425r",
+            "s459f",
+            "s461p",
+            "f367s",
+            "s461t",
+            "p286l",
             "p436s",
-            "s297f",
+            "p286r",
+            "v411l",
             "p436h",
-            "v411m"
+            "v411m",
+            "f367l",
+            "s297f",
+            "p286s"
         ]
     },
     {
@@ -1220,25 +1220,25 @@
             "colorectal cancer cancer"
         ],
         "biomarker": [
-            "p286r",
-            "v464a",
-            "v411l",
-            "p286l",
-            "s461t",
-            "p286s",
-            "s461p",
-            "s459f",
             "l424v",
-            "f367l",
-            "k425r",
+            "v464a",
             "l424i",
             "p436r",
-            "f367s",
-            "p286h",
             "s461l",
+            "p286h",
+            "k425r",
+            "s459f",
+            "s461p",
+            "f367s",
+            "s461t",
+            "p286l",
             "p436s",
+            "p286r",
+            "v411l",
             "p436h",
-            "v411m"
+            "v411m",
+            "f367l",
+            "p286s"
         ]
     },
     {
@@ -1246,26 +1246,26 @@
             "small bowel cancer cancer"
         ],
         "biomarker": [
-            "p286r",
-            "v464a",
-            "v411l",
-            "p286l",
-            "s461t",
-            "p286s",
-            "s461p",
-            "s459f",
             "l424v",
-            "f367l",
-            "k425r",
+            "v464a",
             "l424i",
             "p436r",
-            "f367s",
-            "p286h",
             "s461l",
+            "p286h",
+            "k425r",
+            "s459f",
+            "s461p",
+            "f367s",
+            "s461t",
+            "p286l",
             "p436s",
-            "s297f",
+            "p286r",
+            "v411l",
             "p436h",
-            "v411m"
+            "v411m",
+            "f367l",
+            "s297f",
+            "p286s"
         ]
     },
     {
@@ -1273,25 +1273,25 @@
             "colorectal cancer cancer"
         ],
         "biomarker": [
-            "p286r",
-            "v464a",
-            "v411l",
-            "p286l",
-            "s461t",
-            "p286s",
-            "s461p",
-            "s459f",
             "l424v",
-            "f367l",
-            "k425r",
+            "v464a",
             "l424i",
             "p436r",
-            "f367s",
-            "p286h",
             "s461l",
+            "p286h",
+            "k425r",
+            "s459f",
+            "s461p",
+            "f367s",
+            "s461t",
+            "p286l",
             "p436s",
+            "p286r",
+            "v411l",
             "p436h",
-            "v411m"
+            "v411m",
+            "f367l",
+            "p286s"
         ]
     },
     {
@@ -1299,26 +1299,26 @@
             "small bowel cancer cancer"
         ],
         "biomarker": [
-            "p286r",
-            "v464a",
-            "v411l",
-            "p286l",
-            "s461t",
-            "p286s",
-            "s461p",
-            "s459f",
             "l424v",
-            "f367l",
-            "k425r",
+            "v464a",
             "l424i",
             "p436r",
-            "f367s",
-            "p286h",
             "s461l",
+            "p286h",
+            "k425r",
+            "s459f",
+            "s461p",
+            "f367s",
+            "s461t",
+            "p286l",
             "p436s",
-            "s297f",
+            "p286r",
+            "v411l",
             "p436h",
-            "v411m"
+            "v411m",
+            "f367l",
+            "s297f",
+            "p286s"
         ]
     },
     {
@@ -1326,26 +1326,26 @@
             "colorectal cancer cancer"
         ],
         "biomarker": [
-            "p286r",
-            "v464a",
-            "v411l",
-            "p286l",
-            "s461t",
-            "p286s",
-            "s461p",
-            "s459f",
             "l424v",
-            "f367l",
-            "k425r",
+            "v464a",
             "l424i",
             "p436r",
-            "f367s",
-            "p286h",
             "s461l",
+            "p286h",
+            "k425r",
+            "s459f",
+            "s461p",
+            "f367s",
+            "s461t",
+            "p286l",
             "p436s",
-            "s297f",
+            "p286r",
+            "v411l",
             "p436h",
-            "v411m"
+            "v411m",
+            "f367l",
+            "s297f",
+            "p286s"
         ]
     },
     {
@@ -1353,26 +1353,26 @@
             "small bowel cancer cancer"
         ],
         "biomarker": [
-            "p286r",
-            "v464a",
-            "v411l",
-            "p286l",
-            "s461t",
-            "p286s",
-            "s461p",
-            "s459f",
             "l424v",
-            "f367l",
-            "k425r",
+            "v464a",
             "l424i",
             "p436r",
-            "f367s",
-            "p286h",
             "s461l",
+            "p286h",
+            "k425r",
+            "s459f",
+            "s461p",
+            "f367s",
+            "s461t",
+            "p286l",
             "p436s",
-            "s297f",
+            "p286r",
+            "v411l",
             "p436h",
-            "v411m"
+            "v411m",
+            "f367l",
+            "s297f",
+            "p286s"
         ]
     },
     {
@@ -1490,8 +1490,8 @@
             "non-small cell lung cancer cancer"
         ],
         "biomarker": [
-            "s768i",
             "l858r",
+            "s768i",
             "g719"
         ]
     },
@@ -1612,11 +1612,11 @@
             "non-small cell lung cancer cancer"
         ],
         "biomarker": [
+            "g12d",
             "g12r",
-            "g12a",
             "g12v",
-            "g12s",
-            "g12d"
+            "g12a",
+            "g12s"
         ]
     },
     {
@@ -1624,11 +1624,11 @@
             "pancreatic adenocarcinoma cancer"
         ],
         "biomarker": [
+            "g12d",
             "g12r",
-            "g12a",
             "g12v",
-            "g12s",
-            "g12d"
+            "g12a",
+            "g12s"
         ]
     },
     {
@@ -1682,9 +1682,9 @@
     },
     {
         "cancer_type": [
-            "stomach cancer",
+            "gastrointestinal neuroendocrine tumors",
             "esophagus",
-            "gastrointestinal neuroendocrine tumors"
+            "stomach cancer"
         ],
         "biomarker": [
             "g12c"
@@ -1787,10 +1787,10 @@
             "all solid tumors cancer"
         ],
         "biomarker": [
-            "g469v",
-            "g464",
             "g469r",
-            "g469a"
+            "g464",
+            "g469a",
+            "g469v"
         ]
     },
     {
@@ -1900,11 +1900,11 @@
             "all solid tumors cancer"
         ],
         "biomarker": [
+            "g12d",
             "g12r",
-            "g12a",
             "g12v",
-            "g12s",
-            "g12d"
+            "g12a",
+            "g12s"
         ]
     },
     {
@@ -1947,8 +1947,8 @@
             "non-small cell lung cancer cancer"
         ],
         "biomarker": [
-            "h1106d",
-            "v1092i"
+            "v1092i",
+            "h1106d"
         ]
     },
     {
@@ -2005,93 +2005,71 @@
         "cancer_type": [
             "breast cancer cancer"
         ],
-        "biomarker": []
-    },
-    {
-        "cancer_type": [
-            "b-lymphoblastic leukemia",
-            "lymphoma cancer"
-        ],
-        "biomarker": []
-    },
-    {
-        "cancer_type": [
-            "chronic myelogenous leukemia cancer"
-        ],
-        "biomarker": []
-    },
-    {
-        "cancer_type": [
-            "b-lymphoblastic leukemia",
-            "lymphoma cancer"
-        ],
-        "biomarker": []
-    },
-    {
-        "cancer_type": [
-            "chronic myelogenous leukemia cancer"
-        ],
-        "biomarker": []
-    },
-    {
-        "cancer_type": [
-            "b-lymphoblastic leukemia",
-            "lymphoma cancer"
-        ],
-        "biomarker": []
-    },
-    {
-        "cancer_type": [
-            "chronic myelogenous leukemia cancer"
-        ],
-        "biomarker": []
-    },
-    {
-        "cancer_type": [
-            "b-lymphoblastic leukemia",
-            "lymphoma cancer"
-        ],
-        "biomarker": []
-    },
-    {
-        "cancer_type": [
-            "chronic myelogenous leukemia cancer"
-        ],
-        "biomarker": []
-    },
-    {
-        "cancer_type": [
-            "b-lymphoblastic leukemia",
-            "lymphoma cancer"
-        ],
         "biomarker": [
-            "g250e",
-            "f317l",
-            "v299l"
+            "rly-2608"
         ]
     },
     {
         "cancer_type": [
-            "chronic myelogenous leukemia cancer"
+            "lymphoma cancer",
+            "b-lymphoblastic leukemia"
         ],
-        "biomarker": [
-            "g250e",
-            "f317l",
-            "v299l"
-        ]
+        "biomarker": []
     },
     {
         "cancer_type": [
-            "b-lymphoblastic leukemia",
-            "lymphoma cancer"
+            "chronic myelogenous leukemia cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "lymphoma cancer",
+            "b-lymphoblastic leukemia"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "chronic myelogenous leukemia cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "lymphoma cancer",
+            "b-lymphoblastic leukemia"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "chronic myelogenous leukemia cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "lymphoma cancer",
+            "b-lymphoblastic leukemia"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "chronic myelogenous leukemia cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "lymphoma cancer",
+            "b-lymphoblastic leukemia"
         ],
         "biomarker": [
-            "f317c",
-            "f317v",
+            "g250e",
             "v299l",
-            "f317i",
-            "f317l",
-            "t315a"
+            "f317l"
         ]
     },
     {
@@ -2099,32 +2077,56 @@
             "chronic myelogenous leukemia cancer"
         ],
         "biomarker": [
-            "f317c",
-            "f317v",
+            "g250e",
             "v299l",
-            "f317i",
-            "f317l",
-            "t315a"
+            "f317l"
         ]
     },
     {
         "cancer_type": [
-            "b-lymphoblastic leukemia",
-            "lymphoma cancer"
+            "lymphoma cancer",
+            "b-lymphoblastic leukemia"
+        ],
+        "biomarker": [
+            "v299l",
+            "f317v",
+            "t315a",
+            "f317c",
+            "f317l",
+            "f317i"
+        ]
+    },
+    {
+        "cancer_type": [
+            "chronic myelogenous leukemia cancer"
+        ],
+        "biomarker": [
+            "v299l",
+            "f317v",
+            "t315a",
+            "f317c",
+            "f317l",
+            "f317i"
+        ]
+    },
+    {
+        "cancer_type": [
+            "lymphoma cancer",
+            "b-lymphoblastic leukemia"
         ],
         "biomarker": [
             "g250e",
+            "f359v",
+            "f359c",
+            "f359i",
+            "v299l",
             "e255k",
-            "f359i",
-            "f317l",
-            "f317c",
             "f317v",
-            "f359v",
             "e255v",
-            "f359c",
-            "f317i",
-            "v299l",
-            "t315a"
+            "t315a",
+            "f317c",
+            "f317l",
+            "f317i"
         ]
     },
     {
@@ -2133,22 +2135,22 @@
         ],
         "biomarker": [
             "g250e",
-            "y253h",
-            "f359i",
-            "f317l",
-            "f317c",
-            "f317v",
             "f359v",
             "f359c",
-            "f317i",
             "v299l",
-            "t315a"
+            "f359i",
+            "f317v",
+            "t315a",
+            "f317c",
+            "f317l",
+            "y253h",
+            "f317i"
         ]
     },
     {
         "cancer_type": [
-            "b-lymphoblastic leukemia",
-            "lymphoma cancer"
+            "lymphoma cancer",
+            "b-lymphoblastic leukemia"
         ],
         "biomarker": []
     },
@@ -2716,8 +2718,8 @@
     },
     {
         "cancer_type": [
-            "nos cancer",
-            "low-grade glioma"
+            "low-grade glioma",
+            "nos cancer"
         ],
         "biomarker": []
     },
@@ -2726,11 +2728,11 @@
             "myeloid / lymphoid neoplasms"
         ],
         "biomarker": [
-            "pdgfrb",
-            "pcm1",
-            "fgfr1",
             "pdgfra",
-            "jak2"
+            "pdgfrb",
+            "fgfr1",
+            "jak2",
+            "pcm1"
         ]
     },
     {
@@ -2759,8 +2761,8 @@
     },
     {
         "cancer_type": [
-            "b-lymphoblastic leukemia",
-            "lymphoma cancer"
+            "lymphoma cancer",
+            "b-lymphoblastic leukemia"
         ],
         "biomarker": []
     },
@@ -2808,15 +2810,15 @@
     },
     {
         "cancer_type": [
-            "myelodysplastic",
-            "myeloproliferative neoplasms cancer"
+            "myeloproliferative neoplasms cancer",
+            "myelodysplastic"
         ],
         "biomarker": []
     },
     {
         "cancer_type": [
-            "myelodysplastic",
-            "myeloproliferative neoplasms cancer"
+            "myeloproliferative neoplasms cancer",
+            "myelodysplastic"
         ],
         "biomarker": []
     },
@@ -2882,8 +2884,8 @@
     },
     {
         "cancer_type": [
-            "b-lymphoblastic leukemia",
-            "lymphoma cancer"
+            "lymphoma cancer",
+            "b-lymphoblastic leukemia"
         ],
         "biomarker": [
             "bcr-abl1"
@@ -2894,14 +2896,14 @@
             "chronic myelogenous leukemia cancer"
         ],
         "biomarker": [
-            "abl1",
-            "bcr"
+            "bcr",
+            "abl1"
         ]
     },
     {
         "cancer_type": [
-            "b-lymphoblastic leukemia",
-            "lymphoma cancer"
+            "lymphoma cancer",
+            "b-lymphoblastic leukemia"
         ],
         "biomarker": [
             "bcr-abl1"
@@ -2912,8 +2914,8 @@
             "chronic myelogenous leukemia cancer"
         ],
         "biomarker": [
-            "abl1",
-            "bcr"
+            "bcr",
+            "abl1"
         ]
     },
     {
@@ -2921,8 +2923,8 @@
             "chronic myelogenous leukemia cancer"
         ],
         "biomarker": [
-            "abl1",
-            "bcr"
+            "bcr",
+            "abl1"
         ]
     },
     {
@@ -2930,8 +2932,8 @@
             "chronic myelogenous leukemia cancer"
         ],
         "biomarker": [
-            "abl1",
-            "bcr"
+            "bcr",
+            "abl1"
         ]
     },
     {
@@ -2939,14 +2941,14 @@
             "chronic myelogenous leukemia cancer"
         ],
         "biomarker": [
-            "abl1",
-            "bcr"
+            "bcr",
+            "abl1"
         ]
     },
     {
         "cancer_type": [
-            "b-lymphoblastic leukemia",
-            "lymphoma cancer"
+            "lymphoma cancer",
+            "b-lymphoblastic leukemia"
         ],
         "biomarker": [
             "bcr"
@@ -2957,8 +2959,8 @@
             "dermatofibrosarcoma protuberans cancer"
         ],
         "biomarker": [
-            "col1a1",
-            "pdgfb"
+            "pdgfb",
+            "col1a1"
         ]
     },
     {
@@ -3098,11 +3100,11 @@
             "myeloid / lymphoid neoplasms"
         ],
         "biomarker": [
-            "pdgfrb",
-            "pcm1",
-            "fgfr1",
             "pdgfra",
-            "jak2"
+            "pdgfrb",
+            "fgfr1",
+            "jak2",
+            "pcm1"
         ]
     },
     {
@@ -3110,11 +3112,11 @@
             "myeloid / lymphoid neoplasms"
         ],
         "biomarker": [
-            "pdgfrb",
-            "pcm1",
-            "fgfr1",
             "pdgfra",
-            "jak2"
+            "pdgfrb",
+            "fgfr1",
+            "jak2",
+            "pcm1"
         ]
     },
     {
@@ -3161,8 +3163,8 @@
     },
     {
         "cancer_type": [
-            "b-lymphoblastic leukemia",
-            "lymphoma cancer"
+            "lymphoma cancer",
+            "b-lymphoblastic leukemia"
         ],
         "biomarker": [
             "bcr-abl1"
@@ -3170,12 +3172,12 @@
     },
     {
         "cancer_type": [
-            "b-lymphoblastic leukemia",
-            "lymphoma cancer"
+            "lymphoma cancer",
+            "b-lymphoblastic leukemia"
         ],
         "biomarker": [
-            "abl1",
-            "bcr"
+            "bcr",
+            "abl1"
         ]
     },
     {
@@ -3327,26 +3329,26 @@
             "ewing sarcoma cancer"
         ],
         "biomarker": [
+            "ewsr1",
             "tk216",
-            "fli1",
-            "ewsr1"
+            "fli1"
         ]
     },
     {
         "cancer_type": [
-            "soft tissue cancer",
-            "ewing sarcoma"
+            "ewing sarcoma",
+            "soft tissue cancer"
         ],
         "biomarker": [
+            "ewsr1",
             "tk216",
-            "fli1",
-            "ewsr1"
+            "fli1"
         ]
     },
     {
         "cancer_type": [
-            "nos cancer",
-            "prostate cancer"
+            "prostate cancer",
+            "nos cancer"
         ],
         "biomarker": []
     },
@@ -3358,8 +3360,8 @@
     },
     {
         "cancer_type": [
-            "nos cancer",
-            "prostate cancer"
+            "prostate cancer",
+            "nos cancer"
         ],
         "biomarker": []
     },
@@ -3371,8 +3373,8 @@
     },
     {
         "cancer_type": [
-            "nos cancer",
-            "prostate cancer"
+            "prostate cancer",
+            "nos cancer"
         ],
         "biomarker": []
     },
@@ -3384,149 +3386,8 @@
     },
     {
         "cancer_type": [
-            "nos cancer",
-            "prostate cancer"
-        ],
-        "biomarker": []
-    },
-    {
-        "cancer_type": [
-            "prostate cancer cancer"
-        ],
-        "biomarker": []
-    },
-    {
-        "cancer_type": [
-            "ovarian cancer cancer"
-        ],
-        "biomarker": []
-    },
-    {
-        "cancer_type": [
-            "fallopian tube cancer",
-            "ovary /"
-        ],
-        "biomarker": []
-    },
-    {
-        "cancer_type": [
-            "peritoneal serous carcinoma cancer"
-        ],
-        "biomarker": []
-    },
-    {
-        "cancer_type": [
-            "nos cancer",
-            "prostate cancer"
-        ],
-        "biomarker": []
-    },
-    {
-        "cancer_type": [
-            "prostate cancer cancer"
-        ],
-        "biomarker": []
-    },
-    {
-        "cancer_type": [
-            "ovarian cancer cancer"
-        ],
-        "biomarker": []
-    },
-    {
-        "cancer_type": [
-            "ovary",
-            "fallopian tube cancer"
-        ],
-        "biomarker": []
-    },
-    {
-        "cancer_type": [
-            "peritoneal serous carcinoma cancer"
-        ],
-        "biomarker": []
-    },
-    {
-        "cancer_type": [
-            "nos cancer",
-            "prostate cancer"
-        ],
-        "biomarker": []
-    },
-    {
-        "cancer_type": [
-            "prostate cancer cancer"
-        ],
-        "biomarker": []
-    },
-    {
-        "cancer_type": [
-            "nos cancer",
-            "prostate cancer"
-        ],
-        "biomarker": []
-    },
-    {
-        "cancer_type": [
-            "prostate cancer cancer"
-        ],
-        "biomarker": []
-    },
-    {
-        "cancer_type": [
-            "ovarian cancer cancer"
-        ],
-        "biomarker": []
-    },
-    {
-        "cancer_type": [
-            "ovary",
-            "fallopian tube cancer"
-        ],
-        "biomarker": []
-    },
-    {
-        "cancer_type": [
-            "peritoneal serous carcinoma cancer"
-        ],
-        "biomarker": []
-    },
-    {
-        "cancer_type": [
-            "ovarian cancer cancer"
-        ],
-        "biomarker": []
-    },
-    {
-        "cancer_type": [
-            "fallopian tube cancer",
-            "ovary /"
-        ],
-        "biomarker": []
-    },
-    {
-        "cancer_type": [
-            "peritoneal serous carcinoma cancer"
-        ],
-        "biomarker": []
-    },
-    {
-        "cancer_type": [
-            "nos cancer",
-            "prostate cancer"
-        ],
-        "biomarker": []
-    },
-    {
-        "cancer_type": [
-            "prostate cancer cancer"
-        ],
-        "biomarker": []
-    },
-    {
-        "cancer_type": [
-            "nos cancer",
-            "prostate cancer"
+            "prostate cancer",
+            "nos cancer"
         ],
         "biomarker": []
     },
@@ -3557,8 +3418,8 @@
     },
     {
         "cancer_type": [
-            "nos cancer",
-            "prostate cancer"
+            "prostate cancer",
+            "nos cancer"
         ],
         "biomarker": []
     },
@@ -3576,8 +3437,8 @@
     },
     {
         "cancer_type": [
-            "ovary",
-            "fallopian tube cancer"
+            "fallopian tube cancer",
+            "ovary"
         ],
         "biomarker": []
     },
@@ -3589,8 +3450,8 @@
     },
     {
         "cancer_type": [
-            "nos cancer",
-            "prostate cancer"
+            "prostate cancer",
+            "nos cancer"
         ],
         "biomarker": []
     },
@@ -3602,8 +3463,8 @@
     },
     {
         "cancer_type": [
-            "nos cancer",
-            "prostate cancer"
+            "prostate cancer",
+            "nos cancer"
         ],
         "biomarker": []
     },
@@ -3621,8 +3482,8 @@
     },
     {
         "cancer_type": [
-            "ovary",
-            "fallopian tube cancer"
+            "fallopian tube cancer",
+            "ovary"
         ],
         "biomarker": []
     },
@@ -3634,8 +3495,27 @@
     },
     {
         "cancer_type": [
-            "nos cancer",
-            "prostate cancer"
+            "ovarian cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "fallopian tube cancer",
+            "ovary /"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "peritoneal serous carcinoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "prostate cancer",
+            "nos cancer"
         ],
         "biomarker": []
     },
@@ -3647,8 +3527,8 @@
     },
     {
         "cancer_type": [
-            "nos cancer",
-            "prostate cancer"
+            "prostate cancer",
+            "nos cancer"
         ],
         "biomarker": []
     },
@@ -3660,8 +3540,27 @@
     },
     {
         "cancer_type": [
-            "nos cancer",
-            "prostate cancer"
+            "ovarian cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "fallopian tube cancer",
+            "ovary /"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "peritoneal serous carcinoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "prostate cancer",
+            "nos cancer"
         ],
         "biomarker": []
     },
@@ -3673,8 +3572,27 @@
     },
     {
         "cancer_type": [
-            "nos cancer",
-            "prostate cancer"
+            "ovarian cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "fallopian tube cancer",
+            "ovary"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "peritoneal serous carcinoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "prostate cancer",
+            "nos cancer"
         ],
         "biomarker": []
     },
@@ -3686,8 +3604,8 @@
     },
     {
         "cancer_type": [
-            "nos cancer",
-            "prostate cancer"
+            "prostate cancer",
+            "nos cancer"
         ],
         "biomarker": []
     },
@@ -3699,8 +3617,27 @@
     },
     {
         "cancer_type": [
-            "nos cancer",
-            "prostate cancer"
+            "ovarian cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "fallopian tube cancer",
+            "ovary"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "peritoneal serous carcinoma cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "prostate cancer",
+            "nos cancer"
         ],
         "biomarker": []
     },
@@ -3712,8 +3649,8 @@
     },
     {
         "cancer_type": [
-            "nos cancer",
-            "prostate cancer"
+            "prostate cancer",
+            "nos cancer"
         ],
         "biomarker": []
     },
@@ -3725,8 +3662,73 @@
     },
     {
         "cancer_type": [
-            "nos cancer",
-            "prostate cancer"
+            "prostate cancer",
+            "nos cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "prostate cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "prostate cancer",
+            "nos cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "prostate cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "prostate cancer",
+            "nos cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "prostate cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "prostate cancer",
+            "nos cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "prostate cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "prostate cancer",
+            "nos cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "prostate cancer cancer"
+        ],
+        "biomarker": []
+    },
+    {
+        "cancer_type": [
+            "prostate cancer",
+            "nos cancer"
         ],
         "biomarker": []
     },
@@ -3828,8 +3830,8 @@
     },
     {
         "cancer_type": [
-            "nos cancer",
-            "prostate cancer"
+            "prostate cancer",
+            "nos cancer"
         ],
         "biomarker": []
     },
@@ -3841,8 +3843,8 @@
     },
     {
         "cancer_type": [
-            "nos cancer",
-            "prostate cancer"
+            "prostate cancer",
+            "nos cancer"
         ],
         "biomarker": []
     },
@@ -3854,8 +3856,8 @@
     },
     {
         "cancer_type": [
-            "nos cancer",
-            "prostate cancer"
+            "prostate cancer",
+            "nos cancer"
         ],
         "biomarker": []
     },
@@ -3867,8 +3869,8 @@
     },
     {
         "cancer_type": [
-            "nos cancer",
-            "prostate cancer"
+            "prostate cancer",
+            "nos cancer"
         ],
         "biomarker": []
     },
@@ -3880,8 +3882,8 @@
     },
     {
         "cancer_type": [
-            "nos cancer",
-            "prostate cancer"
+            "prostate cancer",
+            "nos cancer"
         ],
         "biomarker": []
     },
@@ -3905,8 +3907,8 @@
     },
     {
         "cancer_type": [
-            "nos cancer",
-            "prostate cancer"
+            "prostate cancer",
+            "nos cancer"
         ],
         "biomarker": []
     },
@@ -3918,8 +3920,8 @@
     },
     {
         "cancer_type": [
-            "nos cancer",
-            "prostate cancer"
+            "prostate cancer",
+            "nos cancer"
         ],
         "biomarker": []
     },
@@ -3937,8 +3939,8 @@
     },
     {
         "cancer_type": [
-            "nos cancer",
-            "prostate cancer"
+            "prostate cancer",
+            "nos cancer"
         ],
         "biomarker": []
     },
@@ -3950,8 +3952,8 @@
     },
     {
         "cancer_type": [
-            "nos cancer",
-            "prostate cancer"
+            "prostate cancer",
+            "nos cancer"
         ],
         "biomarker": []
     },
@@ -3963,8 +3965,8 @@
     },
     {
         "cancer_type": [
-            "nos cancer",
-            "prostate cancer"
+            "prostate cancer",
+            "nos cancer"
         ],
         "biomarker": []
     },
@@ -3976,8 +3978,8 @@
     },
     {
         "cancer_type": [
-            "nos cancer",
-            "prostate cancer"
+            "prostate cancer",
+            "nos cancer"
         ],
         "biomarker": []
     },
@@ -4007,8 +4009,8 @@
     },
     {
         "cancer_type": [
-            "acinar cell carcinoma",
-            "pancreas cancer"
+            "pancreas cancer",
+            "acinar cell carcinoma"
         ],
         "biomarker": []
     },
@@ -4026,8 +4028,8 @@
     },
     {
         "cancer_type": [
-            "acinar cell carcinoma",
-            "pancreas cancer"
+            "pancreas cancer",
+            "acinar cell carcinoma"
         ],
         "biomarker": []
     },
@@ -4051,8 +4053,8 @@
     },
     {
         "cancer_type": [
-            "uterine serous carcinoma",
-            "uterine papillary serous carcinoma cancer"
+            "uterine papillary serous carcinoma cancer",
+            "uterine serous carcinoma"
         ],
         "biomarker": []
     },
@@ -4154,8 +4156,8 @@
     },
     {
         "cancer_type": [
-            "acinar cell carcinoma",
-            "pancreas cancer"
+            "pancreas cancer",
+            "acinar cell carcinoma"
         ],
         "biomarker": []
     },
@@ -4167,8 +4169,8 @@
     },
     {
         "cancer_type": [
-            "acinar cell carcinoma",
-            "pancreas cancer"
+            "pancreas cancer",
+            "acinar cell carcinoma"
         ],
         "biomarker": []
     },
@@ -4192,8 +4194,8 @@
     },
     {
         "cancer_type": [
-            "acinar cell carcinoma",
-            "pancreas cancer"
+            "pancreas cancer",
+            "acinar cell carcinoma"
         ],
         "biomarker": []
     },
