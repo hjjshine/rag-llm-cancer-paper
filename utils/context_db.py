@@ -89,7 +89,7 @@ def create_context(db: dict) -> str:
     else:
         therapy_str = db['therapy'][0]
         
-    context=f"If a patient with {db['modified_standardized_cancer']} cancer has {biomarker_str.lower()}, one recommended therapy is {therapy_str.lower()}."
+    context=f"if a patient with {db['modified_standardized_cancer']} has {biomarker_str.lower()}, one recommended therapy is {therapy_str.lower()}."
     
     return context
 

@@ -113,7 +113,7 @@ def run_RAG(i, entry, model_cfg, retrieval_cfg) -> Tuple[Optional[str], str]:
         })
         
     else:
-        retrieved_chunk=retrieve_context(
+        retrieved_chunk, _, _=retrieve_context(
             context_chunks, 
             user_query, 
             client, 
@@ -270,7 +270,7 @@ def main(args):
         db_entity=_DB_ENTITY,
         query_entity=_QUERY_ENTITY,
         index=_INDEX,
-        num_vec=10
+        num_vec=25
     )
 
     runner = PipelineRunner(model_cfg, retrieval_cfg)

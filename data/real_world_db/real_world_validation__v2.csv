@@ -1,0 +1,22 @@
+,prompt,cancer_category,cancer_type,biomarker,dataset
+0,what is the first-line treatment of metastatic urothelial carcinoma with fgfr3 s249c mutation?,GU,"['urothelial carcinoma', 'metastatic']",['fgfr3'],validation
+1,are parp inhibitors used for patients with leiomyosarcoma who have mutations in dna damage repair genes?,Sarcoma,['leiomyosarcoma'],"['dna', 'parp']",validation
+2,are alk inhibitors approved for use in tfcp2 fusion positive rhabdomyosarcoma?,Sarcoma,['rhabdomyosarcoma'],"['alk', 'tfcp2']",validation
+3,"for a patient with cancer metastatic prostate cancer, advanced stage (most often stage iv, but some stage iii or earlier potentially) and with brca2 mutation, what drugs approved?",GU,"['prostate cancer', 'cancer']",['brca2'],validation
+4,"for a patient with her2+ breast cancer after neoadjvuant chemotherapy + trastuzumab then surgery, if residual disease at time of surgery, what treatment options are approved afterwards?",Breast,"['breast cancer', 'disease']",['her2'],validation
+5,"for patients with advanced cancer and with ntrk fusions, regardless of cancer types, are there drugs approved?",Unspecified,['cancer'],['ntrk'],validation
+6,"for patients with advanced cancer and with high tmb, regardless of cancer types, are there drugs approved?",Unspecified,['cancer'],[],validation
+7,what fda-approved therapies exist for a stage iv pancreatic ductal adenocarcinoma patient with a ntrk mutation,GI,['pancreatic ductal adenocarcinoma'],"['ntrk', 'fda']",validation
+8,what are available fda-approved targeted therapies in patients with fgfr2 mutated bladder cancer? in which disease setting are they approved (metastatic disease only or peri-operative)?,GU,['bladder cancer'],"['fgfr2', 'fda']",validation
+9,"a patient with localized ewing sarcoma has a stag2 mutation, and has just relapsed. what are reasonable relapse regimens to consider?",Sarcoma,"['ewing sarcoma', 'localized']",['stag2'],validation
+10,"a patient with relapsed high-risk neuroblastoma has alk mutation x. should they receive an alk inhibitor, and if so, which one?",CNS,['high-risk neuroblastoma'],['alk'],validation
+11,"i have a 3 year old patient with neuroblastoma in the setting of a germline bard1 mutation, is there any evidence for a treatment that this patient would be particularly susceptible to?",CNS,['neuroblastoma'],['bard1'],validation
+12,"my 20 year old patient with alk mutated neuroblastoma has failed therapy with broad chemotherapy, radiation, and an alk inhibitor. what is a good next line and what evidence supports this choice?",CNS,['neuroblastoma'],['alk'],validation
+13,"for a 17-year-old osteosarcoma patient with 50% tumor necrosis after first-line therapy and myc amplification, are there effective salvage therapies? what evidence supports them?",Sarcoma,"['tumor', 'osteosarcoma']",['myc'],validation
+14,is there an optimal drug combination to minimize the risk of post hsct relapse in a 2 year old with kmt2a rearranged aml?,Hematologic,[],"['kmt2a', 'aml']",validation
+15,"for a 4 year old patient with medulloblastoma, shh subtype, and a germline ptch1 mutation, are there therapies specifically targeting this pathway?",CNS,['medulloblastoma'],"['shh', 'ptch1']",validation
+16,"for toddler with unresectable hepatoblastoma and a ctnnb1 mutation, are there targeted therapies that target the impacted pathway that would best decrease the likeliohood of liver transplant?",CNS,['hepatoblastoma'],['ctnnb1'],validation
+17,"i have a patient with de novo metastatic hr+ breast cancer with both a somatic akt mutation and a germline brca2 mutation - what are the standard, recommended first- and second-line treatments for this patient?",Breast,['breast cancer'],"['hr', 'brca2', 'akt']",validation
+18,i have a patient with an initial diagnosis of ct3n1 her2+ breast cancer who received neoadjuvant tchp and had 1cm of residual disease at surgery. what is the recommended adjuvant treatment for this patient and what are the clinical trials that i should consider?,Breast,['breast cancer'],['ct3n1 her2'],validation
+19,"i have a patient with metastatic hr-negative, her2-low, pd-l1-negative, breast cancer with no germline brca mutation.  for second line, is t-dxd or sacituzumab govitecan preferred?",Breast,['breast cancer'],"['her2', 'hr', 'pd-l1', 'brca']",validation
+20,"if a bladder cancer patient has fgfr3 mutations, what would be the recommended next lines of treatment?",GU,['bladder cancer'],['fgfr3'],validation

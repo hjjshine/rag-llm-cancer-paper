@@ -9,6 +9,7 @@ from typing import Union, Dict, List
 import matplotlib.pyplot as plt
 import seaborn as sns
 from math import pi
+import colorcet as cc
 
 
 # Load brand-generic name mapping
