@@ -132,4 +132,4 @@ def run_llm(
         print(f"[ERROR] Failed to generate LLM response: {e}")
         output = None
         
-    return(output, input_prompt)
+    return(output, input_prompt, {})

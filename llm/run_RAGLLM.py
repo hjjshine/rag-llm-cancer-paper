@@ -108,7 +108,7 @@ def run_RAG(
     {query_prompt} 
     """
     
-    return run_llm(input_prompt, CLIENT, model_type, model, max_len, temp, random_seed)
+    return run_llm(input_prompt, client, model_type, model, max_len, temp, random_seed)
 
 
 
@@ -160,7 +160,7 @@ def run_ragllm_on_prompts(
         retrieval_res_ls.append(retrieval_results_dict)
         time.sleep(0.3)
     
-    return(output_test_ls, input_prompt_ls)
+    return(output_test_ls, input_prompt_ls, retrieval_res_ls)
 
 def run_iterations_rag(
     num_iterations, 
