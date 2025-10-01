@@ -3,10 +3,12 @@
 # ================== GENERAL IMPORTS ==================
 import os
 import json
+import re
 from dotenv import load_dotenv
+from types import SimpleNamespace
 
 # ================== UTIL FUNCTIONS ==================
-from utils.embedding import get_context_db
+from utils.embedding import index_context_db
 from utils.prompt import get_prompt
 from llm.run_RAGLLM import run_RAG
 
@@ -24,6 +26,7 @@ _MODEL_TYPE = "gpt"
 _MODEL_NAME = None
 _MODEL_EMBED = "text-embedding-3-small"
 
+
 def reset():
     global _READY, _CLIENT, _CONTEXT, _INDEX, _MODEL_TYPE, _MODEL_NAME, _MODEL_EMBED
     _READY = False
@@ -32,6 +35,7 @@ def reset():
     _INDEX = None
     _MODEL_NAME = None
 
+
 def _cache_paths(embed_name: str, version: str = "v1"):
     os.makedirs("indexes", exist_ok=True)
     return (
@@ -39,11 +43,13 @@ def _cache_paths(embed_name: str, version: str = "v1"):
         f"indexes/{embed_name}__{version}.context.json",
     )
 
+
 def _extract_json_blob(text: str) -> str:
     matches = re.findall(r"\{.*\}", text, flags=re.S)
     if not matches:
         return text
     return max(matches, key=len)
+
 
 def _safe_json_load(payload):
     if isinstance(payload, (dict, list)):
@@ -63,6 +69,7 @@ def _safe_json_load(payload):
             pass
     return payload
 
+
 def _collect_treatments_from_dict(d: dict):
     """Return list of treatment dicts from keys like 'Treatment 1', 'Treatment 2', ..."""
     treatments = []
@@ -74,6 +81,7 @@ def _collect_treatments_from_dict(d: dict):
             elif isinstance(v, list):
                 treatments.extend([x for x in v if isinstance(x, dict)])
     return treatments
+
 
 def _normalize_model_output(raw_output):
     """
@@ -108,6 +116,7 @@ def _normalize_model_output(raw_output):
     # Fallback: return original so the UI can still show it
     return raw_output
 
+
 def init(
     context_json_path: str = "data/structured_context_chunks.json",
     model_api: str = "gpt-4o-2024-05-13",
@@ -138,12 +147,13 @@ def init(
     else:
         with open(context_json_path, "r") as f:
             _CONTEXT = json.load(f)
-        _INDEX = get_context_db(_CONTEXT, _CLIENT, _MODEL_EMBED)
+        _INDEX = index_context_db(_CONTEXT, _CLIENT, _MODEL_EMBED)
         faiss.write_index(_INDEX, index_path)
         with open(ctx_path, "w") as f:
             json.dump(_CONTEXT, f)
 
     _READY = True
+
 
 def answer(
     text: str,
@@ -158,20 +168,29 @@ def answer(
     if not _READY:
         raise RuntimeError("Call init(...) first.")
     if rag:
-        out, _ = run_RAG(
-            _CONTEXT,
-            text,
-            strategy,
-            _INDEX,
-            _CLIENT,
-            num_vec,
-            _MODEL_TYPE,
-            _MODEL_NAME,
-            _MODEL_EMBED,
-            max_len,
-            temp,
-            random_seed,
+        entry = SimpleNamespace(Index=0, prompt=text)
+
+        model_cfg = SimpleNamespace(
+            client=_CLIENT,
+            model_type=_MODEL_TYPE,
+            model=_MODEL_NAME,
+            model_embed=_MODEL_EMBED,
+            max_len=max_len,
+            temp=temp,
+            random_seed=random_seed,
         )
+
+        retrieval_cfg = SimpleNamespace(
+            strategy=strategy,
+            context_chunks=_CONTEXT,
+            hybrid_search=False,
+            db_entity=None,
+            query_entity=None,
+            index=_INDEX,
+            num_vec=num_vec,
+        )
+
+        out, _, _ = run_RAG(0, entry, model_cfg, retrieval_cfg)
     else:
         # LLM-only path (no retrieval)
         input_prompt = get_prompt(strategy, text)
