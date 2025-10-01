@@ -1,0 +1,22 @@
+Patient ID: P-0072677
+Age: 67
+Gender: Male
+Sample ID: P-0072677-T02-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+ARID1A c.376G>A (p.G126S) - in 5.00% of 436 reads
+ASXL1 c.1259C>T (p.A420V) - in 8.00% of 462 reads
+EGFR c.2156G>C (p.G719A) - in 7.00% of 313 reads
+EGFR c.2303G>T (p.S768I) - in 11.00% of 372 reads
+ELF3 c.822C>G (p.H274Q) - in 12.00% of 504 reads
+EZH1 c.1951G>A (p.E651K) - in 13.00% of 289 reads
+MAP3K1 c.3632A>G (p.E1211G) - in 8.00% of 345 reads
+TP53 c.818G>T (p.R273L) - in 6.00% of 400 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

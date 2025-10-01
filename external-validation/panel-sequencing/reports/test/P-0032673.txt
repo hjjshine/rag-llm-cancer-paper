@@ -1,0 +1,26 @@
+Patient ID: P-0032673
+Age: 49
+Gender: Female
+Sample ID: P-0032673-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Breast Invasive Lobular Carcinoma
+Sample Type: Primary
+Tumor Purity: 40.0%
+=============
+DNA Variants:
+AKT1 c.49G>A (p.E17K) - in 43.00% of 746 reads
+BRCA2 c.8407C>A (p.L2803M) - in 10.00% of 896 reads
+BRCA2 c.8417C>A (p.S2806*) - in 11.00% of 887 reads
+CDH1 c.1828C>T (p.Q610*) - in 14.00% of 518 reads
+CDH1 c.26C>A (p.S9*) - in 13.00% of 238 reads
+KLF4 c.571A>T (p.N191Y) - in 8.00% of 870 reads
+KMT2B c.4460G>A (p.R1487H) - in 28.00% of 596 reads
+MAP2K4 c.415del (p.E139Kfs*13) - in 30.00% of 273 reads
+PIK3CB c.3007C>T (p.L1003F) - in 10.00% of 608 reads
+STAG2 c.1012G>T (p.D338Y) - in 10.00% of 487 reads
+TP53 c.559G>A (p.G187S) - in 32.00% of 479 reads
+CNA Data:
+PTPN11 - High Level Amplification
+WT1 - High Level Amplification
+Structural Variants:
+No structural variant data found.

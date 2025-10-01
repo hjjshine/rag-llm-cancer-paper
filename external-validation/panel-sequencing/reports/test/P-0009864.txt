@@ -1,0 +1,26 @@
+Patient ID: P-0009864
+Age: 72
+Gender: Female
+Sample ID: P-0009864-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 50.0%
+=============
+DNA Variants:
+EGFR c.2573T>G (p.L858R) - in 95.00% of 5310 reads
+KDM5A c.2105A>G (p.H702R) - in 26.00% of 456 reads
+RB1 c.1411C>T (p.Q471*) - in 38.00% of 208 reads
+TP53 c.365_366del (p.V122Dfs*26) - in 49.00% of 283 reads
+CNA Data:
+GATA1 - High Level Amplification
+RBM10 - High Level Amplification
+EGFR - High Level Amplification
+ERG - High Level Amplification
+CXCR4 - Homozygous Deletion
+ARAF - High Level Amplification
+FOXA1 - High Level Amplification
+NKX2-1 - High Level Amplification
+KDM5C - High Level Amplification
+Structural Variants:
+No structural variant data found.

@@ -1,0 +1,21 @@
+Patient ID: P-0002079
+Age: 76
+Gender: Male
+Sample ID: P-0002079-T01-IM3
+Gene Panel: IMPACT341
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 50.0%
+=============
+DNA Variants:
+ARID1A c.4606G>C (p.D1536H) - in 16.00% of 1149 reads
+BRCA2 c.6137C>T (p.S2046L) - in 21.00% of 714 reads
+IDH2 c.817C>G (p.H273D) - in 14.00% of 872 reads
+MLL3 c.8137_8139delinsTAA (p.D2713*) - in 35.00% of 1745 reads
+MTOR c.7149G>C (p.L2383F) - in 15.00% of 944 reads
+NOTCH2 c.1076C>T (p.S359F) - in 16.00% of 1120 reads
+SPEN c.6556G>A (p.A2186T) - in 18.00% of 448 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

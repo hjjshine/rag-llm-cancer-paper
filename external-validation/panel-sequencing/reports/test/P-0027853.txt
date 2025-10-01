@@ -1,0 +1,37 @@
+Patient ID: P-0027853
+Age: 69
+Gender: Male
+Sample ID: P-0027853-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 40.0%
+=============
+DNA Variants:
+GRIN2A c.80C>T (p.A27V) - in 22.00% of 707 reads
+NTRK1 c.1175C>T (p.P392L) - in 46.00% of 1269 reads
+SETD2 c.49G>C (p.D17H) - in 38.00% of 433 reads
+SMARCA4 c.3702C>A (p.F1234L) - in 25.00% of 972 reads
+CNA Data:
+FAM58A - High Level Amplification
+CDKN2B - Homozygous Deletion
+CDKN2A - Homozygous Deletion
+PAK7 - High Level Amplification
+RECQL4 - High Level Amplification
+RAD52 - High Level Amplification
+CDKN2Ap14ARF - Homozygous Deletion
+H3F3C - High Level Amplification
+MDM2 - High Level Amplification
+TCEB1 - High Level Amplification
+MYC - High Level Amplification
+KRAS - High Level Amplification
+KDM5A - High Level Amplification
+PREX2 - High Level Amplification
+RECQL - High Level Amplification
+RAD21 - High Level Amplification
+PRDM14 - High Level Amplification
+AGO2 - High Level Amplification
+NBN - High Level Amplification
+CDKN2Ap16INK4A - Homozygous Deletion
+Structural Variants:
+ALK - EML4 (INVERSION)

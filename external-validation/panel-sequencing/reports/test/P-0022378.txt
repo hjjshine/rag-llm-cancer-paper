@@ -1,0 +1,28 @@
+Patient ID: P-0022378
+Age: 71
+Gender: Female
+Sample ID: P-0022378-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+CTLA4 c.76T>C (p.F26L) - in 18.00% of 972 reads
+DOT1L c.2060C>T (p.A687V) - in 16.00% of 1352 reads
+EGFR c.2573T>G (p.L858R) - in 31.00% of 1209 reads
+FAT1 c.8746C>T (p.P2916S) - in 45.00% of 671 reads
+FGFR1 c.947C>T (p.P316L) - in 47.00% of 1015 reads
+MGA c.2561_2594del (p.V854Dfs*8) - in 38.00% of 1052 reads
+MSH6 c.61A>G (p.N21D) - in 31.00% of 1255 reads
+PIK3C2G c.943A>G (p.I315V) - in 18.00% of 335 reads
+PIK3CA c.3140A>G (p.H1047R) - in 24.00% of 495 reads
+RBM10 c.643_646del (p.E215Qfs*15) - in 26.00% of 945 reads
+RNF43 c.127G>A (p.E43K) - in 16.00% of 1231 reads
+TP53 c.991C>T (p.Q331*) - in 46.00% of 830 reads
+CNA Data:
+INPP4B - High Level Amplification
+MYC - High Level Amplification
+AGO2 - High Level Amplification
+Structural Variants:
+No structural variant data found.

@@ -1,0 +1,18 @@
+Patient ID: P-0051346
+Age: 63
+Gender: Female
+Sample ID: P-0051346-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 10.0%
+=============
+DNA Variants:
+ATM c.8188C>A (p.Q2730K) - in 7.00% of 630 reads
+CTLA4 c.561C>A (p.S187R) - in 6.00% of 548 reads
+EGFR c.2236_2250del (p.E746_A750del) - in 12.00% of 796 reads
+TP53 c.159G>A (p.W53*) - in 7.00% of 1198 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

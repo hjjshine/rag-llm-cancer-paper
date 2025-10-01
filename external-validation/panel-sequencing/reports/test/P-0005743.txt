@@ -1,0 +1,17 @@
+Patient ID: P-0005743
+Age: 45
+Gender: Male
+Sample ID: P-0005743-T02-IM5
+Gene Panel: IMPACT410
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+ANKRD11 c.6587C>A (p.S2196Y) - in 16.00% of 457 reads
+INPP4B c.2513G>A (p.R838H) - in 11.00% of 539 reads
+TP53 c.734G>A (p.G245D) - in 18.00% of 376 reads
+CNA Data:
+MYC - High Level Amplification
+Structural Variants:
+EML4 - ALK (INVERSION)

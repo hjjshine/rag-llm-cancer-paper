@@ -1,0 +1,33 @@
+Patient ID: P-0077385
+Age: 43
+Gender: Female
+Sample ID: P-0077385-T01-IM7
+Gene Panel: IMPACT505
+Cancer Type: Breast Invasive Ductal Carcinoma
+Sample Type: Metastasis
+Tumor Purity: 40.0%
+=============
+DNA Variants:
+ARID1A c.4982_4985del (p.M1661Kfs*11) - in 21.00% of 592 reads
+ATM c.7227A>C (p.E2409D) - in 21.00% of 594 reads
+ATM c.7241A>C (p.Q2414P) - in 22.00% of 607 reads
+DNAJB1 c.774_792+13del (p.X258_splice) - in 26.00% of 648 reads
+ERRFI1 c.511G>C (p.V171L) - in 10.00% of 693 reads
+MTOR c.7257A>C (p.E2419D) - in 23.00% of 451 reads
+CNA Data:
+SOX17 - High Level Amplification
+NCOA3 - High Level Amplification
+RECQL4 - High Level Amplification
+ELOC - High Level Amplification
+AURKA - High Level Amplification
+LYN - High Level Amplification
+GNAS - High Level Amplification
+MYC - High Level Amplification
+PREX2 - High Level Amplification
+RAD21 - High Level Amplification
+PRDM14 - High Level Amplification
+AGO2 - High Level Amplification
+NBN - High Level Amplification
+RTEL1 - High Level Amplification
+Structural Variants:
+MAN1B1 - TRAF2 (DUPLICATION)

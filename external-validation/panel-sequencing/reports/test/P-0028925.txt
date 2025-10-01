@@ -1,0 +1,25 @@
+Patient ID: P-0028925
+Age: 78
+Gender: Female
+Sample ID: P-0028925-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Breast Invasive Ductal Carcinoma
+Sample Type: Primary
+Tumor Purity: 70.0%
+=============
+DNA Variants:
+ANKRD11 c.1106A>G (p.K369R) - in 7.00% of 141 reads
+FANCA c.2209G>A (p.A737T) - in 6.00% of 197 reads
+GATA3 c.1287del (p.F430Lfs*45) - in 41.00% of 351 reads
+HIST1H3H c.145C>G (p.L49V) - in 30.00% of 413 reads
+KMT2A c.2318dup (p.S774Vfs*12) - in 41.00% of 246 reads
+KMT2A c.3743del (p.A1248Efs*108) - in 43.00% of 254 reads
+KMT2C c.14307G>A (p.W4769*) - in 39.00% of 148 reads
+MAP3K1 c.2739dup (p.G914Rfs*16) - in 32.00% of 149 reads
+PIK3CA c.1633G>A (p.E545K) - in 42.00% of 131 reads
+RAB35 c.313G>A (p.E105K) - in 5.00% of 298 reads
+TP53 c.509C>T (p.T170M) - in 3.00% of 300 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

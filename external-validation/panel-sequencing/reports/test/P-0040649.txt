@@ -1,0 +1,25 @@
+Patient ID: P-0040649
+Age: 89
+Gender: Female
+Sample ID: P-0040649-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+FAT1 c.9677dup (p.N3226Kfs*6) - in 11.00% of 567 reads
+MAP2K2 c.139G>C (p.D47H) - in 8.00% of 647 reads
+MET c.2995G>T (p.E999*) - in 12.00% of 744 reads
+MET c.3028_3028+1delinsAATA (p.X1010_splice) - in 19.00% of 725 reads
+MSH6 c.1721C>T (p.S574L) - in 14.00% of 472 reads
+PIK3R1 c.1714C>T (p.Q572*) - in 14.00% of 298 reads
+RBM10 c.1467del (p.D490Tfs*136) - in 14.00% of 741 reads
+SMAD2 c.494dup (p.Y165*) - in 13.00% of 323 reads
+SMAD3 c.269G>T (p.R90L) - in 12.00% of 666 reads
+TP53 c.797G>A (p.G266E) - in 11.00% of 613 reads
+TP53 c.787A>G (p.N263D) - in 10.00% of 564 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+MET - nan (nan)

@@ -1,52 +1,64 @@
 #!/usr/bin/env python3
 
 # ================== GENERAL IMPORTS ==================
-import json
 import os
 import time
-import argparse
 from typing import Optional, Tuple
 from dotenv import load_dotenv
 import pandas as pd
-import numpy as np
-import torch
+from dataclasses import dataclass
 
-# ================== UTIL FUNCTIONS ==================
+
+# ================== UTIL/PIPELINE FUNCTIONS ==================
+from utils.check_db_version import get_local_version, sync_db
 from utils.prompt import get_prompt
-from utils.io import save_object, load_object
-from utils.embedding import get_context_db, retrieve_context
+from utils.io import save_object
+from utils.embedding import retrieve_context
+from utils.context_db import load_context
+from context_retriever.entity_prediction import load_entities
+from context_retriever.hybrid_search import retrieve_context_hybrid
+
 
 # ================== MODEL & API IMPORTS ==================
+import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from mistralai.client import MistralClient
 from openai import OpenAI
 from llm.inference import run_llm
 
+
+# ================== CONFIGS ==================
+@dataclass
+class ModelConfig:
+    client: object
+    model_type: str
+    model: object
+    model_embed: object
+    max_len: int
+    temp: float
+    random_seed: int
+
+@dataclass
+class RetrievalConfig:
+    strategy: str
+    context_chunks: int
+    hybrid_search: bool
+    db_entity: dict
+    query_entity: dict
+    index: object
+    num_vec: int
+
     
-# ================== RAG-LLM EXECUTION FUNCTIONS ==================
-def run_RAG(
-    context_chunks, 
-    prompt_chunk, 
-    strategy, 
-    index, 
-    CLIENT, 
-    num_vec, 
-    model_type, 
-    model, 
-    model_embed, 
-    max_len, 
-    temp, 
-    random_seed
-    ) -> Tuple[Optional[str], str]:
+# ================== RAG-LLM EXECUTOR ==================
+def run_RAG(i, entry, model_cfg, retrieval_cfg) -> Tuple[Optional[str], str]:
     """
-    Augment context and run LLM inference.
+    One query -> retrieval + LLM response generation.
     
     Arguments:
-        context_chunks (list): List of context chunks for retrieval.
-        prompt_chunk (str): User specified query.
+        entry: each query entry in `prompt` column.
         strategy (int): Prompt design strategy [0-3].
         index (faiss.Index): Context vector database.
-        CLIENT (object): Initialized LLM API client.
+        client (object): Initialized LLM API client.
         num_vec (int): Number of vectors to retrieve.
         model_type (str): One of ['mistral','gpt','mistral-7b']
         model (str): API name (e.g. ministral-8b-2410, open-mistral-nemo-2407, gpt-4o-2024-05-13, o4-mini-2025-04-16)
@@ -56,12 +68,60 @@ def run_RAG(
         
     Returns:
         Tuple of (output response [string], input prompt [string])
-        
     """
+    #Unpack configs
+    client=model_cfg.client
+    model=model_cfg.model
+    model_embed=model_cfg.model_embed
+    model_type=model_cfg.model_type
+    max_len=model_cfg.max_len
+    temp= model_cfg.temp
+    random_seed=model_cfg.random_seed
+
+    strategy=retrieval_cfg.strategy
+    context_chunks=retrieval_cfg.context_chunks
+    hybrid_search=retrieval_cfg.hybrid_search
+    db_entity= retrieval_cfg.db_entity
+    query_entity=retrieval_cfg.query_entity
+    index=retrieval_cfg.index
+    num_vec=retrieval_cfg.num_vec
     
-    query_prompt=get_prompt(strategy, prompt_chunk)
-    retrieved_chunk=retrieve_context(context_chunks, prompt_chunk, CLIENT, model_embed, index, num_vec)
+    user_query_idx = entry.Index
+    user_query = entry.prompt
+    query_prompt = get_prompt(strategy, user_query)
+    
+    # Retrieval
+    retrieval_results_dict = {'retrieval_params':None, 'retrieval_results':[]}
+    if hybrid_search:
+        retrieved_results = retrieve_context_hybrid(
+                user_entities=query_entity[user_query_idx], 
+                db_entities=db_entity,
+                user_query=user_query, 
+                db_context=context_chunks, 
+                index=index,
+                client=client,
+                model_embed=model_embed
+                )
+        retrieved_chunk = retrieved_results.top_contexts
+            
+        retrieval_results_dict['retrieval_params']=retrieved_results.params
         
+        retrieval_results_dict['retrieval_results'].append({
+            'query_idx': user_query_idx, 
+            'retrieved_df': retrieved_results.retrieved_df.to_dict(orient="records")
+        })
+        
+    else:
+        retrieved_chunk, _, _=retrieve_context(
+            context_chunks, 
+            user_query, 
+            client, 
+            model_embed, 
+            index, 
+            num_vec
+            )
+    
+    # Build final prompt
     input_prompt = f"""
     Context information is below.
     ---------------------
@@ -70,60 +130,66 @@ def run_RAG(
     {query_prompt} 
     """
     
-    return run_llm(input_prompt, CLIENT, model_type, model, max_len, temp, random_seed)
+    output, input_query = run_llm(input_prompt, client, model_type, model, max_len, temp, random_seed)
+    
+    return output, input_query, retrieval_results_dict
 
 
-
-# ================== BATCH EXECUTION FUNCTIONS ==================
-def run_ragllm_on_prompts(n_iter, data, strategy, context_chunks, index, CLIENT, num_vec, model_type, model, model_embed, max_len, temp, random_seed):
+def run_ragllm_on_prompts(i, data, model_cfg, retrieval_cfg):
     """
-    Generate response to each context-augmented prompt. 
+    Run RAG-LLM on all queries.
     """
-    # Initialize output lists
-    output_test_ls, input_prompt_ls = [], []
+    full_output_ls, input_query_ls, retrieval_res_ls = [], [], []
     
     # Run RAG-LLM for each prompt
-    for prompt_chunk in data['prompt']:
-        output, input_prompt = run_RAG(context_chunks, prompt_chunk, strategy, index, CLIENT, num_vec, model_type, model, model_embed, max_len, temp, random_seed)
-        output_test_ls.append(output)
-        input_prompt_ls.append(input_prompt)
+    for i, entry in enumerate(data.itertuples()):
+        output, query, retrieval_res = run_RAG(i, entry, model_cfg, retrieval_cfg)
+        full_output_ls.append(output)
+        input_query_ls.append(query)
+        retrieval_res_ls.append(retrieval_res)
         time.sleep(0.3)
     
-    return(output_test_ls, input_prompt_ls)
+    return(full_output_ls, input_query_ls, retrieval_res_ls)
 
-def run_iterations_rag(num_iterations, data, strategy, context_chunks, index, CLIENT, num_vec, model_type, model, model_embed, max_len, temp, random_seed):
-    output_ls = []
-    runtime_ls = []
-    input_ls = []
-    
-    for i in range(num_iterations):
-        start = time.time()
-        
-        output_test_ls, input_prompt_ls = run_ragllm_on_prompts(i, data, strategy, context_chunks, index, CLIENT, num_vec, model_type, model, model_embed, max_len, temp, random_seed)
-        output_ls.append(output_test_ls)
-        input_ls.append(input_prompt_ls)
 
-        end = time.time()
-        time_elapsed = end - start
-        runtime_ls.append(time_elapsed)
+# ================== PIPELINE RUNNER ==================
+class PipelineRunner:
+    def __init__(self, model_cfg: ModelConfig, retrieval_cfg: RetrievalConfig):
+        self.model_cfg = model_cfg
+        self.retrieval_cfg = retrieval_cfg
         
-        time_elapsed = str(f'{time_elapsed/60:.4f}')
-        print(f'Time elapsed for iteration {i}: {time_elapsed} min')
+    def run(self, num_iterations: int, data):
+        output_ls, input_ls, retrieval_ls, runtime_ls = [], [], [], []
         
-    return(output_ls, input_ls, runtime_ls)
+        for i in range(num_iterations):
+            start = time.time()
+            
+            full_output, input_query, retrieval_res = run_ragllm_on_prompts(i, data, self.model_cfg, self.retrieval_cfg)
+            
+            output_ls.append(full_output)
+            input_ls.append(input_query)
+            retrieval_ls.append(retrieval_res)
+            
+            time_elapsed = time.time() - start
+            runtime_ls.append(time_elapsed)
+            time_elapsed = str(f'{time_elapsed/60:.4f}')
+            print(f'Time elapsed for iteration {i}: {time_elapsed} min')
+            
+        return(output_ls, input_ls, retrieval_ls, runtime_ls)
 
     
 # ================== MAIN ==================
 def main(args):
     
-    print("CSV path: "+args.csv_path)
-    print("Model type: "+args.model_type)
-    print("Model API endpoint: "+str(args.model_api))
-    print("Prompt strategy: "+str(args.strategy))
-    print("Number of iterations: "+str(args.num_iter))
-    print("Random seed: "+str(args.random_seed))
-    print("Temperature: "+str(args.temp))
-    print("Output name: "+args.output_dir)
+    print(f"CSV path: {args.csv_path}")
+    print(f"Model type: {args.model_type}")
+    print(f"Model API endpoint: {args.model_api}")
+    print(f"Context DB: {args.context_db}")
+    print(f"Prompt strategy: {args.strategy}")
+    print(f"Number of iterations: {args.num_iter}")
+    print(f"Random seed: {args.random_seed}")
+    print(f"Temperature: {args.temp}")
+    print(f"Output name: {args.output_dir}")
 
     # Prepare output directories
     os.makedirs(name=args.output_dir, exist_ok=True)
@@ -133,67 +199,88 @@ def main(args):
     
     if args.model_type == 'mistral-7b':
         model_path = "mistralai/Mistral-7B-Instruct-v0.3"
-        model = AutoModelForCausalLM.from_pretrained(
+        _MODEL = AutoModelForCausalLM.from_pretrained(
             model_path, 
             torch_dtype=torch.bfloat16, 
             device_map="auto"
             )
         tokenizer = AutoTokenizer.from_pretrained(model_path)
-        model_embed = 'mistral-embed'
+        _MODEL_EMBED = 'mistral-embed'
         api_key = os.getenv("MISTRAL_API_KEY")
         if not api_key:
             raise ValueError("Missing API key. Please set MISTRAL_API_KEY in your .env file.")
-        CLIENT=MistralClient(api_key=api_key)
+        _CLIENT=MistralClient(api_key=api_key)
         
     elif args.model_type == 'mistral':
-        model = args.model_api #this could be ministral-8b-2410, open-mistral-nemo-2407, mistral-large-2407, etc.
-        model_embed = 'mistral-embed'
+        _MODEL = args.model_api #this could be ministral-8b-2410, open-mistral-nemo-2407, mistral-large-2407, etc.
+        _MODEL_EMBED = 'mistral-embed'
         api_key = os.getenv("MISTRAL_API_KEY")
         if not api_key:
             raise ValueError("Missing API key. Please set MISTRAL_API_KEY in your .env file.")
-        CLIENT=MistralClient(api_key=api_key)
+        _CLIENT=MistralClient(api_key=api_key)
         
     elif args.model_type in ['gpt', 'gpt_reasoning']:
-        model = args.model_api #this could be gpt-4o-2024-05-13, gpt-4o-mini-2024-07-18, etc.
-        model_embed = 'text-embedding-3-small'
+        _MODEL = args.model_api #this could be gpt-4o-2024-05-13, gpt-4o-mini-2024-07-18, etc.
+        _MODEL_EMBED = 'text-embedding-3-small'
         api_key = os.getenv("OPENAI_API_KEY")
         if not api_key:
             raise ValueError("Missing API key. Please set OPENAI_API_KEY in your .env file.")
-        CLIENT=OpenAI(api_key=api_key)
+        _CLIENT=OpenAI(api_key=api_key)
         
     else: 
         raise ValueError("Invalid model_type. Please choose from: mistral-7b, mistral, gpt")
     
-    # Load user-specified queries
-    data=pd.read_csv(args.csv_path, index_col=0)
-
-    # Load context database    
-    with open(args.context_chunks, "r") as f:
-        context_chunks = json.load(f)
-        
-    index=get_context_db(context_chunks, CLIENT, model_embed)
+    # Check db latest version and load version
+    sync_db()
+    _VERSION = get_local_version()
     
-    # Run RAG-LLM iterations
-    output_ls, input_ls, runtime_ls = run_iterations_rag(
-        num_iterations=args.num_iter, 
-        data=data, 
-        strategy=args.strategy, 
-        context_chunks=context_chunks, 
-        index=index, 
-        CLIENT=CLIENT, 
-        num_vec=10, 
-        model_type=args.model_type, 
-        model=model, 
-        model_embed=model_embed, 
-        max_len=args.max_len, 
-        temp=args.temp, 
-        random_seed=args.random_seed
+    # Load context db
+    _CONTEXT, _INDEX = load_context(
+        version=_VERSION, 
+        db=args.context_db,
+        db_type=args.context_db_type
         )
+        
+    # Load db and query entities
+    _DB_ENTITY, _QUERY_ENTITY = load_entities(
+        version=_VERSION, 
+        mode='test_synthetic', 
+        db=args.context_db,
+        query=None)
+    
+    # Load query_df for testing
+    _QUERY_DF=pd.read_csv(args.csv_path, index_col=0)
+        
+    # Run RAG-LLM iterations
+    model_cfg = ModelConfig(
+        client=_CLIENT,
+        model=_MODEL,
+        model_embed=_MODEL_EMBED,
+        model_type=args.model_type,
+        max_len=args.max_len,
+        temp=args.temp,
+        random_seed=args.random_seed
+    )
+
+    retrieval_cfg = RetrievalConfig(
+        strategy=args.strategy,
+        context_chunks=_CONTEXT,
+        hybrid_search=args.hybrid_search,
+        db_entity=_DB_ENTITY,
+        query_entity=_QUERY_ENTITY,
+        index=_INDEX,
+        num_vec=25
+    )
+
+    runner = PipelineRunner(model_cfg, retrieval_cfg)
+    
+    output_ls, input_ls, retrieval_ls, runtime_ls = runner.run(num_iterations=args.num_iter, data=_QUERY_DF)
     
     # Save results
     res_dict = {
         "full output": output_ls, 
         "input prompt": input_ls, 
+        "retrieval": retrieval_ls,
         "runtime": runtime_ls
         }
     
@@ -201,6 +288,7 @@ def main(args):
         args.output_dir,
         f'RAGstra{str(args.strategy)}n{str(args.num_iter)}temp{str(args.temp)}_res_dict.pkl'
     )
+    
     save_object(res_dict, filename=result_file)
     
     

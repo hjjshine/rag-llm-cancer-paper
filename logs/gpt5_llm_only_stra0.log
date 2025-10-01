@@ -1,0 +1,13 @@
+CSV path: data/moa_fda_queries_answers.csv
+Model type: gpt_reasoning
+Model API endpoint: gpt-5-2025-08-07
+Prompt strategy: 0
+Number of iterations: 5
+Random seed: 2025
+Temperature: 0.0
+Output name: output/LLM_res_gpt5
+Time elapsed for iteration 0: 350.4179 min
+Time elapsed for iteration 1: 355.6821 min
+Time elapsed for iteration 2: 356.3327 min
+Time elapsed for iteration 3: 320.2943 min
+Time elapsed for iteration 4: 276.0790 min

@@ -1,0 +1,21 @@
+Patient ID: P-0080775
+Age: 61
+Gender: Male
+Sample ID: P-0080775-T02-IM7
+Gene Panel: IMPACT505
+Cancer Type: Pancreatic Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 10.0%
+=============
+DNA Variants:
+APC c.5998A>G (p.S2000G) - in 11.00% of 589 reads
+ATM c.8672G>A (p.G2891D) - in 9.00% of 395 reads
+BRAF c.1799T>A (p.V600E) - in 10.00% of 413 reads
+DOT1L c.2533A>G (p.S845G) - in 12.00% of 561 reads
+MED12 c.5453C>T (p.P1818L) - in 19.00% of 297 reads
+PBRM1 c.4367T>C (p.V1456A) - in 12.00% of 594 reads
+PBRM1 c.4360-2A>T (p.X1454_splice) - in 13.00% of 581 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

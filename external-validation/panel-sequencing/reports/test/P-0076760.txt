@@ -1,0 +1,20 @@
+Patient ID: P-0076760
+Age: 61
+Gender: Male
+Sample ID: P-0076760-T02-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 50.0%
+=============
+DNA Variants:
+KDM5C c.2933_2939del (p.T978Mfs*26) - in 15.00% of 507 reads
+KEAP1 c.340G>T (p.G114W) - in 12.00% of 975 reads
+LMO1 c.132G>C (p.W44C) - in 13.00% of 980 reads
+NOTCH4 c.5506G>A (p.E1836K) - in 13.00% of 663 reads
+PTPRT c.2749G>A (p.E917K) - in 9.00% of 831 reads
+TP53 c.711G>T (p.M237I) - in 11.00% of 784 reads
+CNA Data:
+MET - High Level Amplification
+Structural Variants:
+No structural variant data found.

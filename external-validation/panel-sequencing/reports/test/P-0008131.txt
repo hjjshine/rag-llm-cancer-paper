@@ -1,0 +1,35 @@
+Patient ID: P-0008131
+Age: 66
+Gender: Female
+Sample ID: P-0008131-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 90.0%
+=============
+DNA Variants:
+ARID1B c.445C>T (p.Q149*) - in 26.00% of 467 reads
+ARID1B c.429_431del (p.G146del) - in 25.00% of 520 reads
+EGFR c.2573T>G (p.L858R) - in 33.00% of 1517 reads
+INHA c.753G>T (p.R251S) - in 24.00% of 1078 reads
+MAP3K13 c.1031G>C (p.W344S) - in 40.00% of 1359 reads
+NOTCH4 c.817T>A (p.C273S) - in 39.00% of 1020 reads
+TP53 c.672+1G>T (p.X224_splice) - in 79.00% of 1214 reads
+CNA Data:
+MLL3 - High Level Amplification
+SMO - High Level Amplification
+CDKN2B - Homozygous Deletion
+CDKN2A - Homozygous Deletion
+XRCC2 - High Level Amplification
+EZH2 - High Level Amplification
+CEBPA - High Level Amplification
+AXIN2 - High Level Amplification
+CDKN2Ap14ARF - Homozygous Deletion
+MET - High Level Amplification
+CD79B - High Level Amplification
+RHEB - High Level Amplification
+CDKN2Ap16INK4A - Homozygous Deletion
+BRAF - High Level Amplification
+PRKAR1A - High Level Amplification
+Structural Variants:
+No structural variant data found.

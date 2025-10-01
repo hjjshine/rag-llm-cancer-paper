@@ -1,0 +1,18 @@
+Patient ID: P-0003070
+Age: 55
+Gender: Female
+Sample ID: P-0003070-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+EGFR c.2236_2250del (p.E746_A750del) - in 15.00% of 488 reads
+JAK3 c.2999C>A (p.S1000*) - in 27.00% of 248 reads
+PIK3CA c.1035T>A (p.N345K) - in 31.00% of 542 reads
+TP53 c.815_817dup (p.V272_R273insL) - in 36.00% of 566 reads
+CNA Data:
+GNAS - High Level Amplification
+Structural Variants:
+No structural variant data found.

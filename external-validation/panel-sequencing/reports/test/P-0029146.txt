@@ -1,0 +1,18 @@
+Patient ID: P-0029146
+Age: 73
+Gender: Female
+Sample ID: P-0029146-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Invasive Breast Carcinoma
+Sample Type: Metastasis
+Tumor Purity: 40.0%
+=============
+DNA Variants:
+EPHA5 c.592G>A (p.E198K) - in 39.00% of 539 reads
+FGFR2 c.1647T>A (p.N549K) - in 45.00% of 666 reads
+MTOR c.5930C>T (p.T1977I) - in 77.00% of 295 reads
+PIK3CA c.1353_1379del (p.L452_G460del) - in 31.00% of 568 reads
+CNA Data:
+NOTCH2 - High Level Amplification
+Structural Variants:
+No structural variant data found.

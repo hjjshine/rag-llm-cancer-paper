@@ -1,0 +1,24 @@
+Patient ID: P-0008078
+Age: 74
+Gender: Female
+Sample ID: P-0008078-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 60.0%
+=============
+DNA Variants:
+EGFR c.2236_2250del (p.E746_A750del) - in 46.00% of 1288 reads
+FAT1 c.7281T>G (p.Y2427*) - in 18.00% of 466 reads
+PIK3CA c.3140A>G (p.H1047R) - in 27.00% of 761 reads
+PLCG2 c.2252C>T (p.S751F) - in 20.00% of 1261 reads
+PLCG2 c.2299C>T (p.P767S) - in 20.00% of 1856 reads
+RB1 c.983del (p.N328Ifs*4) - in 31.00% of 417 reads
+TP53 c.376-2A>G (p.X126_splice) - in 32.00% of 620 reads
+CNA Data:
+RIT1 - High Level Amplification
+SDHC - High Level Amplification
+MCL1 - High Level Amplification
+NTRK1 - High Level Amplification
+Structural Variants:
+No structural variant data found.

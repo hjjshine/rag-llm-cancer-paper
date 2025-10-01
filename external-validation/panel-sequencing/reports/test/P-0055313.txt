@@ -1,0 +1,31 @@
+Patient ID: P-0055313
+Age: 63
+Gender: Female
+Sample ID: P-0055313-T02-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 40.0%
+=============
+DNA Variants:
+APC c.3772dup (p.T1258Nfs*18) - in 41.00% of 197 reads
+CDH1 c.1982G>A (p.G661D) - in 30.00% of 697 reads
+EGFR c.2235_2252delinsATT (p.E746_T751delinsL) - in 38.00% of 621 reads
+EGFR c.2020G>A (p.V674I) - in 48.00% of 1744 reads
+STAT3 c.1081C>T (p.Q361*) - in 8.00% of 587 reads
+TGFBR2 c.965_966insA (p.N323Qfs*5) - in 44.00% of 493 reads
+TP53 c.466C>G (p.R156G) - in 44.00% of 1051 reads
+CNA Data:
+ETV1 - High Level Amplification
+EGFR - High Level Amplification
+CDKN2B - Homozygous Deletion
+CDKN2A - Homozygous Deletion
+RAC1 - High Level Amplification
+CDKN2Ap14ARF - Homozygous Deletion
+CARD11 - High Level Amplification
+INHBA - High Level Amplification
+PMS2 - High Level Amplification
+IKZF1 - High Level Amplification
+CDKN2Ap16INK4A - Homozygous Deletion
+Structural Variants:
+No structural variant data found.

@@ -1,0 +1,24 @@
+Patient ID: P-0007508
+Age: 71
+Gender: Male
+Sample ID: P-0007508-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 60.0%
+=============
+DNA Variants:
+APC c.2886dup (p.S963*) - in 39.00% of 711 reads
+EGFR c.2573T>G (p.L858R) - in 35.00% of 1430 reads
+FLT1 c.1390A>G (p.I464V) - in 21.00% of 1016 reads
+MTOR c.1702C>T (p.P568S) - in 21.00% of 742 reads
+PDGFRA c.2575G>A (p.V859M) - in 15.00% of 931 reads
+TP53 c.844C>T (p.R282W) - in 67.00% of 1166 reads
+CNA Data:
+FOXA1 - High Level Amplification
+TSHR - High Level Amplification
+TERT - High Level Amplification
+NKX2-1 - High Level Amplification
+NFKBIA - High Level Amplification
+Structural Variants:
+No structural variant data found.

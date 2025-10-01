@@ -1,0 +1,21 @@
+Patient ID: P-0007754
+Age: 76
+Gender: Male
+Sample ID: P-0007754-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 10.0%
+=============
+DNA Variants:
+APC c.4231_4243delAGTGGAATGGTAA (p.S1411Vfs*4) - in 23.00% of 253 reads
+EGFR c.2573T>G (p.L858R) - in 21.00% of 318 reads
+HGF c.1526T>G (p.V509G) - in 12.00% of 427 reads
+PIK3CA c.1633G>A (p.E545K) - in 15.00% of 179 reads
+RBM10 c.1894dup (p.S632Kfs*10) - in 42.00% of 178 reads
+TP53 c.626_627delGA (p.R209Kfs*6) - in 26.00% of 262 reads
+WT1 c.1084T>C (p.F362L) - in 21.00% of 239 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

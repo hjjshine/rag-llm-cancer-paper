@@ -1,0 +1,15 @@
+Patient ID: P-0049059
+Age: 36
+Gender: Male
+Sample ID: P-0049059-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Solid Pseudopapillary Neoplasm of the Pancreas
+Sample Type: Primary
+Tumor Purity: 50.0%
+=============
+DNA Variants:
+CTNNB1 c.98C>G (p.S33C) - in 17.00% of 293 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

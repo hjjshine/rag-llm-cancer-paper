@@ -1,0 +1,52 @@
+Patient ID: P-0080096
+Age: 61
+Gender: Female
+Sample ID: P-0080096-T01-IM7
+Gene Panel: IMPACT505
+Cancer Type: Breast Invasive Lobular Carcinoma
+Sample Type: Metastasis
+Tumor Purity: 70.0%
+=============
+DNA Variants:
+CDH1 c.532-12_534del (p.X178_splice) - in 90.00% of 326 reads
+JAK2 c.2301A>C (p.E767D) - in 39.00% of 261 reads
+KMT2A c.7913_7929del (p.Y2638Wfs*2) - in 58.00% of 709 reads
+MAP2K4 c.812C>T (p.A271V) - in 89.00% of 308 reads
+MSH2 c.1601G>C (p.R534P) - in 66.00% of 324 reads
+PAK7 c.1958G>A (p.R653Q) - in 19.00% of 777 reads
+RUNX1 c.496C>G (p.R166G) - in 56.00% of 741 reads
+TGFBR2 c.1012C>T (p.R338W) - in 46.00% of 701 reads
+CNA Data:
+H3-3A - High Level Amplification
+NTHL1 - High Level Amplification
+RIT1 - High Level Amplification
+SPRTN - High Level Amplification
+FH - High Level Amplification
+TSC2 - High Level Amplification
+H3-4 - High Level Amplification
+CREBBP - High Level Amplification
+IKBKE - High Level Amplification
+SDHC - High Level Amplification
+SMYD3 - High Level Amplification
+SLX4 - High Level Amplification
+MAPK3 - High Level Amplification
+MCL1 - High Level Amplification
+SETDB1 - High Level Amplification
+MDM4 - High Level Amplification
+PARP1 - High Level Amplification
+DDR2 - High Level Amplification
+PALB2 - High Level Amplification
+PGBD5 - High Level Amplification
+ERCC4 - High Level Amplification
+IL10 - High Level Amplification
+H3C13 - High Level Amplification
+H3C14 - High Level Amplification
+AXIN1 - High Level Amplification
+AKT3 - High Level Amplification
+NTRK1 - High Level Amplification
+SOCS1 - High Level Amplification
+GRIN2A - High Level Amplification
+ELF3 - High Level Amplification
+TRAF7 - High Level Amplification
+Structural Variants:
+No structural variant data found.

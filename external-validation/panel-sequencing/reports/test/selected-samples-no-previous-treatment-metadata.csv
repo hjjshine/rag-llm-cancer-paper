@@ -1,0 +1,525 @@
+PATIENT_ID,FIRST_LINE_TIMING,FIRST_LINE_TREATMENT,FIRST_LINE_TREATMENT_TYPE,TARGETED_THERAPY_GIVEN,INVESTIGATIONAL_THERAPY_GIVEN,CANCER_TYPE,TREATMENT_NUM,PRETREATED,PRIOR_SURGERY,PRIOR_RADIATION,PRIOR_MEDICATION,NO_PRIOR_TREATMENT
+P-0000289,4,PEMETREXED,{'Chemo'},False,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0000352,7,"CISPLATIN,PEMETREXED,BEVACIZUMAB","{'Biologic', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0000474,8,CRIZOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0000491,29,CRIZOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0000557,21,ERLOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0000682,94,"FLUOROURACIL,LEUCOVORIN,IRINOTECAN,BEVACIZUMAB","{'Biologic', 'Chemo'}",False,False,Colorectal Cancer,4,False,False,False,False,True
+P-0000819,8,"CISPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0000871,7,ANASTROZOLE,{'Hormone'},False,False,Breast Cancer,1,False,False,False,False,True
+P-0000879,273,"CAPECITABINE,TEMOZOLOMIDE",{'Chemo'},False,False,Pancreatic Cancer,2,False,False,False,False,True
+P-0001131,1,ERLOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0001189,65,LAPATINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0001290,4,"LEUPROLIDE,TAMOXIFEN",{'Hormone'},False,False,Breast Cancer,2,False,False,False,False,True
+P-0001300,21,"CISPLATIN,PEMETREXED,BEVACIZUMAB","{'Biologic', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0001355,76,ANASTROZOLE,{'Hormone'},False,False,Breast Cancer,1,False,False,False,False,True
+P-0001389,2,"CISPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0001531,27,"CAPECITABINE,OXALIPLATIN",{'Chemo'},False,False,Colorectal Cancer,2,False,False,False,False,True
+P-0001532,7,CRIZOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0001553,46,PEMETREXED,{'Chemo'},False,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0001761,6,"FLUOROURACIL,LEUCOVORIN,OXALIPLATIN",{'Chemo'},False,False,Colorectal Cancer,3,False,False,False,False,True
+P-0001766,17,ERLOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0001833,16,"CARBOPLATIN,PACLITAXEL",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0002026,11,"CARBOPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0002202,12,"CAPECITABINE,TEMOZOLOMIDE",{'Chemo'},False,False,Pancreatic Cancer,2,False,False,False,False,True
+P-0002207,1,ERLOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0002329,15,"PEMETREXED,CARBOPLATIN,BEVACIZUMAB","{'Biologic', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0002403,33,"CISPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0002408,7,CRIZOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0002426,42,ERLOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0002613,20,"CISPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0002846,31,"CARBOPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0002869,12,"CISPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0003005,11,PACLITAXEL,{'Chemo'},False,False,Breast Cancer,1,False,False,False,False,True
+P-0003070,34,ERLOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0003119,118,"GEMCITABINE,VINORELBINE",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0003156,38,ERLOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0003383,27,CRIZOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0003967,12,"CISPLATIN,ETOPOSIDE",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0004123,1,ERLOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0004195,14,ANASTROZOLE,{'Hormone'},False,False,Breast Cancer,1,False,False,False,False,True
+P-0004342,35,ERLOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0004344,2,CRIZOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0004364,25,EVEROLIMUS,{'Targeted'},True,False,Pancreatic Cancer,1,False,False,False,False,True
+P-0004450,60,LETROZOLE,{'Hormone'},False,False,Breast Cancer,1,False,False,False,False,True
+P-0004455,11,"TRASTUZUMAB,PACLITAXEL","{'Biologic', 'Chemo'}",False,False,Breast Cancer,2,False,False,False,False,True
+P-0004691,35,ERLOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0004950,12,TAMOXIFEN,{'Hormone'},False,False,Breast Cancer,1,False,False,False,False,True
+P-0005069,7,PEMETREXED,{'Chemo'},False,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0005123,30,"PEMETREXED,CARBOPLATIN,BEVACIZUMAB","{'Biologic', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0005743,27,CRIZOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0005858,8,"FLUOROURACIL,LEUCOVORIN,OXALIPLATIN",{'Chemo'},False,False,Colorectal Cancer,3,False,False,False,False,True
+P-0006065,18,MEGESTROL,{'Hormone'},False,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0006071,28,"CISPLATIN,PEMETREXED,BEVACIZUMAB","{'Biologic', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0006248,21,LETROZOLE,{'Hormone'},False,False,Breast Cancer,1,False,False,False,False,True
+P-0006376,8,PACLITAXEL,{'Chemo'},False,False,Breast Cancer,1,False,False,False,False,True
+P-0006397,49,DABRAFENIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0006596,38,"PEMETREXED,CARBOPLATIN,BEVACIZUMAB","{'Biologic', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0006671,17,"CISPLATIN,PEMETREXED,BEVACIZUMAB","{'Biologic', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0006720,55,PEMETREXED,{'Chemo'},False,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0006728,10,"CARBOPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0007009,22,FULVESTRANT,{'Hormone'},False,False,Breast Cancer,1,False,False,False,False,True
+P-0007100,7,"ZOLEDRONIC ACID,PACLITAXEL","{'Bone Treatment', 'Chemo'}",False,False,Breast Cancer,2,False,False,False,False,True
+P-0007322,2,"CISPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0007507,18,ERLOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0007508,36,ERLOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0007587,14,"CARBOPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0007754,20,AFATINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0007984,19,LETROZOLE,{'Hormone'},False,False,Breast Cancer,1,False,False,False,False,True
+P-0008078,35,ERLOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0008131,68,ERLOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0008285,32,ERLOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0008346,2,"CAPECITABINE,DOCETAXEL",{'Chemo'},False,False,Breast Cancer,2,False,False,False,False,True
+P-0008427,69,AFATINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0008756,20,"DABRAFENIB,TRAMETINIB",{'Targeted'},True,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0008765,6,"CARBOPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0008786,6,NIVOLUMAB,{'Immuno'},False,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0008841,12,"FLUOROURACIL,LEUCOVORIN,OXALIPLATIN",{'Chemo'},False,False,Colorectal Cancer,3,False,False,False,False,True
+P-0008846,12,"PALBOCICLIB,LEUPROLIDE","{'Hormone', 'Targeted'}",True,False,Breast Cancer,2,False,False,False,False,True
+P-0008849,17,"PACLITAXEL,PEMETREXED,BEVACIZUMAB","{'Biologic', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0009000,7,"FLUOROURACIL,LEUCOVORIN,OXALIPLATIN",{'Chemo'},False,False,Colorectal Cancer,3,False,False,False,False,True
+P-0009122,14,"PALBOCICLIB,LETROZOLE","{'Hormone', 'Targeted'}",True,False,Breast Cancer,2,False,False,False,False,True
+P-0009164,30,"CARBOPLATIN,PACLITAXEL",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0009241,1,CRIZOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0009481,80,ERLOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0009610,5,LEUPROLIDE,{'Hormone'},False,False,Breast Cancer,1,False,False,False,False,True
+P-0009619,20,"FLUOROURACIL,LEUCOVORIN,IRINOTECAN,OXALIPLATIN",{'Chemo'},False,False,Pancreatic Cancer,4,False,False,False,False,True
+P-0009864,86,ERLOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0010257,7,"CARBOPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0010267,117,ERLOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0010269,234,ERLOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0010296,7,"PALBOCICLIB,LETROZOLE","{'Hormone', 'Targeted'}",True,False,Breast Cancer,2,False,False,False,False,True
+P-0010333,266,"PEMETREXED,CARBOPLATIN,BEVACIZUMAB","{'Biologic', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0010466,28,"CARBOPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0010863,31,CRIZOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0011134,8,"TRASTUZUMAB,PERTUZUMAB,PACLITAXEL","{'Biologic', 'Chemo'}",False,False,Breast Cancer,3,False,False,False,False,True
+P-0011280,12,"PALBOCICLIB,LETROZOLE","{'Hormone', 'Targeted'}",True,False,Breast Cancer,2,False,False,False,False,True
+P-0011309,16,ERLOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0011405,12,"CAPECITABINE,TEMOZOLOMIDE",{'Chemo'},False,False,Pancreatic Cancer,2,False,False,False,False,True
+P-0012246,17,"CARBOPLATIN,ETOPOSIDE",{'Chemo'},False,False,Pancreatic Cancer,2,False,False,False,False,True
+P-0012251,35,ERLOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0012341,2,"DABRAFENIB,TRAMETINIB",{'Targeted'},True,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0012393,6,ERLOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0012436,18,ERLOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0012534,12,"PALBOCICLIB,LEUPROLIDE,LETROZOLE","{'Hormone', 'Targeted'}",True,False,Breast Cancer,3,False,False,False,False,True
+P-0012589,13,ERLOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0012684,34,"CARBOPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0012823,13,"FLUOROURACIL,LEUCOVORIN,IRINOTECAN",{'Chemo'},False,False,Colorectal Cancer,3,False,False,False,False,True
+P-0012944,27,EVEROLIMUS,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0013059,43,"PALBOCICLIB,LETROZOLE","{'Hormone', 'Targeted'}",True,False,Breast Cancer,2,False,False,False,False,True
+P-0013143,42,ERLOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0013236,15,"PALBOCICLIB,LETROZOLE","{'Hormone', 'Targeted'}",True,False,Breast Cancer,2,False,False,False,False,True
+P-0013265,1,"PALBOCICLIB,LETROZOLE","{'Hormone', 'Targeted'}",True,False,Breast Cancer,2,False,False,False,False,True
+P-0013387,14,"CISPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0013582,22,ERLOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0013600,13,"CISPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0013864,8,CRIZOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0013869,29,"ALECTINIB,CRIZOTINIB",{'Targeted'},True,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0014181,26,ERLOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0014276,8,"PALBOCICLIB,FULVESTRANT","{'Hormone', 'Targeted'}",True,False,Breast Cancer,2,False,False,False,False,True
+P-0014378,168,"PALBOCICLIB,LETROZOLE","{'Hormone', 'Targeted'}",True,False,Breast Cancer,2,False,False,False,False,True
+P-0014385,36,CRIZOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0014389,17,ERLOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0014497,11,ERLOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0014645,7,"CISPLATIN,PEMETREXED,BEVACIZUMAB","{'Biologic', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0014752,10,"CARBOPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0015009,53,CAPECITABINE,{'Chemo'},False,False,Pancreatic Cancer,1,False,False,False,False,True
+P-0015061,20,ERLOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0015063,2,"PALBOCICLIB,LETROZOLE","{'Hormone', 'Targeted'}",True,False,Breast Cancer,2,False,False,False,False,True
+P-0015359,21,"CISPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0015434,15,CRIZOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0015435,3,"CISPLATIN,PEMETREXED,BEVACIZUMAB","{'Biologic', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0015593,24,PEMBROLIZUMAB,{'Immuno'},False,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0015961,188,ALECTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0016017,10,ERLOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0016213,28,"PEMETREXED,CARBOPLATIN,BEVACIZUMAB","{'Biologic', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0016260,63,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0016269,69,"GEMCITABINE,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0016280,14,CRIZOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0016473,21,PACLITAXEL,{'Chemo'},False,False,Breast Cancer,1,False,False,False,False,True
+P-0016503,72,"CISPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0016580,1,"CISPLATIN,ETOPOSIDE",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0016585,245,"CAPECITABINE,TEMOZOLOMIDE",{'Chemo'},False,False,Pancreatic Cancer,2,False,False,False,False,True
+P-0017325,26,"PEMETREXED,CARBOPLATIN,BEVACIZUMAB","{'Biologic', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0017348,8,"CAPECITABINE,TEMOZOLOMIDE",{'Chemo'},False,False,Pancreatic Cancer,2,False,False,False,False,True
+P-0017479,14,"CISPLATIN,PEMETREXED,BEVACIZUMAB","{'Biologic', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0017592,13,"CISPLATIN,PEMETREXED,BEVACIZUMAB","{'Biologic', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0017926,4,"PALBOCICLIB,LETROZOLE","{'Hormone', 'Targeted'}",True,False,Breast Cancer,2,False,False,False,False,True
+P-0017977,28,ERLOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0018280,4,"PACLITAXEL,PEMETREXED,BEVACIZUMAB","{'Biologic', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0018453,20,"CARBOPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0018485,14,"FLUOROURACIL,LEUCOVORIN,OXALIPLATIN",{'Chemo'},False,False,Colorectal Cancer,3,False,False,False,False,True
+P-0018846,6,"FLUOROURACIL,LEUCOVORIN,OXALIPLATIN",{'Chemo'},False,False,Colorectal Cancer,3,False,False,False,False,True
+P-0018882,15,"PALBOCICLIB,LETROZOLE","{'Hormone', 'Targeted'}",True,False,Breast Cancer,2,False,False,False,False,True
+P-0018897,48,ERLOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0019100,7,"FLUOROURACIL,LEUCOVORIN,OXALIPLATIN",{'Chemo'},False,False,Colorectal Cancer,3,False,False,False,False,True
+P-0019516,43,"CARBOPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0019579,11,"TRASTUZUMAB,PACLITAXEL","{'Biologic', 'Chemo'}",False,False,Breast Cancer,2,False,False,False,False,True
+P-0019584,53,DEGARELIX,{'Hormone'},False,False,Prostate Cancer,1,False,False,False,False,True
+P-0019786,6,CRIZOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0019856,21,"PEMETREXED,CARBOPLATIN,BEVACIZUMAB","{'Biologic', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0020088,5,"FLUOROURACIL,LEUCOVORIN,OXALIPLATIN",{'Chemo'},False,False,Colorectal Cancer,3,False,False,False,False,True
+P-0020170,13,PEMBROLIZUMAB,{'Immuno'},False,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0020450,7,"DOCETAXEL,CISPLATIN",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0020685,14,ERLOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0020950,18,"PEMETREXED,CARBOPLATIN,BEVACIZUMAB","{'Biologic', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0021124,12,"CISPLATIN,ETOPOSIDE",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0021436,5,"LEUPROLIDE,LETROZOLE",{'Hormone'},False,False,Breast Cancer,2,False,False,False,False,True
+P-0021679,1,"TRASTUZUMAB,PERTUZUMAB,PACLITAXEL","{'Biologic', 'Chemo'}",False,False,Breast Cancer,3,False,False,False,False,True
+P-0022337,19,LETROZOLE,{'Hormone'},False,False,Breast Cancer,1,False,False,False,False,True
+P-0022378,30,ERLOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0022837,6,"PALBOCICLIB,ANASTROZOLE","{'Hormone', 'Targeted'}",True,False,Breast Cancer,2,False,False,False,False,True
+P-0023000,15,ALECTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0023306,342,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0023534,159,"CARBOPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0023678,24,"PEMETREXED,CARBOPLATIN,BEVACIZUMAB","{'Biologic', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0023860,6,"ZOLEDRONIC ACID,PEMBROLIZUMAB","{'Immuno', 'Bone Treatment'}",False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0024508,61,EVEROLIMUS,{'Targeted'},True,False,Pancreatic Cancer,1,False,False,False,False,True
+P-0024675,5,ALECTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0024677,32,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0024761,9,"CISPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0024900,39,CRIZOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0025367,20,LETROZOLE,{'Hormone'},False,False,Breast Cancer,1,False,False,False,False,True
+P-0025691,5,PEMBROLIZUMAB,{'Immuno'},False,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0025699,6,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0025736,7,"CISPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0025739,20,TRAMETINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0025836,34,"PEMBROLIZUMAB,CARBOPLATIN,PEMETREXED","{'Immuno', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0026295,15,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0026308,23,"CARBOPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0026464,189,LENVATINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0026689,17,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0026856,106,"DOXORUBICIN,CYCLOPHOSPHAMIDE",{'Chemo'},False,False,Breast Cancer,2,False,False,False,False,True
+P-0026959,3,"DOXORUBICIN,CYCLOPHOSPHAMIDE",{'Chemo'},False,False,Breast Cancer,2,False,False,False,False,True
+P-0027092,36,ALECTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0027527,26,"CISPLATIN,PEMETREXED,BEVACIZUMAB","{'Biologic', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0027620,297,"CAPECITABINE,TEMOZOLOMIDE",{'Chemo'},False,False,Pancreatic Cancer,2,False,False,False,False,True
+P-0027828,14,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0027853,2,ALECTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0027879,6,"PALBOCICLIB,LEUPROLIDE,LETROZOLE","{'Hormone', 'Targeted'}",True,False,Breast Cancer,3,False,False,False,False,True
+P-0028081,7,PEMBROLIZUMAB,{'Immuno'},False,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0028175,14,MEGESTROL,{'Hormone'},False,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0028204,6,"CARBOPLATIN,PACLITAXEL",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0028529,3,CRIZOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0028832,45,"DOXORUBICIN,CYCLOPHOSPHAMIDE",{'Chemo'},False,False,Breast Cancer,2,False,False,False,False,True
+P-0028944,21,"PEMBROLIZUMAB,CARBOPLATIN,PEMETREXED","{'Immuno', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0029112,43,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0029146,11,"LETROZOLE,ABEMACICLIB","{'Hormone', 'Targeted'}",True,False,Breast Cancer,2,False,False,False,False,True
+P-0029225,17,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0029400,7,ALECTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0029750,9,BEVACIZUMAB,{'Biologic'},False,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0029828,17,"FLUOROURACIL,LEUCOVORIN,BEVACIZUMAB","{'Biologic', 'Chemo'}",False,False,Colorectal Cancer,3,False,False,False,False,True
+P-0029971,18,ALECTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0030543,14,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0030808,28,ALECTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0030823,15,"PALBOCICLIB,LETROZOLE","{'Hormone', 'Targeted'}",True,False,Breast Cancer,2,False,False,False,False,True
+P-0030998,13,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0031188,4,"FLUOROURACIL,LEUCOVORIN,OXALIPLATIN",{'Chemo'},False,False,Colorectal Cancer,3,False,False,False,False,True
+P-0031231,9,"FLUOROURACIL,LEUCOVORIN,IRINOTECAN,OXALIPLATIN",{'Chemo'},False,False,Pancreatic Cancer,4,False,False,False,False,True
+P-0031242,108,GEMCITABINE,{'Chemo'},False,False,Breast Cancer,1,False,False,False,False,True
+P-0031299,64,AFATINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0031403,13,LETROZOLE,{'Hormone'},False,False,Breast Cancer,1,False,False,False,False,True
+P-0031406,2,ALECTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0031606,7,"TRASTUZUMAB,PERTUZUMAB,PACLITAXEL","{'Biologic', 'Chemo'}",False,False,Breast Cancer,3,False,False,False,False,True
+P-0031743,7,"PALBOCICLIB,LETROZOLE","{'Hormone', 'Targeted'}",True,False,Breast Cancer,2,False,False,False,False,True
+P-0031865,27,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0031891,321,PEMBROLIZUMAB,{'Immuno'},False,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0032124,31,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0032251,3,ZOLEDRONIC ACID,{'Bone Treatment'},False,False,Breast Cancer,1,False,False,False,False,True
+P-0032318,258,PALBOCICLIB,{'Targeted'},True,False,Breast Cancer,1,False,False,False,False,True
+P-0032358,12,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0032363,19,"FLUOROURACIL,LEUCOVORIN,OXALIPLATIN",{'Chemo'},False,False,Colorectal Cancer,3,False,False,False,False,True
+P-0032511,6,"PEMBROLIZUMAB,CARBOPLATIN,PEMETREXED","{'Immuno', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0032673,12,"PALBOCICLIB,LEUPROLIDE,ANASTROZOLE","{'Hormone', 'Targeted'}",True,False,Breast Cancer,3,False,False,False,False,True
+P-0032722,24,CRIZOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0032822,27,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0032833,106,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0033180,14,ALECTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0033309,13,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0033315,20,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0033317,82,"DABRAFENIB,TRAMETINIB",{'Targeted'},True,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0033609,12,"CARBOPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0033764,17,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0033815,7,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0033851,19,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0034036,16,"FLUOROURACIL,LEUCOVORIN,OXALIPLATIN",{'Chemo'},False,False,Colorectal Cancer,3,False,False,False,False,True
+P-0034225,7,"LEUPROLIDE,TRASTUZUMAB,PERTUZUMAB,PACLITAXEL","{'Hormone', 'Biologic', 'Chemo'}",False,False,Breast Cancer,4,False,False,False,False,True
+P-0034342,9,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0034450,12,"CISPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0034502,13,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0034668,19,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0034711,19,"CISPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0034752,3,"CARBOPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0034785,6,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0034926,73,PEMBROLIZUMAB,{'Immuno'},False,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0035021,7,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0035156,12,ALECTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0035162,16,PEMBROLIZUMAB,{'Immuno'},False,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0035552,41,LAROTRECTINIB,{'Targeted'},True,False,Pancreatic Cancer,1,False,False,False,False,True
+P-0035774,10,"PEMBROLIZUMAB,CARBOPLATIN,PEMETREXED","{'Immuno', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0036090,46,DABRAFENIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0036092,23,"PEMBROLIZUMAB,CARBOPLATIN,PEMETREXED","{'Immuno', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0036096,16,"FLUOROURACIL,LEUCOVORIN,OXALIPLATIN",{'Chemo'},False,False,Colorectal Cancer,3,False,False,False,False,True
+P-0036116,294,OLAPARIB,{'Targeted'},True,False,Pancreatic Cancer,1,False,False,False,False,True
+P-0036247,7,ALECTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0036818,89,"DABRAFENIB,TRAMETINIB",{'Targeted'},True,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0036885,24,PEMBROLIZUMAB,{'Immuno'},False,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0036999,174,"FLUOROURACIL,LEUCOVORIN,BEVACIZUMAB","{'Biologic', 'Chemo'}",False,False,Colorectal Cancer,3,False,False,False,False,True
+P-0037242,20,"FLUOROURACIL,LEUCOVORIN,OXALIPLATIN",{'Chemo'},False,False,Colorectal Cancer,3,False,False,False,False,True
+P-0037379,20,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0037413,22,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0037491,28,ALECTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0037518,19,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0037533,4,LETROZOLE,{'Hormone'},False,False,Breast Cancer,1,False,False,False,False,True
+P-0037643,39,CRIZOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0037718,8,"CISPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0037767,16,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0037925,2,"PEMBROLIZUMAB,CARBOPLATIN,PEMETREXED","{'Immuno', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0038019,13,"CISPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0038266,5,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0038630,5,"TRASTUZUMAB,PERTUZUMAB,PACLITAXEL","{'Biologic', 'Chemo'}",False,False,Breast Cancer,3,False,False,False,False,True
+P-0038741,45,"CAPECITABINE,LAPATINIB","{'Chemo', 'Targeted'}",True,False,Breast Cancer,2,False,False,False,False,True
+P-0038813,11,"FLUOROURACIL,LEUCOVORIN,IRINOTECAN,OXALIPLATIN",{'Chemo'},False,False,Pancreatic Cancer,4,False,False,False,False,True
+P-0038821,20,"PEMBROLIZUMAB,CARBOPLATIN,PEMETREXED","{'Immuno', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0038825,18,"FLUOROURACIL,LEUCOVORIN,OXALIPLATIN",{'Chemo'},False,False,Colorectal Cancer,3,False,False,False,False,True
+P-0038939,9,"PALBOCICLIB,LEUPROLIDE,LETROZOLE","{'Hormone', 'Targeted'}",True,False,Breast Cancer,3,False,False,False,False,True
+P-0039029,5,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0039050,4,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0039237,9,PEMBROLIZUMAB,{'Immuno'},False,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0039430,9,"CISPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0039464,2,LETROZOLE,{'Hormone'},False,False,Breast Cancer,1,False,False,False,False,True
+P-0039604,4,"PEMBROLIZUMAB,CARBOPLATIN,PEMETREXED","{'Immuno', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0040024,1,LEUPROLIDE,{'Hormone'},False,False,Breast Cancer,1,False,False,False,False,True
+P-0040600,4,ALECTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0040649,28,CRIZOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0040888,7,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0041320,8,"LETROZOLE-RIBOCICLIB,LEUPROLIDE","{'Other', 'Hormone'}",False,False,Breast Cancer,2,False,False,False,False,True
+P-0041594,7,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0041875,17,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0041893,1,ALECTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0042596,22,ALECTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0042736,6,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0042804,26,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0043018,32,"CISPLATIN,PEMBROLIZUMAB,PEMETREXED","{'Immuno', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0043353,1,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0043521,5,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0043530,13,PEMBROLIZUMAB,{'Immuno'},False,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0043892,3,PEMBROLIZUMAB,{'Immuno'},False,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0043938,13,"PEMBROLIZUMAB,CARBOPLATIN,PEMETREXED","{'Immuno', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0044017,6,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0044208,18,"TRASTUZUMAB,PERTUZUMAB,PACLITAXEL","{'Biologic', 'Chemo'}",False,False,Breast Cancer,3,False,False,False,False,True
+P-0044496,3,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0044705,8,"CISPLATIN,PEMBROLIZUMAB,PEMETREXED","{'Immuno', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0045222,20,ALECTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0045418,4,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0045581,1,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0045737,2,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0045867,4,"PEMBROLIZUMAB,CARBOPLATIN,PEMETREXED","{'Immuno', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0045894,3,"FLUOROURACIL,LEUCOVORIN,OXALIPLATIN",{'Chemo'},False,False,Colorectal Cancer,3,False,False,False,False,True
+P-0046209,13,"CARBOPLATIN,PACLITAXEL",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0046474,6,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0046699,32,"FLUOROURACIL,LEUCOVORIN,OXALIPLATIN",{'Chemo'},False,False,Colorectal Cancer,3,False,False,False,False,True
+P-0046757,6,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0046847,75,OLAPARIB,{'Targeted'},True,False,Breast Cancer,1,False,False,False,False,True
+P-0046946,7,CRIZOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0047200,4,"FLUOROURACIL,LEUCOVORIN,OXALIPLATIN",{'Chemo'},False,False,Colorectal Cancer,3,False,False,False,False,True
+P-0047355,23,ALECTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0047559,5,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0048041,2,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0048096,6,"CISPLATIN,PEMBROLIZUMAB,PEMETREXED","{'Immuno', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0048167,27,PEMBROLIZUMAB,{'Immuno'},False,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0048457,5,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0048696,8,"CARBOPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0048868,2,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0048874,4,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0049059,38,SUNITINIB,{'Targeted'},True,False,Pancreatic Cancer,1,False,False,False,False,True
+P-0049197,8,"PEMBROLIZUMAB,CARBOPLATIN,PEMETREXED","{'Immuno', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0049387,20,PEMBROLIZUMAB,{'Immuno'},False,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0049488,20,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0049500,5,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0049558,7,"CISPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0049640,9,"CISPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0049753,6,"PALBOCICLIB,LETROZOLE","{'Hormone', 'Targeted'}",True,False,Breast Cancer,2,False,False,False,False,True
+P-0049754,21,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0050063,11,ABEMACICLIB,{'Targeted'},True,False,Breast Cancer,1,False,False,False,False,True
+P-0050216,1,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0050436,268,"PEMETREXED,BEVACIZUMAB","{'Biologic', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0050518,6,PEMBROLIZUMAB,{'Immuno'},False,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0050641,8,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0050745,6,PACLITAXEL,{'Chemo'},False,False,Breast Cancer,1,False,False,False,False,True
+P-0050950,9,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0051346,5,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0052088,37,ALECTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0052263,2,"PALBOCICLIB,LEUPROLIDE,LETROZOLE","{'Hormone', 'Targeted'}",True,False,Breast Cancer,3,False,False,False,False,True
+P-0052766,77,RITUXIMAB,{'Biologic'},False,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0052861,5,"PEMETREXED,CARBOPLATIN,BEVACIZUMAB","{'Biologic', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0052865,28,"BINIMETINIB,ENCORAFENIB",{'Targeted'},True,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0053170,3,"CISPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0053175,2,"PEMBROLIZUMAB,CARBOPLATIN,PEMETREXED","{'Immuno', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0053278,4,CRIZOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0053524,17,"PEMBROLIZUMAB,CARBOPLATIN,PEMETREXED","{'Immuno', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0053709,6,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0053963,2,ALECTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0054235,7,"DOXORUBICIN,LEUPROLIDE,CYCLOPHOSPHAMIDE","{'Hormone', 'Chemo'}",False,False,Breast Cancer,3,False,False,False,False,True
+P-0054359,10,"CARBOPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0054419,1,ENTRECTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0054480,2,"ISOTRETINOIN,ANASTROZOLE","{'Hormone', 'Targeted'}",True,False,Breast Cancer,2,False,False,False,False,True
+P-0054984,29,TAMOXIFEN,{'Hormone'},False,False,Breast Cancer,1,False,False,False,False,True
+P-0055259,60,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0055262,9,"DACOMITINIB,OSIMERTINIB",{'Targeted'},True,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0055313,1,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0055609,19,"PEMBROLIZUMAB,CARBOPLATIN,PEMETREXED","{'Immuno', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0055817,106,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0056013,318,EXEMESTANE,{'Hormone'},False,False,Breast Cancer,1,False,False,False,False,True
+P-0056108,1,"CISPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0056419,28,PEMBROLIZUMAB,{'Immuno'},False,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0056523,5,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0057072,3,"CISPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0057140,13,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0057194,6,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0057196,4,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0057355,1,LEUPROLIDE,{'Hormone'},False,False,Prostate Cancer,1,False,False,False,False,True
+P-0057379,6,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0057388,1,"CARBOPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0057654,52,"CISPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0057856,2,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0058090,6,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0058191,10,PEMBROLIZUMAB,{'Immuno'},False,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0058235,7,"PEMBROLIZUMAB,CARBOPLATIN,PEMETREXED","{'Immuno', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0058474,6,AFATINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0058614,3,"PEMBROLIZUMAB,CARBOPLATIN,PEMETREXED","{'Immuno', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0059463,15,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0059464,287,ERLOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0059526,10,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0059643,129,"CARBOPLATIN,PACLITAXEL",{'Chemo'},False,False,Breast Cancer,2,False,False,False,False,True
+P-0060114,29,"CARBOPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0060605,3,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0061304,4,"CARBOPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0061508,12,"PALBOCICLIB,LETROZOLE","{'Hormone', 'Targeted'}",True,False,Breast Cancer,2,False,False,False,False,True
+P-0061711,7,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0061783,8,"FLUOROURACIL,LEUCOVORIN,IRINOTECAN,OXALIPLATIN",{'Chemo'},False,False,Pancreatic Cancer,4,False,False,False,False,True
+P-0061951,6,PEMBROLIZUMAB,{'Immuno'},False,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0062115,14,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0062465,10,"FLUOROURACIL,LEUCOVORIN,IRINOTECAN",{'Chemo'},False,False,Colorectal Cancer,3,False,False,False,False,True
+P-0062602,7,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0062985,333,ALECTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0063207,1,"DOXORUBICIN,CYCLOPHOSPHAMIDE",{'Chemo'},False,False,Breast Cancer,2,False,False,False,False,True
+P-0063541,5,"DOCETAXEL,CISPLATIN",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0063730,128,"ATEZOLIZUMAB,CARBOPLATIN,ETOPOSIDE","{'Immuno', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0063798,7,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0063799,12,"CISPLATIN,ETOPOSIDE",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0063897,5,"FLUOROURACIL,LEUCOVORIN,OXALIPLATIN",{'Chemo'},False,False,Colorectal Cancer,3,False,False,False,False,True
+P-0064024,234,OLAPARIB,{'Targeted'},True,False,Pancreatic Cancer,1,False,False,False,False,True
+P-0064036,72,"CARBOPLATIN,PACLITAXEL",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0064356,9,"CARBOPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0064520,5,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0064541,11,PEMBROLIZUMAB,{'Immuno'},False,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0064764,2,"FLUOROURACIL,LEUCOVORIN,IRINOTECAN,OXALIPLATIN",{'Chemo'},False,False,Pancreatic Cancer,4,False,False,False,False,True
+P-0064874,25,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0064933,13,PEMBROLIZUMAB,{'Immuno'},False,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0065076,1,"PEMBROLIZUMAB,CARBOPLATIN,PEMETREXED","{'Immuno', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0065465,10,"PEMBROLIZUMAB,CARBOPLATIN,PEMETREXED","{'Immuno', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0065700,12,"TRASTUZUMAB,PERTUZUMAB,PACLITAXEL","{'Biologic', 'Chemo'}",False,False,Breast Cancer,3,False,False,False,False,True
+P-0066183,6,"CARBOPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0066295,10,"PEMBROLIZUMAB,CARBOPLATIN,PEMETREXED","{'Immuno', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0066462,17,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0066632,14,"FLUOROURACIL,LEUCOVORIN,OXALIPLATIN",{'Chemo'},False,False,Colorectal Cancer,3,False,False,False,False,True
+P-0067042,8,"ATEZOLIZUMAB,PACLITAXEL,CARBOPLATIN,BEVACIZUMAB","{'Immuno', 'Biologic', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,4,False,False,False,False,True
+P-0067043,5,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0067048,10,ALECTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0067422,5,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0067975,249,ALPELISIB,{'Targeted'},True,False,Breast Cancer,1,False,False,False,False,True
+P-0068978,1,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0069007,1,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0069574,7,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0069685,13,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0069816,31,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0070422,3,PEMBROLIZUMAB,{'Immuno'},False,False,Colorectal Cancer,1,False,False,False,False,True
+P-0070426,5,SOTORASIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0071054,5,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0071424,12,"PEMBROLIZUMAB,CARBOPLATIN,PEMETREXED","{'Immuno', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0071425,15,"PEMBROLIZUMAB,CARBOPLATIN,PEMETREXED","{'Immuno', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0071426,35,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0071508,24,"CARBOPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0071578,14,"CARBOPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0071784,14,"ZOLEDRONIC ACID,PEMETREXED,CARBOPLATIN,BEVACIZUMAB","{'Bone Treatment', 'Biologic', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,4,False,False,False,False,True
+P-0072069,21,ENTRECTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0072091,4,ALECTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0072941,116,TEPOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0072968,14,ALECTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0073078,7,TEPOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0073527,30,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0074225,2,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0074329,2,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0074666,33,CAPMATINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0074718,12,"CARBOPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0074783,8,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0075247,29,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0075463,3,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0075878,8,"DOXORUBICIN,LEUPROLIDE,CYCLOPHOSPHAMIDE","{'Hormone', 'Chemo'}",False,False,Breast Cancer,3,False,False,False,False,True
+P-0075921,12,PALBOCICLIB,{'Targeted'},True,False,Breast Cancer,1,False,False,False,False,True
+P-0076211,54,"CISPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0076284,13,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0076342,14,PEMBROLIZUMAB,{'Immuno'},False,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0076647,38,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0076760,197,CAPMATINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0076802,14,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0076890,2,LETROZOLE,{'Hormone'},False,False,Breast Cancer,1,False,False,False,False,True
+P-0076964,8,PEMBROLIZUMAB,{'Immuno'},False,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0077149,2,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0077226,1,"FLUOROURACIL,LEUCOVORIN,IRINOTECAN,OXALIPLATIN",{'Chemo'},False,False,Pancreatic Cancer,4,False,False,False,False,True
+P-0077355,5,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0077617,72,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0077653,8,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0078187,7,"CARBOPLATIN,PACLITAXEL",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0078245,4,PEMBROLIZUMAB,{'Immuno'},False,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0078246,22,PACLITAXEL,{'Chemo'},False,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0078362,1,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0078414,62,"CARBOPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0078424,17,SELPERCATINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0078557,198,"CARBOPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0078850,20,"CISPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0078897,16,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0079028,5,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0079387,8,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0079519,7,ALECTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0079683,14,"CISPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0079802,61,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0079894,24,"NIVOLUMAB,CARBOPLATIN,PEMETREXED","{'Immuno', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0080001,6,"DABRAFENIB,TRAMETINIB",{'Targeted'},True,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0080002,12,"CARBOPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0080096,174,"RIBOCICLIB,LETROZOLE","{'Hormone', 'Targeted'}",True,False,Breast Cancer,2,False,False,False,False,True
+P-0080653,13,LAROTRECTINIB,{'Targeted'},True,False,Breast Cancer,1,False,False,False,False,True
+P-0080659,32,CAPMATINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0080701,158,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0080715,41,"CISPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0080791,5,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0080964,2,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0080969,72,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0081135,6,ALECTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0081244,40,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0081388,13,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0081598,14,PEMBROLIZUMAB,{'Immuno'},False,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0081657,10,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0081829,7,"NIVOLUMAB,CARBOPLATIN,PEMETREXED","{'Immuno', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0082122,15,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0082173,2,CRIZOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0083069,7,CRIZOTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0083399,15,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0084803,12,"FLUOROURACIL,LEUCOVORIN,OXALIPLATIN",{'Chemo'},False,False,Colorectal Cancer,3,False,False,False,False,True
+P-0084841,16,ENTRECTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0084871,60,PEMBROLIZUMAB,{'Immuno'},False,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0084893,13,"PEMBROLIZUMAB,CARBOPLATIN,PEMETREXED","{'Immuno', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0084896,7,"MOBOCERTINIB,CARBOPLATIN,PEMETREXED","{'Chemo', 'Targeted'}",True,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0085479,201,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0085490,13,"CISPLATIN,PEMETREXED",{'Chemo'},False,False,Non-Small Cell Lung Cancer,2,False,False,False,False,True
+P-0085493,39,"PEMBROLIZUMAB,CARBOPLATIN,PEMETREXED","{'Immuno', 'Chemo'}",False,False,Non-Small Cell Lung Cancer,3,False,False,False,False,True
+P-0085517,8,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0085637,7,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0085954,9,PEMBROLIZUMAB,{'Immuno'},False,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0086116,11,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0086359,16,ALECTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0086466,2,"RIBOCICLIB,LETROZOLE","{'Hormone', 'Targeted'}",True,False,Breast Cancer,2,False,False,False,False,True
+P-0086468,16,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0087422,17,ALECTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True
+P-0087472,2,OSIMERTINIB,{'Targeted'},True,False,Non-Small Cell Lung Cancer,1,False,False,False,False,True

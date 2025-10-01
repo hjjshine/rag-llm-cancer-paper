@@ -1,0 +1,18 @@
+Patient ID: P-0013697
+Age: 76
+Gender: Male
+Sample ID: P-0013697-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Prostate Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 60.0%
+=============
+DNA Variants:
+ANKRD11 c.2534T>A (p.L845*) - in 46.00% of 1247 reads
+CDKN2C c.224A>G (p.H75R) - in 42.00% of 625 reads
+MYOD1 c.308G>A (p.R103H) - in 33.00% of 265 reads
+PTPRD c.143C>T (p.T48M) - in 45.00% of 565 reads
+CNA Data:
+AR - High Level Amplification
+Structural Variants:
+No structural variant data found.

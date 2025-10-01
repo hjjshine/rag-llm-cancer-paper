@@ -1,0 +1,17 @@
+Patient ID: P-0044178
+Age: 73
+Gender: Female
+Sample ID: P-0044178-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Pancreatic Neuroendocrine Tumor
+Sample Type: Metastasis
+Tumor Purity: 80.0%
+=============
+DNA Variants:
+BMPR1A c.200G>A (p.C67Y) - in 10.00% of 163 reads
+DAXX c.1617_1632del (p.P540Lfs*11) - in 14.00% of 162 reads
+MEN1 c.757_775delinsA (p.D253_L259delinsM) - in 6.00% of 337 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+FGFR3 - FGFR3 (INVERSION)

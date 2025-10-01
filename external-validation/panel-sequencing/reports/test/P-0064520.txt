@@ -1,0 +1,22 @@
+Patient ID: P-0064520
+Age: 70
+Gender: Female
+Sample ID: P-0064520-T02-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+CYP19A1 c.852A>C (p.L284F) - in 5.00% of 351 reads
+EGFR c.2573T>G (p.L858R) - in 37.00% of 1212 reads
+TP53 c.659A>G (p.Y220C) - in 21.00% of 864 reads
+VHL c.76_202del (p.E26Rfs*91) - in 3.00% of 898 reads
+CNA Data:
+PIK3CA - High Level Amplification
+CDK4 - High Level Amplification
+GAB1 - High Level Amplification
+INPP4B - High Level Amplification
+MYC - High Level Amplification
+Structural Variants:
+FGFR1 - SFRP1 (DELETION)

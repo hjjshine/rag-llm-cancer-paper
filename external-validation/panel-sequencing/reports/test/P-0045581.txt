@@ -1,0 +1,18 @@
+Patient ID: P-0045581
+Age: 86
+Gender: Female
+Sample ID: P-0045581-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 10.0%
+=============
+DNA Variants:
+EGFR c.2235_2249del (p.E746_A750del) - in 8.00% of 456 reads
+CNA Data:
+CCND1 - High Level Amplification
+FGF4 - High Level Amplification
+FGF3 - High Level Amplification
+FGF19 - High Level Amplification
+Structural Variants:
+No structural variant data found.

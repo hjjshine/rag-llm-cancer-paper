@@ -1,0 +1,19 @@
+Patient ID: P-0045418
+Age: 73
+Gender: Male
+Sample ID: P-0045418-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 60.0%
+=============
+DNA Variants:
+EGFR c.2236_2250del (p.E746_A750del) - in 41.00% of 927 reads
+INPP4A c.2816G>A (p.R939K) - in 21.00% of 405 reads
+TP53 c.430_431dup (p.Q144Hfs*27) - in 80.00% of 2186 reads
+CNA Data:
+CDKN1B - Homozygous Deletion
+CCNE1 - High Level Amplification
+AKT2 - High Level Amplification
+Structural Variants:
+No structural variant data found.

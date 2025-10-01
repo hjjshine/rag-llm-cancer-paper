@@ -1,0 +1,26 @@
+Patient ID: P-0015434
+Age: 52
+Gender: Female
+Sample ID: P-0015434-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+ALK c.3113C>T (p.S1038F) - in 24.00% of 1145 reads
+BRCA2 c.506A>G (p.K169R) - in 48.00% of 528 reads
+CDKN2A c.180_190delGGAGCTGCTGCinsTGG (p.E61Gfs*56) - in 23.00% of 622 reads
+DDR2 c.1474C>T (p.P492S) - in 46.00% of 804 reads
+IRS2 c.2635G>A (p.G879S) - in 48.00% of 515 reads
+KMT2B c.1126_1128del (p.K376del) - in 46.00% of 1248 reads
+KMT2D c.13990G>T (p.A4664S) - in 46.00% of 1308 reads
+LATS2 c.1431_1436dup (p.P479_A480dup) - in 6.00% of 181 reads
+MGA c.514C>T (p.Q172*) - in 18.00% of 813 reads
+PTEN c.210-7_210-3delCTTTT (p.X70_splice) - in 48.00% of 331 reads
+TP53 c.404G>A (p.C135Y) - in 27.00% of 1230 reads
+CNA Data:
+MAPK3 - High Level Amplification
+SOCS1 - High Level Amplification
+Structural Variants:
+EML4 - ALK (INVERSION)

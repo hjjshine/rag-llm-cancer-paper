@@ -1,0 +1,24 @@
+Patient ID: P-0012534
+Age: 50
+Gender: Female
+Sample ID: P-0012534-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Breast Invasive Lobular Carcinoma
+Sample Type: Metastasis
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+ARID5B c.2506C>T (p.H836Y) - in 17.00% of 1041 reads
+ATRX c.7172A>G (p.Y2391C) - in 20.00% of 1193 reads
+CDH1 c.1730del (p.G577Efs*7) - in 26.00% of 621 reads
+EPHB1 c.2843C>T (p.S948L) - in 6.00% of 788 reads
+HNF1A c.392G>A (p.R131Q) - in 23.00% of 973 reads
+PAK7 c.815A>T (p.Y272F) - in 14.00% of 965 reads
+PIK3CA c.1633G>A (p.E545K) - in 22.00% of 483 reads
+RNF43 c.2297C>T (p.S766L) - in 6.00% of 628 reads
+TP53 c.994-1G>A (p.X332_splice) - in 17.00% of 711 reads
+TP53 c.738G>A (p.M246I) - in 7.00% of 710 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

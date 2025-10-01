@@ -1,0 +1,22 @@
+Patient ID: P-0040888
+Age: 65
+Gender: Female
+Sample ID: P-0040888-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+ASXL1 c.455dup (p.Y152*) - in 31.00% of 442 reads
+EGFR c.2573T>G (p.L858R) - in 30.00% of 978 reads
+EPHB1 c.751G>C (p.G251R) - in 11.00% of 498 reads
+MED12 c.4080del (p.L1361Wfs*6) - in 12.00% of 739 reads
+NOTCH2 c.6215C>T (p.P2072L) - in 36.00% of 769 reads
+SMYD3 c.1096C>T (p.H366Y) - in 8.00% of 934 reads
+SRSF2 c.347G>C (p.G116A) - in 10.00% of 633 reads
+TP53 c.733G>A (p.G245S) - in 16.00% of 624 reads
+CNA Data:
+CCNE1 - High Level Amplification
+Structural Variants:
+No structural variant data found.

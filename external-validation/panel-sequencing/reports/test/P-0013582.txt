@@ -1,0 +1,18 @@
+Patient ID: P-0013582
+Age: 67
+Gender: Female
+Sample ID: P-0013582-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+ATR c.5440dupA (p.R1814Kfs*8) - in 9.00% of 1208 reads
+CTNNB1 c.94G>T (p.D32Y) - in 3.00% of 1155 reads
+EGFR c.2240_2254del (p.L747_T751del) - in 33.00% of 1334 reads
+TP53 c.526T>A (p.C176S) - in 17.00% of 664 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

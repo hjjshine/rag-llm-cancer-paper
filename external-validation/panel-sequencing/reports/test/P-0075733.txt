@@ -1,0 +1,22 @@
+Patient ID: P-0075733
+Age: 51
+Gender: Male
+Sample ID: P-0075733-T02-IM7
+Gene Panel: IMPACT505
+Cancer Type: Pancreatic Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 70.0%
+=============
+DNA Variants:
+CCNE1 c.1106T>G (p.L369W) - in 14.00% of 469 reads
+CDKN2A c.172_176inv (p.R58_V59delinsTR) - in 24.00% of 402 reads
+KDM6A c.2832+2T>G (p.X944_splice) - in 32.00% of 188 reads
+KRAS c.35G>A (p.G12D) - in 21.00% of 447 reads
+LATS1 c.3040_3042delinsCAT (p.D1014H) - in 22.00% of 418 reads
+RUNX1 c.706_718del (p.M236Hfs*14) - in 18.00% of 555 reads
+TP53 c.814G>A (p.V272M) - in 27.00% of 458 reads
+WHSC1 c.2863G>C (p.G955R) - in 25.00% of 472 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

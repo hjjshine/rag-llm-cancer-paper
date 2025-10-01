@@ -1,0 +1,25 @@
+Patient ID: P-0086466
+Age: 59
+Gender: Female
+Sample ID: P-0086466-T01-IM7
+Gene Panel: IMPACT505
+Cancer Type: Breast Invasive Lobular Carcinoma
+Sample Type: Metastasis
+Tumor Purity: 70.0%
+=============
+DNA Variants:
+CDH1 c.48+1G>A (p.X16_splice) - in 56.00% of 293 reads
+CYSLTR2 c.391G>A (p.V131M) - in 37.00% of 632 reads
+ERBB3 c.887T>A (p.V296E) - in 35.00% of 641 reads
+FH c.1495G>A (p.E499K) - in 39.00% of 404 reads
+FOXA1 c.520_521delinsAA (p.S174K) - in 34.00% of 679 reads
+MLH1 c.790+1del (p.X264_splice) - in 31.00% of 346 reads
+CNA Data:
+CDC73 - High Level Amplification
+IKBKE - High Level Amplification
+SDHC - High Level Amplification
+MDM4 - High Level Amplification
+DDR2 - High Level Amplification
+IL10 - High Level Amplification
+Structural Variants:
+No structural variant data found.

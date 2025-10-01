@@ -1,0 +1,16 @@
+Patient ID: P-0036247
+Age: 49
+Gender: Female
+Sample ID: P-0036247-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 60.0%
+=============
+DNA Variants:
+TP53 c.1015G>T (p.E339*) - in 52.00% of 284 reads
+CNA Data:
+ARID2 - Homozygous Deletion
+Structural Variants:
+ALK - EML4 (INVERSION)
+MAP2K4 - MAP2K4 (DELETION)

@@ -1,0 +1,16 @@
+Patient ID: P-0049753
+Age: 72
+Gender: Female
+Sample ID: P-0049753-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Breast Invasive Ductal Carcinoma
+Sample Type: Metastasis
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+KMT2D c.13645G>A (p.E4549K) - in 7.00% of 881 reads
+MEN1 c.1754C>A (p.T585K) - in 11.00% of 990 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

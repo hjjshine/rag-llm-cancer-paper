@@ -1,0 +1,23 @@
+Patient ID: P-0048242
+Age: 48
+Gender: Male
+Sample ID: P-0048242-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Colon Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+ALOX12B c.2003G>A (p.R668H) - in 10.00% of 1069 reads
+APC c.4348C>T (p.R1450*) - in 40.00% of 393 reads
+ATM c.6115G>A (p.E2039K) - in 14.00% of 468 reads
+BRAF c.1799T>A (p.V600E) - in 20.00% of 358 reads
+CASP8 c.838-2A>G (p.X280_splice) - in 17.00% of 457 reads
+MYD88 c.238C>T (p.Q80*) - in 19.00% of 1243 reads
+PTEN c.1027-1G>A (p.X343_splice) - in 25.00% of 191 reads
+PTPRS c.1384G>A (p.V462I) - in 28.00% of 1444 reads
+STAT3 c.555dup (p.Q186Afs*35) - in 19.00% of 663 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

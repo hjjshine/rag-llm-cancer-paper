@@ -1,0 +1,16 @@
+Patient ID: P-0007050
+Age: 68
+Gender: Male
+Sample ID: P-0007050-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+No DNA variant data found.
+CNA Data:
+No CNA data found.
+Structural Variants:
+NTRK1 - nan (INVERSION)
+VANGL2 - NTRK1 (DUPLICATION)

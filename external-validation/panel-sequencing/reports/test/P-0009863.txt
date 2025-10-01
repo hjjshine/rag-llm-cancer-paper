@@ -1,0 +1,23 @@
+Patient ID: P-0009863
+Age: 49
+Gender: Female
+Sample ID: P-0009863-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Colon Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+ATM c.3747-1G>T (p.X1249_splice) - in 9.00% of 192 reads
+BRAF c.1799T>A (p.V600E) - in 18.00% of 455 reads
+CDKN1B c.295_305dup (p.Q104Rfs*19) - in 13.00% of 606 reads
+MAX c.179G>A (p.R60Q) - in 8.00% of 581 reads
+NF2 c.1573A>T (p.K525*) - in 6.00% of 462 reads
+PGR c.44C>T (p.A15V) - in 5.00% of 2276 reads
+RPTOR c.3998G>A (p.R1333H) - in 14.00% of 1399 reads
+TP53 c.876dup (p.G293Rfs*13) - in 14.00% of 1173 reads
+CNA Data:
+AXL - High Level Amplification
+AKT2 - High Level Amplification
+Structural Variants:
+No structural variant data found.

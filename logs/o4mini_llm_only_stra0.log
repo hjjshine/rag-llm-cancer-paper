@@ -1,0 +1,9 @@
+CSV path: data/moa_fda_queries_answers.csv
+Model type: gpt_reasoning
+Model API endpoint: o4-mini-2025-04-16
+Prompt strategy: 0
+Number of iterations: 1
+Random seed: 2025
+Temperature: 0.0
+Output name: output/LLM_res_o4mini
+Time elapsed for iteration 0: 86.4459 min

@@ -1,0 +1,23 @@
+Patient ID: P-0030808
+Age: 61
+Gender: Male
+Sample ID: P-0030808-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 50.0%
+=============
+DNA Variants:
+IGF1R c.3868C>T (p.P1290S) - in 22.00% of 841 reads
+KMT2D c.3446_3447dup (p.G1150Kfs*15) - in 20.00% of 1108 reads
+PAK7 c.1063G>A (p.A355T) - in 24.00% of 424 reads
+PIK3CA c.2422C>T (p.R808W) - in 22.00% of 638 reads
+TET2 c.5222C>T (p.P1741L) - in 14.00% of 678 reads
+CNA Data:
+CDKN2B - Homozygous Deletion
+CDKN2A - Homozygous Deletion
+CDKN2Ap14ARF - Homozygous Deletion
+CDKN2Ap16INK4A - Homozygous Deletion
+Structural Variants:
+HMBOX1 - ALK (nan)
+HMBOX1 - nan (TRANSLOCATION)

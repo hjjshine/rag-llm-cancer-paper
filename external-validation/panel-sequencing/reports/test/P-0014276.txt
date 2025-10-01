@@ -1,0 +1,40 @@
+Patient ID: P-0014276
+Age: 69
+Gender: Female
+Sample ID: P-0014276-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Invasive Breast Carcinoma
+Sample Type: Metastasis
+Tumor Purity: 50.0%
+=============
+DNA Variants:
+ANKRD11 c.5558C>T (p.P1853L) - in 28.00% of 1095 reads
+PDGFRA c.670G>A (p.V224M) - in 7.00% of 961 reads
+PIK3C2G c.3139A>G (p.M1047V) - in 12.00% of 543 reads
+PIK3CA c.1633G>A (p.E545K) - in 52.00% of 1950 reads
+TP53 c.734G>A (p.G245D) - in 88.00% of 620 reads
+CNA Data:
+PRDM1 - High Level Amplification
+MEF2B - High Level Amplification
+BRIP1 - High Level Amplification
+CDK4 - High Level Amplification
+HIST1H3F - High Level Amplification
+HIST1H3G - High Level Amplification
+HIST1H3D - High Level Amplification
+HIST1H3E - High Level Amplification
+NOTCH3 - High Level Amplification
+JAK3 - High Level Amplification
+BRD4 - High Level Amplification
+MDM2 - High Level Amplification
+RUNX1 - High Level Amplification
+PPM1D - High Level Amplification
+BABAM1 - High Level Amplification
+ESR1 - High Level Amplification
+CD79B - High Level Amplification
+CD79A - High Level Amplification
+BCL2L1 - High Level Amplification
+PIK3R2 - High Level Amplification
+HIST1H2BD - High Level Amplification
+RAD21 - High Level Amplification
+Structural Variants:
+ERBB2 - nan (DELETION)

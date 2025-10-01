@@ -1,0 +1,15 @@
+Patient ID: P-0037518
+Age: 89
+Gender: Female
+Sample ID: P-0037518-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+EGFR c.2235_2249del (p.E746_A750del) - in 10.00% of 603 reads
+CNA Data:
+TERT - High Level Amplification
+Structural Variants:
+No structural variant data found.

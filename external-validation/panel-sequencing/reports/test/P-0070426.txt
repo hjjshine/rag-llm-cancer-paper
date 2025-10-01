@@ -1,0 +1,24 @@
+Patient ID: P-0070426
+Age: 89
+Gender: Female
+Sample ID: P-0070426-T01-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: Unknown
+=============
+DNA Variants:
+CARD11 c.2083G>C (p.V695L) - in 19.00% of 760 reads
+DIS3 c.1435G>A (p.D479N) - in 22.00% of 342 reads
+DNMT3B c.600_601delinsTT (p.M200_E201delinsI*) - in 16.00% of 1061 reads
+FGFR3 c.29T>G (p.L10R) - in 16.00% of 1154 reads
+H3F3C c.289G>A (p.E97K) - in 38.00% of 939 reads
+KMT2C c.7276G>A (p.E2426K) - in 18.00% of 894 reads
+KRAS c.34G>T (p.G12C) - in 42.00% of 481 reads
+RRAGC c.655A>T (p.S219C) - in 7.00% of 322 reads
+SMAD4 c.105del (p.F35Lfs*10) - in 21.00% of 500 reads
+TP53 c.525_556del (p.C176Wfs*22) - in 21.00% of 855 reads
+CNA Data:
+TERT - High Level Amplification
+Structural Variants:
+SMARCA4 - SMARCA4 (DELETION)

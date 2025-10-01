@@ -1,0 +1,19 @@
+Patient ID: P-0074783
+Age: 71
+Gender: Female
+Sample ID: P-0074783-T01-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+AURKB c.935C>T (p.P312L) - in 44.00% of 469 reads
+EGFR c.2573T>G (p.L858R) - in 56.00% of 907 reads
+EGFR c.1619A>G (p.N540S) - in 21.00% of 1036 reads
+TP53 c.788del (p.N263Ifs*82) - in 46.00% of 458 reads
+WWTR1 c.341G>T (p.R114L) - in 38.00% of 391 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

@@ -1,0 +1,26 @@
+Patient ID: P-0012393
+Age: 74
+Gender: Male
+Sample ID: P-0012393-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 70.0%
+=============
+DNA Variants:
+ASXL1 c.2893C>T (p.R965*) - in 14.00% of 726 reads
+EGFR c.2235_2249del (p.E746_A750del) - in 69.00% of 1812 reads
+PIK3CA c.1633G>A (p.E545K) - in 15.00% of 419 reads
+CNA Data:
+ETV1 - High Level Amplification
+EGFR - High Level Amplification
+CDK4 - High Level Amplification
+RAC1 - High Level Amplification
+CARD11 - High Level Amplification
+INHBA - High Level Amplification
+MDM2 - High Level Amplification
+PMS2 - High Level Amplification
+IKZF1 - High Level Amplification
+GLI1 - High Level Amplification
+Structural Variants:
+No structural variant data found.

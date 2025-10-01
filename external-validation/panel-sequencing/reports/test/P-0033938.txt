@@ -1,0 +1,37 @@
+Patient ID: P-0033938
+Age: 60
+Gender: Female
+Sample ID: P-0033938-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Rectal Adenocarcinoma
+Sample Type: Unknown
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+BCOR c.2058dup (p.P687Tfs*53) - in 8.00% of 1226 reads
+ERBB4 c.3274C>A (p.P1092T) - in 9.00% of 593 reads
+FAT1 c.6319G>A (p.D2107N) - in 7.00% of 698 reads
+FAT1 c.6335G>C (p.R2112T) - in 7.00% of 721 reads
+FAT1 c.6664G>C (p.D2222H) - in 8.00% of 663 reads
+FAT1 c.6868G>A (p.V2290M) - in 10.00% of 569 reads
+FAT1 c.6991G>C (p.D2331H) - in 9.00% of 668 reads
+FAT1 c.7721G>C (p.G2574A) - in 10.00% of 782 reads
+FAT1 c.7765G>A (p.D2589N) - in 10.00% of 734 reads
+FAT1 c.7930G>T (p.E2644*) - in 9.00% of 718 reads
+FAT1 c.7993G>C (p.E2665Q) - in 9.00% of 731 reads
+FAT1 c.8245G>A (p.E2749K) - in 11.00% of 740 reads
+FAT1 c.8362G>C (p.E2788Q) - in 8.00% of 692 reads
+FAT1 c.8842G>A (p.E2948K) - in 9.00% of 557 reads
+FAT1 c.8943G>C (p.K2981N) - in 8.00% of 907 reads
+FAT1 c.7999G>A (p.E2667K) - in 9.00% of 744 reads
+FAT1 c.8305G>A (p.E2769K) - in 8.00% of 731 reads
+FAT1 c.8836G>A (p.D2946N) - in 9.00% of 597 reads
+KRAS c.35G>A (p.G12D) - in 7.00% of 812 reads
+PIK3CA c.1633G>A (p.E545K) - in 10.00% of 599 reads
+PMS2 c.298C>T (p.Q100*) - in 10.00% of 145 reads
+RNF43 c.1201G>T (p.E401*) - in 17.00% of 744 reads
+TP53 c.454C>A (p.P152T) - in 8.00% of 1200 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

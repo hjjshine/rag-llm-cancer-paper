@@ -1,0 +1,20 @@
+Patient ID: P-0039029
+Age: 62
+Gender: Female
+Sample ID: P-0039029-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+EGFR c.2573T>G (p.L858R) - in 14.00% of 966 reads
+EGFR c.2126A>C (p.E709A) - in 15.00% of 1096 reads
+MSH6 c.3173-2A>T (p.X1058_splice) - in 6.00% of 356 reads
+NFKBIA c.323A>G (p.N108S) - in 6.00% of 638 reads
+CNA Data:
+CDK4 - High Level Amplification
+MDM2 - High Level Amplification
+GLI1 - High Level Amplification
+Structural Variants:
+No structural variant data found.

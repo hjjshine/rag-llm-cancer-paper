@@ -1,0 +1,19 @@
+Patient ID: P-0009481
+Age: 65
+Gender: Female
+Sample ID: P-0009481-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+ARID1B c.1727C>G (p.P576R) - in 14.00% of 404 reads
+ATM c.6115G>A (p.E2039K) - in 20.00% of 1093 reads
+ATRX c.4214+1del (p.X1405_splice) - in 20.00% of 1219 reads
+EGFR c.2127_2129del (p.E709_T710delinsD) - in 21.00% of 953 reads
+TGFBR1 c.1397del (p.V466Efs*6) - in 9.00% of 462 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

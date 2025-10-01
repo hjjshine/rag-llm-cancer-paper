@@ -1,0 +1,17 @@
+Patient ID: P-0085479
+Age: 82
+Gender: Female
+Sample ID: P-0085479-T01-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+DNMT3A c.1579C>T (p.Q527*) - in 20.00% of 324 reads
+EGFR c.2237_2257delinsT (p.E746Vfs*10) - in 23.00% of 315 reads
+TERT nan (nan) - in 21.00% of 145 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

@@ -1,0 +1,19 @@
+Patient ID: P-0075463
+Age: 49
+Gender: Male
+Sample ID: P-0075463-T02-IM7
+Gene Panel: IMPACT505
+Cancer Type: Non-Small Cell Lung Cancer
+Sample Type: Metastasis
+Tumor Purity: 60.0%
+=============
+DNA Variants:
+CTNNB1 c.101G>A (p.G34E) - in 13.00% of 435 reads
+EGFR c.2573T>G (p.L858R) - in 20.00% of 599 reads
+ROS1 c.5372G>T (p.S1791I) - in 7.00% of 556 reads
+TP53 c.517G>T (p.V173L) - in 32.00% of 476 reads
+ZFHX3 c.4261C>G (p.Q1421E) - in 13.00% of 554 reads
+CNA Data:
+GAB1 - High Level Amplification
+Structural Variants:
+No structural variant data found.

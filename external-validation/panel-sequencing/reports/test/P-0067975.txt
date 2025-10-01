@@ -1,0 +1,25 @@
+Patient ID: P-0067975
+Age: 58
+Gender: Female
+Sample ID: P-0067975-T01-IM7
+Gene Panel: IMPACT505
+Cancer Type: Breast Invasive Ductal Carcinoma
+Sample Type: Metastasis
+Tumor Purity: 70.0%
+=============
+DNA Variants:
+PIK3CA c.3140A>G (p.H1047R) - in 55.00% of 743 reads
+TP53 c.687del (p.C229*) - in 46.00% of 334 reads
+CNA Data:
+RECQL4 - High Level Amplification
+BRIP1 - High Level Amplification
+AURKA - High Level Amplification
+CARD11 - Homozygous Deletion
+PPM1D - High Level Amplification
+RAD51C - High Level Amplification
+MYC - High Level Amplification
+RAD21 - High Level Amplification
+AGO2 - High Level Amplification
+RTEL1 - High Level Amplification
+Structural Variants:
+ARID1A - ARID1A (DELETION)

@@ -1,0 +1,21 @@
+Patient ID: P-0003634
+Age: 59
+Gender: Female
+Sample ID: P-0003634-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Breast Invasive Ductal Carcinoma
+Sample Type: Metastasis
+Tumor Purity: 90.0%
+=============
+DNA Variants:
+ESR1 c.1613A>G (p.D538G) - in 41.00% of 351 reads
+FOXP1 c.1495_1520del (p.F499Hfs*9) - in 28.00% of 599 reads
+CNA Data:
+PIK3C2G - High Level Amplification
+MDM2 - High Level Amplification
+FGFR1 - High Level Amplification
+MAP2K4 - Homozygous Deletion
+KRAS - High Level Amplification
+ETV6 - High Level Amplification
+Structural Variants:
+No structural variant data found.

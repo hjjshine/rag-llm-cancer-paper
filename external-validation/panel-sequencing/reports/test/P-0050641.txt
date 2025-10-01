@@ -1,0 +1,18 @@
+Patient ID: P-0050641
+Age: 74
+Gender: Female
+Sample ID: P-0050641-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 10.0%
+=============
+DNA Variants:
+CALR c.98G>A (p.W33*) - in 12.00% of 417 reads
+CIC c.2104A>G (p.N702D) - in 7.00% of 473 reads
+EGFR c.2239_2248delinsC (p.L747_A750delinsP) - in 14.00% of 366 reads
+RTEL1 c.1376C>T (p.A459V) - in 10.00% of 566 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

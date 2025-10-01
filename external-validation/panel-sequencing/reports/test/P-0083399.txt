@@ -1,0 +1,17 @@
+Patient ID: P-0083399
+Age: 59
+Gender: Female
+Sample ID: P-0083399-T02-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: Unknown
+=============
+DNA Variants:
+AXIN2 c.603del (p.S202Vfs*9) - in 32.00% of 491 reads
+EGFR c.2573T>G (p.L858R) - in 39.00% of 194 reads
+KDR c.1102G>A (p.G368R) - in 18.00% of 158 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

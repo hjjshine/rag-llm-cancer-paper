@@ -1,0 +1,19 @@
+Patient ID: P-0059463
+Age: 67
+Gender: Male
+Sample ID: P-0059463-T02-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+EGFR c.2573T>G (p.L858R) - in 66.00% of 2162 reads
+EPHA3 c.2921C>T (p.T974M) - in 7.00% of 600 reads
+NFKBIA c.560T>G (p.L187R) - in 8.00% of 1008 reads
+RBM10 c.1460-2A>G (p.X487_splice) - in 15.00% of 481 reads
+TP53 c.1027G>T (p.E343*) - in 18.00% of 580 reads
+CNA Data:
+EGFR - High Level Amplification
+Structural Variants:
+No structural variant data found.

@@ -1,0 +1,18 @@
+Patient ID: P-0035021
+Age: 65
+Gender: Male
+Sample ID: P-0035021-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 50.0%
+=============
+DNA Variants:
+EGFR c.2239_2248delinsC (p.L747_A750delinsP) - in 32.00% of 225 reads
+CNA Data:
+CDKN2B - Homozygous Deletion
+CDKN2A - Homozygous Deletion
+CDKN2Ap14ARF - Homozygous Deletion
+CDKN2Ap16INK4A - Homozygous Deletion
+Structural Variants:
+RASA1 - SQSTM1 (INVERSION)

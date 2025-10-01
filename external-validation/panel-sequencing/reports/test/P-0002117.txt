@@ -1,0 +1,22 @@
+Patient ID: P-0002117
+Age: 45
+Gender: Female
+Sample ID: P-0002117-T01-IM3
+Gene Panel: IMPACT341
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 40.0%
+=============
+DNA Variants:
+AR c.1250C>T (p.A417V) - in 14.00% of 329 reads
+ARID2 c.234del (p.R80Efs*10) - in 19.00% of 597 reads
+ATRX c.1079T>A (p.I360N) - in 54.00% of 1238 reads
+CDKN2A c.238C>T (p.R80*) - in 60.00% of 112 reads
+CHEK1 c.920C>T (p.S307F) - in 8.00% of 948 reads
+GATA2 c.322G>A (p.A108T) - in 35.00% of 361 reads
+TNFAIP3 c.404C>A (p.T135K) - in 18.00% of 455 reads
+CNA Data:
+MDM2 - High Level Amplification
+YES1 - High Level Amplification
+Structural Variants:
+CLIP4 - ALK (DELETION)

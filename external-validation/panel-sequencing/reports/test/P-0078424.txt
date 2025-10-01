@@ -1,0 +1,21 @@
+Patient ID: P-0078424
+Age: 47
+Gender: Male
+Sample ID: P-0078424-T02-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 80.0%
+=============
+DNA Variants:
+ASXL1 c.2098T>G (p.Y700D) - in 72.00% of 642 reads
+RFWD2 c.1828G>A (p.G610S) - in 21.00% of 587 reads
+SETD2 c.1624_1646del (p.G542Qfs*2) - in 74.00% of 581 reads
+TP53 c.775G>T (p.D259Y) - in 74.00% of 353 reads
+CNA Data:
+NSD3 - Homozygous Deletion
+FGFR1 - Homozygous Deletion
+DUSP4 - Homozygous Deletion
+NKX3-1 - Homozygous Deletion
+Structural Variants:
+RET - RET (DUPLICATION)

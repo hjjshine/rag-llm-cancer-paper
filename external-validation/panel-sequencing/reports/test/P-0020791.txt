@@ -1,0 +1,21 @@
+Patient ID: P-0020791
+Age: 62
+Gender: Female
+Sample ID: P-0020791-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Colon Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 60.0%
+=============
+DNA Variants:
+APC c.847C>T (p.R283*) - in 46.00% of 697 reads
+BRCA2 c.8524C>T (p.R2842C) - in 19.00% of 420 reads
+KRAS c.35G>T (p.G12V) - in 33.00% of 625 reads
+PIK3CA c.1624G>A (p.E542K) - in 37.00% of 533 reads
+PPP2R1A c.547C>T (p.R183W) - in 39.00% of 869 reads
+SMAD2 c.1285C>T (p.Q429*) - in 55.00% of 266 reads
+SMAD3 c.799G>T (p.E267*) - in 70.00% of 858 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+APC - nan (DELETION)

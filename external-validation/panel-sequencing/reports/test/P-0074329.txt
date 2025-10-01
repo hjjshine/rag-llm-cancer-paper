@@ -1,0 +1,30 @@
+Patient ID: P-0074329
+Age: 78
+Gender: Female
+Sample ID: P-0074329-T02-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 70.0%
+=============
+DNA Variants:
+ARAF c.1736G>A (p.R579Q) - in 9.00% of 1062 reads
+BABAM1 c.804G>A (p.M268I) - in 21.00% of 507 reads
+EGFR c.2582T>A (p.L861Q) - in 30.00% of 588 reads
+EGFR c.2156G>C (p.G719A) - in 34.00% of 557 reads
+EPHA3 c.2246C>T (p.A749V) - in 17.00% of 418 reads
+STAT5B c.1A>G (p.M1?) - in 17.00% of 503 reads
+CNA Data:
+CDH1 - High Level Amplification
+KEAP1 - High Level Amplification
+SMARCA4 - High Level Amplification
+NOTCH3 - High Level Amplification
+DNMT1 - High Level Amplification
+BRD4 - High Level Amplification
+MDM2 - High Level Amplification
+CARM1 - High Level Amplification
+AMER1 - High Level Amplification
+DUSP4 - High Level Amplification
+Structural Variants:
+IGF2 - IGF2 (DUPLICATION)
+INPP4B - INPP4B (INVERSION)

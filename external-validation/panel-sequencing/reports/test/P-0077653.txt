@@ -1,0 +1,19 @@
+Patient ID: P-0077653
+Age: 61
+Gender: Female
+Sample ID: P-0077653-T01-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+ARID1A c.1015del (p.A339Lfs*24) - in 31.00% of 892 reads
+EGFR c.2573T>G (p.L858R) - in 35.00% of 779 reads
+PREX2 c.1472G>A (p.S491N) - in 8.00% of 371 reads
+SMAD4 c.1556_1590dup (p.R531Kfs*18) - in 9.00% of 555 reads
+TP53 c.536A>G (p.H179R) - in 28.00% of 801 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

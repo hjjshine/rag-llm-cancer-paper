@@ -1,0 +1,17 @@
+Patient ID: P-0013236
+Age: 60
+Gender: Female
+Sample ID: P-0013236-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Breast Invasive Ductal Carcinoma
+Sample Type: Metastasis
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+CTCF c.1094A>G (p.K365R) - in 38.00% of 1066 reads
+PIK3CA c.1258T>C (p.C420R) - in 36.00% of 628 reads
+RARA c.397A>G (p.N133D) - in 23.00% of 1166 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

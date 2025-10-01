@@ -1,0 +1,25 @@
+Patient ID: P-0048874
+Age: 73
+Gender: Male
+Sample ID: P-0048874-T02-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+CREBBP c.3157C>T (p.P1053S) - in 15.00% of 925 reads
+EGFR c.2573T>G (p.L858R) - in 78.00% of 1913 reads
+KEAP1 c.1462G>A (p.E488K) - in 16.00% of 889 reads
+NBN c.1337C>T (p.A446V) - in 11.00% of 602 reads
+TET2 c.2375C>G (p.S792*) - in 16.00% of 424 reads
+ZFHX3 c.6867G>T (p.W2289C) - in 8.00% of 1098 reads
+CNA Data:
+EGFR - High Level Amplification
+MDM2 - High Level Amplification
+GNAS - High Level Amplification
+NKX2-1 - High Level Amplification
+KDM5C - High Level Amplification
+NFKBIA - High Level Amplification
+Structural Variants:
+No structural variant data found.

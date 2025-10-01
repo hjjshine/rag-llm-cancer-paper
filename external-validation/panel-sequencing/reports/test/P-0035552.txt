@@ -1,0 +1,26 @@
+Patient ID: P-0035552
+Age: 64
+Gender: Female
+Sample ID: P-0035552-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Pancreatic Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+GNAS c.602G>A (p.R201H) - in 38.00% of 776 reads
+KLF4 c.1225A>G (p.K409E) - in 18.00% of 1439 reads
+MSI1 c.896C>T (p.S299L) - in 25.00% of 925 reads
+PTCH1 c.49_51del (p.G17del) - in 11.00% of 88 reads
+RB1 c.200C>T (p.P67L) - in 15.00% of 433 reads
+RNF43 c.137C>G (p.A46G) - in 40.00% of 825 reads
+RRAS2 c.439C>T (p.R147W) - in 17.00% of 937 reads
+TGFBR2 c.946_948del (p.K316del) - in 18.00% of 653 reads
+CNA Data:
+CDKN2B - Homozygous Deletion
+CDKN2A - Homozygous Deletion
+CDKN2Ap14ARF - Homozygous Deletion
+CDKN2Ap16INK4A - Homozygous Deletion
+Structural Variants:
+ETV6 - NTRK3 (nan)
+ETV6 - NTRK3 (TRANSLOCATION)

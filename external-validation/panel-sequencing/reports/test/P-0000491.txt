@@ -1,0 +1,41 @@
+Patient ID: P-0000491
+Age: 60
+Gender: Male
+Sample ID: P-0000491-T01-IM3
+Gene Panel: IMPACT341
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 40.0%
+=============
+DNA Variants:
+AKT3 c.745C>A (p.R249S) - in 13.00% of 685 reads
+ALK c.3640C>T (p.R1214C) - in 25.00% of 371 reads
+ALK c.1943C>T (p.T648I) - in 23.00% of 687 reads
+ASXL1 c.4123G>T (p.G1375W) - in 29.00% of 576 reads
+ATM c.6923C>G (p.A2308G) - in 23.00% of 434 reads
+ATR c.5321G>T (p.R1774I) - in 13.00% of 754 reads
+AXIN2 c.1244delA (p.E415Gfs*43) - in 26.00% of 339 reads
+BRIP1 c.2516G>C (p.W839S) - in 22.00% of 761 reads
+CCND2 c.139G>A (p.V47M) - in 14.00% of 486 reads
+CREBBP c.3194_3195dupGT (p.S1066Vfs*34) - in 22.00% of 902 reads
+CREBBP c.5093A>T (p.Q1698L) - in 24.00% of 443 reads
+CUL3 c.2280_2281insA (p.R761Tfs*34) - in 5.00% of 668 reads
+FAT1 c.10294G>T (p.D3432Y) - in 34.00% of 361 reads
+IGF1R c.1101delG (p.N368Ifs*17) - in 41.00% of 606 reads
+KDM5A c.3512G>T (p.S1171I) - in 17.00% of 523 reads
+MLL2 c.459G>T (p.E153D) - in 32.00% of 497 reads
+NF1 c.731-1G>T (p.X244_splice) - in 25.00% of 435 reads
+PAK7 c.1284_1285delCCinsAA (p.H429N) - in 21.00% of 413 reads
+PAX5 c.953A>T (p.H318L) - in 31.00% of 464 reads
+PBRM1 c.1301+1G>C (p.X434_splice) - in 30.00% of 478 reads
+SDHC c.7G>A (p.A3T) - in 23.00% of 532 reads
+SMARCA4 c.2617-2A>C (p.X873_splice) - in 35.00% of 431 reads
+SPEN c.9877G>A (p.V3293M) - in 18.00% of 339 reads
+TET2 c.3704G>C (p.G1235A) - in 29.00% of 397 reads
+TET2 c.376G>T (p.G126W) - in 30.00% of 431 reads
+TP53 c.844C>G (p.R282G) - in 35.00% of 482 reads
+CNA Data:
+CRKL - High Level Amplification
+MAPK1 - High Level Amplification
+Structural Variants:
+No structural variant data found.

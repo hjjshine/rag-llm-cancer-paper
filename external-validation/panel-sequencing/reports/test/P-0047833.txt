@@ -1,0 +1,35 @@
+Patient ID: P-0047833
+Age: 77
+Gender: Male
+Sample ID: P-0047833-T02-IM6
+Gene Panel: IMPACT468
+Cancer Type: Prostate Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 40.0%
+=============
+DNA Variants:
+SOCS1 c.80C>G (p.S27C) - in 17.00% of 456 reads
+CNA Data:
+MEN1 - High Level Amplification
+CCND1 - High Level Amplification
+ALK - Homozygous Deletion
+FOXO1 - Homozygous Deletion
+PLCG2 - Homozygous Deletion
+CYSLTR2 - Homozygous Deletion
+FLT4 - Homozygous Deletion
+RPS6KB2 - High Level Amplification
+RB1 - Homozygous Deletion
+CRLF2 - Homozygous Deletion
+BRCA2 - Homozygous Deletion
+TP53 - Homozygous Deletion
+ALOX12B - Homozygous Deletion
+AURKB - Homozygous Deletion
+FGF4 - High Level Amplification
+FGF3 - High Level Amplification
+FGF19 - High Level Amplification
+DUSP4 - Homozygous Deletion
+NKX3-1 - Homozygous Deletion
+Structural Variants:
+AR - nan (DELETION)
+LRBA - BRAF (nan)
+LRBA - BRAF (TRANSLOCATION)

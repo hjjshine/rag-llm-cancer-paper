@@ -1,0 +1,24 @@
+Patient ID: P-0042736
+Age: 64
+Gender: Male
+Sample ID: P-0042736-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+EGFR c.2236_2250del (p.E746_A750del) - in 45.00% of 316 reads
+ELF3 c.1054T>G (p.Y352D) - in 21.00% of 538 reads
+MET c.3719A>G (p.K1240R) - in 28.00% of 260 reads
+PTPRD c.3452G>A (p.R1151H) - in 34.00% of 113 reads
+SMAD4 c.1048G>T (p.V350F) - in 59.00% of 128 reads
+CNA Data:
+CTCF - Homozygous Deletion
+YAP1 - High Level Amplification
+PGR - High Level Amplification
+ATM - High Level Amplification
+BIRC3 - High Level Amplification
+RTEL1 - High Level Amplification
+Structural Variants:
+RPGRIP1L - FANCA (DUPLICATION)

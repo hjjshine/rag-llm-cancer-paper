@@ -1,0 +1,29 @@
+Patient ID: P-0069574
+Age: 66
+Gender: Female
+Sample ID: P-0069574-T02-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+AXIN1 c.2207G>A (p.R736Q) - in 14.00% of 320 reads
+BARD1 c.664_665delinsTT (p.A222L) - in 14.00% of 236 reads
+EGFR c.2237_2251del (p.E746_T751delinsA) - in 74.00% of 973 reads
+KMT2C c.7069G>C (p.G2357R) - in 27.00% of 760 reads
+KMT2C c.5686G>C (p.D1896H) - in 24.00% of 765 reads
+KMT2C c.6684G>C (p.R2228S) - in 26.00% of 825 reads
+KMT2C c.6427G>C (p.D2143H) - in 25.00% of 804 reads
+KMT2C c.5750G>C (p.R1917T) - in 24.00% of 738 reads
+MSH2 c.797C>G (p.A266G) - in 14.00% of 216 reads
+NSD1 c.4463A>G (p.N1488S) - in 15.00% of 286 reads
+TP53 c.1049_1050del (p.L350Qfs*31) - in 18.00% of 250 reads
+CNA Data:
+ETV1 - High Level Amplification
+EGFR - High Level Amplification
+EZH2 - High Level Amplification
+RAC1 - High Level Amplification
+PMS2 - High Level Amplification
+Structural Variants:
+No structural variant data found.

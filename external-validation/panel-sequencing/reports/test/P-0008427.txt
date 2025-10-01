@@ -1,0 +1,17 @@
+Patient ID: P-0008427
+Age: 54
+Gender: Female
+Sample ID: P-0008427-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+EGFR c.2235_2249del (p.E746_A750del) - in 77.00% of 4744 reads
+RB1 c.296_312del (p.W99Yfs*5) - in 55.00% of 866 reads
+TP53 c.832C>G (p.P278A) - in 61.00% of 1385 reads
+CNA Data:
+EGFR - High Level Amplification
+Structural Variants:
+BTK - nan (INVERSION)

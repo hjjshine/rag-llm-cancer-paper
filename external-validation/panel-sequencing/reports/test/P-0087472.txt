@@ -1,0 +1,23 @@
+Patient ID: P-0087472
+Age: 77
+Gender: Female
+Sample ID: P-0087472-T02-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 50.0%
+=============
+DNA Variants:
+APC c.2626C>T (p.R876*) - in 17.00% of 570 reads
+EGFR c.2573T>G (p.L858R) - in 16.00% of 625 reads
+FH c.509del (p.G170Afs*32) - in 15.00% of 521 reads
+MPL c.956G>T (p.R319M) - in 6.00% of 570 reads
+PALB2 c.3409A>G (p.I1137V) - in 17.00% of 573 reads
+TP53 c.1045G>T (p.E349*) - in 18.00% of 503 reads
+CNA Data:
+TERT - High Level Amplification
+TRIP13 - High Level Amplification
+MYC - High Level Amplification
+SDHA - High Level Amplification
+Structural Variants:
+No structural variant data found.

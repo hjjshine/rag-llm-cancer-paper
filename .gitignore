@@ -1,1 +1,12 @@
 .env
+.venv/
+analysis/test_new_openaiAPI.ipynb
+context_retriever/biobert_ner/model.safetensors
+context_retriever/0.retrieval_enhancement_attempts.ipynb
+context_retriever/0.testing_retrieval_enhancement.ipynb
+context_retriever/entities/tmp_files/
+data/latest_db/tmp_db/
+external-validation/
+data/real_world_db/updated_real_world_queries_answers__v1.csv
+__pycache__/
+*.safetensors

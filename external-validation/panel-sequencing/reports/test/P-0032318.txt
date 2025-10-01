@@ -1,0 +1,17 @@
+Patient ID: P-0032318
+Age: 66
+Gender: Female
+Sample ID: P-0032318-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Breast Invasive Ductal Carcinoma
+Sample Type: Primary
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+AKT1 c.49G>A (p.E17K) - in 41.00% of 362 reads
+MAP2K1 c.199G>A (p.D67N) - in 3.00% of 413 reads
+SETD2 c.3266G>A (p.R1089Q) - in 5.00% of 200 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

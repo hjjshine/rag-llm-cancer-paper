@@ -1,0 +1,24 @@
+Patient ID: P-0054480
+Age: 68
+Gender: Female
+Sample ID: P-0054480-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Invasive Breast Carcinoma
+Sample Type: Metastasis
+Tumor Purity: 60.0%
+=============
+DNA Variants:
+CBFB c.165+2dup (p.X55_splice) - in 35.00% of 405 reads
+CDH1 c.2164dup (p.I722Nfs*26) - in 38.00% of 418 reads
+MSI1 c.218G>T (p.G73V) - in 27.00% of 1313 reads
+MTOR c.7520A>G (p.K2507R) - in 30.00% of 593 reads
+TP53 c.574C>T (p.Q192*) - in 34.00% of 585 reads
+CNA Data:
+CCND1 - High Level Amplification
+SUFU - High Level Amplification
+FGF4 - High Level Amplification
+FGF3 - High Level Amplification
+FGF19 - High Level Amplification
+NBN - High Level Amplification
+Structural Variants:
+No structural variant data found.

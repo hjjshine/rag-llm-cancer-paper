@@ -1,0 +1,21 @@
+Patient ID: P-0013864
+Age: 60
+Gender: Female
+Sample ID: P-0013864-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 50.0%
+=============
+DNA Variants:
+FAT1 c.8669C>G (p.S2890*) - in 19.00% of 1450 reads
+PMS1 c.44_54del (p.S15Yfs*12) - in 25.00% of 887 reads
+PTPRT c.2795G>A (p.R932H) - in 35.00% of 621 reads
+CNA Data:
+CDKN2B - Homozygous Deletion
+CDKN2A - Homozygous Deletion
+AURKA - High Level Amplification
+CDKN2Ap14ARF - Homozygous Deletion
+CDKN2Ap16INK4A - Homozygous Deletion
+Structural Variants:
+ALK - EML4 (INVERSION)

@@ -1,0 +1,31 @@
+Patient ID: P-0061711
+Age: 57
+Gender: Male
+Sample ID: P-0061711-T01-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 40.0%
+=============
+DNA Variants:
+EGFR c.2573T>G (p.L858R) - in 35.00% of 797 reads
+FAM58A c.70G>C (p.V24L) - in 32.00% of 257 reads
+FAT1 c.8818T>G (p.L2940V) - in 40.00% of 430 reads
+RBM10 c.450del (p.F150Lfs*39) - in 55.00% of 297 reads
+CNA Data:
+PIK3C2G - High Level Amplification
+CDKN2B - Homozygous Deletion
+CDKN2A - Homozygous Deletion
+CDKN2Ap14ARF - Homozygous Deletion
+FOXA1 - High Level Amplification
+TERT - High Level Amplification
+KMT2B - High Level Amplification
+TRIP13 - High Level Amplification
+AKT2 - High Level Amplification
+NKX2-1 - High Level Amplification
+NFKBIA - High Level Amplification
+CDKN2Ap16INK4A - Homozygous Deletion
+MTAP - Homozygous Deletion
+SDHA - High Level Amplification
+Structural Variants:
+SMARCA4 - SMARCA4 (DELETION)

@@ -1,0 +1,23 @@
+Patient ID: P-0074666
+Age: 77
+Gender: Male
+Sample ID: P-0074666-T02-IM7
+Gene Panel: IMPACT505
+Cancer Type: Non-Small Cell Lung Cancer
+Sample Type: Primary
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+CDKN2A c.83T>A (p.V28E) - in 9.00% of 325 reads
+DNAJB1 c.326G>C (p.R109T) - in 9.00% of 446 reads
+FLT1 c.166G>A (p.E56K) - in 5.00% of 211 reads
+KLF4 c.335C>T (p.S112L) - in 18.00% of 271 reads
+MET c.2888-17_2888-2del (p.X963_splice) - in 62.00% of 450 reads
+NCOA3 c.1529C>T (p.S510F) - in 18.00% of 378 reads
+POT1 c.124G>C (p.D42H) - in 53.00% of 106 reads
+PTPRT c.548G>T (p.R183L) - in 23.00% of 268 reads
+TP53 c.637C>G (p.R213G) - in 32.00% of 328 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

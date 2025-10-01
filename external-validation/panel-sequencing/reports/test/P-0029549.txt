@@ -1,0 +1,16 @@
+Patient ID: P-0029549
+Age: 81
+Gender: Male
+Sample ID: P-0029549-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Pancreatic Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 10.0%
+=============
+DNA Variants:
+BCOR c.1786C>T (p.Q596*) - in 6.00% of 558 reads
+KRAS c.35G>T (p.G12V) - in 2.00% of 778 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

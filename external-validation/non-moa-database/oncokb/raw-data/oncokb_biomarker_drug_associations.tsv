@@ -1,0 +1,925 @@
+Level	Gene	Alterations	Cancer Types	Drugs (for therapeutic implications only)
+1	ABL1	BCR-ABL1 Fusion	B-Lymphoblastic Leukemia/Lymphoma	Dasatinib
+1	ABL1	BCR-ABL1 Fusion	B-Lymphoblastic Leukemia/Lymphoma	Imatinib
+1	ABL1	BCR-ABL1 Fusion	B-Lymphoblastic Leukemia/Lymphoma	Ponatinib
+1	ABL1	BCR-ABL1 Fusion	Chronic Myelogenous Leukemia	Asciminib
+1	ABL1	BCR-ABL1 Fusion	Chronic Myelogenous Leukemia	Bosutinib
+1	ABL1	BCR-ABL1 Fusion	Chronic Myelogenous Leukemia	Dasatinib
+1	ABL1	BCR-ABL1 Fusion	Chronic Myelogenous Leukemia	Imatinib
+1	ABL1	BCR-ABL1 Fusion	Chronic Myelogenous Leukemia	Nilotinib
+1	ABL1	T315I	B-Lymphoblastic Leukemia/Lymphoma	Ponatinib
+1	ABL1	T315I	Chronic Myelogenous Leukemia	Asciminib
+1	ABL1	T315I	Chronic Myelogenous Leukemia	Ponatinib
+1	AKT1	E17K	Breast Cancer	Capivasertib + Fulvestrant
+1	ALK	Fusions	Anaplastic Large-Cell Lymphoma ALK Positive	Crizotinib
+1	ALK	Fusions	Inflammatory Myofibroblastic Tumor	Crizotinib
+1	ALK	Fusions	Non-Small Cell Lung Cancer	Alectinib
+1	ALK	Fusions	Non-Small Cell Lung Cancer	Brigatinib
+1	ALK	Fusions	Non-Small Cell Lung Cancer	Ceritinib
+1	ALK	Fusions	Non-Small Cell Lung Cancer	Crizotinib
+1	ALK	Fusions	Non-Small Cell Lung Cancer	Ensartinib
+1	ALK	Fusions	Non-Small Cell Lung Cancer	Lorlatinib
+1	ATM	Oncogenic Mutations	Prostate Cancer, NOS, Prostate Cancer	Olaparib
+1	ATM	Oncogenic Mutations	Prostate Cancer, NOS, Prostate Cancer	Talazoparib + Enzalutamide
+1	ATR	Oncogenic Mutations	Prostate Cancer, NOS, Prostate Cancer	Talazoparib + Enzalutamide
+1	BARD1	Oncogenic Mutations	Prostate Cancer, NOS, Prostate Cancer	Olaparib
+1	BRAF	Fusions	Low-Grade Glioma, NOS	Tovorafenib
+1	BRAF	V600	Erdheim-Chester Disease	Vemurafenib
+1	BRAF	V600	Low-Grade Glioma, NOS	Tovorafenib
+1	BRAF	V600	Melanoma	Vemurafenib + Atezolizumab + Cobimetinib
+1	BRAF	V600E	All Solid Tumors (excluding Colorectal Cancer)	Dabrafenib + Trametinib
+1	BRAF	V600E	Anaplastic Thyroid Cancer	Dabrafenib + Trametinib
+1	BRAF	V600E	Colorectal Cancer	Encorafenib + Cetuximab
+1	BRAF	V600E	Colorectal Cancer	Encorafenib + Cetuximab + FOLFOX Regimen
+1	BRAF	V600E	Hepatobiliary Cancer, Biliary Tract	Dabrafenib + Trametinib
+1	BRAF	V600E	Low-Grade Glioma, NOS	Dabrafenib + Trametinib
+1	BRAF	V600E	Melanoma	Dabrafenib
+1	BRAF	V600E	Melanoma	Vemurafenib
+1	BRAF	V600E	Non-Small Cell Lung Cancer	Dabrafenib + Trametinib
+1	BRAF	V600E	Non-Small Cell Lung Cancer	Encorafenib + Binimetinib
+1	BRAF	V600E, V600K	Melanoma	Dabrafenib + Trametinib
+1	BRAF	V600E, V600K	Melanoma	Encorafenib + Binimetinib
+1	BRAF	V600E, V600K	Melanoma	Trametinib
+1	BRAF	V600E, V600K	Melanoma	Vemurafenib + Cobimetinib
+1	BRCA1	Oncogenic Mutations	Ovarian Cancer, Ovary/Fallopian Tube, Peritoneal Serous Carcinoma	Niraparib
+1	BRCA1	Oncogenic Mutations	Ovarian Cancer, Ovary/Fallopian Tube, Peritoneal Serous Carcinoma	Olaparib
+1	BRCA1	Oncogenic Mutations	Ovarian Cancer, Ovary/Fallopian Tube, Peritoneal Serous Carcinoma	Olaparib + Bevacizumab
+1	BRCA1	Oncogenic Mutations	Ovarian Cancer, Ovary/Fallopian Tube, Peritoneal Serous Carcinoma	Rucaparib
+1	BRCA1	Oncogenic Mutations	Prostate Cancer, NOS, Prostate Cancer	Niraparib + Abiraterone Acetate + Prednisone
+1	BRCA1	Oncogenic Mutations	Prostate Cancer, NOS, Prostate Cancer	Olaparib
+1	BRCA1	Oncogenic Mutations	Prostate Cancer, NOS, Prostate Cancer	Olaparib + Abiraterone + Prednisone
+1	BRCA1	Oncogenic Mutations	Prostate Cancer, NOS, Prostate Cancer	Rucaparib
+1	BRCA1	Oncogenic Mutations	Prostate Cancer, NOS, Prostate Cancer	Talazoparib + Enzalutamide
+1	BRCA2	Oncogenic Mutations	Ovarian Cancer, Ovary/Fallopian Tube, Peritoneal Serous Carcinoma	Niraparib
+1	BRCA2	Oncogenic Mutations	Ovarian Cancer, Ovary/Fallopian Tube, Peritoneal Serous Carcinoma	Olaparib
+1	BRCA2	Oncogenic Mutations	Ovarian Cancer, Ovary/Fallopian Tube, Peritoneal Serous Carcinoma	Olaparib + Bevacizumab
+1	BRCA2	Oncogenic Mutations	Ovarian Cancer, Ovary/Fallopian Tube, Peritoneal Serous Carcinoma	Rucaparib
+1	BRCA2	Oncogenic Mutations	Prostate Cancer, NOS, Prostate Cancer	Niraparib + Abiraterone Acetate + Prednisone
+1	BRCA2	Oncogenic Mutations	Prostate Cancer, NOS, Prostate Cancer	Olaparib
+1	BRCA2	Oncogenic Mutations	Prostate Cancer, NOS, Prostate Cancer	Olaparib + Abiraterone + Prednisone
+1	BRCA2	Oncogenic Mutations	Prostate Cancer, NOS, Prostate Cancer	Rucaparib
+1	BRCA2	Oncogenic Mutations	Prostate Cancer, NOS, Prostate Cancer	Talazoparib + Enzalutamide
+1	BRIP1	Oncogenic Mutations	Prostate Cancer, NOS, Prostate Cancer	Olaparib
+1	CDK12	Oncogenic Mutations	Prostate Cancer, NOS, Prostate Cancer	Olaparib
+1	CDK12	Oncogenic Mutations	Prostate Cancer, NOS, Prostate Cancer	Talazoparib + Enzalutamide
+1	CHEK1	Oncogenic Mutations	Prostate Cancer, NOS, Prostate Cancer	Olaparib
+1	CHEK2	Oncogenic Mutations	Prostate Cancer, NOS, Prostate Cancer	Olaparib
+1	CHEK2	Oncogenic Mutations	Prostate Cancer, NOS, Prostate Cancer	Talazoparib + Enzalutamide
+1	EGFR	Exon 19 in-frame deletions, L858R	Non-Small Cell Lung Cancer	Afatinib
+1	EGFR	Exon 19 in-frame deletions, L858R	Non-Small Cell Lung Cancer	Amivantamab + Chemotherapy
+1	EGFR	Exon 19 in-frame deletions, L858R	Non-Small Cell Lung Cancer	Amivantamab + Lazertinib
+1	EGFR	Exon 19 in-frame deletions, L858R	Non-Small Cell Lung Cancer	Dacomitinib
+1	EGFR	Exon 19 in-frame deletions, L858R	Non-Small Cell Lung Cancer	Erlotinib
+1	EGFR	Exon 19 in-frame deletions, L858R	Non-Small Cell Lung Cancer	Erlotinib + Ramucirumab
+1	EGFR	Exon 19 in-frame deletions, L858R	Non-Small Cell Lung Cancer	Gefitinib
+1	EGFR	Exon 19 in-frame deletions, L858R	Non-Small Cell Lung Cancer	Osimertinib
+1	EGFR	Exon 19 in-frame deletions, L858R	Non-Small Cell Lung Cancer	Osimertinib + Chemotherapy
+1	EGFR	Exon 20 in-frame insertions	Non-Small Cell Lung Cancer	Amivantamab
+1	EGFR	Exon 20 in-frame insertions	Non-Small Cell Lung Cancer	Amivantamab + Chemotherapy
+1	EGFR	Exon 20 in-frame insertions	Non-Small Cell Lung Cancer	Sunvozertinib
+1	EGFR	G719	Non-Small Cell Lung Cancer	Afatinib
+1	EGFR	L861Q	Non-Small Cell Lung Cancer	Afatinib
+1	EGFR	Oncogenic Mutations	Non-Small Cell Lung Cancer	Datopotamab Deruxtecan
+1	EGFR	S768I	Non-Small Cell Lung Cancer	Afatinib
+1	EGFR	T790M	Non-Small Cell Lung Cancer	Osimertinib
+1	ERBB2	A710V, D769H, D769Y, D808N, D821N, E717D, Exon 20 in-frame insertions, G776S, G776V, G815R, I767M, L726F, L726I, L755A, L755P, L755S, L755W, L768S, L841V, L866M, L869R, Q709L, T733I, T798M, V697L, V773L, V777L, V777M, V794M, V842I	Non-Small Cell Lung Cancer	Zongertinib
+1	ERBB2	Amplification	Breast Cancer	Ado-Trastuzumab Emtansine
+1	ERBB2	Amplification	Breast Cancer	Lapatinib + Capecitabine
+1	ERBB2	Amplification	Breast Cancer	Lapatinib + Letrozole
+1	ERBB2	Amplification	Breast Cancer	Margetuximab + Chemotherapy
+1	ERBB2	Amplification	Breast Cancer	Neratinib
+1	ERBB2	Amplification	Breast Cancer	Neratinib + Capecitabine
+1	ERBB2	Amplification	Breast Cancer	Trastuzumab
+1	ERBB2	Amplification	Breast Cancer	Trastuzumab + Chemotherapy
+1	ERBB2	Amplification	Breast Cancer	Trastuzumab + Pertuzumab + Chemotherapy
+1	ERBB2	Amplification	Breast Cancer	Trastuzumab + Tucatinib + Capecitabine
+1	ERBB2	Amplification	Breast Cancer	Trastuzumab Deruxtecan
+1	ERBB2	Amplification	Colorectal Cancer	Tucatinib + Trastuzumab
+1	ERBB2	Amplification	Esophagogastric Cancer	Pembrolizumab + Trastuzumab + Chemotherapy
+1	ERBB2	Amplification	Esophagogastric Cancer	Trastuzumab + Chemotherapy
+1	ERBB2	Amplification	Esophagogastric Cancer	Trastuzumab Deruxtecan
+1	ERBB2	Oncogenic Mutations	Non-Small Cell Lung Cancer	Trastuzumab Deruxtecan
+1	ESR1	D538, E380, L469V, L536, S463P, Y537	Breast Cancer	Elacestrant
+1	EZH2	A682G, A692V, Y646C, Y646F, Y646H, Y646N, Y646S	Follicular Lymphoma	Tazemetostat
+1	FANCA	Oncogenic Mutations	Prostate Cancer, NOS, Prostate Cancer	Talazoparib + Enzalutamide
+1	FANCL	Oncogenic Mutations	Prostate Cancer, NOS, Prostate Cancer	Olaparib
+1	FGFR1	Fusions	Myeloid/Lymphoid Neoplasms with Eosinophilia and Rearrangement of  PDGFRA/PDGFRB or FGFR1 or with PCM1-JAK2	Pemigatinib
+1	FGFR2	Fusions	Cholangiocarcinoma	Futibatinib
+1	FGFR2	Fusions	Cholangiocarcinoma	Pemigatinib
+1	FGFR3	FGFR3-BAIAP2L1 Fusion, FGFR3-TACC3 Fusion	Bladder Cancer	Erdafitinib
+1	FGFR3	G370C, R248C, S249C, Y373C	Bladder Cancer	Erdafitinib
+1	FLT3	D835, I836, Internal Tandem Duplication	Acute Myeloid Leukemia	Gilteritinib
+1	FLT3	D835, I836, Internal Tandem Duplication	Acute Myeloid Leukemia	Midostaurin + High Dose Chemotherapy
+1	FLT3	Internal Tandem Duplication	Acute Myeloid Leukemia	Quizartinib
+1	IDH1	R132C, R132G, R132H, R132L, R132S	Acute Myeloid Leukemia	Ivosidenib
+1	IDH1	R132C, R132G, R132H, R132L, R132S	Acute Myeloid Leukemia	Olutasidenib
+1	IDH1	R132C, R132G, R132H, R132L, R132S	Intrahepatic Cholangiocarcinoma, Cholangiocarcinoma	Ivosidenib
+1	IDH1	R132C, R132G, R132H, R132L, R132S	Myelodysplastic Syndromes	Ivosidenib
+1	IDH1	R132C, R132G, R132H, R132L, R132S	Oligodendroglioma, Astrocytoma	Vorasidenib
+1	IDH2	R140G, R140L, R140Q, R140W, R172G, R172K, R172M, R172S, R172W	Acute Myeloid Leukemia	Enasidenib
+1	IDH2	R172G, R172K, R172M, R172S, R172W	Oligodendroglioma, Astrocytoma	Vorasidenib
+1	KIT	D816	Mastocytosis	Avapritinib
+1	KIT	Oncogenic Mutations	Gastrointestinal Stromal Tumor	Imatinib
+1	KIT	Oncogenic Mutations	Gastrointestinal Stromal Tumor	Regorafenib
+1	KIT	Oncogenic Mutations	Gastrointestinal Stromal Tumor	Ripretinib
+1	KIT	Oncogenic Mutations	Gastrointestinal Stromal Tumor	Sunitinib
+1	KMT2A	Fusions	Acute Leukemias of Ambiguous Lineage	Revumenib
+1	KMT2A	Fusions	Acute Myeloid Leukemia	Revumenib
+1	KMT2A	Fusions	B-Lymphoblastic Leukemia/Lymphoma	Revumenib
+1	KRAS	G12C	Colorectal Cancer	Adagrasib + Cetuximab
+1	KRAS	G12C	Colorectal Cancer	Sotorasib + Panitumumab
+1	KRAS	G12C	Non-Small Cell Lung Cancer	Adagrasib
+1	KRAS	G12C	Non-Small Cell Lung Cancer	Sotorasib
+1	KRAS	Oncogenic Mutations	Low-Grade Serous Ovarian Cancer	Avutometinib + Defactinib
+1	KRAS	Wildtype	Colorectal Cancer	Cetuximab
+1	KRAS	Wildtype	Colorectal Cancer	Cetuximab + Chemotherapy
+1	KRAS	Wildtype	Colorectal Cancer	Panitumumab
+1	KRAS	Wildtype	Colorectal Cancer	Panitumumab + Chemotherapy
+1	MET	D1010, Exon 14 Deletion, Exon 14 in-frame deletions, Exon 14 splice mutations	Non-Small Cell Lung Cancer	Capmatinib
+1	MET	D1010, Exon 14 Deletion, Exon 14 in-frame deletions, Exon 14 splice mutations	Non-Small Cell Lung Cancer	Tepotinib
+1	MLH1	Oncogenic Mutations	Prostate Cancer, NOS, Prostate Cancer	Talazoparib + Enzalutamide
+1	MRE11	Oncogenic Mutations	Prostate Cancer, NOS, Prostate Cancer	Talazoparib + Enzalutamide
+1	NBN	Oncogenic Mutations	Prostate Cancer, NOS, Prostate Cancer	Talazoparib + Enzalutamide
+1	NF1	Oncogenic Mutations	Neurofibroma	Mirdametinib
+1	NF1	Oncogenic Mutations	Neurofibroma	Selumetinib
+1	NRAS	Wildtype	Colorectal Cancer	Panitumumab
+1	NRAS	Wildtype	Colorectal Cancer	Panitumumab + Chemotherapy
+1	NRG1	Fusions	Non-Small Cell Lung Cancer	Zenocutuzumab
+1	NRG1	Fusions	Pancreatic Adenocarcinoma	Zenocutuzumab
+1	NTRK1	Fusions	All Solid Tumors	Entrectinib
+1	NTRK1	Fusions	All Solid Tumors	Larotrectinib
+1	NTRK1	Fusions	All Solid Tumors	Repotrectinib
+1	NTRK2	Fusions	All Solid Tumors	Entrectinib
+1	NTRK2	Fusions	All Solid Tumors	Larotrectinib
+1	NTRK2	Fusions	All Solid Tumors	Repotrectinib
+1	NTRK3	Fusions	All Solid Tumors	Entrectinib
+1	NTRK3	Fusions	All Solid Tumors	Larotrectinib
+1	NTRK3	Fusions	All Solid Tumors	Repotrectinib
+1	Other Biomarkers	Microsatellite Instability-High	All Solid Tumors	Pembrolizumab
+1	Other Biomarkers	Microsatellite Instability-High	Colorectal Cancer	Ipilimumab + Nivolumab
+1	Other Biomarkers	Microsatellite Instability-High	Colorectal Cancer	Nivolumab
+1	Other Biomarkers	Microsatellite Instability-High	Colorectal Cancer	Pembrolizumab
+1	Other Biomarkers	Microsatellite Instability-High	Endometrial Cancer	Dostarlimab + Carboplatin + Paclitaxel
+1	Other Biomarkers	Microsatellite Instability-High	Endometrial Cancer	Pembrolizumab
+1	Other Biomarkers	Tumor Mutational Burden-High	All Solid Tumors	Pembrolizumab
+1	PALB2	Oncogenic Mutations	Prostate Cancer, NOS, Prostate Cancer	Olaparib
+1	PALB2	Oncogenic Mutations	Prostate Cancer, NOS, Prostate Cancer	Talazoparib + Enzalutamide
+1	PDGFB	COL1A1-PDGFB Fusion	Dermatofibrosarcoma Protuberans	Imatinib
+1	PDGFRA	Exon 18 in-frame deletions, Exon 18 in-frame insertions, Exon 18 missense mutations	Gastrointestinal Stromal Tumor	Avapritinib
+1	PDGFRA	FIP1L1-PDGFRA Fusion	Chronic Eosinophilic Leukemia, NOS	Imatinib
+1	PDGFRA	Fusions	Myelodysplastic/Myeloproliferative Neoplasms	Imatinib
+1	PDGFRB	Fusions	Myelodysplastic/Myeloproliferative Neoplasms	Imatinib
+1	PIK3CA	C420R, E542K, E545A, E545D, E545G, E545K, H1047L, H1047R, H1047Y, Q546E, Q546R	Breast Cancer	Alpelisib + Fulvestrant
+1	PIK3CA	C420R, E542K, E545A, E545D, E545G, E545K, H1047L, H1047R, H1047Y, Q546E, Q546R	Breast Cancer	Capivasertib + Fulvestrant
+1	PIK3CA	E545Q, G1049R, M1043I, M1043V, N345K, Q546K, Q546P, R88Q	Breast Cancer	Capivasertib + Fulvestrant
+1	PIK3CA	Oncogenic Mutations	Breast Cancer	Inavolisib + Palbociclib + Fulvestrant
+1	PTEN	Oncogenic Mutations	Breast Cancer	Capivasertib + Fulvestrant
+1	RAD51B	Oncogenic Mutations	Prostate Cancer, NOS, Prostate Cancer	Olaparib
+1	RAD51C	Oncogenic Mutations	Prostate Cancer, NOS, Prostate Cancer	Olaparib
+1	RAD51C	Oncogenic Mutations	Prostate Cancer, NOS, Prostate Cancer	Talazoparib + Enzalutamide
+1	RAD51D	Oncogenic Mutations	Prostate Cancer, NOS, Prostate Cancer	Olaparib
+1	RAD54L	Oncogenic Mutations	Prostate Cancer, NOS, Prostate Cancer	Olaparib
+1	RARA	PML-RARA Fusion	APL with PML-RARA	Arsenic Trioxide
+1	RARA	PML-RARA Fusion	APL with PML-RARA	Tretinoin
+1	RARA	PML-RARA Fusion	APL with PML-RARA	Tretinoin + Arsenic Trioxide
+1	RET	Fusions	All Solid Tumors	Selpercatinib
+1	RET	Fusions	Non-Small Cell Lung Cancer	Pralsetinib
+1	RET	Fusions	Non-Small Cell Lung Cancer	Selpercatinib
+1	RET	Fusions	Thyroid Cancer	Pralsetinib
+1	RET	Fusions	Thyroid Cancer	Selpercatinib
+1	RET	Oncogenic Mutations	Medullary Thyroid Cancer	Selpercatinib
+1	ROS1	Fusions	Non-Small Cell Lung Cancer	Crizotinib
+1	ROS1	Fusions	Non-Small Cell Lung Cancer	Entrectinib
+1	ROS1	Fusions	Non-Small Cell Lung Cancer	Repotrectinib
+1	ROS1	Fusions	Non-Small Cell Lung Cancer	Taletrectinib
+1	SMARCB1	Deletion	Epithelioid Sarcoma	Tazemetostat
+1	TSC1	Oncogenic Mutations	Encapsulated Glioma	Everolimus
+1	TSC2	Oncogenic Mutations	Encapsulated Glioma	Everolimus
+R1	ABL1	E255K, E255V, F317C, F317I, F317L, F317V, F359C, F359I, F359V, G250E, T315A, V299L, Y253H	B-Lymphoblastic Leukemia/Lymphoma	Imatinib
+R1	ABL1	E255K, E255V, F317C, F317I, F317L, F317V, F359C, F359I, F359V, G250E, T315A, V299L, Y253H	Chronic Myelogenous Leukemia	Imatinib
+R1	ABL1	E255K, E255V, F359C, F359I, F359V, G250E, Y253H	B-Lymphoblastic Leukemia/Lymphoma	Nilotinib
+R1	ABL1	E255K, E255V, F359C, F359I, F359V, G250E, Y253H	Chronic Myelogenous Leukemia	Nilotinib
+R1	ABL1	F317C, F317I, F317L, F317V, T315A, V299L	B-Lymphoblastic Leukemia/Lymphoma	Dasatinib
+R1	ABL1	F317C, F317I, F317L, F317V, T315A, V299L	Chronic Myelogenous Leukemia	Dasatinib
+R1	ABL1	F317L, G250E, V299L	B-Lymphoblastic Leukemia/Lymphoma	Bosutinib
+R1	ABL1	F317L, G250E, V299L	Chronic Myelogenous Leukemia	Bosutinib
+R1	ABL1	T315I	B-Lymphoblastic Leukemia/Lymphoma	Bosutinib
+R1	ABL1	T315I	B-Lymphoblastic Leukemia/Lymphoma	Dasatinib
+R1	ABL1	T315I	B-Lymphoblastic Leukemia/Lymphoma	Imatinib
+R1	ABL1	T315I	B-Lymphoblastic Leukemia/Lymphoma	Nilotinib
+R1	ABL1	T315I	Chronic Myelogenous Leukemia	Bosutinib
+R1	ABL1	T315I	Chronic Myelogenous Leukemia	Dasatinib
+R1	ABL1	T315I	Chronic Myelogenous Leukemia	Imatinib
+R1	ABL1	T315I	Chronic Myelogenous Leukemia	Nilotinib
+R1	BTK	C481S	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	Ibrutinib
+R1	EGFR	Exon 20 in-frame insertions	Non-Small Cell Lung Cancer	Afatinib
+R1	EGFR	Exon 20 in-frame insertions	Non-Small Cell Lung Cancer	Erlotinib
+R1	EGFR	Exon 20 in-frame insertions	Non-Small Cell Lung Cancer	Gefitinib
+R1	EGFR	T790M	Non-Small Cell Lung Cancer	Afatinib
+R1	EGFR	T790M	Non-Small Cell Lung Cancer	Erlotinib
+R1	EGFR	T790M	Non-Small Cell Lung Cancer	Gefitinib
+R1	KRAS	Oncogenic Mutations	Colorectal Cancer	Cetuximab
+R1	KRAS	Oncogenic Mutations	Colorectal Cancer	Panitumumab
+R1	KRAS	Oncogenic Mutations	Colorectal Cancer	Tucatinib + Trastuzumab
+R1	NRAS	Oncogenic Mutations	Colorectal Cancer	Cetuximab
+R1	NRAS	Oncogenic Mutations	Colorectal Cancer	Panitumumab
+R1	NRAS	Oncogenic Mutations	Colorectal Cancer	Tucatinib + Trastuzumab
+R1	NTRK1	G595R	All Solid Tumors	Larotrectinib
+R1	NTRK3	F617L	All Solid Tumors	Larotrectinib
+R1	NTRK3	G623R	All Solid Tumors	Larotrectinib
+R1	NTRK3	G696A	All Solid Tumors	Larotrectinib
+R1	PDGFRA	D842V	Gastrointestinal Stromal Tumor	Imatinib
+2	ABL1	BCR-ABL1 Fusion	B-Lymphoblastic Leukemia/Lymphoma	Bosutinib
+2	ABL1	BCR-ABL1 Fusion	B-Lymphoblastic Leukemia/Lymphoma	Nilotinib
+2	ABL1	E255K, E255V, F317C, F317I, F317V, F359C, F359I, F359V, T315A, Y253H	B-Lymphoblastic Leukemia/Lymphoma	Bosutinib
+2	ABL1	E255K, E255V, F317C, F317I, F317V, F359C, F359I, F359V, T315A, Y253H	Chronic Myelogenous Leukemia	Bosutinib
+2	ABL1	E255K, E255V, F359C, F359I, F359V, Y253H	B-Lymphoblastic Leukemia/Lymphoma	Dasatinib
+2	ABL1	E255K, E255V, F359C, F359I, F359V, Y253H	Chronic Myelogenous Leukemia	Dasatinib
+2	ABL1	F317C, F317I, F317L, F317V, T315A, V299L	B-Lymphoblastic Leukemia/Lymphoma	Nilotinib
+2	ABL1	F317C, F317I, F317L, F317V, T315A, V299L	Chronic Myelogenous Leukemia	Nilotinib
+2	AKT1	Oncogenic Mutations (excluding E17K)	Breast Cancer	Capivasertib + Fulvestrant
+2	ALK	Fusions	Inflammatory Myofibroblastic Tumor	Alectinib
+2	ALK	Fusions	Inflammatory Myofibroblastic Tumor	Brigatinib
+2	ALK	Fusions	Inflammatory Myofibroblastic Tumor	Ceritinib
+2	ALK	Fusions	Inflammatory Myofibroblastic Tumor	Lorlatinib
+2	ALK	G1202R	Non-Small Cell Lung Cancer	Lorlatinib
+2	ALK	L1196M	Non-Small Cell Lung Cancer	Lorlatinib
+2	ARAF	Oncogenic Mutations	Erdheim-Chester Disease	Cobimetinib
+2	ARAF	Oncogenic Mutations	Erdheim-Chester Disease	Trametinib
+2	ARAF	Oncogenic Mutations	Langerhans Cell Histiocytosis	Cobimetinib
+2	ARAF	Oncogenic Mutations	Langerhans Cell Histiocytosis	Trametinib
+2	ARAF	Oncogenic Mutations	Rosai-Dorfman Disease	Cobimetinib
+2	ARAF	Oncogenic Mutations	Rosai-Dorfman Disease	Trametinib
+2	BRAF	Fusions	Pilocytic Astrocytoma	Selumetinib
+2	BRAF	Oncogenic Mutations (excluding V600)	Erdheim-Chester Disease	Cobimetinib
+2	BRAF	Oncogenic Mutations (excluding V600)	Erdheim-Chester Disease	Trametinib
+2	BRAF	Oncogenic Mutations (excluding V600)	Langerhans Cell Histiocytosis	Cobimetinib
+2	BRAF	Oncogenic Mutations (excluding V600)	Langerhans Cell Histiocytosis	Trametinib
+2	BRAF	Oncogenic Mutations (excluding V600)	Rosai-Dorfman Disease	Cobimetinib
+2	BRAF	Oncogenic Mutations (excluding V600)	Rosai-Dorfman Disease	Trametinib
+2	BRAF	V600	Langerhans Cell Histiocytosis	Dabrafenib
+2	BRAF	V600	Langerhans Cell Histiocytosis	Vemurafenib
+2	BRAF	V600 (excluding V600E and V600K)	Melanoma	Dabrafenib + Trametinib
+2	BRAF	V600 (excluding V600E and V600K)	Melanoma	Encorafenib + Binimetinib
+2	BRAF	V600 (excluding V600E and V600K)	Melanoma	Vemurafenib + Cobimetinib
+2	BRAF	V600E	Colorectal Cancer	Encorafenib + Panitumumab
+2	BRAF	V600E	Diffuse Glioma (excluding Diffuse Intrinsic Pontine Glioma, Diffuse Astrocytoma, Anaplastic Oligodendroglioma, Oligodendroglioma, Oligoastrocytoma, Astrocytoma)	Vemurafenib + Cobimetinib
+2	BRAF	V600E	Encapsulated Glioma	Vemurafenib + Cobimetinib
+2	BRAF	V600E	Hairy Cell Leukemia	Vemurafenib
+2	BRAF	V600E	Pilocytic Astrocytoma	Selumetinib
+2	BRAF	V600E	Pleomorphic Xanthoastrocytoma, Pilocytic Astrocytoma, Ganglioglioma	Vemurafenib + Cobimetinib
+2	BRCA1	Oncogenic Mutations	Pancreatic Adenocarcinoma, Acinar Cell Carcinoma of the Pancreas	Rucaparib
+2	BRCA2	Oncogenic Mutations	Pancreatic Adenocarcinoma, Acinar Cell Carcinoma of the Pancreas	Rucaparib
+2	BRCA2	Oncogenic Mutations	Uterine Sarcoma	Niraparib
+2	BRCA2	Oncogenic Mutations	Uterine Sarcoma	Olaparib
+2	BRCA2	Oncogenic Mutations	Uterine Sarcoma	Rucaparib
+2	EGFR	A763_Y764insFQEA	Non-Small Cell Lung Cancer	Erlotinib
+2	EGFR	G719	Non-Small Cell Lung Cancer	Amivantamab + Chemotherapy
+2	EGFR	G719	Non-Small Cell Lung Cancer	Dacomitinib
+2	EGFR	G719	Non-Small Cell Lung Cancer	Erlotinib
+2	EGFR	G719	Non-Small Cell Lung Cancer	Gefitinib
+2	EGFR	G719	Non-Small Cell Lung Cancer	Osimertinib
+2	EGFR	L861Q	Non-Small Cell Lung Cancer	Amivantamab + Chemotherapy
+2	EGFR	L861Q	Non-Small Cell Lung Cancer	Dacomitinib
+2	EGFR	L861Q	Non-Small Cell Lung Cancer	Erlotinib
+2	EGFR	L861Q	Non-Small Cell Lung Cancer	Gefitinib
+2	EGFR	L861Q	Non-Small Cell Lung Cancer	Osimertinib
+2	EGFR	S768I	Non-Small Cell Lung Cancer	Amivantamab + Chemotherapy
+2	EGFR	S768I	Non-Small Cell Lung Cancer	Dacomitinib
+2	EGFR	S768I	Non-Small Cell Lung Cancer	Erlotinib
+2	EGFR	S768I	Non-Small Cell Lung Cancer	Gefitinib
+2	EGFR	S768I	Non-Small Cell Lung Cancer	Osimertinib
+2	ERBB2	Amplification	Colorectal Cancer	Lapatinib + Trastuzumab
+2	ERBB2	Amplification	Colorectal Cancer	Trastuzumab + Pertuzumab
+2	ERBB2	Amplification	Colorectal Cancer	Trastuzumab Deruxtecan
+2	ERBB2	Amplification	Hepatobiliary Cancer, Biliary Tract	Trastuzumab + Pertuzumab
+2	ERBB2	Amplification	Hepatobiliary Cancer, Biliary Tract	Tucatinib + Trastuzumab
+2	ERBB2	Amplification	Salivary Gland Cancer	Ado-Trastuzumab Emtansine
+2	ERBB2	Amplification	Salivary Gland Cancer	Trastuzumab
+2	ERBB2	Amplification	Salivary Gland Cancer	Trastuzumab + Docetaxel
+2	ERBB2	Amplification	Salivary Gland Cancer	Trastuzumab + Pertuzumab
+2	ERBB2	Amplification	Salivary Gland Cancer	Trastuzumab Deruxtecan
+2	ERBB2	Amplification	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Trastuzumab + Carboplatin-Taxol Regimen
+2	ERBB2	Oncogenic Mutations	Breast Cancer	Neratinib + Trastuzumab + Fulvestrant
+2	ERBB2	Oncogenic Mutations	Cervical Cancer	Neratinib
+2	ERBB2	Oncogenic Mutations	Non-Small Cell Lung Cancer	Ado-Trastuzumab Emtansine
+2	ESR1	V422del	Breast Cancer	Elacestrant
+2	EZH2	Oncogenic Mutations (excluding Y646S, Y646H, Y646C, Y646F, Y646N, A682G and A692V)	Follicular Lymphoma	Tazemetostat
+2	FGFR1	Fusions	Pancreatic Cancer	Erdafitinib
+2	FGFR2	Fusions	Pancreatic Cancer	Erdafitinib
+2	FGFR2	Oncogenic Mutations	Non-Small Cell Lung Cancer	Erdafitinib
+2	FGFR3	Oncogenic Mutations	Bladder Cancer	Erdafitinib
+2	FGFR3	Oncogenic Mutations	Non-Small Cell Lung Cancer	Erdafitinib
+2	IDH1	Oncogenic Mutations	Chondrosarcoma	Ivosidenib
+2	IDH1	Oncogenic Mutations	Oligodendroglioma, Astrocytoma	Ivosidenib
+2	JAK2	Fusions	Myeloid/Lymphoid Neoplasms with Eosinophilia and Rearrangement of  PDGFRA/PDGFRB or FGFR1 or with PCM1-JAK2	Fedratinib
+2	JAK2	Fusions	Myeloid/Lymphoid Neoplasms with Eosinophilia and Rearrangement of  PDGFRA/PDGFRB or FGFR1 or with PCM1-JAK2	Ruxolitinib
+2	KIT	A829P, C809G, D816, D820, N822, Y823D	Gastrointestinal Stromal Tumor	Sorafenib
+2	KIT	D579del, K642E, L576P, L576del, P577del, V559A, V560D, V560G, V560del, V654A, W557G, W557R, Y553_K558del	Melanoma	Imatinib
+2	KRAS	G12C	Ampullary Cancer	Adagrasib
+2	KRAS	G12C	Ampullary Cancer	Sotorasib
+2	KRAS	G12C	Colorectal Cancer	Adagrasib + Panitumumab
+2	KRAS	G12C	Colorectal Cancer	Sotorasib + Cetuximab
+2	KRAS	G12C	Hepatobiliary Cancer	Adagrasib
+2	KRAS	G12C	Pancreatic Adenocarcinoma	Adagrasib
+2	KRAS	G12C	Pancreatic Adenocarcinoma	Sotorasib
+2	KRAS	G12C	Small Bowel Cancer	Adagrasib
+2	KRAS	G12C	Small Bowel Cancer	Sotorasib
+2	KRAS	Oncogenic Mutations	Erdheim-Chester Disease	Cobimetinib
+2	KRAS	Oncogenic Mutations	Erdheim-Chester Disease	Trametinib
+2	KRAS	Oncogenic Mutations	Langerhans Cell Histiocytosis	Cobimetinib
+2	KRAS	Oncogenic Mutations	Langerhans Cell Histiocytosis	Trametinib
+2	KRAS	Oncogenic Mutations	Rosai-Dorfman Disease	Cobimetinib
+2	KRAS	Oncogenic Mutations	Rosai-Dorfman Disease	Trametinib
+2	MAP2K1	Oncogenic Mutations	Erdheim-Chester Disease	Cobimetinib
+2	MAP2K1	Oncogenic Mutations	Erdheim-Chester Disease	Trametinib
+2	MAP2K1	Oncogenic Mutations	Langerhans Cell Histiocytosis	Cobimetinib
+2	MAP2K1	Oncogenic Mutations	Langerhans Cell Histiocytosis	Trametinib
+2	MAP2K1	Oncogenic Mutations	Rosai-Dorfman Disease	Cobimetinib
+2	MAP2K1	Oncogenic Mutations	Rosai-Dorfman Disease	Trametinib
+2	MAP2K2	Oncogenic Mutations	Erdheim-Chester Disease	Cobimetinib
+2	MAP2K2	Oncogenic Mutations	Erdheim-Chester Disease	Trametinib
+2	MAP2K2	Oncogenic Mutations	Langerhans Cell Histiocytosis	Cobimetinib
+2	MAP2K2	Oncogenic Mutations	Langerhans Cell Histiocytosis	Trametinib
+2	MAP2K2	Oncogenic Mutations	Rosai-Dorfman Disease	Cobimetinib
+2	MAP2K2	Oncogenic Mutations	Rosai-Dorfman Disease	Trametinib
+2	MET	Amplification	Non-Small Cell Lung Cancer	Capmatinib
+2	MET	Amplification	Non-Small Cell Lung Cancer	Crizotinib
+2	MET	Amplification	Non-Small Cell Lung Cancer	Tepotinib
+2	MET	D1010, Exon 14 Deletion, Exon 14 in-frame deletions, Exon 14 splice mutations	Non-Small Cell Lung Cancer	Crizotinib
+2	NRAS	Oncogenic Mutations	Erdheim-Chester Disease	Cobimetinib
+2	NRAS	Oncogenic Mutations	Erdheim-Chester Disease	Trametinib
+2	NRAS	Oncogenic Mutations	Langerhans Cell Histiocytosis	Cobimetinib
+2	NRAS	Oncogenic Mutations	Langerhans Cell Histiocytosis	Trametinib
+2	NRAS	Oncogenic Mutations	Rosai-Dorfman Disease	Cobimetinib
+2	NRAS	Oncogenic Mutations	Rosai-Dorfman Disease	Trametinib
+2	Other Biomarkers	Microsatellite Instability-High	Colorectal Cancer	Dostarlimab
+2	Other Biomarkers	Microsatellite Instability-High	Small Bowel Cancer	Dostarlimab
+2	Other Biomarkers	Microsatellite Instability-High	Small Bowel Cancer	Ipilimumab + Nivolumab
+2	Other Biomarkers	Microsatellite Instability-High	Small Bowel Cancer	Nivolumab
+2	PALB2	Oncogenic Mutations	Pancreatic Adenocarcinoma, Acinar Cell Carcinoma of the Pancreas	Rucaparib
+2	PDGFRA	D842V	Gastrointestinal Stromal Tumor	Dasatinib
+2	PDGFRA	Oncogenic Mutations	Gastrointestinal Stromal Tumor	Imatinib
+2	PDGFRA	Oncogenic Mutations	Gastrointestinal Stromal Tumor	Regorafenib
+2	PDGFRA	Oncogenic Mutations	Gastrointestinal Stromal Tumor	Ripretinib
+2	PDGFRA	Oncogenic Mutations	Gastrointestinal Stromal Tumor	Sunitinib
+2	PIK3CA	Oncogenic Mutations (excluding C420R, E542K, E545A, E545D, E545G, E545K, Q546E, Q546R, H1047L, H1047R and H1047Y)	Breast Cancer	Alpelisib + Fulvestrant
+2	PIK3CA	Oncogenic Mutations (excluding C420R, E542K, E545A, E545D, E545G, E545K, Q546E, Q546R, H1047L, H1047R, H1047Y, R88Q, N345K, E545Q, Q546K, Q546P, M1043V, M1043I and G1049R)	Breast Cancer	Capivasertib + Fulvestrant
+2	POLD1	D402N, E318K, L474P, S478N	Colorectal Cancer	Dostarlimab
+2	POLD1	D402N, E318K, L474P, S478N	Colorectal Cancer	Ipilimumab + Nivolumab
+2	POLD1	D402N, E318K, L474P, S478N	Colorectal Cancer	Nivolumab
+2	POLD1	D402N, E318K, L474P, S478N	Colorectal Cancer	Pembrolizumab
+2	POLD1	D402N, E318K, L474P, S478N	Small Bowel Cancer	Dostarlimab
+2	POLD1	D402N, E318K, L474P, S478N	Small Bowel Cancer	Ipilimumab + Nivolumab
+2	POLD1	D402N, E318K, L474P, S478N	Small Bowel Cancer	Nivolumab
+2	POLD1	D402N, E318K, L474P, S478N	Small Bowel Cancer	Pembrolizumab
+2	POLE	A288V, A456P, A463D, A463T, A463V, D275A, D275G, D275V, D368N, D368Y, F367L, F367S, F367V, K425R, L424I, L424V, M295R, M444K, P286H, P286L, P286R, P286S, P436H, P436R, P436S, S297F, S297Y, S459F, S459Y, S461L, S461P, S461T, V411L, V411M, V464A, Y458C, Y458H	Colorectal Cancer	Dostarlimab
+2	POLE	A288V, A456P, A463D, A463T, A463V, D275A, D275G, D275V, D368N, D368Y, F367L, F367S, F367V, K425R, L424I, L424V, M295R, M444K, P286H, P286L, P286R, P286S, P436H, P436R, P436S, S297F, S297Y, S459F, S459Y, S461L, S461P, S461T, V411L, V411M, V464A, Y458C, Y458H	Colorectal Cancer	Ipilimumab + Nivolumab
+2	POLE	A288V, A456P, A463D, A463T, A463V, D275A, D275G, D275V, D368N, D368Y, F367L, F367S, F367V, K425R, L424I, L424V, M295R, M444K, P286H, P286L, P286R, P286S, P436H, P436R, P436S, S297F, S297Y, S459F, S459Y, S461L, S461P, S461T, V411L, V411M, V464A, Y458C, Y458H	Colorectal Cancer	Nivolumab
+2	POLE	A288V, A456P, A463D, A463T, A463V, D275A, D275G, D275V, D368N, D368Y, F367L, F367S, F367V, K425R, L424I, L424V, M295R, M444K, P286H, P286L, P286R, P286S, P436H, P436R, P436S, S297F, S297Y, S459F, S459Y, S461L, S461P, S461T, V411L, V411M, V464A, Y458C, Y458H	Colorectal Cancer	Pembrolizumab
+2	POLE	A288V, A456P, A463D, A463T, A463V, D275A, D275G, D275V, D368N, D368Y, F367L, F367S, F367V, K425R, L424I, L424V, M295R, M444K, P286H, P286L, P286R, P286S, P436H, P436R, P436S, S297F, S297Y, S459F, S459Y, S461L, S461P, S461T, V411L, V411M, V464A, Y458C, Y458H	Small Bowel Cancer	Dostarlimab
+2	POLE	A288V, A456P, A463D, A463T, A463V, D275A, D275G, D275V, D368N, D368Y, F367L, F367S, F367V, K425R, L424I, L424V, M295R, M444K, P286H, P286L, P286R, P286S, P436H, P436R, P436S, S297F, S297Y, S459F, S459Y, S461L, S461P, S461T, V411L, V411M, V464A, Y458C, Y458H	Small Bowel Cancer	Ipilimumab + Nivolumab
+2	POLE	A288V, A456P, A463D, A463T, A463V, D275A, D275G, D275V, D368N, D368Y, F367L, F367S, F367V, K425R, L424I, L424V, M295R, M444K, P286H, P286L, P286R, P286S, P436H, P436R, P436S, S297F, S297Y, S459F, S459Y, S461L, S461P, S461T, V411L, V411M, V464A, Y458C, Y458H	Small Bowel Cancer	Nivolumab
+2	POLE	A288V, A456P, A463D, A463T, A463V, D275A, D275G, D275V, D368N, D368Y, F367L, F367S, F367V, K425R, L424I, L424V, M295R, M444K, P286H, P286L, P286R, P286S, P436H, P436R, P436S, S297F, S297Y, S459F, S459Y, S461L, S461P, S461T, V411L, V411M, V464A, Y458C, Y458H	Small Bowel Cancer	Pembrolizumab
+2	RAF1	Oncogenic Mutations	Erdheim-Chester Disease	Cobimetinib
+2	RAF1	Oncogenic Mutations	Erdheim-Chester Disease	Trametinib
+2	RAF1	Oncogenic Mutations	Langerhans Cell Histiocytosis	Cobimetinib
+2	RAF1	Oncogenic Mutations	Langerhans Cell Histiocytosis	Trametinib
+2	RAF1	Oncogenic Mutations	Rosai-Dorfman Disease	Cobimetinib
+2	RAF1	Oncogenic Mutations	Rosai-Dorfman Disease	Trametinib
+2	RET	Fusions	Non-Small Cell Lung Cancer	Cabozantinib
+2	ROS1	Fusions	Non-Small Cell Lung Cancer	Ceritinib
+2	ROS1	Fusions	Non-Small Cell Lung Cancer	Lorlatinib
+3	AKT1	E17K	Ovarian Cancer, Endometrial Cancer	Capivasertib
+3	ALK	F1174C	Neuroblastoma	Lorlatinib
+3	ALK	F1174L	Neuroblastoma	Lorlatinib
+3	ALK	F1245V	Neuroblastoma	Lorlatinib
+3	ALK	F1245Y	Neuroblastoma	Lorlatinib
+3	ALK	Fusions	Non-Small Cell Lung Cancer	NVL-655
+3	ALK	G1202R	Non-Small Cell Lung Cancer	NVL-655
+3	ALK	R1275L	Neuroblastoma	Lorlatinib
+3	ALK	R1275Q	Neuroblastoma	Lorlatinib
+3	ARAF	Oncogenic Mutations	Histiocytosis	Cobimetinib
+3	ARAF	Oncogenic Mutations	Histiocytosis	Sorafenib
+3	ARAF	Oncogenic Mutations	Histiocytosis	Trametinib
+3	ARAF	Oncogenic Mutations	Non-Small Cell Lung Cancer	Sorafenib
+3	BRAF	Fusions	Melanoma	Cobimetinib
+3	BRAF	Fusions	Melanoma	Trametinib
+3	BRAF	Fusions	Ovarian Cancer	Cobimetinib
+3	BRAF	Fusions	Ovarian Cancer	Trametinib
+3	BRAF	K601	Melanoma	Trametinib
+3	BRAF	L597	Melanoma	Trametinib
+3	BRAF	Oncogenic Mutations (excluding V600)	Histiocytosis	Cobimetinib
+3	BRAF	Oncogenic Mutations (excluding V600)	Histiocytosis	Trametinib
+3	BRAF	V600	Histiocytosis	Dabrafenib
+3	BRAF	V600	Histiocytosis	Vemurafenib
+3	BRCA1	Oncogenic Mutations	Breast Cancer	Olaparib
+3	BRCA1	Oncogenic Mutations	Breast Cancer	Talazoparib
+3	BRCA1	Oncogenic Mutations	Pancreatic Adenocarcinoma, Acinar Cell Carcinoma of the Pancreas	Olaparib
+3	BRCA2	Oncogenic Mutations	Breast Cancer	Olaparib
+3	BRCA2	Oncogenic Mutations	Breast Cancer	Talazoparib
+3	BRCA2	Oncogenic Mutations	Pancreatic Adenocarcinoma, Acinar Cell Carcinoma of the Pancreas	Olaparib
+3	CCNE1	Amplification	Ovarian Cancer, Endometrial Cancer	Lunresertib + Camonsertib
+3	EGFR	Amplification	Esophagogastric Cancer	Cetuximab
+3	EGFR	Amplification	Esophagogastric Cancer	Cetuximab + Chemotherapy
+3	EGFR	Amplification	Esophagogastric Cancer	Panitumumab
+3	EGFR	Amplification	Esophagogastric Cancer	Panitumumab + Chemotherapy
+3	EGFR	E709_T710delinsD	Non-Small Cell Lung Cancer	Afatinib
+3	EGFR	Exon 19 in-frame deletions, Exon 19 in-frame insertions, G719, L858R, L861Q, S768I	Non-Small Cell Lung Cancer	Patritumab Deruxtecan
+3	EGFR	Exon 19 in-frame insertions	Non-Small Cell Lung Cancer	Erlotinib
+3	EGFR	Exon 19 in-frame insertions	Non-Small Cell Lung Cancer	Gefitinib
+3	EGFR	Exon 20 in-frame insertions	Non-Small Cell Lung Cancer	Poziotinib
+3	EGFR	Exon 20 in-frame insertions	Non-Small Cell Lung Cancer	Zipalertinib
+3	EGFR	G719	Non-Small Cell Lung Cancer	Amivantamab + Lazertinib
+3	EGFR	G724S	Non-Small Cell Lung Cancer	Afatinib
+3	EGFR	Kinase Domain Duplication	Non-Small Cell Lung Cancer	Afatinib
+3	EGFR	L718Q	Non-Small Cell Lung Cancer	Afatinib
+3	EGFR	L718V	Non-Small Cell Lung Cancer	Afatinib
+3	EGFR	L861Q	Non-Small Cell Lung Cancer	Amivantamab + Lazertinib
+3	EGFR	S768I	Non-Small Cell Lung Cancer	Amivantamab + Lazertinib
+3	ERBB2	Amplification	All Solid Tumors	Trastuzumab Deruxtecan
+3	ERBB2	Amplification	Hepatobiliary Cancer, Biliary Tract	Zanidatamab
+3	ERBB2	Oncogenic Mutations	Breast Cancer	Neratinib
+3	ERBB2	Oncogenic Mutations	Non-Small Cell Lung Cancer	Neratinib
+3	ERBB2	Oncogenic Mutations	Non-Small Cell Lung Cancer	Sevabertinib
+3	ERBB2	Oncogenic Mutations	Non-Small Cell Lung Cancer	Trastuzumab + Pertuzumab + Docetaxel
+3	ERBB2	Oncogenic Mutations	Non-Small Cell Lung Cancer	Zongertinib
+3	ERCC2	Oncogenic Mutations	Bladder Cancer	Cisplatin
+3	ESR1	Oncogenic Mutations (excluding Fusions)	Breast Cancer	Fulvestrant
+3	FBXW7	Oncogenic Mutations	Ovarian Cancer, Endometrial Cancer	Lunresertib + Camonsertib
+3	FGFR2	Oncogenic Mutations	Cholangiocarcinoma	Lirafugratinib
+3	FLT3	Internal Tandem Duplication	Acute Myeloid Leukemia	Crenolanib
+3	FLT3	Internal Tandem Duplication	Acute Myeloid Leukemia	Sorafenib
+3	HRAS	Oncogenic Mutations	Bladder Urothelial Carcinoma	Tipifarnib
+3	HRAS	Oncogenic Mutations	Head and Neck Squamous Cell Carcinoma	Tipifarnib
+3	IDH1	R132	Glioma	Ivosidenib
+3	JAK2	PCM1-JAK2 Fusion	Chronic Eosinophilic Leukemia, NOS	Ruxolitinib
+3	KRAS	G12A, G12D, G12R, G12S, G12V	Non-Small Cell Lung Cancer	Daraxonrasib
+3	KRAS	G12A, G12D, G12R, G12S, G12V	Pancreatic Adenocarcinoma	Daraxonrasib
+3	KRAS	G12C	Tubular Adenoma of the Colon, Esophagogastric Cancer, Anal Cancer, Gastrointestinal Neuroendocrine Tumors of the Esophagus/Stomach	Adagrasib
+3	KRAS	G12D	Non-Small Cell Lung Cancer	ASP3082
+3	KRAS	G12D	Pancreatic Adenocarcinoma	ASP3082
+3	KRAS	Oncogenic Mutations	Histiocytosis	Cobimetinib
+3	KRAS	Oncogenic Mutations	Histiocytosis	Trametinib
+3	MAP2K1	Oncogenic Mutations	Histiocytosis	Cobimetinib
+3	MAP2K1	Oncogenic Mutations	Histiocytosis	Trametinib
+3	MAP2K1	Oncogenic Mutations	Melanoma, Non-Small Cell Lung Cancer, Low-Grade Serous Ovarian Cancer	Cobimetinib
+3	MAP2K1	Oncogenic Mutations	Melanoma, Non-Small Cell Lung Cancer, Low-Grade Serous Ovarian Cancer	Trametinib
+3	MAP2K2	Oncogenic Mutations	Histiocytosis	Cobimetinib
+3	MAP2K2	Oncogenic Mutations	Histiocytosis	Trametinib
+3	MDM2	Amplification	Dedifferentiated Liposarcoma	Brigimadlin
+3	MDM2	Amplification	Hepatobiliary Cancer, Biliary Tract	Brigimadlin
+3	MDM2	Amplification	Hepatobiliary Cancer, Biliary Tract	Brigimadlin + Ezabenlimab
+3	MDM2	Amplification	Intimal Sarcoma	Milademetan
+3	MDM2	Amplification	Well-Differentiated Liposarcoma	Brigimadlin
+3	MET	Amplification	Non-Small Cell Lung Cancer	Telisotuzumab Vedotin
+3	MET	F1200I	Non-Small Cell Lung Cancer	Elzovantinib
+3	MET	H1094Y	Non-Small Cell Lung Cancer	Elzovantinib
+3	MET	Y1003	Non-Small Cell Lung Cancer	Capmatinib
+3	MET	Y1003	Non-Small Cell Lung Cancer	Crizotinib
+3	MET	Y1003	Non-Small Cell Lung Cancer	Tepotinib
+3	MTAP	Deletion	All Solid Tumors	AMG 193
+3	MTAP	Deletion	All Solid Tumors	MRTX1719
+3	MTOR	E2014K, E2419K	Bladder Cancer	Everolimus
+3	MTOR	L2209V, L2427Q	Renal Cell Carcinoma	Temsirolimus
+3	MTOR	Q2223K	Renal Cell Carcinoma	Everolimus
+3	NPM1	Oncogenic Mutations	Acute Myeloid Leukemia	Revumenib
+3	NRAS	Oncogenic Mutations	Histiocytosis	Cobimetinib
+3	NRAS	Oncogenic Mutations	Histiocytosis	Trametinib
+3	NRAS	Oncogenic Mutations	Melanoma	Binimetinib
+3	NRAS	Oncogenic Mutations	Thyroid Cancer	Selumetinib + Iodine I 131-6-Beta-Iodomethyl-19-Norcholesterol
+3	NRG1	Fusions	All Solid Tumors	Zenocutuzumab
+3	NRG1	Fusions	Non-Small Cell Lung Cancer	Seribantumab
+3	NTRK1	G595R	All Solid Tumors	Selitrectinib
+3	NTRK3	G623R	All Solid Tumors	Selitrectinib
+3	PPP2R1A	Oncogenic Mutations	Ovarian Cancer, Endometrial Cancer	Lunresertib + Camonsertib
+3	PTCH1	Truncating Mutations	Medulloblastoma	Sonidegib
+3	PTCH1	Truncating Mutations	Medulloblastoma	Vismodegib
+3	RAF1	Oncogenic Mutations	Histiocytosis	Cobimetinib
+3	RAF1	Oncogenic Mutations	Histiocytosis	Trametinib
+3	RET	Fusions	Non-Small Cell Lung Cancer	Vandetanib
+3	RET	Oncogenic Mutations	Medullary Thyroid Cancer	Pralsetinib
+3	ROS1	G2032R	Non-Small Cell Lung Cancer	Taletrectinib
+3	ROS1	L2086F	Non-Small Cell Lung Cancer	Cabozantinib
+3	SMARCA4	Oncogenic Mutations	Esophageal Adenocarcinoma	PRT3789
+3	SMARCA4	Oncogenic Mutations	Non-Small Cell Lung Cancer	PRT3789
+3	TP53	Y220C	All Solid Tumors	Rezatapopt
+3	TSC2	Oncogenic Mutations	Perivascular Epithelioid Cell Tumor, Uterine Perivascular Epithelioid Cell Tumor	ABI-009
+4	ARID1A	Truncating Mutations	All Solid Tumors	PLX2853
+4	ARID1A	Truncating Mutations	All Solid Tumors	Tazemetostat
+4	BRAF	G464, G469A, G469R, G469V	All Solid Tumors	Plixorafenib
+4	BRAF	K601	All Solid Tumors	Plixorafenib
+4	BRAF	L597	All Solid Tumors	Plixorafenib
+4	CCNE1	Amplification	All Solid Tumors	BLU-222
+4	CCNE1	Amplification	All Solid Tumors	Lunresertib
+4	CCNE1	Amplification	All Solid Tumors	Lunresertib + Camonsertib
+4	CDK12	Truncating Mutations	All Solid Tumors	Cemiplimab
+4	CDK12	Truncating Mutations	All Solid Tumors	Nivolumab
+4	CDK12	Truncating Mutations	All Solid Tumors	Pembrolizumab
+4	CDK4	Amplification	Dedifferentiated Liposarcoma, Well-Differentiated Liposarcoma	Abemaciclib
+4	CDK4	Amplification	Dedifferentiated Liposarcoma, Well-Differentiated Liposarcoma	Palbociclib
+4	CDKN2A	Oncogenic Mutations	All Solid Tumors	Abemaciclib
+4	CDKN2A	Oncogenic Mutations	All Solid Tumors	Palbociclib
+4	CDKN2A	Oncogenic Mutations	All Solid Tumors	Ribociclib
+4	EGFR	A289V, R108K, T263P	Glioma	Lapatinib
+4	EGFR	A763_Y764insFQEA	Non-Small Cell Lung Cancer	Afatinib
+4	EGFR	Amplification	Glioma	Lapatinib
+4	EGFR	D761Y	Non-Small Cell Lung Cancer	Osimertinib
+4	EGFR	Exon 19 in-frame insertions	Non-Small Cell Lung Cancer	Afatinib
+4	EGFR	Kinase Domain Duplication	Non-Small Cell Lung Cancer	Erlotinib
+4	EGFR	Kinase Domain Duplication	Non-Small Cell Lung Cancer	Gefitinib
+4	EGFR	L747P	Non-Small Cell Lung Cancer	Afatinib
+4	ERBB2	Oncogenic Mutations	Hepatobiliary Cancer, Biliary Tract	Neratinib
+4	ERBB2	Oncogenic Mutations	Hepatobiliary Cancer, Biliary Tract	Pertuzumab + Trastuzumab
+4	ERBB2	Oncogenic Mutations	Hepatobiliary Cancer, Biliary Tract	Trastuzumab Deruxtecan
+4	FBXW7	Oncogenic Mutations	All Solid Tumors	Lunresertib + Camonsertib
+4	FGFR1	Oncogenic Mutations	All Solid Tumors	Erdafitinib
+4	FGFR1	Oncogenic Mutations	All Solid Tumors	Fexagratinib
+4	FGFR2	Amplification	All Solid Tumors	Lirafugratinib
+4	FGFR2	Oncogenic Mutations	All Solid Tumors (excluding Bladder Cancer, Cholangiocarcinoma)	Lirafugratinib
+4	FGFR2	Oncogenic Mutations	All Solid Tumors (excluding Bladder Cancer)	Erdafitinib
+4	FGFR2	Oncogenic Mutations	All Solid Tumors (excluding Bladder Cancer)	Fexagratinib
+4	FGFR2	Oncogenic Mutations (excluding Fusions)	Bladder Cancer	Erdafitinib
+4	FGFR2	Oncogenic Mutations (excluding Fusions)	Bladder Cancer	Fexagratinib
+4	FGFR2	Oncogenic Mutations (excluding Fusions)	Bladder Cancer	Lirafugratinib
+4	FGFR3	Oncogenic Mutations	All Solid Tumors	Erdafitinib
+4	FGFR3	Oncogenic Mutations	All Solid Tumors	Fexagratinib
+4	FLI1	EWSR1-FLI1 Fusion	Ewing Sarcoma, Ewing Sarcoma of Soft Tissue	TK216
+4	KDM6A	Oncogenic Mutations	Bladder Cancer	Tazemetostat
+4	KIT	A829P, C809G, D816, D820, N822, Y823D	Gastrointestinal Stromal Tumor	Nilotinib
+4	KIT	A829P, C809G, D816, D820, N822, Y823D	Gastrointestinal Stromal Tumor	Pazopanib
+4	KRAS	G12A, G12D, G12R, G12S, G12V	All Solid Tumors	Daraxonrasib
+4	KRAS	G12D	All Solid Tumors	ASP3082
+4	KRAS	G12D	All Solid Tumors	MRTX-1133
+4	KRAS	Oncogenic Mutations	All Solid Tumors	Binimetinib
+4	KRAS	Oncogenic Mutations	All Solid Tumors	Cobimetinib
+4	KRAS	Oncogenic Mutations	All Solid Tumors	Trametinib
+4	MDM2	Amplification	All Solid Tumors	Brigimadlin
+4	MDM2	Amplification	Dedifferentiated Liposarcoma	Milademetan
+4	MDM2	Amplification	Well-Differentiated Liposarcoma	Milademetan
+4	MET	Fusions	All Solid Tumors	Crizotinib
+4	MET	H1106D, M1250T, N1100S, R1170Q, V1092I	Non-Small Cell Lung Cancer	Capmatinib
+4	MET	H1106D, M1250T, N1100S, R1170Q, V1092I	Non-Small Cell Lung Cancer	Elzovantinib
+4	MET	H1106D, M1250T, N1100S, R1170Q, V1092I	Non-Small Cell Lung Cancer	Tepotinib
+4	MTOR	Oncogenic Mutations	All Solid Tumors	Everolimus
+4	MTOR	Oncogenic Mutations	All Solid Tumors	Temsirolimus
+4	NF1	Oncogenic Mutations	All Solid Tumors	Cobimetinib
+4	NF1	Oncogenic Mutations	All Solid Tumors	Trametinib
+4	NRAS	Oncogenic Mutations	Melanoma	Binimetinib + Ribociclib
+4	NTRK1	Fusions	All Solid Tumors	Zurletrectinib
+4	NTRK1	G595R	All Solid Tumors	Zurletrectinib
+4	NTRK2	Fusions	All Solid Tumors	Zurletrectinib
+4	NTRK3	Fusions	All Solid Tumors	Zurletrectinib
+4	NTRK3	G623R	All Solid Tumors	Zurletrectinib
+4	PIK3CA	Oncogenic Mutations	All Solid Tumors	RLY-2608
+4	PIK3CA	Oncogenic Mutations	Breast Cancer	RLY-2608 + Fulvestrant
+4	PPP2R1A	Oncogenic Mutations	All Solid Tumors	Lunresertib + Camonsertib
+4	PTEN	Oncogenic Mutations	All Solid Tumors	AZD8186
+4	PTEN	Oncogenic Mutations	All Solid Tumors	GSK2636771
+4	SF3B1	Oncogenic Mutations	Acute Myeloid Leukemia	Emavusertib
+4	SF3B1	Oncogenic Mutations	Chronic Myelomonocytic Leukemia, Myelodysplastic Syndromes	Ceralasertib
+4	SF3B1	Oncogenic Mutations	Myelodysplastic Syndromes	Emavusertib
+4	SMARCB1	Oncogenic Mutations	All Liquid Tumors	Tazemetostat
+4	SRSF2	Oncogenic Mutations	Chronic Myelomonocytic Leukemia, Myelodysplastic Syndromes	Ceralasertib
+4	STK11	Oncogenic Mutations	Non-Small Cell Lung Cancer	Bemcentinib + Pembrolizumab
+4	U2AF1	Oncogenic Mutations	Acute Myeloid Leukemia	Emavusertib
+4	U2AF1	Oncogenic Mutations	Chronic Myelomonocytic Leukemia, Myelodysplastic Syndromes	Ceralasertib
+4	U2AF1	Oncogenic Mutations	Myelodysplastic Syndromes	Emavusertib
+4	ZRSR2	Oncogenic Mutations	Chronic Myelomonocytic Leukemia, Myelodysplastic Syndromes	Ceralasertib
+R2	ALK	C1156Y	Non-Small Cell Lung Cancer	Crizotinib
+R2	ALK	G1202R	Non-Small Cell Lung Cancer	Alectinib
+R2	ALK	G1202R	Non-Small Cell Lung Cancer	Brigatinib
+R2	ALK	G1202R	Non-Small Cell Lung Cancer	Ceritinib
+R2	ALK	G1202R	Non-Small Cell Lung Cancer	Crizotinib
+R2	ALK	G1269A	Non-Small Cell Lung Cancer	Crizotinib
+R2	ALK	I1171N	Non-Small Cell Lung Cancer	Alectinib
+R2	ALK	L1196M	Non-Small Cell Lung Cancer	Crizotinib
+R2	BTK	C481F	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	Ibrutinib
+R2	BTK	C481R	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	Ibrutinib
+R2	BTK	C481Y	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	Ibrutinib
+R2	BTK	T316A	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	Ibrutinib
+R2	BTK	T474I	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	Ibrutinib
+R2	BTK	T474S	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	Ibrutinib
+R2	EGFR	C797G	Non-Small Cell Lung Cancer	Osimertinib
+R2	EGFR	C797S	Non-Small Cell Lung Cancer	Osimertinib
+R2	EGFR	D761Y	Non-Small Cell Lung Cancer	Gefitinib
+R2	EGFR	G465E	Colorectal Cancer	Cetuximab
+R2	EGFR	G465E	Colorectal Cancer	Panitumumab
+R2	EGFR	G465R	Colorectal Cancer	Cetuximab
+R2	EGFR	G465R	Colorectal Cancer	Panitumumab
+R2	EGFR	G724S	Non-Small Cell Lung Cancer	Osimertinib
+R2	EGFR	L718Q	Non-Small Cell Lung Cancer	Osimertinib
+R2	EGFR	L718V	Non-Small Cell Lung Cancer	Osimertinib
+R2	EGFR	L792F	Non-Small Cell Lung Cancer	Osimertinib
+R2	EGFR	L792H	Non-Small Cell Lung Cancer	Osimertinib
+R2	EGFR	S464L	Colorectal Cancer	Cetuximab
+R2	EGFR	S464L	Colorectal Cancer	Panitumumab
+R2	EGFR	S492R	Colorectal Cancer	Cetuximab
+R2	EGFR	S492R	Colorectal Cancer	Panitumumab
+R2	EGFR	V441D	Colorectal Cancer	Cetuximab
+R2	EGFR	V441D	Colorectal Cancer	Panitumumab
+R2	EGFR	V441G	Colorectal Cancer	Cetuximab
+R2	EGFR	V441G	Colorectal Cancer	Panitumumab
+R2	KIT	A829P	Gastrointestinal Stromal Tumor	Imatinib
+R2	KIT	A829P	Gastrointestinal Stromal Tumor	Sunitinib
+R2	KIT	C809G	Gastrointestinal Stromal Tumor	Imatinib
+R2	KIT	C809G	Gastrointestinal Stromal Tumor	Sunitinib
+R2	KIT	D816	Gastrointestinal Stromal Tumor	Imatinib
+R2	KIT	D816	Gastrointestinal Stromal Tumor	Sunitinib
+R2	KIT	D820	Gastrointestinal Stromal Tumor	Imatinib
+R2	KIT	D820	Gastrointestinal Stromal Tumor	Sunitinib
+R2	KIT	N822	Gastrointestinal Stromal Tumor	Imatinib
+R2	KIT	N822	Gastrointestinal Stromal Tumor	Sunitinib
+R2	KIT	T670I	Gastrointestinal Stromal Tumor	Imatinib
+R2	KIT	V654A	Gastrointestinal Stromal Tumor	Imatinib
+R2	KIT	Y823D	Gastrointestinal Stromal Tumor	Imatinib
+R2	KIT	Y823D	Gastrointestinal Stromal Tumor	Sunitinib
+R2	MET	Amplification	Non-Small Cell Lung Cancer	Erlotinib
+R2	MET	Amplification	Non-Small Cell Lung Cancer	Gefitinib
+R2	MET	Amplification	Non-Small Cell Lung Cancer	Osimertinib
+R2	MET	D1228N	Non-Small Cell Lung Cancer	Cabozantinib
+R2	MET	D1228N	Non-Small Cell Lung Cancer	Capmatinib
+R2	MET	D1228N	Non-Small Cell Lung Cancer	Crizotinib
+R2	MET	Y1230H	Non-Small Cell Lung Cancer	Capmatinib
+R2	MET	Y1230H	Non-Small Cell Lung Cancer	Crizotinib
+R2	NTRK1	G595R	All Solid Tumors	Entrectinib
+R2	ROS1	G2032R	Non-Small Cell Lung Cancer	Crizotinib
+R2	ROS1	G2032R	Non-Small Cell Lung Cancer	Lorlatinib
+R2	ROS1	L2086F	Non-Small Cell Lung Cancer	Lorlatinib
+R2	ROS1	L2086F	Non-Small Cell Lung Cancer	Repotrectinib
+Dx1	ABL1	BCR-ABL1 Fusion	AML with BCR-ABL1	
+Dx1	ABL1	BCR-ABL1 Fusion	B-Lymphoblastic Leukemia/Lymphoma with t(9;22)(q34.1;q11.2);BCR-ABL1	
+Dx1	ABL1	BCR-ABL1 Fusion	Chronic Myeloid Leukemia, BCR-ABL1+	
+Dx1	ABL1	BCR-ABL1 Fusion	Mixed Phenotype Acute Leukemia with t(9;22)(q34.1;q11.2); BCR-ABL1	
+Dx1	ABL1	Fusions	B-Lymphoblastic Leukemia/Lymphoma, BCR-ABL1 Like	
+Dx1	ABL2	Fusions	B-Lymphoblastic Leukemia/Lymphoma, BCR-ABL1 Like	
+Dx1	ALK	Fusions	ALK Positive Large B-Cell Lymphoma	
+Dx1	ALK	Fusions	Anaplastic Large-Cell Lymphoma ALK Positive	
+Dx1	CBFB	CBFB-MYH11 Fusion	AML with inv(16)(p13.1q22) or t(16;16)(p13.1;q22);CBFB-MYH11	
+Dx1	CEBPA	R300G, bZIP Region In-Frame Deletions, bZIP Region In-Frame Insertions	AML with Biallelic Mutations of CEBPA	
+Dx1	CRLF2	Fusions	B-Lymphoblastic Leukemia/Lymphoma, BCR-ABL1 Like	
+Dx1	DEK	DEK-NUP214 Fusion	AML with t(6;9)(p23;q34.1);DEK-NUP214	
+Dx1	EPOR	Fusions	B-Lymphoblastic Leukemia/Lymphoma, BCR-ABL1 Like	
+Dx1	FGFR1	Fusions	Myeloid/Lymphoid Neoplasms with FGFR1 Rearrangement	
+Dx1	IL3	IGH-IL3 Fusion	B-Lymphoblastic Leukemia/Lymphoma with t(5;14)(q31.1;q32.3) IL3-IGH	
+Dx1	IRF4	Fusions	Large B-Cell Lymphoma with IRF4 Rearrangement	
+Dx1	JAK2	Fusions	B-Lymphoblastic Leukemia/Lymphoma, BCR-ABL1 Like	
+Dx1	JAK2	PCM1-JAK2 Fusion	Myeloid/Lymphoid Neoplasms with PCM1-JAK2	
+Dx1	KMT2A	Fusions	B-Lymphoblastic Leukemia/Lymphoma with t(v;11q23.3);KMT2A Rearranged	
+Dx1	KMT2A	Fusions	Mixed Phenotype Acute Leukemia with t(v;11q23.3); KMT2A Rearranged	
+Dx1	KMT2A	KMT2A-MLLT3 Fusion	AML with t(9;11)(p21.3;q23.3);MLLT3-KMT2A	
+Dx1	MYC	Fusions	High-Grade B-Cell Lymphoma, with MYC and BCL2 and/or BCL6 Rearrangements	
+Dx1	NPM1	Oncogenic Mutations	AML with Mutated NPM1	
+Dx1	PDGFRA	Fusions	Myeloid/Lymphoid Neoplasms with PDGFRA Rearrangement	
+Dx1	PDGFRB	Fusions	B-Lymphoblastic Leukemia/Lymphoma, BCR-ABL1 Like	
+Dx1	PDGFRB	Fusions	Myeloid/Lymphoid Neoplasms with PDGFRB Rearrangement	
+Dx1	RARA	Fusions	APL with PML-RARA	
+Dx1	RBM15	RBM15-MRTFA Fusion	AML (megakaryoblastic) with t(1;22)(p13.3;q13.3);RBM15-MKL1	
+Dx1	RUNX1	ETV6-RUNX1 Fusion	B-Lymphoblastic Leukemia/Lymphoma with t(12;21)(p13.2;q22.1); ETV6-RUNX1	
+Dx1	RUNX1	Oncogenic Mutations	AML with Mutated RUNX1	
+Dx1	RUNX1	RUNX1-RUNX1T1 Fusion	AML with t(8;21)(q22;q22.1);RUNX1-RUNX1T1	
+Dx1	TCF3	TCF3-PBX1 Fusion	B-Lymphoblastic Leukemia/Lymphoma with t(1;19)(q23;p13.3);TCF3-PBX1	
+Dx1	TYK2	Fusions	B-Lymphoblastic Leukemia/Lymphoma, BCR-ABL1 Like	
+Dx2	ASXL1	Oncogenic Mutations	Chronic Myelomonocytic Leukemia	
+Dx2	ASXL1	Oncogenic Mutations	Myelodysplastic Syndromes	
+Dx2	BCL2	Fusions	High-Grade B-Cell Lymphoma, with MYC and BCL2 and/or BCL6 Rearrangements	
+Dx2	BCL2	IGH-BCL2 Fusion	Follicular Lymphoma	
+Dx2	BCL6	Fusions	High-Grade B-Cell Lymphoma, with MYC and BCL2 and/or BCL6 Rearrangements	
+Dx2	BCOR	Oncogenic Mutations	Chronic Myelomonocytic Leukemia	
+Dx2	BCOR	Oncogenic Mutations	Myelodysplastic Syndromes	
+Dx2	BRAF	V600E	Hairy Cell Leukemia	
+Dx2	BRAF	V600E	Langerhans Cell Histiocytosis	
+Dx2	CALR	Oncogenic Mutations	Essential Thrombocythemia	
+Dx2	CALR	Oncogenic Mutations	MDS/MPN with Ring Sideroblasts and Thrombocytosis	
+Dx2	CALR	Oncogenic Mutations	Myeloproliferative Neoplasms	
+Dx2	CALR	Oncogenic Mutations	Primary Myelofibrosis	
+Dx2	CBL	Oncogenic Mutations	Chronic Myelomonocytic Leukemia	
+Dx2	CBL	Oncogenic Mutations	Juvenile Myelomonocytic Leukemia	
+Dx2	CBL	Oncogenic Mutations	Myelodysplastic Syndromes	
+Dx2	CCND1	IGH-CCND1 Fusion	Mantle Cell Lymphoma	
+Dx2	CDKN2A	Deletion	AML with BCR-ABL1	
+Dx2	CDKN2A	Deletion	B-Lymphoblastic Leukemia/Lymphoma	
+Dx2	CDKN2A	Deletion	T-Lymphoblastic Leukemia/Lymphoma	
+Dx2	CREBBP	KAT6A-CREBBP Fusion	Acute Myeloid Leukemia	
+Dx2	CSF3R	Oncogenic Mutations	Chronic Neutrophilic Leukemia	
+Dx2	DNMT3A	Oncogenic Mutations	Myelodysplastic Syndromes	
+Dx2	ETNK1	Oncogenic Mutations	Atypical Chronic Myeloid Leukemia, BCR-ABL1-	
+Dx2	ETV6	Oncogenic Mutations	Myelodysplastic Syndromes	
+Dx2	EZH2	Oncogenic Mutations	Chronic Myelomonocytic Leukemia	
+Dx2	EZH2	Oncogenic Mutations	Myelodysplastic Syndromes	
+Dx2	FBXW7	Oncogenic Mutations	T-Lymphoblastic Leukemia/Lymphoma	
+Dx2	FGFR3	IGH-FGFR3 Fusion	Plasma Cell Myeloma	
+Dx2	FLT3	D835, D839G, I836, I867S, N676K, N841I, R834Q, Y842C	Acute Myeloid Leukemia	
+Dx2	FLT3	Internal Tandem Duplication	Acute Myeloid Leukemia	
+Dx2	GATA1	MYB-GATA1 Fusion	Acute Myeloid Leukemia	
+Dx2	GATA1	Oncogenic Mutations	Myeloid Proliferations Related to Down Syndrome	
+Dx2	IDH1	Oncogenic Mutations	Acute Myeloid Leukemia	
+Dx2	IDH1	R132	Myelodysplastic Syndromes	
+Dx2	IDH2	Oncogenic Mutations	Acute Myeloid Leukemia	
+Dx2	IKZF1	Deletion	AML with BCR-ABL1	
+Dx2	IKZF1	Deletion	B-Lymphoblastic Leukemia/Lymphoma	
+Dx2	IKZF1	Deletion	B-Lymphoblastic Leukemia/Lymphoma, BCR-ABL1 Like	
+Dx2	JAK2	Exon 12 in-frame deletions, Exon 12 in-frame insertions, Exon 12 missense mutations	Polycythemia Vera	
+Dx2	JAK2	Oncogenic Mutations	Essential Thrombocythemia	
+Dx2	JAK2	Oncogenic Mutations	Myeloproliferative Neoplasms	
+Dx2	JAK2	Oncogenic Mutations	Primary Myelofibrosis	
+Dx2	JAK2	V617F	MDS/MPN with Ring Sideroblasts and Thrombocytosis	
+Dx2	JAK2	V617F	Polycythemia Vera	
+Dx2	KIT	D816V	Systemic Mastocytosis	
+Dx2	KIT	Oncogenic Mutations	AML with t(8;21)(q22;q22.1);RUNX1-RUNX1T1	
+Dx2	KMT2A	Fusions	Acute Myeloid Leukemia	
+Dx2	KMT2A	Fusions	Myeloid Sarcoma	
+Dx2	KMT2A	Fusions	T-Lymphoblastic Leukemia/Lymphoma	
+Dx2	KRAS	Oncogenic Mutations	Juvenile Myelomonocytic Leukemia	
+Dx2	KRAS	Oncogenic Mutations	Myelodysplastic Syndromes	
+Dx2	LMO2	Fusions	T-Lymphoblastic Leukemia/Lymphoma	
+Dx2	MPL	Oncogenic Mutations	Essential Thrombocythemia	
+Dx2	MPL	Oncogenic Mutations	Myeloproliferative Neoplasms	
+Dx2	MPL	Oncogenic Mutations	Primary Myelofibrosis	
+Dx2	MPL	W515	MDS/MPN with Ring Sideroblasts and Thrombocytosis	
+Dx2	MYC	Fusions	Burkitt Lymphoma	
+Dx2	MYD88	L265P	Lymphoplasmacytic Lymphoma	
+Dx2	NF1	Oncogenic Mutations	Chronic Myelomonocytic Leukemia	
+Dx2	NF1	Oncogenic Mutations	Juvenile Myelomonocytic Leukemia	
+Dx2	NOTCH1	Oncogenic Mutations	T-Lymphoblastic Leukemia/Lymphoma	
+Dx2	NPM1	Oncogenic Mutations	Myeloid Sarcoma	
+Dx2	NRAS	Oncogenic Mutations	Chronic Myelomonocytic Leukemia	
+Dx2	NRAS	Oncogenic Mutations	Juvenile Myelomonocytic Leukemia	
+Dx2	NRAS	Oncogenic Mutations	Myelodysplastic Syndromes	
+Dx2	NSD2	IGH-NSD2 Fusion	Plasma Cell Myeloma	
+Dx2	PHF6	Oncogenic Mutations	Myelodysplastic Syndromes	
+Dx2	PHF6	Oncogenic Mutations	T-Lymphoblastic Leukemia/Lymphoma	
+Dx2	PPM1D	Oncogenic Mutations	Myelodysplastic Syndromes	
+Dx2	PTPN11	Oncogenic Mutations	Juvenile Myelomonocytic Leukemia	
+Dx2	RUNX1	Oncogenic Mutations	Chronic Myelomonocytic Leukemia	
+Dx2	RUNX1	Oncogenic Mutations	Myelodysplastic Syndromes	
+Dx2	SETBP1	D868, E858, G870, I865, S869, T864	Chronic Myelomonocytic Leukemia	
+Dx2	SETBP1	D868, E858, G870, I865, S869, T864	Myelodysplastic Syndromes	
+Dx2	SETBP1	Oncogenic Mutations	Atypical Chronic Myeloid Leukemia, BCR-ABL1-	
+Dx2	SF3B1	Oncogenic Mutations	MDS with Ring Sideroblasts	
+Dx2	SF3B1	Oncogenic Mutations	MDS/MPN with Ring Sideroblasts and Thrombocytosis	
+Dx2	SF3B1	Oncogenic Mutations	Myelodysplastic Syndromes	
+Dx2	SRSF2	Oncogenic Mutations	Chronic Myelomonocytic Leukemia	
+Dx2	SRSF2	P95	MDS with Ring Sideroblasts	
+Dx2	SRSF2	P95	Myelodysplastic Syndromes	
+Dx2	STAG2	Oncogenic Mutations	Myelodysplastic Syndromes	
+Dx2	TAL1	Fusions	T-Lymphoblastic Leukemia/Lymphoma	
+Dx2	TCL1A	TRA-TCL1A Fusion	T-Cell Prolymphocytic Leukemia	
+Dx2	TCL1B	TRA-TCL1B Fusion	T-Cell Prolymphocytic Leukemia	
+Dx2	TET2	Oncogenic Mutations	Chronic Myelomonocytic Leukemia	
+Dx2	TET2	Oncogenic Mutations	Myelodysplastic Syndromes	
+Dx2	TLX1	Fusions	T-Lymphoblastic Leukemia/Lymphoma	
+Dx2	TLX3	Fusions	T-Lymphoblastic Leukemia/Lymphoma	
+Dx2	TRA	Fusions	T-Lymphoblastic Leukemia/Lymphoma	
+Dx2	TRB	Fusions	T-Lymphoblastic Leukemia/Lymphoma	
+Dx2	TRD	Fusions	T-Lymphoblastic Leukemia/Lymphoma	
+Dx2	TRG	Fusions	T-Lymphoblastic Leukemia/Lymphoma	
+Dx2	U2AF1	Oncogenic Mutations	MDS with Ring Sideroblasts	
+Dx2	U2AF1	Oncogenic Mutations	Myelodysplastic Syndromes	
+Dx2	ZRSR2	Oncogenic Mutations	MDS with Ring Sideroblasts	
+Dx2	ZRSR2	Oncogenic Mutations	Myelodysplastic Syndromes	
+Dx3	ASXL1	Oncogenic Mutations	AML with Myelodysplasia-Related Changes	
+Dx3	BCL10	IGH-BCL10 Fusion	Extranodal Marginal Zone Lymphoma of Mucosa-Associated Lymphoid Tissue (MALT lymphoma)	
+Dx3	BCL2	IGH-BCL2 Fusion	Diffuse Large B-Cell Lymphoma, NOS	
+Dx3	BCL6	Fusions	Diffuse Large B-Cell Lymphoma, NOS	
+Dx3	BIRC3	Oncogenic Mutations	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	
+Dx3	BRAF	Oncogenic Mutations	Early T-Cell Precursor Lymphoblastic Leukemia	
+Dx3	BRAF	V600E	Erdheim-Chester Disease	
+Dx3	CARD11	Oncogenic Mutations	Diffuse Large B-Cell Lymphoma, NOS	
+Dx3	CD274	Amplification	Classical Hodgkin Lymphoma	
+Dx3	CD274	Amplification	Primary Mediastinal (Thymic) Large B-Cell Lymphoma	
+Dx3	CD79B	Oncogenic Mutations	Diffuse Large B-Cell Lymphoma, NOS	
+Dx3	CIITA	Fusions	Classical Hodgkin Lymphoma	
+Dx3	CIITA	Fusions	Primary Mediastinal (Thymic) Large B-Cell Lymphoma	
+Dx3	CREBBP	Oncogenic Mutations	Diffuse Large B-Cell Lymphoma, NOS	
+Dx3	CREBBP	Oncogenic Mutations	Follicular Lymphoma	
+Dx3	DNMT3A	Oncogenic Mutations	Angioimmunoblastic T-Cell Lymphoma	
+Dx3	DNMT3A	Oncogenic Mutations	Early T-Cell Precursor Lymphoblastic Leukemia	
+Dx3	ECT2L	Oncogenic Mutations	Early T-Cell Precursor Lymphoblastic Leukemia	
+Dx3	EED	Oncogenic Mutations	Early T-Cell Precursor Lymphoblastic Leukemia	
+Dx3	EP300	Oncogenic Mutations	Early T-Cell Precursor Lymphoblastic Leukemia	
+Dx3	EP300	Oncogenic Mutations	Follicular Lymphoma	
+Dx3	ETV6	Oncogenic Mutations	Early T-Cell Precursor Lymphoblastic Leukemia	
+Dx3	EZH2	Oncogenic Mutations	Diffuse Large B-Cell Lymphoma, NOS	
+Dx3	EZH2	Oncogenic Mutations	Early T-Cell Precursor Lymphoblastic Leukemia	
+Dx3	EZH2	Oncogenic Mutations	Follicular Lymphoma	
+Dx3	FLT3	Oncogenic Mutations	Early T-Cell Precursor Lymphoblastic Leukemia	
+Dx3	FOXP1	IGH-FOXP1 Fusion	Extranodal Marginal Zone Lymphoma of Mucosa-Associated Lymphoid Tissue (MALT lymphoma)	
+Dx3	GATA2	Oncogenic Mutations	Early T-Cell Precursor Lymphoblastic Leukemia	
+Dx3	GATA3	Oncogenic Mutations	Early T-Cell Precursor Lymphoblastic Leukemia	
+Dx3	ID3	Oncogenic Mutations	Burkitt Lymphoma	
+Dx3	IDH1	Oncogenic Mutations	Therapy-Related Myeloid Neoplasms	
+Dx3	IDH2	Oncogenic Mutations	Angioimmunoblastic T-Cell Lymphoma	
+Dx3	IL7R	Oncogenic Mutations	Early T-Cell Precursor Lymphoblastic Leukemia	
+Dx3	IRF4	DUSP22-IRF4 Fusion	Anaplastic Large-Cell Lymphoma ALK Negative	
+Dx3	IRF4	Fusions	Primary Cutaneous DLBCL, Leg Type	
+Dx3	JAK1	Oncogenic Mutations	Early T-Cell Precursor Lymphoblastic Leukemia	
+Dx3	JAK3	Oncogenic Mutations	Early T-Cell Precursor Lymphoblastic Leukemia	
+Dx3	KLF2	Oncogenic Mutations	Splenic Marginal Zone Lymphoma	
+Dx3	KMT2D	Oncogenic Mutations	Diffuse Large B-Cell Lymphoma, NOS	
+Dx3	KMT2D	Oncogenic Mutations	Follicular Lymphoma	
+Dx3	KRAS	Oncogenic Mutations	Early T-Cell Precursor Lymphoblastic Leukemia	
+Dx3	MALT1	BIRC3-MALT1 Fusion	Extranodal Marginal Zone Lymphoma of Mucosa-Associated Lymphoid Tissue (MALT lymphoma)	
+Dx3	MALT1	IGH-MALT1 Fusion	Extranodal Marginal Zone Lymphoma of Mucosa-Associated Lymphoid Tissue (MALT lymphoma)	
+Dx3	MAP2K1	Oncogenic Mutations	Langerhans Cell Histiocytosis	
+Dx3	MEF2B	Oncogenic Mutations	Diffuse Large B-Cell Lymphoma, NOS	
+Dx3	MEF2B	Oncogenic Mutations	Follicular Lymphoma	
+Dx3	MLLT10	PICALM-MLLT10 Fusion	T-Lymphoblastic Leukemia/Lymphoma	
+Dx3	MYC	Fusions	Diffuse Large B-Cell Lymphoma, NOS	
+Dx3	MYD88	L265P	Diffuse Large B-Cell Lymphoma, NOS	
+Dx3	MYD88	L265P	Primary Cutaneous DLBCL, Leg Type	
+Dx3	MYD88	L265P	Primary DLBCL of the central nervous system	
+Dx3	NOTCH1	Oncogenic Mutations	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	
+Dx3	NOTCH2	Oncogenic Mutations	Splenic Marginal Zone Lymphoma	
+Dx3	NRAS	Oncogenic Mutations	Early T-Cell Precursor Lymphoblastic Leukemia	
+Dx3	PDCD1LG2	Amplification	Classical Hodgkin Lymphoma	
+Dx3	PDCD1LG2	Amplification	Primary Mediastinal (Thymic) Large B-Cell Lymphoma	
+Dx3	PHF6	Oncogenic Mutations	Early T-Cell Precursor Lymphoblastic Leukemia	
+Dx3	PTEN	Oncogenic Mutations	T-Lymphoblastic Leukemia/Lymphoma	
+Dx3	RELN	Oncogenic Mutations	Early T-Cell Precursor Lymphoblastic Leukemia	
+Dx3	RHOA	Oncogenic Mutations	Angioimmunoblastic T-Cell Lymphoma	
+Dx3	RUNX1	Oncogenic Mutations	Early T-Cell Precursor Lymphoblastic Leukemia	
+Dx3	SF3B1	Oncogenic Mutations	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	
+Dx3	SH2B3	Oncogenic Mutations	Early T-Cell Precursor Lymphoblastic Leukemia	
+Dx3	SOCS1	Oncogenic Mutations	Diffuse Large B-Cell Lymphoma, NOS	
+Dx3	STAT3	Oncogenic Mutations	T-Cell Large Granular Lymphocytic Leukemia	
+Dx3	STAT5B	Oncogenic Mutations	T-Cell Large Granular Lymphocytic Leukemia	
+Dx3	SUZ12	Oncogenic Mutations	Early T-Cell Precursor Lymphoblastic Leukemia	
+Dx3	TCF3	Oncogenic Mutations	Burkitt Lymphoma	
+Dx3	TET2	Oncogenic Mutations	Angioimmunoblastic T-Cell Lymphoma	
+Dx3	TNFAIP3	Oncogenic Mutations	Follicular Lymphoma	
+Dx3	TNFRSF14	Oncogenic Mutations	Follicular Lymphoma	
+Dx3	TP63	Fusions	Anaplastic Large-Cell Lymphoma ALK Negative	
+Px1	ABL1	BCR-ABL1 Fusion	Acute Leukemias of Ambiguous Lineage	
+Px1	ABL1	BCR-ABL1 Fusion	B-Lymphoblastic Leukemia/Lymphoma	
+Px1	ABL1	Fusions	B-Lymphoblastic Leukemia/Lymphoma, BCR-ABL1 Like	
+Px1	ABL2	Fusions	B-Lymphoblastic Leukemia/Lymphoma, BCR-ABL1 Like	
+Px1	ASXL1	Oncogenic Mutations	Acute Myeloid Leukemia	
+Px1	ASXL1	Oncogenic Mutations	Chronic Myelomonocytic Leukemia	
+Px1	ASXL1	Oncogenic Mutations	Myelodysplastic Syndromes	
+Px1	ASXL1	Oncogenic Mutations	Primary Myelofibrosis	
+Px1	CALR	Oncogenic Mutations	Essential Thrombocythemia	
+Px1	CALR	Oncogenic Mutations	Primary Myelofibrosis	
+Px1	CBFB	CBFB-MYH11 Fusion	Acute Myeloid Leukemia	
+Px1	CBL	Oncogenic Mutations	Myelodysplastic Syndromes	
+Px1	CEBPA	R300G, bZIP Region In-Frame Deletions, bZIP Region In-Frame Insertions	Acute Myeloid Leukemia	
+Px1	CEBPA	R300G, bZIP Region In-Frame Deletions, bZIP Region In-Frame Insertions	AML with Biallelic Mutations of CEBPA	
+Px1	CRLF2	Fusions	B-Lymphoblastic Leukemia/Lymphoma, BCR-ABL1 Like	
+Px1	CSF1R	Fusions	B-Lymphoblastic Leukemia/Lymphoma, BCR-ABL1 Like	
+Px1	DEK	DEK-NUP214 Fusion	Acute Myeloid Leukemia	
+Px1	EPOR	Fusions	B-Lymphoblastic Leukemia/Lymphoma, BCR-ABL1 Like	
+Px1	EZH2	Oncogenic Mutations	Myelodysplastic Syndromes	
+Px1	EZH2	Oncogenic Mutations	Primary Myelofibrosis	
+Px1	FGFR3	IGH-FGFR3 Fusion	Plasma Cell Myeloma	
+Px1	FLT3	Internal Tandem Duplication	Acute Myeloid Leukemia	
+Px1	JAK2	Fusions	B-Lymphoblastic Leukemia/Lymphoma, BCR-ABL1 Like	
+Px1	JAK2	V617F	Primary Myelofibrosis	
+Px1	KIT	Oncogenic Mutations	AML with t(8;21)(q22;q22.1);RUNX1-RUNX1T1	
+Px1	KMT2A	Fusions	Acute Leukemias of Ambiguous Lineage	
+Px1	KMT2A	Fusions	B-Lymphoblastic Leukemia/Lymphoma	
+Px1	NPM1	Oncogenic Mutations	Acute Myeloid Leukemia	
+Px1	NRAS	Oncogenic Mutations	Myelodysplastic Syndromes	
+Px1	NSD2	IGH-NSD2 Fusion	Plasma Cell Myeloma	
+Px1	PDGFRB	Fusions	B-Lymphoblastic Leukemia/Lymphoma, BCR-ABL1 Like	
+Px1	RARA	Fusions	APL with PML-RARA	
+Px1	RUNX1	ETV6-RUNX1 Fusion	B-Lymphoblastic Leukemia/Lymphoma	
+Px1	RUNX1	Oncogenic Mutations	Acute Myeloid Leukemia	
+Px1	RUNX1	Oncogenic Mutations	Myelodysplastic Syndromes	
+Px1	RUNX1	RUNX1-RUNX1T1 Fusion	Acute Myeloid Leukemia	
+Px1	SF3B1	Oncogenic Mutations	MDS/MPN with Ring Sideroblasts and Thrombocytosis	
+Px1	SF3B1	Oncogenic Mutations	Myelodysplastic Syndromes	
+Px1	SRSF2	Oncogenic Mutations	Myelodysplastic Syndromes	
+Px1	SRSF2	Oncogenic Mutations	Primary Myelofibrosis	
+Px1	TP53	Deletion	Plasma Cell Myeloma	
+Px1	TP53	Oncogenic Mutations	Acute Myeloid Leukemia	
+Px1	TP53	Oncogenic Mutations	AML with Myelodysplasia-Related Changes	
+Px1	TP53	Oncogenic Mutations	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	
+Px1	TP53	Oncogenic Mutations	Essential Thrombocythemia	
+Px1	TP53	Oncogenic Mutations	Myelodysplastic Syndromes	
+Px1	TP53	Oncogenic Mutations	Myeloproliferative Neoplasms	
+Px1	TP53	Oncogenic Mutations	Primary Myelofibrosis	
+Px1	TP53	Oncogenic Mutations	Therapy-Related Myeloid Neoplasms	
+Px1	TP63	Fusions	Anaplastic Large-Cell Lymphoma ALK Negative	
+Px2	ASXL1	Oncogenic Mutations	Polycythemia Vera	
+Px2	CCND1	IGH-CCND1 Fusion	Plasma Cell Myeloma	
+Px2	CCND3	IGH-CCND3 Fusion	Plasma Cell Myeloma	
+Px2	EZH2	Oncogenic Mutations	Essential Thrombocythemia	
+Px2	IDH1	Oncogenic Mutations	Primary Myelofibrosis	
+Px2	IDH2	Oncogenic Mutations	Essential Thrombocythemia	
+Px2	IDH2	Oncogenic Mutations	Polycythemia Vera	
+Px2	IDH2	Oncogenic Mutations	Primary Myelofibrosis	
+Px2	MAF	IGH-MAF Fusion	Plasma Cell Myeloma	
+Px2	MAFB	IGH-MAFB Fusion	Plasma Cell Myeloma	
+Px2	MPL	W515K, W515L	Primary Myelofibrosis	
+Px2	SF3B1	Oncogenic Mutations	Essential Thrombocythemia	
+Px2	SH2B3	Oncogenic Mutations	Essential Thrombocythemia	
+Px2	SRSF2	Oncogenic Mutations	Polycythemia Vera	
+Px2	U2AF1	Oncogenic Mutations	Essential Thrombocythemia	
+Px2	WT1	Oncogenic Mutations	Acute Myeloid Leukemia	
+Px3	CXCR4	Oncogenic Mutations	Lymphoplasmacytic Lymphoma	
+Px3	DUSP22	Fusions	Anaplastic Large-Cell Lymphoma ALK Negative	
+Px3	FBXW7	Oncogenic Mutations	T-Lymphoblastic Leukemia/Lymphoma	
+Px3	IKZF1	Deletion	B-Lymphoblastic Leukemia/Lymphoma	
+Px3	MYD88	L265P	Lymphoplasmacytic Lymphoma	
+Px3	NOTCH1	Oncogenic Mutations	T-Lymphoblastic Leukemia/Lymphoma	
+Px3	TP53	Oncogenic Mutations	Mantle Cell Lymphoma	

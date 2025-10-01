@@ -1,0 +1,17 @@
+Patient ID: P-0013935
+Age: 85
+Gender: Male
+Sample ID: P-0013935-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Pleomorphic Carcinoma of the Lung
+Sample Type: Primary
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+MET c.3028G>A (p.D1010N) - in 11.00% of 586 reads
+REL c.1693T>G (p.S565A) - in 6.00% of 939 reads
+STK11 c.904C>T (p.Q302*) - in 5.00% of 959 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+RB1 - RB1 (DELETION)

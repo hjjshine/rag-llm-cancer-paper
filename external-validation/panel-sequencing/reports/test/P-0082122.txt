@@ -1,0 +1,20 @@
+Patient ID: P-0082122
+Age: 62
+Gender: Male
+Sample ID: P-0082122-T01-IM7
+Gene Panel: IMPACT505
+Cancer Type: Non-Small Cell Lung Cancer
+Sample Type: Primary
+Tumor Purity: Unknown
+=============
+DNA Variants:
+DICER1 c.2807A>T (p.Y936F) - in 29.00% of 35 reads
+EGFR c.2235_2249del (p.E746_A750del) - in 70.00% of 501 reads
+HLA-B c.166C>T (p.Q56*) - in 21.00% of 225 reads
+PIK3C2G c.3879A>T (p.E1293D) - in 79.00% of 42 reads
+ROS1 c.2921C>T (p.A974V) - in 44.00% of 85 reads
+TP53 c.641A>G (p.H214R) - in 86.00% of 249 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

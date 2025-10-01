@@ -1,0 +1,37 @@
+Patient ID: P-0058090
+Age: 58
+Gender: Male
+Sample ID: P-0058090-T02-IM7
+Gene Panel: IMPACT505
+Cancer Type: Non-Small Cell Lung Cancer
+Sample Type: Metastasis
+Tumor Purity: 70.0%
+=============
+DNA Variants:
+ARID1A c.1612C>T (p.Q538*) - in 31.00% of 1002 reads
+EGFR c.2573T>G (p.L858R) - in 12.00% of 5515 reads
+KMT2C c.12905C>T (p.P4302L) - in 33.00% of 848 reads
+NEGR1 c.344C>T (p.P115L) - in 16.00% of 648 reads
+PTPRT c.998C>T (p.T333M) - in 18.00% of 1006 reads
+RBM10 c.1990C>T (p.Q664*) - in 89.00% of 846 reads
+TBX3 c.1339C>T (p.R447C) - in 12.00% of 858 reads
+TP53 c.833C>G (p.P278R) - in 77.00% of 768 reads
+CNA Data:
+ETV1 - High Level Amplification
+EGFR - High Level Amplification
+CDKN2B - Homozygous Deletion
+CDKN2A - Homozygous Deletion
+RAC1 - High Level Amplification
+CDKN2Ap14ARF - Homozygous Deletion
+CARD11 - High Level Amplification
+INHBA - High Level Amplification
+NKX2-1 - High Level Amplification
+PMS2 - High Level Amplification
+IKZF1 - High Level Amplification
+DUSP4 - Homozygous Deletion
+BCOR - Homozygous Deletion
+NKX3-1 - Homozygous Deletion
+CDKN2Ap16INK4A - Homozygous Deletion
+MTAP - Homozygous Deletion
+Structural Variants:
+RET - nan (INVERSION)

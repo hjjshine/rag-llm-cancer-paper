@@ -33,13 +33,14 @@ def retry_with_exponential_backoff(
     return wrapper
 
 @retry_with_exponential_backoff
-def chat_completions_with_backoff(CLIENT, **kwargs):
-    return CLIENT.chat.completions.create(**kwargs)
+def chat_completions_with_backoff(client, **kwargs):
+    return client.chat.completions.create(**kwargs)
+
 
 # LLM inference
 def run_llm(
     input_prompt,
-    CLIENT, 
+    client, 
     model_type, 
     model, 
     max_len, 
@@ -51,7 +52,7 @@ def run_llm(
     
     Arguments:
         input_prompt (str): Input prompt with user-specified query and context if applicable.
-        CLIENT (object): Initialized LLM API client.
+        client (object): Initialized LLM API client.
         model_type (str): One of ['mistral','mistral-7b','gpt','gpt_reasoning'].
         model (str): API name (e.g. ministral-8b-2410, open-mistral-nemo-2407, gpt-4o-2024-05-13).
         max_len (int): Maximum number of output tokens generated. If using a reasoning model, it's the maximum number of reasoning + output tokens.
@@ -66,7 +67,7 @@ def run_llm(
 
     try:
         if model_type == 'mistral':    
-            completion = CLIENT.chat(
+            completion = client.chat(
                 model=model,
                 messages=[ChatMessage(role="user", content=input_prompt)],
                 temperature=temp,
@@ -94,7 +95,7 @@ def run_llm(
             
             try:
                 # completion = CLIENT.chat.completions.create(**params)
-                completion = chat_completions_with_backoff(CLIENT, **params)
+                completion = chat_completions_with_backoff(client, **params)
                 output = completion.choices[0].message.content
                 
             except Exception as e:

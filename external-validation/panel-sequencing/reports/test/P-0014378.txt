@@ -1,0 +1,19 @@
+Patient ID: P-0014378
+Age: 66
+Gender: Female
+Sample ID: P-0014378-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Breast Invasive Carcinoma, NOS
+Sample Type: Metastasis
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+AKT1 c.49G>A (p.E17K) - in 43.00% of 880 reads
+ASXL1 c.2338C>T (p.Q780*) - in 20.00% of 835 reads
+CBFB c.165+1G>A (p.X55_splice) - in 61.00% of 357 reads
+GATA3 c.1060delC (p.L354*) - in 22.00% of 537 reads
+SOX17 c.807_808delinsAT (p.M270L) - in 45.00% of 584 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

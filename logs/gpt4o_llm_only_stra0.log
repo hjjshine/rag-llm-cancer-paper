@@ -1,0 +1,13 @@
+CSV path: data/moa_fda_queries_answers.csv
+Model type: gpt
+Model API endpoint: gpt-4o-2024-05-13
+Prompt strategy: 0
+Number of iterations: 5
+Random seed: 2025
+Temperature: 0.0
+Output name: output/LLM_res_gpt4o
+Time elapsed for iteration 0: 14.8667 min
+Time elapsed for iteration 1: 16.6302 min
+Time elapsed for iteration 2: 16.0053 min
+Time elapsed for iteration 3: 15.4953 min
+Time elapsed for iteration 4: 16.3282 min

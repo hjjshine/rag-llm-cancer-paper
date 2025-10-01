@@ -1,0 +1,16 @@
+Patient ID: P-0075921
+Age: 66
+Gender: Female
+Sample ID: P-0075921-T01-IM7
+Gene Panel: IMPACT505
+Cancer Type: Breast Invasive Lobular Carcinoma
+Sample Type: Metastasis
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+CDH1 c.1590_1593del (p.N531Gfs*25) - in 8.00% of 656 reads
+TP53 c.406C>T (p.Q136*) - in 5.00% of 823 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

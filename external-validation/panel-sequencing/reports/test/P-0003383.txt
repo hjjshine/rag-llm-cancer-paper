@@ -1,0 +1,15 @@
+Patient ID: P-0003383
+Age: 67
+Gender: Male
+Sample ID: P-0003383-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+ZFHX3 c.1342G>A (p.D448N) - in 5.00% of 1290 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+ALK - EML4 (INVERSION)

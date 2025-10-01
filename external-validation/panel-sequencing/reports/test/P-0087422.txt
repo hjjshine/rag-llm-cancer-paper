@@ -1,0 +1,21 @@
+Patient ID: P-0087422
+Age: 89
+Gender: Female
+Sample ID: P-0087422-T01-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 15.0%
+=============
+DNA Variants:
+DICER1 c.1504del (p.E502Kfs*21) - in 7.00% of 485 reads
+ERCC4 c.1180G>A (p.E394K) - in 7.00% of 600 reads
+NOTCH3 c.1886G>A (p.C629Y) - in 8.00% of 553 reads
+TAP1 c.503C>T (p.P168L) - in 9.00% of 511 reads
+CNA Data:
+RECQL4 - High Level Amplification
+MYC - High Level Amplification
+RAD21 - High Level Amplification
+AGO2 - High Level Amplification
+Structural Variants:
+EML4 - ALK (INVERSION)

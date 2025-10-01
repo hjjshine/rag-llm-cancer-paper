@@ -1,0 +1,19 @@
+Patient ID: P-0002531
+Age: 66
+Gender: Female
+Sample ID: P-0002531-T01-IM3
+Gene Panel: IMPACT341
+Cancer Type: Breast Invasive Ductal Carcinoma
+Sample Type: Metastasis
+Tumor Purity: Unknown
+=============
+DNA Variants:
+PIK3CA c.3140A>G (p.H1047R) - in 15.00% of 783 reads
+CNA Data:
+CCND1 - High Level Amplification
+PAK1 - High Level Amplification
+FGF4 - High Level Amplification
+FGF3 - High Level Amplification
+FGF19 - High Level Amplification
+Structural Variants:
+No structural variant data found.

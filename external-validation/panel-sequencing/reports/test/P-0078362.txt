@@ -1,0 +1,21 @@
+Patient ID: P-0078362
+Age: 50
+Gender: Male
+Sample ID: P-0078362-T02-IM7
+Gene Panel: IMPACT505
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+APLNR c.697C>T (p.R233C) - in 10.00% of 428 reads
+EGFR c.2240_2257del (p.L747_P753delinsS) - in 16.00% of 468 reads
+MPL c.13G>A (p.A5T) - in 10.00% of 490 reads
+SDHA c.796_798del (p.C266del) - in 6.00% of 410 reads
+TP53 c.404G>A (p.C135Y) - in 16.00% of 426 reads
+CNA Data:
+FOXA1 - High Level Amplification
+NKX2-1 - High Level Amplification
+NFKBIA - High Level Amplification
+Structural Variants:
+No structural variant data found.

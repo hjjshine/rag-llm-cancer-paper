@@ -1,0 +1,17 @@
+Patient ID: P-0011280
+Age: 83
+Gender: Female
+Sample ID: P-0011280-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Breast Invasive Ductal Carcinoma
+Sample Type: Metastasis
+Tumor Purity: 10.0%
+=============
+DNA Variants:
+EP300 c.1889A>G (p.Y630C) - in 16.00% of 485 reads
+MAP3K1 c.2370-26_2370delinsCCTGA (p.X790_splice) - in 13.00% of 358 reads
+PIK3CA c.1633G>A (p.E545K) - in 16.00% of 187 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

@@ -1,0 +1,15 @@
+Patient ID: P-0010863
+Age: 87
+Gender: Male
+Sample ID: P-0010863-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Poorly Differentiated Non-Small Cell Lung Cancer
+Sample Type: Metastasis
+Tumor Purity: 40.0%
+=============
+DNA Variants:
+MET c.3028+1G>A (p.X1010_splice) - in 69.00% of 2470 reads
+CNA Data:
+MET - High Level Amplification
+Structural Variants:
+No structural variant data found.

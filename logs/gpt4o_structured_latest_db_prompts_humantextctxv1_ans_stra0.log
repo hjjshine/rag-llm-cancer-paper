@@ -1,0 +1,20 @@
+CSV path: data/latest_db/moalmanac_prompts_subset.csv
+Model API endpoint: gpt-4o-2024-05-13
+Prompt strategy: 0
+Number of iterations: 1
+Random seed: 2025
+Temperature: 0.0
+Output name: output/RAG_res_gpt4o/structured_latest_db_prompts_humantextctxv1
+Performing RAG retrieval for all prompts...
+Prepared 64 prompts for batch processing.
+Uploading file to OpenAI...
+Creating batch job...
+Batch job created with ID: batch_68c06d02ffc08190a4050d97558d64a0
+Waiting for batch job to complete...
+Current batch job status: validating
+Current batch job status: in_progress
+Current batch job status: in_progress
+Current batch job status: finalizing
+Current batch job status: completed
+Batch job completed successfully. Retrieving results...
+Time elapsed for iteration 0: 5.4514 min

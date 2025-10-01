@@ -1,0 +1,27 @@
+Patient ID: P-0000495
+Age: 49
+Gender: Female
+Sample ID: P-0000495-T01-IM3
+Gene Panel: IMPACT341
+Cancer Type: Breast Invasive Ductal Carcinoma
+Sample Type: Metastasis
+Tumor Purity: 30.0%
+=============
+DNA Variants:
+AXL c.2557A>T (p.S853C) - in 9.00% of 633 reads
+BRCA1 c.4705A>G (p.S1569G) - in 8.00% of 471 reads
+FOXL2 c.458T>C (p.F153S) - in 9.00% of 175 reads
+IKZF1 c.277A>C (p.N93H) - in 7.00% of 512 reads
+NOTCH1 c.5734G>A (p.D1912N) - in 6.00% of 673 reads
+PIK3CA c.3140A>G (p.H1047R) - in 45.00% of 776 reads
+PTPRS c.4381T>A (p.Y1461N) - in 17.00% of 507 reads
+RICTOR c.1441G>A (p.E481K) - in 11.00% of 870 reads
+TP53 c.949delC (p.Q317Sfs*28) - in 29.00% of 421 reads
+U2AF1 c.508A>T (p.N170Y) - in 12.00% of 556 reads
+CNA Data:
+AXIN2 - High Level Amplification
+AURKA - High Level Amplification
+FOXA1 - High Level Amplification
+GNAS - High Level Amplification
+Structural Variants:
+No structural variant data found.

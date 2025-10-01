@@ -1,0 +1,26 @@
+Patient ID: P-0010267
+Age: 74
+Gender: Female
+Sample ID: P-0010267-T01-IM5
+Gene Panel: IMPACT410
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 60.0%
+=============
+DNA Variants:
+EGFR c.2573T>G (p.L858R) - in 19.00% of 1303 reads
+HIST1H2BD c.299G>T (p.R100L) - in 14.00% of 84 reads
+NCOA3 c.3334G>T (p.G1112*) - in 41.00% of 1587 reads
+NOTCH2 c.6308C>G (p.S2103C) - in 13.00% of 933 reads
+PIK3CA c.385G>C (p.D129H) - in 10.00% of 870 reads
+TMEM127 c.692A>T (p.Q231L) - in 19.00% of 1651 reads
+TP53 c.646G>A (p.V216M) - in 27.00% of 929 reads
+CNA Data:
+ERBB2 - High Level Amplification
+CDK12 - High Level Amplification
+CDKN2B - Homozygous Deletion
+CDKN2A - Homozygous Deletion
+CDKN2Ap14ARF - Homozygous Deletion
+CDKN2Ap16INK4A - Homozygous Deletion
+Structural Variants:
+No structural variant data found.

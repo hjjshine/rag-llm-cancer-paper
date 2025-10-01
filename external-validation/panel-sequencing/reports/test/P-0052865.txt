@@ -1,0 +1,18 @@
+Patient ID: P-0052865
+Age: 69
+Gender: Female
+Sample ID: P-0052865-T03-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Primary
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+AKT1 c.49G>A (p.E17K) - in 11.00% of 697 reads
+BRAF c.1799T>A (p.V600E) - in 6.00% of 409 reads
+SETD2 c.4686G>T (p.W1562C) - in 7.00% of 471 reads
+SMAD4 c.903C>G (p.Y301*) - in 6.00% of 411 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+No structural variant data found.

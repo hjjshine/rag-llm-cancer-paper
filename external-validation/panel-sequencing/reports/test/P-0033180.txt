@@ -1,0 +1,20 @@
+Patient ID: P-0033180
+Age: 86
+Gender: Male
+Sample ID: P-0033180-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Lung Adenocarcinoma
+Sample Type: Metastasis
+Tumor Purity: 10.0%
+=============
+DNA Variants:
+ASXL2 c.156_172delinsAA (p.L53_A58delinsT) - in 12.00% of 403 reads
+HIST1H3A c.7C>T (p.R3C) - in 15.00% of 246 reads
+NCOR1 c.424G>A (p.D142N) - in 17.00% of 267 reads
+NOTCH1 c.5463G>C (p.K1821N) - in 18.00% of 690 reads
+U2AF1 c.101C>T (p.S34F) - in 28.00% of 330 reads
+CNA Data:
+No CNA data found.
+Structural Variants:
+ALK - nan (INVERSION)
+EML4 - ALK (nan)

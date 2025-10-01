@@ -1,0 +1,25 @@
+Patient ID: P-0052263
+Age: 56
+Gender: Female
+Sample ID: P-0052263-T01-IM6
+Gene Panel: IMPACT468
+Cancer Type: Breast Invasive Ductal Carcinoma
+Sample Type: Metastasis
+Tumor Purity: 20.0%
+=============
+DNA Variants:
+ARAF c.138C>A (p.D46E) - in 11.00% of 739 reads
+CDK12 c.3979G>C (p.E1327Q) - in 18.00% of 616 reads
+HIST1H1C c.157G>C (p.E53Q) - in 14.00% of 345 reads
+JAK2 c.1429C>G (p.L477V) - in 5.00% of 239 reads
+NBN c.1471G>C (p.E491Q) - in 6.00% of 277 reads
+NSD1 c.7690G>C (p.E2564Q) - in 7.00% of 564 reads
+PIK3CA c.3140A>G (p.H1047R) - in 11.00% of 311 reads
+PTPRT c.3982G>A (p.D1328N) - in 8.00% of 933 reads
+SH2B3 c.504G>T (p.E168D) - in 8.00% of 330 reads
+SHOC2 c.59C>T (p.S20L) - in 6.00% of 347 reads
+TP53 c.721T>C (p.S241P) - in 23.00% of 599 reads
+CNA Data:
+FAM175A - High Level Amplification
+Structural Variants:
+No structural variant data found.
