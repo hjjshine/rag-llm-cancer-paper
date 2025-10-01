@@ -104,8 +104,7 @@ def run_RAG(i, entry, model_cfg, retrieval_cfg) -> Tuple[Optional[str], str]:
                 )
         retrieved_chunk = retrieved_results.top_contexts
             
-        if i == 0:
-            retrieval_results_dict['retrieval_params']=retrieved_results.params
+        retrieval_results_dict['retrieval_params']=retrieved_results.params
         
         retrieval_results_dict['retrieval_results'].append({
             'query_idx': user_query_idx, 
@@ -245,7 +244,7 @@ def main(args):
     # Load db and query entities
     _DB_ENTITY, _QUERY_ENTITY = load_entities(
         version=_VERSION, 
-        mode='test_realworld', 
+        mode='test_synthetic', 
         db=args.context_db,
         query=None)
     
