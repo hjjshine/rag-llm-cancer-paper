@@ -72,7 +72,7 @@ pending_model_api = default_api
 
 pending_strategy = st.sidebar.selectbox(
     "Prompt strategy",
-    [0, 1, 2, 3, 4, 5],
+    [0, 1, 2, 3, 4, 5, 6, 7],
     index=st.session_state.applied["strategy"],
     help="Prompt strategy. See [prompt.py](https://github.com/hjjshine/rag-llm-cancer-paper/blob/main/utils/prompt.py) for details.",
 )
