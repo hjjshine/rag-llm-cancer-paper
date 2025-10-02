@@ -11,6 +11,9 @@ from types import SimpleNamespace
 from utils.embedding import index_context_db
 from utils.prompt import get_prompt
 from llm.run_RAGLLM import run_RAG
+from utils.check_db_version import get_local_version
+from utils.context_db import load_context
+from context_retriever.entity_prediction import load_entities
 
 # ================== MODEL & API IMPORTS ==================
 from openai import OpenAI
@@ -26,14 +29,23 @@ _MODEL_TYPE = "gpt"
 _MODEL_NAME = None
 _MODEL_EMBED = "text-embedding-3-small"
 
+# Hybrid
+_DB_ENTITY = None
+_ENTITY_DB = "fda"
+_ENTITY_VERSION = None
+
 
 def reset():
     global _READY, _CLIENT, _CONTEXT, _INDEX, _MODEL_TYPE, _MODEL_NAME, _MODEL_EMBED
+    global _DB_ENTITY, _ENTITY_DB, _ENTITY_VERSION
     _READY = False
     _CLIENT = None
     _CONTEXT = None
     _INDEX = None
     _MODEL_NAME = None
+    _DB_ENTITY = None
+    _ENTITY_DB = "fda"
+    _ENTITY_VERSION = None
 
 
 def _cache_paths(embed_name: str, version: str = "v1"):
@@ -92,7 +104,10 @@ def _normalize_model_output(raw_output):
       - Otherwise the original raw_output
     """
     # Strategy 4 explicit sentence
-    if isinstance(raw_output, str) and "There are no FDA-approved drugs for the provided context" in raw_output:
+    if (
+        isinstance(raw_output, str)
+        and "There are no FDA-approved drugs for the provided context" in raw_output
+    ):
         return "There are no FDA-approved drugs for the provided context."
 
     obj = _safe_json_load(raw_output)
@@ -118,15 +133,19 @@ def _normalize_model_output(raw_output):
 
 
 def init(
-    context_json_path: str = "data/structured_context_chunks.json",
-    model_api: str = "gpt-4o-2024-05-13",
     *,
-    force_rebuild: bool = False,
+    model_api: str = "gpt-4o-2024-05-13",
+    use_hybrid: bool = True,
+    entity_db: str = "fda",
+    db_type: str = "structured",
 ):
     """
-    Initializes OpenAI client, loads (or builds) the FAISS index ONCE per process.
+    Initialize client, load version-matched context & FAISS via load_context,
+    and (optionally) load corpus-side entity annotations for hybrid search.
     """
     global _READY, _CLIENT, _CONTEXT, _INDEX, _MODEL_NAME, _MODEL_EMBED
+    global _DB_ENTITY, _ENTITY_DB, _ENTITY_VERSION
+
     if _READY:
         return
 
@@ -137,20 +156,25 @@ def init(
     _CLIENT = OpenAI(api_key=api_key)
     _MODEL_NAME = model_api
 
-    index_path, ctx_path = _cache_paths(_MODEL_EMBED)
+    version = get_local_version()
+    _ENTITY_VERSION = version
+    _ENTITY_DB = entity_db
 
-    # Always prefer cached index if present; only build once
-    if (not force_rebuild) and os.path.exists(index_path) and os.path.exists(ctx_path):
-        with open(ctx_path, "r") as f:
-            _CONTEXT = json.load(f)
-        _INDEX = faiss.read_index(index_path)
-    else:
-        with open(context_json_path, "r") as f:
-            _CONTEXT = json.load(f)
-        _INDEX = index_context_db(_CONTEXT, _CLIENT, _MODEL_EMBED)
-        faiss.write_index(_INDEX, index_path)
-        with open(ctx_path, "w") as f:
-            json.dump(_CONTEXT, f)
+    # Load context + FAISS from the versioned pipeline only
+    _CONTEXT, _INDEX = load_context(
+        version=_ENTITY_VERSION,
+        db=_ENTITY_DB,
+        db_type=db_type,
+    )
+
+    if use_hybrid:
+        # Load only the corpus-side annotations; query entities are computed per request in answer function (mode='deploy')
+        _DB_ENTITY, _ = load_entities(
+            version=_ENTITY_VERSION,
+            mode="test_synthetic",  # reads db entities file; query side ignored
+            db=_ENTITY_DB,
+            query=None,
+        )
 
     _READY = True
 
@@ -164,9 +188,11 @@ def answer(
     random_seed: int = 2025,
     *,
     rag: bool = True,
+    hybrid_search: bool = False,
 ) -> str:
     if not _READY:
         raise RuntimeError("Call init(...) first.")
+
     if rag:
         entry = SimpleNamespace(Index=0, prompt=text)
 
@@ -180,21 +206,62 @@ def answer(
             random_seed=random_seed,
         )
 
+        # Build retrieval config depending on hybrid flag
+        db_entity = None
+        query_entity = None
+        use_hybrid = bool(hybrid_search)
+
+        if use_hybrid:
+            # require corpus-side entities to be loaded at init
+            if _DB_ENTITY is None:
+                raise RuntimeError(
+                    "Hybrid search requested, but DB entities are not loaded. "
+                    "Call init(..., use_hybrid=True, entity_db='<fda|ema|civic>') first."
+                )
+
+            # on-demand query-side entities for this question
+            try:
+                _, qe = load_entities(
+                    version=_ENTITY_VERSION,
+                    mode="deploy",
+                    db=_ENTITY_DB,
+                    query=text,
+                )
+                if isinstance(qe, dict) and 0 in qe:
+                    query_entity = qe
+                elif isinstance(qe, dict):
+                    query_entity = {0: qe}
+                else:
+                    query_entity = None
+            except Exception as e:
+                raise RuntimeError(f"Hybrid search entity extraction failed: {e}")
+
+            if not (query_entity and query_entity.get(0)):
+                raise RuntimeError(
+                    "Hybrid search could not extract entities from the query. "
+                    "Please rephrase with a cancer type and biomarker (e.g., 'EGFR exon 19 deletion in NSCLC')."
+                )
+
+            db_entity = _DB_ENTITY  # safe now
+
         retrieval_cfg = SimpleNamespace(
             strategy=strategy,
             context_chunks=_CONTEXT,
-            hybrid_search=False,
-            db_entity=None,
-            query_entity=None,
+            hybrid_search=use_hybrid,
+            db_entity=db_entity,
+            query_entity=query_entity,
             index=_INDEX,
             num_vec=num_vec,
         )
 
         out, _, _ = run_RAG(0, entry, model_cfg, retrieval_cfg)
+
     else:
         # LLM-only path (no retrieval)
         input_prompt = get_prompt(strategy, text)
-        out, _ = run_llm(input_prompt, _CLIENT, _MODEL_TYPE, _MODEL_NAME, max_len, temp, random_seed)
+        out, _ = run_llm(
+            input_prompt, _CLIENT, _MODEL_TYPE, _MODEL_NAME, max_len, temp, random_seed
+        )
+
     normalized = _normalize_model_output(out)
     return normalized or ""
-
