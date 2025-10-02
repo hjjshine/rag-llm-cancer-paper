@@ -75,19 +75,18 @@ if pending_run_mode == "RAG-LLM":
     pending_hybrid = st.sidebar.checkbox(
         "Hybrid search",
         value=st.session_state.applied.get("hybrid_search", False),
+        help="Improves retrieval by combining semantic similarity (embedding search) with explicit entity matching (cancer type and biomarker). Helps prioritize the most precise results for your query.",
     )
 else:
     pending_hybrid = False  # force OFF when not in RAG-LLM
 
 # Context DB option only if Hybrid is ON
-if pending_hybrid:
+if pending_run_mode == "RAG-LLM":
     pending_entity_db = st.sidebar.selectbox(
         "Context database",
-        ["fda", "ema", "civic"],
-        index=["fda", "ema", "civic"].index(
-            st.session_state.applied.get("entity_db", "fda")
-        ),
-        help="Corpus annotations used for hybrid search.",
+        ["fda", "ema"],
+        index=["fda", "ema"].index(st.session_state.applied.get("entity_db", "fda")),
+        help="The knowledge base of approved therapies and biomarker–cancer associations (from FDA or EMA). This is the source of evidence that the model retrieves from.",
     )
 else:
     pending_entity_db = st.session_state.applied.get("entity_db", "fda")
