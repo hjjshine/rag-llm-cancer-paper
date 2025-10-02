@@ -231,7 +231,7 @@ def main(args):
         raise ValueError("Invalid model_type. Please choose from: mistral-7b, mistral, gpt")
     
     # Check db latest version and load version
-    sync_db()
+    sync_db(org=args.context_db)
     _VERSION = get_local_version()
     
     # Load context db
@@ -244,7 +244,7 @@ def main(args):
     # Load db and query entities
     _DB_ENTITY, _QUERY_ENTITY = load_entities(
         version=_VERSION, 
-        mode='test_synthetic', 
+        mode='test_realworld', 
         db=args.context_db,
         query=None)
     
@@ -269,7 +269,7 @@ def main(args):
         db_entity=_DB_ENTITY,
         query_entity=_QUERY_ENTITY,
         index=_INDEX,
-        num_vec=25
+        num_vec=25 #25 (final) vs. 10 (previous)
     )
 
     runner = PipelineRunner(model_cfg, retrieval_cfg)

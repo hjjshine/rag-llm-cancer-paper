@@ -23,13 +23,13 @@ def save_local_version(version):
     with open(CACHE_FILE, "w") as f:
         json.dump({"version": version}, f)
 
-def sync_db():
+def sync_db(org):
     remote = get_remote_version()
     local = get_local_version()
     remote_dt = datetime.strptime(remote, "%Y-%m-%d")
     local_dt = datetime.strptime(local, "%Y-%m-%d")
     if remote_dt > local_dt:
-        update_db_files(remote)
+        update_db_files(version=remote, organizations=[org])
         save_local_version(remote)
     elif remote_dt == local_dt:
         print(f"DB is already up to date (version={local})")
