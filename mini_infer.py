@@ -8,7 +8,6 @@ from dotenv import load_dotenv
 from types import SimpleNamespace
 
 # ================== UTIL FUNCTIONS ==================
-from utils.embedding import index_context_db
 from utils.prompt import get_prompt
 from llm.run_RAGLLM import run_RAG
 from utils.check_db_version import get_local_version
@@ -18,7 +17,6 @@ from context_retriever.entity_prediction import load_entities
 # ================== MODEL & API IMPORTS ==================
 from openai import OpenAI
 from llm.inference import run_llm
-import faiss
 
 # --- module state ---
 _READY = False
@@ -46,14 +44,6 @@ def reset():
     _DB_ENTITY = None
     _ENTITY_DB = "fda"
     _ENTITY_VERSION = None
-
-
-def _cache_paths(embed_name: str, version: str = "v1"):
-    os.makedirs("indexes", exist_ok=True)
-    return (
-        f"indexes/{embed_name}__{version}.faiss",
-        f"indexes/{embed_name}__{version}.context.json",
-    )
 
 
 def _extract_json_blob(text: str) -> str:
