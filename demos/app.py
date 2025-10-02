@@ -48,7 +48,10 @@ if "applied" not in st.session_state:
         "initialized": False,
         "temperature": 0,
         "max_len": 2048,
+        "hybrid_search": False,
+        "entity_db": "fda",
     }
+
 
 if "last_answer" not in st.session_state:
     st.session_state.last_answer = None
@@ -60,11 +63,35 @@ if "last_answer_stale" not in st.session_state:
 # ---------- Sidebar (Apply always required) ----------
 st.sidebar.header("Model settings")
 
+# Run mode first
 pending_run_mode = st.sidebar.radio(
     "Run mode",
     ["RAG-LLM", "LLM only"],
     index=0 if st.session_state.applied["run_mode"] == "RAG-LLM" else 1,
 )
+
+# Hybrid option is only available for RAG-LLM
+if pending_run_mode == "RAG-LLM":
+    pending_hybrid = st.sidebar.checkbox(
+        "Hybrid search",
+        value=st.session_state.applied.get("hybrid_search", False),
+    )
+else:
+    pending_hybrid = False  # force OFF when not in RAG-LLM
+
+# Context DB option only if Hybrid is ON
+if pending_hybrid:
+    pending_entity_db = st.sidebar.selectbox(
+        "Context database",
+        ["fda", "ema", "civic"],
+        index=["fda", "ema", "civic"].index(
+            st.session_state.applied.get("entity_db", "fda")
+        ),
+        help="Corpus annotations used for hybrid search.",
+    )
+else:
+    pending_entity_db = st.session_state.applied.get("entity_db", "fda")
+
 
 # Hard-set the model API (no user selection)
 default_api = "gpt-4o-2024-08-06"
@@ -102,6 +129,8 @@ dirty = (
     or (st.session_state.applied["strategy"] != pending_strategy)
     or (st.session_state.applied["temperature"] != pending_temperature)
     or (st.session_state.applied["max_len"] != pending_max_len)
+    or (st.session_state.applied["hybrid_search"] != pending_hybrid)
+    or (st.session_state.applied["entity_db"] != pending_entity_db)
     or (not st.session_state.applied["initialized"])
 )
 
@@ -118,8 +147,9 @@ if apply_clicked:
     reset()
     with st.spinner("Initializing…"):
         init(
-            context_json_path="data/structured_context_chunks.json",
             model_api=pending_model_api,
+            use_hybrid=pending_hybrid,
+            entity_db=pending_entity_db,
         )
     st.session_state.applied.update(
         {
@@ -129,6 +159,8 @@ if apply_clicked:
             "initialized": True,
             "temperature": pending_temperature,
             "max_len": pending_max_len,
+            "hybrid_search": pending_hybrid,
+            "entity_db": pending_entity_db,
         }
     )
     st.sidebar.success("Settings applied.")
@@ -158,23 +190,30 @@ if ask_clicked:
         st.warning("You changed settings. Click **Apply Settings** to use them.")
     elif q.strip():
         with st.spinner("Thinking…"):
-            ans = answer(
-                q,
-                strategy=st.session_state.applied["strategy"],
-                rag=(st.session_state.applied["run_mode"] == "RAG-LLM"),
-                temp=st.session_state.applied["temperature"],
-                max_len=st.session_state.applied["max_len"],
-            )
-        st.session_state.last_answer = ans
-        st.session_state.last_answer_meta = {
-            "model_api": st.session_state.applied["model_api"],
-            "run_mode": st.session_state.applied["run_mode"],
-            "strategy": st.session_state.applied["strategy"],
-            "temperature": st.session_state.applied["temperature"],
-            "max_len": st.session_state.applied["max_len"],
-            "ts": time.strftime("%Y-%m-%d %H:%M:%S"),
-        }
-        st.session_state.last_answer_stale = False
+            try:
+                ans = answer(
+                    q,
+                    strategy=st.session_state.applied["strategy"],
+                    rag=(st.session_state.applied["run_mode"] == "RAG-LLM"),
+                    temp=st.session_state.applied["temperature"],
+                    max_len=st.session_state.applied["max_len"],
+                    hybrid_search=st.session_state.applied["hybrid_search"],
+                )
+                st.session_state.last_answer = ans
+                st.session_state.last_answer_meta = {
+                    "model_api": st.session_state.applied["model_api"],
+                    "run_mode": st.session_state.applied["run_mode"],
+                    "strategy": st.session_state.applied["strategy"],
+                    "temperature": st.session_state.applied["temperature"],
+                    "max_len": st.session_state.applied["max_len"],
+                    "ts": time.strftime("%Y-%m-%d %H:%M:%S"),
+                    "hybrid": st.session_state.applied["hybrid_search"],
+                    "entity_db": st.session_state.applied["entity_db"],
+                }
+                st.session_state.last_answer_stale = False
+            except Exception as e:
+                st.error(str(e))
+                st.stop()
 
 
 # ---------- Results renderer ----------
@@ -245,7 +284,9 @@ if st.session_state.last_answer:
                     f"Model API: {meta.get('model_api','')} • "
                     f"Prompt strategy: {meta.get('strategy','')} • "
                     f"Temp: {meta.get('temperature','')} • "
-                    f"Max tokens: {meta.get('max_len','')}"
+                    f"Max tokens: {meta.get('max_len','')} • "
+                    f"Hybrid search: {meta.get('hybrid','')} • "
+                    f"Context DB: {meta.get('entity_db','')}"
                 )
 
             render_cards_numbered(st.session_state.last_answer)
@@ -259,6 +300,8 @@ if st.session_state.last_answer:
                 f"Model API: {meta.get('model_api','')} • "
                 f"Prompt strategy: {meta.get('strategy','')} • "
                 f"Temp: {meta.get('temperature','')} • "
-                f"Max tokens: {meta.get('max_len','')}"
+                f"Max tokens: {meta.get('max_len','')} • "
+                f"Hybrid search: {meta.get('hybrid','')} • "
+                f"Context DB: {meta.get('entity_db','')}"
             )
         render_cards_numbered(st.session_state.last_answer)
