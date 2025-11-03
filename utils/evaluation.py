@@ -13,7 +13,7 @@ import colorcet as cc
 
 
 # Load brand-generic name mapping
-drug_names_mapping_dict=load_object(filename=os.path.join(root_dir,'data/fda_drug_names_mapping_dict.pkl'))
+drug_names_mapping_dict=load_object(filename=os.path.join(root_dir,'data/latest_db/fda_drug_names_mapping_dict__2025-10-03.pkl'))
 
 # Load query-groundtruth drug mapping
 all_generic_names_set=load_object(os.path.join(root_dir,"data/latest_db/all_generic_drugs.pkl"))
@@ -74,6 +74,13 @@ def is_no_drug_output(output: str) -> bool:
     return any(phrase in output.lower() for phrase in no_drug_phrases)
 
 
+def drug_match(drug_a: str, drug_b: str) -> bool:
+    a, b = drug_a.lower(), drug_b.lower()
+    if not a or not b:
+        return False
+    return a in b or b in a
+
+
 # Function to evaluate predicted drugs from synthetic queries
 def calc_eval_metrics(
     output_test_ls: list[str], 
@@ -103,7 +110,7 @@ def calc_eval_metrics(
         if any(is_no_drug_output(drug) for drug in drug_lines):
             pred_drugs_names_set = set()
         else:
-            pred_drugs_names_set = extract_drug_names(drug_lines) # Create a set of predicted individual drugs
+            pred_drugs_names_set = extract_drug_names(drug_lines)
         
         # Convert brand names to generic names if there are matching brand names, otherwise just append
         pred_drugs_generic_list=[]
@@ -138,10 +145,26 @@ def calc_eval_metrics(
         if len(true_drugs_generic_set) != 0:
             
             # Compute exact match accuracy (if all true drugs are in the predicted drug output)
-            exact_match_acc.append(all(subset in pred_drugs_generic_set for subset in true_drugs_generic_set))
+            # exact_match_acc.append(all(subset in pred_drugs_generic_set for subset in true_drugs_generic_set))
+            exact_match_acc.append(
+                all(
+                    any(
+                        all(any(drug_match(true_d, pred_d) for pred_d in pred_subset) for true_d in true_subset)
+                        for pred_subset in pred_drugs_generic_set
+                        )
+                    for true_subset in true_drugs_generic_set
+                ))
             
             # Compute partial match accuracy (if one or more true drugs are in the predicted drug output)
-            partial_match_acc.append(len(pred_drugs_generic_set & true_drugs_generic_set) > 0)
+            # partial_match_acc.append(len(pred_drugs_generic_set & true_drugs_generic_set) > 0)
+            partial_match_acc.append(
+                any(
+                    any(drug_match(true_d, pred_d)
+                        for pred_subset in pred_drugs_generic_set
+                        for pred_d in pred_subset)
+                    for true_subset in true_drugs_generic_set
+                    for true_d in true_subset
+                ))
             
             # All possible FDA-approved drugs
             all_drugs_set = true_drugs_generic_set | pred_drugs_generic_set | all_generic_names_set
@@ -215,6 +238,7 @@ def plot_radar_chart(
     colors: List[str] = None,
     ylim: int = 100,
     annotate: bool = True,
+    offsets: List[float] = None,
     save_path: str = None
 ):
     """
@@ -248,8 +272,13 @@ def plot_radar_chart(
         
         # annotate numbers
         if annotate:
+            
             for j, v in enumerate(values[:-1]):
-                offset = -ylim*0.08 if i == 0 else ylim*0.08
+                if offsets is None:
+                    offset_base = 0.08
+                    offset = ylim*(-offset_base) if (i%2 == 0) else ylim*offset_base
+                else:
+                    offset = ylim*offsets[i]
                 ax.text(
                     angles[j], v + offset,
                     f"{v:.0f}", color="black", fontsize=10,
@@ -278,7 +307,7 @@ def plot_radar_chart(
         ncol=2, frameon=False, fontsize=11
     )
 
-    plt.title(title, fontsize=14, pad=20)
+    plt.title(title, fontsize=18, pad=50)
 
     # save or show
     if save_path:

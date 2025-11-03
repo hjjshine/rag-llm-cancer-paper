@@ -186,7 +186,7 @@ def load_entities(
         with open(base_path / f"moalmanac_{db}_ner_entities__{version}.json") as f:
             db_entity = json.load(f)
     elif db == 'civic':
-        with open(base_path / f"civic_db_context_ner_entities__civic-202509.json") as f:
+        with open(base_path / f"civic_ner_entities__2025-10-01.json") as f:
             db_entity = json.load(f)
     else:
         raise ValueError("db must be 'fda', 'ema', or 'civic'.")

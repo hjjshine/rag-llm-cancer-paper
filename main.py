@@ -16,7 +16,7 @@ def parse_args():
     parser.add_argument('--context_db_type', type=str, choices=['unstructured', 'structured'], default='structured')
     parser.add_argument('--hybrid_search', action=argparse.BooleanOptionalAction)
     parser.add_argument('--num_iter', type=int, default=1, help="Number of iterations of running the pipeline [default: 1]")
-    parser.add_argument('--strategy', choices=[0, 1, 2, 3, 4, 5], type=int, default=0, help="Prompt strategy [default: 0]")
+    parser.add_argument('--strategy', choices=[0, 1, 2, 3, 4, 5, 6, 7], type=int, default=0, help="Prompt strategy [default: 0]")
     parser.add_argument('--output_dir', type=str, required=True, help="Output directory")
     parser.add_argument('--temp', type=float, default=0.0, help="Temperature used for LLM inference [default: 0]")
     parser.add_argument('--max_len', type=int, default=None, help="Maximum output token LLM can return [default: None]")

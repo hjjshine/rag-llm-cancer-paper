@@ -1,7 +1,7 @@
 standardized_cancer,raw_cancer,biomarker,therapy
-Invasive Breast Carcinoma,early breast cancer,"HER2-negative [present], ER positive [present]",Tamoxifen + Abemaciclib
-Invasive Breast Carcinoma,advanced or metastatic breast cancer,"HER2-negative [present], ER positive [present]",Anastrozole + Abemaciclib
-Prostate Adenocarcinoma,metastatic castration-resistant prostate cancer,BARD1 oncogenic variants [present],Prednisone + Niraparib + Abiraterone acetate
+Invasive Breast Carcinoma,early breast cancer,"ER positive [present], HER2-negative [present]",Tamoxifen + Abemaciclib
+Invasive Breast Carcinoma,advanced or metastatic breast cancer,"ER positive [present], HER2-negative [present]",Anastrozole + Abemaciclib
+Prostate Adenocarcinoma,metastatic castration-resistant prostate cancer,BRCA1 oncogenic variants [present],Abiraterone acetate + Prednisone + Niraparib
 Non-Small Cell Lung Cancer,locally advanced or metastatic non-small cell lung cancer,KRAS p.G12C [present],Adagrasib
 Invasive Breast Carcinoma,metastatic breast cancer,HER2-positive [present],Trastuzumab emtansine
 Non-Small Cell Lung Cancer,metastatic non-small cell lung cancer,EGFR somatic variants [present],Afatinib
@@ -9,23 +9,23 @@ Non-Small Cell Lung Cancer,non-small cell lung cancer,v::ALK [present],Alectinib
 APL with PML-RARA,low-risk acute promyelocytic leukemia (APL),PML::RARA [present],Arsenic trioxide
 APL with PML-RARA,acute promyelocytic leukemia (APL),PML::RARA [present],Arsenic trioxide
 Chronic Myelogenous Leukemia,philadelphia chromosome-positive chronic myeloid leukemia (Ph+ CML),BCR::ABL1 [present],Asciminib
-Non-Small Cell Lung Cancer,metastatic non-squamous non-small cell lung cancer,"Wild type EGFR [present], Wild type ALK [present]",Carboplatin + Paclitaxel + Bevacizumab + Atezolizumab
-Melanoma,unresectable or metastatic melanoma,BRAF p.V600E [present],Vemurafenib + Cobimetinib + Atezolizumab
+Non-Small Cell Lung Cancer,metastatic non-squamous non-small cell lung cancer,"Wild type EGFR [present], Wild type ALK [present]",Bevacizumab + Atezolizumab + Paclitaxel + Carboplatin
+Melanoma,unresectable or metastatic melanoma,BRAF p.V600E [present],Atezolizumab + Cobimetinib + Vemurafenib
 Gastrointestinal Stromal Tumor,unresectable or metastatic GIST,PDGFRA p.D842V [present],Avapritinib
 Acute Lymphoid Leukemia,b-cell precursor acute lymphoblastic leukemia (ALL),CD19 + [present],Blinatumomab
 Acute Lymphoid Leukemia,b-cell precusor acute lymphoblastic leukemia (ALL),"BCR::ABL1 [not present], CD19 + [present]",Blinatumomab
 Chronic Myelogenous Leukemia,philadelphia chromosome-positive chronic myelogenous leukemia (CML),BCR::ABL1 [present],Bosutinib
-Anaplastic Large Cell Lymphoma,"systemic anaplastic large cell lymphoma (sALCL) or other CD30-expressing peripheral T-cell lymphomas (PTCL), including angioimmunoblastic T-cell lymphoma and PTCL not otherwise specified",CD30 + [present],Doxorubicin + Prednisone + Brentuximab vedotin + Cyclophosphamide
+Anaplastic Large Cell Lymphoma,"systemic anaplastic large cell lymphoma (sALCL) or other CD30-expressing peripheral T-cell lymphomas (PTCL), including angioimmunoblastic T-cell lymphoma and PTCL not otherwise specified",CD30 + [present],Prednisone + Cyclophosphamide + Doxorubicin + Brentuximab vedotin
 Anaplastic Large Cell Lymphoma,cutaneous analastplci large cell lymphoma (pcALCL) or CD30-expressing mycosis fungoides (MF),CD30 + [present],Brentuximab vedotin
 Adenocarcinoma of the Gastroesophageal Junction,metastatic gastric or gastroesophageal junction adenocarcinoma,HER2-positive [present],Capecitabine
-Invasive Breast Carcinoma,locally advanced or metastatic breast cancer,"HER2-negative [present], ER positive [present], PIK3CA somatic variants [present]",Fulvestrant + Capivasertib
+Invasive Breast Carcinoma,locally advanced or metastatic breast cancer,"ER positive [present], HER2-negative [present], PIK3CA somatic variants [present]",Fulvestrant + Capivasertib
 Colorectal Adenocarcinoma,metastatic colorectal cancer,"EGFR positive [present], Wild type KRAS [present]",Fluorouracil + Irinotecan + Cetuximab
 Anaplastic Large Cell Lymphoma,anaplastic large cell lymphoma (ALCL),v::ALK [present],Crizotinib
 Inflammatory Myofibroblastic Tumor,"unresectable, recurrent, or refractory inflammatory myofibroblastic tumor (IMT)",v::ALK [present],Crizotinib
-Melanoma,melanoma,BRAF p.V600E [present],Trametinib + Dabrafenib
-Anaplastic Thyroid Cancer,locally advanced or metastatic anaplastic thyroid cancer (ATC),BRAF p.V600E [present],Trametinib + Dabrafenib
-Any solid tumor,unresectable or metastatic solid tumors,BRAF p.V600E [present],Trametinib + Dabrafenib
-"Low-Grade Glioma, NOS",low-grade glioma (LGG),BRAF p.V600E [present],Trametinib + Dabrafenib
+Melanoma,melanoma,BRAF p.V600E [present],Dabrafenib + Trametinib
+Anaplastic Thyroid Cancer,locally advanced or metastatic anaplastic thyroid cancer (ATC),BRAF p.V600E [present],Dabrafenib + Trametinib
+Any solid tumor,unresectable or metastatic solid tumors,BRAF p.V600E [present],Dabrafenib + Trametinib
+"Low-Grade Glioma, NOS",low-grade glioma (LGG),BRAF p.V600E [present],Dabrafenib + Trametinib
 Chronic Myelogenous Leukemia,philadelphia chromosome-positive (Ph+) chronic myeloid leukemia (CML),BCR::ABL1 [present],Dasatinib
 "Chronic Myeloid Leukemia, BCR-ABL1+",philadelphia chromosome-positive (Ph+) chronic myeloid leukemia (CML),BCR::ABL1 [present],Dasatinib
 Chronic Myelogenous Leukemia,"chronic, accelerated, or myeloid or lymphoid blast phase Ph+ CML",BCR::ABL1 [present],Dasatinib
@@ -34,13 +34,13 @@ Acute Lymphoid Leukemia,philadelphia chromosome-positive acute lymphoblastic leu
 Chronic Myelogenous Leukemia,philadelphia chromosome-positive CML,BCR::ABL1 [present],Dasatinib
 "Chronic Myeloid Leukemia, BCR-ABL1+",philadelphia chromosome-positive CML,BCR::ABL1 [present],Dasatinib
 Acute Lymphoid Leukemia,philadelphia chromosome-positive ALL,BCR::ABL1 [present],Dasatinib
-Endometrial Carcinoma,primary advanced or recurrent endometrial cancer,dMMR [present],Carboplatin + Dostarlimab + Paclitaxel
+Endometrial Carcinoma,primary advanced or recurrent endometrial cancer,dMMR [present],Dostarlimab + Paclitaxel + Carboplatin
 Endometrial Carcinoma,recurrent or advanced endometrial cancer,dMMR [present],Dostarlimab
 Any solid tumor,recurrent or advanced solid tumors,dMMR [present],Dostarlimab
 Acute Myeloid Leukemia,relapsed or refractory acute myeloid leukemia (AML),IDH2 p.R140Q [present],Enasidenib
 Any solid tumor,solid tumors,v::NTRK1 [present],Entrectinib
 Bladder Urothelial Carcinoma,locally advanced or metastatic urothelial carcinoma (mUC),FGFR3 p.R248C [present],Erdafitinib
-Invasive Breast Carcinoma,breast cancer,"HER2-negative [present], ER positive [present]",Exemestane + Everolimus
+Invasive Breast Carcinoma,breast cancer,"ER positive [present], HER2-negative [present]",Exemestane + Everolimus
 Intrahepatic Cholangiocarcinoma,"unresectable, locally or metastatic intrahepatic cholangiocarcinoma",FGFR2::v [present],Futibatinib
 Acute Lymphoid Leukemia,acute myeloid leukemia,CD33 + [present],Gemtuzumab ozogamicin
 Acute Lymphoid Leukemia,relapsed or refractory acute myeloid leukemia,FLT3-ITD [present],Gilteritinib
@@ -54,7 +54,7 @@ Gastrointestinal Stromal Tumor,unresectable and/or metastatic maligant gastroint
 Gastrointestinal Stromal Tumor,GIST,FIP1L1::PDGFRA [present],Imatinib
 Cholangiocarcinoma,unresectable locally advanced or metastatic cholangiocarcinoma,FGFR2::v [present],Infigratinib
 Acute Lymphoid Leukemia,B-cell precursor acute lymphoblastic leukemia (ALL),CD22 + [present],Inotuzumab ozogamicin
-Non-Small Cell Lung Cancer,metastatic or recurrent non-small cell lung cancer,"Wild type EGFR [present], Wild type ALK [present]",Carboplatin + Nivolumab + Ipilimumab + Pemetrexed
+Non-Small Cell Lung Cancer,metastatic or recurrent non-small cell lung cancer,"Wild type EGFR [present], Wild type ALK [present]",Pemetrexed + Ipilimumab + Carboplatin + Nivolumab
 Acute Myeloid Leukemia,acute myeloid leukemia,IDH1 p.R132C [present],Ivosidenib
 Acute Myeloid Leukemia,relapsed or refractory AML,IDH1 p.R132C [present],Ivosidenib
 Myelodysplastic Syndromes,relapsed or refractory myelodysplastic syndromes,IDH1 p.R132C [present],Ivosidenib
@@ -74,50 +74,50 @@ Peritoneal Serous Carcinoma,"advanced epithelial ovarian, fallopian tube or prim
 Ovarian Epithelial Tumor,"relapsed epithelial ovarian, fallopian tube or primary peritoneal cancer",BRCA1 oncogenic variants [present],Olaparib
 High-Grade Serous Fallopian Tube Cancer,"relapsed epithelial ovarian, fallopian tube or primary peritoneal cancer",BRCA1 oncogenic variants [present],Olaparib
 Peritoneal Serous Carcinoma,"relapsed epithelial ovarian, fallopian tube or primary peritoneal cancer",BRCA1 oncogenic variants [present],Olaparib
-Invasive Breast Carcinoma,high risk early breast cancer,"HER2-negative [present], BRCA1 pathogenic variants [present]",Olaparib
+Invasive Breast Carcinoma,high risk early breast cancer,"BRCA1 pathogenic variants [present], HER2-negative [present]",Olaparib
 Pancreatic Adenocarcinoma,metastatic pancreatic adenocarcinoma,BRCA1 pathogenic variants [present],Olaparib
 Head and Neck Squamous Cell Carcinoma,"metastatic or unresectable, recurrent HNSCC",PD-L1 (CPS) >= 1 [present],Pembrolizumab
 Any solid tumor,unresectable or metastatic ... solid tumors,dMMR [present],Pembrolizumab
 Colorectal Adenocarcinoma,unresectable or metastatic ... colorectal cancer,dMMR [present],Pembrolizumab
-Adenocarcinoma of the Gastroesophageal Junction,locally advanced unresectable or metastatic ... gastric or gastroesophageal junction (GEJ) adenocracinoma,"HER2-positive [present], PD-L1 (CPS) >= 1 [present]",Trastuzumab + Fluorouracil + Cisplatin + Pembrolizumab
-Adenocarcinoma of the Gastroesophageal Junction,locally advanced unresectable or metastatic ... gastric or gastroesophageal junction (GEJ) adenocarcinoma,HER2-negative [present],Fluorouracil + Cisplatin + Pembrolizumab
+Adenocarcinoma of the Gastroesophageal Junction,locally advanced unresectable or metastatic ... gastric or gastroesophageal junction (GEJ) adenocracinoma,"HER2-positive [present], PD-L1 (CPS) >= 1 [present]",Trastuzumab + Cisplatin + Fluorouracil + Pembrolizumab
+Adenocarcinoma of the Gastroesophageal Junction,locally advanced unresectable or metastatic ... gastric or gastroesophageal junction (GEJ) adenocarcinoma,HER2-negative [present],Cisplatin + Fluorouracil + Pembrolizumab
 Adenocarcinoma of the Gastroesophageal Junction,locally advanced or metastatic esophageal or gastroesophageal junction carcinoma,PD-L1 (CPS) >= 10 [present],Pembrolizumab
 Esophageal Adenocarcinoma,locally advanced or metastatic esophageal or gastroesophageal junction carcinoma,PD-L1 (CPS) >= 10 [present],Pembrolizumab
-Cervical Adenocarcinoma,"persistent, recurrent, or metastatic cervical cancer",PD-L1 (CPS) >= 1 [present],Paclitaxel + Cisplatin + Pembrolizumab
-Cervical Squamous Cell Carcinoma,"persistent, recurrent, or metastatic cervical cancer",PD-L1 (CPS) >= 1 [present],Paclitaxel + Cisplatin + Pembrolizumab
+Cervical Adenocarcinoma,"persistent, recurrent, or metastatic cervical cancer",PD-L1 (CPS) >= 1 [present],Cisplatin + Paclitaxel + Pembrolizumab
+Cervical Squamous Cell Carcinoma,"persistent, recurrent, or metastatic cervical cancer",PD-L1 (CPS) >= 1 [present],Cisplatin + Paclitaxel + Pembrolizumab
 Cervical Adenocarcinoma,recurrent or metastatic cervical cancer,PD-L1 (CPS) >= 1 [present],Pembrolizumab
 Cervical Squamous Cell Carcinoma,recurrent or metastatic cervical cancer,PD-L1 (CPS) >= 1 [present],Pembrolizumab
 Endometrial Carcinoma,advanced endometrial carcinoma,MSI-L [present],Lenvatinib + Pembrolizumab
-Invasive Breast Carcinoma,high-risk early-stage triple-negative breast cancer,"ER negative [present], PR negative [present], HER2-negative [present]",Carboplatin + Doxorubicin + Paclitaxel + Cyclophosphamide + Pembrolizumab
-Invasive Breast Carcinoma,locally recurrent unresectable or metastatic triple-negative breast cancer,"ER negative [present], PR negative [present], HER2-negative [present], PD-L1 (CPS) >= 10 [present]",Paclitaxel + Pembrolizumab
+Invasive Breast Carcinoma,high-risk early-stage triple-negative breast cancer,"ER negative [present], PR negative [present], HER2-negative [present]",Paclitaxel + Pembrolizumab + Carboplatin + Cyclophosphamide + Doxorubicin
+Invasive Breast Carcinoma,locally recurrent unresectable or metastatic triple-negative breast cancer,"ER negative [present], PR negative [present], PD-L1 (CPS) >= 10 [present], HER2-negative [present]",Paclitaxel + Pembrolizumab
 Myeloid/Lymphoid Neoplasms,relapsed or refractory myeloid/lymphoid neoplasms (MLNs),FGFR1 rearrangements [present],Pemigatinib
-Invasive Breast Carcinoma,"locally advanced, inflammatory, or early stage breast cancer (either greater than 2 cm in diameter or node positive)",HER2-positive [present],Trastuzumab + Doxorubicin + Paclitaxel + Pertuzumab + Cyclophosphamide
-Invasive Breast Carcinoma,early stage breast cancer,HER2-positive [present],Trastuzumab + Fluorouracil + Paclitaxel + Pertuzumab + Epirubicin + Cyclophosphamide
-Acute Lymphoid Leukemia,Ph+ ALL,BCR::ABL1 [present],Prednisone + Ponatinib + Vincristine + Methotrexate + Cytarabine
+Invasive Breast Carcinoma,"locally advanced, inflammatory, or early stage breast cancer (either greater than 2 cm in diameter or node positive)",HER2-positive [present],Pertuzumab + Trastuzumab + Paclitaxel + Cyclophosphamide + Doxorubicin
+Invasive Breast Carcinoma,early stage breast cancer,HER2-positive [present],Epirubicin + Pertuzumab + Trastuzumab + Fluorouracil + Paclitaxel + Cyclophosphamide
+Acute Lymphoid Leukemia,Ph+ ALL,BCR::ABL1 [present],Methotrexate + Ponatinib + Prednisone + Vincristine + Cytarabine
 Chronic Myelogenous Leukemia,CML,ABL1 p.T315I [present],Ponatinib
 Papillary Thyroid Cancer,advanced or metastatic... thyroid cancer,v::RET [present],Pralsetinib
 Non-Hodgkin Lymphoma,B-cell Non-Hodgkin's Lymphoma (NHL),CD20 + [present],Rituximab
-Non-Hodgkin Lymphoma,Non-Hodgkin's Lymphoma (NHL),CD20 + [present],Doxorubicin + Prednisone + Vincristine + Rituximab + Cyclophosphamide
-Non-Hodgkin Lymphoma,diffuse large B-cell Non-Hodgkin's Lymhpoma (NHL),CD20 + [present],Doxorubicin + Prednisone + Vincristine + Rituximab + Cyclophosphamide
-Diffuse Large B-Cell Lymphoma,"mature B-cell NHL and mature B-cell acute leukemia (B-AL) previously untreated, advanced stage, CD20-positive, diffuse large B-cell lymphoma (DLBCL), Burkitt lymphoma (BL), Burkitt-like lymphoma (BLL) or mature B-cell acute leukemia (B-AL)",CD20 + [present],Doxorubicin + Prednisone + Vincristine + Rituximab + Cyclophosphamide
-Burkitt Lymphoma,"mature B-cell NHL and mature B-cell acute leukemia (B-AL) previously untreated, advanced stage, CD20-positive, diffuse large B-cell lymphoma (DLBCL), Burkitt lymphoma (BL), Burkitt-like lymphoma (BLL) or mature B-cell acute leukemia (B-AL)",CD20 + [present],Doxorubicin + Prednisone + Vincristine + Rituximab + Cyclophosphamide
-Mature B-Cell Neoplasms,"mature B-cell NHL and mature B-cell acute leukemia (B-AL) previously untreated, advanced stage, CD20-positive, diffuse large B-cell lymphoma (DLBCL), Burkitt lymphoma (BL), Burkitt-like lymphoma (BLL) or mature B-cell acute leukemia (B-AL)",CD20 + [present],Doxorubicin + Prednisone + Vincristine + Rituximab + Cyclophosphamide
+Non-Hodgkin Lymphoma,Non-Hodgkin's Lymphoma (NHL),CD20 + [present],Rituximab + Prednisone + Vincristine + Cyclophosphamide + Doxorubicin
+Non-Hodgkin Lymphoma,diffuse large B-cell Non-Hodgkin's Lymhpoma (NHL),CD20 + [present],Rituximab + Prednisone + Vincristine + Cyclophosphamide + Doxorubicin
+Diffuse Large B-Cell Lymphoma,"mature B-cell NHL and mature B-cell acute leukemia (B-AL) previously untreated, advanced stage, CD20-positive, diffuse large B-cell lymphoma (DLBCL), Burkitt lymphoma (BL), Burkitt-like lymphoma (BLL) or mature B-cell acute leukemia (B-AL)",CD20 + [present],Rituximab + Prednisone + Vincristine + Cyclophosphamide + Doxorubicin
+Burkitt Lymphoma,"mature B-cell NHL and mature B-cell acute leukemia (B-AL) previously untreated, advanced stage, CD20-positive, diffuse large B-cell lymphoma (DLBCL), Burkitt lymphoma (BL), Burkitt-like lymphoma (BLL) or mature B-cell acute leukemia (B-AL)",CD20 + [present],Rituximab + Prednisone + Vincristine + Cyclophosphamide + Doxorubicin
+Mature B-Cell Neoplasms,"mature B-cell NHL and mature B-cell acute leukemia (B-AL) previously untreated, advanced stage, CD20-positive, diffuse large B-cell lymphoma (DLBCL), Burkitt lymphoma (BL), Burkitt-like lymphoma (BLL) or mature B-cell acute leukemia (B-AL)",CD20 + [present],Rituximab + Prednisone + Vincristine + Cyclophosphamide + Doxorubicin
 Chronic Lymphocytic Leukemia,Chronic Lymphocytic Leuekmia (CLL),CD20 + [present],Rituximab + Fludarabine + Cyclophosphamide
 Ovarian Epithelial Tumor,"epithelial ovarian, fallopian tube, or primary peritoneal cancer",BRCA1 oncogenic variants [present],Rucaparib
 High-Grade Serous Fallopian Tube Cancer,"epithelial ovarian, fallopian tube, or primary peritoneal cancer",BRCA1 oncogenic variants [present],Rucaparib
 Peritoneal Serous Carcinoma,"epithelial ovarian, fallopian tube, or primary peritoneal cancer",BRCA1 oncogenic variants [present],Rucaparib
 Invasive Breast Carcinoma,unresectable locally advanced or metastatic triple-negative breast cancer (mTNBC),"ER negative [present], PR negative [present], HER2-negative [present]",Sacituzumab govitecan
-Invasive Breast Carcinoma,locally advanced or metastatic ... breast cancer,"HER2-negative [present], ER positive [present]",Sacituzumab govitecan
+Invasive Breast Carcinoma,locally advanced or metastatic ... breast cancer,"ER positive [present], HER2-negative [present]",Sacituzumab govitecan
 Medullary Thyroid Cancer,advanced or metastatic medullary thyroid cancer,RET oncogenic variants [present],Selpercatinib
 Anaplastic Thyroid Cancer,advanced or metastatic thyroid cancer,v::RET [present],Selpercatinib
 Any solid tumor,locally advanced or metastatic solid tumors,v::RET [present],Selpercatinib
-Anaplastic Thyroid Cancer,locally advanced or metastatic anaplastic thyroid cancer,BRAF p.V600E [present],Trametinib + Dabrafenib
+Anaplastic Thyroid Cancer,locally advanced or metastatic anaplastic thyroid cancer,BRAF p.V600E [present],Dabrafenib + Trametinib
 Gastrointestinal Stromal Tumor,metastatic gastric or gastroesophageal junction adenocarcinoma,HER2-positive [present],Trastuzumab
 Invasive Breast Carcinoma,unresectable or metastatic breast cancer,HER2-positive [present],Trastuzumab deruxtecan
 Invasive Breast Carcinoma,unresectable or metastatic ... breast cancer,HER2-low [present],Trastuzumab deruxtecan
 Non-Small Cell Lung Cancer,unresectable or metastatic non-small cell lung cancer,ERBB2 oncogenic variants [present],Trastuzumab deruxtecan
 Adenocarcinoma of the Gastroesophageal Junction,locally advanced or metastatic gastric or gastroesophageal junction adenocarcinoma,HER2-positive [present],Trastuzumab deruxtecan
-Invasive Breast Carcinoma,advanced unresectable or metastatic breast cancer,HER2-positive [present],Trastuzumab + Capecitabine + Tucatinib
+Invasive Breast Carcinoma,advanced unresectable or metastatic breast cancer,HER2-positive [present],Tucatinib + Trastuzumab + Capecitabine
 Non-Langerhans Cell Histiocytosis/Erdheim-Chester Disease,Erdheim-Chester Disease,BRAF p.V600E [present],Vemurafenib
 Follicular Lymphoma,follicular lymphoma,EZH2 p.Y646N [present],Tazemetostat
 Renal Angiomyolipoma,renal angiomyolipoma,TSC1 oncogenic variants [present],Everolimus
@@ -128,7 +128,7 @@ Peritoneal Serous Carcinoma,"epithelial ovarian, fallopian tube, or primary peri
 Colorectal Adenocarcinoma,colorectal cancer,KRAS p.G12C [present],Adagrasib + Cetuximab
 Astrocytoma,astrocytoma or oligodendroglioma,IDH1 p.R132C [present],Vorasidenib
 Oligodendroglioma,astrocytoma or oligodendroglioma,IDH1 p.R132C [present],Vorasidenib
-Adenocarcinoma of the Gastroesophageal Junction,gastric or gastroesophageal junction adenocarcinoma,"HER2-negative [present], CLDN18.2 >= 75% [present]",Oxaliplatin + Fluorouracil + Zolbetuximab
+Adenocarcinoma of the Gastroesophageal Junction,gastric or gastroesophageal junction adenocarcinoma,"CLDN18.2 >= 75% [present], HER2-negative [present]",Zolbetuximab + Oxaliplatin + Fluorouracil
 Intraductal Papillary Neoplasm of the Bile Duct,biliary tract cancer (BTC),HER2-positive [present],Zanidatamab
 Intracholecystic Papillary Neoplasm,biliary tract cancer (BTC),HER2-positive [present],Zanidatamab
 Cholangiocarcinoma,biliary tract cancer (BTC),HER2-positive [present],Zanidatamab
@@ -146,3 +146,7 @@ Head and Neck Squamous Cell Carcinoma,head and neck squamous cell cancer,PD-L1 (
 Invasive Breast Carcinoma,non-small cell lung cancer,EGFR Exon 20 (Insertion) [present],Datopotamab deruxtecan
 Non-Small Cell Lung Cancer,breast cancer,"PR positive [present], HER2-negative [present]",Datopotamab deruxtecan
 Non-Small Cell Lung Cancer,non-small cell lung cancer (NSCLC),EGFR Exon 20 (Insertion) [present],Sunvozertinib
+Diffuse Midline Glioma,diffuse midline glioma,H3-3A p.K27M [present],Dordaviprone
+Colorectal Adenocarcinoma,unresectable or metastatic colorectal cancer,"HER2-positive [present], Wild type NRAS [present], Wild type KRAS [present]",Tucatinib + Trastuzumab
+Acute Myeloid Leukemia,newly diagnosed acute myeloid leukemia (AML),FLT3-ITD [present],Quizartinib
+Chronic Lymphocytic Leukemia,chronic lymphocytic leukemia (CLL) / Small lymphocytic lymphoma (SLL),17p deletion [not present],Ibrutinib

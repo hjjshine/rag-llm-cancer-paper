@@ -37,17 +37,31 @@ def load_context(version: str, db: str, db_type: str):
     Returns:
         tuple: (db_context, db_index)
     """
-    index_path, ctx_path = _cache_paths(
-        output_dir="data/latest_db/indexes", 
-        embed_name=_MODEL_EMBED, 
-        db=db, 
-        name=f"{db_type}_context", 
-        version=version)
-    if db in ["fda", "ema", "civic"]:
+    
+    #moalmanac db
+    if db in ["fda", "ema"]:
+        index_path, ctx_path = _cache_paths(
+            output_dir="data/latest_db/indexes", 
+            embed_name=_MODEL_EMBED, 
+            db=db, 
+            name=f"{db_type}_context", 
+            version=version)
         #1) read context db
         with open(ctx_path, "r") as f:
             context = json.load(f)
         #2) read context index
+        index = faiss.read_index(index_path)
+    #civic db 
+    elif db == 'civic':
+        index_path, ctx_path = _cache_paths(
+            output_dir="data/latest_db/indexes", 
+            embed_name=_MODEL_EMBED, 
+            db=db, 
+            name=f"{db_type}_context", 
+            version="2025-10-01"
+            )
+        with open(ctx_path, "r") as f:
+            context = json.load(f)
         index = faiss.read_index(index_path)
     else:
         raise ValueError("db must be 'fda', 'ema', or 'civic'.")
