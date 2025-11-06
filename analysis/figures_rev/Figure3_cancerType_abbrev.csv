@@ -1,0 +1,27 @@
+cancer_id,standardized_cancer
+oncotree:BRCA,invasive breast carcinoma
+oncotree:PRAD,prostate adenocarcinoma
+oncotree:NSCLC,non-small cell lung cancer
+oncotree:CML,chronic myelogenous leukemia
+oncotree:MEL,melanoma
+oncotree:ALL,acute lymphoid leukemia
+oncotree:GEJ,adenocarcinoma of the gastroesophageal junction
+oncotree:COADREAD,colorectal adenocarcinoma
+oncotree:THAP,anaplastic thyroid cancer
+ncit:C132146,any solid tumor
+oncotree:LGGNOS,"low-grade glioma, nos"
+oncotree:CMLBCRABL1,"chronic myeloid leukemia, bcr-abl1+"
+oncotree:UCEC,endometrial carcinoma
+oncotree:AML,acute myeloid leukemia
+oncotree:BLCA,bladder urothelial carcinoma
+oncotree:MDS,myelodysplastic syndromes
+oncotree:CHOL,cholangiocarcinoma
+oncotree:OVT,ovarian epithelial tumor
+oncotree:HGSFT,high-grade serous fallopian tube cancer
+oncotree:PSEC,peritoneal serous carcinoma
+oncotree:CEAD,cervical adenocarcinoma
+oncotree:CESC,cervical squamous cell carcinoma
+oncotree:NHL,non-hodgkin lymphoma
+oncotree:FL,follicular lymphoma
+oncotree:ASTR,astrocytoma
+oncotree:ODG,oligodendroglioma

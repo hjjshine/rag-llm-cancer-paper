@@ -269,7 +269,7 @@ def main(args):
         db_entity=_DB_ENTITY,
         query_entity=_QUERY_ENTITY,
         index=_INDEX,
-        num_vec=25 #25 (final) vs. 10 (previous)
+        num_vec=25 #25 (final) vs. 10 (previous experiments)
     )
 
     runner = PipelineRunner(model_cfg, retrieval_cfg)

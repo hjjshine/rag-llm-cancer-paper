@@ -1,0 +1,39 @@
+therapy_strategy_2,therapy_strategy
+estrogen receptor + cdk4/6,estrogen receptor inhibition + cdk4/6 inhibition
+aromatase + cdk4/6,aromatase inhibition + cdk4/6 inhibition
+antiandrogen + corticosteroid + parp,antiandrogen + corticosteroid + parp inhibition
+her2,her2 inhibition
+egfr,egfr inhibition
+alk,alk inhibition
+estrogen receptor + pi3k/akt/mtor,estrogen receptor inhibition + pi3k/akt/mtor inhibition
+egfr + platinum-based chemo + antifolate,egfr inhibition + platinum-based chemotherapy + antifolate
+bcr-abl,bcr-abl inhibition
+pd-1/pd-l1,pd-1/pd-l1 inhibition
+platinum-based chemo + taxane-based chemo + pd-1/pd-l1 + vegf,platinum-based chemotherapy + taxane-based chemotherapy + pd-1/pd-l1 inhibition + vegf inhibition
+platinum-based chemo + taxane-based chemo + pd-1/pd-l1,platinum-based chemotherapy + taxane-based chemotherapy + pd-1/pd-l1 inhibition
+mek + b-raf,mek inhibition + b-raf inhibition
+met,met inhibition
+platinum-based chemo + pd-1/pd-l1 + antifolate,platinum-based chemotherapy + pd-1/pd-l1 inhibition + antifolate
+b-raf,b-raf inhibition
+b-raf + mek,b-raf inhibition + mek inhibition
+platinum-based chemo + ctla-4 + pd-1/pd-l1 + antifolate,platinum-based chemotherapy + ctla-4 inhibition + pd-1/pd-l1 inhibition + antifolate
+idh2,idh2 inhibition
+fgfr,fgfr inhibition
+estrogen receptor,estrogen receptor inhibition
+flt3,flt3 inhibition
+bcr-abl + pdgf-r + c-kit,bcr-abl inhibition + pdgf-r inhibition + c-kit inhibition
+ctla-4 + pd-1/pd-l1,ctla-4 inhibition + pd-1/pd-l1 inhibition
+idh1,idh1 inhibition
+idh1 + hypomethylating agent chemo,idh1 inhibition + hypomethylating agent chemotherapy
+dna polymerase + topoisomerase + flt3,dna polymerase inhibition + topoisomerase inhibition + flt3 inhibition
+parp,parp inhibition
+parp + vegf,parp inhibition + vegf inhibition
+antiandrogen + parp,antiandrogen + parp inhibition
+alkylating chemo + her2 + taxane-based chemo + topoisomerase,alkylating chemotherapy + her2 inhibition + taxane-based chemotherapy + topoisomerase inhibition
+alkylating chemo + taxane-based chemo + her2 + topoisomerase + thymidylate synthase,alkylating chemotherapy + taxane-based chemotherapy + her2 inhibition + topoisomerase inhibition + thymidylate synthase inhibition
+ret,ret inhibition
+alkylating chemo + vinca alkaloid chemo + corticosteroid + topoisomerase + cd20,alkylating chemotherapy + vinca alkaloid chemotherapy + corticosteroid + topoisomerase inhibition + cd20 inhibition
+ezh2,ezh2 inhibition
+idh1/2,idh1/2 inhibition
+aromatase + cdk4/6 + gonadotropin-releasing hormone (gnrh) agonist,aromatase inhibition + cdk4/6 inhibition + gonadotropin-releasing hormone (gnrh) agonist
+trop-2 directed antibody + topoisomerase,trop-2 directed antibody + topoisomerase inhibition

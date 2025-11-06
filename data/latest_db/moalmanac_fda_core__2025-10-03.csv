@@ -1,0 +1,652 @@
+statement_id,standardized_cancer,raw_cancer,modified_standardized_cancer,biomarker,therapy
+0,invasive breast carcinoma,early breast cancer,early invasive breast carcinoma,"['ER positive', 'HER2-negative']","['Tamoxifen', 'Abemaciclib']"
+1,invasive breast carcinoma,early breast cancer,early invasive breast carcinoma,"['PR positive', 'HER2-negative']","['Tamoxifen', 'Abemaciclib']"
+2,invasive breast carcinoma,early breast cancer,early invasive breast carcinoma,"['PR positive', 'ER positive', 'HER2-negative']","['Tamoxifen', 'Abemaciclib']"
+3,invasive breast carcinoma,advanced or metastatic breast cancer,advanced or metastatic invasive breast carcinoma,"['ER positive', 'HER2-negative']","['Anastrozole', 'Abemaciclib']"
+4,invasive breast carcinoma,advanced or metastatic breast cancer,advanced or metastatic invasive breast carcinoma,"['PR positive', 'HER2-negative']","['Anastrozole', 'Abemaciclib']"
+5,invasive breast carcinoma,advanced or metastatic breast cancer,advanced or metastatic invasive breast carcinoma,"['PR positive', 'ER positive', 'HER2-negative']","['Anastrozole', 'Abemaciclib']"
+6,invasive breast carcinoma,advanced or metastatic breast cancer,advanced or metastatic invasive breast carcinoma,"['ER positive', 'HER2-negative']","['Letrozole', 'Abemaciclib']"
+7,invasive breast carcinoma,advanced or metastatic breast cancer,advanced or metastatic invasive breast carcinoma,"['PR positive', 'HER2-negative']","['Letrozole', 'Abemaciclib']"
+8,invasive breast carcinoma,advanced or metastatic breast cancer,advanced or metastatic invasive breast carcinoma,"['PR positive', 'ER positive', 'HER2-negative']","['Letrozole', 'Abemaciclib']"
+9,invasive breast carcinoma,advanced or metastatic breast cancer,advanced or metastatic invasive breast carcinoma,"['ER positive', 'HER2-negative']","['Fulvestrant', 'Abemaciclib']"
+10,invasive breast carcinoma,advanced or metastatic breast cancer,advanced or metastatic invasive breast carcinoma,"['PR positive', 'HER2-negative']","['Fulvestrant', 'Abemaciclib']"
+11,invasive breast carcinoma,advanced or metastatic breast cancer,advanced or metastatic invasive breast carcinoma,"['PR positive', 'ER positive', 'HER2-negative']","['Fulvestrant', 'Abemaciclib']"
+12,invasive breast carcinoma,advanced or metastatic breast cancer,advanced or metastatic invasive breast carcinoma,"['ER positive', 'HER2-negative']",['Abemaciclib']
+13,invasive breast carcinoma,advanced or metastatic breast cancer,advanced or metastatic invasive breast carcinoma,"['PR positive', 'HER2-negative']",['Abemaciclib']
+14,invasive breast carcinoma,advanced or metastatic breast cancer,advanced or metastatic invasive breast carcinoma,"['PR positive', 'ER positive', 'HER2-negative']",['Abemaciclib']
+15,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['BRCA1 oncogenic variants'],"['Prednisone', 'Abiraterone acetate', 'Niraparib']"
+16,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['BRCA1 pathogenic variants'],"['Prednisone', 'Abiraterone acetate', 'Niraparib']"
+17,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['BRCA2 oncogenic variants'],"['Prednisone', 'Abiraterone acetate', 'Niraparib']"
+18,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['BRCA2 pathogenic variants'],"['Prednisone', 'Abiraterone acetate', 'Niraparib']"
+19,non-small cell lung cancer,locally advanced or metastatic non-small cell lung cancer,locally advanced or metastatic non-small cell lung cancer,['KRAS p.G12C'],['Adagrasib']
+20,invasive breast carcinoma,metastatic breast cancer,metastatic invasive breast carcinoma,['HER2-positive'],['Trastuzumab emtansine']
+21,invasive breast carcinoma,early breast cancer,early invasive breast carcinoma,['HER2-positive'],['Trastuzumab emtansine']
+22,non-small cell lung cancer,metastatic non-small cell lung cancer,metastatic non-small cell lung cancer,['EGFR somatic variants'],['Afatinib']
+23,non-small cell lung cancer,non-small cell lung cancer,non-small cell lung cancer,['v::ALK'],['Alectinib']
+24,non-small cell lung cancer,metastatic non-small cell lung cancer,metastatic non-small cell lung cancer,['v::ALK'],['Alectinib']
+25,invasive breast carcinoma,advanced or metastatic breast cancer,advanced or metastatic invasive breast carcinoma,"['PIK3CA somatic variants', 'ER positive', 'HER2-negative']","['Alpelisib', 'Fulvestrant']"
+26,invasive breast carcinoma,advanced or metastatic breast cancer,advanced or metastatic invasive breast carcinoma,"['PIK3CA somatic variants', 'PR positive', 'HER2-negative']","['Alpelisib', 'Fulvestrant']"
+27,invasive breast carcinoma,advanced or metastatic breast cancer,advanced or metastatic invasive breast carcinoma,"['PIK3CA somatic variants', 'PR positive', 'ER positive', 'HER2-negative']","['Alpelisib', 'Fulvestrant']"
+28,non-small cell lung cancer,locally advanced or metastatic non-small cell lung cancer,locally advanced or metastatic non-small cell lung cancer,['EGFR Exon 20 (Insertion)'],"['Carboplatin', 'Pemetrexed', 'Amivantamab']"
+29,non-small cell lung cancer,locally advanced or metastatic non-small cell lung cancer,locally advanced or metastatic non-small cell lung cancer,['EGFR Exon 20 (Insertion)'],['Amivantamab']
+30,apl with pml-rara,low-risk acute promyelocytic leukemia (apl),low-risk apl with pml-rara,['PML::RARA'],['Arsenic trioxide']
+31,apl with pml-rara,acute promyelocytic leukemia (apl),apl with pml-rara,['PML::RARA'],['Arsenic trioxide']
+32,chronic myelogenous leukemia,philadelphia chromosome-positive chronic myeloid leukemia (ph+ cml),philadelphia chromosome-positive chronic myelogenous leukemia,['BCR::ABL1'],['Asciminib']
+33,chronic myelogenous leukemia,philadelphia chromosome-positive chronic myeloid leukemia (ph+ cml),philadelphia chromosome-positive chronic myelogenous leukemia,"['ABL1 p.T315I', 'BCR::ABL1']",['Asciminib']
+34,non-small cell lung cancer,non-small cell lung cancer,non-small cell lung cancer,['PD-L1 >= 1%'],['Atezolizumab']
+35,non-small cell lung cancer,metastatic non-small cell lung cancer,metastatic non-small cell lung cancer,['PD-L1 >= 50%'],['Atezolizumab']
+36,non-small cell lung cancer,metastatic non-small cell lung cancer,metastatic non-small cell lung cancer,['PD-L1 >= 10% TIIC'],['Atezolizumab']
+37,non-small cell lung cancer,metastatic non-squamous non-small cell lung cancer,metastatic non-squamous non-small cell lung cancer,"['Wild type EGFR', 'Wild type ALK']","['Carboplatin', 'Paclitaxel', 'Atezolizumab', 'Bevacizumab']"
+38,non-small cell lung cancer,metastatic non-squamous non-small cell lung cancer,metastatic non-squamous non-small cell lung cancer,"['Wild type EGFR', 'Wild type ALK']","['Carboplatin', 'Paclitaxel', 'Atezolizumab']"
+39,non-small cell lung cancer,metastatic non-small cell lung cancer,metastatic non-small cell lung cancer,['EGFR somatic variants'],['Atezolizumab']
+40,non-small cell lung cancer,metastatic non-small cell lung cancer,metastatic non-small cell lung cancer,['v::ALK'],['Atezolizumab']
+41,melanoma,unresectable or metastatic melanoma,unresectable or metastatic melanoma,['BRAF p.V600E'],"['Atezolizumab', 'Vemurafenib', 'Cobimetinib']"
+42,melanoma,unresectable or metastatic melanoma,unresectable or metastatic melanoma,['BRAF p.V600K'],"['Atezolizumab', 'Vemurafenib', 'Cobimetinib']"
+43,gastrointestinal stromal tumor,unresectable or metastatic gist,unresectable or metastatic gastrointestinal stromal tumor,['PDGFRA p.D842V'],['Avapritinib']
+44,melanoma,unresectable or metastatic melanoma,unresectable or metastatic melanoma,['BRAF p.V600E'],"['Encorafenib', 'Binimetinib']"
+45,melanoma,unresectable or metastatic melanoma,unresectable or metastatic melanoma,['BRAF p.V600K'],"['Encorafenib', 'Binimetinib']"
+46,non-small cell lung cancer,metastatic non-small cell lung cancer,metastatic non-small cell lung cancer,['BRAF p.V600E'],"['Encorafenib', 'Binimetinib']"
+47,invasive breast carcinoma,early breast cancer,early invasive breast carcinoma,"['PR positive', 'ER positive', 'HER2-negative']","['Letrozole', 'Abemaciclib']"
+48,acute lymphoid leukemia,b-cell precursor acute lymphoblastic leukemia (all),b-cell precursor acute lymphoid leukemia,['CD19 +'],['Blinatumomab']
+49,acute lymphoid leukemia,b-cell precursor acute lymphoblastic leukemia (all),b-cell precursor acute lymphoid leukemia,['CD19 +'],['Blinatumomab']
+50,acute lymphoid leukemia,b-cell precusor acute lymphoblastic leukemia (all),b-cell acute lymphoid leukemia,"['BCR::ABL1', 'CD19 +']",['Blinatumomab']
+51,chronic myelogenous leukemia,philadelphia chromosome-positive chronic myelogenous leukemia (cml),philadelphia chromosome-positive chronic myelogenous leukemia,['BCR::ABL1'],['Bosutinib']
+52,chronic myelogenous leukemia,philadelphia chromosome-positive chronic myelogenous leukemia (cml),philadelphia chromosome-positive chronic myelogenous leukemia,['BCR::ABL1'],['Bosutinib']
+54,anaplastic large cell lymphoma,"systemic anaplastic large cell lymphoma (salcl) or other cd30-expressing peripheral t-cell lymphomas (ptcl), including angioimmunoblastic t-cell lymphoma and ptcl not otherwise specified",systemic anaplastic large cell lymphoma,['CD30 +'],"['Prednisone', 'Cyclophosphamide', 'Doxorubicin', 'Brentuximab vedotin']"
+55,anaplastic large cell lymphoma,cutaneous analastplci large cell lymphoma (pcalcl) or cd30-expressing mycosis fungoides (mf),cutaneous anaplastic large cell lymphoma,['CD30 +'],['Brentuximab vedotin']
+56,non-small cell lung cancer,metastatic non-small cell lung cancer,metastatic non-small cell lung cancer,['v::ALK'],['Brigatinib']
+57,adenocarcinoma of the gastroesophageal junction,metastatic gastric or gastroesophageal junction adenocarcinoma,metastatic adenocarcinoma of the gastroesophageal junction,['HER2-positive'],['Capecitabine']
+58,invasive breast carcinoma,locally advanced or metastatic breast cancer,locally advanced or metastatic invasive breast carcinoma,"['PIK3CA somatic variants', 'ER positive', 'HER2-negative']","['Capivasertib', 'Fulvestrant']"
+59,invasive breast carcinoma,locally advanced or metastatic breast cancer,locally advanced or metastatic invasive breast carcinoma,"['PIK3CA somatic variants', 'PR positive', 'HER2-negative']","['Capivasertib', 'Fulvestrant']"
+60,invasive breast carcinoma,locally advanced or metastatic breast cancer,locally advanced or metastatic invasive breast carcinoma,"['PIK3CA somatic variants', 'PR positive', 'ER positive', 'HER2-negative']","['Capivasertib', 'Fulvestrant']"
+61,invasive breast carcinoma,locally advanced or metastatic breast cancer,locally advanced or metastatic invasive breast carcinoma,"['AKT1 somatic variants', 'ER positive', 'HER2-negative']","['Capivasertib', 'Fulvestrant']"
+62,invasive breast carcinoma,locally advanced or metastatic breast cancer,locally advanced or metastatic invasive breast carcinoma,"['AKT1 somatic variants', 'PR positive', 'HER2-negative']","['Capivasertib', 'Fulvestrant']"
+63,invasive breast carcinoma,locally advanced or metastatic breast cancer,locally advanced or metastatic invasive breast carcinoma,"['AKT1 somatic variants', 'PR positive', 'ER positive', 'HER2-negative']","['Capivasertib', 'Fulvestrant']"
+64,invasive breast carcinoma,locally advanced or metastatic breast cancer,locally advanced or metastatic invasive breast carcinoma,"['ER positive', 'HER2-negative', 'AKT1 amplification']","['Capivasertib', 'Fulvestrant']"
+65,invasive breast carcinoma,locally advanced or metastatic breast cancer,locally advanced or metastatic invasive breast carcinoma,"['PR positive', 'HER2-negative', 'AKT1 amplification']","['Capivasertib', 'Fulvestrant']"
+66,invasive breast carcinoma,locally advanced or metastatic breast cancer,locally advanced or metastatic invasive breast carcinoma,"['PR positive', 'ER positive', 'HER2-negative', 'AKT1 amplification']","['Capivasertib', 'Fulvestrant']"
+67,invasive breast carcinoma,locally advanced or metastatic breast cancer,locally advanced or metastatic invasive breast carcinoma,"['PTEN nonsense variants', 'ER positive', 'HER2-negative']","['Capivasertib', 'Fulvestrant']"
+68,invasive breast carcinoma,locally advanced or metastatic breast cancer,locally advanced or metastatic invasive breast carcinoma,"['PR positive', 'PTEN nonsense variants', 'HER2-negative']","['Capivasertib', 'Fulvestrant']"
+69,invasive breast carcinoma,locally advanced or metastatic breast cancer,locally advanced or metastatic invasive breast carcinoma,"['PR positive', 'PTEN nonsense variants', 'ER positive', 'HER2-negative']","['Capivasertib', 'Fulvestrant']"
+70,invasive breast carcinoma,locally advanced or metastatic breast cancer,locally advanced or metastatic invasive breast carcinoma,"['PTEN frameshift variants', 'ER positive', 'HER2-negative']","['Capivasertib', 'Fulvestrant']"
+71,invasive breast carcinoma,locally advanced or metastatic breast cancer,locally advanced or metastatic invasive breast carcinoma,"['PTEN frameshift variants', 'PR positive', 'HER2-negative']","['Capivasertib', 'Fulvestrant']"
+72,invasive breast carcinoma,locally advanced or metastatic breast cancer,locally advanced or metastatic invasive breast carcinoma,"['PTEN frameshift variants', 'PR positive', 'ER positive', 'HER2-negative']","['Capivasertib', 'Fulvestrant']"
+73,invasive breast carcinoma,locally advanced or metastatic breast cancer,locally advanced or metastatic invasive breast carcinoma,"['PTEN splice site variants', 'ER positive', 'HER2-negative']","['Capivasertib', 'Fulvestrant']"
+74,invasive breast carcinoma,locally advanced or metastatic breast cancer,locally advanced or metastatic invasive breast carcinoma,"['PTEN splice site variants', 'PR positive', 'HER2-negative']","['Capivasertib', 'Fulvestrant']"
+75,invasive breast carcinoma,locally advanced or metastatic breast cancer,locally advanced or metastatic invasive breast carcinoma,"['PTEN splice site variants', 'PR positive', 'ER positive', 'HER2-negative']","['Capivasertib', 'Fulvestrant']"
+76,invasive breast carcinoma,locally advanced or metastatic breast cancer,locally advanced or metastatic invasive breast carcinoma,"['PTEN deletion', 'ER positive', 'HER2-negative']","['Capivasertib', 'Fulvestrant']"
+77,invasive breast carcinoma,locally advanced or metastatic breast cancer,locally advanced or metastatic invasive breast carcinoma,"['PTEN deletion', 'PR positive', 'HER2-negative']","['Capivasertib', 'Fulvestrant']"
+78,invasive breast carcinoma,locally advanced or metastatic breast cancer,locally advanced or metastatic invasive breast carcinoma,"['PTEN deletion', 'PR positive', 'ER positive', 'HER2-negative']","['Capivasertib', 'Fulvestrant']"
+79,non-small cell lung cancer,metastatic non-small cell lung cancer,metastatic non-small cell lung cancer,['MET Exon 14 (Splice Site)'],['Capmatinib']
+80,non-small cell lung cancer,metastatic non-small cell lung cancer,metastatic non-small cell lung cancer,['MET Exon 14 (Deletion)'],['Capmatinib']
+81,non-small cell lung cancer,non-small cell lung cancer,non-small cell lung cancer,"['Wild type ROS1', 'Wild type EGFR', 'Wild type ALK']","['Cemiplimab', 'Carboplatin', 'Pemetrexed']"
+82,non-small cell lung cancer,non-small cell lung cancer,non-small cell lung cancer,"['dMMR', 'Wild type EGFR', 'Wild type ALK', 'PD-L1 >= 50%']",['Cemiplimab']
+83,non-small cell lung cancer,metastatic non-small cell lung cancer,metastatic non-small cell lung cancer,['v::ALK'],['Ceritinib']
+84,colorectal adenocarcinoma,metastatic colorectal cancer,metastatic colorectal adenocarcinoma,"['EGFR positive', 'Wild type KRAS']","['Fluorouracil', 'Irinotecan', 'Cetuximab']"
+85,colorectal adenocarcinoma,metastatic colorectal cancer,metastatic colorectal adenocarcinoma,"['EGFR positive', 'Wild type KRAS']","['Irinotecan', 'Cetuximab']"
+86,colorectal adenocarcinoma,metastatic colorectal cancer,metastatic colorectal adenocarcinoma,"['EGFR positive', 'Wild type KRAS']",['Cetuximab']
+87,colorectal adenocarcinoma,metastatic colorectal cancer,metastatic colorectal adenocarcinoma,['BRAF p.V600E'],"['Cetuximab', 'Encorafenib']"
+88,melanoma,unresectable or metastatic melanoma,unresectable or metastatic melanoma,['BRAF p.V600E'],"['Vemurafenib', 'Cobimetinib']"
+89,melanoma,unresectable or metastatic melanoma,unresectable or metastatic melanoma,['BRAF p.V600K'],"['Vemurafenib', 'Cobimetinib']"
+90,non-small cell lung cancer,metastatic non-small cell lung cancer,metastatic non-small cell lung cancer,['v::ALK'],['Crizotinib']
+91,non-small cell lung cancer,metastatic non-small cell lung cancer,metastatic non-small cell lung cancer,['v::ROS1'],['Crizotinib']
+92,anaplastic large cell lymphoma,anaplastic large cell lymphoma (alcl),anaplastic large cell lymphoma,['v::ALK'],['Crizotinib']
+93,inflammatory myofibroblastic tumor,"unresectable, recurrent, or refractory inflammatory myofibroblastic tumor (imt)","unresectable, recurrent, or refractory inflammatory myofibroblastic tumor",['v::ALK'],['Crizotinib']
+94,melanoma,unresectable or metastatic melanoma,unresectable or metastatic melanoma,['BRAF p.V600E'],['Dabrafenib']
+95,melanoma,unresectable or metastatic melanoma,unresectable or metastatic melanoma,['BRAF p.V600E'],"['Trametinib', 'Dabrafenib']"
+96,melanoma,unresectable or metastatic melanoma,unresectable or metastatic melanoma,['BRAF p.V600K'],"['Trametinib', 'Dabrafenib']"
+97,melanoma,melanoma,melanoma,['BRAF p.V600E'],"['Trametinib', 'Dabrafenib']"
+98,melanoma,melanoma,melanoma,['BRAF p.V600K'],"['Trametinib', 'Dabrafenib']"
+99,invasive breast carcinoma,early breast cancer,early invasive breast carcinoma,"['ER positive', 'HER2-negative']","['Letrozole', 'Abemaciclib']"
+100,non-small cell lung cancer,metastatic non-small cell lung cancer,metastatic non-small cell lung cancer,['BRAF p.V600E'],"['Trametinib', 'Dabrafenib']"
+101,anaplastic thyroid cancer,locally advanced or metastatic anaplastic thyroid cancer (atc),locally advanced or metastatic anaplastic thyroid cancer,['BRAF p.V600E'],"['Trametinib', 'Dabrafenib']"
+102,any solid tumor,unresectable or metastatic solid tumors,unresectable or metastatic any solid tumor,['BRAF p.V600E'],"['Trametinib', 'Dabrafenib']"
+103,"low-grade glioma, nos",low-grade glioma (lgg),"low-grade glioma, nos",['BRAF p.V600E'],"['Trametinib', 'Dabrafenib']"
+104,non-small cell lung cancer,metastatic non-small cell lung cancer,metastatic non-small cell lung cancer,['EGFR Exon 19 (Deletion)'],['Dacomitinib']
+105,non-small cell lung cancer,metastatic non-small cell lung cancer,metastatic non-small cell lung cancer,['EGFR p.L858R'],['Dacomitinib']
+106,chronic myelogenous leukemia,philadelphia chromosome-positive (ph+) chronic myeloid leukemia (cml),philadelphia chromosome-positive chronic myelogenous leukemia,['BCR::ABL1'],['Dasatinib']
+107,"chronic myeloid leukemia, bcr-abl1+",philadelphia chromosome-positive (ph+) chronic myeloid leukemia (cml),"philadelphia chromosome-positive chronic myeloid leukemia, bcr-abl1+",['BCR::ABL1'],['Dasatinib']
+108,chronic myelogenous leukemia,"chronic, accelerated, or myeloid or lymphoid blast phase ph+ cml","chronic, accelerated, or myeloid or lymphoid blast phase ph+ chronic myelogenous leukemia",['BCR::ABL1'],['Dasatinib']
+109,"chronic myeloid leukemia, bcr-abl1+","chronic, accelerated, or myeloid or lymphoid blast phase ph+ cml","chronic, accelerated, or myeloid or lymphoid blast phase ph+ chronic myeloid leukemia, bcr-abl1+",['BCR::ABL1'],['Dasatinib']
+110,acute lymphoid leukemia,philadelphia chromosome-positive acute lymphoblastic leukemia (ph+ all),philadelphia chromosome-positive acute lymphoid leukemia,['BCR::ABL1'],['Dasatinib']
+111,chronic myelogenous leukemia,philadelphia chromosome-positive cml,philadelphia chromosome-positive chronic myelogenous leukemia,['BCR::ABL1'],['Dasatinib']
+112,"chronic myeloid leukemia, bcr-abl1+",philadelphia chromosome-positive cml,"philadelphia chromosome-positive chronic myeloid leukemia, bcr-abl1+",['BCR::ABL1'],['Dasatinib']
+113,acute lymphoid leukemia,philadelphia chromosome-positive all,philadelphia chromosome-positive acute lymphoid leukemia,['BCR::ABL1'],['Dasatinib']
+114,endometrial carcinoma,primary advanced or recurrent endometrial cancer,primary advanced or recurrent endometrial carcinoma,['dMMR'],"['Carboplatin', 'Paclitaxel', 'Dostarlimab']"
+115,endometrial carcinoma,primary advanced or recurrent endometrial cancer,primary advanced or recurrent endometrial carcinoma,['MSI-H'],"['Carboplatin', 'Paclitaxel', 'Dostarlimab']"
+116,endometrial carcinoma,recurrent or advanced endometrial cancer,recurrent or advanced endometrial carcinoma,['dMMR'],['Dostarlimab']
+117,any solid tumor,recurrent or advanced solid tumors,recurrent or advanced any solid tumor,['dMMR'],['Dostarlimab']
+118,non-small cell lung cancer,metastatic non-small cell lung cancer,metastatic non-small cell lung cancer,"['Wild type EGFR', 'Wild type ALK']","['Carboplatin', 'Tremelimumab', 'Pemetrexed', 'Durvalumab']"
+119,non-small cell lung cancer,metastatic non-small cell lung cancer,metastatic non-small cell lung cancer,"['Wild type EGFR', 'Wild type ALK']","['Cisplatin', 'Tremelimumab', 'Pemetrexed', 'Durvalumab']"
+120,non-small cell lung cancer,metastatic non-small cell lung cancer,metastatic non-small cell lung cancer,"['Wild type EGFR', 'Wild type ALK']","['Gemcitabine', 'Carboplatin', 'Tremelimumab', 'Durvalumab']"
+121,non-small cell lung cancer,metastatic non-small cell lung cancer,metastatic non-small cell lung cancer,"['Wild type EGFR', 'Wild type ALK']","['Gemcitabine', 'Cisplatin', 'Tremelimumab', 'Durvalumab']"
+122,non-small cell lung cancer,metastatic non-small cell lung cancer,metastatic non-small cell lung cancer,"['Wild type EGFR', 'Wild type ALK']","['Nab-paclitaxel', 'Carboplatin', 'Tremelimumab', 'Durvalumab']"
+123,endometrial carcinoma,primary advanced or recurrent endometrial cancer,primary advanced or recurrent endometrial carcinoma,['dMMR'],"['Carboplatin', 'Paclitaxel', 'Durvalumab']"
+124,invasive breast carcinoma,advanced or metastatic breast cancer,advanced or metastatic invasive breast carcinoma,"['ESR1 oncogenic variants', 'ER positive', 'HER2-negative']",['Elacestrant']
+125,acute myeloid leukemia,relapsed or refractory acute myeloid leukemia (aml),relapsed or refractory acute myeloid leukemia,['IDH2 p.R140Q'],['Enasidenib']
+126,acute myeloid leukemia,relapsed or refractory acute myeloid leukemia (aml),relapsed or refractory acute myeloid leukemia,['IDH2 p.R140L'],['Enasidenib']
+127,acute myeloid leukemia,relapsed or refractory acute myeloid leukemia (aml),relapsed or refractory acute myeloid leukemia,['IDH2 p.R140G'],['Enasidenib']
+128,acute myeloid leukemia,relapsed or refractory acute myeloid leukemia (aml),relapsed or refractory acute myeloid leukemia,['IDH2 p.R140W'],['Enasidenib']
+129,acute myeloid leukemia,relapsed or refractory acute myeloid leukemia (aml),relapsed or refractory acute myeloid leukemia,['IDH2 p.R172K'],['Enasidenib']
+130,acute myeloid leukemia,relapsed or refractory acute myeloid leukemia (aml),relapsed or refractory acute myeloid leukemia,['IDH2 p.R172M'],['Enasidenib']
+131,acute myeloid leukemia,relapsed or refractory acute myeloid leukemia (aml),relapsed or refractory acute myeloid leukemia,['IDH2 p.R172G'],['Enasidenib']
+132,acute myeloid leukemia,relapsed or refractory acute myeloid leukemia (aml),relapsed or refractory acute myeloid leukemia,['IDH2 p.R172S'],['Enasidenib']
+133,acute myeloid leukemia,relapsed or refractory acute myeloid leukemia (aml),relapsed or refractory acute myeloid leukemia,['IDH2 p.R172W'],['Enasidenib']
+134,melanoma,unresectable or metastatic melanoma,unresectable or metastatic melanoma,['BRAF p.V600E'],"['Encorafenib', 'Binimetinib']"
+135,melanoma,unresectable or metastatic melanoma,unresectable or metastatic melanoma,['BRAF p.V600K'],"['Encorafenib', 'Binimetinib']"
+136,colorectal adenocarcinoma,metastatic colorectal cancer,metastatic colorectal adenocarcinoma,['BRAF p.V600E'],"['Cetuximab', 'Encorafenib']"
+137,non-small cell lung cancer,metastatic non-small cell lung cancer,metastatic non-small cell lung cancer,['BRAF p.V600E'],"['Encorafenib', 'Binimetinib']"
+138,non-small cell lung cancer,metastatic non-small cell lung cancer,metastatic non-small cell lung cancer,['v::ROS1'],['Entrectinib']
+139,any solid tumor,solid tumors,any solid tumor,['v::NTRK1'],['Entrectinib']
+140,any solid tumor,solid tumors,any solid tumor,['v::NTRK2'],['Entrectinib']
+141,any solid tumor,solid tumors,any solid tumor,['v::NTRK3'],['Entrectinib']
+142,bladder urothelial carcinoma,locally advanced or metastatic urothelial carcinoma (muc),locally advanced or metastatic bladder urothelial carcinoma,['FGFR3 p.R248C'],['Erdafitinib']
+143,bladder urothelial carcinoma,locally advanced or metastatic urothelial carcinoma (muc),locally advanced or metastatic bladder urothelial carcinoma,['FGFR3 p.S249C'],['Erdafitinib']
+144,bladder urothelial carcinoma,locally advanced or metastatic urothelial carcinoma (muc),locally advanced or metastatic bladder urothelial carcinoma,['FGFR3 p.G370C'],['Erdafitinib']
+145,bladder urothelial carcinoma,locally advanced or metastatic urothelial carcinoma (muc),locally advanced or metastatic bladder urothelial carcinoma,['FGFR3 p.Y373C'],['Erdafitinib']
+146,bladder urothelial carcinoma,locally advanced or metastatic urothelial carcinoma (muc),locally advanced or metastatic bladder urothelial carcinoma,['FGFR3::TACC3'],['Erdafitinib']
+147,non-small cell lung cancer,metastatic non-small cell lung cancer,metastatic non-small cell lung cancer,['EGFR Exon 19 (Deletion)'],['Erlotinib']
+148,non-small cell lung cancer,metastatic non-small cell lung cancer,metastatic non-small cell lung cancer,['EGFR p.L858R'],['Erlotinib']
+149,invasive breast carcinoma,breast cancer,invasive breast carcinoma,"['ER positive', 'HER2-negative']","['Everolimus', 'Exemestane']"
+150,invasive breast carcinoma,breast cancer,invasive breast carcinoma,"['PR positive', 'HER2-negative']","['Everolimus', 'Exemestane']"
+151,invasive breast carcinoma,breast cancer,invasive breast carcinoma,"['PR positive', 'ER positive', 'HER2-negative']","['Everolimus', 'Exemestane']"
+152,invasive breast carcinoma,breast cancer,invasive breast carcinoma,"['ER positive', 'HER2-negative']",['Fulvestrant']
+153,invasive breast carcinoma,breast cancer,invasive breast carcinoma,"['PR positive', 'HER2-negative']",['Fulvestrant']
+154,invasive breast carcinoma,breast cancer,invasive breast carcinoma,"['PR positive', 'ER positive', 'HER2-negative']",['Fulvestrant']
+155,invasive breast carcinoma,breast cancer,invasive breast carcinoma,['ER positive'],['Fulvestrant']
+156,invasive breast carcinoma,breast cancer,invasive breast carcinoma,['PR positive'],['Fulvestrant']
+157,invasive breast carcinoma,breast cancer,invasive breast carcinoma,"['PR positive', 'ER positive']",['Fulvestrant']
+158,invasive breast carcinoma,advanced or metastatic breast cancer,advanced or metastatic invasive breast carcinoma,"['ER positive', 'HER2-negative']","['Ribociclib', 'Fulvestrant']"
+159,invasive breast carcinoma,advanced or metastatic breast cancer,advanced or metastatic invasive breast carcinoma,"['PR positive', 'HER2-negative']","['Ribociclib', 'Fulvestrant']"
+160,invasive breast carcinoma,advanced or metastatic breast cancer,advanced or metastatic invasive breast carcinoma,"['PR positive', 'ER positive', 'HER2-negative']","['Ribociclib', 'Fulvestrant']"
+161,invasive breast carcinoma,advanced or metastatic breast cancer,advanced or metastatic invasive breast carcinoma,"['ER positive', 'HER2-negative']","['Fulvestrant', 'Palbociclib']"
+162,invasive breast carcinoma,advanced or metastatic breast cancer,advanced or metastatic invasive breast carcinoma,"['PR positive', 'HER2-negative']","['Fulvestrant', 'Palbociclib']"
+163,invasive breast carcinoma,advanced or metastatic breast cancer,advanced or metastatic invasive breast carcinoma,"['PR positive', 'ER positive', 'HER2-negative']","['Fulvestrant', 'Palbociclib']"
+164,invasive breast carcinoma,advanced or metastatic breast cancer,advanced or metastatic invasive breast carcinoma,"['ER positive', 'HER2-negative']","['Fulvestrant', 'Abemaciclib']"
+165,invasive breast carcinoma,advanced or metastatic breast cancer,advanced or metastatic invasive breast carcinoma,"['PR positive', 'HER2-negative']","['Fulvestrant', 'Abemaciclib']"
+166,invasive breast carcinoma,advanced or metastatic breast cancer,advanced or metastatic invasive breast carcinoma,"['PR positive', 'ER positive', 'HER2-negative']","['Fulvestrant', 'Abemaciclib']"
+167,intrahepatic cholangiocarcinoma,"unresectable, locally or metastatic intrahepatic cholangiocarcinoma","unresectable, locally or metastatic intrahepatic cholangiocarcinoma",['FGFR2::v'],['Futibatinib']
+168,non-small cell lung cancer,metastatic non-small cell lung cancer,metastatic non-small cell lung cancer,['EGFR Exon 19 (Deletion)'],['Gefitinib']
+169,non-small cell lung cancer,metastatic non-small cell lung cancer,metastatic non-small cell lung cancer,['EGFR p.L858R'],['Gefitinib']
+170,acute lymphoid leukemia,acute myeloid leukemia,acute lymphoid leukemia,['CD33 +'],['Gemtuzumab ozogamicin']
+171,acute lymphoid leukemia,acute myeloid leukemia,acute lymphoid leukemia,['CD33 +'],['Gemtuzumab ozogamicin']
+172,acute lymphoid leukemia,relapsed or refractory acute myeloid leukemia,relapsed or refractory acute lymphoid leukemia,['FLT3-ITD'],['Gilteritinib']
+173,acute lymphoid leukemia,relapsed or refractory acute myeloid leukemia,relapsed or refractory acute lymphoid leukemia,['FLT3 p.D835Y'],['Gilteritinib']
+174,acute lymphoid leukemia,relapsed or refractory acute myeloid leukemia,relapsed or refractory acute lymphoid leukemia,['FLT3 p.D835A'],['Gilteritinib']
+175,acute lymphoid leukemia,relapsed or refractory acute myeloid leukemia,relapsed or refractory acute lymphoid leukemia,['FLT3 p.D835E'],['Gilteritinib']
+176,acute lymphoid leukemia,relapsed or refractory acute myeloid leukemia,relapsed or refractory acute lymphoid leukemia,['FLT3 p.D835H'],['Gilteritinib']
+177,acute lymphoid leukemia,relapsed or refractory acute myeloid leukemia,relapsed or refractory acute lymphoid leukemia,['FLT3 p.D835N'],['Gilteritinib']
+178,acute lymphoid leukemia,relapsed or refractory acute myeloid leukemia,relapsed or refractory acute lymphoid leukemia,['FLT3 p.D835S'],['Gilteritinib']
+179,acute lymphoid leukemia,relapsed or refractory acute myeloid leukemia,relapsed or refractory acute lymphoid leukemia,['FLT3 p.D835V'],['Gilteritinib']
+180,chronic myelogenous leukemia,philadelphia chromosome-positive chronic myeloid leukemia,philadelphia chromosome-positive chronic myelogenous leukemia,['BCR::ABL1'],['Imatinib']
+181,"chronic myeloid leukemia, bcr-abl1+",philadelphia chromosome-positive chronic myeloid leukemia,"philadelphia chromosome-positive chronic myeloid leukemia, bcr-abl1+",['BCR::ABL1'],['Imatinib']
+182,chronic myelogenous leukemia,philadelphia chromosome-positive chronic myeloid leukemia,philadelphia chromosome-positive chronic myelogenous leukemia,['BCR::ABL1'],['Imatinib']
+183,"chronic myeloid leukemia, bcr-abl1+",philadelphia chromosome-positive chronic myeloid leukemia,"philadelphia chromosome-positive chronic myeloid leukemia, bcr-abl1+",['BCR::ABL1'],['Imatinib']
+184,acute lymphoid leukemia,philadelphia chromosome-positive acute lymphoblastic leukemia,philadelphia chromosome-positive acute lymphoid leukemia,['BCR::ABL1'],['Imatinib']
+185,acute lymphoid leukemia,philadelphia chromosome-positive acute lymphoblastic leukemia,philadelphia chromosome-positive acute lymphoid leukemia,['BCR::ABL1'],['Imatinib']
+186,myelodysplastic syndromes,myelodyplastic/myeloproliferative diseases (mds/mpd),myelodysplastic syndromes,['PDGFRA rearrangements'],['Imatinib']
+187,myelodysplastic syndromes,myelodyplastic/myeloproliferative diseases (mds/mpd),myelodysplastic syndromes,['PDGFRB rearrangements'],['Imatinib']
+188,aggressive systemic mastocytosis,aggressive systemic mastocytosis (asm),aggressive systemic mastocytosis,['KIT p.D816V'],['Imatinib']
+189,"chronic eosinophilic leukemia, nos",hypereosinophilic syndrome (hes) and/or chronic eosinophilic leukemia (cel),"chronic eosinophilic leukemia, nos",['FIP1L1::PDGFRA'],['Imatinib']
+190,gastrointestinal stromal tumor,unresectable and/or metastatic maligant gastrointestinal stromal tumors (gist),unresectable and/or metastatic maligant gastrointestinal stromal tumor,['CD117 +'],['Imatinib']
+191,gastrointestinal stromal tumor,gist,gastrointestinal stromal tumor,['FIP1L1::PDGFRA'],['Imatinib']
+192,cholangiocarcinoma,unresectable locally advanced or metastatic cholangiocarcinoma,unresectable locally advanced or metastatic cholangiocarcinoma,['FGFR2::v'],['Infigratinib']
+193,acute lymphoid leukemia,b-cell precursor acute lymphoblastic leukemia (all),b-cell precursor acute lymphoid leukemia,['CD22 +'],['Inotuzumab ozogamicin']
+194,colorectal adenocarcinoma,metastatic colorectal cancer,metastatic colorectal adenocarcinoma,['MSI-H'],"['Nivolumab', 'Ipilimumab']"
+195,colorectal adenocarcinoma,metastatic colorectal cancer,metastatic colorectal adenocarcinoma,['dMMR'],"['Nivolumab', 'Ipilimumab']"
+196,non-small cell lung cancer,metastatic non-small cell lung cancer,metastatic non-small cell lung cancer,"['Wild type EGFR', 'Wild type ALK', 'PD-L1 >= 1%']","['Nivolumab', 'Ipilimumab']"
+197,non-small cell lung cancer,metastatic or recurrent non-small cell lung cancer,metastatic or recurrent non-small cell lung cancer,"['Wild type EGFR', 'Wild type ALK']","['Carboplatin', 'Pemetrexed', 'Nivolumab', 'Ipilimumab']"
+198,non-small cell lung cancer,metastatic or recurrent non-small cell lung cancer,metastatic or recurrent non-small cell lung cancer,"['Wild type EGFR', 'Wild type ALK']","['Cisplatin', 'Pemetrexed', 'Nivolumab', 'Ipilimumab']"
+199,non-small cell lung cancer,metastatic or recurrent non-small cell lung cancer,metastatic or recurrent non-small cell lung cancer,"['Wild type EGFR', 'Wild type ALK']","['Carboplatin', 'Paclitaxel', 'Nivolumab', 'Ipilimumab']"
+200,acute myeloid leukemia,acute myeloid leukemia,acute myeloid leukemia,['IDH1 p.R132C'],['Ivosidenib']
+201,acute myeloid leukemia,acute myeloid leukemia,acute myeloid leukemia,['IDH1 p.R132G'],['Ivosidenib']
+202,acute myeloid leukemia,acute myeloid leukemia,acute myeloid leukemia,['IDH1 p.R132H'],['Ivosidenib']
+203,acute myeloid leukemia,acute myeloid leukemia,acute myeloid leukemia,['IDH1 p.R132L'],['Ivosidenib']
+204,acute myeloid leukemia,acute myeloid leukemia,acute myeloid leukemia,['IDH1 p.R132S'],['Ivosidenib']
+205,acute myeloid leukemia,acute myeloid leukemia,acute myeloid leukemia,['IDH1 p.R132C'],"['Ivosidenib', 'Azacitidine']"
+206,acute myeloid leukemia,acute myeloid leukemia,acute myeloid leukemia,['IDH1 p.R132G'],"['Ivosidenib', 'Azacitidine']"
+207,acute myeloid leukemia,acute myeloid leukemia,acute myeloid leukemia,['IDH1 p.R132H'],"['Ivosidenib', 'Azacitidine']"
+208,acute myeloid leukemia,acute myeloid leukemia,acute myeloid leukemia,['IDH1 p.R132L'],"['Ivosidenib', 'Azacitidine']"
+209,acute myeloid leukemia,acute myeloid leukemia,acute myeloid leukemia,['IDH1 p.R132S'],"['Ivosidenib', 'Azacitidine']"
+210,acute myeloid leukemia,relapsed or refractory aml,relapsed or refractory acute myeloid leukemia,['IDH1 p.R132C'],['Ivosidenib']
+211,acute myeloid leukemia,relapsed or refractory aml,relapsed or refractory acute myeloid leukemia,['IDH1 p.R132G'],['Ivosidenib']
+212,acute myeloid leukemia,relapsed or refractory aml,relapsed or refractory acute myeloid leukemia,['IDH1 p.R132H'],['Ivosidenib']
+213,acute myeloid leukemia,relapsed or refractory aml,relapsed or refractory acute myeloid leukemia,['IDH1 p.R132L'],['Ivosidenib']
+214,acute myeloid leukemia,relapsed or refractory aml,relapsed or refractory acute myeloid leukemia,['IDH1 p.R132S'],['Ivosidenib']
+215,myelodysplastic syndromes,relapsed or refractory myelodysplastic syndromes,relapsed or refractory myelodysplastic syndromes,['IDH1 p.R132C'],['Ivosidenib']
+216,myelodysplastic syndromes,relapsed or refractory myelodysplastic syndromes,relapsed or refractory myelodysplastic syndromes,['IDH1 p.R132G'],['Ivosidenib']
+217,myelodysplastic syndromes,relapsed or refractory myelodysplastic syndromes,relapsed or refractory myelodysplastic syndromes,['IDH1 p.R132H'],['Ivosidenib']
+218,myelodysplastic syndromes,relapsed or refractory myelodysplastic syndromes,relapsed or refractory myelodysplastic syndromes,['IDH1 p.R132L'],['Ivosidenib']
+219,myelodysplastic syndromes,relapsed or refractory myelodysplastic syndromes,relapsed or refractory myelodysplastic syndromes,['IDH1 p.R132S'],['Ivosidenib']
+220,cholangiocarcinoma,locally advanced or metastatic cholangiocarcinoma,locally advanced or metastatic cholangiocarcinoma,['IDH1 p.R132C'],['Ivosidenib']
+221,cholangiocarcinoma,locally advanced or metastatic cholangiocarcinoma,locally advanced or metastatic cholangiocarcinoma,['IDH1 p.R132G'],['Ivosidenib']
+222,cholangiocarcinoma,locally advanced or metastatic cholangiocarcinoma,locally advanced or metastatic cholangiocarcinoma,['IDH1 p.R132H'],['Ivosidenib']
+223,cholangiocarcinoma,locally advanced or metastatic cholangiocarcinoma,locally advanced or metastatic cholangiocarcinoma,['IDH1 p.R132L'],['Ivosidenib']
+224,cholangiocarcinoma,locally advanced or metastatic cholangiocarcinoma,locally advanced or metastatic cholangiocarcinoma,['IDH1 p.R132S'],['Ivosidenib']
+225,invasive breast carcinoma,advanced or metastatic breast cancer,advanced or metastatic invasive breast carcinoma,['HER2-positive'],"['Lapatinib', 'Capecitabine']"
+226,invasive breast carcinoma,metastatic breast cancer,metastatic invasive breast carcinoma,"['HER2-positive', 'ER positive']","['Letrozole', 'Lapatinib']"
+227,invasive breast carcinoma,metastatic breast cancer,metastatic invasive breast carcinoma,"['HER2-positive', 'PR positive']","['Letrozole', 'Lapatinib']"
+228,invasive breast carcinoma,metastatic breast cancer,metastatic invasive breast carcinoma,"['HER2-positive', 'PR positive', 'ER positive']","['Letrozole', 'Lapatinib']"
+229,any solid tumor,solid tumors,any solid tumor,['v::NTRK1'],['Larotrectinib']
+230,any solid tumor,solid tumors,any solid tumor,['v::NTRK2'],['Larotrectinib']
+231,any solid tumor,solid tumors,any solid tumor,['v::NTRK3'],['Larotrectinib']
+232,myelodysplastic syndromes,transfusion-dependent anemia due to low- or intermediate-1-risk myelodysplastic syndromes (mds),transfusion-dependent anemia due to low- or intermediate-1-risk myelodysplastic syndromes,['5q deletion'],['Lenalidomide']
+233,non-small cell lung cancer,metastatic non-small cell lung cancer,metastatic non-small cell lung cancer,['v::ALK'],['Lorlatinib']
+234,invasive breast carcinoma,metastatic breast cancer,metastatic invasive breast carcinoma,['HER2-positive'],"['Margetuximab', 'Capecitabine']"
+235,invasive breast carcinoma,metastatic breast cancer,metastatic invasive breast carcinoma,['HER2-positive'],"['Eribulin', 'Margetuximab']"
+236,invasive breast carcinoma,metastatic breast cancer,metastatic invasive breast carcinoma,['HER2-positive'],"['Gemcitabine', 'Margetuximab']"
+237,invasive breast carcinoma,metastatic breast cancer,metastatic invasive breast carcinoma,['HER2-positive'],"['Vinorelbine', 'Margetuximab']"
+238,acute myeloid leukemia,acute myeloid leukemia,acute myeloid leukemia,['FLT3-ITD'],"['Cytarabine', 'Daunorubicin', 'Midostaurin']"
+239,acute myeloid leukemia,acute myeloid leukemia,acute myeloid leukemia,['FLT3 p.D835Y'],"['Cytarabine', 'Daunorubicin', 'Midostaurin']"
+240,acute myeloid leukemia,acute myeloid leukemia,acute myeloid leukemia,['FLT3 p.D835A'],"['Cytarabine', 'Daunorubicin', 'Midostaurin']"
+241,acute myeloid leukemia,acute myeloid leukemia,acute myeloid leukemia,['FLT3 p.D835E'],"['Cytarabine', 'Daunorubicin', 'Midostaurin']"
+242,acute myeloid leukemia,acute myeloid leukemia,acute myeloid leukemia,['FLT3 p.D835H'],"['Cytarabine', 'Daunorubicin', 'Midostaurin']"
+243,acute myeloid leukemia,acute myeloid leukemia,acute myeloid leukemia,['FLT3 p.D835N'],"['Cytarabine', 'Daunorubicin', 'Midostaurin']"
+244,acute myeloid leukemia,acute myeloid leukemia,acute myeloid leukemia,['FLT3 p.D835S'],"['Cytarabine', 'Daunorubicin', 'Midostaurin']"
+245,acute myeloid leukemia,acute myeloid leukemia,acute myeloid leukemia,['FLT3 p.D835V'],"['Cytarabine', 'Daunorubicin', 'Midostaurin']"
+246,acute myeloid leukemia,acute myeloid leukemia,acute myeloid leukemia,['FLT3 p.I836del'],"['Cytarabine', 'Daunorubicin', 'Midostaurin']"
+247,acute myeloid leukemia,acute myeloid leukemia,acute myeloid leukemia,['CDK12 oncogenic variants'],"['Cytarabine', 'Daunorubicin', 'Midostaurin']"
+248,non-small cell lung cancer,locally advanced or metastatic non-small cell lung cancer,locally advanced or metastatic non-small cell lung cancer,['EGFR Exon 20 (Insertion)'],['Mobocertinib']
+249,invasive breast carcinoma,early-stage breast cancer,early-stage invasive breast carcinoma,['HER2-positive'],['Neratinib']
+250,invasive breast carcinoma,advanced or metastatic breast cancer,advanced or metastatic invasive breast carcinoma,['HER2-positive'],"['Capecitabine', 'Neratinib']"
+251,chronic myelogenous leukemia,philadelphia chromosome-positive chronic myeloid (ph+ cml),philadelphia chromosome-positive chronic myelogenous leukemia,['BCR::ABL1'],['Nilotinib']
+252,"chronic myeloid leukemia, bcr-abl1+",philadelphia chromosome-positive chronic myeloid (ph+ cml),"philadelphia chromosome-positive chronic myeloid leukemia, bcr-abl1+",['BCR::ABL1'],['Nilotinib']
+253,chronic myelogenous leukemia,chronic phase or accelerated phase ph+ cml,chronic phase or accelerated phase ph+ chronic myelogenous leukemia,['BCR::ABL1'],['Nilotinib']
+254,"chronic myeloid leukemia, bcr-abl1+",chronic phase or accelerated phase ph+ cml,"chronic phase or accelerated phase ph+ chronic myeloid leukemia, bcr-abl1+",['BCR::ABL1'],['Nilotinib']
+255,ovarian epithelial tumor,"recurrent epithelial ovarian, fallopian tubem or primary peritoneal cancer",recurrent ovarian epithelial tumor,['BRCA1 pathogenic variants'],['Niraparib']
+256,ovarian epithelial tumor,"recurrent epithelial ovarian, fallopian tubem or primary peritoneal cancer",recurrent ovarian epithelial tumor,['BRCA2 pathogenic variants'],['Niraparib']
+257,high-grade serous fallopian tube cancer,"recurrent epithelial ovarian, fallopian tubem or primary peritoneal cancer",recurrent high-grade serous fallopian tube cancer,['BRCA1 pathogenic variants'],['Niraparib']
+258,high-grade serous fallopian tube cancer,"recurrent epithelial ovarian, fallopian tubem or primary peritoneal cancer",recurrent high-grade serous fallopian tube cancer,['BRCA2 pathogenic variants'],['Niraparib']
+259,peritoneal serous carcinoma,"recurrent epithelial ovarian, fallopian tubem or primary peritoneal cancer",recurrent peritoneal serous carcinoma,['BRCA1 pathogenic variants'],['Niraparib']
+260,peritoneal serous carcinoma,"recurrent epithelial ovarian, fallopian tubem or primary peritoneal cancer",recurrent peritoneal serous carcinoma,['BRCA2 pathogenic variants'],['Niraparib']
+261,non-small cell lung cancer,non-small cell lung cancer,non-small cell lung cancer,"['Wild type EGFR', 'Wild type ALK']","['Carboplatin', 'Paclitaxel', 'Nivolumab']"
+262,non-small cell lung cancer,non-small cell lung cancer,non-small cell lung cancer,['PD-L1 >= 1%'],"['Nivolumab', 'Ipilimumab']"
+263,ovarian epithelial tumor,"advanced epithelial ovarian, fallopian tube or primary peritoneal cancer",advanced ovarian epithelial tumor,['BRCA1 oncogenic variants'],['Olaparib']
+264,ovarian epithelial tumor,"advanced epithelial ovarian, fallopian tube or primary peritoneal cancer",advanced ovarian epithelial tumor,['BRCA1 pathogenic variants'],['Olaparib']
+265,ovarian epithelial tumor,"advanced epithelial ovarian, fallopian tube or primary peritoneal cancer",advanced ovarian epithelial tumor,['BRCA2 oncogenic variants'],['Olaparib']
+266,ovarian epithelial tumor,"advanced epithelial ovarian, fallopian tube or primary peritoneal cancer",advanced ovarian epithelial tumor,['BRCA2 pathogenic variants'],['Olaparib']
+267,high-grade serous fallopian tube cancer,"advanced epithelial ovarian, fallopian tube or primary peritoneal cancer",advanced high-grade serous fallopian tube cancer,['BRCA1 oncogenic variants'],['Olaparib']
+268,high-grade serous fallopian tube cancer,"advanced epithelial ovarian, fallopian tube or primary peritoneal cancer",advanced high-grade serous fallopian tube cancer,['BRCA1 pathogenic variants'],['Olaparib']
+269,high-grade serous fallopian tube cancer,"advanced epithelial ovarian, fallopian tube or primary peritoneal cancer",advanced high-grade serous fallopian tube cancer,['BRCA2 oncogenic variants'],['Olaparib']
+270,high-grade serous fallopian tube cancer,"advanced epithelial ovarian, fallopian tube or primary peritoneal cancer",advanced high-grade serous fallopian tube cancer,['BRCA2 pathogenic variants'],['Olaparib']
+271,peritoneal serous carcinoma,"advanced epithelial ovarian, fallopian tube or primary peritoneal cancer",advanced peritoneal serous carcinoma,['BRCA1 oncogenic variants'],['Olaparib']
+272,peritoneal serous carcinoma,"advanced epithelial ovarian, fallopian tube or primary peritoneal cancer",advanced peritoneal serous carcinoma,['BRCA1 pathogenic variants'],['Olaparib']
+273,peritoneal serous carcinoma,"advanced epithelial ovarian, fallopian tube or primary peritoneal cancer",advanced peritoneal serous carcinoma,['BRCA2 oncogenic variants'],['Olaparib']
+274,peritoneal serous carcinoma,"advanced epithelial ovarian, fallopian tube or primary peritoneal cancer",advanced peritoneal serous carcinoma,['BRCA2 pathogenic variants'],['Olaparib']
+275,ovarian epithelial tumor,"advanced epithelial ovarian, fallopian tube or primary peritoneal cancer",advanced ovarian epithelial tumor,['BRCA1 oncogenic variants'],"['Bevacizumab', 'Olaparib']"
+276,ovarian epithelial tumor,"advanced epithelial ovarian, fallopian tube or primary peritoneal cancer",advanced ovarian epithelial tumor,['BRCA1 pathogenic variants'],"['Bevacizumab', 'Olaparib']"
+277,ovarian epithelial tumor,"advanced epithelial ovarian, fallopian tube or primary peritoneal cancer",advanced ovarian epithelial tumor,['BRCA2 oncogenic variants'],"['Bevacizumab', 'Olaparib']"
+278,ovarian epithelial tumor,"advanced epithelial ovarian, fallopian tube or primary peritoneal cancer",advanced ovarian epithelial tumor,['BRCA2 pathogenic variants'],"['Bevacizumab', 'Olaparib']"
+279,ovarian epithelial tumor,"advanced epithelial ovarian, fallopian tube or primary peritoneal cancer",advanced ovarian epithelial tumor,['HRD'],"['Bevacizumab', 'Olaparib']"
+280,high-grade serous fallopian tube cancer,"advanced epithelial ovarian, fallopian tube or primary peritoneal cancer",advanced high-grade serous fallopian tube cancer,['BRCA1 oncogenic variants'],"['Bevacizumab', 'Olaparib']"
+281,high-grade serous fallopian tube cancer,"advanced epithelial ovarian, fallopian tube or primary peritoneal cancer",advanced high-grade serous fallopian tube cancer,['BRCA1 pathogenic variants'],"['Bevacizumab', 'Olaparib']"
+282,high-grade serous fallopian tube cancer,"advanced epithelial ovarian, fallopian tube or primary peritoneal cancer",advanced high-grade serous fallopian tube cancer,['BRCA2 oncogenic variants'],"['Bevacizumab', 'Olaparib']"
+283,high-grade serous fallopian tube cancer,"advanced epithelial ovarian, fallopian tube or primary peritoneal cancer",advanced high-grade serous fallopian tube cancer,['BRCA2 pathogenic variants'],"['Bevacizumab', 'Olaparib']"
+284,high-grade serous fallopian tube cancer,"advanced epithelial ovarian, fallopian tube or primary peritoneal cancer",advanced high-grade serous fallopian tube cancer,['HRD'],"['Bevacizumab', 'Olaparib']"
+285,peritoneal serous carcinoma,"advanced epithelial ovarian, fallopian tube or primary peritoneal cancer",advanced peritoneal serous carcinoma,['BRCA1 oncogenic variants'],"['Bevacizumab', 'Olaparib']"
+286,peritoneal serous carcinoma,"advanced epithelial ovarian, fallopian tube or primary peritoneal cancer",advanced peritoneal serous carcinoma,['BRCA1 pathogenic variants'],"['Bevacizumab', 'Olaparib']"
+287,peritoneal serous carcinoma,"advanced epithelial ovarian, fallopian tube or primary peritoneal cancer",advanced peritoneal serous carcinoma,['BRCA2 oncogenic variants'],"['Bevacizumab', 'Olaparib']"
+288,peritoneal serous carcinoma,"advanced epithelial ovarian, fallopian tube or primary peritoneal cancer",advanced peritoneal serous carcinoma,['BRCA2 pathogenic variants'],"['Bevacizumab', 'Olaparib']"
+289,peritoneal serous carcinoma,"advanced epithelial ovarian, fallopian tube or primary peritoneal cancer",advanced peritoneal serous carcinoma,['HRD'],"['Bevacizumab', 'Olaparib']"
+290,ovarian epithelial tumor,"relapsed epithelial ovarian, fallopian tube or primary peritoneal cancer",relapsed ovarian epithelial tumor,['BRCA1 oncogenic variants'],['Olaparib']
+291,ovarian epithelial tumor,"relapsed epithelial ovarian, fallopian tube or primary peritoneal cancer",relapsed ovarian epithelial tumor,['BRCA1 pathogenic variants'],['Olaparib']
+292,ovarian epithelial tumor,"relapsed epithelial ovarian, fallopian tube or primary peritoneal cancer",relapsed ovarian epithelial tumor,['BRCA2 oncogenic variants'],['Olaparib']
+293,ovarian epithelial tumor,"relapsed epithelial ovarian, fallopian tube or primary peritoneal cancer",relapsed ovarian epithelial tumor,['BRCA2 pathogenic variants'],['Olaparib']
+294,high-grade serous fallopian tube cancer,"relapsed epithelial ovarian, fallopian tube or primary peritoneal cancer",relapsed high-grade serous fallopian tube cancer,['BRCA1 oncogenic variants'],['Olaparib']
+295,high-grade serous fallopian tube cancer,"relapsed epithelial ovarian, fallopian tube or primary peritoneal cancer",relapsed high-grade serous fallopian tube cancer,['BRCA1 pathogenic variants'],['Olaparib']
+296,high-grade serous fallopian tube cancer,"relapsed epithelial ovarian, fallopian tube or primary peritoneal cancer",relapsed high-grade serous fallopian tube cancer,['BRCA2 oncogenic variants'],['Olaparib']
+297,high-grade serous fallopian tube cancer,"relapsed epithelial ovarian, fallopian tube or primary peritoneal cancer",relapsed high-grade serous fallopian tube cancer,['BRCA2 pathogenic variants'],['Olaparib']
+298,peritoneal serous carcinoma,"relapsed epithelial ovarian, fallopian tube or primary peritoneal cancer",relapsed peritoneal serous carcinoma,['BRCA1 oncogenic variants'],['Olaparib']
+299,peritoneal serous carcinoma,"relapsed epithelial ovarian, fallopian tube or primary peritoneal cancer",relapsed peritoneal serous carcinoma,['BRCA1 pathogenic variants'],['Olaparib']
+300,peritoneal serous carcinoma,"relapsed epithelial ovarian, fallopian tube or primary peritoneal cancer",relapsed peritoneal serous carcinoma,['BRCA2 oncogenic variants'],['Olaparib']
+301,peritoneal serous carcinoma,"relapsed epithelial ovarian, fallopian tube or primary peritoneal cancer",relapsed peritoneal serous carcinoma,['BRCA2 pathogenic variants'],['Olaparib']
+302,invasive breast carcinoma,high risk early breast cancer,high risk early invasive breast carcinoma,"['BRCA1 pathogenic variants', 'HER2-negative']",['Olaparib']
+303,invasive breast carcinoma,high risk early breast cancer,high risk early invasive breast carcinoma,"['BRCA2 pathogenic variants', 'HER2-negative']",['Olaparib']
+304,invasive breast carcinoma,metastatic breast cancer,metastatic invasive breast carcinoma,"['BRCA1 pathogenic variants', 'HER2-negative']",['Olaparib']
+305,invasive breast carcinoma,metastatic breast cancer,metastatic invasive breast carcinoma,"['BRCA2 pathogenic variants', 'HER2-negative']",['Olaparib']
+306,pancreatic adenocarcinoma,metastatic pancreatic adenocarcinoma,metastatic pancreatic adenocarcinoma,['BRCA1 pathogenic variants'],['Olaparib']
+307,pancreatic adenocarcinoma,metastatic pancreatic adenocarcinoma,metastatic pancreatic adenocarcinoma,['BRCA2 pathogenic variants'],['Olaparib']
+308,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['BRCA1 oncogenic variants'],"['Enzalutamide', 'Talazoparib']"
+309,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['BRCA1 oncogenic variants'],['Olaparib']
+310,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['BRCA1 pathogenic variants'],['Olaparib']
+311,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['BRCA2 oncogenic variants'],['Olaparib']
+312,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['BRCA2 pathogenic variants'],['Olaparib']
+313,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['ATM pathogenic variants'],['Olaparib']
+314,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['ATM oncogenic variants'],['Olaparib']
+315,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['BARD1 pathogenic variants'],['Olaparib']
+316,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['BARD1 oncogenic variants'],['Olaparib']
+317,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['BRIP1 oncogenic variants'],['Olaparib']
+318,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['BRIP1 pathogenic variants'],['Olaparib']
+319,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['CDK12 pathogenic variants'],['Olaparib']
+320,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['CDK12 oncogenic variants'],['Olaparib']
+321,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['CHEK1 pathogenic variants'],['Olaparib']
+322,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['CHEK1 oncogenic variants'],['Olaparib']
+323,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['CHEK2 pathogenic variants'],['Olaparib']
+324,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['CHEK2 oncogenic variants'],['Olaparib']
+325,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['FANCL pathogenic variants'],['Olaparib']
+326,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['FANCL oncogenic variants'],['Olaparib']
+327,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['PALB2 pathogenic variants'],['Olaparib']
+328,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['PALB2 oncogenic variants'],['Olaparib']
+329,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['RAD51B pathogenic variants'],['Olaparib']
+330,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['RAD51B oncogenic variants'],['Talazoparib']
+331,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['RAD51C pathogenic variants'],['Olaparib']
+332,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['RAD51C oncogenic variants'],['Olaparib']
+333,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['RAD51D pathogenic variants'],['Olaparib']
+334,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['RAD51D oncogenic variants'],['Olaparib']
+335,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['RAD54L pathogenic variants'],['Olaparib']
+336,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['RAD54L oncogenic variants'],['Olaparib']
+337,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['BRCA1 oncogenic variants'],"['Abiraterone acetate', 'Prednisolone', 'Olaparib']"
+338,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['BRCA1 pathogenic variants'],"['Abiraterone acetate', 'Prednisolone', 'Olaparib']"
+339,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['BRCA2 oncogenic variants'],"['Abiraterone acetate', 'Prednisolone', 'Olaparib']"
+340,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['BRCA2 pathogenic variants'],"['Abiraterone acetate', 'Prednisolone', 'Olaparib']"
+341,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['BRCA1 oncogenic variants'],"['Prednisone', 'Abiraterone acetate', 'Olaparib']"
+342,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['BRCA1 pathogenic variants'],"['Prednisone', 'Abiraterone acetate', 'Olaparib']"
+343,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['BRCA2 oncogenic variants'],"['Prednisone', 'Abiraterone acetate', 'Olaparib']"
+344,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['BRCA2 pathogenic variants'],"['Prednisone', 'Abiraterone acetate', 'Olaparib']"
+345,acute myeloid leukemia,relapsed or refractory acute myeloid leukemia (aml),relapsed or refractory acute myeloid leukemia,['IDH1 p.R132C'],['Olutasidenib']
+346,acute myeloid leukemia,relapsed or refractory acute myeloid leukemia (aml),relapsed or refractory acute myeloid leukemia,['IDH1 p.R132G'],['Olutasidenib']
+347,acute myeloid leukemia,relapsed or refractory acute myeloid leukemia (aml),relapsed or refractory acute myeloid leukemia,['IDH1 p.R132H'],['Olutasidenib']
+348,acute myeloid leukemia,relapsed or refractory acute myeloid leukemia (aml),relapsed or refractory acute myeloid leukemia,['IDH1 p.R132L'],['Olutasidenib']
+349,acute myeloid leukemia,relapsed or refractory acute myeloid leukemia (aml),relapsed or refractory acute myeloid leukemia,['IDH1 p.R132S'],['Olutasidenib']
+350,non-small cell lung cancer,non-small cell lung cancer,non-small cell lung cancer,['EGFR Exon 19 (Deletion)'],['Osimertinib']
+351,non-small cell lung cancer,non-small cell lung cancer,non-small cell lung cancer,['EGFR p.L858R'],['Osimertinib']
+352,non-small cell lung cancer,metastatic non-small cell lung cancer,metastatic non-small cell lung cancer,['EGFR p.L858R'],['Osimertinib']
+353,non-small cell lung cancer,metastatic non-small cell lung cancer,metastatic non-small cell lung cancer,['EGFR Exon 19 (Deletion)'],['Osimertinib']
+354,non-small cell lung cancer,locally advanced or metastatic non-small cell lung cancer,locally advanced or metastatic non-small cell lung cancer,['EGFR p.L858R'],"['Cisplatin', 'Osimertinib', 'Pemetrexed']"
+355,non-small cell lung cancer,locally advanced or metastatic non-small cell lung cancer,locally advanced or metastatic non-small cell lung cancer,['EGFR p.L858R'],"['Carboplatin', 'Osimertinib', 'Pemetrexed']"
+356,non-small cell lung cancer,locally advanced or metastatic non-small cell lung cancer,locally advanced or metastatic non-small cell lung cancer,['EGFR Exon 19 (Deletion)'],"['Carboplatin', 'Osimertinib', 'Pemetrexed']"
+357,non-small cell lung cancer,locally advanced or metastatic non-small cell lung cancer,locally advanced or metastatic non-small cell lung cancer,['EGFR Exon 19 (Deletion)'],"['Cisplatin', 'Osimertinib', 'Pemetrexed']"
+358,non-small cell lung cancer,metastatic non-small cell lung cancer,metastatic non-small cell lung cancer,['EGFR p.T790M'],['Osimertinib']
+359,invasive breast carcinoma,advanced or metastatic breast cancer,advanced or metastatic invasive breast carcinoma,"['ER positive', 'HER2-negative']","['Letrozole', 'Palbociclib']"
+360,invasive breast carcinoma,advanced or metastatic breast cancer,advanced or metastatic invasive breast carcinoma,"['PR positive', 'HER2-negative']","['Letrozole', 'Palbociclib']"
+361,invasive breast carcinoma,advanced or metastatic breast cancer,advanced or metastatic invasive breast carcinoma,"['PR positive', 'ER positive', 'HER2-negative']","['Letrozole', 'Palbociclib']"
+362,invasive breast carcinoma,advanced or metastatic breast cancer,advanced or metastatic invasive breast carcinoma,"['ER positive', 'HER2-negative']","['Fulvestrant', 'Palbociclib']"
+363,invasive breast carcinoma,advanced or metastatic breast cancer,advanced or metastatic invasive breast carcinoma,"['PR positive', 'HER2-negative']","['Fulvestrant', 'Palbociclib']"
+364,invasive breast carcinoma,advanced or metastatic breast cancer,advanced or metastatic invasive breast carcinoma,"['PR positive', 'ER positive', 'HER2-negative']","['Fulvestrant', 'Palbociclib']"
+365,colorectal adenocarcinoma,metastatic colorectal cancer,metastatic colorectal adenocarcinoma,"['Wild type KRAS', 'Wild type HRAS']","['Panitumumab', 'Oxaliplatin', 'Fluorouracil']"
+366,colorectal adenocarcinoma,metastatic colorectal cancer,metastatic colorectal adenocarcinoma,"['Wild type KRAS', 'Wild type HRAS']",['Panitumumab']
+367,non-small cell lung cancer,metastatic non-squamous non-small cell lung cancer,metastatic non-squamous non-small cell lung cancer,"['Wild type EGFR', 'Wild type ALK']","['Carboplatin', 'Pemetrexed', 'Pembrolizumab']"
+368,non-small cell lung cancer,metastatic non-squamous non-small cell lung cancer,metastatic non-squamous non-small cell lung cancer,"['Wild type EGFR', 'Wild type ALK']","['Cisplatin', 'Pemetrexed', 'Pembrolizumab']"
+369,non-small cell lung cancer,non-small cell lung cancer,non-small cell lung cancer,"['Wild type EGFR', 'Wild type ALK', 'PD-L1 >= 1%']",['Pembrolizumab']
+370,non-small cell lung cancer,metastatic non-small cell lung cancer,metastatic non-small cell lung cancer,['PD-L1 >= 1%'],['Pembrolizumab']
+371,head and neck squamous cell carcinoma,"metastatic or unresectable, recurrent hnscc","metastatic or unresectable, recurrent head and neck squamous cell carcinoma",['PD-L1 (CPS) >= 1'],['Pembrolizumab']
+372,any solid tumor,unresectable or metastatic ... solid tumors,unresectable or metastatic any solid tumor,['dMMR'],['Pembrolizumab']
+373,any solid tumor,unresectable or metastatic ... solid tumors,unresectable or metastatic any solid tumor,['MSI-H'],['Pembrolizumab']
+374,colorectal adenocarcinoma,unresectable or metastatic ... colorectal cancer,unresectable or metastatic colorectal adenocarcinoma,['dMMR'],['Pembrolizumab']
+375,colorectal adenocarcinoma,unresectable or metastatic ... colorectal cancer,unresectable or metastatic colorectal adenocarcinoma,['MSI-H'],['Pembrolizumab']
+376,adenocarcinoma of the gastroesophageal junction,locally advanced unresectable or metastatic ... gastric or gastroesophageal junction (gej) adenocracinoma,locally advanced unresectable or metastatic adenocarcinoma of the gastroesophageal junction,"['HER2-positive', 'PD-L1 (CPS) >= 1']","['Fluorouracil', 'Cisplatin', 'Trastuzumab', 'Pembrolizumab']"
+377,adenocarcinoma of the gastroesophageal junction,locally advanced unresectable or metastatic ... gastric or gastroesophageal junction (gej) adenocracinoma,locally advanced unresectable or metastatic adenocarcinoma of the gastroesophageal junction,"['HER2-positive', 'PD-L1 (CPS) >= 1']","['Oxaliplatin', 'Capecitabine', 'Trastuzumab', 'Pembrolizumab']"
+378,adenocarcinoma of the gastroesophageal junction,locally advanced unresectable or metastatic ... gastric or gastroesophageal junction (gej) adenocarcinoma,locally advanced unresectable or metastatic adenocarcinoma of the gastroesophageal junction,['HER2-negative'],"['Fluorouracil', 'Cisplatin', 'Pembrolizumab']"
+379,adenocarcinoma of the gastroesophageal junction,locally advanced unresectable or metastatic ... gastric or gastroesophageal junction (gej) adenocarcinoma,locally advanced unresectable or metastatic adenocarcinoma of the gastroesophageal junction,['HER2-negative'],"['Oxaliplatin', 'Capecitabine', 'Pembrolizumab']"
+380,adenocarcinoma of the gastroesophageal junction,locally advanced or metastatic esophageal or gastroesophageal junction carcinoma,locally advanced or metastatic adenocarcinoma of the gastroesophageal junction,['PD-L1 (CPS) >= 10'],['Pembrolizumab']
+381,esophageal adenocarcinoma,locally advanced or metastatic esophageal or gastroesophageal junction carcinoma,locally advanced or metastatic esophageal adenocarcinoma,['PD-L1 (CPS) >= 10'],['Pembrolizumab']
+382,cervical adenocarcinoma,"persistent, recurrent, or metastatic cervical cancer","persistent, recurrent, or metastatic cervical adenocarcinoma",['PD-L1 (CPS) >= 1'],"['Cisplatin', 'Paclitaxel', 'Pembrolizumab']"
+383,cervical squamous cell carcinoma,"persistent, recurrent, or metastatic cervical cancer","persistent, recurrent, or metastatic cervical squamous cell carcinoma",['PD-L1 (CPS) >= 1'],"['Cisplatin', 'Paclitaxel', 'Pembrolizumab']"
+384,cervical adenocarcinoma,"persistent, recurrent, or metastatic cervical cancer","persistent, recurrent, or metastatic cervical adenocarcinoma",['PD-L1 (CPS) >= 1'],"['Cisplatin', 'Paclitaxel', 'Bevacizumab', 'Pembrolizumab']"
+385,cervical squamous cell carcinoma,"persistent, recurrent, or metastatic cervical cancer","persistent, recurrent, or metastatic cervical squamous cell carcinoma",['PD-L1 (CPS) >= 1'],"['Cisplatin', 'Paclitaxel', 'Bevacizumab', 'Pembrolizumab']"
+386,cervical adenocarcinoma,"persistent, recurrent, or metastatic cervical cancer","persistent, recurrent, or metastatic cervical adenocarcinoma",['PD-L1 (CPS) >= 1'],"['Carboplatin', 'Paclitaxel', 'Pembrolizumab']"
+387,cervical squamous cell carcinoma,"persistent, recurrent, or metastatic cervical cancer","persistent, recurrent, or metastatic cervical squamous cell carcinoma",['PD-L1 (CPS) >= 1'],"['Carboplatin', 'Paclitaxel', 'Pembrolizumab']"
+388,cervical adenocarcinoma,"persistent, recurrent, or metastatic cervical cancer","persistent, recurrent, or metastatic cervical adenocarcinoma",['PD-L1 (CPS) >= 1'],"['Carboplatin', 'Paclitaxel', 'Bevacizumab', 'Pembrolizumab']"
+389,cervical squamous cell carcinoma,"persistent, recurrent, or metastatic cervical cancer","persistent, recurrent, or metastatic cervical squamous cell carcinoma",['PD-L1 (CPS) >= 1'],"['Carboplatin', 'Paclitaxel', 'Bevacizumab', 'Pembrolizumab']"
+390,cervical adenocarcinoma,recurrent or metastatic cervical cancer,recurrent or metastatic cervical adenocarcinoma,['PD-L1 (CPS) >= 1'],['Pembrolizumab']
+391,cervical squamous cell carcinoma,recurrent or metastatic cervical cancer,recurrent or metastatic cervical squamous cell carcinoma,['PD-L1 (CPS) >= 1'],['Pembrolizumab']
+392,endometrial carcinoma,advanced endometrial carcinoma,advanced endometrial carcinoma,['MSI-L'],"['Lenvatinib', 'Pembrolizumab']"
+393,endometrial carcinoma,advanced endometrial carcinoma,advanced endometrial carcinoma,['pMMR'],['Pembrolizumab']
+394,endometrial carcinoma,advanced endometrial carcinoma,advanced endometrial carcinoma,['MSI-H'],['Pembrolizumab']
+395,any solid tumor,unresectable or metastatic ... solid tumors,unresectable or metastatic any solid tumor,['TMB-H (>= 10 mutations / Mb)'],['Pembrolizumab']
+396,invasive breast carcinoma,high-risk early-stage triple-negative breast cancer,high-risk early-stage triple-negative invasive breast carcinoma,"['ER negative', 'PR negative', 'HER2-negative']","['Carboplatin', 'Cyclophosphamide', 'Doxorubicin', 'Paclitaxel', 'Pembrolizumab']"
+397,invasive breast carcinoma,locally recurrent unresectable or metastatic triple-negative breast cancer,locally recurrent unresectable or metastatic triple-negative invasive breast carcinoma,"['PD-L1 (CPS) >= 10', 'ER negative', 'PR negative', 'HER2-negative']","['Paclitaxel', 'Pembrolizumab']"
+398,invasive breast carcinoma,locally recurrent unresectable or metastatic triple-negative breast cancer,locally recurrent unresectable or metastatic triple-negative invasive breast carcinoma,"['PD-L1 (CPS) >= 10', 'ER negative', 'PR negative', 'HER2-negative']","['Gemcitabine', 'Carboplatin', 'Pembrolizumab']"
+399,cholangiocarcinoma,unresectable locally advanced or metastatic cholangiocarcinoma,unresectable locally advanced or metastatic cholangiocarcinoma,['FGFR2::v'],['Pemigatinib']
+400,cholangiocarcinoma,unresectable locally advanced or metastatic cholangiocarcinoma,unresectable locally advanced or metastatic cholangiocarcinoma,['FGFR2 rearrangements'],['Pemigatinib']
+401,myeloid/lymphoid neoplasms,relapsed or refractory myeloid/lymphoid neoplasms (mlns),relapsed or refractory myeloid/lymphoid neoplasms,['FGFR1 rearrangements'],['Pemigatinib']
+402,invasive breast carcinoma,metastatic breast cancer,metastatic invasive breast carcinoma,['HER2-positive'],"['Pertuzumab', 'Docetaxel', 'Trastuzumab']"
+403,invasive breast carcinoma,"locally advanced, inflammatory, or early stage breast cancer (either greater than 2 cm in diameter or node positive)","locally advanced, inflammatory, or early stage invasive breast carcinoma",['HER2-positive'],"['Cyclophosphamide', 'Doxorubicin', 'Paclitaxel', 'Pertuzumab', 'Trastuzumab']"
+404,invasive breast carcinoma,"locally advanced, inflammatory, or early stage breast cancer (either greater than 2 cm in diameter or node positive)","locally advanced, inflammatory, or early stage invasive breast carcinoma",['HER2-positive'],"['Fluorouracil', 'Cyclophosphamide', 'Pertuzumab', 'Docetaxel', 'Trastuzumab', 'Epirubicin']"
+405,invasive breast carcinoma,metastatic breast cancer,metastatic invasive breast carcinoma,['HER2-positive'],"['Pertuzumab', 'Docetaxel', 'Trastuzumab']"
+406,invasive breast carcinoma,early stage breast cancer,early stage invasive breast carcinoma,['HER2-positive'],"['Fluorouracil', 'Cyclophosphamide', 'Paclitaxel', 'Pertuzumab', 'Trastuzumab', 'Epirubicin']"
+407,invasive breast carcinoma,early stage breast cancer,early stage invasive breast carcinoma,['HER2-positive'],"['Fluorouracil', 'Cyclophosphamide', 'Doxorubicin', 'Pertuzumab', 'Docetaxel', 'Trastuzumab']"
+408,invasive breast carcinoma,early stage breast cancer,early stage invasive breast carcinoma,['HER2-positive'],"['Fluorouracil', 'Cyclophosphamide', 'Doxorubicin', 'Paclitaxel', 'Pertuzumab', 'Trastuzumab']"
+409,invasive breast carcinoma,early stage breast cancer,early stage invasive breast carcinoma,['HER2-positive'],"['Cyclophosphamide', 'Pertuzumab', 'Docetaxel', 'Trastuzumab', 'Epirubicin']"
+410,invasive breast carcinoma,early stage breast cancer,early stage invasive breast carcinoma,['HER2-positive'],"['Cyclophosphamide', 'Paclitaxel', 'Pertuzumab', 'Trastuzumab', 'Epirubicin']"
+411,invasive breast carcinoma,early stage breast cancer,early stage invasive breast carcinoma,['HER2-positive'],"['Cyclophosphamide', 'Doxorubicin', 'Pertuzumab', 'Docetaxel', 'Trastuzumab']"
+412,invasive breast carcinoma,early breast cancer,early invasive breast carcinoma,['HER2-positive'],"['Fluorouracil', 'Cyclophosphamide', 'Pertuzumab', 'Docetaxel', 'Trastuzumab', 'Epirubicin']"
+413,invasive breast carcinoma,early stage breast cancer,early stage invasive breast carcinoma,['HER2-positive'],"['Carboplatin', 'Pertuzumab', 'Docetaxel', 'Trastuzumab']"
+414,invasive breast carcinoma,"locally advanced, inflammatory, or early stage breast cancer (either greater than 2 cm in diameter or node positive)","locally advanced, inflammatory, or early stage invasive breast carcinoma",['HER2-positive'],"['Cyclophosphamide', 'Doxorubicin', 'Paclitaxel', 'Pertuzumab', 'Trastuzumab']"
+415,invasive breast carcinoma,"locally advanced, inflammatory, or early stage breast cancer (either greater than 2 cm in diameter or node positive)","locally advanced, inflammatory, or early stage invasive breast carcinoma",['HER2-positive'],"['Fluorouracil', 'Cyclophosphamide', 'Pertuzumab', 'Docetaxel', 'Trastuzumab', 'Epirubicin']"
+416,invasive breast carcinoma,early breast cancer,early invasive breast carcinoma,['HER2-positive'],"['Carboplatin', 'Pertuzumab', 'Docetaxel', 'Trastuzumab']"
+417,invasive breast carcinoma,early breast cancer,early invasive breast carcinoma,['HER2-positive'],"['Fluorouracil', 'Cyclophosphamide', 'Paclitaxel', 'Pertuzumab', 'Trastuzumab', 'Epirubicin']"
+418,invasive breast carcinoma,early breast cancer,early invasive breast carcinoma,['HER2-positive'],"['Fluorouracil', 'Cyclophosphamide', 'Doxorubicin', 'Pertuzumab', 'Docetaxel', 'Trastuzumab']"
+419,invasive breast carcinoma,early breast cancer,early invasive breast carcinoma,['HER2-positive'],"['Fluorouracil', 'Cyclophosphamide', 'Doxorubicin', 'Paclitaxel', 'Pertuzumab', 'Trastuzumab']"
+420,invasive breast carcinoma,early breast cancer,early invasive breast carcinoma,['HER2-positive'],"['Cyclophosphamide', 'Pertuzumab', 'Docetaxel', 'Trastuzumab', 'Epirubicin']"
+421,invasive breast carcinoma,early breast cancer,early invasive breast carcinoma,['HER2-positive'],"['Cyclophosphamide', 'Paclitaxel', 'Pertuzumab', 'Trastuzumab', 'Epirubicin']"
+422,invasive breast carcinoma,early breast cancer,early invasive breast carcinoma,['HER2-positive'],"['Cyclophosphamide', 'Doxorubicin', 'Pertuzumab', 'Docetaxel', 'Trastuzumab']"
+423,invasive breast carcinoma,early breast cancer,early invasive breast carcinoma,['HER2-positive'],"['Cyclophosphamide', 'Doxorubicin', 'Paclitaxel', 'Pertuzumab', 'Trastuzumab']"
+424,invasive breast carcinoma,early stage breast cancer,early stage invasive breast carcinoma,['HER2-positive'],"['Cyclophosphamide', 'Doxorubicin', 'Paclitaxel', 'Pertuzumab', 'Trastuzumab']"
+425,invasive breast carcinoma,early stage breast cancer,early stage invasive breast carcinoma,['HER2-positive'],"['Fluorouracil', 'Cyclophosphamide', 'Pertuzumab', 'Docetaxel', 'Trastuzumab', 'Epirubicin']"
+426,acute lymphoid leukemia,ph+ all,acute lymphoid leukemia,['BCR::ABL1'],"['Ponatinib', 'Vincristine', 'Methotrexate', 'Cytarabine', 'Prednisone']"
+427,acute lymphoid leukemia,ph+ all,acute lymphoid leukemia,"['ABL1 p.T315I', 'BCR::ABL1']",['Ponatinib']
+428,chronic myelogenous leukemia,cml,chronic myelogenous leukemia,['ABL1 p.T315I'],['Ponatinib']
+429,non-small cell lung cancer,non-small cell lung cancer,non-small cell lung cancer,['v::RET'],['Pralsetinib']
+430,papillary thyroid cancer,advanced or metastatic... thyroid cancer,advanced or metastatic papillary thyroid cancer,['v::RET'],['Pralsetinib']
+431,non-small cell lung cancer,metastatic non-small cell lung cancer,metastatic non-small cell lung cancer,['EGFR Exon 19 (Deletion)'],"['Erlotinib', 'Ramucirumab']"
+432,non-small cell lung cancer,metastatic non-small cell lung cancer,metastatic non-small cell lung cancer,['EGFR p.L858R'],"['Erlotinib', 'Ramucirumab']"
+433,non-small cell lung cancer,locally advanced or metastatic non-small cell lung cancer,locally advanced or metastatic non-small cell lung cancer,['v::ROS1'],['Repotrectinib']
+434,any solid tumor,solid tumors,any solid tumor,['v::NTRK1'],['Repotrectinib']
+435,any solid tumor,solid tumors,any solid tumor,['v::NTRK2'],['Repotrectinib']
+436,any solid tumor,solid tumors,any solid tumor,['v::NTRK3'],['Repotrectinib']
+437,invasive breast carcinoma,advanced or metastatic breast cancer,advanced or metastatic invasive breast carcinoma,"['ER positive', 'HER2-negative']","['Ribociclib', 'Anastrozole']"
+438,invasive breast carcinoma,advanced or metastatic breast cancer,advanced or metastatic invasive breast carcinoma,"['PR positive', 'HER2-negative']","['Ribociclib', 'Anastrozole']"
+439,invasive breast carcinoma,advanced or metastatic breast cancer,advanced or metastatic invasive breast carcinoma,"['PR positive', 'ER positive', 'HER2-negative']","['Ribociclib', 'Anastrozole']"
+440,invasive breast carcinoma,advanced or metastatic breast cancer,advanced or metastatic invasive breast carcinoma,"['ER positive', 'HER2-negative']","['Ribociclib', 'Letrozole']"
+441,invasive breast carcinoma,advanced or metastatic breast cancer,advanced or metastatic invasive breast carcinoma,"['PR positive', 'HER2-negative']","['Ribociclib', 'Letrozole']"
+442,invasive breast carcinoma,advanced or metastatic breast cancer,advanced or metastatic invasive breast carcinoma,"['PR positive', 'ER positive', 'HER2-negative']","['Ribociclib', 'Letrozole']"
+443,invasive breast carcinoma,advanced or metastatic breast cancer,advanced or metastatic invasive breast carcinoma,"['ER positive', 'HER2-negative']","['Ribociclib', 'Fulvestrant']"
+444,invasive breast carcinoma,advanced or metastatic breast cancer,advanced or metastatic invasive breast carcinoma,"['PR positive', 'HER2-negative']","['Ribociclib', 'Fulvestrant']"
+445,invasive breast carcinoma,advanced or metastatic breast cancer,advanced or metastatic invasive breast carcinoma,"['PR positive', 'ER positive', 'HER2-negative']","['Ribociclib', 'Fulvestrant']"
+446,non-hodgkin lymphoma,b-cell non-hodgkin's lymphoma (nhl),b-cell non-hodgkin lymphoma,['CD20 +'],['Rituximab']
+447,non-hodgkin lymphoma,b-cell non-hodgkin's lymphoma (nhl),b-cell non-hodgkin lymphoma,['CD20 +'],"['Vincristine', 'Rituximab', 'Cyclophosphamide', 'Prednisolone']"
+448,non-hodgkin lymphoma,b-cell non-hodgkin's lymphoma (nhl),b-cell non-hodgkin lymphoma,['CD20 +'],"['Vincristine', 'Rituximab', 'Cyclophosphamide', 'Doxorubicin', 'Prednisolone']"
+449,non-hodgkin lymphoma,b-cell non-hodgkin's lymphoma (nhl),b-cell non-hodgkin lymphoma,['CD20 +'],"['Rituximab', 'Mitoxantrone', 'Fludarabine', 'Cyclophosphamide']"
+451,non-hodgkin lymphoma,non-hodgkin's lymphoma (nhl),non-hodgkin lymphoma,['CD20 +'],"['Vincristine', 'Rituximab', 'Prednisone', 'Cyclophosphamide', 'Doxorubicin']"
+452,non-hodgkin lymphoma,diffuse large b-cell non-hodgkin's lymhpoma (nhl),diffuse large b-cell non-hodgkin lymphoma,['CD20 +'],"['Vincristine', 'Rituximab', 'Prednisone', 'Cyclophosphamide', 'Doxorubicin']"
+453,diffuse large b-cell lymphoma,"mature b-cell nhl and mature b-cell acute leukemia (b-al) previously untreated, advanced stage, cd20-positive, diffuse large b-cell lymphoma (dlbcl), burkitt lymphoma (bl), burkitt-like lymphoma (bll) or mature b-cell acute leukemia (b-al)","previously untreated, advanced stage, cd20-positive diffuse large b-cell lymphoma",['CD20 +'],"['Vincristine', 'Rituximab', 'Prednisone', 'Cyclophosphamide', 'Doxorubicin']"
+454,burkitt lymphoma,"mature b-cell nhl and mature b-cell acute leukemia (b-al) previously untreated, advanced stage, cd20-positive, diffuse large b-cell lymphoma (dlbcl), burkitt lymphoma (bl), burkitt-like lymphoma (bll) or mature b-cell acute leukemia (b-al)","previously untreated, advanced stage, cd20-positive burkitt lymphoma",['CD20 +'],"['Vincristine', 'Rituximab', 'Prednisone', 'Cyclophosphamide', 'Doxorubicin']"
+455,mature b-cell neoplasms,"mature b-cell nhl and mature b-cell acute leukemia (b-al) previously untreated, advanced stage, cd20-positive, diffuse large b-cell lymphoma (dlbcl), burkitt lymphoma (bl), burkitt-like lymphoma (bll) or mature b-cell acute leukemia (b-al)","previously untreated, advanced stage, cd20-positive mature b-cell neoplasms",['CD20 +'],"['Vincristine', 'Rituximab', 'Prednisone', 'Cyclophosphamide', 'Doxorubicin']"
+456,chronic lymphocytic leukemia,chronic lymphocytic leuekmia (cll),chronic lymphocytic leukemia,['CD20 +'],"['Rituximab', 'Fludarabine', 'Cyclophosphamide']"
+457,ovarian epithelial tumor,"epithelial ovarian, fallopian tube, or primary peritoneal cancer",ovarian epithelial tumor,['BRCA1 oncogenic variants'],['Rucaparib']
+458,ovarian epithelial tumor,"epithelial ovarian, fallopian tube, or primary peritoneal cancer",ovarian epithelial tumor,['BRCA1 pathogenic variants'],['Rucaparib']
+459,ovarian epithelial tumor,"epithelial ovarian, fallopian tube, or primary peritoneal cancer",ovarian epithelial tumor,['BRCA2 oncogenic variants'],['Rucaparib']
+460,ovarian epithelial tumor,"epithelial ovarian, fallopian tube, or primary peritoneal cancer",ovarian epithelial tumor,['BRCA2 pathogenic variants'],['Rucaparib']
+461,high-grade serous fallopian tube cancer,"epithelial ovarian, fallopian tube, or primary peritoneal cancer",high-grade serous fallopian tube cancer,['BRCA1 oncogenic variants'],['Rucaparib']
+462,high-grade serous fallopian tube cancer,"epithelial ovarian, fallopian tube, or primary peritoneal cancer",high-grade serous fallopian tube cancer,['BRCA1 pathogenic variants'],['Rucaparib']
+463,high-grade serous fallopian tube cancer,"epithelial ovarian, fallopian tube, or primary peritoneal cancer",high-grade serous fallopian tube cancer,['BRCA2 oncogenic variants'],['Rucaparib']
+464,high-grade serous fallopian tube cancer,"epithelial ovarian, fallopian tube, or primary peritoneal cancer",high-grade serous fallopian tube cancer,['BRCA2 pathogenic variants'],['Rucaparib']
+465,peritoneal serous carcinoma,"epithelial ovarian, fallopian tube, or primary peritoneal cancer",peritoneal serous carcinoma,['BRCA1 oncogenic variants'],['Rucaparib']
+466,peritoneal serous carcinoma,"epithelial ovarian, fallopian tube, or primary peritoneal cancer",peritoneal serous carcinoma,['BRCA1 pathogenic variants'],['Rucaparib']
+467,peritoneal serous carcinoma,"epithelial ovarian, fallopian tube, or primary peritoneal cancer",peritoneal serous carcinoma,['BRCA2 oncogenic variants'],['Rucaparib']
+468,peritoneal serous carcinoma,"epithelial ovarian, fallopian tube, or primary peritoneal cancer",peritoneal serous carcinoma,['BRCA2 pathogenic variants'],['Rucaparib']
+469,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['BRCA1 oncogenic variants'],['Rucaparib']
+470,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['BRCA1 pathogenic variants'],['Rucaparib']
+471,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['BRCA2 oncogenic variants'],['Rucaparib']
+472,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['BRCA2 pathogenic variants'],['Rucaparib']
+473,invasive breast carcinoma,unresectable locally advanced or metastatic triple-negative breast cancer (mtnbc),unresectable locally advanced or metastatic triple-negative invasive breast carcinoma,"['ER negative', 'PR negative', 'HER2-negative']",['Sacituzumab govitecan']
+474,invasive breast carcinoma,locally advanced or metastatic ... breast cancer,locally advanced or metastatic invasive breast carcinoma,"['ER positive', 'HER2-negative']",['Sacituzumab govitecan']
+475,invasive breast carcinoma,locally advanced or metastatic ... breast cancer,locally advanced or metastatic invasive breast carcinoma,"['PR positive', 'HER2-negative']",['Sacituzumab govitecan']
+476,invasive breast carcinoma,locally advanced or metastatic ... breast cancer,locally advanced or metastatic invasive breast carcinoma,"['PR positive', 'ER positive', 'HER2-negative']",['Sacituzumab govitecan']
+477,non-small cell lung cancer,locally advanced or metastatic non-small cell lung cancer,locally advanced or metastatic non-small cell lung cancer,['v::RET'],['Selpercatinib']
+478,medullary thyroid cancer,advanced or metastatic medullary thyroid cancer,advanced or metastatic medullary thyroid cancer,['RET oncogenic variants'],['Selpercatinib']
+479,anaplastic thyroid cancer,advanced or metastatic thyroid cancer,advanced or metastatic anaplastic thyroid cancer,['v::RET'],['Selpercatinib']
+480,any solid tumor,locally advanced or metastatic solid tumors,locally advanced or metastatic any solid tumor,['v::RET'],['Selpercatinib']
+481,non-small cell lung cancer,locally advanced or metastatic non-small cell lung cancer,locally advanced or metastatic non-small cell lung cancer,['KRAS p.G12C'],['Sotorasib']
+482,invasive breast carcinoma,locally advanced or metastatic breast cancer,locally advanced or metastatic invasive breast carcinoma,"['BRCA1 pathogenic variants', 'HER2-negative']",['Talazoparib']
+483,invasive breast carcinoma,locally advanced or metastatic breast cancer,locally advanced or metastatic invasive breast carcinoma,"['BRCA2 pathogenic variants', 'HER2-negative']",['Talazoparib']
+484,non-small cell lung cancer,non-small cell lung cancer,non-small cell lung cancer,['MET Exon 14 (Splice Site)'],['Tepotinib']
+485,non-small cell lung cancer,non-small cell lung cancer,non-small cell lung cancer,['MET Exon 14 (Deletion)'],['Tepotinib']
+486,melanoma,unresectable or metastatic melanoma,unresectable or metastatic melanoma,['BRAF p.V600E'],['Trametinib']
+487,melanoma,unresectable or metastatic melanoma,unresectable or metastatic melanoma,['BRAF p.V600K'],['Trametinib']
+488,melanoma,unresectable or metastatic melanoma,unresectable or metastatic melanoma,['BRAF p.V600E'],"['Trametinib', 'Dabrafenib']"
+489,melanoma,unresectable or metastatic melanoma,unresectable or metastatic melanoma,['BRAF p.V600K'],"['Trametinib', 'Dabrafenib']"
+490,non-small cell lung cancer,metastatic non-small cell lung cancer,metastatic non-small cell lung cancer,['BRAF p.V600E'],"['Trametinib', 'Dabrafenib']"
+491,anaplastic thyroid cancer,locally advanced or metastatic anaplastic thyroid cancer,locally advanced or metastatic anaplastic thyroid cancer,['BRAF p.V600E'],"['Trametinib', 'Dabrafenib']"
+492,any solid tumor,unresectable or metastatic solid tumors,unresectable or metastatic any solid tumor,['BRAF p.V600E'],"['Trametinib', 'Dabrafenib']"
+493,"low-grade glioma, nos",low-grade glioma (lgg),"low-grade glioma, nos",['BRAF p.V600E'],"['Trametinib', 'Dabrafenib']"
+494,invasive breast carcinoma,breast cancer,invasive breast carcinoma,['HER2-positive'],['Trastuzumab']
+495,gastrointestinal stromal tumor,metastatic gastric or gastroesophageal junction adenocarcinoma,metastatic gastrointestinal stromal tumor,['HER2-positive'],['Trastuzumab']
+496,invasive breast carcinoma,unresectable or metastatic breast cancer,unresectable or metastatic invasive breast carcinoma,['HER2-positive'],['Trastuzumab deruxtecan']
+497,invasive breast carcinoma,unresectable or metastatic ... breast cancer,unresectable or metastatic invasive breast carcinoma,['HER2-low'],['Trastuzumab deruxtecan']
+498,non-small cell lung cancer,unresectable or metastatic non-small cell lung cancer,unresectable or metastatic non-small cell lung cancer,['ERBB2 oncogenic variants'],['Trastuzumab deruxtecan']
+499,adenocarcinoma of the gastroesophageal junction,locally advanced or metastatic gastric or gastroesophageal junction adenocarcinoma,locally advanced or metastatic adenocarcinoma of the gastroesophageal junction,['HER2-positive'],['Trastuzumab deruxtecan']
+500,any solid tumor,unresectable or metastatic solid tumors,unresectable or metastatic any solid tumor,['HER2-positive'],['Trastuzumab deruxtecan']
+501,invasive breast carcinoma,advanced unresectable or metastatic breast cancer,unresectable or metastatic invasive breast carcinoma,['HER2-positive'],"['Tucatinib', 'Capecitabine', 'Trastuzumab']"
+502,melanoma,unresectable or metastatic melanoma,unresectable or metastatic melanoma,['BRAF p.V600E'],['Vemurafenib']
+503,non-langerhans cell histiocytosis/erdheim-chester disease,erdheim-chester disease,non-langerhans cell histiocytosis/erdheim-chester disease,['BRAF p.V600E'],['Vemurafenib']
+504,non-langerhans cell histiocytosis/erdheim-chester disease,erdheim-chester disease,non-langerhans cell histiocytosis/erdheim-chester disease,['BRAF p.V600K'],['Vemurafenib']
+505,follicular lymphoma,follicular lymphoma,follicular lymphoma,['EZH2 p.Y646N'],['Tazemetostat']
+506,follicular lymphoma,follicular lymphoma,follicular lymphoma,['EZH2 p.Y646F'],['Tazemetostat']
+507,follicular lymphoma,follicular lymphoma,follicular lymphoma,['EZH2 p.Y646H'],['Tazemetostat']
+508,follicular lymphoma,follicular lymphoma,follicular lymphoma,['EZH2 p.Y646S'],['Tazemetostat']
+509,follicular lymphoma,follicular lymphoma,follicular lymphoma,['EZH2 p.Y646C'],['Tazemetostat']
+510,follicular lymphoma,follicular lymphoma,follicular lymphoma,['EZH2 p.A862G'],['Tazemetostat']
+511,follicular lymphoma,follicular lymphoma,follicular lymphoma,['EZH2 p.A692V'],['Tazemetostat']
+512,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['BRCA1 pathogenic variants'],"['Enzalutamide', 'Talazoparib']"
+513,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['BRCA2 oncogenic variants'],"['Enzalutamide', 'Talazoparib']"
+514,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['BRCA2 pathogenic variants'],"['Enzalutamide', 'Talazoparib']"
+515,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['ATM pathogenic variants'],"['Enzalutamide', 'Talazoparib']"
+516,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['ATM oncogenic variants'],"['Enzalutamide', 'Talazoparib']"
+517,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['ATR oncogenic variants'],"['Enzalutamide', 'Talazoparib']"
+518,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['CDK12 oncogenic variants'],"['Enzalutamide', 'Talazoparib']"
+519,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['ATR pathogenic variants'],"['Enzalutamide', 'Talazoparib']"
+520,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['FANCA oncogenic variants'],"['Enzalutamide', 'Talazoparib']"
+521,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['CHEK2 pathogenic variants'],"['Enzalutamide', 'Talazoparib']"
+522,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['CHEK2 oncogenic variants'],"['Enzalutamide', 'Talazoparib']"
+523,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['FANCA pathogenic variants'],"['Enzalutamide', 'Talazoparib']"
+524,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['MLH1 oncogenic variants'],"['Enzalutamide', 'Talazoparib']"
+525,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['PALB2 pathogenic variants'],"['Enzalutamide', 'Talazoparib']"
+526,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['PALB2 oncogenic variants'],"['Enzalutamide', 'Talazoparib']"
+527,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['MLH1 pathogenic variants'],"['Enzalutamide', 'Talazoparib']"
+528,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['MRE11 oncogenic variants'],"['Enzalutamide', 'Talazoparib']"
+529,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['RAD51C pathogenic variants'],"['Enzalutamide', 'Talazoparib']"
+530,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['RAD51C oncogenic variants'],"['Enzalutamide', 'Talazoparib']"
+531,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['MRE11 pathogenic variants'],"['Enzalutamide', 'Talazoparib']"
+532,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['NBN oncogenic variants'],"['Enzalutamide', 'Talazoparib']"
+533,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['NBN pathogenic variants'],"['Enzalutamide', 'Talazoparib']"
+534,renal angiomyolipoma,renal angiomyolipoma,renal angiomyolipoma,['TSC1 oncogenic variants'],['Everolimus']
+535,renal angiomyolipoma,renal angiomyolipoma,renal angiomyolipoma,['TSC2 oncogenic variants'],['Everolimus']
+536,anaplastic thyroid cancer,subependymal giant cell astrocytoma,anaplastic thyroid cancer,['TSC1 oncogenic variants'],['Everolimus']
+537,anaplastic thyroid cancer,subependymal giant cell astrocytoma,anaplastic thyroid cancer,['TSC2 oncogenic variants'],['Everolimus']
+538,prostate adenocarcinoma,metastatic castration-resistant prostate cancer,metastatic castration-resistant prostate adenocarcinoma,['CDK12 pathogenic variants'],"['Enzalutamide', 'Talazoparib']"
+539,non-small cell lung cancer,non-small cell lung cancer,non-small cell lung cancer,['EGFR Exon 19 (Deletion)'],['Osimertinib']
+540,non-small cell lung cancer,non-small cell lung cancer,non-small cell lung cancer,['EGFR p.L858R'],['Osimertinib']
+541,non-small cell lung cancer,locally advanced or metastatic non-small cell lung cancer,locally advanced or metastatic non-small cell lung cancer,['EGFR Exon 19 (Deletion)'],"['Lazertinib', 'Amivantamab']"
+542,non-small cell lung cancer,locally advanced or metastatic non-small cell lung cancer,locally advanced or metastatic non-small cell lung cancer,['EGFR p.L858R'],"['Lazertinib', 'Amivantamab']"
+543,non-small cell lung cancer,non-small cell lung cancer,non-small cell lung cancer,['EGFR Exon 19 (Deletion)'],"['Lazertinib', 'Amivantamab']"
+544,non-small cell lung cancer,non-small cell lung cancer,non-small cell lung cancer,['EGFR p.L858R'],"['Lazertinib', 'Amivantamab']"
+545,non-small cell lung cancer,non-small cell lung cancer,non-small cell lung cancer,['EGFR Exon 19 (Deletion)'],"['Carboplatin', 'Pemetrexed', 'Amivantamab']"
+546,non-small cell lung cancer,non-small cell lung cancer,non-small cell lung cancer,['EGFR p.L858R'],"['Carboplatin', 'Pemetrexed', 'Amivantamab']"
+547,ovarian epithelial tumor,"epithelial ovarian, fallopian tube, or primary peritoneal",ovarian epithelial tumor,['FOLR1 positive'],['Mirvetuximab soravtansine']
+548,high-grade serous fallopian tube cancer,"epithelial ovarian, fallopian tube, or primary peritoneal",high-grade serous fallopian tube cancer,['FOLR1 positive'],['Mirvetuximab soravtansine']
+549,peritoneal serous carcinoma,"epithelial ovarian, fallopian tube, or primary peritoneal",peritoneal serous carcinoma,['FOLR1 positive'],['Mirvetuximab soravtansine']
+550,"low-grade glioma, nos",low-grade glioma (lgg),"low-grade glioma, nos",['BRAF rearrangements'],['Tovorafenib']
+551,"low-grade glioma, nos",low-grade glioma (lgg),"low-grade glioma, nos",['v::BRAF'],['Tovorafenib']
+552,"low-grade glioma, nos",low-grade glioma (lgg),"low-grade glioma, nos",['BRAF p.V600E'],['Tovorafenib']
+553,"low-grade glioma, nos",low-grade glioma (lgg),"low-grade glioma, nos",['BRAF p.V600K'],['Tovorafenib']
+554,non-small cell lung cancer,non-small cell lung cancer,non-small cell lung cancer,"['Wild type EGFR', 'Wild type ALK']","['Carboplatin', 'Paclitaxel', 'Durvalumab']"
+555,non-small cell lung cancer,non-small cell lung cancer,non-small cell lung cancer,"['Wild type EGFR', 'Wild type ALK']","['Gemcitabine', 'Cisplatin', 'Durvalumab']"
+556,non-small cell lung cancer,non-small cell lung cancer,non-small cell lung cancer,"['Wild type EGFR', 'Wild type ALK']","['Cisplatin', 'Pemetrexed', 'Durvalumab']"
+557,non-small cell lung cancer,non-small cell lung cancer,non-small cell lung cancer,"['Wild type EGFR', 'Wild type ALK']","['Carboplatin', 'Pemetrexed', 'Durvalumab']"
+558,colorectal adenocarcinoma,colorectal cancer,colorectal adenocarcinoma,['KRAS p.G12C'],"['Cetuximab', 'Adagrasib']"
+559,astrocytoma,astrocytoma or oligodendroglioma,astrocytoma,['IDH1 p.R132C'],['Vorasidenib']
+560,astrocytoma,astrocytoma or oligodendroglioma,astrocytoma,['IDH1 p.R132G'],['Vorasidenib']
+561,astrocytoma,astrocytoma or oligodendroglioma,astrocytoma,['IDH1 p.R132H'],['Vorasidenib']
+562,astrocytoma,astrocytoma or oligodendroglioma,astrocytoma,['IDH1 p.R132L'],['Vorasidenib']
+563,astrocytoma,astrocytoma or oligodendroglioma,astrocytoma,['IDH1 p.R132S'],['Vorasidenib']
+564,astrocytoma,astrocytoma or oligodendroglioma,astrocytoma,['IDH2 p.R172K'],['Vorasidenib']
+565,astrocytoma,astrocytoma or oligodendroglioma,astrocytoma,['IDH2 p.R172M'],['Vorasidenib']
+566,astrocytoma,astrocytoma or oligodendroglioma,astrocytoma,['IDH2 p.R172G'],['Vorasidenib']
+567,astrocytoma,astrocytoma or oligodendroglioma,astrocytoma,['IDH2 p.R172S'],['Vorasidenib']
+568,astrocytoma,astrocytoma or oligodendroglioma,astrocytoma,['IDH2 p.R172W'],['Vorasidenib']
+569,oligodendroglioma,astrocytoma or oligodendroglioma,oligodendroglioma,['IDH1 p.R132C'],['Vorasidenib']
+570,oligodendroglioma,astrocytoma or oligodendroglioma,oligodendroglioma,['IDH1 p.R132G'],['Vorasidenib']
+571,oligodendroglioma,astrocytoma or oligodendroglioma,oligodendroglioma,['IDH1 p.R132H'],['Vorasidenib']
+572,oligodendroglioma,astrocytoma or oligodendroglioma,oligodendroglioma,['IDH1 p.R132L'],['Vorasidenib']
+573,oligodendroglioma,astrocytoma or oligodendroglioma,oligodendroglioma,['IDH1 p.R132S'],['Vorasidenib']
+574,oligodendroglioma,astrocytoma or oligodendroglioma,oligodendroglioma,['IDH2 p.R172K'],['Vorasidenib']
+575,oligodendroglioma,astrocytoma or oligodendroglioma,oligodendroglioma,['IDH2 p.R172M'],['Vorasidenib']
+576,oligodendroglioma,astrocytoma or oligodendroglioma,oligodendroglioma,['IDH2 p.R172G'],['Vorasidenib']
+577,oligodendroglioma,astrocytoma or oligodendroglioma,oligodendroglioma,['IDH2 p.R172S'],['Vorasidenib']
+578,oligodendroglioma,astrocytoma or oligodendroglioma,oligodendroglioma,['IDH2 p.R172W'],['Vorasidenib']
+579,invasive breast carcinoma,early breast cancer,early invasive breast carcinoma,"['ER positive', 'HER2-negative']","['Ribociclib', 'Goserelin', 'Anastrozole']"
+580,invasive breast carcinoma,early breast cancer,early invasive breast carcinoma,"['PR positive', 'HER2-negative']","['Ribociclib', 'Goserelin', 'Anastrozole']"
+581,invasive breast carcinoma,early breast cancer,early invasive breast carcinoma,"['PR positive', 'ER positive', 'HER2-negative']","['Ribociclib', 'Goserelin', 'Anastrozole']"
+582,invasive breast carcinoma,early breast cancer,early invasive breast carcinoma,"['ER positive', 'HER2-negative']","['Ribociclib', 'Letrozole', 'Goserelin']"
+583,invasive breast carcinoma,early breast cancer,early invasive breast carcinoma,"['PR positive', 'HER2-negative']","['Ribociclib', 'Letrozole', 'Goserelin']"
+584,invasive breast carcinoma,early breast cancer,early invasive breast carcinoma,"['PR positive', 'ER positive', 'HER2-negative']","['Ribociclib', 'Letrozole', 'Goserelin']"
+585,non-small cell lung cancer,non-small cell lung cancer,non-small cell lung cancer,"['Wild type EGFR', 'Wild type ALK']","['Cisplatin', 'Pemetrexed', 'Nivolumab']"
+586,non-small cell lung cancer,non-small cell lung cancer,non-small cell lung cancer,"['Wild type EGFR', 'Wild type ALK']","['Gemcitabine', 'Cisplatin', 'Nivolumab']"
+587,non-small cell lung cancer,non-small cell lung cancer,non-small cell lung cancer,"['Wild type EGFR', 'Wild type ALK']","['Carboplatin', 'Pemetrexed', 'Nivolumab', 'Ipilimumab']"
+588,non-small cell lung cancer,non-small cell lung cancer,non-small cell lung cancer,"['Wild type EGFR', 'Wild type ALK']","['Cisplatin', 'Pemetrexed', 'Nivolumab', 'Ipilimumab']"
+589,non-small cell lung cancer,non-small cell lung cancer,non-small cell lung cancer,"['Wild type EGFR', 'Wild type ALK']","['Carboplatin', 'Paclitaxel', 'Nivolumab', 'Ipilimumab']"
+591,colorectal adenocarcinoma,colorectal cancer,colorectal adenocarcinoma,['dMMR'],"['Nivolumab', 'Ipilimumab']"
+592,colorectal adenocarcinoma,colorectal cancer,colorectal adenocarcinoma,['MSI-H'],['Nivolumab']
+593,colorectal adenocarcinoma,colorectal cancer,colorectal adenocarcinoma,['dMMR'],['Nivolumab']
+594,invasive breast carcinoma,metastatic breast cancer,metastatic invasive breast carcinoma,"['PIK3CA somatic variants', 'ER positive', 'HER2-negative']","['Inavolisib', 'Fulvestrant', 'Palbociclib']"
+595,invasive breast carcinoma,metastatic breast cancer,metastatic invasive breast carcinoma,"['PIK3CA somatic variants', 'PR positive', 'HER2-negative']","['Inavolisib', 'Fulvestrant', 'Palbociclib']"
+596,invasive breast carcinoma,metastatic breast cancer,metastatic invasive breast carcinoma,"['PIK3CA somatic variants', 'PR positive', 'ER positive', 'HER2-negative']","['Inavolisib', 'Fulvestrant', 'Palbociclib']"
+597,adenocarcinoma of the gastroesophageal junction,gastric or gastroesophageal junction adenocarcinoma,adenocarcinoma of the gastroesophageal junction,"['CLDN18.2 >= 75%', 'HER2-negative']","['Oxaliplatin', 'Fluorouracil', 'Zolbetuximab']"
+598,adenocarcinoma of the gastroesophageal junction,gastric or gastroesophageal junction adenocarcinoma,adenocarcinoma of the gastroesophageal junction,"['CLDN18.2 >= 75%', 'HER2-negative']","['Oxaliplatin', 'Capecitabine', 'Zolbetuximab']"
+599,intraductal papillary neoplasm of the bile duct,biliary tract cancer (btc),intraductal papillary neoplasm of the bile duct,['HER2-positive'],['Zanidatamab']
+600,intracholecystic papillary neoplasm,biliary tract cancer (btc),intracholecystic papillary neoplasm,['HER2-positive'],['Zanidatamab']
+601,cholangiocarcinoma,biliary tract cancer (btc),cholangiocarcinoma,['HER2-positive'],['Zanidatamab']
+602,non-small cell lung cancer,non-small cell lung cancer,non-small cell lung cancer,['v::NRG1'],['Zenocutuzumab']
+603,pancreatic adenocarcinoma,pancreatic adenocarcinoma,pancreatic adenocarcinoma,['v::NRG1'],['Zenocutuzumab']
+604,non-small cell lung cancer,non-small cell lung cancer,non-small cell lung cancer,['v::ALK'],['Ensartinib']
+605,colorectal adenocarcinoma,metastatic colorectal cancer,metastatic colorectal adenocarcinoma,['BRAF p.V600E'],"['Oxaliplatin', 'Fluorouracil', 'Cetuximab', 'Encorafenib']"
+606,"chronic myeloid leukemia, bcr-abl1+",philadelphia chromosome-positive chronic myeloid leukemia (ph+ cml),"philadelphia chromosome-positive chronic myeloid leukemia, bcr-abl1+",['BCR::ABL1'],['Asciminib']
+607,"chronic myeloid leukemia, bcr-abl1+",philadelphia chromosome-positive chronic myeloid leukemia (ph+ cml),"philadelphia chromosome-positive chronic myeloid leukemia, bcr-abl1+",['BCR::ABL1'],['Asciminib']
+608,non-small cell lung cancer,metastatic non-small cell lung cancer,metastatic non-small cell lung cancer,"['Wild type EGFR', 'Wild type ALK']","['Carboplatin', 'Tremelimumab', 'Pemetrexed', 'Durvalumab']"
+609,non-small cell lung cancer,metastatic non-small cell lung cancer,metastatic non-small cell lung cancer,"['Wild type EGFR', 'Wild type ALK']","['Cisplatin', 'Tremelimumab', 'Pemetrexed', 'Durvalumab']"
+610,non-small cell lung cancer,metastatic non-small cell lung cancer,metastatic non-small cell lung cancer,"['Wild type EGFR', 'Wild type ALK']","['Gemcitabine', 'Carboplatin', 'Tremelimumab', 'Durvalumab']"
+611,non-small cell lung cancer,metastatic non-small cell lung cancer,metastatic non-small cell lung cancer,"['Wild type EGFR', 'Wild type ALK']","['Gemcitabine', 'Cisplatin', 'Tremelimumab', 'Durvalumab']"
+612,non-small cell lung cancer,metastatic non-small cell lung cancer,metastatic non-small cell lung cancer,"['Wild type EGFR', 'Wild type ALK']","['Nab-paclitaxel', 'Carboplatin', 'Tremelimumab', 'Durvalumab']"
+613,acute lymphoid leukemia,acute leukemia,acute lymphoid leukemia,['t(KMT2A;v)'],['Revumenib']
+614,acute myeloid leukemia,acute leukemia,acute myeloid leukemia,['t(KMT2A;v)'],['Revumenib']
+615,burkitt lymphoma,acute leukemia,burkitt lymphoma,['t(KMT2A;v)'],['Revumenib']
+616,acute leukemias of ambiguous lineage,acute leukemia,acute leukemias of ambiguous lineage,['t(KMT2A;v)'],['Revumenib']
+617,invasive breast carcinoma,early breast cancer,early invasive breast carcinoma,"['PR positive', 'HER2-negative']","['Letrozole', 'Abemaciclib']"
+618,invasive breast carcinoma,early breast cancer,early invasive breast carcinoma,"['PR positive', 'ER positive', 'HER2-negative']","['Anastrozole', 'Abemaciclib']"
+619,invasive breast carcinoma,early breast cancer,early invasive breast carcinoma,"['ER positive', 'HER2-negative']","['Anastrozole', 'Abemaciclib']"
+620,invasive breast carcinoma,early breast cancer,early invasive breast carcinoma,"['PR positive', 'HER2-negative']","['Anastrozole', 'Abemaciclib']"
+621,invasive breast carcinoma,early breast cancer,early invasive breast carcinoma,"['PR positive', 'ER positive', 'HER2-negative']","['Exemestane', 'Abemaciclib']"
+622,invasive breast carcinoma,early breast cancer,early invasive breast carcinoma,"['ER positive', 'HER2-negative']","['Exemestane', 'Abemaciclib']"
+623,invasive breast carcinoma,early breast cancer,early invasive breast carcinoma,"['PR positive', 'HER2-negative']","['Exemestane', 'Abemaciclib']"
+624,colorectal adenocarcinoma,colorectal cancer,colorectal adenocarcinoma,['MSI-H'],"['Nivolumab', 'Ipilimumab']"
+625,non-small cell lung cancer,non-small cell lung cancer,non-small cell lung cancer,['v::ROS1'],['Taletrectinib']
+626,lung non-squamous non-small cell carcinoma,non-squamous non-small cell lung cancer,lung non-squamous non-small cell carcinoma,['c-Met >= 50%'],['Telisotuzumab Vedotin']
+627,low-grade serous ovarian cancer,low-grade serous ovarian cancer (lgsoc),low-grade serous ovarian cancer,['KRAS p.G12C'],"['Avutometinib', 'Defactinib']"
+628,low-grade serous ovarian cancer,low-grade serous ovarian cancer (lgsoc),low-grade serous ovarian cancer,['KRAS p.G12V'],"['Avutometinib', 'Defactinib']"
+629,apl with pml-rara,low-risk acute promyelocytic leukemia (apl),low-risk apl with pml-rara,['t(15;17)'],['Arsenic trioxide']
+630,apl with pml-rara,acute promyelocytic leukemia (apl),apl with pml-rara,['t(15;17)'],['Arsenic trioxide']
+631,chronic myelogenous leukemia,ph+ cml-cp and cml-ap,chronic myelogenous leukemia,['BCR::ABL1'],['Nilotinib']
+632,"chronic myeloid leukemia, bcr-abl1+",ph+ cml-cp and cml-ap,"chronic myeloid leukemia, bcr-abl1+",['BCR::ABL1'],['Nilotinib']
+634,chronic myelogenous leukemia,philadelphia chromosome-positive chronic myeloid leukemia (ph+ cml),philadelphia chromosome-positive chronic myelogenous leukemia,['BCR::ABL1'],['Asciminib']
+635,head and neck squamous cell carcinoma,head and neck squamous cell cancer,head and neck squamous cell carcinoma,['PD-L1 (CPS) >= 1'],['Pembrolizumab']
+636,non-small cell lung cancer,non-small cell lung cancer,non-small cell lung cancer,['EGFR somatic variants'],['Datopotamab deruxtecan']
+637,non-small cell lung cancer,non-small cell lung cancer,non-small cell lung cancer,['EGFR Exon 19 (Deletion)'],['Datopotamab deruxtecan']
+638,non-small cell lung cancer,non-small cell lung cancer,non-small cell lung cancer,['EGFR p.L858R'],['Datopotamab deruxtecan']
+639,non-small cell lung cancer,non-small cell lung cancer,non-small cell lung cancer,['EGFR p.T790M'],['Datopotamab deruxtecan']
+640,invasive breast carcinoma,non-small cell lung cancer,invasive breast carcinoma,['EGFR Exon 20 (Insertion)'],['Datopotamab deruxtecan']
+641,invasive breast carcinoma,breast cancer,invasive breast carcinoma,"['ER positive', 'HER2-negative']",['Datopotamab deruxtecan']
+642,non-small cell lung cancer,breast cancer,non-small cell lung cancer,"['PR positive', 'HER2-negative']",['Datopotamab deruxtecan']
+643,invasive breast carcinoma,breast cancer,invasive breast carcinoma,"['PR positive', 'ER positive', 'HER2-negative']",['Datopotamab deruxtecan']
+644,non-small cell lung cancer,non-small cell lung cancer (nsclc),non-small cell lung cancer,['EGFR Exon 20 (Insertion)'],['Sunvozertinib']
+645,lung non-squamous non-small cell carcinoma,non-squamous non-small cell lung cancer,lung non-squamous non-small cell carcinoma,['ERBB2 TKD activating variants'],['Zongertinib']
+1128,diffuse midline glioma,diffuse midline glioma,diffuse midline glioma,['H3-3A p.K27M'],['Dordaviprone']
+1129,invasive breast carcinoma,breast cancer,invasive breast carcinoma,"['ESR1 oncogenic variants', 'ER positive', 'HER2-negative']",['Imlunestrant']
+1150,colorectal adenocarcinoma,unresectable or metastatic colorectal cancer,unresectable or metastatic colorectal adenocarcinoma,"['HER2-positive', 'Wild type NRAS', 'Wild type KRAS']","['Tucatinib', 'Trastuzumab']"
+1151,acute myeloid leukemia,newly diagnosed acute myeloid leukemia (aml),acute myeloid leukemia,['FLT3-ITD'],['Quizartinib']
+1152,acute myeloid leukemia,newly diagnosed acute myeloid leukemia (aml),acute myeloid leukemia,['FLT3-ITD'],"['Cytarabine', 'Quizartinib', 'Daunorubicin']"
+1153,acute myeloid leukemia,newly diagnosed acute myeloid leukemia (aml),acute myeloid leukemia,['FLT3-ITD'],"['Cytarabine', 'Quizartinib', 'Idarubicin']"
+1154,melanoma,melanoma,melanoma,['BRAF p.V600E'],"['Trametinib', 'Dabrafenib']"
+1155,melanoma,melanoma,melanoma,['BRAF p.V600K'],"['Trametinib', 'Dabrafenib']"
+1158,chronic lymphocytic leukemia,chronic lymphocytic leukemia (cll) / small lymphocytic lymphoma (sll),chronic lymphocytic leukemia,['17p deletion'],['Ibrutinib']
