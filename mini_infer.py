@@ -32,6 +32,13 @@ _DB_ENTITY = None
 _ENTITY_DB = "fda"
 _ENTITY_VERSION = None
 
+# Pinned context/index versions per DB
+_PINNED_CONTEXT_VERSIONS = {
+    "fda": "2025-10-03",
+    "ema": "2025-09-04",
+    "civic": "2025-10-01",
+}
+
 
 def reset():
     global _READY, _CLIENT, _CONTEXT, _INDEX, _MODEL_TYPE, _MODEL_NAME, _MODEL_EMBED
@@ -126,8 +133,9 @@ def init(
     *,
     model_api: str = "gpt-4o-2024-05-13",
     use_hybrid: bool = True,
-    entity_db: str = "fda",
-    db_type: str = "structured",
+    entity_db: str = "fda",  # 'fda' | 'ema' | 'civic'
+    db_type: str = "structured",  # 'structured' | 'unstructured'
+    context_version: str | None = None,  # optional override
 ):
     """
     Initialize client, load version-matched context & FAISS via load_context,
@@ -146,11 +154,14 @@ def init(
     _CLIENT = OpenAI(api_key=api_key)
     _MODEL_NAME = model_api
 
-    version = get_local_version()
-    _ENTITY_VERSION = version
     _ENTITY_DB = entity_db
+    _ENTITY_VERSION = context_version or _PINNED_CONTEXT_VERSIONS.get(_ENTITY_DB)
+    if not _ENTITY_VERSION:
+        raise ValueError(
+            f"No pinned version defined for db='{_ENTITY_DB}' and no override provided."
+        )
 
-    # Load context + FAISS from the versioned pipeline only
+    # Load context + FAISS using the resolved version
     _CONTEXT, _INDEX = load_context(
         version=_ENTITY_VERSION,
         db=_ENTITY_DB,
@@ -158,12 +169,12 @@ def init(
     )
 
     if use_hybrid:
-        # Load only the corpus-side annotations; query entities are computed per request in answer function (mode='deploy')
+        # Load only the corpus-side entities; ignore the query side.
         _DB_ENTITY, _ = load_entities(
-            version=_ENTITY_VERSION,
-            mode="test_synthetic",  # reads db entities file; query side ignored
+            version=_ENTITY_VERSION,  # your per-DB pinned version
+            mode="deploy",  # bypasses synthetic file
             db=_ENTITY_DB,
-            query=None,
+            query="",  # empty string is fine; we ignore the result
         )
 
     _READY = True

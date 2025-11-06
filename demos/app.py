@@ -84,9 +84,15 @@ else:
 if pending_run_mode == "RAG-LLM":
     pending_entity_db = st.sidebar.selectbox(
         "Context database",
-        ["fda", "ema"],
-        index=["fda", "ema"].index(st.session_state.applied.get("entity_db", "fda")),
-        help="The knowledge base of approved therapies and biomarker–cancer associations (from FDA or EMA). This is the source of evidence that the model retrieves from.",
+        ["fda", "ema", "civic"],
+        index=["fda", "ema", "civic"].index(
+            st.session_state.applied.get("entity_db", "fda")
+        ),
+        help=(
+            "Choose the knowledge base used for retrieval: "
+            "FDA (U.S. approvals/labels), EMA (EU approvals/labels), or CIViC (expert-curated clinical variant interpretations). "
+            "Only used when Hybrid search is ON."
+        ),
     )
 else:
     pending_entity_db = st.session_state.applied.get("entity_db", "fda")
