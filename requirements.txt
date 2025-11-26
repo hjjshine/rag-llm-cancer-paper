@@ -1,8 +1,6 @@
 colorcet==3.1.0
 faiss_cpu==1.8.0.post1
-faiss_gpu==1.7.2
 matplotlib==3.7.3
-mistral_inference==1.6.0
 mistralai==1.9.11
 numpy==1.25.2
 openai==2.7.1
