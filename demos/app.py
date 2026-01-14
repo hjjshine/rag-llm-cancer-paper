@@ -1,32 +1,10 @@
 # demos/app.py
 import streamlit as st
 import sys, os, json, time
-from dotenv import load_dotenv
 
 # Make package root importable
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 from mini_infer import init, answer, reset
-
-# --- Require password ---
-load_dotenv()
-PASSWORD = os.getenv("APP_PASSWORD")
-
-if "authenticated" not in st.session_state:
-    st.session_state.authenticated = False
-
-if not st.session_state.authenticated:
-    pw = st.text_input("Enter password", type="password")
-    submit = st.button("Enter")
-
-    if (submit or pw) and pw == PASSWORD:
-        st.session_state.authenticated = True
-        st.success("Access granted.")
-        st.rerun()
-    elif (submit or pw) and pw != PASSWORD:
-        st.error("Incorrect password.")
-        st.stop()
-
-    st.stop()
 
 st.set_page_config(page_title="RAG-LLM", layout="centered")
 st.title("RAG-LLM for Precision Cancer Medicine")
