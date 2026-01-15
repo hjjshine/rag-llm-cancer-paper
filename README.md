@@ -50,8 +50,8 @@ pip install -r requirements.txt
 ```
 
 ## Related Paper
-If you're interested, check out our preprint:
-https://doi.org/10.1101/2025.05.09.25327312
+If you're interested, check out our paper:
+[https://doi.org/10.1101/2025.05.09.25327312](https://doi.org/10.1016/j.ccell.2025.12.017)
 
 
     
