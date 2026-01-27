@@ -32,12 +32,7 @@ _DB_ENTITY = None
 _ENTITY_DB = "fda"
 _ENTITY_VERSION = None
 
-# Pinned context/index versions per DB
-_PINNED_CONTEXT_VERSIONS = {
-    "fda": "2025-10-03",
-    "ema": "2025-09-04",
-    "civic": "2025-10-01",
-}
+_CIVIC_CONTEXT_VERSION = "2025-10-01"
 
 
 def reset():
@@ -155,11 +150,19 @@ def init(
     _MODEL_NAME = model_api
 
     _ENTITY_DB = entity_db
-    _ENTITY_VERSION = context_version or _PINNED_CONTEXT_VERSIONS.get(_ENTITY_DB)
+    if context_version:
+        _ENTITY_VERSION = context_version
+    else:
+        if _ENTITY_DB in {"fda", "ema"}:
+            _ENTITY_VERSION = get_local_version()
+        else:
+            _ENTITY_VERSION = _CIVIC_CONTEXT_VERSION
     if not _ENTITY_VERSION:
         raise ValueError(
-            f"No pinned version defined for db='{_ENTITY_DB}' and no override provided."
+            f"No version resolved for db='{_ENTITY_DB}'. "
+            "Provide context_version or ensure db_version_cache.json exists."
         )
+    print(f"[mini_infer] Using context version {_ENTITY_VERSION} for db='{_ENTITY_DB}'")
 
     # Load context + FAISS using the resolved version
     _CONTEXT, _INDEX = load_context(
