@@ -12,7 +12,8 @@ We present a context-augmented LLM pipeline that:
 - Recommends biomaker-driven cancer therapies that are FDA-approved, with latest links to the drug labels.
 - Retrieves a structured summary of the context (e.g., cancer type, disease status, biomarker, indication).
 - Achieved high accuracy on real-world queries through hybrid retrieval approach.
-- Automatically integrates the latest MOAlmanac context database (latest release: 10-03-2025).
+- Our RAG-LLM implementation is publicly accessible at https://llm.moalmanac.org/
+- Automatically integrates the latest MOAlmanac context database (latest release from December 2025 incorporated in https://llm.moalmanac.org/).
 
 ## Reproducing Results
 For reproducing the results, please clone the repository:
