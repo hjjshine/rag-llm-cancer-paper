@@ -71,7 +71,7 @@ def load_context(version: str, db: str, db_type: str):
 
 def subset_db_statements(statements, organization='fda'):
     # subset statements
-    subset=[statement for statement in statements if statement['reportedIn'][0]['organization']['id'] == organization]
+    subset=[statement for statement in statements if statement['reportedIn'][0]['agent']['id'] == organization]
     return subset
 
 
