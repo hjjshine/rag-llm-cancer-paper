@@ -1,24 +1,16 @@
 # RAG-LLM demo website
 
-This website is a small research demo for the published RAG-LLM paper. 
+This website is a small research demo for the published RAG-LLM paper.
 
 ## Current setup
 
-| Setting | Value |
-| --- | --- |
-| Public website | <https://llm.moalmanac.org> |
-| GitHub repository | <https://github.com/hjjshine/rag-llm-cancer-paper> |
-| Google Cloud project | `moalmanac-services` |
-| Google Cloud zone | `us-central1-c` |
-| VM name | `rag-llm-demo` |
-| Application directory | `/srv/ragllm/rag-llm-cancer-paper` |
-| Linux user | `ragllm` |
-| systemd service | `rag-llm` |
+- Website: <https://llm.moalmanac.org>
+- Repository: <https://github.com/hjjshine/rag-llm-cancer-paper>
 
-The VM runs the Streamlit application in `demos/app.py`. Streamlit listens on
-`127.0.0.1:8501`, so it is not directly open to the internet. nginx receives
-public HTTPS traffic and sends it to Streamlit. systemd starts Streamlit when
-the VM starts and restarts it if it crashes.
+The site runs the Streamlit application in `demos/app.py` on a Google Cloud
+VM. nginx handles public HTTPS traffic, and systemd keeps Streamlit running.
+Cloud project, VM, SSH, DNS, and credential details are kept in the private
+operator handoff rather than this public repository.
 
 The website uses versioned FDA and EMA files stored in this repository.
 `db_version_cache.json` tells the application which version to load.
@@ -36,7 +28,7 @@ You need:
 - the `ragllm310` Conda environment;
 - an `OPENAI_API_KEY` in the repository's `.env` file;
 - permission to open and merge a pull request; and
-- permission to connect to the Google Cloud VM.
+- deployment access supplied by the website operator.
 
 If the Conda environment does not exist yet, create it once:
 
@@ -113,53 +105,13 @@ After the pull request is merged:
 ```bash
 git switch main
 git pull --ff-only origin main
-bash ops/deploy.sh moalmanac-services us-central1-c rag-llm-demo
+bash ops/deploy.sh PROJECT_ID ZONE VM_NAME
 ```
 
-A successful run ends with `Deployment finished successfully.`
+Replace the three arguments with the project ID, zone, and VM name supplied by
+the website operator. A successful run ends with
+`Deployment finished successfully.`
 
 Open <https://llm.moalmanac.org> and repeat one FDA and one EMA question. The
-update is complete when both work.
-
-## Troubleshooting
-
-Connect to the VM:
-
-```bash
-gcloud compute ssh rag-llm-demo \
-  --project moalmanac-services \
-  --zone us-central1-c
-```
-
-Check whether the website is running:
-
-```bash
-sudo systemctl status rag-llm
-```
-
-Read its recent logs:
-
-```bash
-sudo journalctl -u rag-llm -n 100 --no-pager
-```
-
-Validate the context files and restart the website:
-
-```bash
-sudo bash /srv/ragllm/rag-llm-cancer-paper/ops/refresh_site.sh
-```
-
-If a deployment is broken, return to the previous Git commit:
-
-```bash
-cd /srv/ragllm/rag-llm-cancer-paper
-git log --oneline -5
-sudo -u ragllm git checkout PREVIOUS_COMMIT
-sudo systemctl restart rag-llm
-```
-
-To return to the normal `main` branch later:
-
-```bash
-sudo -u ragllm git switch main
-```
+update is complete when both work. VM troubleshooting and rollback procedures
+are kept in the private operator handoff.
