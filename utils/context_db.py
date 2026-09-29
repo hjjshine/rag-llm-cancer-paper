@@ -70,14 +70,17 @@ def load_context(version: str, db: str, db_type: str):
 
 
 def subset_db_statements(statements, organization='fda'):
+    expected_agent_id = f"agent:org:{organization}"
     subset = [
         statement
         for statement in statements
-        if next(
-            ext["value"]["id"]
-            for ext in statement["reportedIn"][0]["extensions"]
-            if ext["name"] == "agent"
-        ) == organization
+        if any(
+            extension.get("value", {}).get("id") == expected_agent_id
+            for report in statement.get("reportedIn", [])
+            for extension in report.get("extensions", [])
+            if extension.get("name") == "agent"
+            and isinstance(extension.get("value"), dict)
+        )
     ]
     return subset
 
@@ -130,6 +133,10 @@ def update_db_files(version: str, organizations: list, force_rebuild=False):
     for o in organizations:
         print(f"1) Loading {o} statements...")
         statements = subset_db_statements(all_statements, organization=o)
+        if not statements:
+            raise RuntimeError(
+                f"No {o.upper()} statements were found. The MOAlmanac API schema may have changed."
+            )
         with open(f"data/latest_db/{o}_statements__{version}.json", "w") as f:
             json.dump(statements, f)
     

@@ -45,12 +45,22 @@ class ContextOperationTests(unittest.TestCase):
         fake_context_db.update_db_files = builder
         with (
             mock.patch.object(
-                update_context_db, "get_latest_release", return_value=NEW_VERSION
+                update_context_db, "get_remote_version", return_value=NEW_VERSION
             ),
             mock.patch.dict(sys.modules, {"utils.context_db": fake_context_db}),
             contextlib.redirect_stdout(io.StringIO()),
         ):
             update_context_db.main()
+
+    def test_remote_version_comes_from_the_api(self):
+        response = mock.Mock()
+        response.json.return_value = {"service": {"last_updated": NEW_VERSION}}
+
+        with mock.patch.object(update_context_db.requests, "get", return_value=response):
+            version = update_context_db.get_remote_version()
+
+        response.raise_for_status.assert_called_once_with()
+        self.assertEqual(version, NEW_VERSION)
 
     def test_update_advances_version_after_all_files_are_created(self):
         self.write_version(OLD_VERSION)

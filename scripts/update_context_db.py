@@ -14,13 +14,13 @@ sys.path.insert(0, str(ROOT))
 os.chdir(ROOT)
 
 ORGANIZATIONS = ("fda", "ema")
-RELEASE_URL = "https://api.github.com/repos/vanallenlab/moalmanac-db/releases/latest"
+AGENTS_URL = "https://api.moalmanac.org/agents"
 
 
-def get_latest_release():
-    response = requests.get(RELEASE_URL)
+def get_remote_version():
+    response = requests.get(AGENTS_URL)
     response.raise_for_status()
-    return response.json()["tag_name"].removeprefix("v.")
+    return response.json()["service"]["last_updated"]
 
 
 def get_local_version():
@@ -51,7 +51,7 @@ def expected_files(version):
 
 def main():
     current_version = get_local_version()
-    new_version = get_latest_release()
+    new_version = get_remote_version()
 
     print(f"Current version: {current_version}")
     print(f"Available version: {new_version}")
