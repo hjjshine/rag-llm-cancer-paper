@@ -52,7 +52,7 @@ pip install -r requirements.txt
 
 ## Related Paper
 If you're interested, check out our paper:
-[https://doi.org/10.1101/2025.05.09.25327312](https://doi.org/10.1016/j.ccell.2025.12.017)
+[Read the published article in Cancer Cell](https://www.cell.com/cancer-cell/fulltext/S1535-6108(25)00551-3)
 
 ## Website operations
 
