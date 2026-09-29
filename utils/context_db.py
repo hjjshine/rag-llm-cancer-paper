@@ -7,7 +7,6 @@ import requests
 import pandas as pd
 from utils.flatten_statement import (
     extract_biomarker_info,
-    extract_indication,
     extract_therapy_info,
     flatten_statements,
 )
@@ -90,21 +89,6 @@ def subset_db_statements(statements, organization='fda'):
     return subset
 
 
-# load disease modifiers to add more context to cancer types 
-with open(f"data/latest_db/disease_modifiers__2025-09-04.json", "r") as f:
-    modifiers = json.load(f)
-    
-
-def extract_clinical_modifiers(raw_cancer_type, standardized_cancer_type, modifiers):
-    raw_cancer_type_lower = raw_cancer_type.lower()
-    extracted_modifiers = [mod for mod in modifiers if mod in raw_cancer_type_lower and mod not in standardized_cancer_type.lower()]
-    if not extracted_modifiers:
-        return None
-    if len(extracted_modifiers) > 1:
-        return max(extracted_modifiers, key=len)
-    return extracted_modifiers[0]
-    
-
 def create_context(db: dict) -> str:
     """
     Create a context db based on each database entry.
@@ -150,7 +134,6 @@ def update_db_files(version: str, organizations: list, force_rebuild=False):
         statement_id = []
         standardized_cancer = []
         raw_cancer = []
-        extracted_modifiers = []
         modified_standardized_cancer = []
         biomarker = []
         therapy = []
@@ -158,13 +141,8 @@ def update_db_files(version: str, organizations: list, force_rebuild=False):
         therapy_type = []
         for stmt in statements:
             standardized_cancer_i = stmt.get("proposition", {}).get("conditionQualifier", {}).get("name", "Unknown cancer")
-            raw_cancer_i = extract_indication(stmt)
-            disease_modifiers = extract_clinical_modifiers(raw_cancer_i, standardized_cancer_i, modifiers)
-            extracted_modifiers.append(disease_modifiers)
-            if disease_modifiers:
-                modified_standardized_cancer_i = f"{extract_clinical_modifiers(raw_cancer_i, standardized_cancer_i, modifiers)} {standardized_cancer_i.lower()}"
-            else:
-                modified_standardized_cancer_i = standardized_cancer_i.lower()
+            raw_cancer_i = standardized_cancer_i
+            modified_standardized_cancer_i = standardized_cancer_i.lower()
             statement_id.append(stmt.get('id'))
             standardized_cancer.append(standardized_cancer_i.lower())
             raw_cancer.append(raw_cancer_i.lower())
