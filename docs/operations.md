@@ -1,36 +1,29 @@
-# RAG-LLM demo website
+# RAG-LLM website operations
 
-This website is a small research demo for the published RAG-LLM paper.
+<https://llm.moalmanac.org> is a small research demo for the published RAG-LLM
+paper.
 
-## Current setup
+## How the website works
 
-- Website: <https://llm.moalmanac.org>
-- Repository: <https://github.com/hjjshine/rag-llm-cancer-paper>
+The Streamlit application in `demos/app.py` runs on a Google Cloud VM. nginx
+handles HTTPS, and systemd keeps the application running. The site reads its
+versioned FDA and EMA context files from this repository. Infrastructure and
+credential details are in the private operator handoff.
 
-The site runs the Streamlit application in `demos/app.py` on a Google Cloud
-VM. nginx handles public HTTPS traffic, and systemd keeps Streamlit running.
-Cloud project, VM, SSH, DNS, and credential details are kept in the private
-operator handoff rather than this public repository.
+## Update the context databases
 
-The website uses versioned FDA and EMA files stored in this repository.
-`db_version_cache.json` tells the application which version to load.
+Follow these steps when a new Molecular Oncology Almanac database release is
+available.
 
-## Quickstart: update the context databases
-
-Use this workflow when a new Molecular Oncology Almanac database release is
-available and the website should use it.
-
-### Before you start
+### One-time local setup
 
 You need:
 
 - a local copy of this repository;
-- the `ragllm310` Conda environment;
-- an `OPENAI_API_KEY` in the repository's `.env` file;
-- permission to open and merge a pull request; and
-- deployment access supplied by the website operator.
+- permission to merge a pull request; and
+- Google Cloud access and the deployment values from the website operator.
 
-If the Conda environment does not exist yet, create it once:
+From the repository root, create the Python environment:
 
 ```bash
 conda create -y -n ragllm310 python=3.10 pip
@@ -38,8 +31,7 @@ conda activate ragllm310
 pip install -r demos/requirements.txt
 ```
 
-The BioBERT model used for entity matching is too large for this Git
-repository. Download it once after creating a new environment or VM:
+Download the BioBERT model used to match cancer and gene names:
 
 ```bash
 python - <<'PY'
@@ -53,20 +45,20 @@ AutoTokenizer.from_pretrained(model_name).save_pretrained(output_dir)
 PY
 ```
 
-This creates `context_retriever/biobert_ner/model.safetensors`, which is about
-411 MB and intentionally ignored by Git. BioBERT identifies cancer and gene
-names for hybrid search and context database updates; it does not generate the
-website's answers.
+This creates `context_retriever/biobert_ner/model.safetensors`, a roughly 411
+MB file that is intentionally excluded from Git. BioBERT helps retrieve
+context; it does not generate answers.
 
-If `.env` does not exist, create it in the repository root and add:
+Create a `.env` file in the repository root containing a team-owned OpenAI API
+key:
 
 ```text
 OPENAI_API_KEY=replace-with-the-key
 ```
 
-Never commit `.env`.
+Do not commit `.env`.
 
-### 1. Create an update branch
+### 1. Start an update branch
 
 ```bash
 git switch main
@@ -75,7 +67,7 @@ git switch -c update-moalmanac-YYYY-MM-DD
 conda activate ragllm310
 ```
 
-Replace `YYYY-MM-DD` with the new database release date.
+Use the new database release date in place of `YYYY-MM-DD`.
 
 ### 2. Build and validate the new files
 
@@ -84,9 +76,9 @@ python scripts/update_context_db.py
 python scripts/validate_context_db.py
 ```
 
-The update uses the OpenAI API and may take several minutes. Continue only if
-the validation ends with `All context database checks passed.` If the update
-says the database is already current, there is nothing to deploy.
+The update uses the OpenAI API and may take several minutes. Stop if validation
+does not end with `All context database checks passed.` If the database is
+already current, there is nothing to deploy.
 
 ### 3. Test FDA and EMA locally
 
@@ -94,7 +86,7 @@ says the database is already current, there is nothing to deploy.
 streamlit run demos/app.py
 ```
 
-Open the local URL printed by Streamlit.
+Open the URL printed by Streamlit, then:
 
 1. Select FDA, apply the settings, and ask one simple question.
 2. Select EMA, apply the settings, and ask one simple question.
@@ -116,7 +108,7 @@ git commit -m "Update MOAlmanac FDA and EMA to YYYY-MM-DD"
 git push -u origin update-moalmanac-YYYY-MM-DD
 ```
 
-Open a pull request into `main` and merge it after review.
+Open a pull request into `main`. Merge it after review.
 
 ### 6. Refresh the public website
 
@@ -128,10 +120,8 @@ git pull --ff-only origin main
 bash ops/deploy.sh PROJECT_ID ZONE VM_NAME
 ```
 
-Replace the three arguments with the project ID, zone, and VM name supplied by
-the website operator. A successful run ends with
-`Deployment finished successfully.`
+Replace the three placeholders with values from the website operator. A
+successful run ends with `Deployment finished successfully.`
 
-Open <https://llm.moalmanac.org> and repeat one FDA and one EMA question. The
-update is complete when both work. VM troubleshooting and rollback procedures
-are kept in the private operator handoff.
+Open <https://llm.moalmanac.org> and test one FDA and one EMA question. The
+update is complete when both work.

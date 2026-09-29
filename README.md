@@ -50,12 +50,12 @@ pip install -r requirements.txt
 --temp=0.0 --max_len=2048 --random_seed=2025
 ```
 
-## Related Paper
-If you're interested, check out our paper:
-[Read the published article in Cancer Cell](https://www.cell.com/cancer-cell/fulltext/S1535-6108(25)00551-3)
+## Paper
+
+[Read the published article in Cancer Cell](https://www.cell.com/cancer-cell/fulltext/S1535-6108(25)00551-3).
 
 ## Website operations
 
-The public website is a small research demo. See
-[`docs/operations.md`](docs/operations.md) for the current website setup, the
-context database update workflow, deployment, and troubleshooting.
+The [public website](https://llm.moalmanac.org) is a small research demo. See
+[`docs/operations.md`](docs/operations.md) to update its context databases and
+deploy the update.
