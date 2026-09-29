@@ -7,8 +7,7 @@ paper.
 
 The Streamlit application in `demos/app.py` runs on a Google Cloud VM. nginx
 handles HTTPS, and systemd keeps the application running. The site reads its
-versioned FDA and EMA context files from this repository. Infrastructure and
-credential details are in the private operator handoff.
+versioned FDA and EMA context files from this repository.
 
 ## Update the context databases
 
