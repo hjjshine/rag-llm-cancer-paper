@@ -5,7 +5,12 @@ import faiss
 import json
 import requests
 import pandas as pd
-from utils.flatten_statement import flatten_statements, extract_biomarker_info,extract_therapy_info  
+from utils.flatten_statement import (
+    extract_biomarker_info,
+    extract_indication,
+    extract_therapy_info,
+    flatten_statements,
+)
 from utils.embedding import index_context_db
 from context_retriever.entity_prediction import db_extract_entities
 from openai import OpenAI
@@ -153,7 +158,7 @@ def update_db_files(version: str, organizations: list, force_rebuild=False):
         therapy_type = []
         for stmt in statements:
             standardized_cancer_i = stmt.get("proposition", {}).get("conditionQualifier", {}).get("name", "Unknown cancer")
-            raw_cancer_i = stmt['indication']['raw_cancer_type']
+            raw_cancer_i = extract_indication(stmt)
             disease_modifiers = extract_clinical_modifiers(raw_cancer_i, standardized_cancer_i, modifiers)
             extracted_modifiers.append(disease_modifiers)
             if disease_modifiers:
