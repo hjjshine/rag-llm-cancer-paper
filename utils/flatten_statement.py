@@ -19,14 +19,33 @@ def ensure_list(x):
     return x if isinstance(x, list) else [x]
 
 
+def _get_extension_value(extensions, name, default=None):
+    for ext in extensions or []:
+        if ext.get("name") == name:
+            return ext.get("value", default)
+    return default
+
+
+def extract_indication(stmt):
+    indication = _get_extension_value(stmt.get("extensions"), "indication", {})
+    if isinstance(indication, dict):
+        return indication.get("description", "None")
+    return indication or "None"
+
+
 # function to extract biomarker from statement
 def extract_biomarker_info(stmt):
     # extract biomarkers from the statement
     biomarkers_list = []
-    for i in range(len(stmt['proposition']['biomarkers'])):
-        biomarker = stmt["proposition"]["biomarkers"][i]["name"]
-        extensions_dict = {item['name']: item['value'] for item in stmt['proposition']['biomarkers'][i]['extensions']}
-        presence = extensions_dict.get('present', '')
+    biomarkers = _get_extension_value(
+        stmt.get("proposition", {}).get("extensions"), "biomarkers", []
+    )
+    biomarkers_str = ""
+    for i, criterion in enumerate(biomarkers):
+        biomarker = criterion.get("subject", {}).get("name")
+        if not biomarker:
+            raise ValueError(f"Biomarker name is missing for statement {stmt['id']}")
+        presence = criterion.get("present")
         biomarkers_list.append(biomarker)
         
         # extract presence information
@@ -51,7 +70,7 @@ def extract_biomarker_info(stmt):
 def extract_therapy_info(stmt):
     # extract membership operator
     obj = stmt.get('proposition', {}).get('objectTherapeutic', {})
-    operator = obj.get('membership_operator', None)
+    operator = obj.get('membershipOperator')
     
     # extract therapy approach, type, and names
     if operator == 'AND':
@@ -99,13 +118,6 @@ def extract_therapy_info(stmt):
     return extracted_info
 
 
-def _get_extension_value(extensions, name, default=None):
-    for ext in extensions or []:
-        if ext.get("name") == name:
-            return ext.get("value", default)
-    return default
-
-
 # function to flatten statement into summary text to include in context
 def flatten_statements(stmt: dict) -> str:
     
@@ -123,7 +135,7 @@ def flatten_statements(stmt: dict) -> str:
     
     # description and indication
     description = stmt.get("description", "None")
-    indication = stmt.get("indication", {}).get("indication", "None")
+    indication = extract_indication(stmt)
     
     # cancer type
     cancer_type = stmt.get("proposition", {}).get("conditionQualifier", {}).get("name", "Unknown cancer")

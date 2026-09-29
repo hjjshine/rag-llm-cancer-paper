@@ -9,7 +9,7 @@ from mini_infer import init, answer, reset
 st.set_page_config(page_title="RAG-LLM", layout="centered")
 st.title("RAG-LLM for Precision Cancer Medicine")
 st.markdown(
-    "📄 [Read the Preprint](https://www.medrxiv.org/content/10.1101/2025.05.09.25327312v2.full.pdf) • "
+    "📄 [Read the Paper](https://www.cell.com/cancer-cell/fulltext/S1535-6108(25)00551-3) • "
     "💻 [GitHub Repository](https://github.com/hjjshine/rag-llm-cancer-paper)"
 )
 st.caption(

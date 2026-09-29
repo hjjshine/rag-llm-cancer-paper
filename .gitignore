@@ -10,3 +10,4 @@ data/real_world_db/updated_real_world_queries_answers__v1.csv
 __pycache__/
 *.safetensors
 external-validation/non-moa-database/oncokb/
+demos/PRIVATE_HANDOFF.md

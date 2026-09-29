@@ -50,13 +50,12 @@ pip install -r requirements.txt
 --temp=0.0 --max_len=2048 --random_seed=2025
 ```
 
-## Related Paper
-If you're interested, check out our paper:
-[https://doi.org/10.1101/2025.05.09.25327312](https://doi.org/10.1016/j.ccell.2025.12.017)
+## Paper
 
+[Read the published article in Cancer Cell](https://www.cell.com/cancer-cell/fulltext/S1535-6108(25)00551-3).
 
-    
+## Website operations
 
-
-
-
+The [public website](https://llm.moalmanac.org) is a small research demo. See
+[`docs/operations.md`](docs/operations.md) to update its context databases and
+deploy the update.

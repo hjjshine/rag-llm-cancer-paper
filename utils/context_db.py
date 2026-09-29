@@ -5,7 +5,11 @@ import faiss
 import json
 import requests
 import pandas as pd
-from utils.flatten_statement import flatten_statements, extract_biomarker_info,extract_therapy_info  
+from utils.flatten_statement import (
+    extract_biomarker_info,
+    extract_therapy_info,
+    flatten_statements,
+)
 from utils.embedding import index_context_db
 from context_retriever.entity_prediction import db_extract_entities
 from openai import OpenAI
@@ -70,32 +74,20 @@ def load_context(version: str, db: str, db_type: str):
 
 
 def subset_db_statements(statements, organization='fda'):
+    expected_agent_id = f"agent:org:{organization}"
     subset = [
         statement
         for statement in statements
-        if next(
-            ext["value"]["id"]
-            for ext in statement["reportedIn"][0]["extensions"]
-            if ext["name"] == "agent"
-        ) == organization
+        if any(
+            extension.get("value", {}).get("id") == expected_agent_id
+            for report in statement.get("reportedIn", [])
+            for extension in report.get("extensions", [])
+            if extension.get("name") == "agent"
+            and isinstance(extension.get("value"), dict)
+        )
     ]
     return subset
 
-
-# load disease modifiers to add more context to cancer types 
-with open(f"data/latest_db/disease_modifiers__2025-09-04.json", "r") as f:
-    modifiers = json.load(f)
-    
-
-def extract_clinical_modifiers(raw_cancer_type, standardized_cancer_type, modifiers):
-    raw_cancer_type_lower = raw_cancer_type.lower()
-    extracted_modifiers = [mod for mod in modifiers if mod in raw_cancer_type_lower and mod not in standardized_cancer_type.lower()]
-    if not extracted_modifiers:
-        return None
-    if len(extracted_modifiers) > 1:
-        return max(extracted_modifiers, key=len)
-    return extracted_modifiers[0]
-    
 
 def create_context(db: dict) -> str:
     """
@@ -130,6 +122,10 @@ def update_db_files(version: str, organizations: list, force_rebuild=False):
     for o in organizations:
         print(f"1) Loading {o} statements...")
         statements = subset_db_statements(all_statements, organization=o)
+        if not statements:
+            raise RuntimeError(
+                f"No {o.upper()} statements were found. The MOAlmanac API schema may have changed."
+            )
         with open(f"data/latest_db/{o}_statements__{version}.json", "w") as f:
             json.dump(statements, f)
     
@@ -138,7 +134,6 @@ def update_db_files(version: str, organizations: list, force_rebuild=False):
         statement_id = []
         standardized_cancer = []
         raw_cancer = []
-        extracted_modifiers = []
         modified_standardized_cancer = []
         biomarker = []
         therapy = []
@@ -146,13 +141,8 @@ def update_db_files(version: str, organizations: list, force_rebuild=False):
         therapy_type = []
         for stmt in statements:
             standardized_cancer_i = stmt.get("proposition", {}).get("conditionQualifier", {}).get("name", "Unknown cancer")
-            raw_cancer_i = stmt['indication']['raw_cancer_type']
-            disease_modifiers = extract_clinical_modifiers(raw_cancer_i, standardized_cancer_i, modifiers)
-            extracted_modifiers.append(disease_modifiers)
-            if disease_modifiers:
-                modified_standardized_cancer_i = f"{extract_clinical_modifiers(raw_cancer_i, standardized_cancer_i, modifiers)} {standardized_cancer_i.lower()}"
-            else:
-                modified_standardized_cancer_i = standardized_cancer_i.lower()
+            raw_cancer_i = standardized_cancer_i
+            modified_standardized_cancer_i = standardized_cancer_i.lower()
             statement_id.append(stmt.get('id'))
             standardized_cancer.append(standardized_cancer_i.lower())
             raw_cancer.append(raw_cancer_i.lower())

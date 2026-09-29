@@ -1,0 +1,18 @@
+[Unit]
+Description=MOAlmanac RAG-LLM demo website
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=simple
+User=ragllm
+Group=ragllm
+WorkingDirectory=/srv/ragllm/rag-llm-cancer-paper
+Environment=HOME=/srv/ragllm
+EnvironmentFile=/srv/ragllm/rag-llm-cancer-paper/.env
+ExecStart=/srv/ragllm/miniforge3/envs/rag/bin/streamlit run demos/app.py --server.address 127.0.0.1 --server.port 8501 --server.headless true
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
