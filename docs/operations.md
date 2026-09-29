@@ -38,6 +38,26 @@ conda activate ragllm310
 pip install -r demos/requirements.txt
 ```
 
+The BioBERT model used for entity matching is too large for this Git
+repository. Download it once after creating a new environment or VM:
+
+```bash
+python - <<'PY'
+from transformers import AutoModelForTokenClassification, AutoTokenizer
+
+model_name = "judithrosell/BioBERT_BioNLP13CG_NER_new"
+output_dir = "context_retriever/biobert_ner"
+
+AutoModelForTokenClassification.from_pretrained(model_name).save_pretrained(output_dir)
+AutoTokenizer.from_pretrained(model_name).save_pretrained(output_dir)
+PY
+```
+
+This creates `context_retriever/biobert_ner/model.safetensors`, which is about
+411 MB and intentionally ignored by Git. BioBERT identifies cancer and gene
+names for hybrid search and context database updates; it does not generate the
+website's answers.
+
 If `.env` does not exist, create it in the repository root and add:
 
 ```text

@@ -4,6 +4,8 @@ numpy==1.25.2
 openai==1.83.0
 pandas==2.0.3
 python-dotenv==1.1.0
+rank_bm25==0.2.2
+rapidfuzz==3.14.3
 scikit_learn==1.4.2
 torch==2.2.0
 transformers==4.42.0
